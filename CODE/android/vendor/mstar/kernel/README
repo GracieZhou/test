@@ -1,0 +1,3 @@
+注意：
+1. 638基包中mstar已经将遥控器相关的驱动都直接编译到kernel中了，这样不方便适配遥控器，故在我们的方案中已经将对应的驱动编译为模块了
+2. 在kernel/3.10.40/目录下面有我提交的.config，这是个隐藏文件，请覆盖kernel基包时使用此.config覆盖kernel/3.10.40/.config，然后在开始make menuconfig
