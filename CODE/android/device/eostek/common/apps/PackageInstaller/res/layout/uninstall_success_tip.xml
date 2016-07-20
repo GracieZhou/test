@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="365dp"
+    android:layout_height="208dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/frame_no_shade"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="45dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/uninstall_success_tip"
+        android:textColor="@color/text_color"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/uninstall_complete_btn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_style"
+        android:singleLine="true"
+        android:text="@string/completed_btn"
+        android:textColor="@color/text_color"
+        android:textAllCaps="false"
+        android:textSize="22sp" >
+
+        <requestFocus />
+    </Button>
+
+</LinearLayout>

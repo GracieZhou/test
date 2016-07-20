@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- activity_ download_settings -->
+    <dimen name="activity_settings_title_margin_top">13dp</dimen>
+    <dimen name="activity_settings_title_padding">3dp</dimen>
+    <dimen name="activity_settings_title_size">23sp</dimen>
+    <dimen name="activity_settings_textview_margin_top">20dp</dimen>
+    <dimen name="activity_settings_textview_margin_left">53dp</dimen>
+    <dimen name="activity_settings_textview_size">17sp</dimen>
+    <dimen name="activity_settings_textselectorwidget_width">598dp</dimen>
+    <dimen name="activity_settings_textselectorwidget_height">37dp</dimen>
+    <dimen name="activity_settings_textselectorwidget_line_view_width">523dp</dimen>
+    <dimen name="widget_ll_width">155dp</dimen>
+    <dimen name="widget_ll_height">47dp</dimen>
+    <dimen name="widgt_seletcor_width">159dp</dimen>
+    <dimen name="widgt_seletcor_height">43dp</dimen>
+
+    <!-- activity_download_classify_layout -->
+    <dimen name="activity_download_classify_menu_margin_right">13dp</dimen>
+    <dimen name="activity_download_classify_menu_size">13sp</dimen>
+    <dimen name="activity_download_classify_downloaded_type_height">30dp</dimen>
+    <dimen name="activity_download_classify_downloaded_type_top">25dp</dimen>
+    <dimen name="activity_download_classify_downloaded_type_padding_left">53dp</dimen>
+    <dimen name="activity_download_classify_downloaded_type_size">17sp</dimen>
+    <dimen name="activity_download_classify_grid_bottom">40dp</dimen>
+    <dimen name="activity_download_classify_grid_margin">27dp</dimen>
+    <dimen name="activity_download_classify_grid_column_width">53dp</dimen>
+    <dimen name="activity_download_classify_grid_horizontal_spacing">33dp</dimen>
+    <dimen name="activity_download_classify_grid_vertical_spacing">40dp</dimen>
+    <dimen name="activity_download_classify_empty_layout_size">20sp</dimen>
+    <dimen name="activity_download_classify_line_view_left">35dp</dimen>
+
+    <!-- activity_downloaded_type_item_layout -->
+    <dimen name="activity_downloaded_type_item_padding_right">2dp</dimen>
+    <dimen name="activity_downloaded_type_item_file_size_width">33dp</dimen>
+    <dimen name="activity_downloaded_type_item_file_size_height">20dp</dimen>
+    <dimen name="activity_downloaded_type_item_file_size_size">12sp</dimen>
+    <dimen name="activity_downloaded_type_item_icon_width">48dp</dimen>
+    <dimen name="activity_downloaded_type_item_icon_height">48dp</dimen>
+
+    <!-- activity_main -->
+    <dimen name="activity_main_indicator_view_height">47dp</dimen>
+    <dimen name="activity_main_textview_padding">7dp</dimen>
+    <dimen name="activity_main_line_height">2dp</dimen>
+    <dimen name="activity_main_indicator_margin">-10dp</dimen>
+    <dimen name="activity_main_indicator_size">12sp</dimen>
+    <dimen name="activity_main_settings_size">13sp</dimen>
+
+    <!-- activity_menu_layout -->
+    <dimen name="activity_menu_width">200dp</dimen>
+    <dimen name="activity_menu_tv_size">20sp</dimen>
+
+    <!-- fragment_downloaded_layout -->
+    <dimen name="fragment_downloaded_grid_width">600dp</dimen>
+    <dimen name="fragment_downloaded_grid_vertical_spacing">20dp</dimen>
+
+    <!-- fragment_downloading_grid_item -->
+    <dimen name="fragment_downloading_grid_item_state_width">77dp</dimen>
+    <!-- widget_selector_layout -->
+    <dimen name="widget_selector_padding_right">33dp</dimen>
+    <dimen name="widget_selector_value_width">94dp</dimen>
+    <dimen name="widget_selector_item_name_margin_right">267dp</dimen>
+    <dimen name="widget_selector_item_name_size">15sp</dimen>
+
+</resources>

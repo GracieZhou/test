@@ -1,0 +1,78 @@
+
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
+
+LOCAL_JAVA_LIBRARIES := bouncycastle conscrypt telephony-common
+LOCAL_STATIC_JAVA_LIBRARIES := \
+android-support-v4 android-support-v13 jsr305 \
+
+LOCAL_JAVA_LIBRARIES = scifly.android 
+
+LOCAL_MODULE_TAGS := optional
+
+LOCAL_SRC_FILES := \
+    src/com/android/settings/SettingsActivity.java \
+    src/com/android/settings/DisplayAndSoundActivity.java \
+    src/com/android/settings/SettingsApplication.java \
+    src/com/android/settings/SettingsHolder.java \
+    $(call all-java-files-under,src/com/android/settings/update) \
+    $(call all-java-files-under,src/com/android/settings/application) \
+    $(call all-java-files-under,src/com/android/settings/bugreport) \
+    $(call all-java-files-under,src/com/android/settings/datetimecity) \
+    $(call all-java-files-under,src/com/android/settings/deviceinfo) \
+    $(call all-java-files-under,src/com/android/settings/sound) \
+    $(call all-java-files-under,src/com/android/settings/system) \
+    $(call all-java-files-under,src/com/android/settings/widget) \
+    $(call all-java-files-under,src/com/android/settings/network) \
+    $(call all-java-files-under,src/com/android/settings/util) \
+    $(call all-java-files-under,src/com/android/settings/userbackup) \
+    $(call all-java-files-under,src/com/android/settings/miscupgrade) \
+    $(call all-java-files-under,src/com/eostek/streamnetplusservice/service) \
+    $(call all-java-files-under,src/scifly/middleware/network)
+
+ifneq ($(BUILD_MSTARTV),)
+    LOCAL_JAVA_LIBRARIES += com.mstar.android
+    ifeq ($(TARGET_ARCH), arm64)
+    	LOCAL_SRC_FILES += $(call all-java-files-under,src/com/android/settings/bluetooth/)
+    else
+    	LOCAL_SRC_FILES += $(call all-java-files-under,src/com/android/settings/mstar/) \
+                       $(call all-java-files-under,src/com/android/settings/bluetooth/) 
+   endif
+endif
+
+
+ifneq ($(BOARD_SENSOR_AMLOGIC),)
+    LOCAL_SRC_FILES += $(call all-java-files-under,src/com/android/settings/display/)
+endif
+
+ifeq ($(TARGET_BOARD_PLATFORM),madison)
+$(warning *** TARGET_BOARD_PLATFORM "madison")
+FILTER_OUT_SRC_FILES := \
+    src/scifly/middleware/network/mstar/lollipop/EthernetManagerImpl.java
+
+LOCAL_SRC_FILES := $(filter-out $(FILTER_OUT_SRC_FILES),$(LOCAL_SRC_FILES))
+else ifeq ($(TARGET_BOARD_PLATFORM),muji)
+$(warning *** TARGET_BOARD_PLATFORM "muji")
+FILTER_OUT_SRC_FILES := \
+    src/scifly/middleware/network/mstar/kitkat/EthernetManagerImpl.java
+
+LOCAL_SRC_FILES := $(filter-out $(FILTER_OUT_SRC_FILES),$(LOCAL_SRC_FILES))
+else
+$(warning *** TARGET_BOARD_PLATFORM "dongle")
+FILTER_OUT_SRC_FILES := $(call all-java-files-under,src/scifly/middleware/network/mstar) 
+LOCAL_SRC_FILES := $(filter-out $(FILTER_OUT_SRC_FILES),$(LOCAL_SRC_FILES))
+endif
+
+LOCAL_PACKAGE_NAME := SciflyNewSettings
+LOCAL_CERTIFICATE := platform
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_OVERRIDES_PACKAGES := SciflySettings TvSettings
+LOCAL_PROGUARD_FLAG_FILES := proguard.flags
+
+
+LOCAL_AAPT_FLAGS += -c zz_ZZ
+
+include $(BUILD_PACKAGE)
+
+# Use the folloing include to make our test apk.
+include $(call all-makefiles-under,$(LOCAL_PATH))

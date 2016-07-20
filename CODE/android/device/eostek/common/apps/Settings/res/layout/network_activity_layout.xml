@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.android.settings.widget.TitleWidget
+        android:id="@+id/title_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/network_ethernet_item"
+            android:layout_width="@dimen/selector_width"
+            android:layout_height="50dp"
+            android:background="@drawable/wifi_item_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:visibility="gone"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:paddingRight="@dimen/network_item_padding"
+                android:text="@string/ethernet_setting"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/network_item_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/network_item_padding"
+                android:text="@string/ethernet_setting"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/network_wifi_item"
+            android:layout_width="@dimen/selector_width"
+            android:layout_height="50dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="130dp"
+            android:background="@drawable/wifi_item_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:paddingRight="@dimen/network_item_padding"
+                android:text="@string/wifi_setting"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/network_item_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/network_item_padding"
+                android:text="@string/wifi_setting"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/network_t_connectivity_item"
+            android:layout_width="@dimen/selector_width"
+            android:layout_height="50dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="130dp"
+            android:background="@drawable/wifi_item_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:paddingRight="@dimen/network_item_padding"
+                android:text="@string/connectivity_check"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/network_item_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/network_item_padding"
+                android:text="@string/connectivity_check"
+                android:textSize="22sp"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/network_download_speed_item"
+            android:layout_width="@dimen/selector_width"
+            android:layout_height="50dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="130dp"
+            android:background="@drawable/wifi_item_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:paddingRight="@dimen/network_item_padding"
+                android:text="@string/download_speed"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/network_item_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/network_item_padding"
+                android:text="@string/download_speed"
+                android:textSize="22sp"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/network_bluetooth_item"
+            android:layout_width="@dimen/selector_width"
+            android:layout_height="50dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="130dp"
+            android:background="@drawable/wifi_item_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:paddingRight="@dimen/network_item_padding"
+                android:text="@string/blue_tooth"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/network_item_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/network_item_padding"
+                android:text="@string/blue_tooth"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

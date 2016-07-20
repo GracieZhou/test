@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eostek.scifly.style.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/normal"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            style="@style/Scifly.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/center_singleLine"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            style="@style/Scifly.EditText.Center.SingleLine"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/right_singleLine"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            style="@style/Scifly.EditText.Right.SingleLine"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/num_normal"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            style="@style/Scifly.TextView.Center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/number"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

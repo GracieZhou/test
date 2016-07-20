@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvviewcontent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:id="@+id/home_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_padding"
+        android:layout_marginTop="@dimen/activity_vertical_padding" >
+
+        <SurfaceView
+            android:id="@+id/tv_sur"
+            android:layout_width="@dimen/video_width"
+            android:layout_height="@dimen/video_hight"
+            android:background="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/help_tip"
+            android:layout_width="@dimen/main_help_tip_width"
+            android:layout_height="@dimen/main_help_tip_height"
+            android:padding="@dimen/help_tip_padding"
+            android:src="@drawable/help_tips" />
+
+        <TextView
+            android:id="@+id/signal_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_big"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/imagetv"
+            android:layout_width="@dimen/buttion_tv_width"
+            android:layout_height="@dimen/buttion_tv_height"
+            android:background="@android:color/transparent" />
+
+        <LinearLayout
+            android:layout_width="@dimen/video_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#88000000"
+            android:orientation="horizontal"
+            android:padding="@dimen/main_source_padding"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/source_name"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/source_txt"
+                android:layout_width="@dimen/main_source_txt_width"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/signal_name"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/signal_stt"
+                android:layout_width="@dimen/main_source_txt_width"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_small" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/framelayout"
+            android:layout_width="@dimen/video_width"
+            android:layout_height="@dimen/video_hight" >
+
+            <EOSWebView
+                android:id="@+id/ad_webview"
+                android:layout_width="@dimen/video_width"
+                android:layout_height="@dimen/video_hight"
+                android:layerType="hardware"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/home_ad_customViewContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/ad_prg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/main_padding_left"
+        android:paddingRight="@dimen/main_padding_right"
+        android:paddingTop="@dimen/activity_vertical_padding" >
+
+        <ViewFlipper
+            android:id="@+id/flipper"
+            android:layout_width="@dimen/main_flipper_width"
+            android:layout_height="@dimen/main_flipper_height"
+            android:paddingBottom="@dimen/main_flipper_padding_bottom" >
+        </ViewFlipper>
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_loading_margin_left"
+            android:layout_marginTop="@dimen/main_loading_margin_top"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <com.google.tv.eoslauncher.util.FocusView
+        android:id="@+id/home_selector"
+        android:layout_width="@dimen/buttion_tv_width"
+        android:layout_height="@dimen/buttion_tv_height"
+        android:background="@drawable/home_focus"
+        android:visibility="gone" />
+
+</LinearLayout>

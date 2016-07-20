@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.mstar.android.tv.widget.TvView
+        android:id="@+id/tvview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.eostek.tv.widget.SignalTipView
+        android:id="@+id/signalview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </com.eostek.tv.widget.SignalTipView>
+
+    <com.eostek.tv.widget.AtvInfoControlView
+        android:id="@+id/atvinfoview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.eostek.tv.widget.DtvInfoControlView
+        android:id="@+id/dtvinfoview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.eostek.tv.widget.OtherInfoControlView
+        android:id="@+id/otherinfoview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.eostek.tv.widget.OtherSourceInfoView
+        android:id="@+id/otherinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.eostek.tv.widget.MTSView
+        android:id="@+id/mtsview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/mts_margin_top" />
+
+    <com.eostek.tv.widget.ChannelInfoView
+        android:id="@+id/channelinfoview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/ll_layout_ad"
+        android:layout_width="match_parent"
+        android:background="#66000000"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ad_item0" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ad_item1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ad_item2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ad_item3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ad_item4" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ad_item5" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ad_item6" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ad_item7" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ad_item8" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SetupWizard</string>
+    <string name="app_setmeup">SciflyCast</string>
+    <string name="language">Language Setting</string>
+    <string name="screen">Screen Setting</string>
+    <string name="time_zone">Time Zone Setting</string>
+    <string name="network">Network Setting</string>
+    <string name="enter">Enter</string>
+    <string name="detect_network">Detecting network...</string>
+    <string name="open_wifi">WiFi Opening...</string>
+    <string name="scan_wifi">Scaning WiFi...</string>
+    <string name="failed_open_wifi">failed to open WiFi...</string>
+    <string name="simple_chinese">简体中文</string>
+    <string name="tradition_chinese">繁體中文</string>
+    <string name="english">English</string>
+    <string name="wire_success">Ethernet connect success !</string>
+    <string name="wifi_success">Wifi connect success !</string>
+    <string name="network_conn_fail">Wifi and ethernet disconnected !</string>
+    <string name="wifi_connecting">Connecting Wifi ... !</string>
+    <string name="show_psw">Show password</string>
+    <string name="error_psw">Wifi password is error, please enter again !</string>
+    <string name="wifi_disabled_password_failure">Authentication problem</string>
+    <string name="direction_key_instruction">The remote control up down left right key control displacement</string>
+    <string name="screen_size_exception">use the telecontroller to adjust screen size</string>
+    <string name="screen_position">Screen Position</string>
+    <string name="screen_size">Screen Size</string>
+    <string name="input_right_psw">please input at least 8 bit length password</string>
+    
+        <string-array name="language">
+        <item>英语</item>
+        <item>简体中文</item>
+        <item>繁体中文</item>
+    </string-array>
+    
+    <string name="title_language">Language</string>
+    <string name="title_screen">Screen</string>
+    <string name="title_network">Network</string>
+    <string name="title_timezone">Time Zone</string>
+    <string name="fail_setup_config">SciflyCast 应用启动失败：不能建立配置环境,应用将退出</string>
+    <string name="welcom_info">欢迎使用SciflyCast</string>
+    <string name="guide_description">请通过以下方式连接SciflyCast</string>
+    <string name="step_I">步骤1：扫描二维码</string>
+    <string name="downlaod_url_I">或访问:</string>
+    <!-- <string name="downlaod_url_II"><u>app.qq.com/#id=detail&appid=1101696872</u></string> -->
+    <string name="download_tip">下载安装SciflyCast Android客户端</string>
+    <string name="dev_name">本机设备名</string>
+    <string name="step_II">步骤2：运行客户端</string>
+    <string name="ope_tip">连接SciflyCast设置无线网络等</string>
+    <string name="phrase_req_pairing_code">已经连接客户端</string>
+    <string name="phrase_timezone_setting">设置时区</string>
+    <string name="phrase_restoring_factory">正在恢复出厂</string>
+    <string name="phrase_device_name_setting">修改设备名称</string>
+    <string name="phrase_wifi_setting">网络设置</string>
+    <string name="phrase_wifi_setting_fail"> :失败</string>
+    <string name="phrase_wifi_setting_success"> :成功</string>
+    <string name="reset_tip_second">秒</string>
+    <string name="reset_tip_i">后将清除网络设置</string>
+    <string name="reset_tip_ii">松开reset键取消</string>
+    <string name="reset_tip_max">10</string>
+    <string name="exit_tip">按“返回”后进入设置,手动设置网络</string>
+    
+
+</resources>

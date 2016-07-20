@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Download</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="failed_download">download failed</string>
+    <string name="download_manager">DownLoad Manager</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="downloading">Downloading</string>
+    <string name="download_settings">Settings</string>
+    <string name="menu_tips">Press MENU to show more</string>
+    <string name="operate">Operate</string>
+    <string name="delete">Delete</string>
+    <string name="nothing_selected">Please select the option to delete</string>
+    <string name="mutil_choose_text">Multiselect</string>
+    <string name="detail_text">Details</string>
+    <string name="mutil_cancle_text">Cancel option</string>
+    <string name="mutil_delete_text">Delete all</string>
+    <string name="delete_mutil_string">Are you sure you want to delete the selected file?</string>
+    <string name="ok_delete">ok</string>
+    <string name="cancle_delete">cancle</string>
+    <string name="downloading_delete_text_before">Determine delete</string>
+    <string name="downloading_delete_text_after">File?</string>
+    <string name="download_task_num">Download task number</string>
+    <string name="download_limit_speed">Download limit speed</string>
+    <string name="limit_downloading_nobur_text_before">The number of current download limits is</string>
+    <string name="limit_downloading_nobur_text_after">！</string>
+    <string name="storage_directory">Storage directory</string>
+    <string name="downloaded_vedio">Vedio</string>
+    <string name="downloaded_music">Music</string>
+    <string name="downloaded_pictrue">Pictrue</string>
+    <string name="downloaded_document">Document</string>
+    <string name="downloaded_package">Installation Package</string>
+    <string name="downloaded_other">Other</string>
+    <string name="downloaded_empty">No dowloaded files</string>
+    <string name="downloading_empty">No dowloading tasks</string>
+    <string name="unknown_size">Unknown size</string>
+    <string name="unfound_tools_open">can not open the file</string>
+    <string name="file_name">file name</string>
+    <string name="file_size">file size</string>
+    <string name="finish_time">finish time</string>
+    <string name="file_location">file location</string>
+    <string name="sure_button">OK</string>
+    <string name="all_start">all start</string>
+    <string name="all_pause">all pause</string>
+    <string name="sure_to_remove">Do want to remove this file?</string>
+
+</resources>

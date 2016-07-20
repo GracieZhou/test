@@ -1,0 +1,2173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+access
+                	read write
+                bit  0/1   0/1
+                0:false 
+                1:true
+-->
+
+<!-- 
+syntax
+	 				* string 
+	 				* boolean
+	 				* dateTime
+	 				* unsignedInt
+	 				* base64
+	 				* string_size-256-
+	 				* string_enu-yf,Shawna,nick…-
+	 				* unsignedInt_range-1,100-
+	 				* int_range-1,100-
+	 				* base64_range-0,100-
+	 				* list_size-256-
+	 				* IPAddress
+	 				* MACAddress
+	 				
+	 				可以参考jrm_data.xml
+                 -->
+<table>
+    <tab_parameter>
+        <rows>
+        	<row>
+                <name>Device.DeviceSummary</name>
+                <access>10</access>
+                <syntax>string_size-1024-</syntax>
+                <parent>Device.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>1</forcedInform>
+                <hidden>false</hidden>
+                <description>provide an explicit summary of the top-level data model of the device, including version and profile information</description>
+                <value>Device.DeviceSummary</value>
+            </row>
+            <row>
+                <name>Device.DeviceInfo.Manufacturer</name>
+                <access>10</access>
+                <syntax>string_size-64-</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>The manufacturer of the CPE (human readable string).</description>
+                <value>EOSTEK</value>
+            </row>
+            <row>
+                <name>Device.DeviceInfo.ManufacturerOUI</name>
+                <access>10</access>
+                <syntax>string_size-6-</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>Organizationally unique identifier of the device manufacturer. Represented as a six hexadecimal-digit value using all upper-case letters and including any leading zeros. The valueMUST be a valid OUI as defined in {{bibref|OUI}}.</description>
+                <value>000088</value>
+            </row>
+            <!-- <row>
+                <name>Device.DeviceInfo.ModelName</name>
+                <access>10</access>
+                <syntax>string_size-64-</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>Model name of the CPE (human readable string).</description>
+                <value>monitor</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.DeviceInfo.Description</name>
+                <access>10</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>A full description of the CPE device</description>
+                <value>The CPE was made in china</value>
+            </row> -->
+            <row>
+                <name>Device.DeviceInfo.ProductClass</name>
+                <access>10</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Identifier of the class of product for which the serial number applies. That is, for a given manufacturer, this parameter is used to identify the product or class of product over which the SerialNumber parameter is unique.
+				</description>
+                <value>EOS0M8050000DG00</value>
+            </row>
+         	<row>
+                <name>Device.DeviceInfo.SerialNumber</name>
+                <access>10</access>
+                <syntax>string_size-64-</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>MAC of the CPE.</description>
+                <value>ac4afe211111</value>
+            </row>
+            <row>
+                <name>Device.DeviceInfo.HardwareVersion</name>
+                <access>10</access>
+                <syntax>string_size-64-</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>1</forcedInform>
+                <hidden>false</hidden>
+                <description>A string identifying the particular CPE model and version.</description>
+                <value>Hjack</value>
+            </row>
+            <row>
+                <name>Device.DeviceInfo.SoftwareVersion</name>
+                <access>10</access>
+                <syntax>string_size-64-</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>1</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                A string identifying the software version currently installed in the CPE.[Major.Minor.Build].
+				</description>
+                <value>1.0.0</value>
+            </row>
+           <!--  <row>
+                <name>Device.DeviceInfo.EnabledOptions</name>
+                <access>10</access>
+                <syntax>list_size-1024-</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Comma-separated list of the OptionName of each Option that is currently enabled in the CPE.
+				</description>
+                <value></value>
+            </row> -->
+            <!-- <row>
+                <name>Device.DeviceInfo.AdditionalHardwareVersion</name>
+                <access>10</access>
+                <syntax>list_size-64-</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                A comma separated list of any additional versions.Represents any additional hardware version information the vendor might wish to supply.
+                </description>
+                <value>H3245</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.DeviceInfo.AdditionalSoftwareVersion</name>
+                <access>10</access>
+                <syntax>list_size-64-</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>A comma separated list of any additional versions.Represents any additional software version information the vendor might wish to supply.
+                </description>
+                <value>v2.0</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.DeviceInfo.ProvisioningCode</name>
+                <access>11</access>
+                <syntax>string_size-64-</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Identifier of the primary service provider and other provisioning information, which MAY be used by the ACS to determine service provider-specific customization and provisioning parameters.
+                </description>
+                <value>provision code</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.DeviceInfo.DeviceStatus</name>
+                <access>10</access>
+                <syntax>string_enu-Up,Initializing,Error,Disabled-</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>Current operational status of the device.</description>
+                <value>Initializing</value>
+            </row> -->
+           <!--  <row>
+                <name>Device.DeviceInfo.UpTime</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>Time in seconds since the CPE was last restarted.</description>
+                <value>1320214522</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.DeviceInfo.FirstUseDate</name>
+                <access>10</access>
+                <syntax>dateTime</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Date and time in UTC that the CPE first both successfully established an IP-layer network connection and acquired an absolute time reference using NTP or equivalent over that network connection. The CPE MAY reset this date after a factory reset.
+				</description>
+                <value>01:42:02</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.DeviceInfo.DeviceLog</name>
+                <access>10</access>
+                <syntax>string_size-32768-</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>Vendor-specific log(s).</description>
+                <value>device log</value>
+            </row> -->
+            <row>
+                <name>Device.DeviceInfo.AppInfo</name>
+                <access>10</access>
+                <syntax>string_size-32768-</syntax>
+                <parent>Device.DeviceInfo.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>Vendor-specific log(s).</description>
+                <value>app list info</value>
+            </row>
+            <row>
+                <name>Device.ManagementServer.URL</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                URL, for the CPE to connect to the ACS using the CPE WAN Management Protocol.
+				</description>
+				<!-- <value>http://acs.babao.com:1001/</value> -->
+				 <value>http://macs.babao.com:2002/</value> 
+            </row>
+            <row>
+                <name>Device.ManagementServer.SPAREURL</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                SPARURL, for the CPE to connect to the ACS using the CPE WAN Management Protocol when one was bad.
+                </description>
+               <!--  <value>http://acs.babao.com:1001/</value> -->
+                <value>http://macs.babao.com:2002/</value> 
+            </row>
+            <row>
+                <name>Device.ManagementServer.Username</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>Username used to authenticate the CPE when making a connection to the ACS using the CPE WAN Management Protocol.</description>
+                <value>acs</value>
+            </row>
+            <row>
+                <name>Device.ManagementServer.Password</name>
+                <access>01</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>true</hidden>
+                <description>Password used to authenticate the CPE when making a connection to the ACS using the CPE WAN Management Protocol.</description>
+                <value>acs</value>
+            </row>
+            <!-- <row>
+                <name>Device.ManagementServer.PeriodicInformEnable</name>
+                <access>11</access>
+                <syntax>boolean-false,true,1,0-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>Whether or not the CPE must periodically send CPE information to the ACS using the Inform method call.</description>
+                <value>true</value>
+            </row> -->
+            <row>
+                <name>Device.ManagementServer.PeriodicInformInterval</name>
+                <access>11</access>
+                <syntax>unsignedInt_range-1,-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>The duration in seconds of the interval for which the CPE MUST attempt to connect with the ACS and call the Inform method if PeriodicInformEnable true.</description>
+                <value>60000</value>
+            </row>
+            <!-- <row>
+                <name>Device.ManagementServer.PeriodicInformTime</name>
+                <access>11</access>
+                <syntax>dateTime</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                An absolute time reference in UTC to determine when the CPE will initiate the periodic Inform method calls. 
+                </description>
+                <value>02:23:48</value>
+            </row> -->
+            <row>
+                <name>Device.ManagementServer.ParameterKey</name>
+                <access>10</access>
+                <syntax>string_size-32-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>1</forcedInform>
+                <hidden>false</hidden>
+                <description>
+				provides the ACS a reliable and extensible means to track changes made by the ACS. 
+				The value MUST be equal to the value of the ParameterKey argument from the most recent successful SetParameterValues, AddObject, or DeleteObject method call from the ACS. 
+				The CPE MUST set the value specified in the corresponding method arguments if and only if the method completes successfully and no fault response is generated. 
+				On factory reset, the value to empty.
+				</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.ManagementServer.ConnectionRequestURL</name>
+                <access>10</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>1</forcedInform>
+                <hidden>false</hidden>
+                <description>for an ACS to make a Connection Request notification to the CPE.</description>
+                <value>http://127.0.0.1:8081/cpe</value>
+            </row>
+            <row>
+                <name>Device.ManagementServer.ConnectionRequestUsername</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>Username used to authenticate an ACS making a Connection Request to the CPE.</description>
+                <value>admin</value>
+            </row>
+            <row>
+                <name>Device.ManagementServer.ConnectionRequestPassword</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>true</hidden>
+                <description>
+                Password used to authenticate an ACS making a Connection Request to the CPE.
+				When read, this parameter returns empty , regardless of the actual value.
+				</description>
+                <value>admin</value>
+            </row>
+            <!-- <row>
+                <name>Device.ManagementServer.UpgradesManaged</name>
+                <access>11</access>
+                <syntax>boolean-false,true,1,0-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Indicates whether or not the ACS will manage upgrades for the CPE. 
+				</description>
+                <value>true</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.ManagementServer.KickURL</name>
+                <access>10</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Present only for a CPE that supports the Kicked RPC method.
+				LAN-accessible URL
+				</description>
+                <value>http://www.kickurl.com</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.ManagementServer.DownloadProgressURL</name>
+                <access>10</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Present only for a CPE that provides a LAN-side web page to show progress during a file download. LAN-accessible URL, 
+                to which a web-server associated with the ACS MAY redirect a user's browser on initiation of a file download to observer the status of the download.                   
+                </description>
+                <value>172.23.66.252:8080</value>
+            </row> -->
+            <row>
+                <name>Device.ManagementServer.UDPConnectionRequestAddress</name>
+                <access>10</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>1</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                    Address and port to which an ACS MAY send a UDP Connection Request to the CPE . 
+                    The value MUST be in one of the following two forms: host:port|host(default port is 80)                    
+                </description>
+                <value></value>
+            </row>
+            <!-- <row>
+                <name>Device.ManagementServer.UDPConnectionRequestAddressNotificationLimit</name>
+                <access>11</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                    The minimum time, in seconds, between Active Notifications resulting from changes to the
+				UDPConnectionRequestAddress (if Active Notification is enabled).                 
+                </description>
+                <value>1</value>
+            </row> -->
+            <row>
+                <name>Device.ManagementServer.STUNEnable</name>
+                <access>11</access>
+                <syntax>boolean-true,false,1,0</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                    Enables or disables the use of STUN by the CPE. 
+                    This applies only to the use of STUN in association with the ACS to allow UDP Connection Requests.                   
+                </description>
+                <value>true</value>
+            </row>
+            <row>
+                <name>Device.ManagementServer.STUNServerAddress</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                    Host name or IP address of the STUN server for the CPE to send Binding Requests if STUN is enabled via STUNEnable.
+				If is empty and STUNEnable is true, the CPE MUST use the address of the ACS extracted from the host portion of the ACS URL.
+                 </description>
+                 <value>acs.babao.com</value>
+            </row>
+            <row>
+                <name>Device.ManagementServer.STUNServerPort</name>
+                <access>11</access>
+                <syntax>unsignedInt_range-0,65535</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                    Port number of the STUN server for the CPE to send Binding Requests if STUN is enabled via STUNEnable.
+				By default, this SHOULD be the equal to the default STUN port, 3478.                  
+                </description>
+                <value>2049</value>
+            </row>
+            <row>
+                <name>Device.ManagementServer.STUNUsername</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                    If is not empty, the value of the STUN USERNAME attribute to be used in Binding Requests (only if message integrity has been requested by the STUN server).
+				If is empty, the CPE MUST NOT send STUN Binding Requests with message integrity.                  
+                </description>
+                <value>admin</value>
+            </row>
+            <row>
+                <name>Device.ManagementServer.STUNPassword</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>true</hidden>
+                <description>
+                    The value of the STUN Password to be used in computing the MESSAGE-INTEGRITY attribute to be used in Binding Requests (only if message integrity has been requested by the STUN server).
+				When read, this parameter returns empty, regardless of the actual value.                 
+                </description>
+                <value>admin</value>
+            </row>
+            <row>
+                <name>Device.ManagementServer.STUNMaximumKeepAlivePeriod</name>
+                <access>11</access>
+                <syntax>int_range-1,100-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                    If STUN Is enabled, the maximum period, in seconds, that STUN Binding Requests MUST be sent by the CPE for the purpose of maintaining the binding in the Gateway. This applies specifically to
+				Binding Requests sent from the UDP Connection Request address and port. A value of -1 indicates that no maximum period is specified.        
+                </description>
+                <value>30</value>
+            </row>
+            <row>
+                <name>Device.ManagementServer.STUNMinimumKeepAlivePeriod</name>
+                <access>11</access>
+                <syntax>int_range-1,100-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                    If STUN Is enabled, the minimum period, in seconds,that STUN Binding Requests can be sent by the CPE for the purpose of
+				maintaining the binding in the Gateway. This limit applies only to Binding Requests sent from the UDP Connection Request address and
+				port, and only those that do not contain the BINDING-CHANGE attribute. 
+                </description>
+                <value>30</value>
+            </row>
+            <row>
+                <name>Device.ManagementServer.NATDetected</name>
+                <access>10</access>
+                <syntax>boolean-true,false,1,0-</syntax>
+                <parent>Device.ManagementServer.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>1</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                    When STUN is enabled, this parameter indicates whether or not the CPE has detected address and/or port mapping in use.
+				A true value indicates that the received MAPPED-ADDRESS in the most recent Binding Response differs from the CPE's source address and port.
+				When STUNEnable is false, this value MUST be false.      
+                </description>
+                <value>true</value>
+            </row>
+            <!-- <row>
+                <name>Device.GatewayInfo.ManufacturerOUI</name>
+                <access>10</access>
+                <syntax>string_size-6-</syntax>
+                <parent>Device.GatewayInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Organizationally unique identifier of the associated Internet Gateway Device. 
+                empty indicates that there is no associated Internet Gateway Device that has been detected.
+                </description>
+                <value></value>
+            </row> -->
+            <!-- <row>
+                <name>Device.GatewayInfo.ProductClass</name>
+                <access>10</access>
+                <syntax>string_size-64-</syntax>
+                <parent>Device.GatewayInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Identifier of the product class of the associated Internet Gateway Device. 
+                empty indicates either that there is no associated Internet Gateway Device that has been detected, 
+                or the Internet Gateway Device does not support the use of the product-class parameter.
+                </description>
+                <value></value>
+            </row> -->
+            <!-- <row>
+                <name>Device.GatewayInfo.SerialNumber</name>
+                <access>10</access>
+                <syntax>string_size-64-</syntax>
+                <parent>Device.GatewayInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Serial number of the associated Internet Gateway Device.
+				empty indicates that there is no associated Internet Gateway Device that has been detected.
+                </description>
+                <value></value>
+            </row> -->
+            <!-- <row>
+                <name>Device.Config.PersistentData</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.Config.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Arbitrary user data that MUST persist across CPE reboots.
+                </description>
+                <value></value>
+            </row> -->
+            <!-- <row>
+                <name>Device.Config.ConfigFile</name>
+                <access>11</access>
+                <syntax>string_size-32768-</syntax>
+                <parent>Device.Config.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                A dump of the currently running configuration on the CPE. 
+                This parameter enables the ability to backup and restore the last known good state of the CPE. 
+                It returns a vendor-specific document that defines the state of the CPE. The document MUST be
+				capable of restoring the CPE's state when written back to the CPE
+				using SetParameterValues.
+                </description>
+                <value></value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.AddressingType</name>
+                <access>11</access>
+                <syntax>string_enu-DHCP,Static-</syntax>
+                <parent>Device.LAN.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                The method used to assign an address to this interface.
+				The ability to modify this parameter is OPTIONAL.
+                </description>
+                <value></value>
+            </row> -->
+            <row>
+                <name>Device.LAN.IPAddress</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.LAN.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>1</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                The current IP address assigned to this interface. 
+                The ability to modify this parameter is OPTIONAL, and this parameter cannot be modified if the AddressingType is DHCP.
+                </description>
+                <value>172.23.66.84</value>
+            </row>
+            <!-- <row>
+                <name>Device.LAN.SubnetMask</name>
+                <access>11</access>
+                <syntax>IPAddress</syntax>
+                <parent>Device.LAN.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                The current subnet mask.
+				The ability to modify this parameter is OPTIONAL, and this parameter cannot be modified if the AddressingType is DHCP.
+                </description>
+                <value>255.255.255.0</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.DefaultGateway</name>
+                <access>11</access>
+                <syntax>string</syntax>
+                <parent>Device.LAN.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                The IP address of the current default gateway for this interface.
+				The ability to modify this parameter is OPTIONAL, and this parameter cannot be modified if the AddressingType is DHCP.
+                </description>
+                <value>192.168.1.1</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.DNSServers</name>
+                <access>11</access>
+                <syntax>list_size-256-</syntax>
+                <parent>Device.LAN.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Comma-separated list of IP address of the DNS servers for this interface.
+				The ability to modify this parameter is OPTIONAL,
+				and this parameter cannot be modified if the AddressingType is DHCP.
+				If this parameter is modifiable, the device MAY ignore any DNS servers beyond the first two in the list.
+                </description>
+                <value>192.168.1.1</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.MACAddress</name>
+                <access>11</access>
+                <syntax>MACAddress</syntax>
+                <parent>Device.LAN.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                The physical address of this interface. 
+                Writable only if MACAddressOverride is present and equal to true.
+                </description>
+                <value>00:11:22:11:00:FF</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.MACAddressOverride</name>
+                <access>11</access>
+                <syntax>boolean-true,false,1,0-</syntax>
+                <parent>Device.LAN.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Whether the value of MACAddress parameter can be overridden.
+				When true,MACAddress is writable.
+				When false,MACAddress is not writable, and the default MAC address assigned by the device SHOULD be restored.
+                </description>
+                <value>true</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.DHCPOptionNumberOfEntries</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Number of entries in the DHCP option table.
+                </description>
+                <value>1</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.Stats.ConnectionUpTime</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.Stats.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                The time in seconds that this IP interface has been connected.
+				If the IP interface is using DHCP, this is the time that the DHCP client has been only in the Bound or Renewing states
+				and the lower-layer interface has continuously maintained a link.
+				If the IP interface is using static addressing, this is the time that the lower-layer interface has continuously maintained a link.
+                </description>
+                <value>0</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.Stats.TotalBytesSent</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.Stats.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Total number of IP payload bytes sent over this interface since the device was last restarted as specified in .DeviceInfo.UpTime。
+                </description>
+                <value>0</value>
+            </row> -->
+           <!--  <row>
+                <name>Device.LAN.Stats.TotalBytesReceived</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.Stats.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Total number of IP payload bytes received over this interface since the device was last restarted as specified in .DeviceInfo.UpTime.
+                </description>
+                <value>0</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.Stats.TotalPacketsSent</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.Stats.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Total number of IP packets sent over this interface since the device was last restarted as specified in .DeviceInfo.UpTime.
+                </description>
+                <value>0</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.Stats.TotalPacketsReceived</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.Stats.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Total number of IP packets received over this interface since the device was last restarted as specified in .DeviceInfo.UpTime.
+                </description>
+                <value>0</value>
+            </row> -->
+           <!--  <row>
+                <name>Device.LAN.Stats.CurrentDayInterval</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.Stats.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Number of seconds since the beginning of the period used for collection of CurrentDay statistics.
+				The device MAY align the beginning of each CurrentDay interval with days in the UTC time zone, but is not required to do so.
+                </description>
+                <value>0</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.Stats.CurrentDayBytesSent</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.Stats.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Total number of IP payload bytes sent over this interface since the beginning of the current-day interval as
+				specified by CurrentDayInterval.
+                </description>
+                <value>0</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.Stats.CurrentDayBytesReceived</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.Stats.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Total number of IP payload bytes received over this interface since the beginning of the current-day interval as
+				specified by CurrentDayInterval.
+                </description>
+                <value>0</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.Stats.CurrentDayPacketsSent</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.Stats.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Total number of IP packets sent over this interface since the beginning of the current-day interval as specified by CurrentDayInterval.
+                </description>
+                <value>0</value>
+            </row> -->
+           <!--  <row>
+                <name>Device.LAN.Stats.CurrentDayPacketsReceived</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.Stats.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Total number of IP packets received over this interface since the beginning of the current-day interval as specified by CurrentDayInterval.
+                </description>
+                <value>0</value>
+            </row> -->
+           <!--  <row>
+                <name>Device.LAN.Stats.QuarterHourInterval</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.Stats.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Number of seconds since the beginning of the period used for collection of QuarterHour statistics.
+				The device MAY align the beginning of each QuarterHour interval with real-time quarter-hour intervals, but is not required to do so.
+                </description>
+                <value>0</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.Stats.QuarterHourBytesSent</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.Stats.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Total number of IP payload bytes sent over this interface since the beginning of the quarter-hour interval as QuarterHourInterval.
+                </description>
+                <value>0</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.Stats.QuarterHourBytesReceived</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.Stats.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Total number of IP payload bytes received over this interface since the beginning of the quarter-hour interval as specified by QuarterHourInterval.
+                </description>
+                <value>0</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.Stats.QuarterHourPacketsSent</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.Stats.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Total number of IP packets sent over this interface since the beginning of the quarter-hour interval as specified by QuarterHourInterval.
+                </description>
+                <value>0</value>
+            </row> -->
+            <!-- <row>
+                <name>Device.LAN.Stats.QuarterHourPacketsReceived</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.Stats.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Total number of IP packets received over this interface since the beginning of the quarter-hour interval as specified by QuarterHourInterval.
+                </description>
+                <value>0</value>
+            </row> -->
+            <row>
+                <name>Device.LAN.IPPingDiagnostics.DiagnosticsState</name>
+                <access>11</access>
+                <syntax>string_enu-None,Requested,Complete,Error_CannotResolveHostName,Error_Internal,Error_Other-</syntax>
+                <parent>Device.LAN.IPPingDiagnostics.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Indicates availability of diagnostic data. 
+				If the ACS sets the value of this parameter to Requested,
+				the CPE MUST initiate the corresponding diagnostic test. 
+				When writing, the only allowed value is Requested. 
+				To ensure the use of the proper test parameters (the writable parameters in this object),
+				the test parameters MUST be set either prior to or at the same time as (in the same SetParameterValues) setting  to Requested.
+				When requested, the CPE SHOULD wait until after completion of the communication session with the ACS before starting the diagnostic.
+				When the test is completed, the value of this parameter MUST be either Complete (if the test completed
+				successfully), or one of the ''Error'' values listed above.
+				If the value of this parameter is anything other than Complete,
+				the values of the results parameters for this test are indeterminate.
+				When the diagnostic initiated by the ACS is completed (successfully or not), the CPE MUST establish a new connection to
+				the ACS to allow the ACS to view the results, indicating the Event code ''8 DIAGNOSTICS COMPLETE'' in the Inform message.
+				After the diagnostic is complete, the value of all result parameters (all read-only parameters in this object) MUST be retained by the
+				CPE until either this diagnostic is run again, or the CPE reboots.
+				After a reboot, if the CPE has not retained the result parameters from the most recent test, it MUST set the value of this parameter to None.
+				Modifying any of the writable parameters in this object except for this one MUST result in the value of this parameter being set to None.
+				While the test is in progress, modifying any of the writable parameters in this object except for this one MUST result in the test being
+				terminated and the value of this parameter being set to None.
+				While the test is in progress, setting this parameter to Requested (and possibly modifying other writable
+				parameters in this object) MUST result in the test being terminated and then restarted using the current values of the test parameters.
+                </description>
+                <value>None</value>
+            </row>
+            <row>
+                <name>Device.LAN.IPPingDiagnostics.Host</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.LAN.IPPingDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>Host name or address of the host to ping.</description>
+                <value>192.168.1.1</value>
+            </row>
+            <row>
+                <name>Device.LAN.IPPingDiagnostics.NumberOfRepetitions</name>
+                <access>11</access>
+                <syntax>unsignedInt_range-1,-</syntax>
+                <parent>Device.LAN.IPPingDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Number of repetitions of the ping test to perform before reporting the results.
+				</description>
+                <value>5</value>
+            </row>
+            <row>
+                <name>Device.LAN.IPPingDiagnostics.Timeout</name>
+                <access>11</access>
+                <syntax>unsignedInt_range-1,-</syntax>
+                <parent>Device.LAN.IPPingDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>Timeout in milliseconds for the ping test.</description>
+                <value>10</value>
+            </row>
+            <row>
+                <name>Device.LAN.IPPingDiagnostics.DataBlockSize</name>
+                <access>11</access>
+                <syntax>unsignedInt_range-1,65535-</syntax>
+                <parent>Device.LAN.IPPingDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>Size of the data block in bytes to be sent for each ping.</description>
+                <value>32</value>
+            </row>
+            <!-- <row>
+                <name>Device.LAN.IPPingDiagnostics.DSCP</name>
+                <access>11</access>
+                <syntax>unsignedInt_range-1,63-</syntax>
+                <parent>Device.LAN.IPPingDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                DiffServ codepoint to be used for the test packets. By default the CPE SHOULD set this value to zero.
+				</description>
+                <value>0</value>
+            </row> -->
+            <row>
+                <name>Device.LAN.IPPingDiagnostics.SuccessCount</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.IPPingDiagnostics.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Result parameter indicating the number of successful pings (those in which a successful response was received prior to
+				the timeout) in the most recent ping test.
+                </description>
+                <value>0</value>
+            </row>
+            <row>
+                <name>Device.LAN.IPPingDiagnostics.FailureCount</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.IPPingDiagnostics.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Result parameter indicating the number of failed pings in the most recent ping test.
+                </description>
+                <value>0</value>
+            </row>
+            <row>
+                <name>Device.LAN.IPPingDiagnostics.AverageResponseTime</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.IPPingDiagnostics.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Result parameter indicating the average response time
+				in milliseconds over all repetitions with successful responses of
+				the most recent ping test. If there were no successful responses,
+				this value MUST be zero.
+                </description>
+                <value>0</value>
+            </row>
+            <row>
+                <name>Device.LAN.IPPingDiagnostics.MinimumResponseTime</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.IPPingDiagnostics.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Result parameter indicating the minimum response time
+				in milliseconds over all repetitions with successful responses of
+				the most recent ping test. If there were no successful responses,
+				this value MUST be zero.
+                </description>
+                <value>0</value>
+            </row>
+            <row>
+                <name>Device.LAN.IPPingDiagnostics.MaximumResponseTime</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.IPPingDiagnostics.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Result parameter indicating the maximum response time
+				in milliseconds over all repetitions with successful responses of
+				the most recent ping test. If there were no successful responses,
+				this value MUST be zero.
+                </description>
+                <value>0</value>
+            </row>
+            <!-- <row>
+                <name>Device.LAN.TraceRouteDiagnostics.DiagnosticsState</name>
+                <access>11</access>
+                <syntax>string_enu-None,Requested,Complete,Error_CannotResolveHostName,Error_MaxHopCountExceeded,Error_Internal,Error_Other-</syntax>
+                <parent>Device.LAN.TraceRouteDiagnostics.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Indicates availability of diagnostic data. 
+				If the ACS sets the value of this parameter to Requested,
+				the CPE MUST initiate the corresponding diagnostic test. 
+				When requested, 
+				the CPE SHOULD wait until after completion of the communication session with the ACS before starting the diagnostic.
+				When the test is completed, the value of this
+				parameter MUST be either Complete (if the test completed successfully), or one of the ''Error'' values listed above.
+				When the diagnostic initiated by the ACS is completed
+				(successfully or not), the CPE MUST establish a new connection to the ACS to allow
+				the ACS to view the results, indicating the Event
+				code ''8 DIAGNOSTICS COMPLETE'' in the Inform message.
+				After the diagnostic is complete, the value of all result parameters (all
+				read-only parameters in this object) MUST be retained by the CPE
+				until either this diagnostic is run again, or the CPE reboots.
+				After a reboot, if the CPE has not retained the result parameters
+				from the most recent test, it MUST set the value of this parameter to None.				
+                </description>
+                <value>None</value>
+            </row> -->
+          <!--   <row>
+                <name>Device.LAN.TraceRouteDiagnostics.Host</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.LAN.TraceRouteDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Host name or address of the host to ping.			
+                </description>
+                <value>192.168.1.1</value>
+            </row>
+            <row>
+                <name>Device.LAN.TraceRouteDiagnostics.Timeout</name>
+                <access>11</access>
+                <syntax>unsignedInt_range-1,-</syntax>
+                <parent>Device.LAN.TraceRouteDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Timeout in milliseconds for the trace route test.
+                </description>
+                <value>3000</value>
+            </row>
+            <row>
+                <name>Device.LAN.TraceRouteDiagnostics.DataBlockSize</name>
+                <access>11</access>
+                <syntax>unsignedInt_range-1,65535-</syntax>
+                <parent>Device.LAN.TraceRouteDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Size of the data block in bytes to be sent for each trace route.
+                </description>
+                <value>40</value>
+            </row>
+            <row>
+                <name>Device.LAN.TraceRouteDiagnostics.MaxHopCount</name>
+                <access>11</access>
+                <syntax>unsignedInt_range-1,64-</syntax>
+                <parent>Device.LAN.TraceRouteDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                The maximum number of hop used in outgoing probe packets (max TTL). The default is 30 hops.
+                </description>
+                <value>30</value>
+            </row>
+            <row>
+                <name>Device.LAN.TraceRouteDiagnostics.DSCP</name>
+                <access>11</access>
+                <syntax>unsignedInt_range-1,63-</syntax>
+                <parent>Device.LAN.TraceRouteDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                DiffServ codepoint to be used for the test packets. By default the CPE SHOULD set this value to zero.
+                </description>
+                <value>0</value>
+            </row>
+            <row>
+                <name>Device.LAN.TraceRouteDiagnostics.ResponseTime</name>
+                <access>11</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.TraceRouteDiagnostics.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Result parameter indicating the response time in milliseconds the most recent trace route test. 
+                If a route could not be determined, this value MUST be zero.
+                </description>
+                <value>0</value>
+            </row>
+            <row>
+                <name>Device.LAN.TraceRouteDiagnostics.NumberOfRouteHops</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.LAN.TraceRouteDiagnostics.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Result parameter indicating the number of hops within the discovered route. 
+                If a route could not be determined, this value MUST be zero.
+                </description>
+                <value>0</value>
+            </row> -->
+            <row>
+                <name>Device.X_JRM_TMC.CheckDiskDiagnostics.PhyMemSize</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.X_JRM_TMC.CheckDiskDiagnostics.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                Identifies the physical memory size of CPE
+                </description>
+                <value>0</value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.CheckDiskDiagnostics.StorageSize</name>
+                <access>10</access>
+                <syntax>unsignedInt</syntax>
+                <parent>Device.X_JRM_TMC.CheckDiskDiagnostics.</parent>
+                <activeNotify>1</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>
+                storage size of CPE
+                </description>
+                <value>0</value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.LogDiagnostics.LogLevel</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.LogDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>log level.</description>
+                <value>1</value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.LogDiagnostics.LogTag</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.LogDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>log tag.</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.LogDiagnostics.LogFormat</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.LogDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>log format.</description>
+                <value>time</value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.LogDiagnostics.LogSize</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.LogDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>log size.</description>
+                <value>512</value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.LogDiagnostics.LogServerURL</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.LogDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>log url.</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.LogDiagnostics.LogFileName</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.LogDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>logfile name.</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.LogDiagnostics.FileType</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.LogDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>log FileType.</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.LogDiagnostics.Username</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.LogDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>log upload username.</description>
+                <value>admin</value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.LogDiagnostics.Password</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.LogDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>log upload password.</description>
+                <value>admin</value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.LogDiagnostics.ExtCommand</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.LogDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>ext command.</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.CPUMemoryDiagnostics.CPUNumber</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.CPUMemoryDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.CPUMemoryDiagnostics.CPUInterval</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.CPUMemoryDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.CPUMemoryDiagnostics.CPUResults</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.CPUMemoryDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.CPUMemoryDiagnostics.MemoryNumber</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.CPUMemoryDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.CPUMemoryDiagnostics.MemoryInterval</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.CPUMemoryDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.CPUMemoryDiagnostics.MemoryResults</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.CPUMemoryDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.CPUMemoryDiagnostics.MemoryToltal</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.CPUMemoryDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row>
+            <row>
+            	<name>Device.X_JRM_TMC.CPUMemoryDiagnostics.ProgressCounter</name>
+                <access>10</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.CPUMemoryDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.X_UTC.BusinessNumber</name>
+                <access>10</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.X_UTC.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.X_UTC.BusinessPasword</name>
+                <access>10</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.X_UTC.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row>
+            <!-- <row>
+                <name>Device.X_JRM_TMC.BOOT_STRAP_SETTING.BootStartPictureURL</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.BOOT_STRAP_SETTING.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row> -->
+            <!-- <row>
+                <name>Device.X_JRM_TMC.BOOT_STRAP_SETTING.BootStartPictureTargetPath</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.BOOT_STRAP_SETTING.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row> -->
+            <row>
+                <name>Device.X_JRM_TMC.STATISTIC.ApkStatus</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.STATISTIC.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.STATISTIC.SaveAppStatusInterval</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.STATISTIC.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value>1200000</value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.STATISTIC.NetType</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_JRM_TMC.STATISTIC.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.STATISTIC.ReceveFlow</name>
+                <access>11</access>
+                <syntax>unsignedInt_range-1,-</syntax>
+                <parent>Device.X_JRM_TMC.STATISTIC.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.STATISTIC.SendFlow</name>
+                <access>11</access>
+                <syntax>unsignedInt_range-1,-</syntax>
+                <parent>Device.X_JRM_TMC.STATISTIC.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.STATISTIC.HealthyInterval</name>
+                <access>11</access>
+                <syntax>unsignedInt_range-1,-</syntax>
+                <parent>Device.X_JRM_TMC.STATISTIC.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value>180000</value>
+            </row>
+            <row>
+                <name>Device.X_JRM_TMC.BOOT_STRAP_SETTING.BootStartTIME</name>
+                <access>11</access>
+                <syntax>unsignedInt_range-1,-</syntax>
+                <parent>Device.X_JRM_TMC.BOOT_STRAP_SETTING.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description></description>
+                <value></value>
+            </row>
+            
+            <!-- <row>
+                <name>Device.X_XN_RT.AD_Left</name>
+                <access>11</access>
+                <syntax>string_size-32768-</syntax>
+                <parent>Device.X_XN_RT.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the left side of advertisement</description>
+                <value>http://widgetepg.babao.com/widgetEPG/wigicon/b65b163255ab71d9b0284b0df83889b1.jpg</value>
+            </row>
+            
+            <row>
+                <name>Device.X_XN_RT.AD_Bottom</name>
+                <access>11</access>
+                <syntax>string_size-32768-</syntax>
+                <parent>Device.X_XN_RT.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the bottom side of advertisement</description>
+                <value>http://widgetepg.babao.com/widgetEPG/wigicon/079bcaa166410acebf35ed69c1dffb1e.jpg</value>
+            </row> -->
+            
+            <!-- <row>
+                <name>Device.X_XN_RT.AD_LockScreen</name>
+                <access>11</access>
+                <syntax>string_size-32768-</syntax>
+                <parent>Device.X_XN_RT.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the bottom side of advertisement</description>
+                <value>http://widgetepg.babao.com/widgetEPG/wigicon/079bcaa166410acebf35ed69c1dffb1e.jpg</value>
+            </row> -->    
+            
+            <row>
+                <name>Device.X_EOS_TMC.DeviceInfo.SN</name>
+                <access>11</access>
+                <syntax>string_size-32768-</syntax>
+                <parent>Device.X_EOS_TMC.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the real serial number of device</description>
+                <value>8888888888</value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.DeviceInfo.DeviceName</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_EOS_TMC.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>device name</description>
+                <value>rk3066</value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.DeviceInfo.BBNumber</name>
+                <access>11</access>
+                <syntax>string_size-32-</syntax>
+                <parent>Device.X_EOS_TMC.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>device BB number</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.DeviceInfo.LocationInfo</name>
+                <access>11</access>
+                <syntax>string_size-32768-</syntax>
+                <parent>Device.X_EOS_TMC.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>location info</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.DeviceInfo.LocationEncrypt</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_EOS_TMC.DeviceInfo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>encrypt key(liek+mac)</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.Crack.ServiceName</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_EOS_TMC.Crack.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the name of start service</description>
+                <value>com.eostek.taskservice.TaskService</value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.Appstore.AppUrl</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_EOS_TMC.Appstore.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>appstore apk_startup app's download url</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.Appstore.AppPkg</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_EOS_TMC.Appstore.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>appstore apk_startup app's pkgname</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.Appstore.StartCount</name>
+                <access>11</access>
+                <syntax>string_size-32-</syntax>
+                <parent>Device.X_EOS_TMC.Appstore.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>appstore apk_startup app's startcount</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.Appstore.UninstallFlag</name>
+                <access>11</access>
+                <syntax>string_size-32-</syntax>
+                <parent>Device.X_EOS_TMC.Appstore.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>appstore apk_startup app's uninstallflag</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.OtherBusi.AdNotify</name>
+                <access>11</access>
+                <syntax>string_size-32-</syntax>
+                <parent>Device.X_EOS_TMC.OtherBusi.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>notify ads action</description>
+                <value>com.eostek.ads</value>
+            </row>
+             <row>
+                <name>Device.X_EOS_TMC.Advertising.Switch</name>
+                <access>11</access>
+                <syntax>string_size-32-</syntax>
+                <parent>Device.X_EOS_TMC.Advertising.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>notify ads switch action</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.BigData.UpdateNotify</name>
+                <access>11</access>
+                <syntax>string_size-32-</syntax>
+                <parent>Device.X_EOS_TMC.BigData.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the config of big data update notify</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.ScreenShot.ScreenShotTask</name>
+                <access>11</access>
+                <syntax>string_size-32-</syntax>
+                <parent>Device.X_EOS_TMC.ScreenShot.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the config of screen shot notify</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.BootVideo.Url</name>
+                <access>11</access>
+                <syntax>string_size-256-</syntax>
+                <parent>Device.X_EOS_TMC.BootVideo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the config of bootvideo download url</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.BootVideo.MD5</name>
+                <access>11</access>
+                <syntax>string_size-32-</syntax>
+                <parent>Device.X_EOS_TMC.BootVideo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the config of bootvideo md5</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.BootVideo.Size</name>
+                <access>11</access>
+                <syntax>string_size-32-</syntax>
+                <parent>Device.X_EOS_TMC.BootVideo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the config of bootvideo md5</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.BootVideo.RemoveFlag</name>
+                <access>11</access>
+                <syntax>string_size-32-</syntax>
+                <parent>Device.X_EOS_TMC.BootVideo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the config of bootvideo recovery</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.BootVideo.AddTime</name>
+                <access>11</access>
+                <syntax>string_size-32-</syntax>
+                <parent>Device.X_EOS_TMC.BootVideo.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the config of bootvideo add time</description>
+                <value></value>
+            </row>
+             <row>
+                <name>Device.X_EOS_TMC.Vip.Sync</name>
+                <access>11</access>
+                <syntax>string_size-32-</syntax>
+                <parent>Device.X_EOS_TMC.Vip.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the config of vip mode</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.Virtual.VirtualMac</name>
+                <access>11</access>
+                <syntax>string_size-32-</syntax>
+                <parent>Device.X_EOS_TMC.Virtual.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the config of virtual mac</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.LogDiagnostics.AutoUploadSwitch</name>
+                <access>11</access>
+                <syntax>string_size-64-</syntax>
+                <parent>Device.X_EOS_TMC.LogDiagnostics.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the switch of auto upload log</description>
+                <value>0</value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.SNPLUS.Tracker</name>
+                <access>11</access>
+                <syntax>string_size-32768-</syntax>
+                <parent>Device.X_EOS_TMC.SNPLUS.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the url for SN plus tracker</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.SNPLUS.Push</name>
+                <access>11</access>
+                <syntax>string_size-32768-</syntax>
+                <parent>Device.X_EOS_TMC.SNPLUS.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the url for SN plus push list</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.SNPLUS.UploadSpeed</name>
+                <access>11</access>
+                <syntax>string_size-32768-</syntax>
+                <parent>Device.X_EOS_TMC.SNPLUS.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the upload speed for SN plus</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.SNPLUS.DownloadSpeed</name>
+                <access>11</access>
+                <syntax>string_size-32768-</syntax>
+                <parent>Device.X_EOS_TMC.SNPLUS.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the download speed for SN plus</description>
+                <value></value>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.SNPLUS.MaxConnection</name>
+                <access>11</access>
+                <syntax>string_size-32768-</syntax>
+                <parent>Device.X_EOS_TMC.SNPLUS.</parent>
+                <activeNotify>0</activeNotify>
+                <forcedInform>0</forcedInform>
+                <hidden>false</hidden>
+                <description>the max connection for SN plus</description>
+                <value></value>
+            </row>
+        </rows>
+    </tab_parameter>
+
+    <tab_object>
+        <rows>
+            <row>
+                <name>Device.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <!-- 0/1/2 -->
+                <description>Device.</description>
+            </row>
+            
+            <row>
+                <name>Device.Services.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>Device.Services.</description>
+            </row>
+            
+            <row>
+                <name>Device.DeviceInfo.</name>
+                <!-- 
+                	read write
+                bit  0/1   0/1
+                0:false 1:true
+                 -->
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <!-- 0/1/2 -->
+                <description>Device.DeviceInfo.</description>
+            </row>
+            
+            <row>
+                <name>Device.ManagementServer.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <!-- 0/1/2 -->
+                <description>Device.ManagementServer.</description>
+            </row>
+            
+            <!-- <row>
+                <name>Device.GatewayInfo.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>This object contains information associated with a connected Internet Gateway Device.</description>
+            </row> -->
+            
+            <!-- <row>
+                <name>Device.Config.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>This object contains general configuration parameters.</description>
+            </row> -->
+            
+            <row>
+                <name>Device.Time.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>This object contains parameters relating an NTP or SNTP time client in the CPE. Support for this object is Optional.</description>
+            </row>
+            
+            <row>
+                <name>Device.UserInterface.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>This object contains parameters relating to the user interface of the CPE. Support for this object is Optional.</description>
+            </row>            
+            
+            <row>
+                <name>Device.LAN.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <!-- 0/1/2 -->
+                <description>Device.LAN.</description>
+            </row>
+            
+            <row>
+                <name>Device.LAN.Stats.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <!-- 0/1/2 -->
+                <description>This object contains statistics for the default IP interface.</description>
+            </row>
+            
+            <row>
+                <name>Device.LAN.IPPingDiagnostics.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <!-- 0/1/2 -->
+                <description>Device.LAN.IPPingDiagnostics.</description>
+            </row>
+            
+            <!-- <row>
+                <name>Device.LAN.TraceRouteDiagnostics.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                0/1/2
+                <description>This object is defines access to an IP-layer trace-route test for the default IP interface.</description>
+            </row> -->
+            
+            <row>
+                <name>Device.X_JRM_TMC.CheckDiskDiagnostics.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>This object defines access to an disk test.</description>
+            </row>
+            
+            <row>
+                <name>Device.X_JRM_TMC.LogDiagnostics.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>This object defines access to an disk test.</description>
+            </row>
+            
+            <row>
+                <name>Device.X_JRM_TMC.CPUMemoryDiagnostics.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>This object defines access to an cpu info test.</description>
+            </row>
+            
+            <row>
+                <name>Device.X_JRM_TMC.BOOT_STRAP_SETTING.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>This will be used to setting system properties when booting</description>
+            </row>
+            
+            <row>
+                <name>Device.X_JRM_TMC.X_UTC.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>The Unicom expansion node</description>
+            </row>
+            
+            <row>
+                <name>Device.X_JRM_TMC.STATISTIC.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>cpe statistic information</description>
+            </row>
+            
+            <!-- <row>
+                <name>Device.X_XN_RT.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>This will be used to config xiang ning radio and television</description>
+            </row> -->
+            <row>
+                <name>Device.X_EOS_TMC.DeviceInfo.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>This will be used to config eostek device</description>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.Crack.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>This will be used to config crack</description>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.OtherBusi.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>This will be used to config notify task</description>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.Advertising.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>This will be used to config ads switch task</description>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.Appstore.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>config appstore apk_startup notify</description>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.LogDiagnostics.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>This will be used to config eostek log diagnostics</description>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.SNPLUS.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>This will be used to config SN plus</description>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.BigData.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>config big data update notify</description>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.ScreenShot.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>config big data update notify</description>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.BootVideo.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>config bootvideo notify</description>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.Vip.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>config vip notify</description>
+            </row>
+            <row>
+                <name>Device.X_EOS_TMC.Virtual.</name>
+                <access>10</access>
+                <minEntries>1</minEntries>
+                <maxEntries>1</maxEntries>
+                <description>config virtual mac notify</description>
+            </row>
+    	</rows>
+	</tab_object>
+</table>

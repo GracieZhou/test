@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ethernet_ipv6_address_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="gone">
+<!-- android:visibility="gone" -->
+    <RelativeLayout
+        android:id="@+id/ip_address_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/ipv6_layout_rl_min_height" >
+
+        <TextView
+            android:layout_width="@dimen/ipv6_layout_tv_width"
+            android:layout_height="@dimen/ipv6_layout_tv_height"
+            android:paddingLeft="@dimen/ipv6_layout_tv_padding_left"
+            android:text="@string/ip_address"
+            android:textColor="#CCCCCCCC"
+            android:textSize="@dimen/ipv6_layout_tv_textsize" />
+
+        <EditText
+            android:id="@+id/ethernet_v6_ip"
+            android:layout_width="@dimen/ipv6_layout_et_width"
+            android:layout_height="@dimen/ipv6_layout_et_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ipv6_layout_et_margin_right"
+            android:background="@drawable/edit_text_large"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="39"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/subnet_mask_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/ipv6_layout_rl_min_height" >
+
+        <TextView
+            android:layout_width="@dimen/ipv6_layout_tv_width"
+            android:layout_height="@dimen/ipv6_layout_tv_height"
+            android:paddingLeft="@dimen/ipv6_layout_tv_padding_left"
+            android:text="@string/ipv6_netmask"
+            android:textColor="#CCCCCCCC"
+            android:textSize="@dimen/ipv6_layout_tv_textsize" />
+
+        <EditText
+            android:id="@+id/ethernet_v6_subnet"
+            android:layout_width="@dimen/ipv6_layout_et_width"
+            android:layout_height="@dimen/ipv6_layout_et_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ipv6_layout_et_margin_right"
+            android:background="@drawable/edit_text_large"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="2"
+            android:numeric="integer"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/default_gateway_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/ipv6_layout_rl_min_height" >
+
+        <TextView
+            android:layout_width="@dimen/ipv6_layout_tv_width"
+            android:layout_height="@dimen/ipv6_layout_tv_height"
+            android:paddingLeft="@dimen/ipv6_layout_tv_padding_left"
+            android:text="@string/default_geteway"
+            android:textColor="#CCCCCCCC"
+            android:textSize="@dimen/ipv6_layout_tv_textsize" />
+
+        <EditText
+            android:id="@+id/ethernet_v6_gateway"
+            android:layout_width="@dimen/ipv6_layout_et_width"
+            android:layout_height="@dimen/ipv6_layout_et_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ipv6_layout_et_margin_right"
+            android:background="@drawable/edit_text_large"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="39"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/first_dns_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/ipv6_layout_rl_min_height" >
+
+        <TextView
+            android:layout_width="@dimen/ipv6_layout_tv_width"
+            android:layout_height="@dimen/ipv6_layout_tv_height"
+            android:paddingLeft="@dimen/ipv6_layout_tv_padding_left"
+            android:text="@string/first_dns"
+            android:textColor="#CCCCCCCC"
+            android:textSize="@dimen/ipv6_layout_tv_textsize" />
+
+        <EditText
+            android:id="@+id/ethernet_v6_first"
+            android:layout_width="@dimen/ipv6_layout_et_width"
+            android:layout_height="@dimen/ipv6_layout_et_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ipv6_layout_et_margin_right"
+            android:background="@drawable/edit_text_large"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="39"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/second_dns_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/ipv6_layout_rl_min_height" >
+
+        <TextView
+            android:layout_width="@dimen/ipv6_layout_tv_width"
+            android:layout_height="@dimen/ipv6_layout_tv_height"
+            android:paddingLeft="@dimen/ipv6_layout_tv_padding_left"
+            android:text="@string/second_dns"
+            android:textColor="#CCCCCCCC"
+            android:textSize="@dimen/ipv6_layout_tv_textsize" />
+
+        <EditText
+            android:id="@+id/ethernet_v6_second"
+            android:layout_width="@dimen/ipv6_layout_et_width"
+            android:layout_height="@dimen/ipv6_layout_et_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ipv6_layout_et_margin_right"
+            android:background="@drawable/edit_text_large"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="39"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+</LinearLayout>

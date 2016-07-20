@@ -1,0 +1,300 @@
+device/eostek/common/libraries/SciflyUI/jni/security/scifly_security_SecurityNative.cpp:107:17: warning: unused parameter 'thiz' [-Wunused-parameter]
+ static jboolean scifly_security_SecurityNative_checkPermission(JNIEnv *env,
+                 ^
+device/eostek/common/libraries/SciflyUI/jni/security/scifly_security_SecurityNative.cpp:166:6: warning: unused parameter 'reserved' [-Wunused-parameter]
+ jint JNI_OnLoad(JavaVM* vm, void* reserved) {
+      ^
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:144:49: warning: unused parameter 'env' [-Wunused-parameter]
+ static void scifly_tv_VirtualMouse_open(JNIEnv *env, jobject thiz) {
+                                                 ^
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:144:62: warning: unused parameter 'thiz' [-Wunused-parameter]
+ static void scifly_tv_VirtualMouse_open(JNIEnv *env, jobject thiz) {
+                                                              ^
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:156:50: warning: unused parameter 'env' [-Wunused-parameter]
+ static void scifly_tv_VirtualMouse_close(JNIEnv *env, jobject thiz) {
+                                                  ^
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:156:63: warning: unused parameter 'thiz' [-Wunused-parameter]
+ static void scifly_tv_VirtualMouse_close(JNIEnv *env, jobject thiz) {
+                                                               ^
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:170:49: warning: unused parameter 'env' [-Wunused-parameter]
+ static void scifly_tv_VirtualMouse_move(JNIEnv *env, jobject thiz, jint x, jint y) {
+                                                 ^
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:170:62: warning: unused parameter 'thiz' [-Wunused-parameter]
+ static void scifly_tv_VirtualMouse_move(JNIEnv *env, jobject thiz, jint x, jint y) {
+                                                              ^
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:207:50: warning: unused parameter 'env' [-Wunused-parameter]
+ static void scifly_tv_VirtualMouse_click(JNIEnv *env, jobject thiz,
+                                                  ^
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:207:63: warning: unused parameter 'thiz' [-Wunused-parameter]
+ static void scifly_tv_VirtualMouse_click(JNIEnv *env, jobject thiz,
+                                                               ^
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:320:35: warning: unused parameter 'reserved' [-Wunused-parameter]
+ jint JNI_OnLoad(JavaVM* vm, void* reserved) {
+                                   ^
+device/eostek/common/libraries/SciflyUI/jni/security/scifly_security_SecurityNative.cpp:108:17: warning: unused parameter 'thiz' [-Wunused-parameter]
+         jobject thiz, jint pid, jstring signature) {
+                 ^
+device/eostek/common/libraries/SciflyUI/jni/security/scifly_security_SecurityNative.cpp:166:35: warning: unused parameter 'reserved' [-Wunused-parameter]
+ jint JNI_OnLoad(JavaVM* vm, void* reserved) {
+                                   ^
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:144:13: warning: unused parameter 'env' [-Wunused-parameter]
+ static void scifly_tv_VirtualMouse_open(JNIEnv *env, jobject thiz) {
+             ^
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:144:13: warning: unused parameter 'thiz' [-Wunused-parameter]
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:156:13: warning: unused parameter 'env' [-Wunused-parameter]
+ static void scifly_tv_VirtualMouse_close(JNIEnv *env, jobject thiz) {
+             ^
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:156:13: warning: unused parameter 'thiz' [-Wunused-parameter]
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:170:13: warning: unused parameter 'env' [-Wunused-parameter]
+ static void scifly_tv_VirtualMouse_move(JNIEnv *env, jobject thiz, jint x, jint y) {
+             ^
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:170:13: warning: unused parameter 'thiz' [-Wunused-parameter]
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:207:13: warning: unused parameter 'env' [-Wunused-parameter]
+ static void scifly_tv_VirtualMouse_click(JNIEnv *env, jobject thiz,
+             ^
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:207:13: warning: unused parameter 'thiz' [-Wunused-parameter]
+device/eostek/common/libraries/SciflyUI/jni/virtualmouse/scifly_virtualmouse.cpp:320:6: warning: unused parameter 'reserved' [-Wunused-parameter]
+ jint JNI_OnLoad(JavaVM* vm, void* reserved) {
+      ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1329] out/host/linux-x86/bin/dex2oatd --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes=frameworks/base/preloaded-classes --dex-file=out/target/common/obj/JAVA_LIBRARIES/com.mstar.android_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/conscrypt_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/core-junit_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/bouncycastle_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/voip-common_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/ims-common_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/mms-common_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/android.policy_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/apache-xml_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/scifly.android_intermediates/javalib.jar --dex-location=/system/framework/com.mstar.android.jar --dex-location=/system/framework/core-libart.jar --dex-location=/system/framework/conscrypt.jar --dex-location=/system/framework/okhttp.jar --dex-location=/system/framework/core-junit.jar --dex-location=/system/framework/bouncycastle.jar --dex-location=/system/framework/ext.jar --dex-location=/system/framework/framework.jar --dex-location=/system/framework/telephony-common.jar --dex-location=/system/framework/voip-common.jar --dex-location=/system/framework/ims-common.jar --dex-location=/system/framework/mms-common.jar --dex-location=/system/framework/android.policy.jar --dex-location=/system/framework/apache-xml.jar --dex-location=/system/framework/scifly.android.jar --oat-symbols=out/target/product/scifly/symbols/system/framework/arm/boot.oat --oat-file=out/target/product/scifly/dex_bootjars/system/framework/arm/boot.oat --oat-location=/system/framework/arm/boot.oat --image=out/target/product/scifly/dex_bootjars/system/framework/arm/boot.art --base=0x70000000 --instruction-set=arm --instruction-set-features=div --android-root=out/target/product/scifly/system --include-patch-information --runtime-arg -Xnorelocate --no-include-debug-symbols
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1329] out/host/linux-x86/bin/dex2oatd --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes=frameworks/base/preloaded-classes --dex-file=out/target/common/obj/JAVA_LIBRARIES/com.mstar.android_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/conscrypt_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/core-junit_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/bouncycastle_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/voip-common_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/ims-common_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/mms-common_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/android.policy_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/apache-xml_intermediates/javalib.jar --dex-file=out/target/common/obj/JAVA_LIBRARIES/scifly.android_intermediates/javalib.jar --dex-location=/system/framework/com.mstar.android.jar --dex-location=/system/framework/core-libart.jar --dex-location=/system/framework/conscrypt.jar --dex-location=/system/framework/okhttp.jar --dex-location=/system/framework/core-junit.jar --dex-location=/system/framework/bouncycastle.jar --dex-location=/system/framework/ext.jar --dex-location=/system/framework/framework.jar --dex-location=/system/framework/telephony-common.jar --dex-location=/system/framework/voip-common.jar --dex-location=/system/framework/ims-common.jar --dex-location=/system/framework/mms-common.jar --dex-location=/system/framework/android.policy.jar --dex-location=/system/framework/apache-xml.jar --dex-location=/system/framework/scifly.android.jar --oat-symbols=out/target/product/scifly/symbols/system/framework/arm64/boot.oat --oat-file=out/target/product/scifly/dex_bootjars/system/framework/arm64/boot.oat --oat-location=/system/framework/arm64/boot.oat --image=out/target/product/scifly/dex_bootjars/system/framework/arm64/boot.art --base=0x70000000 --instruction-set=arm64 --instruction-set-features=default --android-root=out/target/product/scifly/system --include-patch-information --runtime-arg -Xnorelocate --no-include-debug-symbols
+dex2oatd I 24846 24846 art/runtime/gc/heap.cc:2254] Explicit concurrent mark sweep GC freed 55454(6MB) AllocSpace objects, 0(0B) LOS objects, 13% free, 24MB/28MB, paused 710.828ms total 1.753s
+dex2oatd I 24847 24847 art/runtime/gc/heap.cc:2254] Explicit concurrent mark sweep GC freed 53947(6MB) AllocSpace objects, 0(0B) LOS objects, 13% free, 24MB/28MB, paused 709.920ms total 1.922s
+dex2oatd I 24846 24882 art/compiler/dex/frontend.cc:632] Method exceeds compiler instruction limit: 21296 in void org.ccil.cowan.tagsoup.HTMLSchema.<init>()
+dex2oatd I 24846 24875 art/compiler/dex/mir_graph.cc:1709] Topological sort order: Using fall-back in boolean android.util.Base64$Encoder.process(byte[], int, int, boolean) BB #7 @0x247, num_blocks = 67
+dex2oatd I 24847 24868 art/compiler/dex/frontend.cc:632] Method exceeds compiler instruction limit: 21296 in void org.ccil.cowan.tagsoup.HTMLSchema.<init>()
+dex2oatd I 24847 24862 art/compiler/dex/mir_graph.cc:1709] Topological sort order: Using fall-back in boolean android.util.Base64$Encoder.process(byte[], int, int, boolean) BB #7 @0x247, num_blocks = 67
+dex2oatd I 24846 24846 art/compiler/image_writer.cc:596] Total # image strings=43260 combined length=1050860 prefix saved chars=73930
+dex2oatd I 24846 24846 art/runtime/gc/heap.cc:2254] Explicit concurrent mark sweep GC freed 286472(19MB) AllocSpace objects, 0(0B) LOS objects, 26% free, 11MB/15MB, paused 386.440ms total 921.831ms
+dex2oatd I 24846 24846 art/compiler/image_writer.cc:923] Bin summary (total size: 10444496): 
+dex2oatd I 24846 24846 art/compiler/image_writer.cc:925]   bin# 0, number objects: 40360,  total byte size: 968640
+dex2oatd I 24846 24846 art/compiler/image_writer.cc:925]   bin# 1, number objects: 39749,  total byte size: 1907952
+dex2oatd I 24846 24846 art/compiler/image_writer.cc:925]   bin# 2, number objects: 46865,  total byte size: 5618304
+dex2oatd I 24846 24846 art/compiler/image_writer.cc:925]   bin# 3, number objects: 3024,  total byte size: 1299896
+dex2oatd I 24846 24846 art/compiler/image_writer.cc:925]   bin# 4, number objects: 151,  total byte size: 87304
+dex2oatd I 24846 24846 art/compiler/image_writer.cc:925]   bin# 5, number objects: 179,  total byte size: 137936
+dex2oatd I 24846 24846 art/compiler/image_writer.cc:925]   bin# 6, number objects: 3744,  total byte size: 179712
+dex2oatd I 24846 24846 art/compiler/image_writer.cc:925]   bin# 7, number objects: 5099,  total byte size: 244752
+dex2oatd I 24847 24847 art/compiler/image_writer.cc:596] Total # image strings=43244 combined length=1050519 prefix saved chars=73890
+dex2oatd I 24847 24847 art/runtime/gc/heap.cc:2254] Explicit concurrent mark sweep GC freed 286440(19MB) AllocSpace objects, 0(0B) LOS objects, 26% free, 11MB/15MB, paused 393.345ms total 933.321ms
+dex2oatd I 24847 24847 art/compiler/image_writer.cc:923] Bin summary (total size: 11221968): 
+dex2oatd I 24847 24847 art/compiler/image_writer.cc:925]   bin# 0, number objects: 40360,  total byte size: 968640
+dex2oatd I 24847 24847 art/compiler/image_writer.cc:925]   bin# 1, number objects: 39749,  total byte size: 2543936
+dex2oatd I 24847 24847 art/compiler/image_writer.cc:925]   bin# 2, number objects: 46865,  total byte size: 5618304
+dex2oatd I 24847 24847 art/compiler/image_writer.cc:925]   bin# 3, number objects: 3024,  total byte size: 1299896
+dex2oatd I 24847 24847 art/compiler/image_writer.cc:925]   bin# 4, number objects: 151,  total byte size: 87304
+dex2oatd I 24847 24847 art/compiler/image_writer.cc:925]   bin# 5, number objects: 179,  total byte size: 137936
+dex2oatd I 24847 24847 art/compiler/image_writer.cc:925]   bin# 6, number objects: 3744,  total byte size: 239616
+dex2oatd I 24847 24847 art/compiler/image_writer.cc:925]   bin# 7, number objects: 5099,  total byte size: 326336
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708] compiler [Exclusive time] [Total time]
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]   4.375s/54.266s dex2oat Setup
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     1.457s LoadImageClasses
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.095s Resolve Types
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.076s Resolve MethodsAndFields
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.108s Resolve Types
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.039s Resolve MethodsAndFields
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.005s Resolve Types
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.017s Resolve MethodsAndFields
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.006s Resolve Types
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.003s Resolve MethodsAndFields
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.002s Resolve Types
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0s Resolve MethodsAndFields
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.032s Resolve Types
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.005s Resolve MethodsAndFields
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.087s Resolve Types
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.028s Resolve MethodsAndFields
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.500s Resolve Types
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     1.344s Resolve MethodsAndFields
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.196s Resolve Types
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.270s Resolve MethodsAndFields
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.227s Resolve Types
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.040s Resolve MethodsAndFields
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.008s Resolve Types
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.002s Resolve MethodsAndFields
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.004s Resolve Types
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.003s Resolve MethodsAndFields
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0s Resolve Types
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0s Resolve MethodsAndFields
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.025s Resolve Types
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.035s Resolve MethodsAndFields
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.179s Resolve Types
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.048s Resolve MethodsAndFields
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.283s Resolve Types
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.062s Resolve MethodsAndFields
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.498s Verify Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.719s Verify Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.097s Verify Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.063s Verify Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.011s Verify Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.408s Verify Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.557s Verify Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     2.988s Verify Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.692s Verify Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.615s Verify Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.079s Verify Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.043s Verify Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0s Verify Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.181s Verify Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.428s Verify Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.679s Verify Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.030s InitializeNoClinit
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.345s InitializeNoClinit
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.017s InitializeNoClinit
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.019s InitializeNoClinit
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0s InitializeNoClinit
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.278s InitializeNoClinit
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     2.753s InitializeNoClinit
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.591s InitializeNoClinit
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.068s InitializeNoClinit
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.011s InitializeNoClinit
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.001s InitializeNoClinit
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0s InitializeNoClinit
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0s InitializeNoClinit
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.004s InitializeNoClinit
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.009s InitializeNoClinit
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.026s InitializeNoClinit
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.604s UpdateImageClasses
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.402s Compile Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     1.721s Compile Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.168s Compile Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.194s Compile Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.025s Compile Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.718s Compile Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.839s Compile Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     5.220s Compile Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     1.947s Compile Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     1.207s Compile Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.131s Compile Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.145s Compile Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0s Compile Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.480s Compile Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.574s Compile Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     1.579s Compile Dex File
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0s/1.966s dex2oat OatWriter
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]       0s InitOatHeader
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]       0s InitOatDexFiles
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]       0s InitDexFiles
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]       0.249s InitOatClasses
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]       0.334s InitOatMaps
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]       0.002s InitOatCode
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]       1.379s InitOatCodeDexFiles
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     2.064s Writing ELF
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     12.394s dex2oat ImageWriter
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708]     0.078s dex2oat OatFile copy
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708] compiler: end, 54.266s
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:1708] 
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:276] dex2oat took 52.433s (threads: 16) arena alloc=1943KB java alloc=11MB native alloc=7MB free=10MB
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:276] Code dedupe: 0 collisions, 0 max bucket size, 235226640 ns hash time
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:276] Mapping table dedupe: 0 collisions, 0 max bucket size, 174278153 ns hash time
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:276] Vmap table dedupe: 0 collisions, 0 max bucket size, 154664317 ns hash time
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:276] GC map dedupe: 0 collisions, 0 max bucket size, 160090102 ns hash time
+dex2oatd I 24846 24846 art/dex2oat/dex2oat.cc:276] CFI info dedupe: 0 collisions, 0 max bucket size, 0 ns hash time
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708] compiler [Exclusive time] [Total time]
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]   4.566s/58.741s dex2oat Setup
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     1.451s LoadImageClasses
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.083s Resolve Types
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.085s Resolve MethodsAndFields
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.094s Resolve Types
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.056s Resolve MethodsAndFields
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.007s Resolve Types
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.016s Resolve MethodsAndFields
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.005s Resolve Types
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.002s Resolve MethodsAndFields
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.001s Resolve Types
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0s Resolve MethodsAndFields
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.032s Resolve Types
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.010s Resolve MethodsAndFields
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.067s Resolve Types
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.013s Resolve MethodsAndFields
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.445s Resolve Types
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     1.405s Resolve MethodsAndFields
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.176s Resolve Types
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.289s Resolve MethodsAndFields
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.227s Resolve Types
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.049s Resolve MethodsAndFields
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.021s Resolve Types
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.004s Resolve MethodsAndFields
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.003s Resolve Types
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.003s Resolve MethodsAndFields
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0s Resolve Types
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0s Resolve MethodsAndFields
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.027s Resolve Types
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.035s Resolve MethodsAndFields
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.172s Resolve Types
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.049s Resolve MethodsAndFields
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.268s Resolve Types
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.042s Resolve MethodsAndFields
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.609s Verify Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.756s Verify Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.099s Verify Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.070s Verify Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.013s Verify Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.375s Verify Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.565s Verify Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     3.382s Verify Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.687s Verify Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.509s Verify Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.045s Verify Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.033s Verify Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.001s Verify Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.169s Verify Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.422s Verify Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.593s Verify Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.019s InitializeNoClinit
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.310s InitializeNoClinit
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.017s InitializeNoClinit
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.019s InitializeNoClinit
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0s InitializeNoClinit
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.341s InitializeNoClinit
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     2.823s InitializeNoClinit
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.592s InitializeNoClinit
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.067s InitializeNoClinit
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.011s InitializeNoClinit
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.001s InitializeNoClinit
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0s InitializeNoClinit
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0s InitializeNoClinit
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.004s InitializeNoClinit
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.009s InitializeNoClinit
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.025s InitializeNoClinit
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.637s UpdateImageClasses
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     1.119s Compile Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     2.792s Compile Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.295s Compile Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.342s Compile Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.043s Compile Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     1.085s Compile Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     1.249s Compile Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     8.295s Compile Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     1.655s Compile Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     1.081s Compile Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.148s Compile Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.194s Compile Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0s Compile Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.736s Compile Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.756s Compile Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     1.350s Compile Dex File
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0s/1.315s dex2oat OatWriter
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]       0s InitOatHeader
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]       0s InitOatDexFiles
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]       0s InitDexFiles
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]       0.153s InitOatClasses
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]       0.242s InitOatMaps
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]       0.001s InitOatCode
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]       0.917s InitOatCodeDexFiles
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     1.574s Writing ELF
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     11.596s dex2oat ImageWriter
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708]     0.161s dex2oat OatFile copy
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708] compiler: end, 58.741s
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:1708] 
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:276] dex2oat took 56.920s (threads: 16) arena alloc=1611KB java alloc=11MB native alloc=8MB free=10MB
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:276] Code dedupe: 2 collisions, 2 max bucket size, 324327903 ns hash time
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:276] Mapping table dedupe: 1 collisions, 2 max bucket size, 182746122 ns hash time
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:276] Vmap table dedupe: 0 collisions, 0 max bucket size, 183650404 ns hash time
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:276] GC map dedupe: 0 collisions, 0 max bucket size, 163921166 ns hash time
+dex2oatd I 24847 24847 art/dex2oat/dex2oat.cc:276] CFI info dedupe: 0 collisions, 0 max bucket size, 0 ns hash time

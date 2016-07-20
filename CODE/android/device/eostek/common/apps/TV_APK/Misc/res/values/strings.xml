@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quality Adjustment</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_3d">Three Dimensions</string>
+    <string name="title_spdif">Spdif Output</string>
+
+    <string-array name="setting_spdifoutput_vals">
+        <item>PCM</item>
+        <item>OFF</item>
+        <item>NONPCM</item>
+    </string-array>
+    <string-array name="item_names">
+        <item>Self Detect</item>
+        <item>3D Conversion</item>
+        <item>3D-2D</item>
+        <item>3D Depth</item>
+        <item>3D Offset</item>
+        <item>LR View Switch</item>
+    </string-array>
+    <string-array name="str_arr_3d_detect_vals">
+        <item>Off</item>
+        <item>Right Now</item>
+        <item>When Scan Change</item>
+    </string-array>
+    <string-array name="str_arr_3d_3dto2d_vals">
+        <item>None</item>
+        <item>SBS</item>
+        <item>TB</item>
+        <item>FP</item>
+        <item>LA</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="str_arr_3d_conversion_vals">
+        <item>None</item>
+        <item>SBS</item>
+        <item>TB</item>
+        <item>FP</item>
+        <item>LA</item>
+        <item>2D-3D</item>
+        <item>Auto</item>
+        <item>CB</item>
+        <item>PA</item>
+        <item>FA</item>
+    </string-array>
+    <string-array name="str_arr_3d_3dofset_vals">
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    
+    <string name="media_title">Media Player Quality</string>
+    <string-array name="title">
+        <item>brightness</item>
+        <item>contrast</item>
+        <item>backlight</item>
+        <item>sharpness</item>
+        <item>Hue</item>
+        <item>Saturation</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Aspect Ratio</item>
+    </string-array>
+    
+    <string-array name="setting_zoommode_vals">
+        <item>Full</item>
+        <item>4:3</item>
+        <item>Auto</item>
+        <item>Panoramic </item>
+        <item>Under Scan</item>
+    </string-array>
+
+</resources>

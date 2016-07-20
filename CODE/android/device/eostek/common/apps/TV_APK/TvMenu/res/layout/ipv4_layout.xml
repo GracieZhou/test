@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ethernet_ipv4_address_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ip_address_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/ip_address_rl_min_height" >
+
+        <TextView
+            android:layout_width="@dimen/ip_address_rl_ip_address_tv_width"
+            android:layout_height="@dimen/ip_address_rl_ip_address_tv_heigth"
+            android:paddingLeft="@dimen/ip_address_rl_ip_address_pad_left"
+            android:text="@string/ip_address"
+            android:textColor="#CCCCCCCC"
+            android:textSize="@dimen/ip_address_rl_ip_address_textsize" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_ip_four"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_four_margin_right"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_ip_three"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_other_margin_right"
+            android:layout_toLeftOf="@+id/ethernet_v4_ip_four"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_ip_two"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_other_margin_right"
+            android:layout_toLeftOf="@+id/ethernet_v4_ip_three"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_ip_one"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_other_margin_right"
+            android:layout_toLeftOf="@+id/ethernet_v4_ip_two"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" >
+
+            <requestFocus />
+        </com.eostek.tvmenu.network.InputIPAddress>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/subnet_mask_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/ip_address_rl_input_ip_four_margin_right" >
+
+        <TextView
+            android:layout_width="@dimen/ip_address_rl_ip_address_tv_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:paddingLeft="@dimen/ip_address_rl_ip_address_pad_left"
+            android:text="@string/subnet_mask"
+            android:textColor="#CCCCCCCC"
+            android:textSize="@dimen/ip_address_rl_ip_address_textsize" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_subnet_four"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_four_margin_right"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_subnet_three"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_other_margin_right"
+            android:layout_toLeftOf="@id/ethernet_v4_subnet_four"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_subnet_two"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_other_margin_right"
+            android:layout_toLeftOf="@id/ethernet_v4_subnet_three"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_subnet_one"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_other_margin_right"
+            android:layout_toLeftOf="@id/ethernet_v4_subnet_two"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/default_gateway_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/ip_address_rl_input_ip_four_margin_right" >
+
+        <TextView
+            android:layout_width="@dimen/ip_address_rl_ip_address_gateway_tv_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:paddingLeft="@dimen/ip_address_rl_ip_address_pad_left"
+            android:text="@string/default_geteway"
+            android:textColor="#CCCCCCCC"
+            android:textSize="@dimen/ip_address_rl_ip_address_textsize" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_gateway_four"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_four_margin_right"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_gateway_three"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_other_margin_right"
+            android:layout_toLeftOf="@id/ethernet_v4_gateway_four"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_gateway_two"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_other_margin_right"
+            android:layout_toLeftOf="@id/ethernet_v4_gateway_three"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_gateway_one"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_other_margin_right"
+            android:layout_toLeftOf="@id/ethernet_v4_gateway_two"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/first_dns_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/ip_address_rl_input_ip_four_margin_right" >
+
+        <TextView
+            android:layout_width="@dimen/ip_address_rl_ip_address_tv_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:paddingLeft="@dimen/ip_address_rl_ip_address_pad_left"
+            android:text="@string/first_dns"
+            android:textColor="#CCCCCCCC"
+            android:textSize="@dimen/ip_address_rl_ip_address_textsize" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_first_four"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_four_margin_right"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_first_three"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_other_margin_right"
+            android:layout_toLeftOf="@id/ethernet_v4_first_four"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_first_two"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_other_margin_right"
+            android:layout_toLeftOf="@id/ethernet_v4_first_three"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_first_one"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_other_margin_right"
+            android:layout_toLeftOf="@id/ethernet_v4_first_two"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/second_dns_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/ip_address_rl_input_ip_four_margin_right" >
+
+        <TextView
+            android:layout_width="@dimen/ip_address_rl_ip_address_tv_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:paddingLeft="@dimen/ip_address_rl_ip_address_pad_left"
+            android:text="@string/second_dns"
+            android:textColor="#CCCCCCCC"
+            android:textSize="@dimen/ip_address_rl_ip_address_textsize" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_second_four"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_four_margin_right"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_second_three"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_other_margin_right"
+            android:layout_toLeftOf="@id/ethernet_v4_second_four"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_second_two"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_other_margin_right"
+            android:layout_toLeftOf="@id/ethernet_v4_second_three"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+
+        <com.eostek.tvmenu.network.InputIPAddress
+            android:id="@+id/ethernet_v4_second_one"
+            android:layout_width="@dimen/ip_address_rl_input_ip_width"
+            android:layout_height="@dimen/ip_address_rl_input_ip_height"
+            android:layout_marginRight="@dimen/ip_address_rl_input_ip_other_margin_right"
+            android:layout_toLeftOf="@id/ethernet_v4_second_two"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="3"
+            android:numeric="integer" />
+    </RelativeLayout>
+
+</LinearLayout>

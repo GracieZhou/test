@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res/com.android.settings">
+
+    <com.android.settings.SettingPreference
+        android:defaultValue="correcttime"
+        android:key="correcttime"
+        android:title="@string/network_correct_time" 
+        app:type="two_column"/>
+    <com.android.settings.SettingPreference
+        android:defaultValue="is24hour"
+        android:key="is24hour"
+        app:valueArray="@array/is24hour"
+        app:type="two_column_with_selector"
+        android:title="@string/is24_hour" />
+	<!--
+    <com.android.settings.SettingPreference
+        android:defaultValue="timezone"
+        android:key="timezone"
+        app:type="two_column"
+        android:title="@string/set_time_zone" />
+    <com.android.settings.SettingPreference
+        android:defaultValue="city"
+        android:key="city"
+        app:type="two_column"
+        android:title="@string/set_city" />
+		 -->
+
+</PreferenceScreen>

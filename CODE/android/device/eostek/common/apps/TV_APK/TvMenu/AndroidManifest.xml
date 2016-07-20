@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eostek.tvmenu"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+<!--     android:sharedUserId="android.uid.system" -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- This permission is required to obtain lineup information via TvSearch -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Using this permission to enumerate the HDMI ports on the system. -->
+    <uses-permission android:name="com.google.android.tv.mediadevices.permission.MEDIA_DEVICES_CLIENT" />
+    <!--
+         These permissions allow the package to edit the streams database to read / store channel
+         records.
+    -->
+    <uses-permission android:name="com.google.android.tv.mediadevices.permission.READ_STREAMS" />
+    <uses-permission android:name="com.google.android.tv.mediadevices.permission.WRITE_STREAMS" />
+
+    <!--
+         These permissions allow the package to read and write device & lineup information in the
+         MediaDevices database.
+    -->
+    <uses-permission android:name="com.google.android.tv.mediadevices.permission.READ_MEDIA_DEVICES_DATA" />
+    <uses-permission android:name="com.google.android.tv.mediadevices.permission.WRITE_MEDIA_DEVICES_DATA" />
+    <!-- These permissions allow access to the lineup. -->
+    <uses-permission android:name="com.google.android.tv.lineup.permission.LIST_LINEUPS" />
+    <uses-permission android:name="com.google.android.tv.lineup.permission.READ_CHANNELS" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.WRITE_GSERVICES" />
+    <uses-permission android:name="com.mstar.android.permissionn.ACCESS_TV_DATA" />
+    <uses-permission android:name="com.google.android.tv.mediadevices.permission.READ_CHANNELS" />
+    <uses-permission android:name="com.google.android.tv.mediadevices.permission.READ_STREAMS" />
+    <uses-permission android:name="com.google.tv.player.permission.PROVIDE_APPWIDGET" />
+    <uses-permission android:name="com.google.tv.player.permission.TOGGLE_WIDGET_VISIBILITY" />
+    <uses-permission android:name="com.google.android.tv.mediadevices.permission.ACCESS_CURRENT_PROGRAM" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.MASTER_CLEAR" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:name=".TvMenuApplication"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- EosTek Patch Begin -->
+        <activity
+            android:name="com.eostek.tvmenu.TvMenuActivity"
+            android:label="@string/menu_custom_option_label"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.eos.android.tv.menu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.eostek.tvmenu.tune.DtvAutoTuningActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.eostek.tvmenu.tune.AtvAutoTuningActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.eostek.tvmenu.advance.SystemNetUpdateActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.eostek.tvmenu.advance.SystemLocalUpdateActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.eostek.tvmenu.network.NetworkSettingsActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.eostek.tvmenu.advance.SystemRestoreFactoryActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.eostek.tvmenu.advance.PVROptionActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.eostek.tvmenu.sound.SeperateHearActivity"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <service
+            android:name="com.eostek.tvmenu.advance.UpdateService"
+            android:enabled="true" />
+        <!-- EosTek Patch End -->
+    </application>
+
+</manifest>

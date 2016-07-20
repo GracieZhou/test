@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout
+        android:layout_width="600dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/menu_background_color"
+        android:gravity="center_vertical" >
+
+        <View
+            android:id="@+id/mutil_foucus1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mutil_delete"
+            android:layout_alignLeft="@+id/mutil_delete"
+            android:layout_alignRight="@+id/mutil_delete"
+            android:layout_alignTop="@+id/mutil_delete"
+            android:background="@drawable/grid_item_fcous_bg"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/mutil_delete"
+            android:layout_width="195dp"
+            android:layout_height="76dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:background="@android:color/transparent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:paddingBottom="@dimen/activity_settings_title_padding_new"
+            android:paddingTop="@dimen/activity_settings_title_padding_new"
+            android:text="@string/delete"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_download_classify_menu_size"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/mutil_foucus2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mutil_delete_cancle"
+            android:layout_alignLeft="@+id/mutil_delete_cancle"
+            android:layout_alignRight="@+id/mutil_delete_cancle"
+            android:layout_alignTop="@+id/mutil_delete_cancle"
+            android:background="@drawable/grid_item_fcous_bg"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/mutil_delete_cancle"
+            android:layout_width="195dp"
+            android:layout_height="76dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:layout_below="@id/mutil_delete"
+            android:background="@android:color/transparent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:paddingBottom="@dimen/activity_settings_title_padding_new"
+            android:paddingTop="@dimen/activity_settings_title_padding_new"
+            android:text="@string/mutil_cancle_text"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_download_classify_menu_size"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/mutil_foucus3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mutil_delete_ok"
+            android:layout_alignLeft="@+id/mutil_delete_ok"
+            android:layout_alignRight="@+id/mutil_delete_ok"
+            android:layout_alignTop="@+id/mutil_delete_ok"
+            android:background="@drawable/grid_item_fcous_bg"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/mutil_delete_ok"
+            android:layout_width="195dp"
+            android:layout_height="76dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:layout_below="@id/mutil_delete_cancle"
+            android:background="@android:color/transparent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:paddingBottom="@dimen/activity_settings_title_padding_new"
+            android:paddingTop="@dimen/activity_settings_title_padding_new"
+            android:text="@string/mutil_delete_text"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_download_classify_menu_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

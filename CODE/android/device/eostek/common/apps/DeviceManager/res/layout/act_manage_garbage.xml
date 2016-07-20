@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/activity_width"
+    android:layout_height="@dimen/activity_height"
+    android:layout_gravity="center"
+    android:background="#72AE14"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/image_margin_left"
+        android:layout_weight="0.4"
+        android:orientation="horizontal" >
+
+        <ProgressBar
+            android:id="@+id/act_manage_garbage_pb_icon"
+            style="@style/Scifly.ProgressBar.Large"
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/image_height"
+            android:layout_gravity="left"
+            android:indeterminateDrawable="@drawable/act_manage_garbage_progressbar_selector"
+            android:max="100"
+            android:indeterminate="true"/>
+
+        <ImageView
+            android:id="@+id/act_manage_garbage_iv_icon"
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/image_height"
+            android:layout_gravity="left"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/act_manage_garbage_tv_clean_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/scanning_margin_left"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/scanning_textsize"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/act_manage_garbage_ll_clean_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="@dimen/scanning_margin_left"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/act_manage_garbage_tv_clean_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/scanning_textsize" />
+
+            <Button
+                android:id="@+id/act_manage_garbage_btn_clean"
+                style="@style/Scifly.Button.Normal"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="@string/act_garbage_tv_clean_now"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.6"
+        android:background="#63A20F"
+        android:orientation="vertical"
+        android:paddingTop="15dp" >
+
+        <!-- cache garbage -->
+
+        <include layout="@layout/garbage_list_item_cache" />
+
+        <!-- uninstall garbage -->
+
+        <include layout="@layout/garbage_list_item_uninstall" />
+
+        <!-- ads garbage -->
+
+        <include layout="@layout/garbage_list_item_ads" />
+
+        <!-- apk garbage -->
+
+        <include layout="@layout/garbage_list_item_apk" />
+
+        <!-- apk garbage -->
+
+        <include layout="@layout/garbage_list_item_big_file" />
+
+        <!-- apk garbage -->
+
+        <include layout="@layout/garbage_list_item_unused_apk" />
+    </LinearLayout>
+
+</LinearLayout>

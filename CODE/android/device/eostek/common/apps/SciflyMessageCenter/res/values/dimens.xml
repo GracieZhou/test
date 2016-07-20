@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coulumn_width">210dp</dimen>
+    <dimen name="cotent_area_height">400dp</dimen>
+    <dimen name="content_layout_width">210dp</dimen>
+    <dimen name="content_layout_height">280dp</dimen>
+    <dimen name="gridview_padding">65dp</dimen>
+    <dimen name="imageview_padding">2dp</dimen>	
+    
+    <dimen name="EPG_THUMB_HEIGHT">216dp</dimen>
+    <dimen name="EPG_THUMB_WIDTH">150dp</dimen>
+    
+    <dimen name="IMAGE_THUMB_HEIGHT">133dp</dimen>
+    <dimen name="IMAGE_THUMB_WIDTH">133dp</dimen>
+    
+    <dimen name="IMAGE_THUMB_MAXHEIGHT">278dp</dimen>
+    <dimen name="IMAGE_THUMB_MAXWIDTH">200dp</dimen>
+    
+    <dimen name="VIDEO_THUMB_HEIGHT">112dp</dimen>
+    <dimen name="VIDEO_THUMB_WIDTH">168dp</dimen>
+
+    <dimen name="APK_THUMB_HEIGHT">113dp</dimen>
+    <dimen name="APK_THUMB_WIDTH">113dp</dimen>
+
+    <dimen name="VOICE_THUMB_HEIGHT">83dp</dimen>
+    <dimen name="VOICE_THUMB_WIDTH">168dp</dimen>
+
+    <dimen name="DOC_THUMB_HEIGHT">144dp</dimen>
+    <dimen name="DOC_THUMB_WIDTH">144dp</dimen>
+
+    <dimen name="MUSIC_THUMB_HEIGHT">150dp</dimen>
+    <dimen name="MUSIC_THUMB_WIDTH">150dp</dimen>
+
+    <dimen name="TEXT_SIZE_DEFAULT">20dp</dimen>
+    <dimen name="TEXT_SIZE">21dp</dimen>
+    <dimen name="TEXT_THUMB_WIDTH">168dp</dimen>
+    
+    <dimen name="DELETE_DIALOG_WIDTH">533dp</dimen> 
+    <dimen name="DELETE_DIALOG_HEIGHT">300dp</dimen> 
+    
+    <!-- Command dialog dimens. -->
+    <dimen name="cmd_dialog_layout_width">650dp</dimen>
+    <dimen name="cmd_dialog_layout_height">480dp</dimen>
+    
+    <dimen name="message_title_margin_bottom">10dp</dimen>
+    <dimen name="message_title_margin_left">30dp</dimen>
+    <dimen name="message_title_margin_top">30dp</dimen>
+    
+    <dimen name="image_layout_width">100dp</dimen>
+    <dimen name="image_layout_height">85dp</dimen>
+    <dimen name="title_image_margin_left">20dp</dimen>
+    <dimen name="message_time_text_size">18dp</dimen>
+    <dimen name="dialog_title_text_size">25dp</dimen>
+    
+    <dimen name="content_description_textsize">28dp</dimen>
+    <dimen name="marquee_view_height">50dp</dimen>
+    <dimen name="dialog_button_width">520dp</dimen>
+    <dimen name="marquee_textsize">20dp</dimen>
+    
+
+</resources>

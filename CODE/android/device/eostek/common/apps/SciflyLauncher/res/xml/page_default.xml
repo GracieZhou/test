@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MetroPageList>
+  <MetroPage title="应用" appCategory="0">
+    <MetroInfo id="0" title="" appCategory="0" positionX="0" positionY="0" widthSize="610" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.tv.launcher.ui.AllAppActivity</clsName>
+      <pkgName>com.eostek.tv.launcher</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_allapp.jpg</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg></StrFlg>
+    </MetroInfo>
+	<MetroInfo id="1" title="" appCategory="0" positionX="0" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.scifly.messagecenter.MainActivity</clsName>
+      <pkgName>com.eostek.scifly.messagecenter</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_messages.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+	<MetroInfo id="2" title="" appCategory="0" positionX="310" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.im.MainActivity</clsName>
+      <pkgName>com.eostek.im</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_wechat.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+	<MetroInfo id="3" title="" appCategory="0" positionX="620" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.mediabrowser.MainActivity</clsName>
+      <pkgName>com.eostek.mediabrowser</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_mediabrowser.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+	<MetroInfo id="4" title="" appCategory="0" positionX="620" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.biaoqi.filefly.STBFileFlyMainActivity</clsName>
+      <pkgName>com.biaoqi.filefly</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_isynergy.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+    <MetroInfo id="5" title="" appCategory="0" positionX="930" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.history.MainActivity</clsName>
+      <pkgName>com.eostek.history</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_history.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+  </MetroPage> 
+  <MetroPage title="设置" appCategory="1">
+    <MetroInfo id="31" title="网络设置" appCategory="1" positionX="0" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.network.NetworkSettingActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_wifi.png</iconPath>
+      <apkUrl></apkUrl>
+      <videoFlg>0</videoFlg>
+      <StrFlg></StrFlg>
+      <IconPathF></IconPathF>
+    </MetroInfo>
+    <MetroInfo id="32" title="系统设置" appCategory="1" positionX="0" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.system.SystemSettingsActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_more.png</iconPath>
+      <apkUrl></apkUrl>
+      <videoFlg>0</videoFlg>
+      <StrFlg></StrFlg>
+      <IconPathF></IconPathF>
+    </MetroInfo>
+    <MetroInfo id="33" title="图像与声音" appCategory="1" positionX="310" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.DisplayAndSoundActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_view.png</iconPath>
+      <apkUrl></apkUrl>
+      <videoFlg>0</videoFlg>
+      <StrFlg></StrFlg>
+      <IconPathF></IconPathF>
+    </MetroInfo>
+    <MetroInfo id="34" title="系统更新" appCategory="1" positionX="310" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.update.SystemUpdateActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_update.png</iconPath>
+      <apkUrl></apkUrl>
+      <videoFlg>0</videoFlg>
+      <StrFlg></StrFlg>
+      <IconPathF></IconPathF>
+    </MetroInfo>
+    <MetroInfo id="35" title="区域与时间" appCategory="1" positionX="620" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.datetimecity.DateTimeCitySettingsActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_time.png</iconPath>
+      <apkUrl></apkUrl>
+      <videoFlg>0</videoFlg>
+      <StrFlg></StrFlg>
+      <IconPathF></IconPathF>
+    </MetroInfo>
+    <MetroInfo id="36" title="关于" appCategory="1" positionX="620" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.deviceinfo.DeviceInfoActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_about.png</iconPath>
+      <apkUrl></apkUrl>
+      <videoFlg>0</videoFlg>
+      <StrFlg></StrFlg>
+      <IconPathF></IconPathF>
+    </MetroInfo>
+    <MetroInfo id="37" title="用户反馈" appCategory="1" positionX="930" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.bugreport.BugReportActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_log.png</iconPath>
+      <apkUrl></apkUrl>
+      <videoFlg>0</videoFlg>
+      <StrFlg></StrFlg>
+      <IconPathF></IconPathF>
+    </MetroInfo>
+  </MetroPage>
+</MetroPageList>

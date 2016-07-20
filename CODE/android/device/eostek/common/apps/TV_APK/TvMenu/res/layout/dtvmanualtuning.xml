@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout_content"
+    android:layout_width="600dp"
+    android:layout_height="@dimen/dtvmanualtuning_ll_content_height"
+    android:layout_marginTop="@dimen/dtvmanualtuning_ll_content_margin_top"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/dtv_linearlayout_content_padding" >
+
+    <TextView
+        android:id="@+id/dtv_manualtuning"
+        android:layout_width="@dimen/dtvmanualtuning_ll_content_width"
+        android:layout_height="60dp"
+       	 android:gravity="center"
+       	 android:text="@string/str_cha_dtvmanualtuning"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/dtv_manualtuning_tv_textsize" 
+        android:background="@drawable/titlebar_bg1"/>
+
+    <LinearLayout
+        android:id="@+id/dtv_manualtuning_content"
+        android:layout_width="@dimen/dtvmanualtuning_ll_content_width"
+        android:layout_height="@dimen/dtvmanualtuning_ll_content_height"
+        android:layout_below="@id/dtv_manualtuning"
+        android:orientation="vertical" 
+        android:background="@drawable/content_bg">
+        
+        <!-- For Start Tuning -->
+         <LinearLayout
+            android:id="@+id/dtv_manualtuning_starttuning_lin"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dtv_manu_symbol_lin_ll_height"
+            android:layout_below="@id/dtv_manualtuning" 
+            android:focusable="true">
+    
+            <TextView
+                android:id="@+id/dtv_manualtuning_starttuning_txt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/str_cha_dtvmanualtuning_starttuning"
+                android:textColor="#0ab6b8"
+                android:textSize="@dimen/dtvmanualtuning_nor_textsize" />
+        </LinearLayout>
+        
+        <!-- For Channel Num -->
+        <LinearLayout
+            android:id="@+id/dtv_manualtuning_channelnum"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dtv_manualtuning_ll_channelnum_height"
+            android:layout_below="@id/dtv_manualtuning"
+            android:layout_marginTop="@dimen/dtv_manualtuning_ll_channelnum_margin_top"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:id="@+id/dtv_manualtuning_channel_val"
+                android:layout_width="@dimen/dtv_manualtuning_ll_tv_width"
+                android:layout_height="@dimen/dtvmanualtuning_str_cha_ma_height"
+                android:gravity="right|center_vertical"
+                android:text="@string/str_cha_manualtuning_ch"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dtvmanualtuning_nor_textsize" />
+	
+	        <EditText
+	            android:id="@+id/dtv_manualtuning_channelnum_val"
+	            android:layout_width="@dimen/dtv_manualtuning_channelnum_val_et_width"
+	            android:layout_height="@dimen/dtv_manualtuning_channelnum_val_et_height"
+	            android:layout_marginLeft="@dimen/dtv_manualtuning_channelnum_val_et_margin_left"
+	            android:gravity="center"
+	            android:inputType="numberDecimal"
+	            android:padding="@dimen/dtv_manualtuning_channelnum_val_padding"
+	            android:textColor="@android:color/white"
+		        android:textSize="@dimen/dtvmanualtuning_nor_textsize"
+		        android:background="@drawable/enumbar1_bg" />
+	    </LinearLayout>
+	    
+	    <!-- For Frequency -->
+	    <LinearLayout
+	        android:id="@+id/dtv_manualtuning_frequency_lin"
+	        android:layout_width="fill_parent"
+	        android:layout_height="@dimen/dtv_manualtuning_frequency_lin_ll_height"
+	        android:layout_below="@id/dtv_manualtuning_channelnum"
+	        android:focusable="true"
+	        android:visibility="gone" >
+	
+	        <TextView
+	            android:layout_width="@dimen/str_cha_dtvmanualtuning_frequency_width"
+	            android:layout_height="@dimen/str_cha_dtvmanualtuning_frequency_height"
+	            android:layout_marginLeft="@dimen/str_cha_dtvmanualtuning_frequency_maring_left"
+	            android:gravity="left|center_vertical"
+	            android:text="@string/str_cha_dtvmanualtuning_frequency"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/dtvmanualtuning_nor_textsize" />
+	
+	        <TextView
+	            android:id="@+id/dtv_manualtuning_frequency_val"
+	            android:layout_width="@dimen/str_cha_dtvmanualtuning_frequency_width"
+	            android:layout_height="@dimen/str_cha_dtvmanualtuning_frequency_height"
+	            android:layout_marginLeft="@dimen/dtv_manualtuning_frequency_val_tv_maring_left"
+	            android:gravity="center"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/dtvmanualtuning_nor_textsize" />
+	    </LinearLayout>
+	    
+	    <!-- For Modulation -->
+	    <LinearLayout
+	        android:id="@+id/dtv_manualtuning_modulation_lin"
+	        android:layout_width="fill_parent"
+	        android:layout_height="@dimen/dtv_manu_modulation_lin_height"
+	        android:layout_below="@id/dtv_manualtuning_frequency_lin"
+	        android:layout_marginTop="@dimen/dtv_manu_modulation_lin_margin_top"
+	        android:focusable="true"
+	        android:visibility="gone" >
+	
+	        <TextView
+	            android:layout_width="@dimen/str_cha_dtvmanualtuning_frequency_width"
+	            android:layout_height="@dimen/str_cha_dtvmanualtuning_frequency_height"
+	            android:layout_marginLeft="@dimen/str_cha_dtvmanualtuning_frequency_maring_left"
+	            android:gravity="left|center_vertical"
+	            android:text="@string/str_cha_dtvmanualtuning_modulation"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/dtvmanualtuning_nor_textsize" />
+	
+	        <TextView
+	            android:id="@+id/dtv_manualtuning_modulation_val"
+	            android:layout_width="@dimen/str_cha_dtvmanualtuning_frequency_width"
+	            android:layout_height="@dimen/str_cha_dtvmanualtuning_frequency_height"
+	            android:layout_marginLeft="@dimen/dtv_manualtuning_frequency_val_tv_maring_left"
+	            android:gravity="center"
+	            android:text="@string/str_cha_dtvmanualtuning_modulation_64qam"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/dtvmanualtuning_nor_textsize" />
+	    </LinearLayout>
+	    
+	    <!-- For Symbol Rate -->
+	    <LinearLayout
+	        android:id="@+id/dtv_manualtuning_symbol_lin"
+	        android:layout_width="fill_parent"
+	        android:layout_height="@dimen/dtv_manu_symbol_lin_ll_height"
+	        android:layout_below="@id/dtv_manualtuning_modulation_lin"
+	        android:focusable="true"
+	        android:visibility="gone" >
+	
+	        <TextView
+	            android:layout_width="@dimen/str_cha_dtvmanualtuning_frequency_width"
+	            android:layout_height="@dimen/str_cha_dtvmanualtuning_frequency_height"
+	            android:layout_marginLeft="@dimen/str_cha_dtvmanualtuning_frequency_maring_left"
+	            android:gravity="left|center_vertical"
+	            android:text="@string/str_cha_dtvmanualtuning_symbol"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/dtvmanualtuning_nor_textsize" />
+	
+	        <TextView
+	            android:id="@+id/dtv_manualtuning_symbol_val"
+	            android:layout_width="@dimen/str_cha_dtvmanualtuning_frequency_width"
+	            android:layout_height="@dimen/str_cha_dtvmanualtuning_frequency_height"
+	            android:layout_marginLeft="@dimen/dtv_manualtuning_frequency_val_tv_maring_left"
+	            android:gravity="center"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/dtvmanualtuning_nor_textsize" />
+	    </LinearLayout>
+	    
+	   <!-- For Signal Strength -->
+	    <LinearLayout
+	        android:id="@+id/linearlayout_cha_dtvmanualtuning_signalstrength"
+	        android:layout_width="fill_parent"
+	        android:layout_height="@dimen/dtv_manu_symbol_lin_ll_height"
+	        android:layout_below="@id/dtv_manualtuning_starttuning_lin"
+	        android:layout_marginTop="@dimen/dtv_manualtuning_ll_channelnum_margin_top"
+	        android:focusable="false" >
+	
+	        <TextView
+	            android:layout_width="@dimen/dtv_manu_signalstrength_tv_width"
+	            android:layout_height="@dimen/dtv_manu_signalstrength_tv_height"
+	            android:gravity="right|center_vertical"
+	            android:text="@string/strength"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/dtvmanualtuning_nor_textsize" />
+	
+	        <LinearLayout
+	            android:id="@+id/dtv_manualtuning_signalstrength_val"
+	            android:layout_width="@dimen/dtv_manu_signalstrength_val_ll_width"
+	            android:layout_height="@dimen/dtv_manu_signalstrength_val_ll_height"
+	            android:layout_gravity="left|center_vertical"
+	            android:layout_marginLeft="@dimen/dtv_manu_signalstrength_val_ll_margin_left"
+	            android:focusable="false"
+	            android:orientation="horizontal" >
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	        </LinearLayout>
+	    </LinearLayout>
+	    <!-- For Signal Quality -->
+	
+	    <LinearLayout
+	        android:id="@+id/linearlayout_cha_dtvmanualtuning_signalquality"
+	        android:layout_width="fill_parent"
+	        android:layout_height="@dimen/dtv_manu_symbol_lin_ll_height"
+	        android:layout_below="@id/linearlayout_cha_dtvmanualtuning_signalstrength"
+	        android:focusable="false"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:id="@+id/textview_cha_dtvmanualtuning_signalquality"
+	            android:layout_width="@dimen/dtv_manu_signalstrength_tv_width"
+	            android:layout_height="@dimen/dtv_manu_signalstrength_tv_height"
+	            android:gravity="right|center_vertical"
+	            android:text="@string/quality"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/dtvmanualtuning_nor_textsize" />
+	
+	        <LinearLayout
+	            android:id="@+id/linearlayout_cha_dtvmanualtuning_signalquality_val"
+	            android:layout_width="@dimen/dtv_manu_signalstrength_val_ll_width"
+	            android:layout_height="@dimen/dtv_manu_signalstrength_val_ll_height"
+	            android:layout_gravity="left|center_vertical"
+	            android:layout_marginLeft="@dimen/dtv_manu_signalstrength_val_ll_margin_left"
+	            android:focusable="false"
+	            android:orientation="horizontal" >
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	
+	            <ImageView style="@style/searchprogressbar_empty" >
+	            </ImageView>
+	        </LinearLayout>
+	    </LinearLayout>
+	    <!-- For Tuning Result -->
+	
+	    <LinearLayout
+	        android:id="@+id/linearlayout_cha_dtvmanualtuning_tuningresult"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/linearlayout_cha_dtvmanualtuning_signalquality"
+	        android:focusable="false"
+	        android:orientation="vertical" >
+	
+	        <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="@dimen/dtv_manu_symbol_lin_ll_height"
+	            android:orientation="horizontal" >
+	
+	            <TextView
+	                android:id="@+id/textview_cha_dtvmanualtuning_tuningresult_dtv"
+	                android:layout_width="@dimen/dtvmanualtuning_nor_tv_width"
+	                android:layout_height="fill_parent"
+	                android:gravity="right|center_vertical"
+	                android:text="@string/str_cha_dtvmanualtuning_tuningresult_dtv"
+	                android:textColor="@android:color/white"
+	                android:textSize="@dimen/dtvmanualtuning_nor_textsize" />
+	
+	            <TextView
+	                android:id="@+id/textview_cha_dtvmanualtuning_tuningresult_dtv_val"
+	                android:layout_width="wrap_content"
+	                android:layout_height="fill_parent"
+	                android:layout_marginLeft="@dimen/dtv_manu_tv_dtv_val_margin_left"
+	                android:gravity="center"
+	                android:textColor="@android:color/white"
+	                android:textSize="@dimen/dtvmanualtuning_nor_textsize" />
+	        </LinearLayout>
+	    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

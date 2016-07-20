@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<packages>
+    <app pkg="com.google.android.voicesearch"/>
+    <app pkg="com.google.android.gms"/>
+    <app pkg="com.chaozh.iReaderFree"/>
+    <app pkg="com.eostek.history"/>
+    <app pkg="com.eostek.scifly.video"/>
+    <app pkg="com.eostek.scifly.messagecenter"/>
+    <app pkg="com.jrm.babao.babaofan"/>
+</packages>

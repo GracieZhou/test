@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pinyin_IME">Scifly拼音輸入法</string>
+    <string name="zhuyin_IME">Scifly注音輸入法</string>
+    <string name="cangjie_IME">Scifly倉頡輸入法</string>
+    <string name="french_IME">Scifly法語輸入法</string>
+    <string name ="arabic_IME">Scifly阿拉伯語輸入法</string>
+    <string name ="persian_IME">Scifly波斯語輸入法</string>
+    <string name ="korean_IME">Scifly韓語輸入法</string>
+     <string name = "japan_IME">Scifly日語輸入法</string>
+    
+    <!-- Title for Latin keyboard -->
+    <string name="ime_name">Scifly輸入法</string>
+
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+
+    <!-- Labels on soft keys -->
+    <string name="label_go_key">確定</string>
+    <string name="label_next_key">下一步</string>
+    <string name="label_send_key">發送</string>
+    <string name="label_ChEn">中\\英</string>
+
+    <!-- Labels for subtype -->
+    <string name="label_subtype_generic">%s</string>
+    <string name="label_subtype_en_GB">English (GB)</string>
+
+    <!-- Titles for ImePreference -->
+    <string name="settings_name">Sample Soft Keyboard Settings</string>
+    <string name="language_selection_title">Input languages</string>
+    <string name="select_language">Select input languages</string>
+    <!-- <string name="general_category">General</string> -->
+
+    <string name="title_content">切換輸入法</string>
+    
+    <string name="back">返回</string>
+    <string name="language_en">英</string>
+    <string name="language_cn">中</string>
+      <string name="language_fr">法</string>
+    <string name="symbols">符</string>
+</resources>

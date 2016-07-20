@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="inputview_padding">110dp</dimen>
+    <dimen name="key_height">62dp</dimen>
+    <dimen name ="morkeys_height">62dp</dimen>
+    <dimen name ="morekeys_width">68dp</dimen>
+    <dimen name ="morekeys_a_width">66dp</dimen>
+<!--     <dimen name="key_height_popup">50dip</dimen> -->
+    <dimen name="inputview_key_textsize">26dp</dimen>
+    <dimen name="inputview_key_textsize_small">27dp</dimen>
+    
+    <dimen name="candidate_font_height">35sp</dimen>
+    <dimen name="candidate_char_tip_height">30sp</dimen>
+    <dimen name="candidates_view_height">60sp</dimen>
+<!--     <dimen name="candidates_text_width">42dp</dimen> -->
+    <dimen name="candidateview_padding_right">138dp</dimen>
+    <dimen name="candidateview_padding_left">110dp</dimen>
+    <dimen name="candidate_vertical_padding">6sp</dimen>
+    <dimen name="candidateview_text_padding">10dp</dimen>
+    
+     <dimen name="ime_switch_large">20sp</dimen>
+    <dimen name="ime_switch_small">13sp</dimen>
+    <dimen name="padding_gap">40dp</dimen>
+    <dimen name="morekeys_a_w">3.5dp</dimen>
+    <dimen name="morekeys_a_h">78dp</dimen>
+    <dimen name="morekeys_e_w">19dp</dimen>
+    <dimen name="morekeys_i_w">65dp</dimen>
+    <dimen name="morekeys_u_w">55dp</dimen>
+    <dimen name="morekeys_y_w">46dp</dimen>
+    <dimen name="morekeys_y_h">87dp</dimen>
+    <dimen name="morekeys_c_h">67dp</dimen>
+    <dimen name="morekeys_c_w">37dp</dimen>
+    <dimen name="morekeys_B_e_w">19.5dp</dimen>
+    <dimen name="morekeys_B_i_w">74dp</dimen>
+    <dimen name="morekeys_B_u_w">62dp</dimen>
+    <dimen name="morekeys_B_y_w">52dp</dimen>
+    <dimen name="morekeys_B_y_h">92dp</dimen>
+    <dimen name="morekeys_B_c_w">38dp</dimen>
+     <dimen name ="selectime_h">57dp</dimen>
+      <dimen name ="selectime_w">7dp</dimen>
+
+</resources>

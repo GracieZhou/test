@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="network_settings">Network Settings</string>
+    <string name="image_sound">Display and Sound</string>
+    <string name="area_time">Area and Time</string>
+    <string name="about">About</string>
+    <string name="system_settings">System Settings</string>
+    <string name="system_update">System update</string>
+    <string name="user_feedback">User feedback</string>
+    <string name="projection_settings">Projection Settings</string>
+    <string name="area_time_settings">Area and Time Settings</string>
+    <string name="language_settings">Language Settings</string>
+    <string name="inputmethod_settings">InputMethod Settings</string>
+
+    <!-- device name settings -->
+    <string name="device_name">Device Name</string>
+    <string name="device_model">Release Notes</string>
+    <string name="device_default_name">System Default Name</string>
+    <string name="button_ok">OK</string>
+        <string name="disable_input_null">the device name can not be null,please input again</string>
+        <string name="string_outbound">the max length of device name is 20</string>
+    <!-- language settings -->
+    <string name="zh_cn">中文 (中国)</string>
+    <string name="zh_tw">中文 (台灣)</string>
+
+    <!-- install_location settings -->
+    <string name="install_location">Application install location</string>
+    <string name="install_location_auto">System decision</string>
+    <string name=" install_location_usb">USB Mass Storage</string>
+    <string name="install_location_toast">External USB storage device is limited to FAT32 format</string>
+    <string name="install_location_internal">internal storage</string>
+    <string name="install_location_sdcard">SDcard</string>
+    <!--app white list  -->
+     <string name="app_white_list">App white List</string>
+    <!-- Display and sound settings -->
+    <!-- screen settings -->
+    <string name="screen_settings">Screen Settings</string>
+    <string name="screen_scale">Screen Zoom</string>
+    <string name="screen_translate">Screen Position</string>
+    <string name="screen_zoom_title">press left key and right key to control the screen size</string>
+    <string name="screen_position_title">press direction key to control the screen postion</string>
+    <!-- sound settings -->
+    <string name="sound_settings">Sound Settings</string>
+    <string name="key_tone">Key Tone</string>
+    <string name="notification_tone">Notification Tone</string>
+    <string name="display_and_sound">Disaplay and Sound</string>
+    <string name="sound">Sound</string>
+    <!-- bugreport -->
+    <string name="say_your_suggestion">Please tell your valuable views on it</string>
+    <string name="bugreport_title">User Feedback</string>  
+    <string name="shortcut_title">Shortcut Feedback</string>   
+    <string name="choose_shortcut_feedback">Please choose shortcut feedback</string>
+    <string name="feedback_record">Feedback Record</string>
+    <string name="dealing">Dealing</string>
+    <string name="acceptted">Acceptted</string>
+    <string name="resolved">Resolved</string>
+    <string name="thanks">Thanks for your feedback</string>
+    <string name="published">Published</string>
+    <string name="submit">Submit</string>
+    <string name="submitted">Submitted</string>
+    <string name="bugreport_upload_success">Upload the log file successfully!</string>
+    <string name="bugreport_upload_failed">Upload the log files failed and save the files to the dir "/sdcard/syslog/"!</string>
+    <string name="bugreport_exception">Get logs, Exception!</string>
+    <string name="bugreport_uploading">Log file is uploading!</string>
+    <string name="bugreport_empty">Please enter the opinion after confirmation!</string>
+    <string name="network_disconnected">Check network status please!</string>
+    <string name="bugreport_surplus_char">Surplus Character:</string>
+    <string name="bugreport_limit">The Characters have reached the limitation</string>
+
+    <!-- About -->
+    <string name="about_model">Model</string>
+    <string name="about_build_number">Build Number</string>
+    <string name="about_build_model">Build Model</string>
+    <string name="about_serial_number">Serial number</string>
+    <string name="about_storage_info">Storage</string>
+    <string name="about_more_info">More</string>
+    <string name="about_more_information">More infomation</string>
+    <string name="about_more_cpu">CPU</string>
+    <string name="about_more_ram">RAM</string>
+    <string name="about_more_flash">FLASH</string>
+    <string name="about_more_mac">MAC Address</string>
+    <string name="about_more_device_id">Device ID</string>
+    <string name="about_more_up_time">Up time</string>
+    <string name="about_more_version">Android Version</string>
+    <string name="about_more_up_version_real_key">Scifly Version</string>
+
+    <!-- connectivity -->
+    <string name="network_setting">Network setting</string>
+    <string name="wireless_setting">Wireless setting</string>
+    <string name="network_diag">Network diagnose</string>
+    <string name="next"> > </string>
+    <string name="network_connection">Network connectivity</string>
+    <string name="time_sync">Time sync</string>
+    <string name="begin_diag">Begin diagnose</string>
+    <string name="static_info">Static information</string>
+    <string name="error_detail">Error details</string>
+    <string name="network_return">Return</string>
+    <string name="localhost">Localhost</string>
+    <string name="gateway">Gateway</string>
+    <string name="center_network">Center network</string>
+    <string name="time_server">Time server</string>
+    <string name="show_static_info">Show static information</string>
+    <string name="point"> ● </string>
+    <string name="access_way">Access way</string>
+    <string name="IP_address">IP address</string>
+    <string name="gateway_address">Gateway address</string>
+    <string name="error_code">Error code</string>
+    <string name="error_description">Error description</string>
+    <string name="connection_normal">The network connection is normal</string>
+    <string name="connection_fail">The network connection is abnormal</string>
+    <string name="colon">：</string>
+    <string name="begin_download_speed">Begin test speed</string>
+    <string name="fail_obtain_time">Fail to get time from NTP</string>
+    <string name="fail_download_speed">Failure of speed</string>
+    <string name="system_time">System time</string>
+    <string name="network_time">Network time</string>
+    <string name="NTP_Server">NTP Server</string>
+    <string name="begin_time_sync">Begin time sync</string>
+    <string name="download_speeding">Testing speed……</string>
+    <string name="obtain_time">Getting time from NTP Server……</string>
+    <string name="max_download_speed">The maximum speed</string>
+    <string name="min_download_speed">The minimum speed</string>
+    <string name="average_download_speed">The average speed</string>
+    <string name="time_sync_success">Time sync success</string>
+    <string name="description">picture</string>
+    <string name="local_network_conn_error">The localhost is abnormal</string>
+    <string name="center_network_error">The center network is abnormal</string>
+    <string name="server_error">The time server is abnormal</string>
+    <string name="gateway_error">The gateway is abnormal</string>
+    <string name="download_speed_complete">Finish test speed! </string>
+    <string name="date_format">MM/dd/yyyy EEE HH:mm</string>
+    <string name="old_week">></string>
+    <string name="new_week">></string>
+    <string name="connect_network">Please connect network first</string>
+    <string name="null_address">0.0.0.0</string>
+    <string name="null_access_way">DHCP</string>
+
+    <!-- master clear -->
+    <string name="master_clear_title">Factory data reset</string>
+    <string name="master_clearing_title">Restore to factory settings</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">Cancel</string>
+    <string name="system_recovery">System Recovery</string>
+    <string name="erase_all_data">Erase all data</string>
+    <string name="erase_data_going" >Erasing data&#8230;</string>
+
+    <!-- update -->
+    <string name="version_checking">Checking&#8230;</string>
+    <string name="recovery">Factory data reset</string>
+    <string name="sdcard_lable">Sdcard</string>
+    <string name="mobile_stoarge_device">Mobile storage device</string>
+    <string name="system_local_update">System local update</string>
+    <string name="check_directry">Please check your deposit directory whether for Mobile Device, filename is: update_signed. Zip</string>
+    <string name="select_updatezip">Please choose update package：</string>
+    <string name="check_updatezip">Find update package,do you update?</string>
+    <string name="no_update_file">Your Mobile Device without the latest on the image files</string>
+    <string name="new_version">New version：</string>
+    <string name="update_list">New version content：</string>
+    <string name="download">Download</string>
+    <string name="latest">Your TVOS version has is the latest version!</string>
+    <string name="download_error">Download appear in the process of the error, please
+        download again</string>
+    <string name="redownload">redownload</string>
+    <string name="check_failure">In the process of installation errors, please
+        replace update package.</string>
+    <string name="updated">Please restart the TV, to update the program will
+        continue to restart......</string>
+    <string name="check_success">check success。</string>
+    <string name="check_version_fail">Check Version fail!</string>
+    <string name="update_disconnect_wifi"> Please check whether the network is already connected!</string>
+    <string name="system_net_update">System net update</string>
+    <string name="current_version">Current version：</string>
+    <string name="checking_cache">Checking cache......</string>
+    <string name="no_new_version_available">No new version available!</string>
+    <!-- for ntfs disk begin-->
+    <string name="ntfs_unsupported">Local upgrade didn\'t support the NTFS device, please confirm the OTA package is in a FAT32 device</string>
+    <!-- for ntfs disk end-->
+    <string name="sdcard">Are testing Mobile Device......</string>
+    <string name="downloading">Downloading new version......</string>
+    <string name="download_ing">Downloading</string>
+    <string name="check_package">Calibration update package...... </string>
+    <string name="check_sdcard">Testing Mobile Device…</string>
+    <string name="cache_success">cache has enought room</string>
+    <string name="sdcard_success">Mobile Device can use</string>
+    <string name="check_new_version">Checking new version......</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="to_update">To update？</string>
+    <string name="update">Update</string>
+    <string name="download_err">Error, please exit and re-enter to download and update!</string>
+    <string name="sdcard_insert">Detect Mobile Device inserted</string>
+    <string name="sdcard_remove">Testing to remove or Mobile Device abnormal</string>
+    <string name="download_update_fail">Download update package error!</string>
+    <string name="network_bad">The network is bad,download update package is slowing.</string>
+    <string name="progress">Progress：</string>
+    <string name="update_settings">System Update</string>
+    <string name="update_by_net">Net Update</string>
+    <string name="update_packages_download">Ongoing updates download</string>
+    <string name="not_network">There is no network,we can not network update!</string>
+    <string name="update_size">Size of the upgrade package:</string>
+    <string name="update_wait_load">"Did not detect the latest version!"</string>
+    <string name="update_count_down">Your device will reboot in <xliff:g id="timeout">%1$d</xliff:g> seconds.</string>
+    <string name="update_summary">System updating will be continued after rebooting</string>
+    <string name="reboot_now">Reboot now</string>
+    <string name="reboot_later">Reboot later</string>
+    <string name="default_time">2014-07-01  12:32:52</string>
+    <string name="version_tips">System has been updated to version %1$s。</string>
+    <string name="view_detail">Show detail</string>
+    <string name="close">Close</string>
+    <string name="system_net_update_toast">System net update will be done in the background, check progress in Settings->Upgrade</string>
+    <string name="verify_package_failed_toast">Verifying package failed, please download package again!</string>
+    <string name="system_reset_wait">The system is resetting ,please wait ...</string>
+    <string name="new_version_found">New version found !</string>
+    <string name="no_enough_storage">No enough storage space！</string>
+    <string name="no_sdcard">No external storage inserted.</string>
+    <string name="sdcard_full_for_ota">No enough storage space in SD card！Switch download engie to HTTP ...</string>
+    <string name="verify_md5">Verifying MD5 of OTA Package Failded.</string>
+
+    <!-- network -->
+    <string name="ethernet_setting">Ethernet Settings</string>
+    <string name="wifi_setting">Wifi Settings</string>
+    <string name="connectivity_check">Network Connectivity Check</string>
+    <string name="download_speed">Download Speed Test</string>
+    <string name="blue_tooth">Bluetooth</string>
+
+    <!-- ethernet -->
+    <string name="ethernet_default_address">0.0.0.0</string>
+    <string name="ethernet_disabled">disabled</string>
+    <string name="ethernet_enabled">enabled</string>
+    <string name="unassigned">UNASSIGNED</string>
+
+    <!-- wifi -->
+    <string name="screen_display">Screen Display</string>
+    <string name="wlan_close">CLOSE</string>
+    <string name="wlan">Portable hotspot</string>
+    <string name="help">more help</string>
+    <string name="mircast_id">Mcast ID</string>
+    <string name="open_wlan">Enable hotspot</string>
+    <string name="network_ssid">SSID</string>
+    <string name="password_too_short">Passwords can not less than 8</string>
+    <string name="screen_display_help">Screen display help</string>
+    <string name="connecting">if you want to use Mcast, you should exit the wifi first</string>
+    <string name="waiting">Wait operation</string>
+    <string name="connected">you can connect to this device</string>
+    <string name="screendisplay_wifi_massage">WiFi is not open, whether to open immediately?</string>
+    <string name="help_information_1">1 different mobile phone screen display name is different. In general, the "mobile phone network settings", called "multi screen interaction", "wireless display", "Screen Mirroring" or "WLAN connection" etc.</string>
+    <string name="help_information_2">2 if the connection fails, or can not find the device, you may not support the mobile phone screen display function.</string>
+    <string name="wifi_show_password">Show password</string>
+    <string name="wifi_settings_category">"WLAN Settings"</string>
+    <string name="wifi_configured">Configured</string>
+    <string name="wifi_invliad_subnet_mask">Invalid subnet mask,check it again! </string>
+    <string name="wifi_dns_hint">8.8.8.8</string>
+    <string name="wifi_dns">DNS</string>
+    <string name="wifi_mask_hint">255.255.255.0</string>
+    <string name="wifi_mask">Subnet Mask</string>
+    <string name="wifi_button_connect">Connect</string>
+    <string name="wifi_button_ok">OK</string>
+    <string name="wifi_button_cancle">Cancel</string>
+    <string name="wifi_link_property_title">Title</string>
+    <string name="wifi_link_property_content">Content</string>
+    <string name="wifi_link_property_auto">Auto</string>
+    <string name="wifi_link_property_manual">Manual</string>
+    <string name="wifi_link_property_ip_get">Way to get ip</string>
+    <string name="wifi_failue_out_of_range">The access point is out of range!</string>
+    <string name="wifi_failue_password_check_again">Check wifi password again, please!</string>
+    <string name="wifi_failue_dhcp_check_again">Check wifi DHCP and DNS again,please! </string>
+    <string name="wifi_failue_unkonwn_reason">Unable to connect to the access point! </string>
+    <string name="wifi_already_connect_tip">Already connected,press right key to config it!</string>
+    <string name="wifi_already_saved_tip">Try to connect the access point directly!</string>
+    <string name="wifi_linkproperty_error">Wifi access  point\'s ip configuration is wrong,check again please!</string>
+    <string name="wifi_enabled">wifi is enabled, click to turn it off</string>
+    <string name="wifi_disabled">wifi is disabled, click to turn it on</string>
+    <string name="wifi_password_input">Input Password</string>
+    <string name="wifi_add">Add</string>
+    <string name="add_wifi_manually">Add network manually</string>
+
+    <!-- wifi part 2 -->
+    <string name="wifi_display_settings_title">Cast screen</string>
+    <!-- Wifi Display settings. The title of a menu item to enable wireless display [CHAR LIMIT=40] -->
+    <string name="wifi_display_enable_menu_item">Enable wireless display</string>
+    <!-- Wifi Display settings. Text that appears when scanning for devices is finished and no nearby device was found [CHAR LIMIT=40] -->
+    <string name="wifi_display_no_devices_found">No nearby devices were found.</string>
+    <!-- Wifi Display settings. The status summary for connecting devices. [CHAR LIMIT=40] -->
+    <string name="wifi_display_status_connecting">Connecting</string>
+    <!-- Wifi Display settings. The status summary for connected devices. [CHAR LIMIT=40] -->
+    <string name="wifi_display_status_connected">Connected</string>
+    <!-- Wifi Display settings. The status summary for devices that's already in use. [CHAR LIMIT=40] -->
+    <string name="wifi_display_status_in_use">In use</string>
+    <!-- Wifi Display settings. The status summary for devices that's not available. [CHAR LIMIT=40] -->
+    <string name="wifi_display_status_not_available">Unavailable</string>
+    <!-- Wifi Display settings. Image description for device details button. This opens the screen to rename, unpair, etc. a single device. -->
+    <string name="wifi_display_details">Display settings</string>
+
+    <!-- Wifi Display settings. Options dialog.  The title of the dialog. [CHAR LIMIT=40] -->
+    <string name="wifi_display_options_title">Wireless display options</string>
+    <!-- Wifi Display settings. Options dialog.  The forget button text. [CHAR LIMIT=20] -->
+    <string name="wifi_display_options_forget">Forget</string>
+    <!-- Wifi Display settings. Options dialog.  The done button text. [CHAR LIMIT=20] -->
+    <string name="wifi_display_options_done">Done</string>
+    <!-- Wifi Display settings. Options dialog.  The name label used when prompting the user to rename the display. [CHAR LIMIT=20] -->
+    <string name="wifi_display_options_name">Name</string>
+
+    <!-- Wifi Display settings. The sub heading for wireless display certification options. [CHAR LIMIT=40] -->
+    <string name="wifi_display_certification_heading" translatable="false">Certification</string>
+    <!-- Wifi Display settings. The section title for wireless display session info. [CHAR LIMIT=40] -->
+    <string name="wifi_display_session_info" translatable="false">Session info</string>
+    <!-- Wifi Display settings. The checkbox title for enabling listen mode during certification process. [CHAR LIMIT=40] -->
+    <string name="wifi_display_listen_mode" translatable="false">Enable listen mode</string>
+    <!-- Wifi Display settings. The checkbox title for enabling autonomous GO during certification process. [CHAR LIMIT=40] -->
+    <string name="wifi_display_autonomous_go" translatable="false">Enable autonomous GO</string>
+    <!-- Wifi Display settings. The button text for sending pause trigger during certification process. [CHAR LIMIT=40] -->
+    <string name="wifi_display_pause" translatable="false">Pause</string>
+    <!-- Wifi Display settings. The button text for sending play (resume) trigger during certification process. [CHAR LIMIT=40] -->
+    <string name="wifi_display_resume" translatable="false">Resume</string>
+    <!-- Wifi Display settings. The dropdown menu title for choosing WPS configuration during certification process. [CHAR LIMIT=40] -->
+    <string name="wifi_display_wps_config" translatable="false">WPS configuration</string>
+    <!-- Wifi Display settings. The dropdown menu title for choosing listen channel during certification process. [CHAR LIMIT=40] -->
+    <string name="wifi_display_listen_channel" translatable="false">Listen channel</string>
+    <!-- Wifi Display settings. The dropdown menu title for choosing operating channel during certification process. [CHAR LIMIT=40] -->
+    <string name="wifi_display_operating_channel" translatable="false">Operating channel</string>
+
+    <!-- NFC settings -->
+    <!-- Used in the 1st-level settings screen to turn on NFC -->
+    <string name="nfc_quick_toggle_title">NFC</string>
+    <!-- Description of NFC in the 1st level settings screen, for a tablet. [CHAR LIMIT=NONE] -->
+    <string name="nfc_quick_toggle_summary" product="tablet">Allow data exchange when the device touches another device</string>
+    <!-- Description of NFC in the 1st level settings screen, for a phone. [CHAR LIMIT=NONE] -->
+    <string name="nfc_quick_toggle_summary" product="default">Allow data exchange when the phone touches another device</string>
+
+    <!-- Used to enter the Android Beam sharing preferences screen. This phrase is a trademark. [CHAR LIMIT=32] -->
+    <string name="android_beam_settings_title">Android Beam</string>
+    <!-- Used to describe the on state of the Android Beam feature [CHAR LIMIT=NONE] -->
+    <string name="android_beam_on_summary">Ready to transmit app content via NFC</string>
+    <!-- Used to describe the off state of the Android Beam feature [CHAR LIMIT=NONE] -->
+    <string name="android_beam_off_summary">Off</string>
+    <!-- Used to describe the enabled state of the Android Beam feature when NFC, which it relies on, is turned off [CHAR LIMIT=NONE] -->
+    <string name="android_beam_disabled_summary">Unavailable because NFC is turned off</string>
+    <!-- Used in the Android Beam sharing preferences screen. This phrase is a trademark. [CHAR LIMIT=32] -->
+    <string name="android_beam_label">Android Beam</string>
+    <!-- Explanation of the Android Beam feature in the Android Beam settings panel. The use of "beam" here is as a verb and not considered trademarked. [CHAR LIMIT=NONE] -->
+    <string name="android_beam_explained">When this feature is turned on, you can beam app content to another NFC-capable device by holding the devices close together. For example, you can beam Browser pages, YouTube videos, People contacts, and more.\n\nJust bring the devices together (typically back to back) and then touch your screen. The app determines what gets beamed.</string>
+
+    <!-- Network service discovery settings -->
+    <!-- Used in the 1st-level settings screen to turn on NSD -->
+    <string name="nsd_quick_toggle_title">Network service discovery</string>
+    <!-- Description of NFC in the 1st level settings screen. [CHAR LIMIT=NONE] -->
+    <string name="nsd_quick_toggle_summary">Allow apps on other devices to discover apps on this device</string>
+
+    <!-- Wi-Fi Settings -->
+    <skip />
+    <!-- Used in the 1st-level settings screen to turn on Wi-Fi -->
+    <string name="wifi_quick_toggle_title">Wi\u2011Fi</string>
+    <!-- Used in the 1st-level settings screen as the turn-on summary -->
+    <string name="wifi_quick_toggle_summary">Turn on Wi\u2011Fi</string>
+    <!-- Used in the 1st-level settings screen to go to the 2nd-level settings screen  [CHAR LIMIT=20] -->
+    <string name="wifi_settings">Wi\u2011Fi</string>
+    <!-- Title of the Wi-fi settings screen -->
+    <!-- Title of the Wi-fi settings entry in the left top level menu -->
+    <string name="wifi_settings_title">Wi\u2011Fi</string>
+    <!-- Summary text of the Wi-fi settings screen -->
+    <string name="wifi_settings_summary">Set up &amp; manage wireless access points</string>
+    <!-- Used in the 1st-level settings screen to turn on Wi-Fi  [CHAR LIMIT=60] -->
+    <string name="wifi_setup_wizard_title">Select Wi\u2011Fi</string>
+    <!-- Summary text when turning Wi-Fi or bluetooth on -->
+    <string name="wifi_starting">Turning Wi\u2011Fi on\u2026</string>
+    <!-- Summary text when turning Wi-Fi or bluetooth off -->
+    <string name="wifi_stopping">Turning off Wi\u2011Fi\u2026</string>
+    <!-- Summary text when Wi-Fi or bluetooth has error -->
+    <string name="wifi_error">Error</string>
+    <!-- Toast message when Wi-Fi or bluetooth is disallowed in airplane mode -->
+    <string name="wifi_in_airplane_mode">In Airplane mode</string>
+    <!-- Toast message when Wi-Fi cannot scan for networks -->
+    <string name="wifi_fail_to_scan">Can\'t scan for networks</string>
+    <!-- Checkbox title for option to notify user when open networks are nearby -->
+    <string name="wifi_notify_open_networks">Network notification</string>
+    <!-- Checkbox summary for option to notify user when open networks are nearby -->
+    <string name="wifi_notify_open_networks_summary">Notify me when an open network is available</string>
+    <!-- Checkbox title for option to toggle poor network detection -->
+    <string name="wifi_poor_network_detection">Avoid poor connections</string>
+    <!-- Checkbox summary for option to toggle poor network detection -->
+    <string name="wifi_poor_network_detection_summary">Don\'t use a Wi\u2011Fi network unless it has a good Internet connection</string>
+    <!-- Checkbox title for option to scan always available setting -->
+    <string name="wifi_scan_always_available">Scanning always available</string>
+    <!-- Checkbox summary for option to toggle scan always available setting -->
+    <string name="wifi_scan_always_available_summary">Let Google\'s location service and other apps scan for networks, even when Wi-Fi is off</string>
+    <!-- Preference title for option to install certificates -->
+    <string name="wifi_install_credentials">Install certificates</string>
+    <string name="wifi_scan_notify_text_location_on">To improve location accuracy and for other purposes, Google and other apps may scan for nearby networks, even when Wi-Fi is off. If you don\'t want this to happen, go to Advanced &gt; Scanning always available.</string>
+    <string name="wifi_scan_notify_text_location_off">Apps may scan for nearby networks, even when Wi-Fi is off. If you don\'t want this to happen, go to Advanced &gt; Scanning always available.</string>
+    <!-- Wifi scan always mode checkbox text -->
+    <string name="wifi_scan_notify_remember_choice">Don\'t show again</string>
+    <!-- Setting title for setting the wifi sleep policy. Do we keep Wi-Fi active when the screen turns off? -->
+    <string name="wifi_setting_sleep_policy_title">Keep Wi\u2011Fi on during sleep</string>
+    <!-- Generic error message when the sleep policy could not be set. -->
+    <string name="wifi_setting_sleep_policy_error">There was a problem changing the setting</string>
+    <!-- Checkbox title for option to toggle suspend power optimizations -->
+    <string name="wifi_suspend_optimizations">Wi\u2011Fi optimization</string>
+    <!-- Checkbox summary for option to toggle suspend power optimizations -->
+    <string name="wifi_suspend_optimizations_summary">Minimize battery usage when Wi\u2011Fi is on</string>
+    <!-- Action bar text message to manually add a wifi network [CHAR LIMIT=20] -->
+    <string name="wifi_add_network">Add network</string>
+    <!-- Header for the list of wifi networks -->
+    <string name="wifi_access_points">Wi\u2011Fi networks</string>
+    <!-- Menu option to do WPS Push Button [CHAR LIMIT=25] -->
+    <string name="wifi_menu_wps_pbc">WPS Push Button</string>
+    <!-- Content description for menu button in Wifi setup. Not shown on the screen. [CHAR LIMIT=NONE] -->
+    <string name="wifi_menu_more_options">More options</string>
+    <!-- Menu option to do WPS Pin Entry [CHAR LIMIT=25] -->
+    <string name="wifi_menu_wps_pin">WPS Pin Entry</string>
+    <!-- Menu option to launch Wi-Fi Direct settings [CHAR LIMIT=20] -->
+    <string name="wifi_menu_p2p">Wi\u2011Fi Direct</string>
+    <!-- Menu option to scan Wi-Fi networks -->
+    <string name="wifi_menu_scan">Scan</string>
+    <!-- Menu option to Wi-Fi advanced settings -->
+    <string name="wifi_menu_advanced">Advanced</string>
+    <!-- Menu option to connect to a Wi-Fi network -->
+    <string name="wifi_menu_connect">Connect to network</string>
+    <!-- Menu option to delete a Wi-Fi network -->
+    <string name="wifi_menu_forget">Forget network</string>
+    <!-- Menu option to modify a Wi-Fi network configuration -->
+    <string name="wifi_menu_modify">Modify network</string>
+    <!-- Wi-Fi settings. text displayed when Wi-Fi is off and network list is empty [CHAR LIMIT=50] -->
+    <string name="wifi_empty_list_wifi_off">To see available networks, turn Wi\u2011Fi on.</string>
+    <!-- Wi-Fi settings. text displayed when Wi-Fi is on and network list is empty [CHAR LIMIT=50] -->
+    <string name="wifi_empty_list_wifi_on">Searching for Wi\u2011Fi networks\u2026</string>
+    <!-- Wifi Settings. text displayed when user has restriction DISALLOW_CONFIG_WIFI [CHAR LIMIT=NONE] -->
+    <string name="wifi_empty_list_user_restricted">You don\'t have permission to change the Wi\u2011Fi network.</string>
+    <!-- Wi-Fi settings. title for setup other network button [CHAR LIMIT=35] -->
+    <string name="wifi_other_network">Other network\u2026</string>
+    <!-- Wi-Fi settings. content description for more button [CHAR LIMIT=50] -->
+    <string name="wifi_more">More</string>
+    <!-- Wi-Fi settings. wps menu title [CHAR LIMIT=25] -->
+    <string name="wifi_setup_wps">Automatic setup (WPS)</string>
+    <!-- Message informing that wifi is required during setup [CHAR LIMIT=NONE] -->
+    <string name="wifi_required_info_text">To complete setup, your device needs access to Wi\u2011Fi. After setup, you can switch between mobile data and Wi\u2011Fi.</string>
+    <string name="ethernet_toast">Wireless settings have been turned on, if need to start cable, please close the wireless settings first.</string>
+    <!-- Dialog for Access Points -->
+    <skip />
+    <!-- Label to show/hide advanced options -->
+    <string name="wifi_show_advanced">Show advanced options</string>
+    <!-- Title for the WPS setup dialog [CHAR LIMIT=50] -->
+    <string name="wifi_wps_setup_title">Wi\u2011Fi Protected Setup</string>
+    <!-- Message in WPS dialog at start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_setup_msg">Starting WPS\u2026</string>
+    <!-- Message in WPS dialog for PBC after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pbc">Press the Wi\u2011Fi Protected Setup button on your router. It may be called \"WPS\" or contain this symbol:</string>
+    <!-- Message in WPS dialog for PIN after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pin">Enter pin <xliff:g id="number">%1$s</xliff:g> on your Wi\u2011Fi router. The setup can take up to two minutes to complete.</string>
+    <!-- Text displayed when WPS succeeds [CHAR LIMIT=150] -->
+    <string name="wifi_wps_complete">WPS succeeded. Connecting to the network\u2026</string>
+    <!-- Text displayed when Wi-Fi is connected through WPS [CHAR LIMIT=150] -->
+    <string name="wifi_wps_connected">Connected to Wi\u2011Fi network <xliff:g id="network_name">%s</xliff:g></string>
+    <!-- Text displayed when WPS setup is in progress [CHAR LIMIT=150] -->
+    <string name="wifi_wps_in_progress">WPS is already in progress and can take up to two minutes to complete</string>
+    <!-- Text displayed when WPS fails to start [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_generic">WPS failed. Please try again in a few minutes.</string>
+    <!-- Text displayed when WPS fails due to WEP [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_wep">The wireless router security setting (WEP) is not supported</string>
+    <!-- Text displayed when WPS fails to TKIP [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_tkip">The wireless router security setting (TKIP) is not supported</string>
+    <!-- Text displayed when WPS fails due to authentication issues [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_auth">Authentication failure. Please try again.</string>
+    <!-- Text displayed when WPS fails due to another session [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_overlap">Another WPS session was detected. Please try again in a few minutes.</string>
+    <!-- Label for the SSID of the network -->
+    <string name="wifi_ssid">Network SSID</string>
+    <!-- Hint for a text field to enter the SSID of a hidden wifi network. [CHAR LIMIT=35] -->
+    <string name="wifi_ssid_hint">Enter the SSID</string>
+    <!-- Label for the security of the connection -->
+    <string name="wifi_security">Security</string>
+    <!-- Label for the signal strength of the connection -->
+    <string name="wifi_signal">Signal strength</string>
+    <!-- Label for the status of the connection -->
+    <string name="wifi_status">Status</string>
+    <!-- Label for the link speed of the connection -->
+    <string name="wifi_speed">Link speed</string>
+    <!-- Label for the IP address of the connection -->
+    <string name="wifi_ip_address">IP address</string>
+    <!-- Hint text for the IP address -->
+    <string name="wifi_ip_address_hint" translatable="false">192.168.1.128</string>
+    <!-- Label for the EAP method of the network -->
+    <string name="wifi_eap_method">EAP method</string>
+    <!-- Label for the phase2 -->
+    <string name="please_select_phase2">Phase 2 authentication</string>
+    <!-- Label for the EAP CA certificate of the network -->
+    <string name="wifi_eap_ca_cert">CA certificate</string>
+    <!-- Label for the EAP user certificate of the network -->
+    <string name="wifi_eap_user_cert">User certificate</string>
+    <!-- Label for the EAP identity of the network -->
+    <string name="wifi_eap_identity">Identity</string>
+    <!-- Label for the EAP anonymous identity of the network -->
+    <string name="wifi_eap_anonymous">Anonymous identity</string>
+    <!-- Label for the password of the secured network -->
+    <string name="wifi_password">Password</string>
+    <!-- Label for the check box to show password -->
+    <string name="wifi_ip_settings">IP settings</string>
+    <!-- Hint for unchanged fields -->
+    <string name="wifi_unchanged">(unchanged)</string>
+    <!-- Hint for unspecified fields -->
+    <string name="wifi_unspecified">(unspecified)</string>
+    <!-- Summary for the remembered network. -->
+    <string name="wifi_remembered">Saved</string>
+    <!-- Status for networks disabled for unknown reason -->
+    <string name="wifi_disabled_generic">Disabled</string>
+    <!-- Status for networked disabled from a DNS or DHCP failure -->
+    <string name="wifi_disabled_network_failure">Avoided poor Internet connection</string>
+    <!--
+         Status for networks disabled from authentication failure (wrong password
+         or certificate).
+    -->
+    <string name="wifi_disabled_password_failure">Authentication problem</string>
+    <!-- Summary for the remembered network but currently not in range. -->
+    <string name="wifi_not_in_range">Not in range</string>
+    <!--
+         Substring of status line when Wi-Fi Protected Setup (WPS) is available and
+         string is listed first [CHAR LIMIT=20]
+    -->
+    <string name="wifi_wps_available_first_item">WPS available</string>
+    <!--
+         Substring of wifi status when Wi-Fi Protected Setup (WPS) is available and
+         string is listed after a wifi_secured_* string
+    -->
+    <string name="wifi_wps_available_second_item">\u0020(WPS available)</string>
+    <!--
+         Substring of wifi status for wifi with authentication.  This version is for when the
+         string is first in the list (titlecase in english)
+    -->
+    <string name="wifi_secured_first_item">Secured with <xliff:g id="wifi_security_short">%1$s</xliff:g></string>
+    <!--
+         Substring of wifi status for wifi with authentication.  This version is for when the
+         string is not first in the list (lowercase in english)
+    -->
+    <string name="wifi_secured_second_item">, secured with <xliff:g id="wifi_security_short">%1$s</xliff:g></string>
+
+    <!-- Do not translate.  Concise terminology for wifi with WEP security -->
+    <string name="wifi_security_short_wep">WEP</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA security -->
+    <string name="wifi_security_short_wpa">WPA</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA2 security -->
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with both WPA/WPA2 security -->
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_short_eap">802.1x</string>
+
+    <!-- Used in Wi-Fi settings dialogs when Wi-Fi does not have any security. -->
+    <string name="wifi_security_none">None</string>
+
+    <!-- Do not translate.  Terminology for wifi with WEP security -->
+    <string name="wifi_security_wep">WEP</string>
+    <!-- Do not translate.  Terminology for wifi with WPA security -->
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <!-- Do not translate.  Terminology for wifi with WPA2 security -->
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with both WPA/WPA2 security, or unknown -->
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_eap">802.1x EAP</string>
+    <string name="wifi_scan_always_turnon_message">To improve location accuracy and for other purposes, <xliff:g id="app_name">%1$s</xliff:g> wants to turn on network scanning, even when Wi-Fi is off.\n\nAllow this for all apps that want to scan?</string>
+    <string name="wifi_scan_always_confirm_allow">Allow</string>
+    <string name="wifi_scan_always_confirm_deny">Deny</string>
+
+    <!-- Button label to connect to a Wi-Fi network -->
+    <string name="wifi_connect">Connect</string>
+    <!-- Failured notification for connect -->
+    <string name="wifi_failed_connect_message">Failed to connect to network</string>
+    <!-- Button label to delete a Wi-Fi network -->
+    <string name="wifi_forget">Forget</string>
+    <!-- Failured notification for forget -->
+    <string name="wifi_failed_forget_message">Failed to forget network</string>
+    <!-- Button label to save a Wi-Fi network configuration -->
+    <string name="wifi_save">Save</string>
+    <!-- Failured notification for save -->
+    <string name="wifi_failed_save_message">Failed to save network</string>
+    <!-- Button label to dismiss the dialog -->
+    <string name="wifi_cancel">Cancel</string>
+    <!-- Button for skipping a step after having been warned of a potential concern [CHAR LIMIT=30] -->
+    <string name="wifi_skip_anyway">Skip anyway</string>
+    <!-- Button for going to the previous screen or step [CHAR LIMIT=20] -->
+    <string name="wifi_dont_skip">Don\'t skip</string>
+
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (tablet) [CHAR LIMIT=NONE] -->
+    <string name="wifi_skipped_message" product="tablet">WARNING: You may incur extra carrier data charges.\n\nDevice setup can require significant network activity.</string>
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (phone) [CHAR LIMIT=NONE] -->
+    <string name="wifi_skipped_message" product="default">WARNING: You may incur extra carrier data charges.\n\nPhone setup can require significant network activity.</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (tablet) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="tablet">WARNING: Until you have an internet connection, the device won\'t be able to verify that your software is up to date.</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (phone) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="default">WARNING: Until you have an internet connection, the phone won\'t be able to verify that your software is up to date.</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (tablet) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="tablet">The device was unable to connect to this Wi\u2011Fi network.</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (phone) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="default">The phone was unable to connect to this Wi\u2011Fi network.</string>
+
+    <!-- Wi-Fi Advanced Settings -->
+    <skip />
+    <!-- Wi-Fi settings screen, advanced, settings section.  This is a header shown above advanced wifi settings. -->
+    <string name="wifi_advanced_titlebar">Advanced Wi\u2011Fi</string>
+    <!-- Wi-Fi settings screen, setting title for setting the band [CHAR LIMIT=50] -->
+    <string name="wifi_setting_frequency_band_title">Wi\u2011Fi frequency band</string>
+    <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50] -->
+    <string name="wifi_setting_frequency_band_summary">Specify the frequency range of operation</string>
+    <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+    <string name="wifi_setting_frequency_band_error">There was a problem setting the frequency band.</string>
+    <!-- Wi-Fi settings screen, advanced, title of the item to show the Wi-Fi device's MAC address. -->
+    <string name="wifi_advanced_mac_address_title">MAC address</string>
+    <!-- Title of the screen to adjust IP settings -->
+    <!-- Wi-Fi settings screen, advanced, title of the item to show the Wi-Fi device's current IP address. -->
+    <string name="wifi_advanced_ip_address_title">IP address</string>
+
+    <!-- Wifi Advanced settings.  Used as a label under the shortcut icon that goes to Wifi advanced settings. [CHAR LIMIT=20] -->
+    <string name="wifi_advanced_settings_label">IP settings</string>
+    <!-- Menu item to save the IP settings -->
+    <string name="wifi_ip_settings_menu_save">Save</string>
+    <!-- Menu ietm to cancel the IP settings -->
+    <string name="wifi_ip_settings_menu_cancel">Cancel</string>
+    <!-- Error message if the IP address is not valid [CHAR LIMIT=50] -->
+    <string name="wifi_ip_settings_invalid_ip_address">Type a valid IP address.</string>
+    <!-- Error message if the gateway is not valid [CHAR LIMIT=50] -->
+    <string name="wifi_ip_settings_invalid_gateway">Type a valid gateway address.</string>
+    <!-- Error message if the dns is not valid [CHAR LIMIT=50] -->
+    <string name="wifi_ip_settings_invalid_dns">Type a valid DNS address.</string>
+    <!-- Error message if the network prefix length is not valid [CHAR LIMIT=50] -->
+    <string name="wifi_ip_settings_invalid_network_prefix_length">Type a network prefix length between 0 and 32.</string>
+    <!-- Label for the DNS (first one) -->
+    <string name="wifi_dns1">DNS 1</string>
+    <!-- Hint text for DNS -->
+    <string name="wifi_dns1_hint" translatable="false">8.8.8.8</string>
+    <!-- Label for the DNS (second one) -->
+    <string name="wifi_dns2">DNS 2</string>
+    <!-- Hint text for DNS -->
+    <string name="wifi_dns2_hint" translatable="false">8.8.4.4</string>
+    <!-- Label for the gateway of the network -->
+    <string name="wifi_gateway">Gateway</string>
+    <!-- Hint text for the gateway -->
+    <string name="wifi_gateway_hint" translatable="false">192.168.1.1</string>
+    <!-- Label for the network prefix of the network [CHAR LIMIT=25] -->
+    <string name="wifi_network_prefix_length">Network prefix length</string>
+    <!-- Hint text for network prefix length -->
+    <string name="wifi_network_prefix_length_hint" translatable="false">24</string>
+
+    <!-- Wi-Fi p2p / Wi-Fi Direct settings -->
+    <!-- Used in the 1st-level settings screen to launch Wi-fi Direct settings [CHAR LIMIT=25] -->
+    <string name="wifi_p2p_settings_title">Wi\u2011Fi Direct</string>
+    <string name="wifi_p2p_device_info">Device information</string>
+    <string name="wifi_p2p_persist_network">Remember this connection</string>
+    <!-- Menu option to discover peers -->
+    <string name="wifi_p2p_menu_search">Search for devices</string>
+    <!-- Menu option when discovery is in progress [CHAR LIMIT=25] -->
+    <string name="wifi_p2p_menu_searching">Searching\u2026</string>
+    <!-- Menu option to Rename -->
+    <string name="wifi_p2p_menu_rename">Rename device</string>
+    <!-- Title for available p2p devices -->
+    <string name="wifi_p2p_peer_devices">Peer devices</string>
+    <!-- Title for remembered p2p groups -->
+    <string name="wifi_p2p_remembered_groups">Remembered groups</string>
+    <!-- Toast text for a failed connection initiation -->
+    <string name="wifi_p2p_failed_connect_message">Couldn\'t connect.</string>
+    <!-- Message text for failure to rename -->
+    <string name="wifi_p2p_failed_rename_message">Failed to rename device.</string>
+    <!-- Title for disconnect dialog -->
+    <string name="wifi_p2p_disconnect_title">Disconnect?</string>
+    <!-- Message text for disconnection from one device -->
+    <string name="wifi_p2p_disconnect_message">If you disconnect, your connection with <xliff:g id="peer_name">%1$s</xliff:g> will end.</string>
+    <!-- Message text for disconnection from multiple devices -->
+    <string name="wifi_p2p_disconnect_multiple_message">If you disconnect, your connection with <xliff:g id="peer_name">%1$s</xliff:g> and <xliff:g id="peer_count">%2$s</xliff:g> other devices will end.</string>
+    <!-- Title for cancel connect dialog -->
+    <string name="wifi_p2p_cancel_connect_title">Cancel invitation?</string>
+    <!-- Message text for disconnection from one device -->
+    <string name="wifi_p2p_cancel_connect_message">Do you want to cancel invitation to connect with <xliff:g id="peer_name">%1$s</xliff:g>?</string>
+    <!-- Message text for remembered group deletion -->
+    <string name="wifi_p2p_delete_group_message">Forget this group?</string>
+
+    <!-- Wifi AP settings -->
+    <!-- Label for wifi tether checkbox. Toggles Access Point on/off -->
+    <string name="wifi_tether_checkbox_text">Portable Wi\u2011Fi hotspot</string>
+    <!-- Summary text when turning hotspot on -->
+    <string name="wifi_tether_starting">Turning hotspot on\u2026</string>
+    <!-- Summary text when turning hotspot off -->
+    <string name="wifi_tether_stopping">Turning off hotspot\u2026</string>
+    <!-- Subtext for wifi tether checkbox on success -->
+    <string name="wifi_tether_enabled_subtext">Portable hotspot <xliff:g id="network_ssid">%1$s</xliff:g> active</string>
+    <!-- Subtext for wifi tether checkbox on failure -->
+    <string name="wifi_tether_failed_subtext">Portable Wi\u2011Fi hotspot error</string>
+    <!-- Used to open the ssid and security dialog for Wifi Access Point -->
+    <string name="wifi_tether_configure_ap_text">Set up Wi\u2011Fi hotspot</string>
+    <!-- Subtext on configuration preference to indicate SSID and security chosen -->
+    <string name="wifi_tether_configure_subtext"><xliff:g id="network_ssid">%1$s</xliff:g><xliff:g id="network_security">%2$s</xliff:g> portable Wi\u2011Fi hotspot</string>
+    <!-- Default access point SSID used for tethering -->
+    <string name="wifi_tether_configure_ssid_default">AndroidHotspot</string>
+
+    <!-- date and time -->
+    <string name="morning"> AM</string>
+    <string name="afternoon"> PM</string>
+    <string name="projector_settings">Projector Settings</string>
+    <string name="network_correct_time">Correct Time</string>
+    <string name="is24_hour">Use 24-hour Format</string>
+    <string name="manual_set_date">Set date</string>
+    <string name="manual_set_time">Set Time</string>
+    <string name="set_time_zone">TimeZone Settings</string>
+    <string name="set_city">City Settings</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="city">市</string>
+    <string name="taicity">县</string>
+
+    <string name=" system_setting">System Settings</string>
+    <string name="setting">Settings</string>
+    <string name="timezone">TimeZOne</string>
+    <string name="current_city">CurrentCity</string>
+    <string name="search_city">Search city </string>
+    <string name="timezone_example">GMT+8:00  China Standard Time</string>
+    <string name="delete">Delete</string>
+    <string name="clear">Empty</string>
+    <string name="example_one">Input Chinese，example＂Taibei＂</string>
+    <string name="example_two">Input pinyin，example ＂BeiJing＂</string>
+    <string name="example_three"> Input English,＂BeiJing＂</string>
+    <string name="date_formate">yyyy.MM.dd    HH:mm</string>
+    <string name="correct_time_fail">Faild to correct time，correct time agin,please.</string>
+    <string name="correct_time_success">correct time successfully</string>
+    <!-- Button label for generic cancel action -->
+    <string name="cancel">Cancel</string>
+    <!-- Help menu label [CHAR LIMIT=20] -->
+    <string name="help_label">Help</string>
+    <!-- Title for security picker to choose the unlock method: None/Pattern/PIN/Password [CHAR LIMIT=22] -->
+    <string name="lock_settings_picker_title">Choose screen lock</string>
+    <!-- Storage settings screen title -->
+     <string name="choose_mount" msgid="6629067715017232195">"mount-unmount"</string>
+     <string name="clear_data" msgid="6629067715017232195">"format"</string>
+    <string name="storage_settings_title">Storage settings</string>
+    <!-- SD card eject confirmation dialog  [CHAR LIMIT=NONE] -->
+    <string name="dlg_confirm_unmount_text" product="nosdcard">If you unmount the USB storage, some apps you are using will stop and may be unavailable until you remount the USB storage.</string>
+    <string name="dlg_confirm_unmount_text" product="default">If you unmount the storage, some apps you are using will stop and may be unavailable until you remount the storage.</string>
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems.   [CHAR LIMIT=30] -->
+    <string name="sd_eject_summary" product="nosdcard">Unmount the internal USB storage</string>
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems. -->
+    <string name="sd_eject_summary" product="default">Unmount the SD card so you can safely remove it</string>
+    <!-- SD card & phone storage settings item title for toggling PTP mode on and off.  When PTP mode is on the device will appear on the USB bus as a PTP camera device instead of an MTP music player. -->
+    <!-- Section header above list of other users storage [CHAR LIMIT=32] -->
+    <string name="storage_other_users">Other users</string>
+    <!-- [CHAR LIMIT=15] Manage applications, label for chart showing internal storage use. -->
+    <string name="internal_storage">System storage</string>
+    <string name="device_memory">Device memory</string>
+    <!-- SD card & phone storage settings screen heading. This is displayed above items that pertain to the phone's internal storage -->
+    <string name="internal_memory">Internal storage</string>
+    <!-- SD card & phone storage settings screen heading. This is displayed above items that pertain to the SD card [CHAR LIMIT=30] -->
+    <string name="sd_memory" product="nosdcard">USB storage</string>
+    <!-- SD card & phone storage settings screen heading. This is displayed above items that pertain to the SD card -->
+    <string name="sd_memory" product="default">SD card</string>
+    <!-- SD card & phone storage settings title. The amount of free space for some storage partition.  For example, this is listed under both the "Internal phone storage" section and the "SD card" section. -->
+    <string name="memory_available">Available</string>
+    <string name="extension_memory_available">Available</string>
+    <!-- SD card & phone storage settings title. The amount of free space for some storage partition when the volume is read-only. [CHAR LIMIT=64] -->
+    <string name="memory_available_read_only">Available (read-only)</string>
+    <!-- SD card & phone storage settings screen heading.  The total amount of storage space for some storage partition.  For example, this is listed under both the "Internal phone storage" section and the "SD card" section -->
+    <string name="memory_size">Total space</string>
+    <!-- SD card & phone storage settings summary. Displayed when the total memory usage is being calculated. Will be replaced with a number like "12.3 GB" when finished calucating. [CHAR LIMIT=30] -->
+    <string name="memory_calculating_size">Calculating\u2026</string>
+    <!-- SD card & phone storage settings title. Displayed as a title when showing the total usage of applications installed. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="memory_apps_usage">Apps (app data &amp; media content)</string>
+    <!-- SD card & phone storage settings title. Displayed as a title when showing the total usage of media on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="memory_media_usage">Media</string>
+    <!-- SD card & phone storage settings title. Displayed as a title when showing the total usage of /sdcard/Download on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="memory_downloads_usage">Downloads</string>
+    <!-- SD card & phone storage settings title. Displayed as a title when showing the total usage of all pictures, videos in /sdcard/DCIM, /sdcard/Pictures folders on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="memory_dcim_usage">Pictures, videos</string>
+    <!-- SD card & phone storage settings title. Displayed as a title when showing the total usage of audio files in /sdcard on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="memory_music_usage">Audio (music, ringtones, podcasts, etc.)</string>
+    <!-- SD card & phone storage settings title. Displayed as a title when showing the total usage of misc files on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="memory_media_misc_usage">Misc.</string>
+    <!-- Storage item representing all cached data on device. [CHAR LIMIT=48] -->
+    <string name="memory_media_cache_usage">Cached data</string>
+    <string name="system_usage">System</string>
+    <!-- SD card & phone storage settings item summary that will result in the phone connected to PC and MTP/PTP enabled.   [CHAR LIMIT=80] -->
+    <string name="mtp_ptp_mode_summary">MTP or PTP function is active</string>
+    <!-- SD card & phone storage settings item summary that is displayed when no SD card is inserted.  This version of the string can probably never come up on current hardware. [CHAR LIMIT=25] -->
+    <string name="sd_insert_summary" product="nosdcard">Insert USB storage for mounting</string>
+    <!-- SD card & phone storage settings item summary that is displayed when no SD card is inserted -->
+    <string name="sd_insert_summary" product="default">Insert an SD card for mounting</string>
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems.   [CHAR LIMIT=25] -->
+    <string name="sd_eject" product="nosdcard">Unmount shared storage</string>
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems. -->
+    <string name="sd_eject" product="default">Unmount SD card</string>
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems.   [CHAR LIMIT=30] -->
+    <string name="sd_format" product="nosdcard">Erase USB storage</string>
+    <!-- SD card & phone storage settings item title that will result in the phone formatting the SD card.   [CHAR LIMIT=25] -->
+    <string name="sd_format" product="default">Erase SD card</string>
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.   [CHAR LIMIT=80] -->
+    <string name="sd_format_summary" product="nosdcard">Erases all data on the internal USB storage, such as music and photos</string>
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.   [CHAR LIMIT=80] -->
+    <string name="sd_format_summary" product="default">Erases all data on the SD card, such as music and photos</string>
+    <!-- SD card status when it is mounted as read only. Will be appended to size, starts with an unbreakable space -->
+    <!-- Settings item title when storage is running low [CHAR LIMIT=32] -->
+    <string name="storage_low_title">Storage space is running out</string>
+    <!-- Settings item summary when storage is running low [CHAR LIMIT=NONE] -->
+    <string name="storage_low_summary">Some system functions, such as syncing, may not work correctly. Try to free space by deleting or unpinning items, such as apps or media content.</string>
+    <!-- Storage setting item that will mount USB storage if it unmounted. A user should never see this. [CHAR LIMIT=25] -->
+    <string name="sd_mount" product="nosdcard">Mount USB storage</string>
+    <!-- SD card & phone storage settings item title that will result in the phone mounting the SD card. -->
+    <string name="sd_mount" product="default">Mount SD card</string>
+    <!-- Title of dialog asking user to confirm before clearing all caches. [CHAR LIMIT=48] -->
+    <string name="memory_clear_cache_title">Clear cached data?</string>
+    <!-- Message of dialog asking user to confirm before clearing all caches. [CHAR LIMIT=48] -->
+    <string name="memory_clear_cache_message">This will clear cached data for all apps.</string>
+    
+     <!-- The title of the activity to adjust SD card settings [CHAR LIMIT=25] -->
+    <string name="sd_card_settings_label" product="nosdcard">USB storage</string>
+    <!-- The title of the activity to adjust SD card settings-->
+    <string name="sd_card_settings_label" product="default">SD card</string>
+    
+    <!-- SD card unmount informative text   [CHAR LIMIT=NONE] -->
+    <string name="unmount_inform_text" product="nosdcard">USB storage will be unmounted.</string>
+    <!-- SD card unmount informative text   [CHAR LIMIT=NONE] -->
+    <string name="unmount_inform_text" product="default">SD card will be unmounted.</string>
+    <!-- SD card eject progress title   -->
+    <string name="sd_ejecting_title">Unmounting</string>
+    <!-- SD card eject progress text   -->
+    <string name="sd_ejecting_summary">Unmount in progress</string>
+    
+ <!-- Media Format -->
+    <!-- SD card & phone storage settings screen, setting option name under Internal phone storage heading [CHAR LIMIT=25] -->
+    <string name="media_format_title" product="nosdcard">Erase USB storage</string>
+    <!-- SD card & phone storage settings screen, setting option name under Internal phone storage heading -->
+    <string name="media_format_title" product="default">Erase SD card</string>
+    <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading [CHAR LIMIT=30] -->
+    <string name="media_format_summary" product="nosdcard">Erases all data in USB storage</string>
+    <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
+    <string name="media_format_summary" product="default">Erases all data on the SD card</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="media_format_desc" product="nosdcard">Erase all USB storage? You will lose <b>all</b> stored data!</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="media_format_desc" product="default">Erase the SD card? You will lose <b>all</b> data on the card!</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset [CHAR LIMIT=25] -->
+    <string name="media_format_button_text" product="nosdcard">Erase USB storage</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
+    <string name="media_format_button_text" product="default">Erase SD card</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Format media button [CHAR LIMIT=NONE] -->
+    <string name="media_format_final_desc" product="nosdcard">Erase the USB storage, deleting all files stored there? You can\'t reverse this action!</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Format media button [CHAR LIMIT=NONE] -->
+    <string name="media_format_final_desc" product="default">Erase the SD card, deleting all files stored there? You can\'t reverse this action!</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Format media button -->
+    <string name="media_format_final_button_text">Erase everything</string>
+    <!-- Message to draw an unlock pattern before clearing the device -->
+    <string name="media_format_gesture_prompt">Draw your unlock pattern</string>
+    <!-- Explanation of drawing unlock pattern to format card [CHAR LIMIT=NONE] -->
+    <string name="media_format_gesture_explanation" product="nosdcard">You need to draw your unlock pattern to confirm that you want to erase the USB storage.</string>
+    <!-- Explanation of drawing unlock pattern to format card [CHAR LIMIT=NONE] -->
+    <string name="media_format_gesture_explanation" product="default">You need to draw your unlock pattern to confirm that you want to erase the SD card.</string>
+
+    <!-- Subtext for Mount USB storage in Storage settings. User should never see this since we use automount. -->
+    <string name="sd_mount_summary" product="nosdcard"></string>
+    <!-- Subtext for Mount SD Card in Storage settings. User should never see this since we use automount. -->
+    <string name="sd_mount_summary" product="default"></string>
+    <string name="nand_flash_eject">Unmount Nand Flash</string>
+    <string name="nand_flash_eject_summary">Unmount the internal nand flash storage</string>
+    <string name="nand_flash_format">Erase Nand Flash</string>
+    <string name="nand_flash_format_summary">Erases all data on the internal nand flash storage, such as music and photos</string>
+    <string name="nand_flash_mount">Mount Nand Flash</string>
+    <string name="nand_flash_mount_summary">Mount Nand Flash</string>
+    <string name="title_symbol">></string>
+    <string name="ntpserver_china">1.cn.pool.ntp.org</string>
+    <string name="ntpserver_taiwan">1.tw.pool.ntp.org</string>
+    <string name="ntpserver_american">time.nist.gov</string>
+    <string name="server">Choose Server</string>
+    <string name="auto_gain">Auto Gain</string>
+    <string name="search">Search</string>
+    <string name="input_prompt">Input Prompt</string>
+    <string  name="country">China</string>
+    <string  name="example_city">TaiBei</string>
+    <string  name="example_city_for_826">ShangHai</string>
+
+    <!-- Strings for BluetoothDevicePicker -->
+    <string name="device_picker">Bluetooth device chooser</string>
+    <!-- Strings for dialog title when asking to the user whether to allow an app to enable discovery mode -->
+    <string name="bluetooth_permission_request">"Bluetooth permission request"</string>
+
+    <!-- Strings for asking to the user whether to allow an app to enable bluetooth -->
+    <string name="bluetooth_ask_enablement">An app wants to turn on Bluetooth.</string>
+
+    <!-- Strings for asking to the user whether to allow an app to enable discovery mode -->
+    <string name="bluetooth_ask_discovery" product="tablet">An app wants to make your tablet visible to other Bluetooth devices for <xliff:g id="timeout">%1$d</xliff:g> seconds.</string>
+    <!-- Strings for asking to the user whether to allow an app to enable discovery mode -->
+    <string name="bluetooth_ask_discovery" product="default">An app wants to make your phone visible to other Bluetooth devices for <xliff:g id="timeout">%1$d</xliff:g> seconds.</string>
+
+    <!-- Strings for asking to the user whether to allow an app to enable lasting discovery mode  -->
+    <string name="bluetooth_ask_lasting_discovery" product="tablet">An app wants to make your tablet visible to other Bluetooth devices. You can change this later in Bluetooth settings.</string>
+    <string name="bluetooth_ask_lasting_discovery" product="default">An app wants to make your phone visible to other Bluetooth devices. You can change this later in Bluetooth settings.</string>
+
+    <!-- Strings for asking to the user whether to allow an app to enable bluetooth and discovery mode -->
+    <string name="bluetooth_ask_enablement_and_discovery" product="tablet">An app wants to turn on Bluetooth and make your tablet visible to other devices for <xliff:g id="timeout">%1$d</xliff:g> seconds.</string>
+    <!-- Strings for asking to the user whether to allow an app to enable bluetooth and discovery mode -->
+    <string name="bluetooth_ask_enablement_and_discovery" product="default">An app wants to turn on Bluetooth and make your phone visible to other devices for <xliff:g id="timeout">%1$d</xliff:g> seconds.</string>
+
+    <!-- Strings for asking to the user whether to allow an app to enable bluetooth and discovery mode -->
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet">An app wants to turn on Bluetooth and make your tablet visible to other devices. You can change this later in Bluetooth settings.</string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="default">An app wants to turn on Bluetooth and make your phone visible to other devices. You can change this later in Bluetooth settings.</string>
+
+    <!-- Strings for msg to display to user while bluetooth is turning on [CHAR LIMIT=60] -->
+    <string name="bluetooth_turning_on">"Turning Bluetooth on\u2026"</string>
+
+    <!-- Strings for msg to display to user while bluetooth is turning off [CHAR LIMIT=60] -->
+    <string name="bluetooth_turning_off">"Turning Bluetooth off\u2026"</string>
+
+    <!-- Strings for device profile auto connect setting -->
+    <string name="bluetooth_auto_connect">Auto-connect</string>
+
+    <!-- Activity label of BluetoothPermissionActivity [CHAR LIMIT=none]-->
+    <string name="bluetooth_connection_permission_request">"Bluetooth connection request"</string>
+
+    <!-- Notification message when a remote Bluetooth device wants to connect to a Bluetooth profile [CHAR LIMIT=none]-->
+    <string name="bluetooth_connection_notif_message">"Touch to connect to \u0022<xliff:g id="device_name">%1$s</xliff:g>\u0022."</string>
+
+    <!-- Bluetooth connection permission Alert Activity text [CHAR LIMIT=none]-->
+    <string name="bluetooth_connection_dialog_text">"Do you want to connect to \u0022<xliff:g id="device_name">%1$s</xliff:g>\u0022?"</string>
+
+    <!-- Activity label of BluetoothPbPermissionActivity, also used as Strings in the permission dialog [CHAR LIMIT=none] -->
+    <string name="bluetooth_phonebook_request">"Phone book access request"</string>
+
+    <!-- Bluetooth phone book permission Alert Activity text [CHAR LIMIT=none] -->
+    <string name="bluetooth_pb_acceptance_dialog_text">%1$s wants to access your contacts and call history. Give access to %2$s?</string>
+
+    <!-- Bluetooth phone book permission Alert Activity checkbox text [CHAR LIMIT=none] -->
+    <string name="bluetooth_remember_choice">Don\'t ask again</string>
+    <!--FIXME SHOULD BE REMOVED AND ALL LANG VERSIONS FIXED TO ABOVE NAME -->
+    <string name="bluetooth_pb_remember_choice">Don\'t ask again</string>
+
+    <!-- Activity label of BluetoothMessagePermissionActivity, also used as Strings in the permission dialog [CHAR LIMIT=none] -->
+    <string name="bluetooth_map_request">"Message access request"</string>
+
+    <!-- Bluetooth message permission Alert Activity text [CHAR LIMIT=none] -->
+    <string name="bluetooth_map_acceptance_dialog_text">%1$s wants to access your messages. Give access to %2$s?</string>
+
+    <!-- Bluetooth settings -->
+    <!-- Bluetooth settings check box title on Main Settings screen -->
+    <string name="bluetooth_quick_toggle_title">Bluetooth</string>
+    <!-- Bluetooth settings check box summary for turning on bluetooth -->
+    <string name="bluetooth_quick_toggle_summary">Turn on Bluetooth</string>
+    <!--Used as title on second screen after selecting Bluetooth settings -->
+    <string name="bluetooth_settings">Bluetooth</string>
+    <!--Wireless controls screen, settings title for the item to take you to the bluetooth settings screen -->
+    <string name="bluetooth_settings_title">Bluetooth</string>
+    <!--Wireless controls screen, settings summary for the item tot ake you to the bluetooth settings screen -->
+    <string name="bluetooth_settings_summary">Manage connections, set device name &amp; discoverability</string>
+
+    <!-- ======================================================================================= -->
+    <!-- Note: The opening brackets of HTML style tags are escaped (e.g. "<b>" is "&lt;b>") in   -->
+    <!--   the following resources to enable formatting followed by HTML styling, as described   -->
+    <!--   here:  http://developer.android.com/guide/topics/resources/string-resource.html       -->
+    <!-- ======================================================================================= -->
+
+    <!-- Title for the dialog to enter PIN. [CHAR LIMIT=40] -->
+    <string name="bluetooth_pairing_request">Bluetooth pairing request</string>
+
+    <!-- Message when bluetooth dialog for pin entry is showing. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_enter_pin_msg">To pair with:<xliff:g id="bold">&lt;br>&lt;b></xliff:g><xliff:g id="device_name">%1$s</xliff:g><xliff:g id="end_bold">&lt;/b>&lt;br>&lt;br></xliff:g>Type the device\'s required PIN:</string>
+
+    <!-- Message when bluetooth dialog for passkey entry is showing. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_enter_passkey_msg">To pair with:<xliff:g id="bold">&lt;br>&lt;b></xliff:g><xliff:g id="device_name">%1$s</xliff:g><xliff:g id="end_bold">&lt;/b>&lt;br>&lt;br></xliff:g>Type the device\'s required passkey:</string>
+
+    <!-- Checkbox label for alphanumeric PIN entry (default is numeric PIN). [CHAR LIMIT=50] -->
+    <string name="bluetooth_enable_alphanumeric_pin">PIN contains letters or symbols</string>
+
+    <!-- Bluetooth PIN hint text (below the text entry box). [CHAR LIMIT=30] -->
+    <string name="bluetooth_pin_values_hint">Usually 0000 or 1234</string>
+
+    <!-- Pairing dialog text to remind user to enter the PIN on the other device. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_enter_pin_other_device">You may also need to type this PIN on the other device.</string>
+    <!-- Pairing dialog text to remind user to enter the passkey on the other device. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_enter_passkey_other_device">You may also need to type this passkey on the other device.</string>
+
+    <!-- Message for confirmation of passkey to complete pairing. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_confirm_passkey_msg">To pair with:&lt;br>&lt;b><xliff:g id="device_name">%1$s</xliff:g>&lt;/b>&lt;br>&lt;br>Make sure it is showing this passkey:&lt;br>&lt;b><xliff:g id="passkey">%2$s</xliff:g>&lt;/b></string>
+
+    <!-- Message when bluetooth incoming pairing request for (2.1 devices) dialog is showing -->
+    <string name="bluetooth_incoming_pairing_msg">From:&lt;br>&lt;b><xliff:g id="device_name">%1$s</xliff:g>&lt;/b>&lt;br>&lt;br>Pair with this device?</string>
+
+    <!-- Message when bluetooth dialog when passkey or pin needs to be displayed. -->
+    <string name="bluetooth_display_passkey_pin_msg">To pair with:<xliff:g id="bold1">&lt;br>&lt;b></xliff:g><xliff:g id="device_name">%1$s</xliff:g><xliff:g id="end_bold1">&lt;/b>&lt;br>&lt;br></xliff:g>Type on it:<xliff:g id="bold2">&lt;br>&lt;b></xliff:g><xliff:g id="passkey">%2$s</xliff:g><xliff:g id="end_bold2">&lt;/b></xliff:g>, then press Return or Enter.</string>
+
+    <!-- Button text for accepting an incoming pairing request. [CHAR LIMIT=20] -->
+    <string name="bluetooth_pairing_accept">Pair</string>
+    <!-- Button text for declining an incoming pairing request. [CHAR LIMIT=20] -->
+    <string name="bluetooth_pairing_decline">Cancel</string>
+
+    <!-- Title for BT error dialogs. -->
+    <string name="bluetooth_error_title"></string>
+    <!-- Message for the error dialog when BT pairing fails generically. -->
+    <string name="bluetooth_pairing_error_message">Couldn\'t pair with <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    <!-- Message for the error dialog when BT pairing fails because the PIN /
+    Passkey entered is incorrect. -->
+    <string name="bluetooth_pairing_pin_error_message">Couldn\'t pair with <xliff:g id="device_name">%1$s</xliff:g> because of an incorrect PIN or passkey.</string>
+    <!-- Message for the error dialog when BT pairing fails because the other device is down. -->
+    <string name="bluetooth_pairing_device_down_error_message">Can\'t communicate with <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    <!-- Message for the error dialog when BT pairing fails because the other device rejected the pairing. -->
+    <string name="bluetooth_pairing_rejected_error_message">Pairing rejected by <xliff:g id="device_name">%1$s</xliff:g>.</string>
+
+    <!-- Message for the error dialog when BT connecting operation fails generically. -->
+    <string name="bluetooth_connecting_error_message">Couldn\'t connect to <xliff:g id="device_name">%1$s</xliff:g>.</string>
+
+    <!-- Bluetooth settings: The title of the preference (list item) that initiates a scan for devices -->
+    <string name="bluetooth_preference_scan_title">Scan for devices</string>
+    <!-- Bluetooth settings: The title of the action button that initiates a search for nearby devices [CHAR LIMIT=20] -->
+    <string name="bluetooth_search_for_devices">Search for devices</string>
+    <!-- Bluetooth settings: The title of the action button while a search for nearby devices is in progress [CHAR LIMIT=20] -->
+    <string name="bluetooth_searching_for_devices">Searching\u2026</string>
+    <!-- Bluetooth settings: The sub heading for device settings. [CHAR LIMIT=30] -->
+    <string name="bluetooth_preference_device_settings">Device settings</string>
+    <!-- Bluetooth settings: The sub heading for devices which have already been paired with this device. [CHAR LIMIT=40] -->
+    <string name="bluetooth_preference_paired_devices">Paired devices</string>
+    <!-- Bluetooth settings: The sub heading for available devices during and after scanning. [CHAR LIMIT=40] -->
+    <string name="bluetooth_preference_found_devices">Available devices</string>
+    <!-- Bluetooth settings.  Context menu item for a device.  Action will connect to all profiles on the device. -->
+    <string name="bluetooth_device_context_connect">Connect</string>
+    <!-- Bluetooth settings.  Context menu item for a device.  Action will disconnect from all profiles on the device. -->
+    <string name="bluetooth_device_context_disconnect">Disconnect</string>
+    <!-- Bluetooth settings.  Context menu item for a device.  Action will first pair, and then connect to all profiles on the device. -->
+    <string name="bluetooth_device_context_pair_connect">Pair &amp; connect</string>
+    <!-- Bluetooth settings.  Context menu item for a device.  Action will remove pairing with the device. -->
+    <string name="bluetooth_device_context_unpair">Unpair</string>
+    <!-- Bluetooth settings.  Context menu item for a device.  Action will disconnect and remove pairing with the device. -->
+    <string name="bluetooth_device_context_disconnect_unpair">Disconnect &amp; unpair</string>
+    <!-- Bluetooth settings.  Context menu item for a device.  Action will take the user to another screen where they can choose exactly which profiles to connect to. -->
+    <string name="bluetooth_device_context_connect_advanced">Options\u2026</string>
+    <!-- Bluetooth settings.  Menu option to Bluetooth advanced settings [CHAR LIMIT=20]-->
+    <string name="bluetooth_menu_advanced">Advanced</string>
+    <!-- Bluetooth settings. Title of the advanced bluetooth settings screen [CHAR LIMIT=30]-->
+    <string name="bluetooth_advanced_titlebar">Advanced Bluetooth</string>
+    <!-- Bluetooth settings. Text displayed when Bluetooth is off and device list is empty [CHAR LIMIT=50]-->
+    <string name="bluetooth_empty_list_bluetooth_off">To see devices, turn Bluetooth on.</string>
+
+
+    <!-- Bluetooth settings.  The title of the screen to pick which profiles to connect to on the device.  For example, headphones may have both A2DP and headset, this allows the user to choose which one he wants to connect to. -->
+    <string name="bluetooth_connect_specific_profiles_title">Connect to\u2026</string>
+
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the A2DP profile. -->
+    <string name="bluetooth_profile_a2dp">Media audio</string>
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the headset or handsfree profile. -->
+    <string name="bluetooth_profile_headset">Phone audio</string>
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the OPP profile. -->
+    <string name="bluetooth_profile_opp">File transfer</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the HID profile. -->
+    <string name="bluetooth_profile_hid">Input device</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the PAN profile (accessing Internet through remote device). [CHAR LIMIT=40]-->
+    <string name="bluetooth_profile_pan">Internet access</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the PAN profile (sharing this device's Internet connection). [CHAR LIMIT=40]-->
+    <string name="bluetooth_profile_pan_nap">Internet connection sharing</string>
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the map profile. -->
+    <string name="bluetooth_profile_map">Message Access</string>
+
+    <!-- Bluetooth settings.  Message for disconnecting from the A2DP profile. [CHAR LIMIT=80] -->
+    <string name="bluetooth_disconnect_a2dp_profile"><xliff:g id="device_name">%1$s</xliff:g> will be disconnected from media audio.</string>
+    <!-- Bluetooth settings.  Message for disconnecting from the headset profile. [CHAR LIMIT=80] -->
+    <string name="bluetooth_disconnect_headset_profile"><xliff:g id="device_name">%1$s</xliff:g> will be disconnected from handsfree audio.</string>
+    <!-- Bluetooth settings.  Message for disconnecting from the HID profile. [CHAR LIMIT=80] -->
+    <string name="bluetooth_disconnect_hid_profile"><xliff:g id="device_name">%1$s</xliff:g> will be disconnected from input device.</string>
+    <!-- Bluetooth settings.  Message for disconnecting from the PAN profile (user role). [CHAR LIMIT=80] -->
+    <string name="bluetooth_disconnect_pan_user_profile">Internet access via <xliff:g id="device_name">%1$s</xliff:g> will be disconnected.</string>
+    <!-- Bluetooth settings.  Message for disconnecting from the PAN profile (NAP role). [CHAR LIMIT=80] -->
+    <string name="bluetooth_disconnect_pan_nap_profile" product="tablet"><xliff:g id="device_name">%1$s</xliff:g> will be disconnected from sharing this tablet\'s Internet connection.</string>
+    <!-- Bluetooth settings.  Message for disconnecting from the PAN profile (NAP role). [CHAR LIMIT=80] -->
+    <string name="bluetooth_disconnect_pan_nap_profile" product="default"><xliff:g id="device_name">%1$s</xliff:g> will be disconnected from sharing this phone\'s Internet connection.</string>
+
+    <!-- Bluetooth settings.  Connection options screen.  The title of the screen. [CHAR LIMIT=40] -->
+    <string name="bluetooth_device_advanced_title">Paired Bluetooth device</string>
+    <!-- Bluetooth settings.  Connection options screen.  The title of the checkbox that controls whether the device is in "online" mode or "offline" mode.  This essentially is the checkbox that controls whether any checks / unchecks on a profile should be applied immediately, or next time the device is connected. -->
+    <string name="bluetooth_device_advanced_online_mode_title">Connect</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary of the online mode checkbox.  This describes what the setting does in the context of the screen. -->
+    <string name="bluetooth_device_advanced_online_mode_summary">Connect to Bluetooth device</string>
+    <!-- Bluetooth settings.  Connection options screen.  The title of the header that is above all of the profiles. -->
+    <string name="bluetooth_device_advanced_profile_header_title">Profiles</string>
+    <!-- Bluetooth settings. Connection options screen. Title for option to rename the device. [CHAR LIMIT=30] -->
+    <string name="bluetooth_device_advanced_rename_device">Rename</string>
+    <!-- Bluetooth settings. Connection options screen. Title for checkbox to enable incoming file transfers [CHAR LIMIT=30] -->
+    <string name="bluetooth_device_advanced_enable_opp_title">Allow incoming file transfers</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the A2DP checkbox preference when A2DP is connected. -->
+    <string name="bluetooth_a2dp_profile_summary_connected">Connected to media audio</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the headset checkbox preference when headset is connected. -->
+    <string name="bluetooth_headset_profile_summary_connected">Connected to phone audio</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference when OPP is connected. -->
+    <string name="bluetooth_opp_profile_summary_connected">Connected to file transfer server</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the map checkbox preference when map is connected. -->
+    <string name="bluetooth_map_profile_summary_connected">Connected to map</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference when OPP is not connected. -->
+    <string name="bluetooth_opp_profile_summary_not_connected">Not connected to file transfer server</string>
+    <!-- Bluetooth settings. Connection options screen. The summary for the HID checkbox preference when HID is connected. -->
+    <string name="bluetooth_hid_profile_summary_connected">Connected to input device</string>
+    <!-- Bluetooth settings. Connection options screen. The summary for the checkbox preference when PAN is connected (user role). [CHAR LIMIT=25]-->
+    <string name="bluetooth_pan_user_profile_summary_connected">Connected to device for Internet access</string>
+    <!-- Bluetooth settings. Connection options screen. The summary for the checkbox preference when PAN is connected (NAP role). [CHAR LIMIT=25]-->
+    <string name="bluetooth_pan_nap_profile_summary_connected">Sharing local Internet connection with device</string>
+
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the A2DP checkbox preference that describes how checking it will set the A2DP profile as preferred. -->
+    <string name="bluetooth_a2dp_profile_summary_use_for">Use for media audio</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the headset checkbox preference that describes how checking it will set the headset profile as preferred. -->
+    <string name="bluetooth_headset_profile_summary_use_for">Use for phone audio</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference that describes how checking it will set the OPP profile as preferred. -->
+    <string name="bluetooth_opp_profile_summary_use_for">Use for file transfer</string>
+    <!-- Bluetooth settings. Connection options screen. The summary
+         for the HID checkbox preference that describes how checking it
+         will set the HID profile as preferred. -->
+    <string name="bluetooth_hid_profile_summary_use_for">Use for input</string>
+    <!-- Bluetooth settings. Connection options screen. The summary
+         for the PAN checkbox preference that describes how checking it
+         will set the PAN profile as preferred. -->
+    <string name="bluetooth_pan_profile_summary_use_for">Use for Internet access</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the map checkbox preference that describes how checking it will set the map profile as preferred. -->
+    <string name="bluetooth_map_profile_summary_use_for">Use for map</string>
+
+    <!-- Bluetooth settings.  Dock Setting Title -->
+    <string name="bluetooth_dock_settings">Dock Settings</string>
+    <!-- Bluetooth settings.  Dock Setting Dialog Title -->
+    <string name="bluetooth_dock_settings_title">Use dock for audio</string>
+    <!-- Bluetooth settings.  Dock Setting Dialog - Checkbox selection 1: Use dock as speaker phone -->
+    <string name="bluetooth_dock_settings_headset">As speaker phone</string>
+    <!-- Bluetooth settings.  Dock Setting Dialog - Checkbox selection 2: Use dock for media audio -->
+    <string name="bluetooth_dock_settings_a2dp">For music and media</string>
+    <!-- Bluetooth settings.  Dock Setting Dialog - Remember setting and don't ask user again -->
+    <string name="bluetooth_dock_settings_remember">Remember settings</string>
+    <!-- Bluetooth Tethering settings-->
+    <!-- Label for bluetooth tether checkbox [CHAR LIMIT=25]-->
+    <string name="bluetooth_tether_checkbox_text">Bluetooth tethering</string>
+    <!-- Bluetooth available subtext - shown when Bluetooth tethering is turned on but it is not currently tethered to any devices [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_available_subtext" product="tablet">Sharing this tablet\'s Internet connection</string>
+    <!-- Bluetooth available subtext - shown when Bluetooth tethering is turned on but it is not currently tethered to any devices [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_available_subtext" product="default">Sharing this phone\'s Internet connection</string>
+    <!-- Bluetooth connected subtext - shown when a device is tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_device_connected_subtext" product="tablet">Sharing this tablet\'s Internet connection to 1 device</string>
+    <!-- Bluetooth connected subtext - shown when a device is tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_device_connected_subtext" product="default">Sharing this phone\'s Internet connection to 1 device</string>
+    <!-- Bluetooth connected subtext - shown when multiple devices are tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_devices_connected_subtext" product="tablet">Sharing this tablet\'s Internet connection to <xliff:g id="connectedDeviceCount">%1$d</xliff:g> devices</string>
+    <!-- Bluetooth connected subtext - shown when multiple devices are tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_devices_connected_subtext" product="default">Sharing this phone\'s Internet connection to <xliff:g id="connectedDeviceCount">%1$d</xliff:g> devices</string>
+    <!-- Bluetooth tethering off subtext - shown when Bluetooth Tethering is turned off [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_off_subtext" product="tablet">Not sharing this tablet\'s Internet connection</string>
+    <!-- Bluetooth tethering off subtext - shown when Bluetooth Tethering is turned off [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_off_subtext" product="default">Not sharing this phone\'s Internet connection</string>
+    <!-- Bluetooth errored subtext - shown when Bluetooth is broken for some reason [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_errored_subtext">Not tethered</string>
+    <!-- Bluetooth Tethering settings. Error message shown when trying to connect an 8th device [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_overflow_error">Can\'t tether to more than <xliff:g id="maxConnection">%1$d</xliff:g> devices.</string>
+    <!-- Bluetooth Tethering settings.  Message for untethering from a bluetooth device [CHAR LIMIT=50]-->
+    <string name="bluetooth_untether_blank"><xliff:g id="device_name">%1$s</xliff:g> will be untethered.</string>
+    
+    <!-- Used as setting title (for checkbox) on second screen after selecting Bluetooth settings -->
+    <string name="bluetooth">Bluetooth</string>
+    <!-- Bluetooth settings screen, summary after selecting Discoverable check box [CHAR LIMIT=50] -->
+    <string name="bluetooth_is_discoverable">Visible to all nearby Bluetooth devices (<xliff:g id="discoverable_time_period">%1$s</xliff:g>)</string>
+    <!-- Bluetooth settings screen, summary when Discoverable duration is set to "forever" [CHAR LIMIT=50] -->
+    <string name="bluetooth_is_discoverable_always">Visible to all nearby Bluetooth devices</string>
+    <!-- Bluetooth settings screen, summary text when not discoverable and no paired devices [CHAR LIMIT=50] -->
+    <string name="bluetooth_not_visible_to_other_devices">Not visible to other Bluetooth devices</string>
+    <!-- Bluetooth settings screen, summary text when not discoverable with paired devices [CHAR LIMIT=50] -->
+    <string name="bluetooth_only_visible_to_paired_devices">Only visible to paired devices</string>
+    <!-- Bluetooth settings screen, option name to pick discoverability timeout duration (a list dialog comes up) -->
+    <string name="bluetooth_visibility_timeout">Visibility timeout</string>
+    <!-- Bluetooth settings screen, check box label whether or not to allow
+        bluetooth voice dialing when lock screen is up-->
+    <string name="bluetooth_lock_voice_dialing">Lock voice dialing</string>
+    <!-- Bluetooth settings screen, lock voice dialing checkbox summary text -->
+    <string name="bluetooth_lock_voice_dialing_summary">
+      Prevent use of the bluetooth dialer when the screen is locked
+    </string>
+    <!-- Bluetooth settings screen, heading above the list of nearby bluetooth devices -->
+    <string name="bluetooth_devices">Bluetooth devices</string>
+    <!-- Bluetooth settings screen, title for the current bluetooth name setting -->
+    <string name="bluetooth_device_name">Device name</string>
+    <!-- Bluetooth settings screen, image description for device details button. This opens the screen to rename, unpair, etc. a single device. -->
+    <string name="bluetooth_device_details">Device settings</string>
+    <!-- Bluetooth settings screen, image description for profile of a device details button. -->
+    <string name="bluetooth_profile_details">Profile settings</string>
+    <!-- Bluetooth settings screen, summary text when there isn't a name set (for the name setting) -->
+    <string name="bluetooth_name_not_set">No name set, using account name</string>
+    <!-- Bluetooth settings screen, menu item to scan for nearby bluetooth devices -->
+    <string name="bluetooth_scan_for_devices">Scan for devices</string>
+    <!-- Bluetooth settings screen, menu item to change this device's Bluetooth name. [CHAR LIMIT=30] -->
+    <string name="bluetooth_rename_device" product="tablet">Rename tablet</string>
+    <!-- MStar Android Patch Begin -->
+    <!-- Bluetooth settings screen, menu item to change this device's Bluetooth name. [CHAR LIMIT=30] -->
+    <string name="bluetooth_rename_device" product="tv">Rename tv</string>
+    <!-- MStar Android Patch End -->
+    <!-- Bluetooth settings screen, menu item to change this device's Bluetooth name. [CHAR LIMIT=30] -->
+    <string name="bluetooth_rename_device" product="default">Rename phone</string>
+    <!-- Bluetooth settings screen, confirmation button for rename device dialog. [CHAR LIMIT=20] -->
+    <string name="bluetooth_rename_button">Rename</string>
+    <!-- Bluetooth settings.  Dialog title to confirm disconnecting from all profiles of a device. [CHAR LIMIT=30] -->
+    <string name="bluetooth_disconnect_title">Disconnect?</string>
+    <!-- Bluetooth settings.  Message for disconnecting from all profiles of a bluetooth device. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_disconnect_all_profiles">This will end your connection with:&lt;br>&lt;b><xliff:g id="device_name">%1$s</xliff:g>&lt;/b></string>
+
+    <!-- Bluetooth settings.  Dialog title to disable a single profile of a device. [CHAR LIMIT=40] -->
+    <string name="bluetooth_disable_profile_title">Disable profile?</string>
+    <!-- Bluetooth settings.  Message for disabling a profile of a bluetooth device. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_disable_profile_message">This will disable:&lt;br>&lt;b><xliff:g id="profile_name">%1$s</xliff:g>&lt;/b>&lt;br>&lt;br>From:&lt;br>&lt;b><xliff:g id="device_name">%2$s</xliff:g>&lt;/b></string>
+
+    <!-- Bluetooth settings.  Message when connected to a device. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected">Connected</string>
+    <!-- Bluetooth settings.  Message when connected to a device, except for phone audio. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_no_headset">Connected (no phone)</string>
+    <!-- Bluetooth settings.  Message when connected to a device, except for media audio. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_no_a2dp">Connected (no media)</string>
+    <!-- Bluetooth settings.  Message when connected to a device, except for map. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_no_map">Connected (no message access)</string>
+    <!-- Bluetooth settings.  Message when connected to a device, except for phone/media audio. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_no_headset_no_a2dp">Connected (no phone or media)</string>
+    <!-- Bluetooth settings.  Message when a device is disconnected -->
+    <string name="bluetooth_disconnected">Disconnected</string>
+    <!-- Bluetooth settings.  Message when disconnecting from a device -->
+    <string name="bluetooth_disconnecting">Disconnecting\u2026</string>
+    <!-- Bluetooth settings.  Message when connecting to a device -->
+    <string name="bluetooth_connecting">Connecting\u2026</string>
+    <!-- Bluetooth settings.  Message when the device state is unknown -->
+    <string name="bluetooth_unknown" />
+    <!--Bluetooth settings screen, summary text under individual Bluetooth devices when pairing -->
+    <string name="bluetooth_pairing">Pairing\u2026</string>
+    <!--Bluetooth settings screen, summary text for Bluetooth device with no name -->
+    <string name="bluetooth_device">Unnamed Bluetooth device</string>
+    <!--Bluetooth settings screen, text that appears in heading bar when scanning for devices -->
+    <string name="progress_scanning">Searching</string>
+    <!--Bluetooth settings screen, text that appears when scanning for devices is finished and no nearby bluetooth device was found [CHAR LIMIT=40]-->
+    <string name="bluetooth_no_devices_found">No nearby Bluetooth devices were found.</string>
+    <!-- Notification ticker text (shown in the status bar) when a Bluetooth device wants to pair with us -->
+    <string name="bluetooth_notif_ticker">Bluetooth pairing request</string>
+    <!-- Notification title when a Bluetooth device wants to pair with us -->
+    <string name="bluetooth_notif_title">Pairing request</string>
+    <!-- Notification message when a Bluetooth device wants to pair with us -->
+    <string name="bluetooth_notif_message">Touch to pair with <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    <!-- Bluetooth settings screen, menu to show the list of received files [CHAR LIMIT=30] -->
+    <string name="bluetooth_show_received_files">Show received files</string>
+    
+    <!-- Bluetooth settings. Text displayed when Bluetooth is on [CHAR LIMIT=50] -->
+    <string name="bluetooth_on">Bluetooth is already turned on.</string>
+    <string name="bluetooth_enabled">bluetooth is enabled, click to turn it off</string>
+    <string name="bluetooth_disabled">bluetooth is disabled, click to turn it on</string>
+    <string name="bluetooth_searching_finished" >Search finished</string>
+    <string name="bluetooth_search_summary" >Please click to search for devices</string>
+    <string name="bluetooth_unpair_title" >unpair device?</string>
+    <string name="bluetooth_unpair_message" >This will unpair the device.</string>
+    <!-- Strings for Dialog yes button -->
+    <string name="bluetooth_advanced_settings">Advanced Settings</string>
+    <!-- Strings for Dialog create button -->
+    <string name="create">Create</string>
+    <!-- Strings for Dialog allow button -->
+    <string name="allow">Allow</string>
+    <!-- Strings for Dialog deny button -->
+    <string name="deny">Deny</string>
+    <string name="unknown">Unknown</string>
+    
+    <!-- Udisk Upgrade Begin -->
+    <string name="fail">Upgrade fail</string>
+    <string name="exit">Exit</string>
+    <string name="retry">Retry</string>
+    <string name="success">Upgrade Success</string>
+    <string name="bootVideo">Boot video</string>
+    <string name="bootAnim">Boot Animation</string>
+    <string name="launcher">Launcher</string>
+    <string name="bootVideoFail">Boot video Upgrade fail</string>
+    <string name="bootAnimFail">Boot Animation Upgrade fail</string>
+    <string name="launcherFail">Launcher Upgrade fail</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="checkUpdateFile">Upgrade file checked</string>
+    <string name="animUpgrading">Boot animation is upgrading</string>
+    <string name="videoUpgrading">Boot video is upgrading</string>
+    <string name="lancherUpgrading">Launcher is upgrading</string>    
+    <!-- Udisk Upgrade End -->
+    
+    <string name="failed_find_city">do　not find city list include the message you send,please input again.</string>
+    <string name="failed_auto_gain">failed to get current city.</string>
+    <string name="load_acceleration_pattern">Download acceleration mode</string>
+    <string name="isHttp">HTTP</string>
+    <string name="isP2p">Scifly Acceleration</string>
+    <string name="ethernet">Ethernet</string>
+
+    <!--screen saver -->
+    <string name="screen_saver_setting">Screensaver Settings</string>
+    <string name="screen_saver_start">Start Screensaver</string>
+    <string name="screen_saver_pic">Screensaver Picture From</string>
+    <string name="screen_saver_dir">Screensaver Picture Directory</string>
+ 
+    <!-- DOWNLOADMANAGER ERRORS -->
+    <string name="error_cannot_resume">Error: The download couldn\'t be resumed</string>
+    <string name="error_device_not_found">Error: Sdcard not mounted</string>
+    <string name="error_file_already_exists">Error: File already exists</string>
+    <string name="error_file_error">Error: Storage error</string>
+    <string name="error_http_data_error">Error: Http error</string>
+    <string name="error_insufficient_space">Error: No space left</string>
+    <string name="error_too_many_redirects">Error: Too many redirects</string>
+    <string name="error_unhandled_http_code">Error: Unhandled http code</string>
+    <string name="error_download_paused">Network disconnected, Please check it.</string>
+    <string name="error_unknown">Error: Unknown</string>
+    
+    <!-- PPPoE -->
+    <string name="pppoe_settings_title">PPPoE settings</string>
+    <string name="pppoe_connect">Connect</string>
+    <string name="pppoe_cancel">Cancel</string>
+    <string name="pppoe_connected">Connected</string>
+    <string name="pppoe_disconnected">Disconnected</string>
+    <string name="pppoe_dialing">Dialing...</string>
+    <string name="pppoe_authfailed">AuthFailed</string>
+    <string name="pppoe_failed">Failed</string>
+    <string name="pppoe_connect_format">Connection Name</string>
+    <string name="wire_connect">wire connect</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="show_password">Display Password</string>
+    <string name="auto_dialer">Save Password</string>
+    <string name="pppoe_status_str">PPPoE status:</string>
+    <string name="pppoe_disconnect">PPPoE connection broken</string>
+    <string name="dialer_hangup">Disconnect</string>
+    <string name="dialer_ok">Connect</string>
+    <string name="net_setting">PPPoE settings</string>
+    <string name="not_account_empty">User name or password can not be empty</string>
+    <string name="please_pppoe_disconnect">Please disconnect, in connection</string>
+     <string name="initialize">PPPOE Initializing</string>
+     <string name="localupdate">Local Update</string>
+</resources>

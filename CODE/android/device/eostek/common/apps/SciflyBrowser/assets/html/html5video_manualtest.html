@@ -1,0 +1,258 @@
+<!DOCTYPE HTML >
+<html>
+ <head>
+  <title> Web Video Auto Testing</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="Author" content="andrew.gao@mstarsemi.com">
+  <style>
+  body{
+  margin:0;
+  padding:0;
+  }
+  #config{
+  width:300px;
+  height:195px;
+  left:2px;
+  top:2px;
+  background-color:rgba(180,180,180,0.9);
+  position:absolute;
+  }
+  #status{
+  width:300px;
+  height:40px;
+  background-color:#000;
+  color:#f00;
+  font-size:10px;
+  }
+  </style>
+  <script type="text/javascript">
+  
+   if(mstarprivatetest)
+    		mstarprivatetest.DisableSecurityCheck(true);
+   else
+   		console.info("mstar obj is not exist");
+
+function resetsc()
+{
+ mstarprivatetest.DisableSecurityCheck(false);
+}
+</script>
+ </head>
+ <body onunload = "resetsc()">
+  
+  <iframe id="ifrm" src="http://www.youku.com" width="100%" height="100%" frameborder="0"></iframe>
+  <div id="config">
+   <fieldset> 
+  <legend>视频测试参数设置</legend>
+  <div ><label>网址：&nbsp;&nbsp;</label>
+<select  name="videoURL" id="videoURL">
+<option value="http://www.youku.com" selected>优酷
+</option>
+<option value="http://www.tudou.com" >土豆
+</option>
+<option value="http://www.iqiyi.com" >爱奇艺
+</option>
+<option value="http://www.56.com" >56视频网
+</option>
+<option value="http://v.qq.com" >腾讯视频
+</option>
+<option value="http://www.ku6.com" >酷6网
+</option>
+<option value="http://www.letv.com" >乐视
+</option>
+<option value="" >全部网站</option>
+</select>
+</div>
+  <div ><label>时长：&nbsp;&nbsp;</label>
+<input  type="text" id="timeranage" value="30" />
+</div>
+<div ><label>个数：&nbsp;&nbsp;</label>
+<input  type="text" id="videonum" value="10" />
+</div>
+ <div style="padding-left:50px;">
+<input  type="button" name="status" value="开始测试" onclick="startVideoTest();"/>
+<input type="button" name="report" value="打印报表" onclick="printReport();">
+</div>
+  </fieldset>
+  <div id="status">点击'测试'，自动测试视频...
+</div>
+ 
+  </div>
+  <script type="text/javascript">   
+	var tm=null,
+	    video=null,
+        playTimer=null;
+
+	var cnt=0,
+		oldPlaytime=0,
+		bFinished = false,
+		bAllUrl = false;
+	var vURL=null,
+	    vTime=30,
+		vNum=10,
+		vDuration=0,
+		selID=0,
+		currNum=0,
+		nURLs = 0;
+  var sReport="";/*"<table border='1' cellspacing='0' bordercolor='#CCC' width='100%'><caption>Web Video Auto Test Result</caption><colgroup width='10%'></colgroup><colgroup width='80%'></colgroup><tr><td><b>Number</b></td><td><b>Video URL</b></td><td><b>Status</b></td></tr>";
+	/*var vID=["youku-html5-player-video","video","video","","tenvideo_video_player_0","","videoPlayer"],*/
+	var	kWords=["youku","tudou","qiyi","56","qq","ku6","letv"];
+	var allURls = ["http://www.youku.com","http://www.tudou.com","http://www.iqiyi.com","http://www.56.com",
+	"http://v.qq.com/movie","http://www.ku6.com","http://www.letv.com"];
+	function random_all(){
+		var iframe = document.getElementById("ifrm"), 
+		     idoc = iframe.contentWindow.document;
+		var tagvideo = idoc.getElementsByTagName("video");
+		if(tagvideo.length>0){
+		video = tagvideo[0];
+		}else
+		video = null;
+		if(video && video.getAttribute('id')!='htmlplay'){
+		clearInterval(tm); 
+		tm=null;
+		console.info("[INFO]:The iframe src is:"+iframe.src+"\n");
+		sReport=sReport + '<tr><td>' + (currNum+1) + '</td><td>' +  iframe.src +'</td>';
+		stopPlaying();
+	 }
+	 if(!bFinished){
+if(!playTimer){
+	 video=null;
+	if(idoc.links){
+		var len=idoc.links.length;
+		if(len>0){
+		var  randomID=Math.round(Math.random()*(len-1));
+		var url=idoc.links[randomID];
+		url=url.toString();
+		document.getElementById("status").innerHTML="The iframe src is:"+url;
+		if(bAllUrl)selID = nURLs;
+		if(url.indexOf(kWords[selID]) > -1 && !(url.indexOf("#") > -1) && !(url.indexOf("@") > -1))
+		iframe.src = idoc.links[randomID];
+		else
+		iframe.src = vURL;
+		}else
+		iframe.src = vURL;
+	   }
+	
+	if(!tm)
+		tm=setInterval("random_all()",8000);
+	}//end playTimer
+	}//end currNum < vNum
+	}
+
+	function stopPlaying(){ 
+	if(!video){
+	  startVideoScan();
+	}
+	      
+	  if(video.webkitDisplayingFullscreen){
+			console.info("[INFO]:the video's current time:"+video.currentTime+"s\n");
+			if(video.paused) video.play();
+			   if (video.currentTime > vTime){     
+	            video.webkitExitFullscreen();
+				if(playTimer) clearTimeout(playTimer);
+				document.getElementById("status").innerHTML="Video Number:"+currNum+"<br>"+"playing succeed!";
+				sReport = sReport + "<td><font color='#0f0'>Succeed</font></td></tr>";
+				startVideoScan();
+		
+				}else{
+				if(cnt==1){
+				vDuration = video.duration;
+				oldPlaytime=video.currentTime;
+				}
+				var ot=vTime+20;
+				if(cnt++ > ot){
+					if(video.currentTime > oldPlaytime){
+						cnt=0;
+					}else{
+						console.info("[ERROR]:Waiting timeout,Wait too long to play!\n");
+						document.getElementById("status").innerHTML="Video Number:"+currNum+"<br>"+"playing timeout!";
+						sReport = sReport + "<td><font color='#00f'>TimeOut</font></td></tr>";
+						video.webkitExitFullscreen();
+						startVideoScan();
+						
+					}
+				
+				}//end of if(cnt++ > 50)
+				playTimer = setTimeout("stopPlaying()",1000);
+				}//end of  if (video.currentTime < 30)
+			}else{
+			console.info("[INFO]:exit the full screen!the current playtime:"+video.currentTime+"\n");
+			if((vDuration > 0) && (vDuration < vTime)){
+			document.getElementById("status").innerHTML="Video Number:"+currNum+"<br>"+"playing successed!";
+			sReport = sReport + "<td><font color='#0f0'>Succeed</font></td></tr>";
+			}
+			else{
+			document.getElementById("status").innerHTML="Video Number:"+currNum+"<br>"+"playing failed!";
+			sReport = sReport + "<td><font color='#f00'>Failed</font></td></tr>";
+			}
+			startVideoScan();
+			}
+	}
+	function startVideoTest(){
+	var url=document.getElementById("videoURL");//
+	vURL = url.options[url.selectedIndex].value;
+	var iframe = document.getElementById("ifrm");
+	if(vURL != ""){
+		iframe.src = vURL;
+		bAllUrl =false;
+	}else{
+	bAllUrl = true;
+		iframe.src = allURls[nURLs];
+	}
+
+	vTime=parseInt(document.getElementById('timeranage').value);
+	if(vTime < 1)vTime = 30;
+	vNum=parseInt(document.getElementById('videonum').value);
+	if(vNum < 1)vNum = 10;
+	selID = document.getElementById("videoURL").selectedIndex;
+	if(bAllUrl)selID = nURLs;
+	bFinished = false;
+	tm=setInterval("random_all()",8000);
+	sReport="<table border='1' cellspacing='0' bordercolor='#CCC' width='100%'><caption>Web Video Auto Test Result</caption><colgroup width='10%'></colgroup><colgroup width='80%'></colgroup><tr><td><b>Number</b></td><td><b>Video URL</b></td><td><b>Status</b></td></tr>";
+	}
+	function printReport(){
+	var oDivElement = document.createElement("div");
+	console.info(sReport+"\n");
+	oDivElement.innerHTML = sReport;
+    var options = 'width=' + '1280' + ',' + 'height=' + '720';
+    var win = window.open('','Video Auto-Test Result',options);
+	win.document.body.appendChild(oDivElement);
+	}
+	function startVideoScan(){
+			cnt=0;
+			vDuration = 0;
+			playTimer = null;
+			var iframe = document.getElementById("ifrm");
+				iframe.src = vURL;
+				if(++currNum < vNum){
+				if(bAllUrl){
+					vURL = allURls[nURLs];
+				}
+					iframe.src = vURL;
+				
+				if(!tm) tm=setInterval("random_all()",8000);
+				}else{
+						currNum = 0;
+						if(bAllUrl){
+						if(nURLs++ < 7){
+						vURL = allURls[nURLs];
+						iframe.src = vURL;
+						if(!tm) tm=setInterval("random_all()",8000);
+						}else{
+						sReport = sReport + "</table>";
+						bFinished = true;
+						nURLs = 0;
+						bAllUrl = false;
+
+						}
+						}else{
+						sReport = sReport + "</table>";
+						bFinished = true;
+						}
+						return;
+					 }
+	}
+  </script>
+ </body>
+</html>

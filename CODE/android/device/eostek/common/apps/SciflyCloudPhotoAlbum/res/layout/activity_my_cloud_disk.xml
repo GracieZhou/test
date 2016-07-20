@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/clean_Thumb_cache"
+            style="@style/TextViewTheme"
+            android:text="@string/clean_Thumb_cache" />
+
+        <RelativeLayout
+            android:id="@+id/baidu_cloud"
+            style="@style/RelativeLayoutTheme"
+            android:layout_below="@id/clean_Thumb_cache"
+            android:layout_marginTop="40dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baidu_cloud"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:text="@string/baidu_cloud"
+                android:textColor="@android:color/white"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/baidu_cloud_bind"
+                style="@style/TextViewTheme2"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sina_cloud"
+            style="@style/RelativeLayoutTheme"
+            android:layout_below="@id/baidu_cloud" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/sina_cloud"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:text="@string/sina_cloud_disk"
+                android:textColor="@android:color/white"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/sina_cloud_bind"
+                style="@style/TextViewTheme2"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/drop_box"
+            style="@style/RelativeLayoutTheme"
+            android:layout_below="@id/sina_cloud" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/drop_box"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:text="@string/drop_box"
+                android:textColor="@android:color/white"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/drop_box_bind"
+                style="@style/TextViewTheme2"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/one_drive"
+            style="@style/RelativeLayoutTheme"
+            android:layout_below="@id/drop_box" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/one_drive_white"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:text="@string/one_drive"
+                android:textColor="@android:color/white"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/one_drive_bind"
+                style="@style/TextViewTheme2"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

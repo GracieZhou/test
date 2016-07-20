@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MetroPageList>
+  <MetroPage title="影视库" appCategory="0">
+    
+    <MetroInfo id="0" title="最近观看" appCategory="0" positionX="0" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>影视库</typeTitle>
+      <clsName>com.eostek.scifly.video.history.VideoListViewHistory</clsName>
+      <pkgName>com.eostek.scifly.video</pkgName>
+      <itemType>0</itemType>
+      <iconPath>video_icon_history.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+    <MetroInfo id="1" title="收藏和追剧" appCategory="0" positionX="0" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>影视库</typeTitle>
+      <clsName>com.eostek.scifly.video.bookmarks.BookMarkVideoListActivity</clsName>
+      <pkgName>com.eostek.scifly.video</pkgName>
+      <itemType>0</itemType>
+      <iconPath>video_icon_fav.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg>favority</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="2" title="七日新增" appCategory="0" positionX="310" positionY="0" widthSize="400" heightSize="610">
+      <typeTitle>影视库</typeTitle>
+      <clsName/>
+      <pkgName/>
+      <itemType>0</itemType>
+      <iconPath>video_icon_7day.png</iconPath>
+      <iconPathF>video_icon_7day_f.png</iconPathF>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+    <MetroInfo id="3" title="" appCategory="0" positionX="720" positionY="0" widthSize="610" heightSize="300">
+      <typeTitle>影视库</typeTitle>
+      <clsName>com.eostek.scifly.video.videolist.VideoList2Activity</clsName>
+      <pkgName>com.eostek.scifly.video</pkgName>
+      <itemType>0</itemType>
+      <iconPath>video_icon_tv.png</iconPath>
+      <iconPathF>video_icon_tv_f.png</iconPathF>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg>tvSeries</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="4" title="" appCategory="0" positionX="720" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>影视库</typeTitle>
+      <clsName>com.eostek.scifly.video.search.SearchVideoListActivity</clsName>
+      <pkgName>com.eostek.scifly.video</pkgName>
+      <itemType>0</itemType>
+      <iconPath>video_icon_search.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+    <MetroInfo id="5" title="" appCategory="0" positionX="1030" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>影视库</typeTitle>
+      <clsName>com.eostek.scifly.video.videolist.VideoList2Activity</clsName>
+      <pkgName>com.eostek.scifly.video</pkgName>
+      <itemType>0</itemType>
+      <iconPath>video_icon_movie.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg>movie</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="6" title="" appCategory="0" positionX="1340" positionY="0" widthSize="400" heightSize="610">
+      <typeTitle>影视库</typeTitle>
+      <clsName>com.eostek.scifly.video.videolist.VideoList2Activity</clsName>
+      <pkgName>com.eostek.scifly.video</pkgName>
+      <itemType>0</itemType>
+      <iconPath>video_icon_cartoon.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg>cartoon</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="7" title="" appCategory="0" positionX="1750" positionY="0" widthSize="610" heightSize="300">
+      <typeTitle>影视库</typeTitle>
+      <clsName>com.eostek.scifly.video.videolist.VideoList2Activity</clsName>
+      <pkgName>com.eostek.scifly.video</pkgName>
+      <itemType>0</itemType>
+      <iconPath>video_icon_documentary.png</iconPath>
+      <iconPathF>video_icon_documentary_f.png</iconPathF>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg>documentary</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="8" title="" appCategory="0" positionX="1750" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>影视库</typeTitle>
+      <clsName>com.eostek.scifly.video.videolist.VideoList2Activity</clsName>
+      <pkgName>com.eostek.scifly.video</pkgName>
+      <itemType>0</itemType>
+      <iconPath>video_icon_openclass.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg>openClass</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="9" title="" appCategory="0" positionX="2060" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>影视库</typeTitle>
+      <clsName>com.eostek.scifly.video.videolist.VideoList2Activity</clsName>
+      <pkgName>com.eostek.scifly.video</pkgName>
+      <itemType>0</itemType>
+      <iconPath>video_icon_varietyshow.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg>varietyShow</StrFlg>
+    </MetroInfo>
+  </MetroPage>
+  <MetroPage title="应用" appCategory="1">
+    <MetroInfo id="0" title="应用商店" appCategory="1" positionX="0" positionY="0" widthSize="610" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.jrm.babao.babaofan.activity.main.BabaofanMainActivity</clsName>
+      <pkgName>com.jrm.babao.babaofan</pkgName>
+      <itemType>0</itemType>
+      <iconPath>app_icon_appstore_babao.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+    <MetroInfo id="1" title="" appCategory="1" positionX="0" positionY="310" widthSize="610" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.llauncher.ui.AllAppActivity</clsName>
+      <pkgName>com.eostek.llauncher</pkgName>
+      <itemType>0</itemType>
+      <iconPath>app_icon_allapp.jpg</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg></StrFlg>
+    </MetroInfo>
+    <MetroInfo id="2" title="" appCategory="1" positionX="620" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.hrtvbic.usb.S6A918.MainActivity</clsName>
+      <pkgName>com.hrtvbic.usb.S6A918</pkgName>
+      <itemType>0</itemType>
+      <iconPath>app_icon_mediabrowser.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+    <MetroInfo id="3" title="" appCategory="1" positionX="620" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.im.MainActivity</clsName>
+      <pkgName>com.eostek.im</pkgName>
+      <itemType>0</itemType>
+      <iconPath>app_icon_wechat.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+    <MetroInfo id="4" title="" appCategory="1" positionX="930" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.scifly.messagecenter.MainActivity</clsName>
+      <pkgName>com.eostek.scifly.messagecenter</pkgName>
+      <itemType>0</itemType>
+      <iconPath>app_icon_messages.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+    <MetroInfo id="5" title="" appCategory="1" positionX="930" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>android.app.ActivityManagerExtra</clsName>
+      <pkgName>android.app</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_clean.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+    <MetroInfo id="6" title="" appCategory="1" positionX="1240" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.biaoqi.filefly.STBFileFlyMainActivity</clsName>
+      <pkgName>com.biaoqi.filefly</pkgName>
+      <itemType>0</itemType>
+      <iconPath>app_icon_isynergy.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+    <MetroInfo id="7" title="" appCategory="1" positionX="1240" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.scifly.video.download.DownloadVideoListActivity</clsName>
+      <pkgName>com.eostek.scifly.video</pkgName>
+      <itemType>0</itemType>
+      <iconPath>app_icon_doownload.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+    <MetroInfo id="8" title="" appCategory="1" positionX="1550" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.history.MainActivity</clsName>
+      <pkgName>com.eostek.history</pkgName>
+      <itemType>0</itemType>
+      <iconPath>app_icon_history.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+    <MetroInfo id="9" title="" appCategory="1" positionX="1550" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.lutongnet.kalaok2.WelcomeActivity</clsName>
+      <pkgName>com.lutongnet.kalaok2</pkgName>
+      <itemType>0</itemType>
+      <iconPath>app_icon_ktv.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+    <MetroInfo id="10" title="" appCategory="1" positionX="1860" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.android.music.MusicBrowserActivity</clsName>
+      <pkgName>com.android.music</pkgName>
+      <itemType>0</itemType>
+      <iconPath>app_icon_music.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+  </MetroPage>
+  <MetroPage title="设置" appCategory="2">
+    <MetroInfo id="0" title="" appCategory="2" positionX="0" positionY="0" widthSize="610" heightSize="610">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.Settings</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>0</itemType>
+      <iconPath>setting_icon_setting.png</iconPath>
+      <iconPathF></iconPathF>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+    <MetroInfo id="1" title="" appCategory="2" positionX="620" positionY="0" widthSize="400" heightSize="610">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.eostek.llauncher.ui.GeneralSettings</clsName>
+      <pkgName>com.eostek.llauncher</pkgName>
+      <itemType>0</itemType>
+      <iconPath>setting_icon_play.png</iconPath>
+      <iconPathF/>
+      <apkUrl/>
+      <videoFlg>0</videoFlg>
+      <StrFlg/>
+    </MetroInfo>
+  </MetroPage>
+</MetroPageList>

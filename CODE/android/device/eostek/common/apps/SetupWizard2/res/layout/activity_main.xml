@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <!-- Top bar layout begin -->
+
+    <LinearLayout
+        android:id="@+id/layout_top_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/title_background"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/layout_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/language_unfocus" />
+
+            <TextView
+                android:id="@+id/tv_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_screen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/screen_unfocus" />
+
+            <TextView
+                android:id="@+id/tv_screen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/screen"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_network"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_network"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/network_unfocus" />
+
+            <TextView
+                android:id="@+id/tv_network"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/network"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_timezone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_timezone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/timezone_unfocus" />
+
+            <TextView
+                android:id="@+id/tv_timezone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time_zone"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Top bar layout end -->
+
+
+    <!-- Left direction image  begin -->
+
+    <LinearLayout
+        android:id="@+id/ll_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp" >
+
+        <ImageView
+            android:id="@+id/iv_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/left_unpress" />
+        <!-- android:layout_marginLeft="30dp" -->
+    </LinearLayout>
+    <!-- Left direction image end -->
+
+
+    <!-- Right direction image begin -->
+
+    <LinearLayout
+        android:id="@+id/ll_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1218dp" >
+
+        <ImageView
+            android:id="@+id/iv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/right_unpress" />
+    </LinearLayout>
+    <!-- android:layout_marginLeft="1218dp" -->
+    <!-- Right derection image end -->
+
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="match_parent" -->
+    <!-- android:layout_below="@id/layout_top_bar" -->
+    <!-- android:layout_marginTop="1px" -->
+    <!-- android:layout_toLeftOf="@id/ll_right" -->
+    <!-- android:layout_toRightOf="@id/ll_left" -->
+    <!-- android:background="@color/green" -->
+    <!-- /> -->
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="1078dp"
+        android:layout_height="434dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/transparent" >
+
+        <include
+            android:id="@+id/language_page"
+            layout="@layout/fragment_language" />
+
+        <include
+            android:id="@+id/screen_page"
+            layout="@layout/fragment_screen" />
+
+        <include
+            android:id="@+id/network_page"
+            layout="@layout/fragment_network" />
+
+        <include
+            android:id="@+id/timezone_page"
+            layout="@layout/fragment_timezone" />
+    </ViewFlipper>
+
+</RelativeLayout>

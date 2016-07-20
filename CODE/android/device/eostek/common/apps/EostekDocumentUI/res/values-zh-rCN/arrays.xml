@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="downloaded_item_name">
+        <item>视频</item>
+        <item>音乐</item>
+        <item>图片</item>
+        <item>文档</item>
+        <item>安装包</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="storage_directory_items">
+        <item>内部存储</item>
+        <item>外部设备</item>
+    </string-array>
+    <string-array name="download_limit_speed_items">
+        <item>不限速</item>
+        <item>50KB/s</item>
+        <item>100KB/s</item>
+        <item>200KB/s</item>
+        <item>500KB/s</item>
+        <item>1MB/s</item>
+        <item>2MB/s</item>
+        <item>5MB/s</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/browser_bg" >
+    <LinearLayout
+        android:id="@+id/home_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout 
+            android:id="@+id/gv_title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/title_margin_top"
+            android:orientation="horizontal" 
+            android:visibility="visible">
+            <Button 
+                android:id="@+id/home_text"
+                android:layout_width="@dimen/title_width"
+                android:layout_height="@dimen/title_heigth"
+                android:padding="@dimen/title_padding"
+                android:text="@string/home_text"
+                android:textSize="@dimen/title_size"
+                android:textColor="@color/text_color"
+                android:layout_marginLeft="@dimen/title_margin_left"
+                android:background="@drawable/title_style"
+                android:nextFocusRight="@+id/collect_text" />
+            <Button 
+                android:id="@+id/collect_text"
+                android:layout_width="@dimen/title_width"
+                android:layout_height="@dimen/title_heigth"
+                android:padding="@dimen/title_padding"
+                android:text="@string/my_collect"
+                android:textSize="@dimen/title_size"
+                android:textColor="@color/text_color"
+                android:layout_marginLeft="@dimen/title_vertical_space"
+                android:nextFocusRight="@+id/set_tool_text"
+                android:background="@drawable/title_style"
+                android:nextFocusLeft="@id/home_text" />
+            <Button 
+                android:id="@+id/set_tool_text"
+                android:layout_width="@dimen/title_width"
+                android:layout_height="@dimen/title_heigth"
+                android:padding="@dimen/title_padding"
+                android:text="@string/set_tool"
+                android:textSize="@dimen/title_size"
+                android:textColor="@color/text_color"
+                android:background="@drawable/title_style"
+                android:layout_marginLeft="@dimen/title_vertical_space" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/advanced_settingtitle"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center_horizontal"
+            android:text="@string/more_setting"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/title_size"
+            android:visibility="gone" />
+        <FrameLayout
+            android:id="@+id/fl_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:nextFocusUp="@id/home_text" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/webview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <LinearLayout
+	        android:id="@+id/web_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title_bar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="@color/text_color"
+                android:textSize="20sp"
+                android:singleLine="true"
+                android:background="@color/web_titile_bg" />
+
+            <WebView
+                android:id="@+id/webview"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <com.android.browser.PageProgressView
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@null"
+            android:src="@drawable/progress"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

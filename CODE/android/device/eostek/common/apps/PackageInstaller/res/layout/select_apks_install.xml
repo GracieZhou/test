@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/back_layout"
+    android:layout_width="450dp"
+    android:layout_height="0dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/frame"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_app_tip"
+            android:textColor="@color/title_color"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/apks_selected_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sub_title_color"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/separator"
+                android:textColor="@color/sub_title_color"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/all_apks_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sub_title_color"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/haved_select_size_tip"
+                android:textColor="@color/sub_title_color"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/selected_apks_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sub_title_color"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unit_name"
+                android:textColor="@color/sub_title_color"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/apk_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        android:nextFocusDown="@+id/selectedAllLayout" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:gravity="right"
+            android:text="@string/select_all_txt"
+            android:textColor="@color/sub_title_color" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.7"
+            android:textColor="@color/sub_title_color" />
+
+        <LinearLayout
+            android:id="@+id/selectedAllLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:nextFocusDown="@+id/confirm_install" >
+
+            <ImageView
+                android:id="@+id/select_all"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/apk_selected" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/confirm_install"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_style"
+            android:nextFocusUp="@+id/selectedAllLayout"
+            android:text="@string/install_btn"
+            android:textColor="@color/text_color"
+            android:textSize="18dp" >
+
+            <requestFocus />
+        </Button>
+
+        <Button
+            android:id="@+id/cancle_install"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/btn_style"
+            android:nextFocusUp="@+id/selectedAllLayout"
+            android:text="@string/cancle_btn"
+            android:textColor="@color/text_color"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</LinearLayout>

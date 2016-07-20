@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="137.6dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/news_list_photo"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/news_list_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:background="#e0666666"
+        android:ellipsize="end"
+        android:gravity="left"
+        android:maxEms="10"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:text="@string/news_list"
+        android:textSize="15sp" />
+
+</LinearLayout>

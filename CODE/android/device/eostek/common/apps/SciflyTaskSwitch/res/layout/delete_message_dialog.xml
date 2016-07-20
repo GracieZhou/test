@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/DELETE_DIALOG_HEIGHT"
+    android:layout_gravity="center"
+    android:background="#E3F2FD" >
+
+    <LinearLayout
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/blue_usb_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/delete_message"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:src="@drawable/blue_usb" />
+
+        <TextView
+            android:id="@+id/delete_dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/delete_message"
+            android:textColor="#212121"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/separator"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/dialog_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:background="#333333" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/delete_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/separator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/delete_tip"
+        android:textColor="@color/delete_dialog_button_n"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/device_list"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_above="@+id/deleteMsgButton_cancel"
+        android:layout_below="@id/delete_tip"
+        android:layout_centerInParent="true"
+        android:divider="@null"
+        android:listSelector="@drawable/device_text_focus"
+        android:paddingBottom="20dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="20dp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/deleteMsgButton_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="57dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/delete_button_focus"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="3dp"
+        android:text="@string/cancel"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

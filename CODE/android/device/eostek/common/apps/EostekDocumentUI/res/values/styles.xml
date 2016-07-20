@@ -1,0 +1,73 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/activity_download_classify_downloaded_type_height</item>
+        <item name="android:layout_marginLeft">@dimen/activity_main_indicator_view_height</item>
+        <item name="android:background">@drawable/activity_main_text_selector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/activity_main_textview_padding</item>
+        <item name="android:paddingRight">@dimen/activity_main_textview_padding</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/activity_download_classify_downloaded_type_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="New_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/activity_main_indicator_view_height</item>
+        <item name="android:background">@drawable/activity_main_text_selector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/activity_main_textview_padding</item>
+        <item name="android:paddingRight">@dimen/activity_main_textview_padding</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">46px</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+
+        <!-- 去黑边 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 设置是否可滑动 -->
+        <item name="android:windowIsFloating">false</item>
+        <!-- 设置是否透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="@android:style/Theme.NoTitleBar.Fullscreen">false</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景 -->
+        <item name="android:background">@android:color/transparent</item>
+        <!-- 窗口背景 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 是否变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 点击空白部分activity不消失 -->
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="DocUi_Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <style name="Downloaded_CheckBox_Enable">
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_width">36dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/downloaded_checkbox_selector</item>
+    </style>
+
+</resources>

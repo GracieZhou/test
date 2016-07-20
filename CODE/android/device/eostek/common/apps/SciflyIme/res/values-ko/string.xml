@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name ="back">복귀</string>
+    <string name="label_go_key">확인</string>
+    <string name="label_next_key"> 다음문장</string>
+    <string name="label_send_key">보내기 </string>
+    <string name="label_ChEn">FR\\EN</string>
+    <string name="title_content">전환 IME</string>
+     <string name="pinyin_IME">Scifly Pinyin IME</string>
+    <string name="zhuyin_IME">Scifly Zhuyin IME</string>
+    <string name="cangjie_IME">Scifly Cangjie IME</string>
+    <string name="french_IME">Scifly Français IME</string>
+     <string name="arabic_IME">Scifly Arabic IME</string>
+     <string name ="persian_IME">Scifly Persian IME</string>
+     <string name ="korean_IME"> Scifly 한국 IME</string>
+      <string name="language_en">EN</string>
+    <string name="language_cn">FR</string>
+    <string name="language_fr">FR</string>
+    </resources>

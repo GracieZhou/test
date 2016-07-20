@@ -1,0 +1,263 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/scifly_potho_album"
+            android:textColor="@android:color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/my_cloud_disk"
+            android:layout_width="236dp"
+            android:layout_height="115dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/my_cloud_disk_text_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/my_cloud_disk"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/cloud_disk_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="-55dp"
+            android:layout_toLeftOf="@id/my_cloud_disk"
+            android:contentDescription="@string/my_cloud_disk"
+            android:src="@drawable/cloud_disk_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/re1"
+                style="@style/RelativeLayoutTheme1" >
+
+                <ImageView
+                    android:id="@+id/baidu_cloud"
+                    style="@style/ImageViewTheme"
+                    android:contentDescription="@string/action_settings" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/cloud_disk_bg"
+                    android:contentDescription="@string/action_settings" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/action_settings"
+                    android:src="@drawable/baidu_cloud" />
+
+                <ImageView
+                    android:id="@+id/baidu_state"
+                    style="@style/ImageViewTheme1"
+                    android:contentDescription="@string/action_settings" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv1"
+                style="@style/TextCommonTheme"
+                android:layout_below="@id/re1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-5dp"
+                android:text="@string/baidu_cloud" />
+
+            <TextView
+                android:id="@+id/baidu_photo_num"
+                style="@style/TextCommonTheme"
+                android:layout_below="@id/tv1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/rl1" >
+
+            <RelativeLayout
+                android:id="@+id/re2"
+                style="@style/RelativeLayoutTheme1" >
+
+                <ImageView
+                    android:id="@+id/sina_cloud"
+                    style="@style/ImageViewTheme"
+                    android:contentDescription="@string/action_settings" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/action_settings"
+                    android:src="@drawable/cloud_disk_bg" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/action_settings"
+                    android:src="@drawable/sina_cloud" />
+
+                <ImageView
+                    android:id="@+id/sina_state"
+                    style="@style/ImageViewTheme1"
+                    android:contentDescription="@string/action_settings" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv2"
+                style="@style/TextCommonTheme"
+                android:layout_below="@id/re2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-5dp"
+                android:text="@string/sina_cloud_disk" />
+
+            <TextView
+                android:id="@+id/sina_photo_num"
+                style="@style/TextCommonTheme"
+                android:layout_below="@id/tv2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/rl2" >
+
+            <RelativeLayout
+                android:id="@+id/re3"
+                style="@style/RelativeLayoutTheme1" >
+
+                <ImageView
+                    android:id="@+id/drop_box_cloud"
+                    style="@style/ImageViewTheme"
+                    android:contentDescription="@string/action_settings" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/action_settings"
+                    android:src="@drawable/cloud_disk_bg" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/action_settings"
+                    android:src="@drawable/drop_box" />
+
+                <ImageView
+                    android:id="@+id/drop_box_state"
+                    style="@style/ImageViewTheme1"
+                    android:contentDescription="@string/action_settings" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv3"
+                style="@style/TextCommonTheme"
+                android:layout_below="@id/re3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-5dp"
+                android:text="@string/drop_box" />
+
+            <TextView
+                android:id="@+id/drop_box_photo_num"
+                style="@style/TextCommonTheme"
+                android:layout_below="@id/tv3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/rl3" >
+
+            <RelativeLayout
+                android:id="@+id/re4"
+                style="@style/RelativeLayoutTheme1" >
+
+                <ImageView
+                    android:id="@+id/one_drive_cloud"
+                    style="@style/ImageViewTheme"
+                    android:contentDescription="@string/action_settings" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/action_settings"
+                    android:src="@drawable/cloud_disk_bg" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/action_settings"
+                    android:src="@drawable/one_drive" />
+
+                <ImageView
+                    android:id="@+id/one_drive_state"
+                    style="@style/ImageViewTheme1"
+                    android:contentDescription="@string/action_settings" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv4"
+                style="@style/TextCommonTheme"
+                android:layout_below="@id/re4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-5dp"
+                android:text="@string/one_drive" />
+
+            <TextView
+                android:id="@+id/one_drive_photo_num"
+                style="@style/TextCommonTheme"
+                android:layout_below="@id/tv4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

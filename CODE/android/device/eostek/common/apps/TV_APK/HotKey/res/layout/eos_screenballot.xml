@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screenballot_rl"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="@dimen/screenballot_marginBottom"
+    android:gravity="center" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/screenballot_background_height"
+        android:layout_marginTop="@dimen/screenballot_background_marginTop"
+        android:background="@drawable/osd_bar" />
+
+    <GridView
+        android:id="@+id/screenballot__gv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/screenballot_grid_marginleft"
+        android:fadingEdgeLength="0dp"
+        android:footerDividersEnabled="false"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/screenballot_grid_horizontalSpacing"
+        android:listSelector="@drawable/focus"
+        android:numColumns="7" />
+
+    <ImageView
+        android:id="@+id/selector"
+        android:layout_width="@dimen/screenballot_selector_width"
+        android:layout_height="@dimen/screenballot_selector_height"
+        android:background="@drawable/focus"
+        android:visibility="gone" />
+
+</RelativeLayout>

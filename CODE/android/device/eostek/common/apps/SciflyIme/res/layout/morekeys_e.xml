@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/more_keys_layout"
+    android:layout_width="224dp"
+    android:layout_height="202dp"
+    android:background="@drawable/morekeys_e"
+    android:orientation="vertical"
+    android:padding="1dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="1dp"
+        android:paddingLeft="1dp"
+         
+   >
+
+        <Button
+            style="@style/morekeys"
+            android:text="@string/ė" />
+
+        <Button
+            style="@style/morekeys"
+            android:text="@string/ę" 
+             android:layout_marginLeft="8dp"/>
+
+        <Button
+            android:layout_width="@dimen/morekeys_width"
+            android:layout_height="@dimen/morkeys_height"
+            android:background="@android:color/transparent"
+            android:enabled="false"
+            android:focusable="false" 
+             android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+         android:layout_marginTop="8dp"
+          android:paddingLeft="1dp"
+      >
+
+        <Button
+            style="@style/morekeys"
+            android:text="@string/é" 
+            />
+
+        <Button
+            style="@style/morekeys"
+            android:text="@string/e" 
+            android:focusable="true"
+             android:layout_marginLeft="8dp"/>
+
+        <Button
+            style="@style/morekeys"
+            android:text="@string/è" 
+             android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+      android:layout_marginTop="2dp"
+       android:paddingLeft="1dp"
+       >
+
+        <Button
+            style="@style/morekeys"
+            android:text="@string/ê" />
+
+        <Button
+            style="@style/morekeys"
+            android:text="@string/ë" 
+             android:layout_marginLeft="8dp"/>
+
+        <Button
+            style="@style/morekeys"
+            android:text="@string/ē" 
+             android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>

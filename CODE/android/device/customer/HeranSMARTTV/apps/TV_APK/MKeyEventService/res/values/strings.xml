@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">MKeyEventService</string>
+    <string name="system">System Version</string>
+    <string name="language">Language</string>
+    <string name="data_dispaly">Data Display</string>
+    <string name="adc_toast">请先切source到VGA或者YPbPr后，再进行ADC校正</string>
+
+    <string-array name="Balance">
+        <item>Balance -50</item>
+        <item>Balance 0</item>
+        <item>Balance +50</item>
+    </string-array>
+
+</resources>

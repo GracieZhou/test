@@ -1,0 +1,8 @@
+<resources>
+
+    <string-array name="special_locale_codes" translatable="false">
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+    </string-array>
+
+</resources>

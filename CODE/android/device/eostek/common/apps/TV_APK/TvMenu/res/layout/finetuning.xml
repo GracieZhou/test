@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/fintunig_layout_width"
+    android:layout_height="@dimen/fintunig_layout_height"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/eos_finetuning_rl_padding" >
+
+    <TextView
+        android:id="@+id/minitrim_title"
+        android:layout_width="450dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/titlebar_bg1"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="@string/menu_finetuning"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/eos_finetuning_minitrim_tv_textszie" />
+    
+     <RelativeLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/content_bg"
+            android:layout_below="@id/minitrim_title" >
+    
+	    <LinearLayout
+	        android:id="@+id/channel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/eos_finetuning_ll_channel_margin_top" >
+	
+	        <TextView
+	            android:layout_width="@dimen/eos_finetuning_tv_channel_width"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="@dimen/eos_finetuning_tv_channel_margin_left"
+	            android:focusable="false"
+	            android:gravity="right"
+	            android:text="@string/atv_curchannel"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/eos_finetuning_tv_channel_textsize" />
+	
+	        <TextView
+	            android:id="@+id/current_channel"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="@dimen/eos_finetuning_tv_channel_margin_left"
+	            android:focusable="false"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/eos_finetuning_tv_channel_textsize" />
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:id="@+id/fre"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/channel"
+	        android:layout_marginTop="@dimen/eos_finetuning_ll_channel_margin_top" >
+	
+	        <TextView
+	            android:layout_width="@dimen/eos_finetuning_tv_channel_width"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="@dimen/eos_finetuning_tv_channel_margin_left"
+	            android:focusable="false"
+	            android:gravity="right"
+	            android:text="@string/str_cha_atvmanualtuning_frequency"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/eos_finetuning_tv_channel_textsize" />
+	
+	        <TextView
+	            android:id="@+id/current_fre"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="@dimen/eos_finetuning_tv_channel_margin_left"
+	            android:focusable="false"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/eos_finetuning_tv_channel_textsize" />
+	    </LinearLayout>
+	
+	
+	    <LinearLayout
+	        android:id="@+id/llayout"
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:layout_below="@id/fre"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="@dimen/eos_finetuning_llayout_margin_top"
+	        android:descendantFocusability="blocksDescendants"
+	        android:focusable="true"
+	        android:gravity="center" >
+	
+	        <FrameLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="50dp"
+	            android:descendantFocusability="blocksDescendants"
+	            android:focusable="true" >
+	
+	            <SeekBar
+	                android:id="@+id/ministrim_progress"
+	                android:layout_width="fill_parent"
+	                android:layout_height="31dp"
+	                android:layout_marginRight="@dimen/eos_setting_dialog_progress_margin_right"
+	                android:minHeight="10dp"
+	                android:maxHeight="10dp" 
+	                android:paddingLeft="25dp"
+	                android:paddingRight="25dp"
+	                android:max="100" />
+	
+	            <TextView
+	                android:id="@+id/value"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="left"
+	                android:textColor="@android:color/white"
+	                android:textSize="@dimen/eos_setting_dialog_value_textsize" />
+	        </FrameLayout>
+	    </LinearLayout>
+	
+	    <RelativeLayout
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_below="@id/llayout"
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center" >
+	
+	        <Button
+	            android:id="@+id/save_channel"
+	            android:layout_width="@dimen/eos_finetuning_btn_width"
+	            android:layout_height="@dimen/eos_finetuning_btn_height"
+	            android:background="@drawable/bar_bg_btn_grey"
+	            android:text="@android:string/ok"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/eos_finetuning_btn_textsize" />
+	
+	        <Button
+	            android:id="@+id/cancel_channel"
+	            android:layout_width="@dimen/eos_finetuning_btn_width"
+	            android:layout_height="@dimen/eos_finetuning_btn_height"
+	            android:layout_marginLeft="@dimen/eos_finetuning_btn_margin_left"
+	            android:layout_toRightOf="@id/save_channel"
+	            android:background="@drawable/bar_bg_btn_grey"
+	            android:text="@android:string/cancel"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/eos_finetuning_btn_textsize" />
+	    </RelativeLayout>
+     </RelativeLayout>
+</RelativeLayout>

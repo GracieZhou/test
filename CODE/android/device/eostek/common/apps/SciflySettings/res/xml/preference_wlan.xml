@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.android.settings" >
+
+    <com.android.settings.SettingPreference
+        android:key="enable_wlan"
+        android:title="@string/open_wlan"
+        app:type="single_column_with_button" />
+    <com.android.settings.SettingPreference
+        android:key="ssid"
+        android:title="@string/network_ssid"
+        app:type="two_column" />
+    <com.android.settings.SettingPreference
+        android:key="security"
+        android:title="@string/wifi_security"
+        app:type="two_column_with_selector"
+        app:valueArray="@array/security" />
+    <com.android.settings.SettingPreference
+        android:key="password"
+        android:title="@string/wifi_password"
+        app:type="two_column" />
+
+</PreferenceScreen>

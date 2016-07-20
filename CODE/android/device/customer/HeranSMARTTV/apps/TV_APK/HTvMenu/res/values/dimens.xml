@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <MStar Software>
+    ******************************************************************************
+     MStar Software
+     Copyright (c) 2010 - 2013 MStar Semiconductor, Inc. All rights reserved.
+     All software, firmware and related documentation herein ("MStar Software") are
+     intellectual property of MStar Semiconductor, Inc. ("MStar") and protected by
+     law, including, but not limited to, copyright law and international treaties.
+     Any use, modification, reproduction, retransmission, or republication of all
+     or part of MStar Software is expressly prohibited, unless prior written
+     permission has been granted by MStar.
+
+     By accessing, browsing and/or using MStar Software, you acknowledge that you
+     have read, understood, and agree, to be bound by below terms ("Terms") and to
+     comply with all applicable laws and regulations:
+
+     1. MStar shall retain any and all right, ownership and interest to MStar
+        Software and any modification/derivatives thereof.
+        No right, ownership, or interest to MStar Software and any
+        modification/derivatives thereof is transferred to you under Terms.
+
+     2. You understand that MStar Software might include, incorporate or be
+        supplied together with third party's software and the use of MStar
+        Software may require additional licenses from third parties.
+        Therefore, you hereby agree it is your sole responsibility to separately
+        obtain any and all third party right and license necessary for your use of
+        such third party's software.
+
+     3. MStar Software and any modification/derivatives thereof shall be deemed as
+        MStar's confidential information and you agree to keep MStar's
+        confidential information in strictest confidence and not disclose to any
+        third party.
+
+     4. MStar Software is provided on an "AS IS" basis without warranties of any
+        kind. Any warranties are hereby expressly disclaimed by MStar, including
+        without limitation, any warranties of merchantability, non-infringement of
+        intellectual property rights, fitness for a particular purpose, error free
+        and in conformity with any international standard.  You agree to waive any
+        claim against MStar for any loss, damage, cost or expense that you may
+        incur related to your use of MStar Software.
+        In no event shall MStar be liable for any direct, indirect, incidental or
+        consequential damages, including without limitation, lost of profit or
+        revenues, lost or damage of data, and unauthorized system use.
+        You agree that this Section 4 shall still apply without being affected
+        even if MStar Software has been modified by MStar in accordance with your
+        request or instruction for your use, except otherwise agreed by both
+        parties in writing.
+
+     5. If requested, MStar may from time to time provide technical supports or
+        services in relation with MStar Software to you for your use of
+        MStar Software in conjunction with your or your customer's product
+        ("Services").
+        You understand and agree that, except otherwise agreed by both parties in
+        writing, Services are provided on an "AS IS" basis and the warranty
+        disclaimer set forth in Section 4 above shall apply.
+
+     6. Nothing contained herein shall be construed as by implication, estoppels
+        or otherwise:
+        (a) conferring any license or right to use MStar name, trademark, service
+            mark, symbol or any other identification;
+        (b) obligating MStar or any of its affiliates to furnish any person,
+            including without limitation, you and your customers, any assistance
+            of any kind whatsoever, or any information; or
+        (c) conferring any license or right under any intellectual property right.
+
+     7. These terms shall be governed by and construed in accordance with the laws
+        of Taiwan, R.O.C., excluding its conflict of law rules.
+        Any and all dispute arising out hereof or related hereto shall be finally
+        settled by arbitration referred to the Chinese Arbitration Association,
+        Taipei in accordance with the ROC Arbitration Law and the Arbitration
+        Rules of the Association by three (3) arbitrators appointed in accordance
+        with the said Rules.
+        The place of arbitration shall be in Taipei, Taiwan and the language shall
+        be English.
+        The arbitration award shall be final and binding to both parties.
+
+    ******************************************************************************
+    <MStar Software>
+-->
+
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- atvmanualtuning -->
+    <dimen name="atvmanualtuning_tv_textsize">15sp</dimen>
+    <dimen name="atvmanualtuning_width">100dp</dimen>
+    <dimen name="atvmanualtuning_height">40dp</dimen>
+    <dimen name="atvmanualtuning_margin_left">5dp</dimen>
+    <dimen name="linearlayout_content_width">275dp</dimen>
+    <dimen name="linearlayout_content_height">275dp</dimen>
+    <dimen name="linearlayout_content_margin_top">28dp</dimen>
+    <dimen name="str_cha_av_tv_width">340dp</dimen>
+    <dimen name="str_cha_av_tv_margin_left">5dp</dimen>
+    <dimen name="str_cha_av_tv_textsize">25sp</dimen>
+    <dimen name="linearlayout_one_width">336dp</dimen>
+    <dimen name="linearlayout_one_height">2dp</dimen>
+    <dimen name="str_cha_manual_ch_tv_width">33dp</dimen>
+    <dimen name="str_cha_manual_ch_margin_left">5dp</dimen>
+    <dimen name="atv_manualtuning_channelnum_val_height">35dp</dimen>
+    <dimen name="atv_manualtuning_channelnum_val_margin_left">85dp</dimen>
+    <dimen name="str_cha_atvmanualtuning_colorsystem_margin_left">5dp</dimen>
+    <dimen name="str_cha_atvmanualtuning_soundsystem_margin_left">5dp</dimen>
+    <dimen name="str_cha_atvmanualtuning_frequency_tv_margin_left">5dp</dimen>
+    <dimen name="atv_manualtuning_frequency_val_tv_width">67dp</dimen>
+    <dimen name="atv_manualtuning_frequency_val_tv_margin_left">10dp</dimen>
+    <dimen name="str_cha_atvmanualtuning_frequency_mhz_tv_width">33dp</dimen>
+
+    <!-- channel_edit_list -->
+    <dimen name="channel_edit_list_width">342dp</dimen>
+    <dimen name="setting_layout_width">350dp</dimen>
+    <dimen name="setting_layout_margin_left">62dp</dimen>
+    <dimen name="setting_layout_padding_left">5dp</dimen>
+    <dimen name="setting_title_txt_height">56dp</dimen>
+    <dimen name="setting_title_txt_textsize">25sp</dimen>
+    <dimen name="channel_edit_list_view_height">2dp</dimen>
+    <dimen name="channel_edit_list_view_margin_bottom">2dp</dimen>
+    <dimen name="channel_edit_list_ll_padding_bottom">10dp</dimen>
+    <dimen name="channel_edit_list_ll_padding_top">10dp</dimen>
+    <dimen name="context_lst_height">0dp</dimen>
+    <dimen name="context_lst_margin_top">-4dp</dimen>
+    <dimen name="hint_margin_left">14dp</dimen>
+    <dimen name="hint_skip_margin_left">10dp</dimen>
+    <dimen name="hint_skip_margin_right">14dp</dimen>
+
+    <!-- channel_item -->
+    <dimen name="channel_item_ll_width">342dp</dimen>
+    <dimen name="channelid_txt_padding_left">10dp</dimen>
+    <dimen name="channel_lock_margin_left">25dp</dimen>
+    <dimen name="channel_switch_margin_left">15dp</dimen>
+    <dimen name="channel_eye_margin_left">15dp</dimen>
+    <dimen name="channel_eye_margin_right">15dp</dimen>
+
+    <!-- custom_progressbar -->
+    <dimen name="custom_progressbar_rl_width">600dp</dimen>
+    <dimen name="title_txt_width">120dp</dimen>
+    <dimen name="title_txt_height">36dp</dimen>
+    <dimen name="title_txt_padding_right">15dp</dimen>
+    <dimen name="progress_context_width">338dp</dimen>
+    <dimen name="progress_context_margin_right">15dp</dimen>
+    <dimen name="progress_context_margin_top">6dp</dimen>
+    <dimen name="custom_progressbar_progress_width">1dp</dimen>
+    <dimen name="custom_progressbar_progress_height">22dp</dimen>
+    <dimen name="custom_progressbar_progress_margin_right">5dp</dimen>
+    <dimen name="custom_progressbar_value_textsize">21sp</dimen>
+    <dimen name="custom_title_value_textsize">15sp</dimen>
+
+    <!-- dtvmanualtuning -->
+    <dimen name="dtvmanualtuning_nor_textsize">15sp</dimen>
+    <dimen name="dtvmanualtuning_nor_tv_width">112dp</dimen>
+    <dimen name="dtvmanualtuning_nor_tv_height">27dp</dimen>
+    <dimen name="dtvmanualtuning_nor_tv_margin_left">5dp</dimen>
+    <dimen name="dtvmanualtuning_ll_content_width">375dp</dimen>
+    <dimen name="dtvmanualtuning_ll_content_height">375dp</dimen>
+    <dimen name="dtvmanualtuning_ll_content_margin_top">28dp</dimen>
+    <dimen name="dtv_manualtuning_tv_width">275dp</dimen>
+    <dimen name="dtv_manualtuning_tv_textsize">21sp</dimen>
+    <dimen name="dtv_manualtuning_ll_width">336dp</dimen>
+    <dimen name="dtv_manualtuning_ll_height">2dp</dimen>
+    <dimen name="dtv_manualtuning_ll_margin_bottom">2dp</dimen>
+    <dimen name="dtv_manualtuning_channelnum_height">27dp</dimen>
+    <dimen name="dtvmanualtuning_str_cha_ma_height">27dp</dimen>
+    <dimen name="dtvmanualtuning_str_cha_ma_margin_left">5dp</dimen>
+    <dimen name="dtv_manualtuning_channelnum_val_width">150dp</dimen>
+    <dimen name="dtv_manualtuning_channelnum_val_height">35dp</dimen>
+    <dimen name="dtv_manualtuning_channelnum_val_margin_left">15dp</dimen>
+    <dimen name="dtv_manualtuning_frequency_lin_height">27dp</dimen>
+    <dimen name="dtv_manualtuning_str_cha_dtv_freq_width">100dp</dimen>
+    <dimen name="dtv_manualtuning_str_cha_dtv_freq_height">27dp</dimen>
+    <dimen name="dtv_manualtuning_str_cha_dtv_freq_margin_left">5dp</dimen>
+    <dimen name="dtv_manualtuning_modulation_val_margin_left">35dp</dimen>
+    <dimen name="dtv_manualtuning_symbol_val_margin_left">35dp</dimen>
+    <dimen name="dtv_manualtuning_starttuning_lin_height">40dp</dimen>
+    <dimen name="linearlayout_cha_dtvmanualtuning_signalstrength_height">40dp</dimen>
+    <dimen name="dtv_manualtuning_str_cha_dtv_signalstrength_width">133dp</dimen>
+    <dimen name="dtv_manualtuning_signalstrength_val_width">133dp</dimen>
+    <dimen name="dtv_manualtuning_signalstrength_val_height">10dp</dimen>
+    <dimen name="textview_cha_dtvmanualtuning_signalquality_width">133dp</dimen>
+    <dimen name="linearlayout_cha_dtvmanualtuning_signalquality_val_width">133dp</dimen>
+    <dimen name="linearlayout_cha_dtvmanualtuning_signalquality_val_height">10dp</dimen>
+    <dimen name="textview_cha_dtvmanualtuning_tuningresult_dtv_val_width">33dp</dimen>
+
+    <!-- eos_menu_title_item -->
+    <dimen name="menuitem_title_txt_height">40dp</dimen>
+    <dimen name="menuitem_title_txt_textsize">21sp</dimen>
+
+    <!-- eos_menu -->
+    <dimen name="eos_menu_rl_main_width">600dp</dimen>
+    <dimen name="eos_menu_iv_selector_width">118dp</dimen>
+    <dimen name="eos_menu_iv_selector_height">40dp</dimen>
+    <dimen name="eos_menu_titles_gv_margin_left">10dp</dimen>
+    <dimen name="eos_menu_titles_gv_margin_right">10dp</dimen>
+    <dimen name="eos_menu_titles_gv_margin_top">5dp</dimen>
+    <dimen name="eos_menu_iv_line_height">3dp</dimen>
+    <dimen name="eos_menu_iv_line_margin_bottom">5dp</dimen>
+    <dimen name="eos_menu_iv_line_margin_top">3dp</dimen>
+
+    <!-- eos_public_list -->
+    <dimen name="eos_public_list_iv_selector_width">60dp</dimen>
+    <dimen name="eos_public_list_iv_selector_height">60dp</dimen>
+    <dimen name="eos_public_list_context_lst_margin_right">80dp</dimen>
+
+    <!-- eos_setting_dialog -->
+    <dimen name="eos_setting_dialog_rl_width">600dp</dimen>
+    <dimen name="eos_setting_dialog_rl_margin_bottom">20dp</dimen>
+    <dimen name="eos_setting_dialog_last_text_width">88dp</dimen>
+    <dimen name="eos_setting_dialog_last_text_height">48dp</dimen>
+    <dimen name="eos_setting_dialog_last_text_margin_bottom">5dp</dimen>
+    <dimen name="eos_setting_dialog_last_text_padding_top">5dp</dimen>
+    <dimen name="eos_setting_dialog_progress_context_width">600dp</dimen>
+    <dimen name="eos_setting_dialog_title_txt_width">180dp</dimen>
+    <dimen name="eos_setting_dialog_title_txt_height">36dp</dimen>
+    <dimen name="eos_setting_dialog_title_txt_padding_right">15dp</dimen>
+    <dimen name="eos_setting_dialog_bar_fl_width">338dp</dimen>
+    <dimen name="eos_setting_dialog_bar_fl_margin_top">6dp</dimen>
+    <dimen name="eos_setting_dialog_progress_width">1dp</dimen>
+    <dimen name="eos_setting_dialog_progress_height">22dp</dimen>
+    <dimen name="eos_setting_dialog_progress_margin_right">5dp</dimen>
+    <dimen name="eos_setting_dialog_value_textsize">16sp</dimen>
+    <dimen name="eos_setting_dialog_next_txt_width">88dp</dimen>
+    <dimen name="eos_setting_dialog_next_txt_height">48dp</dimen>
+    <dimen name="eos_setting_dialog_next_txt_margin_top">5dp</dimen>
+    <dimen name="eos_setting_dialog_next_txt_padding_top">23dp</dimen>
+    <dimen name="eos_setting_dialog_last_text_margin_left">309dp</dimen>
+    <dimen name="eos_setting_dialog_next_txt_margin_left">309dp</dimen>
+
+    <!--
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    <dimen name=""></dimen>
+    -->
+
+    <integer name="advance_setting_fragment_top_off">72</integer>
+    <integer name="gridview_title_top_off">15</integer>
+    <integer name="dtv_manualtuning_focus_selector_top_off_set">-56</integer>
+
+</resources>

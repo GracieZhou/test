@@ -1,0 +1,198 @@
+# Copyright (C) 2010 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+#
+# MStar Smart TV IR Receiver.
+#
+
+key 116     POWER
+key 11      0
+key 2       1
+key 3       2
+key 4       3
+key 5       4
+key 6       5
+key 7       6
+key 8       7
+key 9       8
+key 10      9
+key 398     PROG_RED
+key 399     PROG_GREEN
+key 400     PROG_YELLOW
+key 401     PROG_BLUE
+key 103     DPAD_UP
+key 108     DPAD_DOWN
+key 105     DPAD_LEFT
+key 106     DPAD_RIGHT
+key 28      ENTER
+key 363     LAST_CHANNEL
+key 402     CHANNEL_UP
+key 403     CHANNEL_DOWN
+key 115     VOLUME_UP
+key 114     VOLUME_DOWN
+key 104     PAGE_UP
+key 109     PAGE_DOWN
+key 102     HOME
+key 139     MENU
+key 158     BACK
+key 113     VOLUME_MUTE
+key 167     DVR
+key 138     GUIDE
+key 358     INFO
+key 82      WINDOW
+key 356     TV_POWER
+key 142     SLEEP
+key 79      TV_INPUT
+key 372     TV_ZOOM_MODE
+key 468     TV_TELETEXT
+key 168     MEDIA_REWIND
+key 159     MEDIA_FAST_FORWARD
+key 165     MEDIA_PREVIOUS
+key 163     MEDIA_NEXT
+key 207     MEDIA_PLAY
+key 119     MEDIA_PAUSE
+key 128     MEDIA_STOP
+
+# Extended
+key 392     TV_SOUND_MODE
+key 212     TV_PICTURE_MODE
+key 365     TV_EPG
+key 395     TV_LIST
+key 370     TV_SUBTITLE
+key 466     TV_MTS
+key 467     TV_FREEZE
+key 469     TV_CC
+key 470     TV_SETTING
+key 471     SCREENSHOT
+key 59      TV_BALANCE
+key 60      TV_INDEX
+key 61      TV_HOLD
+key 62      TV_UPDATE
+key 63      TV_REVEAL
+key 64      TV_SUBCODE
+key 65      TV_SIZE
+key 66      TV_CLOCK
+key 67      MICECHO_UP
+key 68      MICVOL_UP
+key 71      MICVOL_DOWN
+key 72      MICECHO_DOWN
+#double
+key 30      DOUBLE_TV_0
+key 48      DOUBLE_TV_1 
+key 46      DOUBLE_TV_2 
+key 32      DOUBLE_TV_3 
+key 18      DOUBLE_TV_4 
+key 33      DOUBLE_TV_5 
+key 34      DOUBLE_TV_6 
+key 35      DOUBLE_TV_7 
+key 23      DOUBLE_TV_8 
+key 36      DOUBLE_TV_9 
+
+key 183      DOUBLE_TV_POWER
+key 194      DOUBLE_TV_HOME
+key 176      DOUBLE_TV_INFO
+key 184      DOUBLE_TV_DPAD_UP
+key 185      DOUBLE_TV_DPAD_DOWN
+key 186      DOUBLE_TV_DPAD_LEFT
+key 187      DOUBLE_TV_DPAD_RIGHT
+key 188      DOUBLE_TV_ENTER
+key 189      DOUBLE_TV_BACK
+key 192      DOUBLE_TV_GUIDE
+key 190      DOUBLE_TV_VOLUME_UP
+key 191      DOUBLE_TV_VOLUME_DOWN
+key 37       DOUBLE_TV_CHANNEL_RETURN
+key 38       DOUBLE_TV_CHANNEL_UP
+key 50       DOUBLE_TV_CHANNEL_DOWN
+
+#ChangHong IR add to Mstar extended
+key 393      MSTAR_POWER
+key 389      MSTAR_EXIT
+key 355      MSTAR_MENU
+key 378      MSTAR_SOURCE
+key 357      MSTAR_INFO
+key 379      MSTAR_MODE
+key 380      MSTAR_INITIAL
+key 381      MSTAR_BURN_MODE
+key 382      MSTAR_DEFAULT_RESET
+key 383      MSTAR_S_MODE
+key 384      MSTAR_NUMB_1
+key 385      MSTAR_NUMB_2
+key 386      MSTAR_NUMB_3
+key 387      MSTAR_NUMB_4
+key 390      MSTAR_NUMB_5
+key 391      MSTAR_NUMB_6
+key 406      MSTAR_NUMB_7
+key 49       MSTAR_NUMB_8
+key 24       MSTAR_NUMB_9
+key 25       MSTAR_NUMB_0
+#key 16      MSTAR_TEXT
+key 19       MSTAR_CH_PLUS
+key 31       MSTAR_CH_MINUS
+key 20       MSTAR_FIFTEEN_PLUS
+key 22       MSTAR_FIFTEEN_MINUS
+key 47       MSTAR_UP
+key 17       MSTAR_DOWN
+key 45       MSTAR_LEFT
+key 21       MSTAR_RIGHT
+key 407      MSTAR_SELECT
+key 408      MSTAR_DTV_SEARCH
+#key 185     MSTAR_CZEKH_SEARCH
+#key 186     MSTAR_CHANNEL_PRESET
+key 409      MSTAR_SWITCH_ATV
+key 410      MSTAR_SWITCH_DTV
+key 411      MSTAR_SWITCH_AV
+key 412      MSTAR_SWITCH_YPBPR
+key 413      MSTAR_SWITCH_VGA
+#key 192     MSTAR_SWITCH_CI
+key 193      MSTAR_SWITCH_USB
+#key 194     MSTAR_SWITCH_SCART
+key 87       MSTAR_SWITCH_DVD
+key 88       MSTAR_SWITCH_HDMI
+key 80       MSTAR_SWITCH_HDMI1
+key 81       MSTAR_SWITCH_HDMI2
+key 75       MSTAR_SWITCH_HDMI3
+#key 76      MSTAR_SWITCH_HDMI4
+key 472      MSTAR_3D
+#key 472     MSTAR_CLONE
+#key 473     MSTAR_FREQUENCY
+key 473      MSTAR_NET
+key 474      MSTAR_MONO
+key 475      MSTAR_DATA_DISPLAY
+key 476      MSTAR_ADC
+key 477      MSTAR_NICAM
+key 480      MSTAR_VERSION
+#key 481     MSTAR_LVDS_SSC
+key 482      MSTAR_OSD_LANGUAGE
+#key 483     MSTAR_UPGRADE
+key 484      MSTAR_HOME
+key 377      MSTAR_APP
+key 376      MSTAR_WHITE_BALANCE
+key 83       MSTAR_WIFI
+key 74       MSTAR_CEC
+key 78       MSTAR_F1
+key 44       MSTAR_F2
+key 353      MSTAR_F3
+key 354      MSTAR_F4
+#ChangHong IR add to Mstar extended end
+# Skyworth IR Start
+key 481      MSTAR_VHF_L
+key 483      MSTAR_VHF_H
+key 214      MSTAR_UHF
+key 215      MSTAR_MAC
+key 216      MSTAR_IIC
+key 217      MSTAR_FACTORY_MODE
+key 218      MSTAR_FREQUENT_PRE
+key 219      MSTAR_GINGA
+key 220      MSTAR_NUMB_PLUS
+# Skyworth IR end

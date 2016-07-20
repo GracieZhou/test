@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+android:id/checkbox"  
+    android:layout_width="wrap_content"  
+    android:layout_height="50dp"  
+    android:button="@drawable/wifi_enable_checkbox_selector"  
+    android:clickable="false"
+    android:focusable="false"
+    android:scaleX="0.8"
+    android:scaleY="0.8" /> 

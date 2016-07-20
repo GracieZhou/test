@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/collect_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="950dp"
+        android:drawableLeft="@drawable/menu_icon"
+        android:gravity="center"
+        android:text="@string/collect_menu_tip"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+    
+    <TextView
+        android:id="@+id/no_collect_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/no_collect_txt"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:visibility="invisible" />
+
+    <com.jess.ui.TwoWayGridView
+        android:id="@+id/collect_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/frame_margin_left"
+        android:layout_marginRight="@dimen/frame_margin_left"
+        android:layout_marginTop="40dp"
+        android:horizontalSpacing="@dimen/gridview_item_horizontal_space"
+        android:nextFocusUp="@+id/collect_text"
+        app:columnWidth="240dp"
+        app:gravity="center"
+        app:horizontalSpacing="@dimen/gridview_item_horizontal_space"
+        app:numColumns="auto_fit"
+        app:numRows="3"
+        app:rowHeight="@dimen/gridview_border_heigth"
+        app:scrollDirectionLandscape="horizontal"
+        app:stretchMode="none"
+        app:verticalSpacing="@dimen/gridview_item_vertical_space" />
+
+</RelativeLayout>

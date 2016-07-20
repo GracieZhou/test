@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="49.3dp"
+    android:background="@drawable/index_icon_bg"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/index_homebtn_icon01"
+        android:layout_width="42dp"
+        android:layout_height="49.3dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/index_icon_01_unselect" />
+
+    <ImageButton
+        android:id="@+id/index_homebtn_icon02"
+        android:layout_width="42dp"
+        android:layout_height="49.3dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/index_icon_02_unselect" />
+
+    <ImageButton
+        android:id="@+id/index_homebtn_icon03"
+        android:layout_width="42dp"
+        android:layout_height="49.3dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/index_icon_03_unselect" />
+
+    <ImageButton
+        android:id="@+id/index_homebtn_icon05"
+        android:layout_width="42dp"
+        android:layout_height="49.3dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/index_icon_05_unselect" />
+
+    <ImageButton
+        android:id="@+id/index_homebtn_icon04"
+        android:layout_width="42dp"
+        android:layout_height="49.3dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/index_icon_04_unselect" />
+
+</LinearLayout>

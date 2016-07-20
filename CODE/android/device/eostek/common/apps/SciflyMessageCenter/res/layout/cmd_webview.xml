@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/cmd_dialog_layout_width"
+    android:layout_height="@dimen/cmd_dialog_layout_height"
+    android:layout_gravity="center" >
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+    </WebView>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/tv_tips"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="#80000000"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/press_return_button"
+        android:textColor="@android:color/white"
+        android:textSize="22dp" />
+
+</RelativeLayout>

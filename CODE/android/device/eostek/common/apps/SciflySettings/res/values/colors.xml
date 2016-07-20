@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green">#00FF00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="memory_used">#33cc33</color>
+    <color name="memory_avail">#4d535a</color>
+    <color name="extension_memory_avail">#66cc66</color>
+    <color name="memory_apps_usage">#f4ac00</color>
+    <!-- #77831A -->
+    <color name="memory_downloads">#476093</color>
+    <color name="memory_dcim">#cc3d73</color>
+    <!-- #793A7F -->
+    <color name="memory_music">#8E562A</color>
+    <color name="memory_cache">#00a6ae</color>
+    <!-- #479392 -->
+    <color name="memory_misc">#eb5145</color>
+    <!-- #7C3030 -->
+    <color name="memory_user_light">#479392</color>
+    <color name="memory_user_dark">#316665</color>
+    <color name="wifi_button_y">#FF1E88E5</color>
+    <color name="wifi_button_p">#FF1E8FFF</color>
+    <color name="wifi_button_n">#50000000</color>
+    <color name="delete_dialog_button_n">#50000000</color>
+    <color name="delete_dialog_button_y">#FF1E88E5</color>
+    <color name="delete_dialog_button_p">#FF1E8FFF</color>
+    <color name="network_green">#02eb20</color>
+    <color name="network_red">#FF3030</color>
+
+    <!-- Udisk Upgrade Begin -->
+    <color name="dark">#000000</color>
+    <color name="red">#FF0000</color>
+    <!-- Udisk Upgrade End -->
+
+</resources>

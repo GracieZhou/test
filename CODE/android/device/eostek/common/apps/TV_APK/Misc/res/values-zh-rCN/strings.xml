@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">画质调整</string>
+    <string name="action_settings">设置</string>
+    <string name="title_3d">3D设置</string>
+    <string name="title_spdif">SPDIF 模式</string>
+
+    <string-array name="setting_spdifoutput_vals">
+        <item>关</item>
+        <item>PCM</item>
+        <item>RAW</item>
+    </string-array>
+    <string-array name="item_names">
+        <item>自我检测</item>
+        <item>3D 模式</item>
+        <item>3D-2D</item>
+        <item>3D 深度</item>
+        <item>3D 偏移</item>
+        <item>左右交换</item>
+    </string-array>
+    <string-array name="str_arr_3d_detect_vals">
+        <item>关</item>
+        <item>现在</item>
+        <item>当扫描更改</item>
+    </string-array>
+    <string-array name="str_arr_3d_3dto2d_vals">
+        <item>无</item>
+        <item>左右</item>
+        <item>上下</item>
+        <item>双高清</item>
+        <item>行交织</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="str_arr_3d_conversion_vals">
+        <item>无</item>
+        <item>左右</item>
+        <item>上下</item>
+        <item>双高清</item>
+        <item>行交织</item>
+        <item>2D-3D</item>
+        <item>自动</item>
+        <item>棋盘格</item>
+        <item>列交錯</item>
+        <item>帧交替</item>
+    </string-array>
+    <string-array name="str_arr_3d_3dofset_vals">
+        <item>关</item>
+        <item>开</item>
+    </string-array>
+    <string name="media_title">媒體播放器畫質</string>
+    <string-array name="title">
+        <item>亮度</item>
+        <item>对比度</item>
+        <item>背光</item>
+        <item>锐利度</item>
+        <item>色相</item>
+        <item>饱和度</item>
+        <item>红色</item>
+        <item>绿色</item>
+        <item>蓝色</item>
+        <item>畫面比例</item>
+    </string-array>
+    
+    <string-array name="setting_zoommode_vals">
+        <item>满框</item>
+        <item>4:3</item>
+        <item>自动</item>
+        <item>全景</item>
+        <item>全画面</item>
+    </string-array>
+    
+</resources>

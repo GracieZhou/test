@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/folder_empty"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/text_notice_border"
+    android:orientation="vertical"
+    android:padding="20.0dip" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10.0dip"
+            android:src="@drawable/ic_info" />
+
+        <TextView
+            android:id="@+id/folder_is_empty_header"
+            style="@style/VerticalStack"
+            android:gravity="center_horizontal"
+            android:text="@string/folder_is_empty"
+            android:textAppearance="?android:textAppearance"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/advice_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5.0dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/advice_header"
+            style="@style/VerticalStack.List"
+            android:text="@string/advice_header" />
+
+        <LinearLayout
+            android:id="@+id/advice_insert_usb"
+            style="@style/VerticalStack.List" >
+
+            <include layout="@layout/bullet" />
+
+            <TextView
+                style="@style/VerticalStack"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="@string/advice_insert_usb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/advice_navigate"
+            style="@style/VerticalStack.List"
+            android:visibility="gone" >
+
+            <include layout="@layout/bullet" />
+
+            <TextView
+                android:id="@+id/advice_navigate_link"
+                style="@style/VerticalStack"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="@string/advice_navigate" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/advice_use_filter_bar"
+            style="@style/VerticalStack.List"
+            android:visibility="gone" >
+
+            <include layout="@layout/bullet" />
+
+            <TextView
+                android:id="@+id/use_filter_bar_link"
+                style="@style/VerticalStack"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="@string/advice_use_filter_bar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/advice_add_account"
+            style="@style/VerticalStack.List"
+            android:visibility="gone" >
+
+            <include layout="@layout/bullet" />
+
+            <TextView
+                android:id="@+id/add_account_link"
+                style="@style/VerticalStack"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="@string/advice_add_account" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/advice_ask_to_share"
+            style="@style/VerticalStack.List"
+            android:visibility="gone" >
+
+            <include layout="@layout/bullet" />
+
+            <TextView
+                style="@style/VerticalStack"
+                android:text="@string/advice_ask_to_share" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/advice_follow"
+            style="@style/VerticalStack.List"
+            android:visibility="gone" >
+
+            <include layout="@layout/bullet" />
+
+            <TextView
+                style="@style/VerticalStack"
+                android:text="@string/advice_follow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/advice_switch_to_network"
+            style="@style/VerticalStack.List"
+            android:visibility="gone" >
+
+            <include layout="@layout/bullet" />
+
+            <TextView
+                android:id="@+id/switch_to_network_link"
+                style="@style/VerticalStack"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="@string/advice_switch_to_network" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/advice_switch_to_local"
+            style="@style/VerticalStack.List"
+            android:visibility="gone" >
+
+            <include layout="@layout/bullet" />
+
+            <TextView
+                android:id="@+id/switch_to_local_link"
+                style="@style/VerticalStack"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="@string/advice_switch_to_local" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

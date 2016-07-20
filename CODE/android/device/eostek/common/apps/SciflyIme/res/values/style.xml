@@ -1,0 +1,31 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Ime_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/ime_select</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+   <style name ="morekeys">
+       <item name ="android:textSize">26dp</item>
+       <!-- <item name ="android:gravity">center</item> -->
+       <item name ="android:layout_width">@dimen/morekeys_width</item>
+       <item name ="android:textColor">#ffffff</item>
+       <item name ="android:padding">0dp</item>
+       <item name="android:background">@drawable/key_selector</item>
+        <item name ="android:layout_height">@dimen/morkeys_height</item>
+    
+        
+      
+       </style>
+       <style name ="morekeys_a">
+       <item name ="android:textSize">26sp</item>
+       <!-- <item name ="android:gravity">center</item> -->
+       <item name ="android:layout_width">@dimen/morekeys_a_width</item>
+       <item name ="android:textColor">#ffffff</item>
+       <item name ="android:padding">0dp</item>
+       <item name="android:background">@drawable/key_selector</item>
+        <item name ="android:layout_height">@dimen/morkeys_height</item>
+    
+        
+      
+       </style>
+</resources>

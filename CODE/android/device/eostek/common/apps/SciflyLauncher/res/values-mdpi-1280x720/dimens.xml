@@ -1,0 +1,143 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <integer name="focus_view_gap">7</integer>
+
+    <!-- tv -->
+    <integer name="tv_view_width">355</integer>
+    <integer name="tv_view_height">407</integer>
+    <integer name="tv_surfaceview_width">355</integer>
+    <integer name="tv_surfaceview_height">200</integer>
+    <integer name="tv_scale_gap">20</integer>
+
+    <!-- pageroup -->
+    <integer name="page_tv_view_gap_right">73</integer>
+    <integer name="page_group_left">67</integer>
+    <integer name="width_margin">67</integer>
+    <integer name="height_margin">33</integer>
+    <integer name="margin">7</integer>
+
+    <dimen name="focus_border_padding">2.5dp</dimen>
+
+    <integer name="focus_border_gap">2</integer>
+    <integer name="pagegroup_min_width">1802</integer>
+
+    <!-- metroinfo -->
+    <integer name="metro_info_height">407</integer>
+    <integer name="metro_3_3_width">200</integer>
+    <integer name="metro_3_3_height">200</integer>
+    <integer name="metro_6_3_width">407</integer>
+    <integer name="metro_6_3_height">200</integer>
+    <integer name="metro_4_6_width">267</integer>
+    <integer name="metro_4_6_height">407</integer>
+
+    <!-- reflection view -->
+    <integer name="reflect_image_height">100</integer>
+    <integer name="reflect_image_gap">-1</integer>
+    <integer name="reflect_image_maring_top">-3</integer>
+    <integer name="reflect_has_reflection_padding">7</integer>
+    <integer name="reflect_margin_top">123</integer>
+    <integer name="focus_rect_left">495</integer>
+    <integer name="focus_rect_delta">355</integer>
+    <integer name="scale_animation_duration">200</integer>
+
+    <!-- observable scroll view -->
+    <integer name="scroll_off">133</integer>
+
+    <!-- activity_home -->
+    <dimen name="grid_view_width">860dp</dimen>
+    <dimen name="grid_view_height">53dp</dimen>
+    <dimen name="grid_view_margin_left">55dp</dimen>
+    <dimen name="grid_view_margin_top">70dp</dimen>
+
+    <integer name="grid_view_num_columns">6</integer>
+
+    <dimen name="View_pager_margin_top">0dp</dimen>
+    <dimen name="system_ui_margin_top">10dp</dimen>
+    <dimen name="system_ui_margin_right">135dp</dimen>
+    <dimen name="logo_iv_width">152dp</dimen>
+    <dimen name="logo_iv_height">63dp</dimen>
+    <integer name="logo_iv_margin_left">67</integer>
+    <integer name="logo_iv_margin_top">26</integer>
+
+    <!-- source listview item -->
+    <dimen name="source_ll_height">42dp</dimen>
+    <dimen name="source_img_height">40dp</dimen>
+    <dimen name="source_img_margin_left">20dp</dimen>
+    <dimen name="source_name_height">42dp</dimen>
+    <dimen name="source_name_margin_left">30dp</dimen>
+    <dimen name="source_name_size">21sp</dimen>
+
+    <!-- system_ui -->
+    <dimen name="weather_img_width">60dp</dimen>
+    <dimen name="weather_img_height">40dp</dimen>
+    <dimen name="weather_descption_height">40dp</dimen>
+    <dimen name="weather_descption_margin_left">5dp</dimen>
+    <dimen name="weather_descption_size">18sp</dimen>
+
+    <!-- title_grid_view_item -->
+    <dimen name="title_padding">6dp</dimen>
+    <dimen name="title_size">24sp</dimen>
+
+    <!-- tv_layout -->
+    <dimen name="tv_sur_height">200dp</dimen>
+    <dimen name="tv_image_height">200dp</dimen>
+    <dimen name="tv_info_height">25dp</dimen>
+    <dimen name="tv_info_margin_top">175dp</dimen>
+    <dimen name="tv_info_size">18sp</dimen>
+    <dimen name="tv_info_padding_bottom">2dp</dimen>
+    <dimen name="source_list_height">207dp</dimen>
+    <dimen name="source_list_margin_top">12dp</dimen>
+    <dimen name="source_list_divider_height">9dp</dimen>
+
+    <!-- view_holder -->
+    <integer name="view_holder_off">123</integer>
+
+    <!-- appicon_item -->
+    <dimen name="appicon_item_linearlayout_width">130dp</dimen>
+    <dimen name="appicon_item_linearlayout_height">130dp</dimen>
+    <dimen name="appicon_item_padding_bottom">7dp</dimen>
+    <dimen name="appicon_item_padding_top">7dp</dimen>
+    <dimen name="appicon_item_linearlayout_1_width">130dp</dimen>
+    <dimen name="appicon_item_linearlayout_1_height">104dp</dimen>
+    <dimen name="appicon_item_appicon_width">78dp</dimen>
+    <dimen name="appicon_item_appicon_height">78dp</dimen>
+    <dimen name="appicon_item_apptitle_width">130dp</dimen>
+    <dimen name="appicon_item_apptitle_textSize">16sp</dimen>
+
+    <!-- allapplication -->
+    <dimen name="allapp_tv_margin_top">23dp</dimen>
+    <dimen name="allapp_tv_margin_left">40dp</dimen>
+    <dimen name="allapp_tv_textsize">40sp</dimen>
+    <dimen name="allapp_appgridview_margin_rifht">80dp</dimen>
+    <dimen name="allapp_appgridview_margin_top">13dp</dimen>
+    <dimen name="allapp_appgridview_horizontalSpacing">13dp</dimen>
+    <dimen name="allapp_appgridview_verticalSpacing">13dp</dimen>
+
+    <!-- source adapter -->
+    <integer name="source_adapter_title">35</integer>
+
+    <!-- title adapter -->
+    <integer name="title_adapter_title_width">33</integer>
+    <integer name="title_adapter_title_height">35</integer>
+    <integer name="title_adapter_title_delta">10</integer>
+
+    <!-- tv surface view -->
+    <integer name="video_window_y">235</integer>
+    <integer name="video_window_x">100</integer>
+    <integer name="video_window_width">533</integer>
+    <integer name="video_window_height">300</integer>
+
+    <integer name="video_window_y_828">235</integer>
+    <integer name="video_window_x_828">100</integer>
+    <integer name="video_window_width_828">533</integer>
+    <integer name="video_window_height_828">300</integer>
+    
+    <!-- weather view -->
+    <dimen name="weatherview_margin_top">65dp</dimen>
+    <dimen name="weatherview_margin_left">500dp</dimen>
+
+</resources>

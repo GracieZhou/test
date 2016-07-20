@@ -1,0 +1,21 @@
+<scpd>
+    <serviceStateTable>
+        <stateVariable sendEvents="no">
+            <name>A_ARG_TYPE_ConnectionID</name>
+            <dataType>i4</dataType>
+            <defaultValue>0</defaultValue>
+        </stateVariable>
+    </serviceStateTable>
+    <actionList>
+        <action>
+            <name>ConnectionKeepAlive</name>
+            <argumentList>
+                <argument>
+                    <name>ConnectionID</name>
+                    <direction>in</direction>
+                    <relatedStateVariable>A_ARG_TYPE_ConnectionID</relatedStateVariable>
+                </argument>
+            </argumentList>
+        </action>
+    </actionList>
+</scpd>

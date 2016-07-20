@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_layer" >
+
+    <GridView
+        android:id="@+id/menu_gridview"
+        android:layout_width="@dimen/menu_width"
+        android:layout_height="@dimen/menu_heigth"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/menu_margin_top"
+        android:background="@drawable/menu_bg"
+        android:columnWidth="@dimen/menu_item_width"
+        android:gravity="center_horizontal"
+        android:listSelector="@color/transparent"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:stretchMode="none"
+        android:verticalSpacing="20dp" />
+
+    <LinearLayout
+        android:id="@+id/menu_pages"
+        android:layout_width="@dimen/menu_pages_width"
+        android:layout_height="@dimen/menu_pages_heigth"
+        android:layout_below="@id/menu_gridview"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pages_bg"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/menu_pages_padding"
+        android:paddingRight="@dimen/menu_pages_padding"
+        android:paddingTop="24dp"
+        android:visibility="invisible" >
+
+        <RelativeLayout
+            android:id="@+id/add_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/add_view"
+                android:layout_width="@dimen/menu_pages_item_width"
+                android:layout_height="@dimen/menu_pages_item_heigth"
+                android:layout_centerInParent="true"
+                android:background="@drawable/page_item_bg"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <ImageView
+                android:id="@+id/add_bg"
+                android:layout_width="@dimen/menu_pages_item_width"
+                android:layout_height="@dimen/menu_pages_item_heigth"
+                android:layout_centerInParent="true"
+                android:background="@drawable/page_item_selector"
+                android:clickable="true"
+                android:focusable="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/QR_border_layout_width"
+        android:layout_height="@dimen/QR_border_layout_heigth"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/qr_bg"
+        android:focusable="false"
+        android:paddingLeft="@dimen/QR_pading"
+        android:paddingRight="@dimen/QR_pading"
+        android:paddingTop="@dimen/QR_pading" >
+
+        <TextView
+            android:id="@+id/QR_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:gravity="center"
+            android:text="@string/multi_screen"
+            android:textColor="@color/QR_text_color"
+            android:textSize="@dimen/QR_text_size" />
+
+        <ImageView
+            android:id="@+id/QR"
+            android:layout_width="@dimen/QR_size"
+            android:layout_height="@dimen/QR_size"
+            android:layout_below="@id/QR_text"
+            android:layout_marginTop="30dp"
+            android:focusable="false" />
+    </RelativeLayout>
+
+</RelativeLayout>

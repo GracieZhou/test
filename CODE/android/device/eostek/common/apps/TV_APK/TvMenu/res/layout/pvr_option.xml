@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_height="232dip"
+        android:layout_width="267dip"
+        android:orientation="vertical"
+        android:background="@drawable/tv_record_list_r_bg">
+        <TextView
+            android:text="@string/str_pvr_file_system_title"
+            android:id="@+id/pvr_file_system_title"
+            android:layout_width="267dip"
+            android:layout_height="35dip"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_marginTop="0dip" />
+        <TextView
+            android:text="@string/str_pvr_file_system_select_disk"
+            android:id="@+id/pvr_file_system_select_disk"
+            android:layout_width="267dip"
+            android:layout_height="35dip"
+            android:focusable="true"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_state"
+            android:gravity="center" />
+        <TextView
+            android:text="@string/str_pvr_file_system_time_shift_size"
+            android:id="@+id/pvr_file_system_time_shift_size"
+            android:layout_width="267dip"
+            android:layout_height="35dip"
+            android:focusable="true"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_state"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:id="@+id/pvr_file_system_format_layout"
+            android:layout_width="match_parent"
+            android:focusable="true"
+            android:background="@drawable/button_state">
+            <TextView
+                android:text="@string/str_pvr_file_system_format_start"
+                android:id="@+id/pvr_file_system_format_start"
+                android:layout_width="133dip"
+                android:layout_height="35dip"
+                android:textColor="#ffffff"
+                android:gravity="center" />
+            <TextView
+                android:text="@string/str_pvr_file_system_format_context"
+                android:id="@+id/pvr_file_system_format_context"
+                android:layout_width="133dip"
+                android:layout_height="35dip"
+                android:textColor="#ffffff"
+                android:gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:id="@+id/pvr_file_system_speed_layout"
+            android:layout_width="match_parent"
+            android:focusable="true"
+            android:background="@drawable/button_state">
+            <TextView
+                android:text="@string/str_pvr_file_system_speed_check"
+                android:id="@+id/pvr_file_system_speed_check"
+                android:layout_width="133dip"
+                android:layout_height="35dip"
+                android:textColor="#ffffff"
+                android:gravity="center" />
+            <TextView
+                android:text="@string/str_pvr_file_system_speed_context"
+                android:id="@+id/pvr_file_system_speed_context"
+                android:layout_width="133dip"
+                android:layout_height="35dip"
+                android:textColor="#ffffff"
+                android:gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:id="@+id/pvr_file_system_always_layout"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_state"
+            android:focusable="true">
+            <TextView
+                android:text="@string/str_pvr_file_system_always_timeshift"
+                android:id="@+id/pvr_file_system_always_timeshift"
+                android:layout_width="133dip"
+                android:layout_height="35dip"
+                android:textColor="#ffffff"
+                android:gravity="center" />
+            <TextView
+                android:text="@string/str_set_on"
+                android:id="@+id/pvr_file_system_always_context"
+                android:layout_width="133dip"
+                android:layout_height="35dip"
+                android:textColor="#ffffff"
+                android:gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="0dip">
+            <ImageView
+                android:layout_height="wrap_content"
+                android:src="@drawable/common_img_ok"
+                android:layout_width="wrap_content" />
+            <TextView
+                android:text="@string/str_pvr_file_system_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="24dip"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="180dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pvr_menu_info_layout"
+        android:layout_height="277dip"
+        android:layout_width="279dip"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="7dip"
+        android:background="@drawable/tv_record_list_r_bg"
+        android:visibility="gone">
+        <TextView
+            android:text="@string/str_pvr_listview_item"
+            android:id="@+id/pvr_menu_info_title"
+            android:layout_width="267dip"
+            android:layout_height="35dip"
+            android:textColor="#ffffff"
+            android:gravity="center" />
+        <TextView
+            android:focusable="true"
+            android:text="@string/str_pvr_listview_item"
+            android:id="@+id/pvr_menu_info_subtitle"
+            android:layout_width="267dip"
+            android:layout_height="35dip"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/programme_epg_selcet" />
+        <ListView
+            android:listSelector="@drawable/button_state"
+            android:layout_height="184dip"
+            android:id="@+id/pvr_menu_info_list_view"
+            android:layout_width="267dip" />
+        <ImageView
+            android:src="@drawable/common_img_ok"
+            android:layout_height="24dip"
+            android:layout_width="41dip" />
+    </LinearLayout>
+</LinearLayout>

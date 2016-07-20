@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.jess.ui.TwoWayGridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/frame_margin_left"
+        android:layout_marginTop="@dimen/gridview_margin_top"
+        app:gravity="center"
+        app:numColumns="auto_fit"
+        app:numRows="3"
+        app:rowHeight="@dimen/gridview_border_heigth"
+        app:columnWidth="@dimen/gridview_border_width"
+        app:verticalSpacing="@dimen/gridview_item_vertical_space"
+        app:horizontalSpacing="@dimen/gridview_item_horizontal_space"
+        app:scrollDirectionLandscape="horizontal"
+        app:scrollDirectionPortrait="horizontal"
+        android:scrollbars="none"
+        app:stretchMode="none" />
+
+</LinearLayout>

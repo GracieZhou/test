@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="punc">
+        <item>\@</item>
+        <item>(</item>
+        <item>)</item>
+        <item>:</item>
+        <item>;</item>
+        <item>\?</item>
+        <item>.</item>
+        <item>_</item>
+        <item>-</item>
+        <item>/</item>
+        <item>\\</item>
+        <item>+</item>
+        <item>,</item>
+        <item>‘</item>
+        <item>’</item>
+        <item>“</item>
+        <item>”</item>
+        <item>!</item>
+        <item>\#</item>
+        <item>%</item>
+        <item>&amp;</item>
+        <item>*</item>
+        <item>=</item>
+    </string-array>
+    <string-array name="internet">
+        <item>http://</item>
+        <item>www.</item>
+        <item>.com</item>
+        <item>.cn</item>
+        <item>.net</item>
+        <item>\@</item>
+        <item>(</item>
+        <item>)</item>
+        <item>:</item>
+        <item>;</item>
+        <item>\?</item>
+        <item>.</item>
+        <item>_</item>
+        <item>-</item>
+        <item>/</item>
+        <item>\\</item>
+        <item>+</item>
+        <item>,</item>
+        <item>‘</item>
+        <item>’</item>
+        <item>“</item>
+        <item>”</item>
+        <item>!</item>
+        <item>\#</item>
+        <item>%</item>
+        <item>&amp;</item>
+        <item>*</item>
+        <item>=</item>
+    </string-array>
+
+</resources>

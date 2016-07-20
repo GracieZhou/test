@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="text_color">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="black_layer">#7f000000</color>
+    <color name="menu_item_bg">#1f212d</color>
+    <color name="QR_text_color">#0721c2</color>
+    <color name="page_item_focus_color">#007dff</color>
+    <color name="web_titile_bg">#1f212d</color>
+</resources>

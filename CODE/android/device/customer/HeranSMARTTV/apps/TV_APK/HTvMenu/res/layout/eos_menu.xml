@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="@dimen/eos_menu_rl_main_width"
+    android:layout_height="@dimen/eos_menu_rl_main_height"
+    android:layout_gravity="center"
+    android:background="@drawable/setting_bg"
+    android:paddingBottom="@dimen/eos_menu_rl_main_padding_bottom" >
+
+    <ImageView
+        android:id="@+id/selector"
+        android:layout_width="@dimen/eos_menu_iv_selector_width"
+        android:layout_height="@dimen/eos_menu_iv_selector_height"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/titles"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <GridView
+            android:id="@+id/titles_gv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/eos_menu_titles_gv_margin_left"
+            android:layout_marginRight="@dimen/eos_menu_titles_gv_margin_right"
+            android:layout_marginTop="@dimen/eos_menu_titles_gv_margin_top"
+            android:listSelector="@drawable/menu_title_focus_selector" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/eos_menu_iv_line_height"
+            android:layout_marginBottom="@dimen/eos_menu_iv_line_margin_bottom"
+            android:layout_marginTop="@dimen/eos_menu_iv_line_margin_top"
+            android:src="@drawable/line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content_setting"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/titles"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal" >
+    </LinearLayout>
+
+</RelativeLayout>

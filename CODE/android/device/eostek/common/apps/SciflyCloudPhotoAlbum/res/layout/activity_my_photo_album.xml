@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/album_title"
+        style="@style/TextCommonTheme"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/album_name"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <GridView
+        android:id="@+id/album_grid"
+        android:layout_width="1150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:cacheColorHint="#00000000"
+        android:focusable="true"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:scrollingCache="false"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" >
+    </GridView>
+
+</LinearLayout>

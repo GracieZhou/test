@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="284dp"
+    android:layout_height="157dp"
+    android:background="@drawable/bg_autostart_dark_list_selector"
+    android:padding="0dp" >
+
+    <ImageView
+        android:id="@+id/iv_switch1"
+        android:layout_width="284dp"
+        android:layout_height="157dp"
+        android:background="@drawable/pic_bg" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_big_file"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center" >
+            
+            <TextView 
+                android:id="@+id/tv_file_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/file_name"
+                android:textColor="#ffffffff"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_toRightOf="@id/tv_file_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="#ffffffff"
+                android:textSize="16sp" 
+                android:paddingRight="15dp"/>
+
+            <TextView
+                android:id="@+id/tv_size"
+                android:layout_below="@id/tv_file_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:singleLine="true"
+                android:textColor="#ffffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cb_big_file"
+        style="@style/CheckBox.Enable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/big_file_checkbox_selector"
+        android:checked="false"
+        android:focusable="false"
+        android:visibility="invisible" >
+    </CheckBox>
+
+</RelativeLayout>

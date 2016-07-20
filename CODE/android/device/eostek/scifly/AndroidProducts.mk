@@ -1,0 +1,3 @@
+
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/I_6A_638.mk

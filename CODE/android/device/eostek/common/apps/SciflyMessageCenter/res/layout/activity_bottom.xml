@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/delete_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/button_focus"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:nextFocusUp="@+id/scrollView"
+            android:nextFocusRight="@+id/block_message"
+            android:orientation="horizontal"
+            android:padding="2dip" >
+
+            <ImageView
+                android:id="@+id/delete_message_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_icon_del" />
+            <!-- android:nextFocusDown="@+id/sender_gridview" -->
+
+            <TextView
+                android:id="@+id/delete_message_tip"
+                style="@style/TextShadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deleteInfo"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/shield_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/button_focus"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="2dip" >
+
+            <ImageView
+                android:id="@+id/shield_message_icon"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:src="@drawable/btn_icon_shield" />
+
+            <TextView
+                android:id="@+id/shield_message_tip"
+                style="@style/TextShadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/blockInfo"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

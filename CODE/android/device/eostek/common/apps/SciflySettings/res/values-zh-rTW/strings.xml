@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">設置</string>
+    <string name="action_settings">設置</string>
+    <string name="network_settings">網路設定</string>
+    <string name="image_sound">影像與聲音</string>
+    <string name="area_time">區域與時間</string>
+    <string name="about">關於</string>
+    <string name="system_settings">系統設置</string>
+    <string name="system_update">系統更新</string>
+    <string name="user_feedback">意見回饋</string>
+    <string name="projector_settings">投影設置</string>
+    <string name="area_time_settings">設置時間與地區</string>
+    <string name="wifi_display_details">Display settings</string>
+    <string name="language_settings">語言設置</string>
+    <string name="inputmethod_settings">輸入法設置</string>
+    <string name="device_name">設備名</string>
+     <string name="device_model">設備型號</string>
+    <string name="device_default_name">系統默認名</string>
+    <string name="disable_input_null">設備名不能爲空,請重新輸入</string>
+    <string name="string_outbound">設備名最多爲20個字符</string>
+    <string name="button_ok">確定</string>
+    <!-- install_location settings -->
+    <string name="install_location">應用安裝位置</string>
+    <string name="install_location_auto">本機存儲空間</string>
+    <string name=" install_location_usb">USB擴充存儲空間</string>
+    <string name="install_location_toast">外接USB存儲裝置僅限FAT32格式</string>
+    <string name="install_location_internal">設備內部存儲</string>
+    <string name="install_location_sdcard">SD卡</string>
+     <!--app white list  -->
+     <string name="app_white_list">應用白名單</string>
+    <!-- screen settings -->
+    <string name="screen_settings">螢幕設定</string>
+    <string name="screen_scale">螢幕縮放</string>
+    <string name="screen_translate">屏幕位移</string>
+    <string name="screen_zoom_title">遙控左右鍵控制縮放比例</string>
+    <string name="screen_position_title">遙控上下左右鍵控制位移</string>
+    <!-- sound settings -->
+    <string name="sound_settings">聲音設置</string>
+    <string name="key_tone">按鍵提示音</string>
+    <string name="notification_tone">通知提示音</string>
+    <!-- bugreport -->
+    <string name="say_your_suggestion">請輸入您的寶貴意見</string>
+    <string name="bugreport_title">意見回饋</string>
+    <string name="shortcut_title">快捷反饋</string>
+    <string name="choose_shortcut_feedback">請選擇快捷反饋</string>
+    <string name="feedback_record">反饋記錄</string>
+    <string name="dealing">處理中</string>
+    <string name="acceptted">已接受</string>
+    <string name="resolved">已解決</string>
+    <string name="thanks">謝謝反饋</string>
+    <string name="published">已發佈</string>
+    <string name="submit">確認</string>
+    <string name="submitted">已提交</string>
+    <string name="bugreport_upload_success">日誌文件上傳成功！</string>
+    <string name="bugreport_upload_failed">上傳日誌文件出錯，並已將日誌文件存儲於/sdcard/syslog/目錄！</string>
+    <string name="bugreport_exception">打包日誌文件出錯!</string>
+    <string name="bugreport_uploading">日誌文件正在上傳中...</string>
+    <string name="bugreport_empty">請您輸入意見後再確認!</string>
+    <string name="network_disconnected">請檢查網路狀態!</string>
+    <string name="bugreport_surplus_char">剩餘字符:</string>
+    <string name="bugreport_limit">輸入字符達到限制！</string>
+
+    <!-- connectivity -->
+    <string name="network_setting">網路設定</string>
+    <string name="ethernet_setting">有線設置</string>
+    <string name="wireless_setting">無線設置</string>
+    <string name="network_diag">網路檢測</string>
+    <string name="next"> > </string>
+    <string name="network_connection">網路檢測</string>
+    <string name="download_speed">系統測速</string>
+    <string name="time_sync">網路對時</string>
+    <string name="begin_diag">開始檢測</string>
+    <string name="static_info">靜態信息</string>
+    <string name="error_detail">錯誤詳情</string>
+    <string name="network_return">返回</string>
+    <string name="localhost">本地主機</string>
+    <string name="gateway">通訊閘道</string>
+    <string name="center_network">中心網路</string>
+    <string name="time_server">時間服務器</string>
+    <string name="show_static_info">靜態信息顯示</string>
+    <string name="point"> ● </string>
+    <string name="access_way">接入方式</string>
+    <string name="IP_address">IP地址</string>
+    <string name="gateway_address">通訊閘道地址</string>
+    <string name="error_code">錯誤碼</string>
+    <string name="error_description">錯誤描述</string>
+    <string name="connection_normal">網路連接正常</string>
+    <string name="connection_fail">網路連接出現問題</string>
+    <string name="colon">：</string>
+    <string name="begin_download_speed">開始測速</string>
+    <string name="fail_obtain_time">從時間服務器獲取時間失敗</string>
+    <string name="fail_download_speed">測速失敗</string>
+    <string name="system_time">系統時間</string>
+    <string name="network_time">網路時間</string>
+    <string name="NTP_Server">時間服務器</string>
+    <string name="begin_time_sync">開始對時</string>
+    <string name="download_speeding">正在測速……</string>
+    <string name="obtain_time">正在從時間服務器獲取網路時間……</string>
+    <string name="max_download_speed">最大下載速度</string>
+    <string name="min_download_speed">最小下載速度</string>
+    <string name="average_download_speed">平均下載速度</string>
+    <string name="time_sync_success">對時成功</string>
+    <string name="description">picture</string>
+    <string name="local_network_conn_error">本地網路連接出現異常</string>
+    <string name="center_network_error">網路連接出現異常，無法到達中心網路</string>
+    <string name="server_error">網路連接出現異常，無法到達時間服務器</string>
+    <string name="gateway_error">通訊閘道異常</string>
+    <string name="download_speed_complete">測速完成! </string>
+    <string name="date_format">yyyy年MM月dd日 EEE HH:mm</string>
+    <string name="old_week">週</string>
+    <string name="new_week">星期</string>
+    <string name="connect_network">請先連接網路</string>
+    
+    <!-- Udisk Upgrade Begin -->
+    <string name="fail">升級失敗</string>
+    <string name="cancel">取消</string>
+    <string name="exit">退出</string>
+    <string name="retry">重試</string>
+    <string name="success">升級成功</string>
+    <string name="bootVideo">開機視頻</string>
+    <string name="bootAnim">開機動畫</string>
+    <string name="bootVideoFail">開機視頻升級失敗</string>
+    <string name="bootAnimFail">開機動畫升級失敗</string>
+    <string name="launcherFail">Launcher升級失敗</string>
+    <string name="upgrade">升級</string>
+    <string name="checkUpdateFile">檢測到升級文件</string>
+    <string name="animUpgrading">開機動畫升級中</string>
+    <string name="videoUpgrading">開機視頻升級中</string>
+    <string name="lancherUpgrading">Launcher升級中</string>
+    <!-- Udisk Upgrade End -->
+
+    <!-- master clear -->
+    <string name="master_clear_title">恢復原廠設定</string>
+    <string name="master_clearing_title">正在恢復原廠設定</string>
+    <string name="button_yes">確認</string>
+    <string name="button_no">取消</string>
+    <string name="system_recovery">系統恢復</string>
+    <string name="erase_all_data">清除所有資料</string>
+    <string name="erase_data_going" >正在清除資料&#8230;</string>
+
+    <!-- update -->
+    <string name="version_checking">正在檢查&#8230;</string>
+    <string name="recovery">恢復原廠設定</string>
+    <string name="sdcard_lable">sd卡</string>
+    <string name="mobile_stoarge_device">存儲裝置</string>
+    <string name="system_local_update">系統本地升級</string>
+    <string name="check_directry">請檢查您的移動設備上的文件名是否爲: update_signed. Zip</string>
+    <string name="no_update_file">沒有最新的系統鏡像文件在您的移動設備上。</string>
+    <string name="select_updatezip">請選擇升級包：</string>
+    <string name="check_updatezip">發現升級包，是否更新 ?</string>
+    <string name="new_version">最新版本：</string>
+    <string name="update_list">版本更新：</string>
+    <string name="download">下載</string>
+    <string name="latest">當前系統已是最新版，暫時不需要升級！</string>
+    <string name="download_error">下載的過程中出現錯誤，請重新下載</string>
+    <string name="redownload">重新下載</string>
+    <string name="check_failure">安装过程中出现错误，请更换更新包。</string>
+    <string name="updated">请重新启动TV，更新程序会在重启后继续......</string>
+    <string name="check_success">校驗成功。</string>
+    <string name="check_version_fail">"從服務器獲取升級包版本號異常，無法正常升級!"</string>
+    <string name="update_disconnect_wifi">"請檢查網路是否已經連接！"</string>
+    <string name="system_net_update">系統網路升級</string>
+    <string name="current_version">當前版本：</string>
+    <string name="checking_cache">檢查存儲空間......</string>
+    <string name="cache_success">有足夠存儲空間</string>
+    <string name="download_ing">正在下載</string>
+    <!-- for ntfs disk begin-->
+    <string name="ntfs_unsupported">本地升級不支持NTFS格式的裝置，請確認OTA包是放在FAT32格式的裝置</string>
+    <!-- for ntfs disk end-->
+    <string name="sdcard">正在檢測移動設備......</string>
+    <string name="downloading">正在下載新版本......</string>
+    <string name="check_package">正在校驗更新包...... </string>
+    <string name="sdcard_success">移動設備可以正常使用</string>
+    <string name="check_new_version">正在檢查新版本......</string>
+    <string name="downloaded">下載完成</string>
+    <string name="to_update">馬上升級？</string>
+    <string name="update">升級</string>
+    <string name="download_err">下載的過程中出現錯誤，請重新下載</string>
+    <string name="sdcard_insert">檢測到移動設備插入</string>
+    <string name="sdcard_remove">檢測到移動設備移除或出現異常 </string>
+    <string name="download_update_fail">網路下載升級包異常，無法下載升級包！</string>
+    <string name="progress">進度：</string>
+    <string name="update_settings">系統升級</string>
+    <string name="update_by_net">網路升級</string>
+    <string name="update_packages_download">正在進行更新包的下載</string>
+    <string name="not_network">沒有連接網路，不能進行網路升級！</string>
+    <string name="update_size">升級包大小:</string>
+    <string name="update_wait_load">"沒有檢測到最新版本！"</string>
+    <string name="update_count_down">系統將在  <xliff:g id="timeout">%1$d</xliff:g> 秒后自动重启.</string>
+    <string name="update_summary">系統升級將在重啟后繼續進行</string>
+    <string name="reboot_now">立即重啟</string>
+    <string name="reboot_later">稍後手動重啟</string>
+    <string name="version_tips">系統已成功升級到%1$版本。</string>
+    <string name="network_bad">网络故障,下载出现问题.</string>
+    <string name="no_new_version_available">未檢測到新版本</string>
+    <string name="close">關     閉</string>
+    <string name="system_net_update_toast">升級將在後台進行，進入設置->網路升級界面查看進度</string>
+    <string name="verify_package_failed_toast">驗證升級包失敗，請重新下載!</string>
+    <string name="system_reset_wait">系統正在重置,請稍候 ...</string>
+    <string name="new_version_found">發現最新系統版本！</string>
+    <string name="no_enough_storage">存儲空間不足！</string>
+    <string name="no_sdcard">未檢測到移動設備。</string>
+    <string name="sdcard_full_for_ota">SD卡空間不足！自動切換下載引擎為HTTP ...</string>
+    <string name="verify_md5">校驗升級包MD5失敗！</string>
+    <!-- network -->
+    <string name="wifi_setting">無線設置</string>
+    <string name="connectivity_check">網路檢測</string>
+    <string name="blue_tooth">藍牙</string>
+    <string name="unassigned">無</string>
+
+    <!-- ethernet -->
+    <string name="ethernet_default_address">0.0.0.0</string>
+    <string name="ethernet_disabled">未連接</string>
+    <string name="ethernet_enabled">已連接</string>
+
+    <!-- wifi -->
+    <string name="screen_display">投屏顯示</string>
+    <string name="wlan_close">CLOSE</string>
+    <string name="help">更多幫助</string>
+    <string name="mircast_id">Mcast ID</string>
+    <string name="open_wlan">啓用熱點</string>
+    <string name="network_ssid">網路SSID</string>
+    <string name="password_too_short">密碼不得少於８位</string>
+    <string name="screen_display_help">投屏顯示幫助</string>
+    <string name="connecting">當前wifi未打開，如果想要使用Mcast,請先退出打開wifi</string>
+    <string name="waiting">等待操作</string>
+    <string name="connected">您可以連接到此設備</string>
+    <string name="screendisplay_wifi_massage">wifi未開啓，是否立即開啓？</string>
+    <string name="help_information_1">1.不同的手機投屏顯示名稱不同。一般在手機的"網路設定"中，名爲"多屏互動"、"無線顯示"、"Screen Mirroring"或"WLAN直連"等</string>
+    <string name="help_information_2">2.如果鏈接失敗或者找不到設備,可能您的手機不支持投屏顯示功能。</string>
+    <string name="wlan">WLAN個人熱點</string>
+    <string name="wifi_configured">已配置</string>
+    <string name="wifi_invliad_subnet_mask">無效的子網掩碼，請檢查! </string>
+    <string name="wifi_dns_hint">8.8.8.8</string>
+    <string name="wifi_dns">DNS</string>
+    <string name="wifi_mask_hint">255.255.255.0</string>
+    <string name="wifi_mask">子網掩碼</string>
+    <string name="wifi_button_connect">連接</string>
+    <string name="wifi_button_ok">確定</string>
+    <string name="wifi_button_cancle">取消</string>
+    <string name="wifi_link_property_title">主題</string>
+    <string name="wifi_link_property_content">內容</string>
+    <string name="wifi_link_property_auto">自動</string>
+    <string name="wifi_link_property_manual">手動</string>
+    <string name="wifi_link_property_ip_get">IP獲取方式</string>
+    <string name="wifi_failue_out_of_range">該熱點不在範圍內!</string>
+    <string name="wifi_failue_password_check_again">請檢查您輸入的密碼的正確性!</string>
+    <string name="wifi_failue_dhcp_check_again">請檢查該熱點的DHCP和DNS設置! </string>
+    <string name="wifi_failue_unkonwn_reason">無法連接到該熱點! </string>
+    <string name="wifi_already_connect_tip">已連接該熱點，按右鍵進行配置!</string>
+    <string name="wifi_already_saved_tip">嘗試連接已保存的熱點！</string>
+    <string name="wifi_linkproperty_error">連接配置有誤，請檢查!</string>
+    <string name="wifi_enabled">Wi-Fi 已經打開, 點擊可以關閉它</string>
+    <string name="wifi_disabled">Wi-Fi 已經關閉, 點擊可以打開它</string>
+    <string name="wifi_password_input">輸入密碼</string>
+    <string name="wifi_add">添加</string>
+    <string name="add_wifi_manually">手動網路添加</string>
+    <string name="wifi_display_settings_title" msgid="2925465988657380522">"投放螢幕"</string>
+    <string name="wifi_display_enable_menu_item" msgid="4883036464138167674">"啟用無線螢幕分享"</string>
+    <string name="wifi_display_no_devices_found" msgid="1382012407154143453">"找不到附近的裝置。"</string>
+    <string name="wifi_display_status_connecting" msgid="5688608834000748607">"連線中"</string>
+    <string name="wifi_display_status_connected" msgid="8364125226376985558">"已連線"</string>
+    <string name="wifi_display_status_in_use" msgid="8556830875615434792">"正在使用中"</string>
+    <string name="wifi_display_status_not_available" msgid="5714978725794210102">"不明"</string>
+    <string name="wifi_display_options_title" msgid="5740656401635054838">"無線螢幕分享選項"</string>
+    <string name="wifi_display_options_forget" msgid="9119048225398894580">"刪除"</string>
+    <string name="wifi_display_options_done" msgid="5703116500357822557">"完成"</string>
+    <string name="wifi_display_options_name" msgid="4756080222307467898">"名稱"</string>
+    <string name="nfc_quick_toggle_title" msgid="6769159366307299004">"NFC"</string>
+    <string name="nfc_quick_toggle_summary" msgid="8302974395787498915" product="tablet">"允許平板電腦在與其他裝置接觸時交換資料"</string>
+    <string name="nfc_quick_toggle_summary" msgid="5237208142892767592" product="default">"允許手機與其他裝置接觸時交換資料"</string>
+    <string name="android_beam_settings_title" msgid="7832812974600338649">"Android Beam"</string>
+    <string name="android_beam_on_summary" msgid="3618057099355636830">"準備就緒，可透過 NFC 傳輸應用程式內容"</string>
+    <string name="android_beam_off_summary" msgid="4663095428454779138">"關閉"</string>
+    <string name="android_beam_disabled_summary" msgid="1737782116894793393">"NFC 已關閉，因此無法使用"</string>
+    <string name="android_beam_label" msgid="6257036050366775040">"Android Beam"</string>
+    <string name="android_beam_explained" msgid="6981652347448777459">"這項功能啟用時，您只要將裝置靠在一起，即可讓應用程式內容傳輸至其他支援 NFC 的裝置。例如，您可以傳輸瀏覽器頁面、YouTube 影片、使用者聯絡人等內容。\n\n只要將裝置靠在一起 (一般都是背靠背)，然後輕觸螢幕，接著應用程式會決定要傳輸哪些內容。"</string>
+    <string name="nsd_quick_toggle_title" msgid="3125572815278848258">"網路服務搜尋"</string>
+    <string name="nsd_quick_toggle_summary" msgid="155692215972781276">"允許其他裝置上的應用程式搜尋這個裝置上的應用程式"</string>
+    <string name="wifi_quick_toggle_title" msgid="8850161330437693895">"Wi‑Fi"</string>
+    <string name="wifi_quick_toggle_summary" msgid="2696547080481267642">"開啟 Wi-Fi"</string>
+    <string name="wifi_settings" msgid="29722149822540994">"無線設置"</string>
+    <string name="wifi_settings_category" msgid="8719175790520448014">"Wi-Fi 設定"</string>
+    <string name="wifi_settings_title" msgid="3103415012485692233">"Wi‑Fi"</string>
+    <string name="wifi_settings_summary" msgid="668767638556052820">"設定、管理無線網路存取點"</string>
+    <string name="wifi_setup_wizard_title" msgid="8242230950011819054">"選取 Wi-Fi"</string>
+    <string name="wifi_starting" msgid="6732377932749942954">"正在開啟 Wi-Fi…"</string>
+    <string name="wifi_stopping" msgid="8952524572499500804">"正在關閉 Wi-Fi…"</string>
+    <string name="wifi_error" msgid="3207971103917128179">"錯誤"</string>
+    <string name="wifi_in_airplane_mode" msgid="8652520421778203796">"處於飛行模式時"</string>
+    <string name="wifi_fail_to_scan" msgid="1265540342578081461">"無法掃描網路"</string>
+    <string name="wifi_notify_open_networks" msgid="3755768188029653293">"網路通知"</string>
+    <string name="wifi_notify_open_networks_summary" msgid="3038290727701553612">"有開放網路時通知我"</string>
+    <string name="wifi_poor_network_detection" msgid="4925789238170207169">"避開品質不佳的連線"</string>
+    <string name="wifi_poor_network_detection_summary" msgid="7843672905900544785">"除非 Wi-Fi 網路連線狀態良好，否則不使用"</string>
+    <string name="wifi_scan_always_available" msgid="3470564139944368030">"一律執行掃描"</string>
+    <string name="wifi_scan_always_available_summary" msgid="7768204638882691453">"允許 Google 的定位服務和其他應用程式掃描網路 (即使 Wi-Fi 已關閉)"</string>
+    <string name="wifi_install_credentials" msgid="3551143317298272860">"安裝憑證"</string>
+    <string name="wifi_scan_notify_text_location_on" msgid="8135076005488914200">"為了提升定位精確度及用於其他用途，Google 和其他應用程式可能會掃描附近的 Wi-Fi 網路 (即使 Wi-Fi 連線功能已關閉)。如果您不想授予這項權限，可隨時前往 [進階] &gt; [掃描] 變更設定。"</string>
+    <string name="wifi_scan_notify_text_location_off" msgid="6323983741393280935">"應用程式可能會掃描附近的網路 (即使 Wi-Fi 連線功能已關閉)。如果您不想授予這項權限，可隨時前往 [進階] &gt; [掃描] 變更設定。"</string>
+    <string name="wifi_scan_notify_remember_choice" msgid="5340097010842405981">"不要再顯示"</string>
+    <string name="wifi_setting_sleep_policy_title" msgid="5149574280392680092">"休眠狀態仍保持 Wi-Fi 連線"</string>
+    <string name="wifi_setting_sleep_policy_error" msgid="8174902072673071961">"變更設定時發生問題"</string>
+    <string name="wifi_suspend_optimizations" msgid="1220174276403689487">"Wi-Fi 最佳化"</string>
+    <string name="wifi_suspend_optimizations_summary" msgid="4151428966089116856">"開啟 Wi-Fi 時儘可能節約電池用量"</string>
+    <string name="wifi_add_network" msgid="6234851776910938957">"新增網路"</string>
+    <string name="wifi_access_points" msgid="7053990007031968609">"Wi-Fi 網路"</string>
+    <string name="wifi_menu_wps_pbc" msgid="2668564692207863017">"WPS 按鈕"</string>
+    <string name="wifi_menu_more_options" msgid="2448097861752719396">"更多選項"</string>
+    <string name="wifi_menu_wps_pin" msgid="6426448256268695933">"輸入 WPS 個人識別碼"</string>
+    <string name="wifi_menu_p2p" msgid="7619851399250896797">"Wi-Fi Direct"</string>
+    <string name="wifi_menu_scan" msgid="1470911530412095868">"掃描"</string>
+    <string name="wifi_menu_advanced" msgid="7522252991919573664">"進階"</string>
+    <string name="wifi_menu_connect" msgid="4996220309848349408">"連線至網路"</string>
+    <string name="wifi_menu_forget" msgid="8736964302477327114">"清除網路"</string>
+    <string name="wifi_menu_modify" msgid="2068554918652440105">"修改網路"</string>
+    <string name="wifi_empty_list_wifi_off" msgid="8056223875951079463">"如要查看可用的網路，請開啟 Wi-Fi。"</string>
+    <string name="wifi_empty_list_wifi_on" msgid="8746108031587976356">"正在搜尋 Wi-Fi 網路…"</string>
+    <string name="wifi_empty_list_user_restricted" msgid="8280257225419947565">"您沒有變更 Wi-Fi 網路的權限。"</string>
+    <string name="wifi_other_network" msgid="1048006316504242214">"其他網路…"</string>
+    <string name="wifi_more" msgid="3195296805089107950">"更多"</string>
+    <string name="wifi_setup_wps" msgid="8128702488486283957">"自動設定 (WPS)"</string>
+    <string name="wifi_required_info_text" msgid="4080969509965288881">"您的平板電腦必須連上 Wi-Fi 網路才能完成設定。設定完成後，您可以切換使用行動數據網路或 Wi-Fi 網路。"</string>
+    <string name="wifi_show_advanced" msgid="1793703023711426246">"顯示進階選項"</string>
+    <string name="wifi_wps_setup_title" msgid="8207552222481570175">"Wi-Fi 保護設定"</string>
+    <string name="wifi_wps_setup_msg" msgid="315174329121275092">"正在啟動 WPS…"</string>
+    <string name="wifi_wps_onstart_pbc" msgid="5940801028985255304">"請按路由器上的 Wi-Fi 保護設定按鈕，該按鈕可能標示為「WPS」或含有這個符號："</string>
+    <string name="wifi_wps_onstart_pin" msgid="223344506445335358">"請在 Wi-Fi 路由器上輸入 PIN 碼：<xliff:g id="NUMBER">%1$s</xliff:g>。最多需要兩分鐘才能完成設定。"</string>
+    <string name="wifi_wps_complete" msgid="2388138550456729134">"WPS 成功，正在連線至網路…"</string>
+    <string name="wifi_wps_connected" msgid="7153432445748931183">"已連線至 Wi-Fi 網路 <xliff:g id="NETWORK_NAME">%s</xliff:g>"</string>
+    <string name="wifi_wps_in_progress" msgid="3372311348221357944">"WPS 已開始執行，最多需要兩分鐘才能完成。"</string>
+    <string name="wifi_wps_failed_generic" msgid="5668775022238832527">"WPS 無法成功啟動，請過幾分鐘後再試一次。"</string>
+    <string name="wifi_wps_failed_wep" msgid="2702820087105284461">"不支援無線路由器安全性設定 (WEP)"</string>
+    <string name="wifi_wps_failed_tkip" msgid="4282401586860713349">"不支援無線路由器安全性設定 (TKIP)"</string>
+    <string name="wifi_wps_failed_auth" msgid="1174614355181181958">"驗證失敗，請再試一次。"</string>
+    <string name="wifi_wps_failed_overlap" msgid="5159533685596844778">"偵測到另一個 WPS 工作階段，請稍候再試。"</string>
+    <string name="wifi_ssid" msgid="641393708309146745">"網路 SSID"</string>
+    <string name="wifi_ssid_hint" msgid="897593601067321355">"輸入 SSID"</string>
+    <string name="wifi_security" msgid="6603611185592956936">"安全性"</string>
+    <string name="wifi_signal" msgid="5514120261628065287">"訊號強度"</string>
+    <string name="wifi_status" msgid="4824568012414605414">"狀態"</string>
+    <string name="wifi_speed" msgid="3526198708812322037">"連線速度"</string>
+    <string name="wifi_ip_address" msgid="1440054061044402918">"IP 位址"</string>
+    <string name="wifi_eap_method" msgid="8529436133640730382">"EAP 方法"</string>
+    <string name="please_select_phase2" msgid="5231074529772044898">"階段 2 驗證"</string>
+    <string name="wifi_eap_ca_cert" msgid="3521574865488892851">"CA 憑證"</string>
+    <string name="wifi_eap_user_cert" msgid="1291089413368160789">"使用者憑證"</string>
+    <string name="wifi_eap_identity" msgid="4359453783379679103">"身分"</string>
+    <string name="wifi_eap_anonymous" msgid="2989469344116577955">"匿名身分"</string>
+    <string name="wifi_password" msgid="5948219759936151048">"密碼"</string>
+    <string name="wifi_show_password" msgid="6461249871236968884">"顯示密碼"</string>
+    <string name="wifi_ip_settings" msgid="3359331401377059481">"IP 設定"</string>
+    <string name="wifi_unchanged" msgid="3410422020930397102">"(未變更)"</string>
+    <string name="wifi_unspecified" msgid="5431501214192991253">"(未指定)"</string>
+    <string name="wifi_remembered" msgid="4955746899347821096">"已儲存"</string>
+    <string name="wifi_disabled_generic" msgid="4259794910584943386">"已停用"</string>
+    <string name="wifi_disabled_network_failure" msgid="3111321240793227690">"已避開品質不佳的網際網路連線"</string>
+    <string name="wifi_disabled_password_failure" msgid="8659805351763133575">"驗證問題"</string>
+    <string name="wifi_not_in_range" msgid="1136191511238508967">"不在有效範圍內"</string>
+    <string name="wifi_wps_available_first_item" msgid="4422547079984583502">"可使用 WPS"</string>
+    <string name="wifi_wps_available_second_item" msgid="8427520131718215301">" (可使用 WPS)"</string>
+    <string name="wifi_secured_first_item" msgid="4072076186051083451">"透過 <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g> 加密保護"</string>
+    <string name="wifi_secured_second_item" msgid="1326000076939056265">"，透過 <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g> 加密保護"</string>
+    <string name="wifi_security_none" msgid="7985461072596594400">"無"</string>
+    <string name="wifi_scan_always_turnon_message" msgid="203123538572122989">"<xliff:g id="APP_NAME">%1$s</xliff:g> 要求開啟網路掃描功能 (即使 Wi-Fi 已關閉)，藉此提升定位精確度及用於其他用途。\n\n您要對所有需要執行掃描的應用程式允許這項要求嗎？"</string>
+    <string name="wifi_scan_always_confirm_allow" msgid="5355973075896817232">"允許"</string>
+    <string name="wifi_scan_always_confirm_deny" msgid="4463982053823520710">"拒絕"</string>
+    <string name="wifi_connect" msgid="1076622875777072845">"連線"</string>
+    <string name="wifi_failed_connect_message" msgid="8491902558970292871">"無法連線至網路"</string>
+    <string name="wifi_forget" msgid="8168174695608386644">"清除"</string>
+    <string name="wifi_failed_forget_message" msgid="1348172929201654986">"無法刪除網路"</string>
+    <string name="wifi_save" msgid="3331121567988522826">"儲存"</string>
+    <string name="wifi_failed_save_message" msgid="6650004874143815692">"無法儲存網路"</string>
+    <string name="wifi_cancel" msgid="6763568902542968964">"取消"</string>
+    <string name="wifi_skip_anyway" msgid="6965361454438011190">"略過"</string>
+    <string name="wifi_dont_skip" msgid="7350341524881124808">"不要略過"</string>
+    <string name="wifi_skipped_message" msgid="3335132188969450252" product="tablet">"警告：您可能需支付額外的數據傳輸費用。\n\n平板電腦設定程序可能需要佔用大量網路流量。"</string>
+    <string name="wifi_skipped_message" msgid="1192848364146401759" product="default">"警告：您可能需支付額外的數據傳輸費用。\n\n手機設定程序可能需要佔用大量網路流量。"</string>
+    <string name="wifi_and_mobile_skipped_message" msgid="6161024589991810940" product="tablet">"警告：連上網際網路後，平板電腦才能驗證您所使用的軟體是否為最新版本。"</string>
+    <string name="wifi_and_mobile_skipped_message" msgid="3773473163264984767" product="default">"警告：連上網際網路後，手機才能驗證您所使用的軟體是否為最新版本。"</string>
+    <string name="wifi_connect_failed_message" msgid="4474691090681670156" product="tablet">"您的平板電腦無法連線至這個 Wi-Fi 網路。"</string>
+    <string name="wifi_connect_failed_message" msgid="2185803140161396572" product="default">"您的手機無法連線至這個 Wi-Fi 網路。"</string>
+    <string name="wifi_advanced_titlebar" msgid="4485841401774142908">"進階 Wi-Fi"</string>
+    <string name="wifi_setting_frequency_band_title" msgid="3655327399028584656">"Wi-Fi 頻帶"</string>
+    <string name="wifi_setting_frequency_band_summary" msgid="3250740757118009784">"指定作業的頻率範圍"</string>
+    <string name="wifi_setting_frequency_band_error" msgid="837281974489794378">"設定頻帶時發生問題。"</string>
+    <string name="wifi_advanced_mac_address_title" msgid="6571335466330978393">"MAC 位址"</string>
+    <string name="wifi_advanced_ip_address_title" msgid="6215297094363164846">"IP 位址"</string>
+    <string name="wifi_advanced_settings_label" msgid="3654366894867838338">"IP 設定"</string>
+    <string name="wifi_ip_settings_menu_save" msgid="7296724066102908366">"儲存"</string>
+    <string name="wifi_ip_settings_menu_cancel" msgid="6582567330136502340">"取消"</string>
+    <string name="wifi_ip_settings_invalid_ip_address" msgid="2513142355364274970">"請輸入有效的 IP 位址。"</string>
+    <string name="wifi_ip_settings_invalid_gateway" msgid="8164264988361096450">"輸入有效的閘道位址。"</string>
+    <string name="wifi_ip_settings_invalid_dns" msgid="8744583948328391047">"請輸入有效的 DNS 位址。"</string>
+    <string name="wifi_ip_settings_invalid_network_prefix_length" msgid="40470058023181052">"輸入長度介於 0 到 32 之間的網路前置碼。"</string>
+    <string name="wifi_dns1" msgid="7344118050720080045">"DNS 1"</string>
+    <string name="wifi_dns2" msgid="1368601006824882659">"DNS 2"</string>
+    <string name="wifi_gateway" msgid="163914742461092086">"閘道"</string>
+    <string name="wifi_network_prefix_length" msgid="3028785234245085998">"網路前置碼長度"</string>
+    <string name="wifi_p2p_settings_title" msgid="5444461191435291082">"Wi-Fi Direct"</string>
+    <string name="wifi_p2p_device_info" msgid="3191876744469364173">"裝置資訊"</string>
+    <string name="wifi_p2p_persist_network" msgid="1646424791818168590">"記住這個連線"</string>
+    <string name="wifi_p2p_menu_search" msgid="3436429984738771974">"搜尋裝置"</string>
+    <string name="wifi_p2p_menu_searching" msgid="2396704492143633876">"搜尋中…"</string>
+    <string name="wifi_p2p_menu_rename" msgid="8448896306960060415">"重新命名裝置"</string>
+    <string name="wifi_p2p_peer_devices" msgid="299526878463303432">"對端裝置"</string>
+    <string name="wifi_p2p_remembered_groups" msgid="3847022927914068230">"已記住的群組"</string>
+    <string name="wifi_p2p_failed_connect_message" msgid="8921447388048243547">"無法連線。"</string>
+    <string name="wifi_p2p_failed_rename_message" msgid="2562182284946936380">"無法重新命名裝置。"</string>
+    <string name="wifi_p2p_disconnect_title" msgid="3216846049677448420">"中斷連線？"</string>
+    <string name="wifi_p2p_disconnect_message" msgid="8227342771610125771">"如果您中斷連線，即會結束您與「<xliff:g id="PEER_NAME">%1$s</xliff:g>」的連線。"</string>
+    <string name="wifi_p2p_disconnect_multiple_message" msgid="3283805371034883105">"如果您中斷連線，即會結束您與「<xliff:g id="PEER_NAME">%1$s</xliff:g>」和其他 <xliff:g id="PEER_COUNT">%2$s</xliff:g> 個裝置的連線。"</string>
+    <string name="wifi_p2p_cancel_connect_title" msgid="255267538099324413">"取消邀請？"</string>
+    <string name="wifi_p2p_cancel_connect_message" msgid="7477756213423749402">"您要取消 <xliff:g id="PEER_NAME">%1$s</xliff:g> 的連線邀請？"</string>
+    <string name="wifi_p2p_delete_group_message" msgid="834559380069647086">"刪除這個群組？"</string>
+    <string name="wifi_tether_checkbox_text" msgid="1847167643625779136">"可攜式 Wi-Fi 無線基地台"</string>
+    <string name="wifi_tether_starting" msgid="1322237938998639724">"正在開啟無線基地台…"</string>
+    <string name="wifi_tether_stopping" msgid="4835852171686388107">"正在關閉無線基地台…"</string>
+    <string name="wifi_tether_enabled_subtext" msgid="8948641212931906143">"可攜式無線基地台 <xliff:g id="NETWORK_SSID">%1$s</xliff:g> 已啟用"</string>
+    <string name="wifi_tether_failed_subtext" msgid="1484941858530919002">"可攜式 Wi-Fi 無線基地台發生錯誤"</string>
+    <string name="wifi_tether_configure_ap_text" msgid="7974681394041609308">"設定 Wi-Fi 無線基地台"</string>
+    <string name="wifi_tether_configure_subtext" msgid="7957547035983257748">"<xliff:g id="NETWORK_SSID">%1$s</xliff:g><xliff:g id="NETWORK_SECURITY">%2$s</xliff:g> 可攜式 Wi-Fi 無線基地台"</string>
+    <string name="wifi_tether_configure_ssid_default" msgid="8467525402622138547">"Android 無線基地台"</string>
+    <string name="ethernet_toast">無線設置已開啓，如需啓動有線，請先關閉無線設置</string>
+    <!-- date and time -->
+    <string name="morning"> 上午</string>
+    <string name="afternoon"> 下午</string>
+    <string name="network_correct_time">網路對時</string>
+    <string name="is24_hour">使用24小時格式</string>
+    <string name="manual_set_date">手動設置日期</string>
+    <string name="manual_set_time">手動設置時間</string>
+    <string name="set_time_zone">時區設置</string>
+    <string name="set_city">城市設置</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+
+ 
+    <string name="setting">設置</string>
+    <string name="timezone">時區</string>
+    <string name="current_city">當前城市</string>
+    <string name="search_city">城市搜索</string>
+    <string name="timezone_example">GMT+8:00  中國標準時間</string>
+    <string name="delete">刪除</string>
+    <string name="clear">清空</string>
+       <string name="example_one">輸入中文，如＂台北＂</string>
+   <string name="example_two">輸入拼音，如＂taibei＂</string>
+    <string name="example_three"> 輸入英文,＂taibei＂</string>
+    <string name="date_formate">yyyy.MM.dd    HH:mm</string>
+    <string name="correct_time_fail">對時失敗，請重新對時。</string>
+    <string name="correct_time_success">對時成功！</string>
+    <string name="title_symbol">></string>
+     <string name="bluetooth">藍牙</string>
+    <string name="ntpserver_china">1.cn.pool.ntp.org</string>
+    <string name="ntpserver_taiwan">1.tw.pool.ntp.org</string>
+    <string name="ntpserver_american">time.nist.gov</string>
+    <string name="server">選擇服務器</string>
+    <string name="auto_gain">自動獲取</string>
+    <string name="search">搜索</string>
+    <string name="input_prompt">輸入提示</string>
+    <string  name="country">中國</string>
+    <string  name="example_city">臺北</string>
+    <string  name="example_city_for_826">上海</string>
+    <string name="city">市</string>
+     <string name="taicity">县</string>
+    <string name="failed_find_city">沒有根據你所輸入的關鍵字搜索到對應的城市列表，請重新輸入。</string>
+    <string name="device_memory">擴展分區</string>
+     <string name="system_usage">系統</string>
+     <string name="extension_memory_available">背景服務</string>
+     
+     <!-- Storage settings screen title -->
+    <string name="choose_mount" msgid="6629067715017232195">"卸载-装载"</string>
+    <string name="clear_data" msgid="6629067715017232195">"格式化"</string>
+    <string name="storage_settings_title" msgid="8746016738388094064">"儲存設定"</string>
+    <string name="dlg_confirm_unmount_text" msgid="4322636662873269018" product="nosdcard">"如果您將 USB 儲存裝置退出，則某些正在使用中的應用程式會停止運作，而且可能無法使用，直到重新插入 USB 儲存裝置之後才會恢復正常。"</string>
+    <string name="dlg_confirm_unmount_text" msgid="6998379994779187692" product="default">"如果您將 SD 卡退出，則某些正在使用中的應用程式會停止運作，而且可能無法使用，直到重新插入 SD 卡之後才會恢復正常。"</string>
+    <!-- Section header above list of other users storage [CHAR LIMIT=32] -->
+    <string name="storage_other_users" msgid="808708845102611856">"其他使用者"</string>
+    <!-- [CHAR LIMIT=15] Manage applications, label for chart showing internal storage use. -->
+    <string name="internal_storage" msgid="1584700623164275282">"系統存儲"</string>
+    <!-- SD card & phone storage settings screen heading. This is displayed above items that pertain to the phone's internal storage -->
+        <string name="memory_available" msgid="5052397223077021181">"可用空間"</string>
+    <string name="memory_available_read_only" msgid="6497534390167920206">"可用空間 (唯讀)"</string>
+    <string name="memory_size" msgid="6629067715017232195">"總空間"</string>
+    <string name="memory_calculating_size" msgid="2188358544203768588">"計算中…"</string>
+    <string name="memory_apps_usage" msgid="2348501997988663688">"應用程式 (相關資料和媒體內容)"</string>
+    <string name="memory_media_usage" msgid="3738830697707880405">"媒體"</string>
+    <string name="memory_downloads_usage" msgid="3755173051677533027">"下載"</string>
+    <string name="memory_dcim_usage" msgid="558887013613822577">"圖片、影片"</string>
+    <string name="memory_music_usage" msgid="1363785144783011606">"音訊 (音樂、鈴聲、Podcast 等)"</string>
+    <string name="memory_media_misc_usage" msgid="235452944021647124">"其他"</string>
+    <string name="memory_media_cache_usage" msgid="6704293333141177910">"快取資料"</string>
+    <string name="sd_eject" msgid="4988563376492400073" product="nosdcard">"卸載共用儲存裝置"</string>
+    <string name="sd_eject" msgid="6915293408836853020" product="default">"卸載 SD 卡"</string>
+    <string name="sd_eject_summary" msgid="5009296896648072891" product="nosdcard">"卸載內部 USB 儲存裝置"</string>
+    <string name="sd_eject_summary" msgid="3300599435073550246" product="default">"請先卸載 SD 卡，才能將其安全移除"</string>
+    <string name="sd_insert_summary" msgid="5264016886409577313" product="nosdcard">"插入用於掛接的 USB 儲存裝置"</string>
+    <string name="sd_insert_summary" msgid="2048640010381803841" product="default">"插入要掛載的 SD 卡"</string>
+    <string name="sd_mount" msgid="8966695015677343116" product="nosdcard">"掛接 USB 儲存裝置"</string>
+    <string name="sd_mount" msgid="5940523765187704135" product="default">"掛載 SD 卡"</string>
+    <string name="sd_mount_summary" msgid="4673411327373419641" product="nosdcard"></string>
+    <string name="sd_mount_summary" msgid="4673411327373419641" product="default"></string>
+    <string name="sd_format" msgid="2148179271623099054" product="nosdcard">"清除 USB 儲存裝置"</string>
+    <string name="sd_format" msgid="2576054280507119870" product="default">"清除 SD 卡"</string>
+    <string name="sd_format_summary" msgid="6331905044907914603" product="nosdcard">"清除內部 USB 儲存裝置中的所有資料，例如音樂和相片"</string>
+    <string name="sd_format_summary" msgid="212703692181793109" product="default">"清除 SD 卡中的所有資料，例如音樂和相片"</string>
+    <string name="memory_clear_cache_title" msgid="5423840272171286191">"清除快取資料？"</string>
+    <string name="memory_clear_cache_message" msgid="4550262490807415948">"這會清除所有應用程式的快取資料。"</string>
+    <string name="nand_flash_eject">卸載 Nand Flash</string>
+    <string name="nand_flash_eject_summary">卸載內部 nand flash 存儲</string>
+    <string name="nand_flash_format">格式化 Nand Flash</string>
+    <string name="nand_flash_format_summary">格式化 Nand Flash 上的所有數據, 比如音樂、圖片、視頻等</string>
+    <string name="nand_flash_mount">掛載 Nand Flash</string>
+    <string name="nand_flash_mount_summary">掛載 Nand Flash</string>
+    
+    <string name="sd_card_settings_label" product="nosdcard" msgid="8101475181301178428">"USB 儲存裝置"</string>
+    <string name="sd_card_settings_label" product="default" msgid="5743100901106177102">"SD 卡"</string>
+     <string name="media_format_title" product="nosdcard" msgid="3999653431422767156">"清除 USB 儲存裝置"</string>
+    <string name="media_format_title" product="default" msgid="4427528440306787972">"清除 SD 卡"</string>
+    <string name="media_format_summary" product="nosdcard" msgid="776603298628082065">"清除 USB 儲存裝置中的所有資料"</string>
+    <string name="media_format_summary" product="default" msgid="3805714639375830120">"清除 SD 卡上的所有資料"</string>
+    <string name="media_format_desc" product="nosdcard" msgid="4557243156946319034">"您要清除所有 USB 儲存裝置？您將失去"<b>"所有"</b>"儲存的資料！"</string>
+    <string name="media_format_desc" product="default" msgid="8764037252319942415">"您要清除 SD 卡嗎？您將失去 SD 卡上的"<b>"所有"</b>"資料！"</string>
+
+    <string name="device_picker" msgid="8398232791303186677">"藍牙裝置選擇器"</string>
+    <string name="bluetooth_permission_request" msgid="1523129741266262748">"藍牙權限要求"</string>
+    <string name="bluetooth_ask_enablement" msgid="637355677176904990">"應用程式要求開啟藍牙功能。"</string>
+    <string name="bluetooth_ask_discovery" product="tablet" msgid="786921566047356213">"應用程式要求開放 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒，讓其他藍芽裝置能搜尋到您的平板電腦。"</string>
+    <string name="bluetooth_ask_discovery" product="default" msgid="5510358858113713272">"應用程式要求開放 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒，讓其他藍牙裝置能搜尋到您的手機。"</string>
+    <string name="bluetooth_ask_lasting_discovery" product="tablet" msgid="8863617309580598607">"應用程式要求讓其他藍芽裝置能搜尋到您的平版電腦。您日後可在 [藍牙] 設定中變更這項設定。"</string>
+    <string name="bluetooth_ask_lasting_discovery" product="default" msgid="6487606808683607975">"應用程式要求讓其他藍芽裝置能搜尋到您的手機。您日後可在 [藍牙] 設定中變更這項設定。"</string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="tablet" msgid="3346529092809011149">"應用程式要求開啟藍牙功能 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒，讓其他裝置能搜尋到您的平板電腦。"</string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="default" msgid="4724094889807196118">"應用程式要求開啟藍牙功能 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒，讓其他裝置能搜尋到您的手機。"</string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet" msgid="989613204829097159">"應用程式要求開啟藍牙功能，讓其他裝置能搜尋到您的平板電腦。您日後可在 [藍牙] 設定中變更這項設定。"</string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="default" msgid="6671615712909139801">"應用程式要求開啟藍牙功能，讓其他裝置能搜尋到您的手機。您日後可在 [藍牙] 設定中變更這項設定。"</string>
+    <string name="bluetooth_turning_on" msgid="4850574877288036646">"藍牙開啟中…"</string>
+    <string name="bluetooth_turning_off" msgid="2337747302892025192">"正在關閉藍牙…"</string>
+    <string name="bluetooth_auto_connect" msgid="40711424456733571">"自動連線"</string>
+    <string name="bluetooth_connection_permission_request" msgid="4747918249032890077">"藍牙連線要求"</string>
+    <string name="bluetooth_connection_notif_message" msgid="3687933246423942977">"輕觸即可連線至「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」。"</string>
+    <string name="bluetooth_connection_dialog_text" msgid="8455427559949998023">"您要連線至「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」嗎？"</string>
+    <string name="bluetooth_phonebook_request" msgid="3951420080540915279">"電話簿存取權要求"</string>
+    <string name="bluetooth_pb_acceptance_dialog_text" msgid="6555508756987053866">"%1$s 想存取您的通訊錄和通話紀錄。要將存取權授予 %2$s 嗎？"</string>
+    <string name="bluetooth_remember_choice" msgid="6198284561603824931">"不要再詢問"</string>
+    <string name="bluetooth_pb_remember_choice" msgid="2901499974259177202">"不要再詢問"</string>
+    <string name="bluetooth_map_request" msgid="4595727689513143902">"訊息存取權要求"</string>
+    <string name="bluetooth_map_acceptance_dialog_text" msgid="8712508202081143737">"%1$s 要求存取您的訊息。要將存取權授予 %2$s 嗎？"</string>
+    <string name="bluetooth_quick_toggle_title" msgid="1037056952714061893">"藍牙"</string>
+    <string name="bluetooth_quick_toggle_summary" msgid="5293641680139873341">"開啟藍牙"</string>
+    <string name="bluetooth_settings" msgid="1810521656168174329">"藍牙"</string>
+    <string name="bluetooth_settings_title" msgid="1908745291161353016">"藍牙"</string>
+    <string name="bluetooth_settings_summary" msgid="2091062709530570462">"管理連線、設定裝置名稱與可偵測性"</string>
+    <string name="bluetooth_pairing_request" msgid="6385750334766370310">"藍牙配對要求"</string>
+    <string name="bluetooth_enter_pin_msg" msgid="5698297871117529185">"如要與 <xliff:g id="BOLD_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g> 配對，請輸入裝置的 PIN："</string>
+    <string name="bluetooth_enter_passkey_msg" msgid="2220143735340367939">"如要與 <xliff:g id="BOLD_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g> 配對，請輸入裝置的密碼金鑰："</string>
+    <string name="bluetooth_enable_alphanumeric_pin" msgid="7222713483058171357">"PIN 碼含有字母或符號"</string>
+    <string name="bluetooth_pin_values_hint" msgid="3815897557875873646">"通常為 0000 或 1234"</string>
+    <string name="bluetooth_enter_pin_other_device" msgid="4637977124526813470">"您可能也必須在另一個裝置上輸入這個 PIN。"</string>
+    <string name="bluetooth_enter_passkey_other_device" msgid="2798719004030279602">"您可能也必須在另一個裝置上輸入這個密碼金鑰。"</string>
+    <string name="bluetooth_confirm_passkey_msg" msgid="3708312912841950052">"如要與下列裝置配對：&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;請確認該裝置是否顯示下列密碼金鑰：&lt;br&gt;&lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;"</string>
+    <string name="bluetooth_incoming_pairing_msg" msgid="1615930853859551491">"來自：&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;要與這個裝置配對嗎？"</string>
+    <string name="bluetooth_display_passkey_pin_msg" msgid="2796550001376088433">"如要與 <xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g> 配對，請輸入：<xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>，然後按下 [返回] 或 [輸入]。"</string>
+    <string name="bluetooth_pairing_accept" msgid="6163520056536604875">"配對"</string>
+    <string name="bluetooth_pairing_decline" msgid="4185420413578948140">"取消"</string>
+    <string name="bluetooth_error_title" msgid="6850384073923533096"></string>
+    <string name="bluetooth_pairing_error_message" msgid="3748157733635947087">"無法與 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 配對。"</string>
+    <string name="bluetooth_pairing_pin_error_message" msgid="8337234855188925274">"無法與 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 配對，因為 PIN 或密碼金鑰不正確。"</string>
+    <string name="bluetooth_pairing_device_down_error_message" msgid="7870998403045801381">"無法與 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 通訊。"</string>
+    <string name="bluetooth_pairing_rejected_error_message" msgid="1648157108520832454">"「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」拒絕配對要求。"</string>
+    <string name="bluetooth_connecting_error_message" msgid="229861986106185022">"無法連線至「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」。"</string>
+    <string name="bluetooth_preference_scan_title" msgid="2277464653118896016">"掃描裝置"</string>
+    <string name="bluetooth_search_for_devices" msgid="5957007154213560390">"搜尋裝置"</string>
+    <string name="bluetooth_searching_for_devices" msgid="9203739709307871727">"搜尋中…"</string>
+    <string name="bluetooth_preference_device_settings" msgid="907776049862799122">"裝置設定"</string>
+    <string name="bluetooth_preference_paired_devices" msgid="1970524193086791964">"配對裝置"</string>
+    <string name="bluetooth_preference_found_devices" msgid="1647983835063249680">"可用的裝置"</string>
+    <string name="bluetooth_device_context_connect" msgid="3997659895003244941">"連線"</string>
+    <string name="bluetooth_device_context_disconnect" msgid="8220072022970148683">"中斷連線"</string>
+    <string name="bluetooth_device_context_pair_connect" msgid="7611522504813927727">"配對並連線"</string>
+    <string name="bluetooth_device_context_unpair" msgid="662992425948536144">"解除配對"</string>
+    <string name="bluetooth_device_context_disconnect_unpair" msgid="7644014238070043798">"中斷連線並解除配對"</string>
+    <string name="bluetooth_device_context_connect_advanced" msgid="2643129703569788771">"選項…"</string>
+    <string name="bluetooth_menu_advanced" msgid="8572178316357220524">"進階選項"</string>
+    <string name="bluetooth_advanced_titlebar" msgid="2142159726881547669">"藍牙進階設定"</string>
+    <string name="bluetooth_empty_list_bluetooth_off" msgid="6351930724051893423">"開啟藍牙功能後，您的裝置即可與其他鄰近的藍牙裝置相互傳輸資料。"</string>
+    <string name="bluetooth_connect_specific_profiles_title" msgid="6952214406025825164">"連線到…"</string>
+    <string name="bluetooth_profile_a2dp" msgid="2031475486179830674">"媒體音訊"</string>
+    <string name="bluetooth_profile_headset" msgid="8658779596261212609">"手機音訊"</string>
+    <string name="bluetooth_profile_opp" msgid="9168139293654233697">"檔案傳輸"</string>
+    <string name="bluetooth_profile_hid" msgid="3680729023366986480">"輸入裝置"</string>
+    <string name="bluetooth_profile_pan" msgid="3391606497945147673">"網際網路連線"</string>
+    <string name="bluetooth_profile_pan_nap" msgid="8429049285027482959">"網際網路連線分享"</string>
+    <string name="bluetooth_profile_map" msgid="5465271250454324383">"訊息存取權"</string>
+    <string name="bluetooth_disconnect_a2dp_profile" msgid="3524648279150937177">"即將中斷 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 與媒體音訊的連線。"</string>
+    <string name="bluetooth_disconnect_headset_profile" msgid="8635908811168780720">"即將中斷 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 與免持聽筒音訊的連線。"</string>
+    <string name="bluetooth_disconnect_hid_profile" msgid="3282295189719352075">"即將中斷 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 與輸入裝置的連線。"</string>
+    <string name="bluetooth_disconnect_pan_user_profile" msgid="8037627994382458698">"即將中斷透過 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 取得的網際網路連線。"</string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="tablet" msgid="5455448395850929200">"即將中斷 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 透過這個平板電腦取得的網際網路連線。"</string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="default" msgid="5266851881175033601">"即將中斷 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 透過這支手機取得的網際網路連線。"</string>
+    <string name="bluetooth_device_advanced_title" msgid="6066342531927499308">"已配對的藍牙裝置"</string>
+    <string name="bluetooth_device_advanced_online_mode_title" msgid="3689050071425683114">"連線"</string>
+    <string name="bluetooth_device_advanced_online_mode_summary" msgid="1204424107263248336">"連接至藍牙裝置"</string>
+    <string name="bluetooth_device_advanced_profile_header_title" msgid="3764437426089639639">"設定檔"</string>
+    <string name="bluetooth_device_advanced_rename_device" msgid="5148578059584955791">"重新命名"</string>
+    <string name="bluetooth_device_advanced_enable_opp_title" msgid="8222550640371627365">"允許接收外來檔案"</string>
+    <string name="bluetooth_a2dp_profile_summary_connected" msgid="963376081347721598">"連接至媒體音訊"</string>
+    <string name="bluetooth_headset_profile_summary_connected" msgid="7661070206715520671">"連接至電話音訊"</string>
+    <string name="bluetooth_opp_profile_summary_connected" msgid="2611913495968309066">"已連線到檔案傳輸伺服器"</string>
+    <string name="bluetooth_map_profile_summary_connected" msgid="8191407438851351713">"已連線至地圖"</string>
+    <string name="bluetooth_opp_profile_summary_not_connected" msgid="1267091356089086285">"不要連線到檔案傳輸伺服器"</string>
+    <string name="bluetooth_hid_profile_summary_connected" msgid="3381760054215168689">"已連線到輸入裝置"</string>
+    <string name="bluetooth_pan_user_profile_summary_connected" msgid="4602294638909590612">"已連線至裝置並取得網際網路存取權"</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected" msgid="1561383706411975199">"與裝置分享本地網際網路連線"</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for" msgid="4630849022250168427">"用於媒體音訊"</string>
+    <string name="bluetooth_headset_profile_summary_use_for" msgid="8705753622443862627">"用於電話音訊"</string>
+    <string name="bluetooth_opp_profile_summary_use_for" msgid="1255674547144769756">"用於傳輸檔案"</string>
+    <string name="bluetooth_hid_profile_summary_use_for" msgid="232727040453645139">"用於輸入"</string>
+    <string name="bluetooth_pan_profile_summary_use_for" msgid="5664884523822068653">"用於網際網路連線"</string>
+    <string name="bluetooth_map_profile_summary_use_for" msgid="5154200119919927434">"地圖使用偏好"</string>
+    <string name="bluetooth_dock_settings" msgid="3218335822716052885">"座架設定"</string>
+    <string name="bluetooth_dock_settings_title" msgid="5543069893044375188">"使用座架播放音訊"</string>
+    <string name="bluetooth_dock_settings_headset" msgid="1001821426078644650">"當成手機喇叭"</string>
+    <string name="bluetooth_dock_settings_a2dp" msgid="8791004998846630574">"使用於音樂與媒體"</string>
+    <string name="bluetooth_dock_settings_remember" msgid="5551459057010609115">"記住設定"</string>
+    <string name="bluetooth_tether_checkbox_text" msgid="2379175828878753652">"藍牙網路共用"</string>
+    <string name="bluetooth_tethering_available_subtext" product="tablet" msgid="8811610320942954709">"分享這個平板電腦的網際網路連線"</string>
+    <string name="bluetooth_tethering_available_subtext" product="default" msgid="4229220575771946723">"分享這支手機的網際網路連線"</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="tablet" msgid="2730938191906597896">"與 1 個裝置分享這個平板電腦的網際網路連線"</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="default" msgid="1666736165420290466">"與 1 個裝置分享這支手機的網際網路連線"</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="tablet" msgid="1180765608259580143">"與 <xliff:g id="CONNECTEDDEVICECOUNT">%1$d</xliff:g> 個裝置分享這個平板電腦的網際網路連線"</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="default" msgid="8248942539362173005">"與 <xliff:g id="CONNECTEDDEVICECOUNT">%1$d</xliff:g> 個裝置分享這支手機的網際網路連線"</string>
+    <string name="bluetooth_tethering_off_subtext" product="tablet" msgid="2093881379028235555">"未分享這個平板電腦的網際網路連線"</string>
+    <string name="bluetooth_tethering_off_subtext" product="default" msgid="706860924389041342">"未分享這支手機的網際網路連線"</string>
+    <string name="bluetooth_tethering_errored_subtext" msgid="4926566308991142264">"網路未共用"</string>
+    <string name="bluetooth_tethering_overflow_error" msgid="6285122039489881969">"最多只能有 <xliff:g id="MAXCONNECTION">%1$d</xliff:g> 個裝置共用網路。"</string>
+    <string name="bluetooth_untether_blank" msgid="2871192409329334813">"將中斷 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 的網路共用。"</string>
+<string name="bluetooth_is_discoverable" msgid="8373421452106840526">"向附近所有藍牙裝置顯示 (<xliff:g id="DISCOVERABLE_TIME_PERIOD">%1$s</xliff:g>)"</string>
+    <string name="bluetooth_is_discoverable_always" msgid="2849387702249327748">"向附近所有藍牙裝置顯示"</string>
+    <string name="bluetooth_not_visible_to_other_devices" msgid="9120274591523391910">"不向其他藍牙裝置顯示"</string>
+    <string name="bluetooth_only_visible_to_paired_devices" msgid="2049983392373296028">"只向配對的裝置顯示"</string>
+    <string name="bluetooth_visibility_timeout" msgid="8002247464357005429">"偵測時限設定"</string>
+    <string name="bluetooth_lock_voice_dialing" msgid="3139322992062086225">"鎖定語音撥號"</string>
+    <string name="bluetooth_lock_voice_dialing_summary" msgid="4741338867496787042">"螢幕鎖定時不要使用藍牙撥號"</string>
+    <string name="bluetooth_devices" msgid="1886018064039454227">"藍牙裝置"</string>
+    <string name="bluetooth_device_name" msgid="8415828355207423800">"裝置名稱"</string>
+    <string name="bluetooth_device_details" msgid="4594773497930028085">"裝置設定"</string>
+    <string name="bluetooth_profile_details" msgid="6823621790324933337">"個人資料設定"</string>
+    <string name="bluetooth_name_not_set" msgid="2653752006416027426">"未設定名稱，使用帳戶名稱"</string>
+    <string name="bluetooth_scan_for_devices" msgid="9214184305566815727">"掃描裝置"</string>
+    <string name="bluetooth_rename_device" product="tablet" msgid="787970073150631155">"重新命名平板電腦"</string>
+    <!-- MStar Android Patch Begin -->
+    <string name="bluetooth_rename_device" product="tv">"重新命名電視"</string>
+    <!-- MStar Android Patch End -->
+    <string name="bluetooth_rename_device" product="default" msgid="6267987985556136749">"重新命名手機"</string>
+    <string name="bluetooth_rename_button" msgid="1648028693822994566">"重新命名"</string>
+    <string name="bluetooth_disconnect_title" msgid="6026705382020027966">"中斷連線？"</string>
+    <string name="bluetooth_disconnect_all_profiles" msgid="9148530542956217908">"這樣會結束您與下列裝置的連線：&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;"</string>
+    <string name="bluetooth_disable_profile_title" msgid="5916643979709342557">"停用設定檔？"</string>
+    <string name="bluetooth_disable_profile_message" msgid="2895844842011809904">"這會停用以下設定檔：&lt;br&gt;&lt;b&gt;<xliff:g id="PROFILE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;來源：&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%2$s</xliff:g>&lt;/b&gt;"</string>
+    <string name="bluetooth_connected" msgid="6038755206916626419">"已連線"</string>
+    <string name="bluetooth_connected_no_headset" msgid="2866994875046035609">"已連線 (無手機音訊)"</string>
+    <string name="bluetooth_connected_no_a2dp" msgid="4576188601581440337">"已連線 (無媒體音訊)"</string>
+    <string name="bluetooth_connected_no_map" msgid="6504436917057479986">"已連線 (無訊息存取權)"</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp" msgid="9195757766755553810">"已連線 (無手機或媒體音訊)"</string>
+    <string name="bluetooth_disconnected" msgid="6557104142667339895">"已中斷連線"</string>
+    <string name="bluetooth_disconnecting" msgid="8913264760027764974">"正在中斷連線…"</string>
+    <string name="bluetooth_connecting" msgid="8555009514614320497">"連線中…"</string>
+    <string name="bluetooth_unknown" msgid="644716244548801421"></string>
+    <string name="bluetooth_pairing" msgid="1426882272690346242">"配對中…"</string>
+    <string name="bluetooth_device" msgid="5291950341750186887">"未命名的藍牙裝置"</string>
+    <string name="progress_scanning" msgid="192587958424295789">"搜尋中"</string>
+    <string name="bluetooth_no_devices_found" msgid="1085232930277181436">"找不到附近的藍牙裝置。"</string>
+    <string name="bluetooth_notif_ticker" msgid="4726721390078512173">"藍牙配對要求"</string>
+    <string name="bluetooth_notif_title" msgid="2485175521845371514">"配對要求"</string>
+    <string name="bluetooth_notif_message" msgid="5300852675110479862">"輕觸即可和「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」進行配對。"</string>
+    <string name="bluetooth_show_received_files" msgid="5164787486105868895">"顯示已接收的檔案"</string>
+    <!-- Bluetooth settings. Text displayed when Bluetooth is on [CHAR LIMIT=50] -->
+    <string name="bluetooth_on">藍牙已經準備好，可以打開</string>
+    <string name="bluetooth_enabled">藍牙可用, 點擊關閉</string>
+    <string name="bluetooth_disabled">藍牙不可用，點擊打開</string>
+    <string name="bluetooth_searching_finished" >查找設備完成</string>
+    <string name="bluetooth_search_summary" >請點擊查找設備</string>
+    <string name="bluetooth_unpair_title" >取消配對？</string>
+    <string name="bluetooth_unpair_message" >這個操作會取消配對.</string>
+    <!-- Strings for Dialog yes button -->
+    <string name="bluetooth_advanced_settings">高级设置</string>
+    
+    <!-- about -->
+    <string name="about_model">型號</string>
+    <string name="about_build_number">版本號</string>
+    <string name="about_build_model">版本備註</string>
+    <string name="about_serial_number">序列號</string>
+    <string name="about_storage_info">儲存訊息</string>
+    <string name="about_more_info">更多</string>
+    <string name="about_more_information">更多信息</string>
+    <string name="about_more_cpu">CPU</string>
+    <string name="about_more_ram">RAM</string>
+    <string name="about_more_flash">FLASH</string>
+    <string name="about_more_mac">MAC地址</string>
+    <string name="about_more_device_id">設備ID</string>
+    <string name="about_more_version">智能版本</string>
+    <string name="about_more_up_version_real_key">Scifly 版本</string>
+    <string name="about_more_up_time">開機</string>
+    <string name="display_and_sound">影像與聲音</string>
+    <string name="sound">聲音</string>
+    
+     <string name="failed_auto_gain">自动获取城市失败.</string>
+     <string name="load_acceleration_pattern">下載加速模式</string>
+     <string name="isHttp">HTTP</string>
+     <string name="isP2p">Scifly 加速</string>
+     <string name="ethernet">有線</string>
+                      
+     <!--screen saver -->
+     <string name="screen_saver_setting">屏保設置</string>
+     <string name="screen_saver_start">屏保啟動</string>
+     <string name="screen_saver_pic">屏保圖片</string>
+     <string name="screen_saver_dir">圖片文件夾</string>
+     
+     <string name="storage_low_title">系統儲存空間不足</string>
+     <!-- Settings item summary when storage is running low [CHAR LIMIT=NONE] -->
+     <string name="storage_low_summary">某些系統功能, 比如同步功能,可能不會正常工作.請試著清理空間.</string>
+
+    <!-- DOWNLOADMANAGER ERRORS -->
+    <string name="error_cannot_resume">錯誤：無法恢復下載</string>
+    <string name="error_device_not_found">錯誤：SD卡未有掛載</string>
+    <string name="error_file_already_exists">錯誤：文件已經存在</string>
+    <string name="error_file_error">錯誤：存儲出錯</string>
+    <string name="error_http_data_error">錯誤：HTTP下載出錯</string>
+    <string name="error_insufficient_space">錯誤：空間不足</string>
+    <string name="error_too_many_redirects">錯誤：重定向次數太多</string>
+    <string name="error_unhandled_http_code">錯誤：未處理的HTTP錯誤碼</string>
+    <string name="error_download_paused">網路異常，暫停下載，請檢查網路</string>
+    <string name="error_unknown">錯誤：未知</string>
+    
+    <!-- pppoe setting -->
+    <string name="pppoe_connect">連接</string>
+    <string name="pppoe_cancel">取消</string>
+    <string name="pppoe_connected">已連接</string>
+    <string name="pppoe_disconnected">已斷開</string>
+    <string name="pppoe_dialing">撥號...</string>
+    <string name="pppoe_authfailed">認證失敗</string>
+    <string name="pppoe_failed">失敗</string>
+    <string name="back">離開</string>
+    <string name="confirm">確認</string>
+    <string name="choice">選擇</string>
+    <string name="pppoe_connect_format">PPPOE連接方式</string>
+    <string name="wire_connect">有線連接</string>
+    <string name="username">帳號</string>
+    <string name="password">密碼</string>
+    <string name="show_password">顯示密碼</string>
+    <string name="auto_dialer">保存密碼</string>
+    <string name="pppoe_status_str">PPPOE 網路狀態：</string>
+    <string name="pppoe_disconnect">PPPOE斷開連接</string>
+    <string name="dialer_hangup">掛斷</string>
+    <string name="dialer_ok">撥號</string>
+    <string name="net_setting">PPPOE設置</string>
+    <string name="not_account_empty">用戶名或密碼不能爲空</string>
+    <string name="please_pppoe_disconnect">請先斷開，在連接</string>
+    <string name="pppoe_settings_title">PPPoE 設置</string>
+     <string name="initialize">PPPOE初始化</string>
+     <string name="localupdate">本地升級</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <ImageView
+        android:id="@+id/iv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:gravity="left"
+        android:clickable="true"
+        android:visibility="invisible"
+        android:src="@drawable/left_unpress" />
+
+    <ImageView
+        android:id="@+id/iv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1218dp"
+        android:gravity="right"
+        android:clickable="true"
+        android:src="@drawable/right_unpress" />
+
+    <GridView
+        android:id="@+id/gv_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/title_background"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="top|center"
+        android:horizontalSpacing="10dp"
+        android:listSelector="@drawable/btn_selector"
+        android:numColumns="4"
+        android:stretchMode="columnWidth" />
+
+    <FrameLayout
+        android:id="@+id/fl_item"
+        android:layout_width="1078dp"
+        android:layout_height="434dp"
+        android:layout_below="@id/gv_top_bar"
+        android:background="@drawable/transparent" 
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

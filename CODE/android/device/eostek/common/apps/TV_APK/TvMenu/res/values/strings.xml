@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Scifly TV Menu</string>
+    <string name="menu_custom_option_label">Advanced options</string>
+    <string-array name="menu_setting_title">
+        <item>Picture</item>
+        <item>Audio</item>
+        <item>Network</item>
+        <item>Advance</item>
+    </string-array>
+    <string-array name="menu_setting_title_tv">
+        <item>Picture</item>
+        <item>Audio</item>
+        <item>Channel</item>
+        <item>Network</item>
+        <item>Advance</item>
+    </string-array>
+    <string-array name="menu_setting_title_vga">
+        <item>Picture</item>
+        <item>Audio</item>
+        <item>PC Image</item>
+        <item>Network</item>
+        <item>Advance</item>
+    </string-array>
+
+    <!-- Audio setting -->
+
+    <string-array name="setting_audio">
+        <item>Audio mode</item>
+        <item>Bass</item>
+        <item>Treble</item>
+        <item>Equilizer</item>
+        <item>Balance</item>
+        <item>AVC</item>
+        <item>​​Surround</item>
+        <item>SPDIF Output</item>
+        <item>Interal Speaker</item>
+        <item>Ext Speaker</item>
+        <item>System Notification Sound</item>
+        <item>Power On Music</item>
+        <item>Audio Only</item>
+    </string-array>
+    <string-array name="setting_soundmode_vals">
+        <item>Standard</item>
+        <item>Music </item>
+        <item>Movie</item>
+        <item>News </item>
+        <item>User </item>
+        <item>On-Site1</item>
+        <item>On-Site2</item>
+    </string-array>
+    <string-array name="turnon_off">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="channelmanager_atv_vals">
+        <item>ATV Auto Tuning</item>
+        <item>Fine Tuning</item>
+    </string-array>
+    <string-array name="channelmanager_dtv_vals">
+        <item>Channel Edit</item>
+        <item>DTV Auto Tuning</item>
+        <item>DTV Manual Tuning</item>
+        <item>Antenna Type</item>
+    </string-array>
+
+    <string name="channellocktip">Some channel has been locked, you should input password before tuning.</string>
+    <string name="menu_finetuning">Fine Tuning</string>
+    <string name="nohotkeytip">Not set hotkeys。Please set up.</string>
+
+    <string-array name="setting_equilizer">
+        <item>120Hz</item>
+        <item>500Hz</item>
+        <item>1.5KHz</item>
+        <item>5KHz</item>
+        <item>10KHz</item>
+    </string-array>
+    <string-array name="pc_adjust">
+        <item>Clock</item>
+        <item>Phase</item>
+        <item>Horizontal Position</item>
+        <item>Vertical Position</item>
+        <item>Picture Adjust</item>
+    </string-array>
+
+    <string name="picadjust">picture adjustment now!</string>
+    <string name="picadjustsuccess">picture adjustment success!</string>
+    <string name="picadjustfail">picture adjustment failure!</string>
+    <string name="cancel">Cancel</string>
+    <string name="autotuning">DTV Auto Tuning</string>
+    <string name="tv">TV</string>
+    <string name="broadcast">Radio</string>
+    <string name="data">Data</string>
+    <string name="count">Total Count</string>
+    <string name="strength">Signal Strength</string>
+    <string name="quality">Signal Quality</string>
+    <string name="percent">Search Percent</string>
+    <string name="rfnum">RF Number</string>
+    <string name="str_cha_dtvmanualtuning">DTV Manual Tuning</string>
+    <string name="str_cha_manualtuning_ch">Channel:</string>
+    <string name="str_cha_dtvmanualtuning_starttuning">Start Search</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_dtv">DTV</string>
+    <string name="atv_autotuning_title">ATV Auto Tuning</string>
+    <string name="atv_frequency">Frequency</string>
+    <string name="atv_count">Count</string>
+    <string name="atv_curchannel">Current Channel</string>
+
+    <string-array name="network">
+        <item>Wired Network</item>
+        <item>Wireless Network</item>
+        <item>Expert Settings</item>
+    </string-array>
+    <string-array name="setting_advance">
+        <item>Language Select</item>
+        <item>Factory Reset</item>
+        <item>Local Update</item>
+        <item>Network Update</item>
+        <item>Sleep Mode</item>
+        <item>Saving</item>
+        <item>Auto Power On</item>
+        <item>Reset Password</item>
+        <item>DaylightSaving Mode</item>
+        <item>Timezone</item>
+        <item>PVR File System</item>
+        <item>OSD Time Out</item>
+        <item>Off Time</item>
+        <item>On Time</item>
+        <item>Parental Guidance</item>
+        <item>HotKey 1</item>
+        <item>HotKey 2</item>
+        <item>Current Version</item>
+    </string-array>
+    <string-array name="language">
+        <item>Chinese Traditional</item>
+        <item>English</item>
+        <item>Chinese Simple</item>
+    </string-array>
+    <string-array name="dst">
+        <item>Auto</item>
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="versionerror">
+        <item>Unable to get to the version NO</item>
+    </string-array>
+
+    <string name="changepassword_title">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="oldpasswordtip">Enter old password.</string>
+    <string name="newpasswordtip">Enter new password.</string>
+    <string name="confirmpasswordtip">Enter confirm password.</string>
+    <string name="clean">Clean</string>
+    <string-array name="setting_picture">
+        <item>Picture Mode</item>
+        <item>Contrast</item>
+        <item>Brightness</item>
+        <item>Hue</item>
+        <item>Sharpness</item>
+        <item>Saturation</item>
+        <item>Back Light</item>
+        <item>Color Temperature</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>HDMI UnderScan</item>
+        <item>Aspect Ratio</item>
+        <item>Image Noise Reduction</item>
+        <item>OSD Transparency</item>
+        <item>MPEG Noise Reduction</item>
+        <item>Color Range</item>
+        <item>HDMI RGB Range</item>
+    </string-array>
+    <string-array name="setting_picturemode_vals">
+        <item>dynamic</item>
+        <item>normal</item>
+        <item>soft</item>
+        <item>user</item>
+    </string-array>
+    <string-array name="setting_colortemperature_vals">
+        <item>cold</item>
+        <item>standard</item>
+        <item>warm</item>
+        <item>user</item>
+    </string-array>
+    <string-array name="setting_hdmifull_vals">
+        <item>Auto</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="setting_hdmirgb_vals">
+        <item>Auto </item>
+        <item>Limited </item>
+        <item>Full range</item>
+    </string-array>
+    <string-array name="setting_zoommode_vals">
+        <item>Full</item>
+        <item>4:3</item>
+        <item>Auto</item>
+        <item>Panoramic </item>
+        <item>Under Scan</item>
+    </string-array>
+<!--         <item>Zoom</item>
+        <item>Subtitle</item> -->
+    <string-array name="setting_zoommode_vals_tv">
+        <item>Full</item>
+        <item>4:3</item>
+        <item>Auto</item>
+        <item>Panoramic</item>
+    </string-array>
+<!--         <item>Zoom</item>
+        <item>Subtitle</item> -->
+    <string-array name="setting_imgnoisereduction_vals">
+        <item>Off</item>
+        <item>Low</item>
+        <item>Middle</item>
+        <item>High</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="setting_mpegnoisereduction_vals">
+        <item>Off</item>
+        <item>Low</item>
+        <item>Middle</item>
+        <item>High</item>
+    </string-array>
+    
+     <string-array name="osd_time_out_vals">
+        <item>5S</item>
+        <item>10S</item>
+        <item>15S</item>
+        <item>20S</item>
+        <item>30S</item>
+        <item>Always</item>
+    </string-array>
+    
+     <string-array name="osd_transparency_vals">
+        <item>0%</item>
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100%</item>
+    </string-array>
+    
+     <string-array name="parental_guidance_vals">
+        <item>No block</item>
+        <item>Block R and above</item>
+        <item>Block AV and above</item>
+        <item>Block MA and above</item>
+        <item>Block M and above</item>
+        <item>Block PG and above</item>
+        <item>Block G and above</item>
+        <item>Block all</item>
+    </string-array>
+    
+     <string-array name="off_time_val">
+        <item>set off time</item>
+        <item>hour</item>
+        <item>minutes</item>
+    </string-array>
+    
+     <string-array name="on_time_val">
+        <item>set on time</item>
+        <item>hour</item>
+        <item>minutes</item>
+        <item>current time</item>
+    </string-array>
+
+    <string-array name="time_setting_sleep_time">
+        <item>Off</item>
+        <item>10 mins</item>
+        <item>20 mins</item>
+        <item>30 mins</item>
+        <item>60 mins</item>
+        <item>90 mins</item>
+        <item>120 mins</item>
+        <item>180 mins</item>
+        <item>240 mins</item>
+    </string-array>
+    
+    <!-- for pvr file system -->
+    <string name="str_pvr_file_system_title">PVR File System</string>
+    <string name="str_pvr_file_system_select_disk">Select Disk</string>
+    <string name="str_pvr_file_system_time_shift_size">Time Shift Size</string>
+    <string name="str_pvr_file_system_format_start">Format Start</string>
+    <string name="str_pvr_file_system_format_context">Success</string>
+    <string name="str_pvr_file_system_speed_check">Speed Check</string>
+    <string name="str_pvr_file_system_speed_context">complete</string>
+    <string name="str_pvr_file_system_always_timeshift">Always Timeshift</string>
+    <string name="str_pvr_file_system_always_context">On</string>
+     <string name="str_set_off">Off</string>
+    <string name="str_set_on">On</string>
+    <string name="str_set_colorrange">Color Range</string>
+    <string name="str_set_colorrange_0to255">0~255</string>
+    <string name="str_set_moviemode">Movie Mode</string>
+    <string name="str_pvr_listview_item">TextView</string>
+    <string name="str_pvr_file_system_menu">Menu</string>
+    <string name="str_pvr_insert_usb">Please Insert A USB Disk First!</string>
+    <string name="str_pvr_unsurpt_flsystem">Unsupported File System,Please Do Format First!</string>
+    <string name="str_pvr_format_usb">Do you Want to Format the Selected Disk?</string>
+    <string name="str_program_edit_dialog_ok">ok</string>
+    <string name="str_program_edit_dialog_cancel">cancel</string>
+    <string name="str_pvr_format_usb_progressing">Format USB Disk Progressing...\nPlease Do Not Unplug the
+        USB Disk!</string>
+    <string name="str_pvr_usb_speed_test_progressing">Speed Test Progressing...\nPlease Do Not Unplug the
+        USB Disk!</string>
+    <string name="str_root_alert_dialog_cancel">Cancel</string>
+
+    <string name="oldpasswordnullorlessthansix">The old password is null or it\'s length is less than 4.Please enter again.</string>
+    <string name="newpasswordnullorlessthansix">The new password is null or it\'s length is less than 4.Please enter again.</string>
+    <string name="confirmpasswordnullorlessthansix">The confirm password is null or it\'s length is less than 4.Please enter again.</string>
+    <string name="originalpassworderr">The original is incorrect.Please enter again.</string>
+    <string name="newconfirmpassworderr">The new password and password to confirm do not match.Please enter again.</string>
+    <string name="resetsuccess">Password reset successfully.</string>
+    <!-- DTV Manua tuning -->
+    <string name="str_cha_dtvmanualtuning_frequency">Frequency</string>
+    <string name="str_cha_dtvmanualtuning_modulation">Modulation</string>
+    <string name="str_cha_dtvmanualtuning_symbol">Symbol Rate</string>
+    <string name="str_cha_dtvmanualtuning_modulation_64qam">64QAM</string>
+    <string name="inputPassword">Input Password</string>
+    <string name="passwordSetTip">Enter 4 char or less！</string>
+    <string name="passwordCheck">Password</string>
+    <string name="passwordIsNull">Your password is null!</string>
+    <string name="passwordCheckError">Your password is error!</string>
+
+    <!-- ATV Manual tuning -->
+    <string name="str_cha_atvmanualtuning">ATV Manual Tuning</string>
+    <string name="str_cha_atvmanualtuning_colorsystem">Color System</string>
+    <string name="str_cha_atvmanualtuning_soundsystem">Sound System</string>
+    <string name="str_cha_atvmanualtuning_colorsystem_Auto">Auto</string>
+    <string name="str_cha_atvmanualtuning_frequency">Frequency</string>
+    <string name="str_cha_atvmanualtuning_frequency_mhz">MHZ</string>
+    <string name="finetuningtip">It\'s the minimum value.</string>
+
+    <string-array name="setting_set_colorrangetype">
+        <item>0~255</item>
+        <item>16~235</item>
+        <item>auto</item>
+    </string-array>
+
+    <!-- system update -->
+    <string name="new_version">Check new version：</string>
+    <string name="update_list">This version of the updated content as follows:</string>
+    <string name="download">Download</string>
+    <string name="latest">Your TVOS version has is the latest version!</string>
+    <string name="exit">Exit</string>
+    <string name="system_net_update">Network Update</string>
+    <string name="system_local_update">Local Update</string>
+    <string name="update">Update Now</string>
+    <string name="progress">Progress：</string>
+    <string name="current_version">Current version：</string>
+    <string name="sdcard_success">Mobile Device can use</string>
+    <string name="cache_success">cache has enought room</string>
+    <string name="check_new_version">Check New Version......</string>
+    <string name="check_updatezip">Find update file, update Now?</string>
+    <string name="check_update_ing">Check...</string>
+    <string name="downloading">Downloading......</string>
+    <string name="downloaded">Download Complete</string>
+    <string name="to_update">Update Now？</string>
+    <string name="updated">Please restart the TV, to update the program will
+        continue to restart......</string>
+    <string name="no_sdcard">The system can not detect SDCARD, have no a way to
+        perform update operation, please insert SDCARD.</string>
+    <string name="sdcard">Testing Mobile Device......</string>
+    <string name="download_error">Download appear in the process of the error, please
+        download again</string>
+    <string name="check_failure">In the process of installation errors, please
+        replace update package.</string>
+    <string name="check_success">check success。</string>
+    <string name="check_version_fail">Check Version fail!</string>
+    <string name="check_directry">The update package must be located in the root directory of the device, and the filename of the package must be update_signed.zip.</string>
+    <string name="back">Back</string>
+    <string name="not_network">There is no network,we can not network update!</string>
+    <string name="download_ing">Downloading</string>
+    <string name="check_package">Calibration update package...... </string>
+    <string name="check_update">Check</string>
+    <string name="sdcard_insert">Detect Mobile Device inserted</string>
+    <string name="sdcard_remove">Testing to remove or Mobile Device abnormal</string>
+    <string name="continue_download">continue download</string>
+    <string name="sdcard_lable">Sdcard</string>
+    <string name="mobile_stoarge_device">Mobile storage device</string>
+    <string name="no_update_file">Your Mobile Device without the latest on the image files</string>
+    <string name="update_packages_download">Ongoing updates download</string>
+
+    <!-- network setting -->
+    <string name="auto_ip">The Automatic Acquisition IP Address</string>
+    <string name="ip_address">IP Address</string>
+    <string name="subnet_mask">Subnet Mask</string>
+    <string name="default_geteway">Default Gateway</string>
+    <string name="forget">Forget</string>
+    <string name="first_dns">First DNS</string>
+    <string name="second_dns">Second DNS</string>
+    <string name="show_password">Display Password</string>
+    <string name="input_password">Input password</string>
+    <string name="ss_id">SSID</string>
+    <string name="Wifi">Wi-Fi</string>
+    <string name="add_wifi_net">add wifi_net</string>
+    <string name="modify"> not modify</string>
+    <string name="net_ssid">Net SSID：</string>
+    <string name="wifi_secure">Security:</string>
+    <string name="none">None</string>
+    <string name="secure_wep">WEP</string>
+    <string name="secure_wpa">WPA/WPA2 PSK</string>
+    <string name="net_password">Password：</string>
+    <string name="save">Save</string>
+     <string name="saved">Saved</string>
+      <string name="connect_to">connect</string>
+    <string name="check_ip_failure">check IP address error</string>
+    <string name="please_insert_dongle">Please insert the wireless card</string>
+    <string name="wifi_hotspot_secure">Security</string>
+    <string name="ssid_password_error">SSID or password error</string>
+    <string name="cancle">Cancle</string>
+    <string name="close_wifiap_txt">Please close wifi hotspot first!</string>
+    <string name="wifi_failed_connect_message">Failed to connect to network</string>
+    <string name="wifi_failed_save_message">Failed to save network</string>
+    <string name="wifi_failed_forget_message">Failed to forget network</string>
+    <string name="wifi_add_ssid">"add others"</string>
+    <string name="ethernet_switch">"Open Ethernet"</string>
+    <string name="ethernet_ipv6">"IPv6"</string>
+    <string name="ipv6_netmask">"subnet prefix-length"</string>
+    <!-- network settings title -->
+    <string name="ethernet_settings_title">"Wired"</string>
+    <string name="wifi_settings_title">"Wireless"</string>
+    <string name="not_support_security_hint">"Not support seurity"</string>
+    <string name="wifi_display_status_connected">"connected"</string>
+    <string name="wifi_enable">Wireless card can not use</string>
+
+    <!-- restore factory -->
+    <string name="ok">OK</string>
+    <string name="system_restore_factory">Reset Setting</string>
+    <string name="notice_restore_factory">Restore to Factory Default will clear all user data on the device, including:</string>
+    <string name="tv_data_restore">Restore to Factory Default</string>
+    <string name="system_and_app_set">Data and settings of the system and applications,erase sdcard</string>
+    <string name="restore_factory_system_reboot">The system is restarting ...</string>
+    <string name="restore_factory_confirm_restore">Are you sure you restore the factory settings?</string>
+    <string name="restore_factory_reset_ing">Reset</string>
+    <string name="restore_factory_reset_wait">Please wait ...</string>
+    <string name="update_package_download_complete">System update package download has complete！</string>
+
+    <!-- antenna type -->
+    <string-array name="str_arr_cha_antannatype_platform_s">
+		<item>DVB-T/T2</item>
+		<item>DTMB</item>
+	</string-array>
+	
+    <string-array name="spdif_status">
+		<item>PCM</item>
+        <item>OFF</item>
+        <item>NONPCM</item>
+	</string-array>
+    
+    <string name="totalcount_txt">0</string>
+    <string name="toast_no_manual_tuning">Under this antenna type do no support manual tuning!</string>
+</resources>

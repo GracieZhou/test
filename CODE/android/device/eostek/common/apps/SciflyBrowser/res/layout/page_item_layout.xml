@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/menu_pages_item_width_bk"
+    android:layout_height="@dimen/menu_pages_item_test_heigth"
+    android:orientation="horizontal" >
+
+    <View
+        android:id="@+id/white"
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <LinearLayout
+        android:layout_width="@dimen/menu_pages_item_width"
+        android:layout_height="@dimen/menu_pages_item_test_heigth"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="@dimen/menu_pages_item_width"
+            android:layout_height="@dimen/menu_pages_item_heigth"
+            android:nextFocusDown="@+id/close" >
+
+            <ImageView
+                android:id="@+id/page"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="false"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/current_icon"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:focusable="false"
+                android:src="@drawable/current_icon" />
+
+            <TextView
+                android:id="@+id/page_item_text"
+                android:layout_width="fill_parent"
+                android:layout_height="23dp"
+                android:layout_gravity="bottom"
+                android:background="@color/black_layer"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="@string/none_page"
+                android:textColor="@color/text_color"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/corner_layer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="true"
+                android:nextFocusDown="@+id/close"
+                android:src="@drawable/page_item_selector" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="54dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/close_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:nextFocusUp="@+id/corner_layer"
+            android:text="@string/close"
+            android:visibility="invisible"
+            android:textColor="@color/text_color"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

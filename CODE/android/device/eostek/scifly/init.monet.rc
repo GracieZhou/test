@@ -1,0 +1,350 @@
+on early-init
+    mount debugfs debugfs /sys/kernel/debug
+
+on init
+    export EXTERNAL_STORAGE /mnt/sdcard
+
+    # sd card mount point
+    mkdir /mnt/media_rw/sdcard0 0700 media_rw media_rw
+
+    # sd card fuse mount point
+    mkdir /mnt/sdcard 0000 system system
+    symlink /mnt/sdcard /sdcard
+
+    # EosTek Patch Begin
+    mkdir /mnt/external_sd 0000 system system
+    # EosTek Patch End
+
+    # usb/iso/samba mount point
+    mkdir /mnt/usb 0775 root system
+    mkdir /mnt/iso 0775 root system
+    mkdir /mnt/samba 0775 root system
+    mount tmpfs tmpfs /mnt/usb mode=0755,gid=1000
+    mount tmpfs tmpfs /mnt/iso mode=0755,gid=1000
+    mount tmpfs tmpfs /mnt/samba mode=0755,gid=1000
+
+    # cache/log/temp... mount point
+    mkdir /var 0775 system system
+    mount tmpfs tmpfs /var mode=0775,gid=1000
+
+    # create /tmp point to /var/tmp
+    mkdir /var/tmp 0775 system system
+    symlink /var/tmp /tmp
+
+    # create /var/tmp/media for camera/ve/dwin
+    mkdir /var/tmp/media 0775 media media
+    mkdir /var/tmp/hwc 0775 system system
+    mkdir /var/tmp/providers.media 0775 system sdcard_rw
+
+    # DFB use socket mode for 64bit kernel
+    mkdir /dev/shm
+    mount -t tmpfs tmpfs /dev/shm
+
+    # create tv related folders
+    symlink /tvservice/std_lib/lib /lib
+    symlink /tvservice/mslib /mslib
+    symlink /tvservice/applications /applications
+    symlink /tvconfig/config /config
+    symlink /tvconfig/config/certificate /certificate
+    symlink /tvdatabase/Database /Database
+    symlink /tvdatabase/DatabaseBackup /DatabaseBackup
+    symlink /tvcustomer/Customer /Customer
+
+on fs
+    mkdir /tvservice
+    mkdir /tvconfig
+    mkdir /tvdatabase
+    mkdir /tvcustomer
+    mount_all /fstab.monet
+    # enable zram
+    write /proc/sys/vm/page-cluster 0
+    swapon_all /fstab.monet
+
+on post-fs
+    # insert mali driver
+    insmod /system/lib/modules/mali_kbase.ko
+
+    # enable DIP driver interrupt
+    chmod 777 /proc/irq/238
+    chmod 777 /proc/irq/238/affinity_hint
+    chmod 777 /proc/irq/238/irq
+    chmod 777 /proc/irq/238/node
+    chmod 777 /proc/irq/238/smp_affinity
+    chmod 777 /proc/irq/238/spurious
+    # enable MFE driver interrupt
+    chmod 777 /proc/irq/239
+    chmod 777 /proc/irq/239/affinity_hint
+    chmod 777 /proc/irq/239/irq
+    chmod 777 /proc/irq/239/node
+    chmod 777 /proc/irq/239/smp_affinity
+    chmod 777 /proc/irq/239/spurious
+    # enable MVD driver interrupt
+    chmod 777 /proc/irq/195
+    chmod 777 /proc/irq/195/affinity_hint
+    chmod 777 /proc/irq/195/irq
+    chmod 777 /proc/irq/195/node
+    chmod 777 /proc/irq/195/smp_affinity
+    chmod 777 /proc/irq/195/spurious
+    # enable EVD driver interrupt
+    chmod 777 /proc/irq/205
+    chmod 777 /proc/irq/205/affinity_hint
+    chmod 777 /proc/irq/205/irq
+    chmod 777 /proc/irq/205/node
+    chmod 777 /proc/irq/205/smp_affinity
+    chmod 777 /proc/irq/205/spurious
+    # enable HVD driver interrupt
+    chmod 777 /proc/irq/224
+    chmod 777 /proc/irq/224/affinity_hint
+    chmod 777 /proc/irq/224/irq
+    chmod 777 /proc/irq/224/node
+    chmod 777 /proc/irq/224/smp_affinity
+    chmod 777 /proc/irq/224/spurious
+
+    # enable ksm
+    #write /sys/kernel/mm/ksm/pages_to_scan 100
+    #write /sys/kernel/mm/ksm/sleep_millisecs 500
+    #write /sys/kernel/mm/ksm/run 1
+
+    # for memtrack
+    chmod 711 /sys/kernel/debug
+
+    # restore security contexts here to label those device nodes created by utopia
+    restorecon /dev/gflip
+    restorecon /dev/msmailbox
+    restorecon /dev/system
+
+on post-fs-data
+    mkdir /data/misc/wifi 0770 wifi wifi
+    mkdir /data/misc/wifi/sockets 0770 wifi wifi
+    mkdir /data/misc/dhcp 0770 dhcp dhcp
+    chown dhcp dhcp /data/misc/dhcp
+    mkdir /data/system 0771 system system
+    mkdir /data/system/wpa_supplicant 0770 wifi wifi
+    # mediatek bluetooth
+    mkdir /data/@btmtk 0770 bluetooth net_bt
+    chown bluetooth net_bt_stack /data/misc/bluetooth
+
+    # pppoe.conf/resolv.conf for read-write
+    mkdir /data/misc/ppp 0777 system system
+
+on boot
+    # create the coredump file
+    write /proc/sys/kernel/core_pattern /var/coredump.%p.gz
+
+# after launcher is displayed, trigger other drivers initialization
+on property:init.svc.bootanim=stopped
+    # insert bluetooth driver
+    insmod /system/lib/modules/uhid.ko
+    insmod /system/lib/modules/bluetooth.ko
+    insmod /system/lib/modules/l2cap.ko
+    insmod /system/lib/modules/hidp.ko
+    insmod /system/lib/modules/rfcomm.ko
+    insmod /system/lib/modules/bnep.ko
+
+on property:mstar.ginga=1
+# create /dev/shm for ginga
+    mkdir /dev/shm
+    mount -t tmpfs -o size=4M tmpfs /dev/shm
+    mkdir /ginga 0775 system system
+    mount tmpfs tmpfs /ginga mode=0775,gid=1000
+
+# EosTek Patch Begin
+# service for sd card access
+#service fuse_sdcard0 /system/bin/sdcard -u 1023 -g 1023 -d /mnt/media_rw/sdcard0 /mnt/sdcard
+#   class core
+# EosTek Patch End
+
+# service for common wifi
+service loadwifi /system/bin/wifi_load_driver.sh
+    class main
+    disabled
+    oneshot
+    seclabel u:r:loadwifi:s0
+service unloadwifi /system/bin/wifi_unload_driver.sh
+    class main
+    disabled
+    oneshot
+    seclabel u:r:unloadwifi:s0
+service loadapwifi /system/bin/wifi_load_apdriver.sh
+    class main
+    disabled
+    oneshot
+service unloadapwifi /system/bin/wifi_unload_apdriver.sh
+    class main
+    disabled
+    oneshot
+service startSuppl /system/bin/startSupplicant.sh
+    class main
+    disabled
+    oneshot
+    seclabel u:r:startSuppl:s0
+
+service dhcpcd_p2p0 /system/bin/dhcpcd -ABKL
+    class main
+    disabled
+    oneshot
+service dhcpcd_wlan0 /system/bin/dhcpcd -ABKL
+    class main
+    disabled
+    oneshot
+service dhcpcd_bnep0 /system/bin/dhcpcd -ABKL
+    class main
+    disabled
+    oneshot
+service dhcpcd_p2p /system/bin/dhcpcd -ABKL
+    class main
+    disabled
+    oneshot
+service dhcpcd_eth0 /system/bin/dhcpcd -aABDKL
+    class late_start
+    disabled
+    oneshot
+service iprenew_wlan0 /system/bin/dhcpcd -n
+    class main
+    disabled
+    oneshot
+service iprenew_p2p /system/bin/dhcpcd -n
+    class main
+    disabled
+    oneshot
+service iprenew_bnep0 /system/bin/dhcpcd -n
+    class main
+    disabled
+    oneshot
+service iprenew_eth0 /system/bin/dhcpcd -n
+    class late_start
+    disabled
+    oneshot
+
+# service for miracast
+service get_offer_ip /system/bin/GetdnsmasqIp
+    class main
+    disabled
+    oneshot
+service set_rx_buf /system/bin/Setrxbuffer
+    class main
+    disabled
+    oneshot
+
+# service for logcat with kernel message
+service logcat /system/bin/logcat -b system -b events -b main -K -n 10 -v threadtime -f /data/log/logcat.log -r 1000
+    class main
+    user log
+    group log
+    disabled
+
+# service for tv
+service tvservice /system/bin/logwrapper -e /applications/bin/tvos
+    setenv LD_LIBRARY_PATH /applications/bin:/mslib:/mslib/utopia:/config:/mslib/ginga/jvm/lib
+    class main
+    oneshot
+    seclabel u:r:logwrapper:s0
+
+# services for pppoe
+service pppoe-setup /system/bin/pppoe-setup
+    class main
+    disabled
+    oneshot
+service pppoe-start /system/bin/pppoe-start
+    class main
+    disabled
+    oneshot
+service pppoe-status /system/bin/pppoe-status
+    class main
+    disabled
+    oneshot
+service pppoe-stop /system/bin/pppoe-stop
+    class main
+    disabled
+    oneshot
+
+# service for virtual keypad
+service virtualkeypad /system/bin/virtualkeypad
+    class main
+    user system
+    group system
+    oneshot
+    seclabel u:r:virtualkeypad:s0
+
+# services for livecap
+service livecap /system/bin/livecap
+    class main
+    oneshot
+    seclabel u:r:livecap:s0
+
+# service for browser
+service browserserver /system/bin/browserserver
+    class main
+    user system
+    group input
+    oneshot
+    seclabel u:r:browserserver:s0
+
+# service for eth0 multicast
+service multicast /system/bin/busybox ifconfig eth0 allmulti
+    class main
+    oneshot
+
+# service for resourcemanager
+service resourcemanager /system/bin/resourcemanager
+    class core
+    user system
+    group system
+    seclabel u:r:resourcemanager:s0
+
+# service for CPU DVFS
+service cpudvfsscaling /system/bin/cpu_dvfs_scaling.sh
+    user root
+    group system
+    disabled
+    oneshot
+
+# service for bluetooth
+service loadbt /system/bin/loadbt.sh
+    class main
+    disabled
+    oneshot
+    seclabel u:r:loadbt:s0
+service unloadbt /system/bin/unloadbt.sh
+    class main
+    disabled
+    oneshot
+# broadcom kill bluetooth service
+service kbtapk /system/bin/sh system/bin/kill_btapk.sh
+    user root
+    group system bluetooth
+    disabled
+    oneshot
+# mediatek blueangel deamon
+service mtkbt /system/bin/mtkbt
+    class main
+    socket bt.int.adp dgram 660 bluetooth net_bt
+    socket bt.a2dp.stream dgram 660 bluetooth net_bt
+    user bluetooth
+    group system net_bt bluetooth net_bt_admin inet net_admin net_raw vpn net_bt_stack sdcard_r
+    oneshot
+    seclabel u:r:mtkbt:s0
+
+# service for tee
+service tee /applications/secure_daemon /config/mmap.ini
+    class main
+    oneshot
+    seclabel u:r:tee:s0
+
+# service for accel87
+service accel87 /system/bin/accel87
+    user root
+    group system
+    disabled
+    oneshot
+    seclabel u:r:system_server:s0
+# EosTek Patch Begin
+service eshell /system/xbin/eshell
+    class core
+    socket eshell stream 0666 root system
+    ioprio be 2
+    
+service virtualdevice /system/bin/upnp_tv_receiver --web-root /system/etc/upnp/web/ --max-x 1920 --max-y 1080
+    class main
+    oneshot    
+# EosTek Patch End    

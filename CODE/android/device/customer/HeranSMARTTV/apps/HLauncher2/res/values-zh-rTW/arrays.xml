@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="help_array">
+        <item>快捷鍵提示</item>
+        <item>成員管理</item>
+        <item>遙控設定</item>
+        <item>活動設定</item>
+        <!--
+		<item>成员退出</item>
+        <item>我的足迹</item>
+        <item>新手上路</item>
+        -->
+    </string-array>
+    <string-array name="pop_app">
+        <item>Facebook</item>
+        <item>Youtube</item>
+        <item>Flickr</item>
+        <item>Picasas</item>
+        <item>History</item>
+         <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>       
+    </string-array>
+    <string-array name="pop_app_package">
+        <item>com.facebook.katana</item>
+        <item>com.google.android.youtube</item>
+        <item>com.yahoo.mobile.client.android.flickr</item>
+        <item>com.imprologic.micasa</item>
+        <item>com.eostek.history</item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>       
+    </string-array>
+    <string-array name="pop_app_class">
+        <item>com.facebook.katana.FacebookLoginActivity</item>
+        <item>com.google.android.apps.youtube.app.WatchWhileActivity</item>
+        <item>com.yahoo.mobile.client.android.flickr.ui.misc.LoginActivity</item>
+        <item>com.imprologic.micasa.ui.Main</item>
+        <item>com.eostek.history.MainActivity</item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+        <item ></item>        
+    </string-array>
+    <string-array name="ad_btn_name">
+        <item>回首頁-EE</item>
+        <item>略過廣告-EE</item>
+        <item>不做任何選擇-EE</item>
+        <item>"異常-EE"</item>
+    </string-array>
+    <string-array name="error">
+        <item>異常-EE</item>
+        <item>不做任何選擇-EE</item>
+    </string-array>
+    <string-array name="menu_preview_tips">
+        <item>頻道</item>
+        <item>生活專區</item>
+        <item>我的APP</item>
+        <item>成員管理</item>
+        <item>設置</item>
+    </string-array>
+    <string-array name="city_array">
+        <item>臺北市</item>
+        <item>新北市</item>
+        <item>桃園市</item>
+        <item>新竹市</item>
+        <item>新竹縣</item>
+        <item>苗栗縣</item>
+        <item>臺中市</item>
+        <item>彰化縣</item>
+        <item>雲林縣</item>
+        <item>嘉義縣</item>
+        <item>嘉義市</item>
+        <item>臺南市</item>
+        <item>高雄市</item>
+        <item>基隆市</item>
+        <item>宜蘭縣</item>
+        <item>花蓮縣</item>
+        <item>南投縣</item>
+        <item>臺東縣</item>
+        <item>屏東縣</item>
+        <item>連江縣</item>
+        <item>金門縣</item>
+        <item>澎湖縣</item>
+    </string-array>
+    <string-array name="city_array1">
+        <item>基隆市</item>
+        <item>臺北市</item>
+        <item>新北市</item>
+        <item>桃園市</item>
+        <item>新竹市</item>
+        <item>新竹縣</item>
+        <item>苗栗縣</item>
+        <item>臺中市</item>
+        <item>彰化縣</item>
+        <item>雲林縣</item>
+        <item>南投縣</item>
+        <item>嘉義縣</item>
+        <item>嘉義市</item>
+        <item>臺南市</item>
+        <item>高雄市</item>
+        <item>屏東縣</item>
+        <item>宜蘭縣</item>
+        <item>花蓮縣</item>
+        <item>臺東縣</item>
+        <item>澎湖縣</item>
+        <item>金門縣</item>
+        <item>連江縣</item>
+    </string-array>
+    <string-array name="wind">
+        <item>偏東風</item>
+        <item>偏西風</item>
+        <item>偏南風</item>
+        <item>偏北風</item>
+        <item>西北風</item>
+        <item>西南風</item>
+        <item>東北風</item>
+        <item>東南風</item>
+    </string-array>
+    <string-array name="weekDays">
+        <item>週日</item>
+        <item>週一</item>
+        <item>週二</item>
+        <item>週三</item>
+        <item>週四</item>
+        <item>週五</item>
+        <item>週六</item>
+    </string-array>
+
+</resources>

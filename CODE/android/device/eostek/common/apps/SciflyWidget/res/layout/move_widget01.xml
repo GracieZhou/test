@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/move_content01"
+    android:layout_width="@dimen/flipper_image_width"
+    android:layout_height="@dimen/flipper_image_height"
+    android:layoutAnimation="@anim/anim_layout"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="@dimen/flipper_image_width"
+        android:layout_height="@dimen/flipper_image_height" >
+
+        <ImageView
+            android:id="@+id/flipper"
+            android:layout_width="@dimen/flipper_image_width"
+            android:layout_height="@dimen/flipper_image_height"
+            android:layout_gravity="center_horizontal|top"
+            android:scaleType="fitXY"
+            android:src="@drawable/video_icon_7day_b" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/foreground"
+            android:layout_width="@dimen/flipper_image_width"
+            android:layout_height="@dimen/flipper_image_height"
+            android:layout_gravity="center_horizontal|top"
+            android:scaleType="fitXY"
+            android:src="@drawable/video_icon_7day_f" >
+        </ImageView>
+    </FrameLayout>
+
+</LinearLayout>

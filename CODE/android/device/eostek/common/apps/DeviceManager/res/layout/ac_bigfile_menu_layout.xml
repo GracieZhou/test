@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_no_checkbox"
+        android:layout_width="600dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/menu_background_shape"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/delete_all"
+            android:layout_width="195dp"
+            android:layout_height="75dp"
+            android:focusable="true"
+            android:background="@drawable/list_selector"
+            android:layout_marginLeft="350dp"
+            android:gravity="center"
+            android:text="@string/act_bigfile_tv_delete_all"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/select_more"
+             android:layout_width="195dp"
+            android:layout_height="75dp"
+            android:layout_below="@id/delete_all"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/list_selector"
+            android:layout_marginLeft="350dp"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/act_bigfile_tv_choose_more"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/rl_have_checkbox"
+        android:layout_width="600dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/menu_background_shape"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+        
+        <TextView
+            android:id="@+id/delete"
+            android:layout_width="195dp"
+            android:layout_height="75dp"
+            android:focusable="true"
+            android:background="@drawable/list_selector"
+            android:layout_marginLeft="350dp"
+            android:gravity="center"
+            android:text="@string/act_bigfile_tv_delete"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+        
+         <TextView
+            android:id="@+id/select_all"
+             android:layout_width="195dp"
+            android:layout_height="75dp"
+            android:layout_below="@id/delete"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/list_selector"
+            android:layout_marginLeft="350dp"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/act_bigfile_tv_choose_all"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+         
+        </RelativeLayout>
+
+</RelativeLayout>

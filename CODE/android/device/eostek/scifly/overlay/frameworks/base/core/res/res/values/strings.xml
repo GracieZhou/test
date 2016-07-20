@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ext_usb_media_badremoval_notification_title">USB storage unexpectedly removed</string>
+    <string name="ext_sdcard_media_badremoval_notification_title">SD card unexpectedly removed</string>
+    <string name="ext_usb_media_checking_notification_title">Preparing USB storage</string>
+    <string name="ext_sdcard_media_checking_notification_title">Preparing SD card</string>
+    <string name="ext_usb_storage_notification_title">USB connected</string>
+    <string name="ext_sdcard_storage_notification_title">SD card connected</string>
+    <string name="ext_usb_media_nomedia_notification_title">Removed USB storage</string>
+    <string name="ext_sdcard_media_nomedia_notification_title">Removed SD card</string>
+    <string name="ext_usb_media_state_abnormal_notification_title">USB state abnormal</string>
+    <string name="ext_sdcard_media_state_abnormal_notification_title">SD card state abnormal</string>
+    <string name="ext_usb_media_state_ro_notification_title">USB read only</string>
+    <string name="ext_sdcard_media_state_ro_notification_title">SD card read only</string>
+    <string name="ext_sdcard_media_low_storage_notification_title">SD card has no enough memory</string>
+
+    <string name="memory_cleaned_message">memory be cleaned is</string>
+    <string name="no_process_cleaned_message">no more process need to be killed.</string>
+    <string name="permgroupdesc_hardwareControls">Direct access to hardware on the TV.</string>
+    <string name="permlab_modifyPhoneState">modify TV state</string>
+    <string name="permlab_readPhoneState">read TV status and identity</string>
+
+    <!-- Shutdown greeting in PhoneWindowManager -->
+    <add-resource type="string" name="shutdown_message"/>
+    <string name="shutdown_message">System is shuting down</string>
+    <string name="default_ime">com.eostek.scifly.ime/.zhuyin.ZhuyinImeService</string>
+</resources>

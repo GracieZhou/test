@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="509dp"
+    android:layout_height="303dp"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog2_bg" >
+
+    <TextView
+        android:id="@+id/delete_activity_dialog_tv"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:text="@string/sure_to_remove" />
+
+    <RelativeLayout
+        android:layout_width="509dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:background="@android:color/transparent" >
+
+        <Button
+            android:id="@+id/dialog_bn_cancle"
+            android:layout_width="175dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="75dp"
+            android:background="@drawable/btn_seletor"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/cancle_delete"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" >
+
+            <requestFocus />
+        </Button>
+
+        <Button
+            android:id="@+id/dialog_bn_ok"
+            android:layout_width="175dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="75dp"
+            android:background="@drawable/btn_seletor"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/ok_delete"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

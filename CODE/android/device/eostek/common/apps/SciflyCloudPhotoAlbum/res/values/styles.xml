@@ -1,0 +1,111 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="ContentOverlay" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustResize</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="TextViewTheme" parent="AppBaseTheme">
+        <item name="android:layout_width">@dimen/activity_item_width</item>
+        <item name="android:layout_height">@dimen/activity_item_height</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:background">@drawable/my_cloud_disk_item_selector</item>
+        <item name="android:paddingLeft">80dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="TextViewTheme2" parent="AppBaseTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:drawableRight">@drawable/arrow_right_white</item>
+        <item name="android:text">@string/no_bind</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="RelativeLayoutTheme" parent="AppBaseTheme">
+        <item name="android:layout_width">@dimen/activity_item_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/my_cloud_disk_item_selector</item>
+        <item name="android:paddingRight">100dp</item>
+        <item name="android:paddingLeft">100dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="TextCommonTheme" parent="AppBaseTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="RelativeLayoutTheme1" parent="AppBaseTheme">
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">250dp</item>
+    </style>
+
+    <style name="ImageViewTheme" parent="AppBaseTheme">
+        <item name="android:layout_width">235dp</item>
+        <item name="android:layout_height">240dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@drawable/cloud_disk_bg_selector</item>
+        <item name="android:contentDescription">@string/action_settings</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="ImageViewTheme1" parent="AppBaseTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:src">@drawable/cloud_add_icon</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="TextViewTheme3" parent="AppBaseTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/setting_bg_selector</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+
+</resources>

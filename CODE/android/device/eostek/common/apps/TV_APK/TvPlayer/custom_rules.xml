@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="custom_rules" default="release">
+    <target name="-pre-compile">
+        <!-- Have to change the dependency sequence of some classpath including bootclasspath for 
+             normally compilation, here make the needed classpath prior to the bootclasspath. 
+             That is to say, redefine the android bootclasspath : project.target.class.path. -->
+        <path id="project.target.class.path">
+            <pathelement location="${JARLIBS}/mstar.jar"></pathelement>
+            <pathelement location="${project.target.android.jar}"></pathelement>
+        </path>
+    </target>
+</project>

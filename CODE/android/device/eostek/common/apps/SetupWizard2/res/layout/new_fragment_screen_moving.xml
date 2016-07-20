@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/fl_screen_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/position_background" />
+
+        <ImageView
+            android:id="@+id/iv_position_up"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/position_up_unselected" />
+
+        <ImageView
+            android:id="@+id/iv_position_down"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="220dp"
+            android:background="@drawable/position_down_unselected" />
+
+        <ImageView
+            android:id="@+id/iv_position_left"
+            android:layout_width="15dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="111dp"
+            android:background="@drawable/position_left_unselected" />
+
+        <ImageView
+            android:id="@+id/iv_position_right"
+            android:layout_width="15dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="111dp"
+            android:background="@drawable/position_right_unselected" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="267dp"
+            android:text="@string/direction_key_instruction"
+            android:textColor="#84ff03"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="network_setting">网络设置</string>
+    <string name="system_setting">系统设置</string>
+    <string name="ethernet_setting">有线设置</string>
+    <string name="wireless_setting">无线设置</string>
+    <string name="network_diag">网络诊断</string>
+    <string name="network_connection">网络连通性</string>
+    <string name="download_speed">系统测速</string>
+    <string name="time_sync">网络对时</string>
+    <string name="begin_diag">开始检测</string>
+    <string name="static_info">静态信息</string>
+    <string name="error_detail">错误详情</string>
+    <string name="network_return">返回</string>
+    <string name="localhost">本地主机</string>
+    <string name="gateway">网关</string>
+    <string name="center_network">中心网络</string>
+    <string name="time_server">时间服务器</string>
+    <string name="show_static_info">静态信息显示</string>
+    <string name="point"> ● </string>
+    <string name="access_way">接入方式</string>
+    <string name="IP_address">IP地址</string>
+    <string name="gateway_address">网关地址</string>
+    <string name="error_code">错误码</string>
+    <string name="error_description">错误描述</string>
+    <string name="connection_normal">网络连接正常</string>
+    <string name="connection_fail">网络连接出现问题</string>
+    <string name="colon">：</string>
+    <string name="begin_download_speed">开始测速</string>
+    <string name="fail_obtain_time">从时间服务器获取时间失败</string>
+    <string name="fail_download_speed">测速失败</string>
+    <string name="system_time">系统时间</string>
+    <string name="network_time">网络时间</string>
+    <string name="NTP_Server">时间服务器</string>
+    <string name="begin_time_sync">开始对时</string>
+    <string name="download_speeding">正在测速……</string>
+    <string name="obtain_time">正在从时间服务器获取网络时间……</string>
+    <string name="max_download_speed">最大速度</string>
+    <string name="min_download_speed">最小速度</string>
+    <string name="average_download_speed">平均速度</string>
+    <string name="time_sync_success">对时成功</string>
+    <string name="description">picture</string>
+    <string name="local_network_conn_error">本地网络连接出现异常</string>
+    <string name="center_network_error">网络连接出现异常，无法到达中心网络</string>
+    <string name="server_error">网络连接出现异常，无法到达时间服务器</string>
+    <string name="gateway_error">网关异常</string>
+    <string name="download_speed_complete">测速完成! </string>
+    <string name="date_formate">yyyy年MM月dd日 EEE HH:mm</string>
+    <string name="old_week">周</string>
+    <string name="new_week">星期</string>
+    <string name="connect_network">请先连接网路</string>
+        <string name="fail">升级失败</string>
+     <string name="cancel">取消</string>
+    <string name="exit">退出</string>
+    <string name="retry">重试</string>
+    <string name="success">升级成功</string>
+     <string name="bootVideo">开机视频</string>
+    <string name="bootAnim">开机动画</string>     
+     <string name="bootVideoFail">开机视频升级失败</string>
+    <string name="bootAnimFail">开机动画升级失败</string>
+    <string name="launcherFail">Launcher升级失败</string>  
+    
+        <string name="upgrade">升级</string>
+         <string name="checkUpdateFile">检测到升级文件</string>
+         <string name="animUpgrading">开机动画升级中</string>
+           <string name="videoUpgrading">开机视频升级中</string>
+             <string name="lancherUpgrading">Launcher升级中</string>
+
+</resources>

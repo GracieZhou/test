@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dip" >
+
+    <ImageView
+        android:id="@+id/usbItemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="60dip"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/usb_drive" />
+    
+
+    <TextView
+        android:id="@+id/usbItemName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:maxLines="2"
+        android:textSize="15dip" />
+    <LinearLayout android:layout_width="fill_parent"
+        		  android:layout_height="wrap_content"
+        		  android:layout_below="@+id/usbItemImage"
+        		  android:id="@+id/layout"
+        		  android:layout_centerHorizontal="true"
+        		  >
+        		  
+         <ProgressBar
+        android:id="@+id/usbItemSpace"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        
+        android:layout_height="8dip"
+        android:layout_gravity="center"
+       
+        android:secondaryProgress="100"
+         />
+    <ProgressBar android:id="@+id/tip"
+        		
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+        		 android:visibility="gone"
+        		 style="?android:attr/progressBarStyleSmall"/>
+        
+    </LinearLayout>
+
+   
+
+</RelativeLayout>

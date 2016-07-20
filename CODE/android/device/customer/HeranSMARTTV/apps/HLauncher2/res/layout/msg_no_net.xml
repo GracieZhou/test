@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/no_net"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+     >
+
+    <ImageView
+        android:id="@+id/new_net_error"
+        android:layout_width="560dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ui_nx_2_1" />
+
+</FrameLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.android.settings.widget.TitleWidget
+        android:id="@+id/activity_display_sound_settings_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_sound"
+        android:layout_width="@dimen/selector_width"
+        android:layout_height="@dimen/settings_item_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_bg_selector"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="#ffffffff"
+        android:textSize="22sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_display"
+        android:layout_width="@dimen/selector_width"
+        android:layout_height="@dimen/settings_item_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_bg_selector"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="#ffffffff"
+        android:textSize="22sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_screen_saver"
+        android:layout_width="@dimen/selector_width"
+        android:layout_height="@dimen/settings_item_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_bg_selector"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="#ffffffff"
+        android:text="@string/screen_saver_setting"
+        android:textSize="22sp"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeviewcontent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:id="@+id/home_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical">
+
+        <!-- view -->
+    </LinearLayout>
+
+    <TextSwitcher
+        android:id="@+id/textad_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/scrollTextView_margin_left"
+        android:layout_marginRight="@dimen/scrollTextView_margin_right"
+        android:layout_marginTop="@dimen/scrollTextView_margin_top"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/time_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textad_txt"
+        android:layout_marginRight="@dimen/time_txt_margin_right"
+        android:layout_marginTop="@dimen/time_txt_margin_top"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_big" />
+
+    <TextView
+        android:id="@+id/date_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/time_txt"
+        android:layout_marginRight="@dimen/date_txt_margin_right"
+        android:layout_marginTop="@dimen/date_txt_margin_top"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_small" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar_ll_height"
+        android:layout_below="@id/date_txt"
+        android:background="@drawable/bottom_bar">
+
+        <ImageView
+            android:id="@+id/user_icon"
+            android:layout_width="@dimen/status_bar_iv_width"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="@dimen/status_bar_margin_bottom"
+            android:layout_marginTop="@dimen/status_bar_margin_top"
+            android:background="@drawable/user_icon"
+            android:paddingLeft="@dimen/status_bar_iv_padding_left" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/user_icon"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@android:color/white" />
+        
+        <ImageView
+            android:id="@+id/status_icon"
+            android:layout_width="@dimen/status_bar_iv_width"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="@dimen/status_bar_margin_bottom"
+            android:layout_marginTop="@dimen/status_bar_margin_top"
+            android:layout_centerInParent="true"
+            android:background="@drawable/home" />
+    </RelativeLayout>
+
+</RelativeLayout>

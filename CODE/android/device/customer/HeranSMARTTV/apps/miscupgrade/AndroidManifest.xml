@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eostek.miscupgrade"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REBOOT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_settings"
+        android:label="@string/system_setting"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        <receiver android:name="com.eostek.miscupgrade.MediaMountReceiver" >
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:name="com.eostek.miscupgrade.LauncherDownloadReceiver">
+            <intent-filter >
+                <action android:name="com.heran.launcher_download_success"/>
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.eostek.miscupgrade.UpgradeService" >
+            <intent-filter>
+                <action android:name="com.intent.action.UPGRADESERVICE" />
+            </intent-filter>
+        </service>
+
+        <!--
+             <activity android:name="com.eostek.settings.miscupgrade.UpgradeActivity" >
+        </activity>
+        -->
+    </application>
+
+</manifest>

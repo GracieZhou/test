@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="0dp"
+    android:paddingTop="30dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="24dp" >
+
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="36dp"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/title_bg" />
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="top|right"
+            android:textColor="#ffffffff"
+            android:textSize="36sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="70dp"
+        android:paddingLeft="84dp" >
+
+        <TextView
+            android:id="@+id/sub_title_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="top|right"
+            android:textColor="#ffffffff"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/title_symbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:textColor="#ffffffff"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/sub_title_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="top|right"
+            android:textColor="#ffffffff"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+</LinearLayout>

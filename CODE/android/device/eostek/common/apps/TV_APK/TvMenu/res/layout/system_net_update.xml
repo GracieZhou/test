@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="@dimen/system_net_update_ll_widht"
+        android:layout_height="@dimen/system_net_update_ll_height"
+        android:background="@drawable/setting_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/system_net_update_line_margin_top"
+                android:background="@drawable/line" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/updateTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/system_net_update_update_title_pad_left"
+                android:paddingTop="@dimen/system_net_update_update_title_pad_top"
+                android:textColor="#CCCCCCCC"
+                android:textSize="@dimen/system_net_update_update_title_textsize" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/net_update_info"
+            android:layout_width="@dimen/net_update_info_width"
+            android:layout_height="@dimen/net_update_info_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/net_update_info_margin_top"
+            android:background="@drawable/taskbar_blue"
+            android:paddingLeft="@dimen/net_update_info_pad_left"
+            android:paddingRight="@dimen/net_update_info_pad_right"
+            android:paddingTop="@dimen/net_update_info_pad_top"
+            android:singleLine="false"
+            android:textColor="#CCCCCCCC"
+            android:textSize="@dimen/net_update_info_textsize" >
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/show_progress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/show_progress_pad_top"
+            android:visibility="invisible" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/progress_tv_pad_left"
+                android:text="@string/progress"
+                android:textColor="#FFFFFFFF"
+                android:textSize="@dimen/progress_tv_textsize" />
+
+            <TextView
+                android:id="@+id/current_progress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFFFF"
+                android:textSize="@dimen/progress_tv_textsize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/system_net_ll_width"
+            android:layout_height="@dimen/system_net_ll_height"
+            android:layout_gravity="center_horizontal" >
+
+            <include layout="@layout/progress" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/immediate"
+            android:layout_width="@dimen/immediate_btn_width"
+            android:layout_height="@dimen/immediate_btn_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/immediate_btn_margin_top"
+            android:textColor="#FFFFFFFF"
+            android:textSize="@dimen/immediate_btn_textsize" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/system_net_iv_margin_top"
+                android:background="@drawable/line" >
+            </ImageView>
+
+            <include layout="@layout/bottom_back" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

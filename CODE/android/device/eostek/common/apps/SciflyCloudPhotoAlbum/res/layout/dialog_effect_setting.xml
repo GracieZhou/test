@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="230dp"
+        android:background="@drawable/effect_setting_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="30dp" >
+
+        <com.eostek.scifly.album.view.TextSelectorWidget
+            android:id="@+id/switch_effect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/line"
+            android:focusable="false"
+            android:paddingRight="10dp" />
+
+        <com.eostek.scifly.album.view.TextSelectorWidget
+            android:id="@+id/time_period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/line"
+            android:paddingRight="10dp" />
+
+        <Button
+            android:id="@+id/slideshow"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/button_selector"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/slideshow"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

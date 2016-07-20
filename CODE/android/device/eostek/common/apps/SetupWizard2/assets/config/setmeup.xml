@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+	<specVersion>
+		<major>1</major>
+		<minor>0</minor>
+	</specVersion>
+	<device>
+		<deviceType>urn:schemas-upnp-org:device:setmeup:1</deviceType>
+		<friendlyName>SetmeUp</friendlyName>
+		<manufacturer>EOSTEK</manufacturer>
+		<manufacturerURL>http://www.ieostek.com</manufacturerURL>
+		<modelDescription>EOS M805</modelDescription>
+		<modelName>EOS DONGLE</modelName>
+		<modelNumber>12</modelNumber>
+		<modelURL>http://www.ieostek.com</modelURL>
+		<serialNumber>0</serialNumber>
+		<UDN>uuid:00000000-0000-0000-0000-000000000000</UDN>
+		<UPC>123456789</UPC>
+		<serviceList>
+			<service>
+				<serviceType>urn:schemas-upnp-org:service:settingcontrol:1</serviceType>
+				<serviceId>urn:upnp-org:serviceId:settingcontrol</serviceId>
+				<controlURL>/upnp/control/settingcontrol</controlURL>
+				<eventSubURL>/upnp/event/settingcontrol</eventSubURL>
+				<SCPDURL>/settingcontrol.xml</SCPDURL>
+			</service>
+		</serviceList>
+	</device>
+</root>

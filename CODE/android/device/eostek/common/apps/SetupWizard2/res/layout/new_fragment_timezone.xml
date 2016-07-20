@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/lv_timezone"
+        android:layout_width="600dp"
+        android:layout_height="340dp"
+        android:layout_centerInParent="true"
+        android:descendantFocusability="blocksDescendants"
+        android:divider="#00000000"
+        android:dividerHeight="30dp"
+        android:listSelector="@drawable/btn_selector" />
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="data_format"><xliff:g id="format">MM月dd日 E</xliff:g></string>
+    <string name="app_name">HERTV 首页</string>
+    <string name="load_tip">加载中...</string>
+    <string name="allapp">我的应用</string>
+    <string name="back">返回</string>
+    <string name="ad_txt_default">禾联硕发展HERAN产品 连续三年荣获台湾金品质奖 .第二波节能补助 禾联液晶可补助机型出炉</string>
+    <string name="ad_playing">播放广告中...</string>
+    <string name="source_name">信源:</string>
+    <string name="signal_name">信号状态:</string>
+    <string name="nosignaltips">无信号</string>
+    <string name="default_show_city">台北</string>
+    <string name="date_format">MM月dd日 E</string>
+    <string name="shop_no_network">请检查网络设置</string>
+    <string name="mono">单声道</string>
+    <string name="sap">副语音</string>
+    <string name="stereo">立体声</string>
+    <string name="atv">有线电视</string>
+    <string name="dtv">数位电视</string>
+    <string name="noprogram_tip">当前没有电视节目，请搜台。</string>
+    <string name="app_run_error">应用程序运行出错!</string>
+    <string name="shopping_gold">,购物金$</string>
+    <string name="bonus_gold">,红利金$</string>
+    <string name="download_tips">提示</string>
+    <string name="download_ok">确定</string>
+    <string name="download_cancel">取消</string>
+    <string name="download_illegal_url">应用未安装，无效的连结，请检查网路设置，若连网正常则可能服务器忙碌中！</string>
+    <string name="download_start_downloading">开始下载！</string>
+    <string name="apk_downloading">正在下载！</string>
+    <string name="locked">当前频道已锁定</string>
+    
+    <string name="install_title">安装</string>
+    <string name="install_info">应用安装中，请稍后</string>
+
+</resources>

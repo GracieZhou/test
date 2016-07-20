@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/ad_item_linearlayout_height"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/bt1"
+        android:layout_width="@dimen/ad_item_button_width"
+        android:layout_height="@dimen/ad_item_button_height"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/a1"
+        android:scaleType="fitXY" >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/bt2"
+        android:layout_width="@dimen/ad_item_button_width"
+        android:layout_height="@dimen/ad_item_button_height"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="@dimen/ad_item_margin_top"
+        android:background="@drawable/a2"
+        android:scaleType="fitXY" >
+    </ImageButton>
+
+</LinearLayout>

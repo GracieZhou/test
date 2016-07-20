@@ -1,0 +1,131 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_padding">10dp</dimen>
+    <dimen name="activity_vertical_padding">10dp</dimen>
+    <dimen name="text_size_big">30sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+
+    <!-- home_main -->
+    <dimen name="video_width">710dp</dimen>
+    <dimen name="video_hight">400dp</dimen>
+    <dimen name="help_tip_padding">5dp</dimen>
+    <dimen name="buttion_tv_width">710dp</dimen>
+    <dimen name="buttion_tv_height">400dp</dimen>
+    <dimen name="scrollTextView_margin_left">120dp</dimen>
+    <dimen name="scrollTextView_margin_right">100dp</dimen>
+    <dimen name="scrollTextView_margin_top">435dp</dimen>
+    <dimen name="time_txt_margin_right">5dp</dimen>
+    <dimen name="time_txt_margin_top">5dp</dimen>
+    <dimen name="date_txt_margin_right">5dp</dimen>
+    <dimen name="date_txt_margin_top">0dp</dimen>
+
+    <!-- AD main -->
+    <dimen name="ad_webview_width">716dp</dimen>
+    <dimen name="ad_webview_height">530dp</dimen>
+    <dimen name="ad_webview_padding_top">96dp</dimen>
+    
+    <!-- app_main -->
+    <dimen name="app_ad_filpper_width">600dp</dimen>
+    <dimen name="app_ad_filpper_height">400dp</dimen>
+    <dimen name="app_margin_left">10dp</dimen>
+    <dimen name="app_margin_top">10dp</dimen>
+    <dimen name="app_linearlayout_width">330dp</dimen>
+    <dimen name="app_linearlayout_height">410dp</dimen>
+    <dimen name="app_imageview_myapp_height">240dp</dimen>
+    <dimen name="app_imageview_setting_height">150dp</dimen>
+    
+    <!-- media_main -->
+    <dimen name="media_imagebutton_width">300dp</dimen>
+    <dimen name="media_imagebutton_height">400dp</dimen>
+    <dimen name="media_video_margin_left">15dp</dimen>
+    <dimen name="media_margin_top">10dp</dimen>
+    <dimen name="media_margin_right">15dp</dimen>
+    
+    <!-- ad_item -->
+    <dimen name="ad_item_linearlayout_height">400dp</dimen>
+    <dimen name="ad_item_button_width">220dp</dimen>
+    <dimen name="ad_item_button_height">195dp</dimen>
+    <dimen name="ad_item_margin_top">10dp</dimen>
+    
+    <!-- allapplication -->
+    <dimen name="allapp_relativeLayout_width">340dp</dimen>
+    <dimen name="allapp_tv_margin_top">40dp</dimen>
+    <dimen name="allapp_tv_margin_left">30dp</dimen>
+    <dimen name="allapp_tv_textsize">30sp</dimen>
+    <dimen name="allapp_ad_img_width">160dp</dimen>
+    <dimen name="allapp_ad_img_heigth">358dp</dimen>
+    <dimen name="allapp_ad_img_margin_left">30dp</dimen>
+    <dimen name="allapp_ad_img_margin_top">10dp</dimen>
+    <dimen name="allapp_back_btn_heigth">50dp</dimen>
+    <dimen name="allapp_back_btn_margin_bottom">40dp</dimen>
+    <dimen name="allapp_back_btn_margin_left">30dp</dimen>
+    <dimen name="allapp_back_btn_padding_bottom">5dp</dimen>
+    <dimen name="allapp_back_btn_padding_top">5dp</dimen>
+    <dimen name="allapp_back_btn_padding_right">15dp</dimen>
+    <dimen name="allapp_back_btn_padding_left">15dp</dimen>
+    <dimen name="allapp_back_btn_textsize">15sp</dimen>
+    <dimen name="allapp_back_btnlist_selector_width">127dp</dimen>
+    <dimen name="allapp_back_btnlist_selector_height">117dp</dimen>
+    <dimen name="allapp_appgridview_widht">600dp</dimen>
+    <dimen name="allapp_appgridview_margin_rifht">20dp</dimen>
+    <dimen name="allapp_appgridview_margin_top">10dp</dimen>
+    <dimen name="allapp_appgridview_horizontalSpacing">10dp</dimen>
+    <dimen name="allapp_appgridview_verticalSpacing">10dp</dimen>
+    
+    <!-- app_ad_item -->
+    <dimen name="app_ad_item_img_width">628dp</dimen>
+    <dimen name="app_ad_item_img_heigth">418dp</dimen>
+    <dimen name="app_ad_item_img_padding">5dp</dimen>
+    
+    <!-- appicon_item -->
+    <dimen name="appicon_item_linearlayout_width">100dp</dimen>
+    <dimen name="appicon_item_linearlayout_height">100dp</dimen>
+    <dimen name="appicon_item_padding_bottom">5dp</dimen>
+    <dimen name="appicon_item_padding_top">5dp</dimen>
+    <dimen name="appicon_item_linearlayout_1_width">100dp</dimen>
+    <dimen name="appicon_item_linearlayout_1_height">80dp</dimen>
+    <dimen name="appicon_item_appicon_width">60dp</dimen>
+    <dimen name="appicon_item_appicon_height">60dp</dimen>
+    <dimen name="appicon_item_apptitle_width">100dp</dimen>
+    <dimen name="appicon_item_apptitle_textSize">12sp</dimen>
+   
+    <!-- help_item -->
+    <dimen name="help_item_textview_height">30dp</dimen>
+    <dimen name="help_item_textview_textSize">15sp</dimen>
+    
+    <!-- helper_main -->
+    <dimen name="helper_main_rl_width">400dp</dimen>
+    <dimen name="helper_main_rl_height">400dp</dimen>
+    <dimen name="helper_main_list_rl_width">160dp</dimen>
+    <dimen name="helper_main_list_selector_width">60dp</dimen>
+    <dimen name="helper_main_list_selector_height">60dp</dimen>
+    <dimen name="helper_main_list_padding_bottom">10dp</dimen>
+    <dimen name="helper_main_list_padding_left">25dp</dimen>
+    <dimen name="helper_main_list_padding_right">25dp</dimen>
+    <dimen name="helper_main_list_padding_top">10dp</dimen>
+    <dimen name="helper_main_tip_detail_width">240dp</dimen>
+    <dimen name="helper_main_tip_detail_padding_left">40dp</dimen>
+    
+    <!-- main -->
+    <dimen name="main_help_tip_width">145dp</dimen>
+    <dimen name="main_help_tip_height">99dp</dimen>
+    <dimen name="main_padding_left">10dp</dimen>
+    <dimen name="main_padding_right">10dp</dimen>
+    <dimen name="main_flipper_width">220dp</dimen>
+    <dimen name="main_flipper_height">410dp</dimen>
+    <dimen name="main_flipper_padding_bottom">10dp</dimen>
+    <dimen name="main_loading_margin_left">40dp</dimen>
+    <dimen name="main_loading_margin_top">180dp</dimen>
+    
+    <!-- shop_main -->
+    <dimen name="shop_main_fl_height">400dp</dimen>
+    <dimen name="shop_main_fl_margin_left">10dp</dimen>
+    <dimen name="shop_main_fl_margin_right">10dp</dimen>
+    <dimen name="shop_main_fl_margin_top">10dp</dimen>
+    
+    
+    
+    
+
+</resources>

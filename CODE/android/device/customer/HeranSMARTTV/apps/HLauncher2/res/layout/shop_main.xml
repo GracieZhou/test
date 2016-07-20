@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1280dp"
+    android:layout_height="720dp"
+    android:orientation="vertical" 
+    android:background="#CCCCCC">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/webviewcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <FrameLayout
+                android:layout_width="797dp"
+                android:layout_height="700dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/home_item_bg" >
+
+                <EOSWebView
+                    android:id="@+id/webview_01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:visibility="invisible" >
+                </EOSWebView>
+
+                <ProgressBar
+                    android:id="@+id/pgb_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="463dp"
+                android:layout_height="700dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="7dp"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="463dp"
+                    android:layout_height="347dp"
+                    android:background="@drawable/home_item_bg" >
+
+                    <EOSWebView
+                        android:id="@+id/webview_02"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@android:color/transparent"
+                        android:focusable="false"
+                        android:visibility="invisible" />
+
+                    <ProgressBar
+                        android:id="@+id/pgb_02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:orientation="vertical" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="463dp"
+                    android:layout_height="347dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/home_item_bg" >
+
+                    <EOSWebView
+                        android:id="@+id/webview_03"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@android:color/transparent"
+                        android:focusable="false"
+                        android:visibility="invisible" />
+
+                    <ProgressBar
+                        android:id="@+id/pgb_03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:orientation="vertical" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/focusviewcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <ImageButton
+                android:id="@+id/web_bt_01"
+                android:layout_width="797dp"
+                android:layout_height="700dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="6dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"/>"
+
+            <LinearLayout
+                android:layout_width="463dp"
+                android:layout_height="700dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="7dp"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/web_bt_02"
+                    android:layout_width="463dp"
+                    android:layout_height="347dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY" >
+                </ImageButton>
+
+                <ImageButton
+                    android:id="@+id/web_bt_03"
+                    android:layout_width="463dp"
+                    android:layout_height="347dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <com.heran.launcher2.util.FocusView
+        android:id="@+id/shop_selector"
+        android:layout_width="@dimen/buttion_tv_width"
+        android:layout_height="@dimen/buttion_tv_height"
+        android:background="@drawable/focus_home"
+        android:visibility="gone" />
+
+</RelativeLayout>

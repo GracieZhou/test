@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app1="http://schemas.android.com/apk/res/com.eostek.scifly.messagecenter"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cotent_area_height"
+    android:background="@color/tanslucent_half_balck" >
+
+    <com.jess.ui.TwoWayGridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:gravity="center"
+        app:numColumns="auto_fit"
+        app:numRows="auto_fit"
+        app:rowHeight="@dimen/cotent_area_height"
+        app:scrollDirectionLandscape="horizontal"
+        android:scrollbars="none"
+        app:stretchMode="none" />
+
+</LinearLayout>

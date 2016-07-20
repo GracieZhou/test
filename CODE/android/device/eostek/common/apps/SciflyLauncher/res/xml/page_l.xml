@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MetroPageList>
+  <MetroPage title="影视库" appCategory="0">
+    <MetroInfo id="2" title="七日新增" appCategory="0" positionX="0" positionY="0" widthSize="400" heightSize="610">
+      <typeTitle>影视库</typeTitle>
+      <clsName>com.eostek.wasuwidgethost.MovieWidgetProvider</clsName>
+      <pkgName>com.eostek.scifly.widget</pkgName>
+      <itemType>3</itemType>
+      <iconPath></iconPath>
+      <iconPathF></iconPathF>
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg />
+    </MetroInfo>
+    <MetroInfo id="3" title="电视剧" appCategory="0" positionX="410" positionY="0" widthSize="610" heightSize="300">
+      <typeTitle>影视库</typeTitle>
+      <clsName>cn.com.wasu.main.WasuTVMainActivity</clsName>
+      <pkgName>cn.com.wasu.main</pkgName>
+      <itemType>1</itemType>
+      <iconPath>video_tv.png</iconPath>
+      <iconPathF></iconPathF>
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>http://html5-epg.wasu.tv/android_tv2.0_auth/widget.jsp?widgetUrl=aHR0cDovL2h0bWw1LWVwZy53YXN1LnR2L3RlbGVwbGF5LnNodG1s</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="4" title="时尚" appCategory="0" positionX="410" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>影视库</typeTitle>
+      <clsName>cn.com.wasu.main.WasuTVMainActivity</clsName>
+      <pkgName>cn.com.wasu.main</pkgName>
+      <itemType>1</itemType>
+      <iconPath>video_fansion.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>http://html5-epg.wasu.tv/android_tv2.0_auth/widget.jsp?widgetUrl=aHR0cDovL2h0bWw1LWVwZy53YXN1LnR2L2Zhc2hpb24uc2h0bWw=</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="5" title="电影" appCategory="0" positionX="720" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>影视库</typeTitle>
+      <clsName>cn.com.wasu.main.WasuTVMainActivity</clsName>
+      <pkgName>cn.com.wasu.main</pkgName>
+      <itemType>1</itemType>
+      <iconPath>video_icon_movie.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>http://html5-epg.wasu.tv/android_tv2.0_auth/widget.jsp?widgetUrl=aHR0cDovL2h0bWw1LWVwZy53YXN1LnR2L21vdmllLnNodG1s</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="6" title="体育" appCategory="0" positionX="1030" positionY="0" widthSize="400" heightSize="610">
+      <typeTitle>影视库</typeTitle>
+      <clsName>cn.com.wasu.main.WasuTVMainActivity</clsName>
+      <pkgName>cn.com.wasu.main</pkgName>
+      <itemType>1</itemType>
+      <iconPath>video_sport.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>http://html5-epg.wasu.tv/android_tv2.0_auth/widget.jsp?widgetUrl=aHR0cDovL2h0bWw1LWVwZy53YXN1LnR2L3Nwb3J0cy5zaHRtbA==</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="7" title="点点乐园" appCategory="0" positionX="1440" positionY="0" widthSize="610" heightSize="300">
+      <typeTitle>影视库</typeTitle>
+      <clsName>cn.com.wasu.main.WasuTVMainActivity</clsName>
+      <pkgName>cn.com.wasu.main</pkgName>
+      <itemType>1</itemType>
+      <iconPath>video_diandian.png</iconPath>
+      <iconPathF></iconPathF>
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>http://html5-epg.wasu.tv/android_tv2.0_auth/widget.jsp?widgetUrl=aHR0cDovL2h0bWw1LWVwZy53YXN1LnR2L2RpYW5kaWFuLnNodG1s</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="8" title="新闻" appCategory="0" positionX="1440" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>影视库</typeTitle>
+      <clsName>cn.com.wasu.main.WasuTVMainActivity</clsName>
+      <pkgName>cn.com.wasu.main</pkgName>
+      <itemType>1</itemType>
+      <iconPath>video_news.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>http://html5-epg.wasu.tv/android_tv2.0_auth/widget.jsp?widgetUrl=aHR0cDovL2h0bWw1LWVwZy53YXN1LnR2L25ld3Muc2h0bWw=</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="9" title="音乐" appCategory="0" positionX="1750" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>影视库</typeTitle>
+      <clsName>cn.com.wasu.main.WasuTVMainActivity</clsName>
+      <pkgName>cn.com.wasu.main</pkgName>
+      <itemType>1</itemType>
+      <iconPath>video_music.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>http://html5-epg.wasu.tv/android_tv2.0_auth/widget.jsp?widgetUrl=aHR0cDovL2h0bWw1LWVwZy53YXN1LnR2L211c2ljLnNodG1s</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="10" title="高清" appCategory="0" positionX="2060" positionY="0" widthSize="400" heightSize="610">
+      <typeTitle>影视库</typeTitle>
+      <clsName>cn.com.wasu.main.WasuTVMainActivity</clsName>
+      <pkgName>cn.com.wasu.main</pkgName>
+      <itemType>1</itemType>
+      <iconPath>video_high.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>http://html5-epg.wasu.tv/android_tv2.0_auth/widget.jsp?widgetUrl=aHR0cDovL2h0bWw1LWVwZy53YXN1LnR2L0hELnNodG1s</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="10" title="娱乐" appCategory="0" positionX="2470" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>影视库</typeTitle>
+      <clsName>cn.com.wasu.main.WasuTVMainActivity</clsName>
+      <pkgName>cn.com.wasu.main</pkgName>
+      <itemType>1</itemType>
+      <iconPath>video_yule.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>http://html5-epg.wasu.tv/android_tv2.0_auth/widget.jsp?widgetUrl=aHR0cDovL2h0bWw1LWVwZy53YXN1LnR2L2FtdS5zaHRtbA==</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="10" title="栏目" appCategory="0" positionX="2470" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>影视库</typeTitle>
+      <clsName>cn.com.wasu.main.WasuTVMainActivity</clsName>
+      <pkgName>cn.com.wasu.main</pkgName>
+      <itemType>1</itemType>
+      <iconPath>video_column.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>http://html5-epg.wasu.tv/android_tv2.0_auth/widget.jsp?widgetUrl=aHR0cDovL2h0bWw1LWVwZy53YXN1LnR2L25vZGVfNTMwMzEuc2h0bWw=</StrFlg>
+    </MetroInfo>
+  </MetroPage>
+  <MetroPage title="应用" appCategory="1">
+    <MetroInfo id="0" title="统帅应用市场" appCategory="1" positionX="0" positionY="0" widthSize="610" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>tv.tv9ikan.app.ui.MainFrame</clsName>
+      <pkgName>tv.tv9ikan.app</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_appstore.jpg</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg />
+    </MetroInfo>
+    <MetroInfo id="1" title="" appCategory="1" positionX="0" positionY="310" widthSize="610" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.llauncher.ui.AllAppActivity</clsName>
+      <pkgName>com.eostek.llauncher</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_allapp.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg></StrFlg>
+    </MetroInfo>
+    <MetroInfo id="2" title="" appCategory="1" positionX="620" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.scifly.messagecenter.MainActivity</clsName>
+      <pkgName>com.eostek.scifly.messagecenter</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_messages.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg />
+    </MetroInfo>
+    <MetroInfo id="3" title="" appCategory="1" positionX="620" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>cn.com.wasu.main.WasuTVMainActivity</clsName>
+      <pkgName>cn.com.wasu.main</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_hs.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg />
+    </MetroInfo>
+    <MetroInfo id="4" title="" appCategory="1" positionX="930" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.biaoqi.filefly.STBFileFlyMainActivity</clsName>
+      <pkgName>com.biaoqi.filefly</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_isynergy.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg />
+    </MetroInfo>
+    <MetroInfo id="5" title="" appCategory="1" positionX="930" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.scifly.video.download.DownloadVideoListActivity</clsName>
+      <pkgName>com.eostek.scifly.video</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_download.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg />
+    </MetroInfo>
+    <MetroInfo id="6" title="" appCategory="1" positionX="1240" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.history.MainActivity</clsName>
+      <pkgName>com.eostek.history</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_history.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg />
+    </MetroInfo>
+    <MetroInfo id="7" title="" appCategory="1" positionX="1240" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.imusic.kalaok2.WelcomeActivity</clsName>
+      <pkgName>com.imusic.kalaok2</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_ktv.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg />
+    </MetroInfo>
+    <MetroInfo id="8" title="媒体播放器" appCategory="1" positionX="1550" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.hrtvbic.usb.S6A918.MainActivity</clsName>
+      <pkgName>com.hrtvbic.usb.S6A918</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_mediabrowser.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg />
+    </MetroInfo>
+    <MetroInfo id="9" title="微信互动" appCategory="1" positionX="1550" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.im.MainActivity</clsName>
+      <pkgName>com.eostek.im</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_wechat.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>favority</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="10" title="内存清理" appCategory="1" positionX="1860" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.wasuwidgethost.CacheHandleProvider</clsName>
+      <pkgName>com.eostek.scifly.widget</pkgName>
+      <itemType>3</itemType>
+      <iconPath></iconPath>
+      <iconPathF></iconPathF>
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg />
+    </MetroInfo>
+    <MetroInfo id="11" title="主题" appCategory="1" positionX="1860" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>应用</typeTitle>
+      <clsName>com.eostek.sciflyui.thememanager.ThemeDisplayAct</clsName>
+      <pkgName>com.eostek.sciflyui.thememanager</pkgName>
+      <itemType>1</itemType>
+      <iconPath>app_icon_theme.png</iconPath>
+      <iconPathF></iconPathF>
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg />
+    </MetroInfo>
+  </MetroPage>
+  <MetroPage title="设置" appCategory="2">
+    <MetroInfo id="0" title="有线网络设置" appCategory="2" positionX="0" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.EthernetSettingsActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_net.png</iconPath>
+      <iconPathF></iconPathF>
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>com.android.settings.ethernet.EthernetSettings</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="1" title="应用管理" appCategory="2" positionX="0" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.Settings$ManageApplicationsActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_app.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>com.android.settings.applications.ManageApplications</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="2" title="无线网络设置" appCategory="2" positionX="310" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.Settings$WifiSettingsActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_wifi.png</iconPath>
+      <iconPathF></iconPathF>
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>com.android.settings.ethernet.WifiSettingsActivity</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="3" title="更多设置" appCategory="2" positionX="310" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.Settings$WirelessSettingsActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_more.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>com.android.settings.WirelessSettings</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="4" title="系统升级" appCategory="2" positionX="620" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.update.SystemNetUpdateActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_update.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>com.android.settings.update.UpdateSettings</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="5" title="城市设置" appCategory="2" positionX="620" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.Settings$CitySettingsActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_city.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>com.android.settings.city.CitySettingLogin</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="6" title="日期时间设置" appCategory="2" positionX="930" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.Settings$DateTimeSettingsActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_time.png</iconPath>
+      <iconPathF></iconPathF>
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>com.android.settings.DateTimeSettings</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="7" title="反馈" appCategory="2" positionX="930" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.BugreportActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_log.png</iconPath>
+      <iconPathF />
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>com.android.settings.DevelopmentSettings</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="8" title="关于" appCategory="2" positionX="1240" positionY="0" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.Settings$DeviceInfoSettingsActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_about.png</iconPath>
+      <iconPathF></iconPathF>
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>com.android.settings.DeviceInfoSettings</StrFlg>
+    </MetroInfo>
+    <MetroInfo id="9" title="备份与重置" appCategory="2" positionX="1240" positionY="310" widthSize="300" heightSize="300">
+      <typeTitle>设置</typeTitle>
+      <clsName>com.android.settings.Settings$PrivacySettingsActivity</clsName>
+      <pkgName>com.android.settings</pkgName>
+      <itemType>1</itemType>
+      <iconPath>setting_icon_reset.png</iconPath>
+      <iconPathF></iconPathF>
+      <apkUrl />
+      <videoFlg>0</videoFlg>
+      <StrFlg>com.android.settings.DeviceInfoSettings</StrFlg>
+    </MetroInfo>
+  </MetroPage>
+</MetroPageList>

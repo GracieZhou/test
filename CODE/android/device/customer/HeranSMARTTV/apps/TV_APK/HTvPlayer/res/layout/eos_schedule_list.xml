@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/eos_schedule_list_layout_width"
+    android:layout_height="@dimen/eos_schedule_list_layout_height"
+    android:layout_gravity="center"
+    android:background="@drawable/setting_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/eos_schedule_list_padding" >
+
+    <TextView
+        android:id="@+id/pvr_lcn_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/schedule_list"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/pvr_lcn_textview_textSize1" />
+
+    <LinearLayout
+        android:layout_width="@dimen/pvr_lcn_textview_layout_width1"
+        android:layout_height="@dimen/pvr_lcn_textview_layout_height"
+        android:layout_below="@id/pvr_lcn_textview"
+        android:layout_marginTop="@dimen/pvr_lcn_textview_layout_marginTop"
+        android:background="@drawable/line" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/title_schedule"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pvr_lcn_textview"
+        android:layout_marginTop="@dimen/title_schedule1_layout_marginTop"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/title_schedule1_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/title_schedule1_layout_marginLeft"
+            android:gravity="center"
+            android:text="@string/schedule_starttime"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="@dimen/title_schedule2_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/title_schedule2_layout_marginLeft"
+            android:gravity="center"
+            android:text="@string/schedule_duration"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="@dimen/title_schedule3_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/title_schedule3_layout_width"
+            android:gravity="center"
+            android:text="@string/schedule_number"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_schedule3_textSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="@dimen/title_schedule4_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/title_schedule4_layout_marginLeft"
+            android:gravity="center"
+            android:text="@string/schedule_channel_name"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_schedule4_textSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="@dimen/title_schedule5_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/title_schedule5_layout_marginLeft"
+            android:gravity="center"
+            android:text="@string/schedule_event_name"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_schedule5_textSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/title_schedule6_layout_marginLeft"
+            android:gravity="center"
+            android:text="@string/schedule_type"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_schedule6_textSize"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_schedule"
+        android:layout_marginTop="@dimen/title_schedule_content_layout_marginTop" >
+
+        <ImageView
+            android:id="@+id/selector"
+            android:layout_width="@dimen/content_selector_layout_width"
+            android:layout_height="@dimen/content_selector_layout_height"
+            android:background="@drawable/btnbg"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/schedule_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/content_schedule_listview_layout_height"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:dividerHeight="@dimen/content_schedule_listview_dividerHeight"
+            android:scrollbars="none" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/pvr_delete_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/pvr_delete_button_text_layout_marginRight"
+            android:drawableLeft="@drawable/pvr_tips_red"
+            android:drawablePadding="@dimen/pvr_delete_button_text_drawablePadding"
+            android:gravity="center"
+            android:text="@string/delete"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/pvr_delete_button_text_textSize" />
+    </LinearLayout>
+
+</RelativeLayout>

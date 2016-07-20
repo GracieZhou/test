@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">任務切換</string>
+    <string name="action_settings">設置</string>
+    <string name="tab_all">所有檔</string>
+    <string name="tab_video">本地視頻</string>
+    <string name="tab_photo">本地圖片</string>
+    <string name="tab_music">本地音樂</string>
+    <string name="tip_title">USB設備已連接</string>
+    <string name="not_tip">不再顯示!</string>
+    <string name="related_application_not_found">抱歉,應用未找到!</string>
+    <string name="exit_app">退出應用</string>
+    <string name="one_key_clean">一鍵清理進程</string>
+    <string name="bkground_count">後臺有%d個進程</string>
+    <string name="get_back_theads">獲取後臺執行緒</string>
+    <string name="memory_used">記憶體已用</string>
+    <string name="key_up_tip">按  \"上\" 鍵可退出應用。</string>
+    <string name="remove_usb">安全刪除存放裝置</string>
+    <string name="remove_usb_count">%d個設備可刪除</string>
+    <string name="exit_tip">退出應用</string>
+    <string name="app_text">application name</string>
+    <string name="report_bug">錯誤回報</string>
+    <string name="all_app_text">全部應用</string>
+    <string name="history_text">歷史記錄</string>
+    <string name="setting_text">系統設置</string>
+    <string name="media_text">本地媒體</string>
+    <string name="quality_text">畫質調整</string>
+    <string name="voice_controller">語音搜索</string>
+    <string name="delete_message">安全刪除硬體</string>
+    <string name="delete_tip">請選擇要安全刪除的硬體,按確定</string>
+    <string name="cancel">關閉</string>
+    <string name="start_app_fail">打開應用失敗...</string>
+    <string name="remove_disk_default">USB存儲設備</string>
+    <string name="remove_external_sdcard_default">外置 TFCard</string>
+    <string name="remove_unknown_storage_default">未知存儲設備</string>
+    <string name="unmounted">已彈出</string>
+
+</resources>

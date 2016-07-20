@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">History</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tab_today">Today</string>
+    <string name="tab_yesterday">Yesterday</string>
+    <string name="tab_7_day_ago">This Week</string>
+    <string name="tab_30_day_ago">This month</string>
+    <string name="tab_greater_than_30_day"> > 1 month</string>
+    <string name="tab_clean_history">Clean All</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="leftnav_bar_option_label">Options</string>
+    <string name="bullet">•</string>
+    <string name="folder_is_empty">There is nothing to be displayed here.</string>
+    <string name="advice_header">Here are some things you may try:</string>
+    <string name="advice_insert_usb">Connect a USB device.</string>
+    <string name="advice_navigate">Navigate to a folder or album that contains photos.</string>
+    <string name="advice_use_filter_bar">Use the filter bar above to display all available sources.</string>
+    <string name="advice_add_account">Add an account.</string>
+    <string name="advice_follow">Follow more people on Picasa or Flickr using your web browser.</string>
+    <string name="advice_ask_to_share">Ask people to share albums with you on Picasa.</string>
+    <string name="advice_switch_to_network">Switch to My photos.</string>
+    <string name="advice_switch_to_local">Switch to Local media.</string>
+    <string name="advice_no_usb">No USB storage detected.</string>
+    <string name="advice_no_history">No history record detected.</string>
+    <string name="folder_error">There were some problems with obtaining the content. Please try again later.</string>
+    <string name="error_could_not_launch">Could not launch the requested item.</string>
+    <string name="aggregate_longer_than_expected">This is taking slightly longer than expected...</string>
+    <string name="more">More</string>
+    <string name="warning_clean_history">All history will be cleared</string>
+    <string name="hint_about_file">"%s" is not exist</string>
+    <string name="media_browser">Media</string>
+    <string name="apps">Apk</string>
+    <string name="chrome">Browser</string>
+
+    <string name="local_media">Local Media</string>
+    <string name="vod_media">Vod Media</string>
+    <string name="time_not_ready">Date and Time not ready,Please run later.</string>
+</resources>

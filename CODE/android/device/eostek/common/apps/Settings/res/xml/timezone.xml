@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <timezone id="Pacific/Majuro" name="Marshall Islands" gmt="GMT+12:00"></timezone>
+    <timezone id="Pacific/Midway" name="Midway Island" gmt="GMT-11:00"></timezone>
+    <timezone id="Pacific/Honolulu" name="Hawaii" gmt="GMT-10:00"></timezone>
+    <timezone id="America/Anchorage" name="Alaska" gmt="GMT-09:00"></timezone>
+    <timezone id="America/Los_Angeles" name="Pacific Time" gmt="GMT-08:00"></timezone>
+    <timezone id="America/Tijuana" name="Tijuana" gmt="GMT-08:00"></timezone>
+    <timezone id="America/Phoenix" name="Arizona" gmt="GMT-07:00"></timezone>
+    <timezone id="America/Chihuahua" name="Chihuahua" gmt="GMT-07:00"></timezone>
+    <timezone id="America/Denver" name="Mountain Time" gmt="GMT-07:00"></timezone>
+    <timezone id="America/Costa_Rica" name="Central America" gmt="GMT-06:00"></timezone>
+    <timezone id="America/Chicago" name="Central Time" gmt="GMT-06:00"></timezone>
+    <timezone id="America/Mexico_City" name="Mexico City" gmt="GMT-06:00"></timezone>
+    <timezone id="America/Regina" name="Saskatchewan" gmt="GMT-06:00"></timezone>
+    <timezone id="America/Bogota" name="Bogota" gmt="GMT-05:00"></timezone>
+    <timezone id="America/New_York" name="Eastern Time" gmt="GMT-05:00"></timezone>
+    <timezone id="America/Caracas" name="Venezuela" gmt="GMT-04:30"></timezone>
+    <timezone id="America/Barbados" name="Atlantic Time (Barbados)" gmt="GMT-04:00"></timezone>
+    <timezone id="America/Manaus" name="Manaus" gmt="GMT-04:00"></timezone>
+    <timezone id="America/Santiago" name="Santiago" gmt="GMT-03:00"></timezone>
+    <timezone id="America/St_Johns" name="Newfoundland" gmt="GMT-03:30"></timezone>
+    <timezone id="America/Sao_Paulo" name="Brasilia" gmt="GMT-02:00"></timezone>
+    <timezone id="America/Argentina/Buenos_Aires" name="Buenos Aires" gmt="GMT-03:00"></timezone>
+    <timezone id="America/Godthab" name="Greenland" gmt="GMT-03:00"></timezone>
+    <timezone id="America/Montevideo" name="Montevideo" gmt="GMT-02:00"></timezone>
+    <timezone id="Atlantic/South_Georgia" name="Mid-Atlanti" gmt="GMT-02:00"></timezone>
+    <timezone id="Atlantic/Azores" name="Azores" gmt="GMT-01:00"></timezone>
+    <timezone id="Atlantic/Cape_Verde" name="Cape Verde Islands" gmt="GMT-01:00"></timezone>
+    <timezone id="Africa/Casablanca" name="Casablanca" gmt="GMT+00:00"></timezone>
+    <timezone id="Europe/London" name="London, Dublin" gmt="GMT+00:00"></timezone>
+    <timezone id="Europe/Amsterdam" name="Amsterdam, Berlin" gmt="GMT+01:00"></timezone>
+    <timezone id="Europe/Belgrade" name="Belgrade" gmt="GMT+01:00"></timezone>
+    <timezone id="Europe/Brussels" name="Brussels" gmt="GMT+01:00"></timezone>
+    <timezone id="Europe/Sarajevo" name="Sarajevo" gmt="GMT+01:00"></timezone>
+    <timezone id="Africa/Windhoek" name="Windhoek" gmt="GMT+02:00"></timezone>
+    <timezone id="Africa/Brazzaville" name="W. Africa Time" gmt="GMT+01:00"></timezone>
+    <timezone id="Asia/Amman" name="Amman, Jordan" gmt="GMT+02:00"></timezone>
+    <timezone id="Europe/Athens" name="Athens, Istanbul" gmt="GMT+02:00"></timezone>
+    <timezone id="Asia/Beirut" name="Beirut, Lebanon" gmt="GMT+02:00"></timezone>
+    <timezone id="Africa/Cairo" name="Cairo" gmt="GMT+02:00"></timezone>
+    <timezone id="Europe/Helsinki" name="Helsinki" gmt="GMT+02:00"></timezone>
+    <timezone id="Asia/Jerusalem" name="Jerusalem" gmt="GMT+02:00"></timezone>
+    <timezone id="Europe/Minsk" name="Minsk" gmt="GMT+03:00"></timezone>
+    <timezone id="Africa/Harare" name="Harare" gmt="GMT+02:00"></timezone>
+    <timezone id="Asia/Baghdad" name="Baghdad" gmt="GMT+03:00"></timezone>
+    <timezone id="Europe/Moscow" name="Moscow" gmt="GMT+04:00"></timezone>
+    <timezone id="Asia/Kuwait" name="Kuwait" gmt="GMT+03:00"></timezone>
+    <timezone id="Africa/Nairobi" name="Nairobi" gmt="GMT+03:00"></timezone>
+    <timezone id="Asia/Tehran" name="Tehran" gmt="GMT+03:30"></timezone>
+    <timezone id="Asia/Baku" name="Baku" gmt="GMT+04:00"></timezone>
+    <timezone id="Asia/Tbilisi" name="Tbilisi" gmt="GMT+04:00"></timezone>
+    <timezone id="Asia/Yerevan"  name="Yerevan" gmt="GMT+04:00"></timezone>
+    <timezone id="Asia/Dubai" name="Dubai" gmt="GMT+04:00"></timezone>
+    <timezone id="Asia/Kabul" name="Kabul" gmt="GMT+04:30"></timezone>
+    <timezone id="Asia/Karachi" name="Islamabad, Karachi" gmt="GMT+05:00"></timezone>
+    <timezone id="Asia/Oral" name="Ural'sk" gmt="GMT+05:00"></timezone>
+    <timezone id="Asia/Yekaterinburg" name="Yekaterinburg" gmt="GMT+06:00"></timezone>
+    <timezone id="Asia/Calcutta" name="Kolkata" gmt="GMT+05:30"></timezone>
+    <timezone id="Asia/Colombo" name="Sri Lanka" gmt="GMT+05:30"></timezone>
+    <timezone id="Asia/Katmandu" name="Kathmandu" gmt="GMT+05:45"></timezone>
+    <timezone id="Asia/Almaty" name="Astana" gmt="GMT+06:00"></timezone>
+    <timezone id="Asia/Rangoon" name="Yangon" gmt="GMT+06:30"></timezone>
+    <timezone id="Asia/Krasnoyarsk" name="Krasnoyarsk" gmt="GMT+08:00"></timezone>
+    <timezone id="Asia/Bangkok" name="Bangkok" gmt="GMT+07:00"></timezone>
+    <timezone id="Asia/Shanghai" name="Beijing" gmt="GMT+08:00"></timezone>
+    <timezone id="Asia/Hong_Kong" name="Hong Kong" gmt="GMT+08:00"></timezone>
+    <timezone id="Asia/Irkutsk" name="Irkutsk" gmt="GMT+09:00"></timezone>
+    <timezone id="Asia/Kuala_Lumpur" name="Kuala" gmt="GMT+08:00"></timezone>
+    <timezone id="Australia/Perth" name="Perth" gmt="GMT+08:00"></timezone>
+    <timezone id="Asia/Taipei" name="Taipei" gmt="GMT+08:00"></timezone>
+    <timezone id="Asia/Seoul" name="Seoul" gmt="GMT+09:00"></timezone>
+    <timezone id="Asia/Tokyo" name="Tokyo, Osaka" gmt="GMT+09:00"></timezone>
+    <timezone id="Asia/Yakutsk" name="Yakutsk" gmt="GMT+10:00"></timezone>
+    <timezone id="Australia/Adelaide" name="Adelaide" gmt="GMT+10:30"></timezone>
+    <timezone id="Australia/Darwin" name="Darwin" gmt="GMT+09:30"></timezone>
+    <timezone id="Australia/Brisbane" name="Brisbane" gmt="GMT+10:00"></timezone>
+    <timezone id="Australia/Hobart" name="Hobart" gmt="GMT+11:00"></timezone>
+    <timezone id="Australia/Sydney" name="Sydney, Canberra" gmt="GMT+11:00"></timezone>
+    <timezone id="Asia/Vladivostok" name="Vladivostok" gmt="GMT+11:00"></timezone>
+    <timezone id="Pacific/Guam" name="Guam" gmt="GMT+10:00"></timezone>
+    <timezone id="Asia/Magadan" name="Magadan" gmt="GMT+12:00"></timezone>
+    <timezone id="Pacific/Auckland" name="Auckland" gmt="GMT+13:00"></timezone>
+    <timezone id="Pacific/Fiji" name="Fiji" gmt="GMT+12:00"></timezone>
+    <timezone id="Pacific/Tongatapu" name="Tonga" gmt="GMT+13:00"></timezone>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<packages>
+    <app pkg="com.google.android.voicesearch"/>
+    <app pkg="com.google.android.gms"/>
+    <app pkg="com.chaozh.iReaderFree"/>
+</packages>

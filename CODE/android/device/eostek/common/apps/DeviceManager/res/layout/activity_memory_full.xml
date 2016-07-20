@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="600dp"
+    android:layout_height="310dp"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:text="@string/act_tv_tip_disk_fulled"
+            android:textSize="30sp" />
+        
+        <LinearLayout 
+            android:layout_width="460dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_clear"
+            style="@style/Scifly.Button.Normal"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:textSize="24sp"
+            android:text="@string/act_btn_clean_memory" />
+
+        <Button
+            android:id="@+id/btn_check"
+            style="@style/Scifly.Button.Normal"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:textSize="24sp"
+            android:layout_marginLeft="50dp"
+            android:text="@string/act_btn_view_disk_space" />
+        </LinearLayout>
+
+</LinearLayout>

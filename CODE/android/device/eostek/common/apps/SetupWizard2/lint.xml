@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="CommitTransaction" severity="ignore" />
+    <issue id="InflateParams" severity="ignore" />
+    <issue id="ResourceAsColor">
+        <ignore path="src/com/eostek/setupwizard/WizardHolder.java" />
+    </issue>
+    <issue id="ViewHolder">
+        <ignore path="src/com/eostek/setupwizard/TitleAdapter.java" />
+    </issue>
+</lint>

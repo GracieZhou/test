@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/channelitem_layout_height"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/dtvprogram_num"
+        android:layout_width="@dimen/dtvprogram_num_layout_width"
+        android:layout_height="@dimen/dtvprogram_num_layout_height"
+        android:layout_marginLeft="@dimen/dtvprogram_num_layout_marginLeft"
+        android:layout_marginRight="@dimen/dtvprogram_num_layout_marginRight"
+        android:gravity="center_vertical"
+        android:textColor="#CCCCCC"
+        android:textSize="@dimen/dtvprogram_num_textSize" />
+
+    <TextView
+        android:id="@+id/dtvprogram_name"
+        android:layout_width="@dimen/dtvprogram_name_layout_width"
+        android:layout_height="@dimen/dtvprogram_name_layout_height"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/dtvprogram_name_textSize" />
+
+</LinearLayout>

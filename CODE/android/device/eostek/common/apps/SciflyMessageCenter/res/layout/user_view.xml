@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:alwaysDrawnWithCache="true"
+    android:scrollbarAlwaysDrawHorizontalTrack="false"
+    android:scrollbarAlwaysDrawVerticalTrack="false"
+    android:scrollbars="none" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <!-- <GridView -->
+        <!-- android:id="@+id/sender_gridview" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_gravity="center" -->
+        <!-- android:columnWidth="160dp" -->
+        <!-- android:gravity="center" -->
+        <!-- android:horizontalSpacing="5dip" -->
+        <!-- android:listSelector="@android:color/transparent" -->
+        <!-- android:scrollbarAlwaysDrawHorizontalTrack="true" -->
+        <!-- android:scrollbarAlwaysDrawVerticalTrack="true" -->
+        <!-- android:stretchMode="none" /> -->
+
+        <com.eostek.scifly.messagecenter.ui.SenderContainer
+            android:id="@+id/sender_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="20"
+            android:orientation="horizontal" />
+    </FrameLayout>
+
+</HorizontalScrollView>

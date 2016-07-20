@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="550dp"
+    android:layout_height="@dimen/atv_auto_ll_height"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tuning_title"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/titlebar_bg1"
+        android:gravity="center"
+        android:text="@string/atv_autotuning_title"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/atv_auto_tunning_title_tv_textsize" />
+
+    <LinearLayout
+        android:id="@+id/dtv_manualtuning_content"
+        android:layout_width="fill_parent"
+        android:layout_height="270dp"
+        android:background="@drawable/content_bg"
+        android:orientation="vertical" >
+
+	    <LinearLayout  
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/atv_auto_line_ll_margin_top1" >
+	
+	        <TextView
+	            android:layout_width="192dp"
+	            android:layout_height="wrap_content"
+	            android:gravity="right"
+	            android:paddingRight="35dp"
+	            android:text="@string/atv_count"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/atv_auto_count_textsize" />
+	
+	        <TextView
+	            android:id="@+id/atv_count_txt"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="left"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/atv_auto_count_textsize" />
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/atv_auto_line_ll_margin_top1" >
+	
+	        <TextView
+	            android:layout_width="192dp"
+	            android:layout_height="wrap_content"
+	            android:gravity="right"
+	            android:paddingRight="35dp"
+	            android:text="@string/atv_frequency"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/atv_auto_count_textsize" />
+	
+	        <TextView
+	            android:id="@+id/atv_frequency_txt"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="left"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/atv_auto_count_textsize" />
+	    </LinearLayout>
+	
+	     <FrameLayout
+	         android:layout_width="wrap_content"
+             android:layout_height="60dp"
+             android:paddingRight="30dp"
+             android:layout_marginTop="@dimen/atv_auto_line_ll_margin_top">
+	        
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="@dimen/atv_auto_line_ll_margin_top" 
+		        android:visibility="gone">
+		
+		        <TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:gravity="right"
+		            android:text="@string/atv_curchannel"
+		            android:textColor="@android:color/white"
+		            android:textSize="@dimen/atv_auto_count_textsize"
+		            android:visibility="gone" />
+		
+		        <TextView
+		            android:id="@+id/atv_curchannel_txt"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:gravity="center"
+		            android:textColor="@android:color/white"
+		            android:textSize="@dimen/atv_auto_count_textsize"
+		            android:visibility="gone" />
+		    </LinearLayout>
+		
+		    <RelativeLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" >
+		        
+		        <include
+                    android:id="@+id/item_percent_ll"
+                    layout="@layout/custom_auto_tuning_seek_bar"/>
+                
+		    </RelativeLayout>
+	     </FrameLayout>
+	
+	    <Button
+	        android:id="@+id/atv_cancel_tuning_btn"
+	        android:layout_width="@dimen/atv_cancel_tuning_btn_width"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginTop="30dp"
+	        android:background="@drawable/bar_bg_btn_grey"
+	        android:text="@string/cancel"
+	        android:textColor="@android:color/white"
+	        android:textSize="@dimen/atv_auto_count_textsize" />
+    
+    </LinearLayout>
+</LinearLayout>

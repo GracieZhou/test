@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:id="@+id/reset_info"
+        android:layout_width="@dimen/master_clear_dialog_width"
+        android:layout_height="@dimen/master_clear_dialog_height"
+        android:background="@drawable/reset_bg" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="@string/master_clear_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/erase_data_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="25dp"
+                android:button="@drawable/wifi_password_checkbox_selector"
+                android:checked="true"
+                android:gravity="center_horizontal"
+                android:scaleX="0.7"
+                android:scaleY="0.7" />
+
+            <TextView
+                android:id="@+id/erase_data_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:gravity="center_horizontal"
+                android:paddingLeft="10dp"
+                android:text="@string/erase_all_data"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/reset_confirm_button"
+            android:layout_width="100dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/button_selector"
+            android:text="@string/yes"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/reset_cancel_button"
+            android:layout_width="100dp"
+            android:layout_height="54dp"
+            android:layout_alignTop="@+id/reset_confirm_button"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/reset_confirm_button"
+            android:background="@drawable/button_selector"
+            android:text="@string/cancel"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+</LinearLayout>

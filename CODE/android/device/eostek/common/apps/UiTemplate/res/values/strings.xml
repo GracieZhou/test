@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UiTemplate</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- MainActivity -->
+    <string name="title">Widget Styles</string>
+
+    <string-array name="style_names">
+        <item>Button Styles</item>
+        <item>EditText Styles</item>
+        <item>ListView Styles</item>
+        <item>ProgressBar Styles</item>
+        <item>Dialog Styles</item>
+        <item>CheckBox Styles</item>
+        <item>Toast Styles</item>
+    </string-array>
+
+    <!-- Button -->
+    <string name="normal">normal</string>
+    <string name="danger">danger</string>
+    <string name="flat">flat</string>
+    <string name="inactive">inactive</string>
+    <!-- EditText -->
+    <string name="center_singleLine">CenterSingleLine</string>
+    <string name="right_singleLine">CenterSingleLine</string>
+    <string name="num_normal">Number Normal</string>
+    <string name="number">1</string>
+    <!-- ListView -->
+    <string name="listview_style_1">Style Normal</string>
+    <string name="listview_style_2">Style Fill</string>
+    <string name="listview_style_3">Style Button</string>
+
+    <!-- Dialog -->
+    <string name="scifly_dialog_title">此处输入标题</string>
+    <string name="scifly_dialog_confirm">确定</string>
+    <string name="scifly_dialog_cancle">取消</string>
+    
+    <string name="dialog_style_1">Common Dialog</string>
+    <string name="dialog_style_2">Notice Dialog</string>
+    <string name="dialog_style_3">Progress Dialog</string>
+    
+    <!-- CheckBox -->
+    <string name="checkbox_style_1">CheckBox Enabled</string>
+    <string name="checkbox_style_2">CheckBox Disabled</string>
+    
+    <!-- Toast -->
+    <string name="toast_style_1">Toast Normal</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="defaultlocale">DefaultLocale</string>
+    <string name="app_name">CloudAlbum</string>
+    <string name="action_settings">Settings</string>
+    <string name="scifly_potho_album">SciflyCloudAlbum</string>
+    <string name="photo_num">total of zero</string>
+    <string name="dialog_title">prompt</string>
+    <string name="dialog_msg">It is updating data,please wait for a moment.</string>
+    <string name="dialog_msg1">It is quering data,please wait for a moment</string>
+    <!-- my cloud disk -->
+    <string name="my_cloud_disk">My Cloud</string>
+    <string name="have_cleaned">cleared</string>
+    <string name="Thumb_cache">Image cache</string>
+    <string name="full_preview_cache">Full screen preview</string>
+    <string name="clean_Thumb_cache">Clear image cache</string>
+    <string name="baidu_cloud">BaiduCloud</string>
+    <string name="sina_cloud_disk">Sina V disk</string>
+    <string name="drop_box">Dropbox</string>
+    <string name="one_drive">OneDrive</string>
+    <string name="no_bind">unbound</string>
+    <string name="binded">bound</string>
+    <string name="log_off">Whether to cancel</string>
+    <string name="confirm">confirm</string>
+    <string name="cancel">cancel</string>
+    <!-- My Photo Album -->
+    <string name="de">s</string>
+    <string name="album_name">album of</string>
+    <!-- ImagePager -->
+    <string name="last_one">Is the last one</string>
+    <string name="first_one">Is the first one</string>
+    <!-- effect settings -->
+    <string name="switch_effect">effect</string>
+    <string name="time_period">time interval</string>
+    <string name="slideshow">Slide show</string>
+    <!-- MenuActivity -->
+    <string name="slideshow_setting">Slide set</string>
+    <!-- CloudLoginActivity -->
+    <string name="use_tip">Scifly Cloud photo albums</string>
+    <string name="use_tip1">1: After the landing Association will create the Scifly Album directory, Scifly in the cloud disk root directory.</string>
+    <string name="cloud_add">add</string>
+    <string name="no_network">Network connecting failed，cloud album is unavailable.</string>
+    <string name="prompt_information">It is handling,please wait for a moment.</string>
+
+</resources>

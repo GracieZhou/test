@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string-array name="pager_effects">
+        <item>经典</item>
+        <item>深入浅出</item>
+        <item>淡入淡出</item>
+        <item>旋转</item>
+        <item>立方体</item>
+        <item>手风琴</item>
+        <item>右上角进入</item>
+        <item>右下角进入</item>
+    </string-array>
+
+</resources>

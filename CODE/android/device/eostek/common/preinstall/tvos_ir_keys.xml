@@ -1,0 +1,99 @@
+<tvos>
+  <!--<IRReceiver name="Smart TV IR Receiver" handler="H: Handlers=kbd event" /-->
+  <IRReceiver name="sunxi-ts" handler="H: Handlers=event5" />
+  <keys>
+    <key action="Power" value="116" />
+    <key action="Mute" value="113" />
+    <key action="Sleep" value="142" />
+    <key action="Audio" value="392" />
+    <key action="Photo" value="212" />
+    <key action="Zoom" value="372" />
+    <key action="ChannelReturn" value="616" />
+    <key action="Num0" value="11" />
+    <key action="Num1" value="2" />
+    <key action="Num2" value="3" />
+    <key action="Num3" value="4" />
+    <key action="Num4" value="5" />
+    <key action="Num5" value="6" />
+    <key action="Num6" value="7" />
+    <key action="Num7" value="8" />
+    <key action="Num8" value="9" />
+    <key action="Num9" value="10" />
+    <key action="Red" value="602" />
+    <key action="Green" value="603" />
+    <key action="Yellow" value="604" />
+    <key action="Blue" value="605" />
+    <key action="Menu" value="139" />
+    <key action="Exit" value="158" />
+    <key action="Back" value="158" />
+    <key action="EPG" value="365" />
+    <key action="Up" value="103" />
+    <key action="Down" value="108" />
+    <key action="Left" value="105" />
+    <key action="Right" value="106" />
+    <key action="Enter" value="28" />
+    <key action="ChannelPlus" value="402" />
+    <key action="ChannelMinus" value="403" />
+    <key action="VolumePlus" value="115" />
+    <key action="VolumeMinus" value="114" />
+    <key action="PageUp" value="104" />
+    <key action="PageDown" value="109" />
+    <key action="Home" value="172" />
+    <key action="Info" value="617" />
+    <key action="ChannelList" value="395" />
+    <key action="Backward" value="158" />
+    <key action="Forward" value="159" />
+    <key action="Play" value="207" />
+    <key action="Pause" value="119" />
+    <key action="Freeze" value="467" /> 
+	
+	<key action="Stop" value="128"/>
+	
+    <key action="PIP" value="470" />
+    <key action="InputSource" value="601" />
+    <key action="Format3D" value="64" />
+    <key action="Cloud" value="476" />
+    <key action="PrtSc" value="471" />
+    <key action="TaskManager" value="60" />
+    <key action="USB" value="61" />
+    <key action="Tool" value="63" />
+    <key action="PowerSleep" value="555" />
+    <key action="WakeUp" value="556" />
+    <key action="UnMute" value="557" />
+    <key action="CleanSearch" value="558" />
+    <key action="Previous" value="165" />
+    <key action="Next" value="163" />
+	
+	<key action="File" value="614"/>
+	<key action="MicEchoPlus" value="606"/>
+	<key action="MicEchoMinus" value="607"/>
+	<key action="MicVolumePlus" value="608"/>
+	<key action="MicVolumeMinus" value="609"/>
+	<key action="MicKeyPlus" value="610"/>
+	<key action="MicKeyMinus" value="611"/>
+	<key action="KokShortcut" value="615"/>
+	
+	<key action="KeycodeButtonA" value="304"/>
+	<key action="KeycodeButtonB" value="305"/>
+	<key action="KeycodeButtonC" value="306"/>
+	<key action="KeycodeButtonX" value="307"/>
+	<key action="KeycodeButtonY" value="308"/>
+	<key action="KeycodeButtonZ" value="309"/>
+	<key action="KeycodeButtonL1" value="310"/>
+	<key action="KeycodeButtonR1" value="311"/>
+	<key action="KeycodeButtonL2" value="312"/>
+	<key action="KeycodeButtonR2" value="313"/>
+	<key action="KeycodeButtonThumbL" value="317"/>
+	<key action="KeycodeButtonThumbR" value="318"/>
+	<key action="KeycodeButtonStart" value="315"/>
+	<key action="KeycodeButtonSelect" value="314"/>
+	<key action="KeycodeButtonMode" value="316"/>
+	
+    <mouse action="LeftButtonDown" value="MO:L,p" />
+    <mouse action="LeftButtonUp" value="MO:L,r" />
+    <mouse action="MiddleButtonDown" value="MO:M,p" />
+    <mouse action="MiddleButtonUp" value="MO:M,r" />
+    <mouse action="RightButtonDown" value="MO:R,p" />
+    <mouse action="RightButtonUp" value="MO:R,r" />
+  </keys>
+</tvos>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_gravity="center"
+    android:gravity="center">
+ 
+    <LinearLayout
+        android:id="@+id/fragment_recommend_wait_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ProgressBar
+            style="@style/Scifly.ProgressBar.Large"
+            android:id="@+id/waiting_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:indeterminateDuration="1000"/>
+        
+	</LinearLayout>
+    
+    <GridView
+		android:id="@+id/fragment_recommend_gridview"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginLeft="100dp"
+		android:layout_marginRight="80dp"
+		android:columnWidth="200dp"
+		android:gravity="center"
+		android:horizontalSpacing="8dp"
+		android:listSelector="@android:color/transparent"
+		android:numColumns="5"
+		android:scrollbars="none"
+		android:stretchMode="none"
+		android:verticalSpacing="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.android.settings" >
+
+    <com.android.settings.SettingPreference
+        android:key="screen"
+        android:summary="screen_settings"
+        android:title="@string/screen_settings"
+        app:type="single_column" />
+    <com.android.settings.SettingPreference
+        android:key="sound"
+        android:summary="sound_settings"
+        android:title="@string/sound_settings"
+        app:type="single_column" />
+    <com.android.settings.SettingPreference
+        android:key="screensaver"
+        android:summary="screensaver"
+        android:title="@string/screen_saver_setting"
+        app:type="single_column" />
+
+</PreferenceScreen>

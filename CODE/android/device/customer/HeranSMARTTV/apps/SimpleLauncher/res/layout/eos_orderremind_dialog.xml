@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/order_remind"
+    android:layout_width="500dp"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    android:background="@drawable/setting_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/reminder_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/order_remind"
+        android:textColor="@android:color/white"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:id="@+id/info_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reminder_title"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:paddingTop="30dp" >
+
+        <TextView
+            android:id="@+id/pgm_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/event_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/will_start"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/time_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info_layout"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_auto"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <com.heran.launcher.ui.FocusView
+        android:id="@+id/focus_selector"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/time_layout"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btnfocus" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time_layout"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:paddingTop="30dp" >
+
+        <Button
+            android:id="@+id/switch_btn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:text="@string/switch_immediately"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/cancle_btn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:background="@android:color/transparent"
+            android:text="@android:string/cancel"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</RelativeLayout>

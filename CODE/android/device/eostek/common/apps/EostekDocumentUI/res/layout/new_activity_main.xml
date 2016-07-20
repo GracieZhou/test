@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg" >
+
+    <RelativeLayout
+        android:id="@+id/indicator_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/new_activity_main_indicator_height" >
+        <TextView
+            android:id="@+id/downloaded_tv"
+            android:layout_width="@dimen/new_activity_main_downloaded_tv_width"
+            android:layout_height="@dimen/new_activity_main_downloaded_tv_height"
+            android:layout_marginLeft="@dimen/new_activity_main_downloaded_tv_layout_marginLeft"
+            android:layout_marginTop="@dimen/new_activity_main_downloaded_tv_layout_marginTop"
+            android:gravity="center"
+            android:textSize="@dimen/new_activity_main_title_textsize"
+            android:textColor="@android:color/white"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:text="@string/downloaded" 
+            android:background="@drawable/activity_main_text_selector"/>
+
+        
+        <View
+            android:id="@+id/line1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/new_activity_main_line_height"
+            android:layout_below="@+id/downloaded_tv"
+            android:layout_marginTop="@dimen/new_activity_main_line_marginTop"
+            android:layout_alignLeft="@id/downloaded_tv"
+            android:layout_alignRight="@id/downloaded_tv"
+            android:background="@drawable/status_select"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:visibility="visible" />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/new_activity_main_line_height"
+            android:layout_marginTop="@dimen/new_activity_main_line_marginTop"
+            android:layout_below="@+id/downloading_tv"
+            android:layout_alignLeft="@id/downloading_tv"
+            android:layout_alignRight="@id/downloading_tv"
+            android:background="@drawable/status_select"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/downloading_tv"
+            android:layout_width="@dimen/new_activity_main_downloaded_tv_width"
+            android:layout_height="@dimen/new_activity_main_downloaded_tv_height"
+            android:layout_marginTop="@dimen/new_activity_main_downloaded_tv_layout_marginTop"
+            android:layout_marginLeft="@dimen/new_activity_main_downloading_tv_layout_marginLeft"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:textSize="@dimen/new_activity_main_title_textsize"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="@android:color/white"
+            android:layout_toRightOf="@id/downloaded_tv"
+            android:nextFocusRight="@+id/settings"
+            android:text="@string/downloading" 
+            android:background="@drawable/activity_main_text_selector"/>
+        <TextView
+            android:id="@+id/indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/downloading_tv"
+            android:layout_alignTop="@id/downloading_tv"
+            android:background="@drawable/indicator"
+            android:layout_marginRight="@dimen/new_activity_main_indicator_marginRight"
+            android:layout_marginTop="@dimen/new_activity_main_indicator_marginTop"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+            <RelativeLayout
+		        android:id="@+id/menu_setting"
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:layout_marginTop="@dimen/new_activity_main_menusetting_marginTop"
+		        android:layout_alignTop="@+id/indicator">
+		        
+		        <TextView
+		            android:id="@+id/settings"
+		            android:layout_width="@dimen/new_activity_main_settings_width"
+		            android:layout_height="@dimen/new_activity_main_settings_height"
+		            android:singleLine="true"
+		            android:layout_alignParentRight="true"
+		            android:layout_marginRight="@dimen/new_activity_main_settings_marginRight"
+		            android:paddingRight="@dimen/new_activity_main_settings_paddingRight"
+		            android:paddingLeft="@dimen/new_activity_main_settings_paddingLeft"
+		            android:paddingTop="@dimen/new_activity_main_settings_paddingTop"
+		            android:paddingBottom="@dimen/new_activity_main_settings_paddingBottom"
+		            android:gravity="center"
+		            android:drawableLeft="@drawable/downloadsettingicon"
+		            android:drawablePadding="@dimen/new_activity_main_settings_drawablePadding"
+		            android:focusable="true"
+		            android:focusableInTouchMode="true"
+		            android:nextFocusRight="@id/downloaded_tv"
+		            android:text="@string/download_settings"
+		            android:textColor="@android:color/white"
+		            android:background="@drawable/activity_main_text_selector"
+		            android:textSize="26sp" />
+		        <!--  android:background="@android:color/transparent"-->
+		        <TextView
+		            android:id="@+id/menu"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignLeft="@+id/settings"
+		            android:layout_marginLeft="@dimen/new_activity_main_menu_marginLeft"
+		            android:drawableLeft="@drawable/menuicon"
+		            android:drawablePadding="@dimen/new_activity_main_menu_drawablePadding"
+		            android:layout_below="@+id/settings"
+		            android:layout_marginTop="@dimen/new_activity_main_menu_layout_marginTop"
+		            android:focusable="false"
+		            android:focusableInTouchMode="false"
+		            android:gravity="center"
+		            android:text="@string/menu_tips"
+		            android:textColor="#999999"
+		            android:textSize="24sp"
+		            android:textStyle="bold"
+		            android:visibility="visible" />
+
+        
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/content_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/indicator_view"
+        android:background="@android:color/transparent"
+        android:gravity="center" />
+    <ImageView
+        android:id="@+id/pre_black"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@android:color/black"/>
+
+</RelativeLayout>

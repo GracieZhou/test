@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<scpd xmlns="urn:schemas-upnp-org:service-1-0">
+  <specVersion>
+    <major>1</major>
+    <minor>0</minor>
+  </specVersion>
+  <serviceStateTable>
+    <stateVariable sendEvents="no">
+      <name>A_ARG_TYPE_Coordinate</name>
+      <dataType>float</dataType>
+    </stateVariable>
+  </serviceStateTable>
+  <actionList>
+    <action>
+      <name>Accelerate</name>
+      <argumentList>
+        <argument>
+          <name>X</name>
+          <direction>in</direction>
+          <relatedStateVariable>A_ARG_TYPE_Coordinate</relatedStateVariable>
+        </argument>
+        <argument>
+          <name>Y</name>
+          <direction>in</direction>
+          <relatedStateVariable>A_ARG_TYPE_Coordinate</relatedStateVariable>
+        </argument>
+        <argument>
+          <name>Z</name>
+          <direction>in</direction>
+          <relatedStateVariable>A_ARG_TYPE_Coordinate</relatedStateVariable>
+        </argument>
+      </argumentList>
+    </action>
+  </actionList>
+</scpd>

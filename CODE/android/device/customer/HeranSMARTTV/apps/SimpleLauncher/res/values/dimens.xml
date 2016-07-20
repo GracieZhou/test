@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_padding">10dp</dimen>
+    <dimen name="activity_vertical_padding">10dp</dimen>
+    <dimen name="text_size_big">30sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    
+	<!-- TV -->
+    <integer name="videoWindowType_x">15</integer>
+    <integer name="videoWindowType_y">15</integer>
+    <integer name="videoWindowType_width">1065</integer>
+    <integer name="videoWindowType_height">600</integer>
+
+    <!-- anim -->
+    <integer name="anim_leftin_valueFrom">-1920</integer>
+    <integer name="anim_leftout_valueTo">-1920</integer>
+    <integer name="anim_rightin_valueFrom">1920</integer>
+    <integer name="anim_rightin_valueTo">1920</integer>
+    
+    <!-- focus view focusViewGap  -->
+    <integer name="focus_view_gap">20</integer>
+    
+    <!-- webview Initial Scale -->
+    <integer name="webview_init_scale">100</integer>
+
+    <!-- activity_main -->
+    <dimen name="video_width">710dp</dimen>
+    <dimen name="video_hight">400dp</dimen>
+    <dimen name="help_tip_padding">5dp</dimen>
+    <dimen name="buttion_tv_width">710dp</dimen>
+    <dimen name="buttion_tv_height">400dp</dimen>
+    <dimen name="time_txt_margin_right">5dp</dimen>
+    <dimen name="time_txt_margin_top">5dp</dimen>
+    <dimen name="date_txt_margin_right">5dp</dimen>
+    <dimen name="date_txt_margin_top">0dp</dimen>
+
+
+    <!-- media_main -->
+    <dimen name="media_imagebutton_width">300dp</dimen>
+    <dimen name="media_imagebutton_height">400dp</dimen>
+    <dimen name="media_video_margin_left">15dp</dimen>
+    <dimen name="media_margin_top">10dp</dimen>
+    <dimen name="media_margin_right">15dp</dimen>
+
+    <!-- home_main -->
+    <dimen name="main_help_tip_width">145dp</dimen>
+    <dimen name="main_help_tip_height">99dp</dimen>
+    <dimen name="main_padding_left">10dp</dimen>
+    <dimen name="main_padding_right">10dp</dimen>
+    <dimen name="main_loading_margin_left">40dp</dimen>
+    <dimen name="main_loading_margin_top">180dp</dimen>
+    <dimen name="main_source_padding">4dp</dimen>
+    <dimen name="main_source_txt_width">60dp</dimen>
+
+    
+    <!-- channel info view  animation x,y -->
+    <integer name="channel_info_view_to_x">1575</integer>
+    <integer name="channel_info_view_to_y">60</integer>
+    <integer name="channel_info_view_from_x">1575</integer>
+    <integer name="channel_info_view_from_y">-150</integer>
+    <integer name="channel_info_view_dismiss_y">-225</integer>
+    
+     <!-- helper_main -->
+    <dimen name="helper_main_rl_width">520dp</dimen>
+    <dimen name="helper_main_rl_height">520dp</dimen>
+    <dimen name="helper_main_list_rl_width">208dp</dimen>
+    <dimen name="helper_main_list_selector_width">60dp</dimen>
+    <dimen name="helper_main_list_selector_height">60dp</dimen>
+    <dimen name="helper_main_list_padding_bottom">10dp</dimen>
+    <dimen name="helper_main_list_padding_left">25dp</dimen>
+    <dimen name="helper_main_list_padding_right">25dp</dimen>
+    <dimen name="helper_main_list_padding_top">10dp</dimen>
+    <dimen name="helper_main_tip_detail_width">312dp</dimen>
+    <dimen name="helper_main_tip_detail_padding_left">40dp</dimen>
+    
+     <!-- help_item -->
+    <dimen name="help_item_textview_height">39dp</dimen>
+    <dimen name="help_item_textview_textSize">20sp</dimen>
+
+</resources>

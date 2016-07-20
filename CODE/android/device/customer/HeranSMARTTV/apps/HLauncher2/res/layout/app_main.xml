@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout_app"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="1066dp"
+        android:layout_height="600dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/msg_icon2"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/p8_1" />
+
+        <GridView
+            android:id="@+id/app_store_gv"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:gravity="center"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="7"
+            android:paddingLeft="@dimen/app_margin_top"
+            android:paddingRight="@dimen/app_margin_top"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth" >
+        </GridView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/p8_3_2" >
+
+                <ImageButton
+                    android:id="@+id/imageview_setting"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/apps_3" />
+
+                <GridView
+                    android:id="@+id/myapp_gv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="5"
+                    android:paddingLeft="@dimen/app_margin_top"
+                    android:paddingRight="@dimen/app_margin_top"
+                    android:scrollbars="none"
+                    android:stretchMode="columnWidth" >
+                </GridView>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/p8_2" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

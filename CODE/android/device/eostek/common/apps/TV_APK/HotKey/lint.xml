@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HandlerLeak" severity="ignore">
+        <ignore path="src/com/eostek/hotkey/EosInputActivity.java" />
+    </issue>
+    <issue id="MissingApplicationIcon" severity="ignore" />
+    <issue id="OldTargetApi" severity="ignore" />
+    <issue id="UselessParent" severity="ignore" />
+</lint>

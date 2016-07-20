@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <timezone id="Pacific/Majuro" name="馬朱諾" gmt="GMT+12:00"></timezone>
+    <timezone id="Pacific/Midway" name="中途島" gmt="GMT-11:00"></timezone>
+    <timezone id="Pacific/Honolulu" name="檀香山" gmt="GMT-10:00"></timezone>
+    <timezone id="America/Anchorage" name="安克里治" gmt="GMT-09:00"></timezone>
+    <timezone id="America/Los_Angeles" name="太平洋時間 (洛杉磯)" gmt="GMT-08:00"></timezone>
+    <timezone id="America/Tijuana" name="太平洋時間 (提華納)" gmt="GMT-08:00"></timezone>
+    <timezone id="America/Phoenix" name="山區時間 (鳳凰城)" gmt="GMT-07:00"></timezone>
+    <timezone id="America/Chihuahua" name="奇華華" gmt="GMT-07:00"></timezone>
+    <timezone id="America/Denver" name="山區時間 (丹佛)" gmt="GMT-07:00"></timezone>
+    <timezone id="America/Costa_Rica" name="中部時間 (哥斯大黎加)" gmt="GMT-06:00"></timezone>
+    <timezone id="America/Chicago" name="中部時間 (芝加哥)" gmt="GMT-06:00"></timezone>
+    <timezone id="America/Mexico_City" name="中部時間 (墨西哥市)" gmt="GMT-06:00"></timezone>
+    <timezone id="America/Regina" name="中部時間 (利宅那)" gmt="GMT-06:00"></timezone>
+    <timezone id="America/Bogota" name="哥倫比亞" gmt="GMT-05:00"></timezone>
+    <timezone id="America/New_York" name="東部時間 (紐約)" gmt="GMT-05:00"></timezone>
+    <timezone id="America/Caracas" name="卡拉卡斯" gmt="GMT-04:30"></timezone>
+    <timezone id="America/Barbados" name="大西洋時間 (巴貝多)" gmt="GMT-04:00"></timezone>
+    <timezone id="America/Manaus" name="亞馬遜時間 (瑪瑙斯)" gmt="GMT-04:00"></timezone>
+    <timezone id="America/Santiago" name="聖地牙哥" gmt="GMT-03:00"></timezone>
+    <timezone id="America/St_Johns" name="紐芬蘭標準時間 (St. John&apos;s)" gmt="GMT-03:30"></timezone>
+    <timezone id="America/Sao_Paulo" name="Brasilia" gmt="GMT-02:00"></timezone>
+    <timezone id="America/Argentina/Buenos_Aires" name="阿根廷時間 (布宜諾斯艾利斯)" gmt="GMT-03:00"></timezone>
+    <timezone id="America/Godthab" name="高特哈市" gmt="GMT-03:00"></timezone>
+    <timezone id="America/Montevideo" name="烏拉圭" gmt="GMT-02:00"></timezone>
+    <timezone id="Atlantic/South_Georgia" name="南喬治亞與南三明治島" gmt="GMT-02:00"></timezone>
+    <timezone id="Atlantic/Azores" name="亞速爾群島" gmt="GMT-01:00"></timezone>
+    <timezone id="Atlantic/Cape_Verde" name="維德角" gmt="GMT-01:00"></timezone>
+    <timezone id="Africa/Casablanca" name="卡薩布蘭卡" gmt="GMT+00:00"></timezone>
+    <timezone id="Europe/London" name="格林威治標準時間 (倫敦)" gmt="GMT+00:00"></timezone>
+    <timezone id="Europe/Amsterdam" name="中歐標準時間 (荷蘭)" gmt="GMT+01:00"></timezone>
+    <timezone id="Europe/Belgrade" name="中歐標準時間 (塞爾維亞)" gmt="GMT+01:00"></timezone>
+    <timezone id="Europe/Brussels" name="中歐標準時間 (布魯塞爾)" gmt="GMT+01:00"></timezone>
+    <timezone id="Europe/Sarajevo" name="中歐標準時間 (沙拉耶佛)" gmt="GMT+01:00"></timezone>
+    <timezone id="Africa/Windhoek" name="溫荷克" gmt="GMT+02:00"></timezone>
+    <timezone id="Africa/Brazzaville" name="西非時間 (剛果共和國)" gmt="GMT+01:00"></timezone>
+    <timezone id="Asia/Amman" name="東歐標準時間 (約旦)" gmt="GMT+02:00"></timezone>
+    <timezone id="Europe/Athens" name="東歐標準時間 (希臘)" gmt="GMT+02:00"></timezone>
+    <timezone id="Asia/Beirut" name="東歐標準時間 (貝鲁特特)" gmt="GMT+02:00"></timezone>
+    <timezone id="Africa/Cairo" name="東歐標準時間 (埃及)" gmt="GMT+02:00"></timezone>
+    <timezone id="Europe/Helsinki" name="東歐標準時間 (芬蘭)" gmt="GMT+02:00"></timezone>
+    <timezone id="Asia/Jerusalem" name="以色列標準時間 (耶路撒冷)" gmt="GMT+02:00"></timezone>
+    <timezone id="Europe/Minsk" name="白俄羅斯" gmt="GMT+03:00"></timezone>
+    <timezone id="Africa/Harare" name="中非時間 (辛巴威)" gmt="GMT+02:00"></timezone>
+    <timezone id="Asia/Baghdad" name="阿拉伯時間 (伊拉克)" gmt="GMT+03:00"></timezone>
+    <timezone id="Europe/Moscow" name="莫斯科" gmt="GMT+04:00"></timezone>
+    <timezone id="Asia/Kuwait" name="阿拉伯時間 (科威特)" gmt="GMT+03:00"></timezone>
+    <timezone id="Africa/Nairobi" name="東非時間 (奈洛比)" gmt="GMT+03:00"></timezone>
+    <timezone id="Asia/Tehran" name="伊朗" gmt="GMT+03:30"></timezone>
+    <timezone id="Asia/Baku" name="亞塞拜然" gmt="GMT+04:00"></timezone>
+    <timezone id="Asia/Tbilisi" name="喬治亞" gmt="GMT+04:00"></timezone>
+    <timezone id="Asia/Yerevan" name="亞美尼亞" gmt="GMT+04:00"></timezone>
+    <timezone id="Asia/Dubai" name="GT (杜拜)" gmt="GMT+04:00"></timezone>
+    <timezone id="Asia/Kabul" name="阿富汗" gmt="GMT+04:30"></timezone>
+    <timezone id="Asia/Karachi" name="喀拉蚩" gmt="GMT+05:00"></timezone>
+    <timezone id="Asia/Oral" name="奧拉爾" gmt="GMT+05:00"></timezone>
+    <timezone id="Asia/Yekaterinburg" name="葉卡捷林堡" gmt="GMT+06:00"></timezone>
+    <timezone id="Asia/Calcutta" name="印度" gmt="GMT+05:30"></timezone>
+    <timezone id="Asia/Colombo" name="可倫坡" gmt="GMT+05:30"></timezone>
+    <timezone id="Asia/Katmandu" name="尼泊爾" gmt="GMT+05:45"></timezone>
+    <timezone id="Asia/Almaty" name="阿拉木圖" gmt="GMT+06:00"></timezone>
+    <timezone id="Asia/Rangoon" name="緬甸" gmt="GMT+06:30"></timezone>
+    <timezone id="Asia/Krasnoyarsk" name="克拉斯諾雅斯克" gmt="GMT+08:00"></timezone>
+    <timezone id="Asia/Bangkok" name="泰國" gmt="GMT+07:00"></timezone>
+    <timezone id="Asia/Shanghai" name="中國標準時間 (上海)" gmt="GMT+08:00"></timezone>
+    <timezone id="Asia/Hong_Kong" name="中華人民共和國香港特別行政區" gmt="GMT+08:00"></timezone>
+    <timezone id="Asia/Irkutsk" name="伊爾庫次克" gmt="GMT+09:00"></timezone>
+    <timezone id="Asia/Kuala_Lumpur" name="吉隆坡" gmt="GMT+08:00"></timezone>
+    <timezone id="Australia/Perth" name="伯斯" gmt="GMT+08:00"></timezone>
+    <timezone id="Asia/Taipei" name="台北標準時間 (台北)" gmt="GMT+08:00"></timezone>
+    <timezone id="Asia/Seoul" name="首爾" gmt="GMT+09:00"></timezone>
+    <timezone id="Asia/Tokyo" name="日本標準時間 (東京)" gmt="GMT+09:00"></timezone>
+    <timezone id="Asia/Yakutsk" name="雅庫次克" gmt="GMT+10:00"></timezone>
+    <timezone id="Australia/Adelaide" name="阿得雷德" gmt="GMT+10:30"></timezone>
+    <timezone id="Australia/Darwin" name="達爾文" gmt="GMT+09:30"></timezone>
+    <timezone id="Australia/Brisbane" name="布利斯班" gmt="GMT+10:00"></timezone>
+    <timezone id="Australia/Hobart" name="荷巴特" gmt="GMT+11:00"></timezone>
+    <timezone id="Australia/Sydney" name="雪梨" gmt="GMT+11:00"></timezone>
+    <timezone id="Asia/Vladivostok" name="海參崴" gmt="GMT+11:00"></timezone>
+    <timezone id="Pacific/Guam" name="關島" gmt="GMT+10:00"></timezone>
+    <timezone id="Asia/Magadan" name="馬加丹" gmt="GMT+12:00"></timezone>
+    <timezone id="Pacific/Auckland" name="奧克蘭" gmt="GMT+13:00"></timezone>
+    <timezone id="Pacific/Fiji" name="斐濟" gmt="GMT+12:00"></timezone>
+    <timezone id="Pacific/Tongatapu" name="東加" gmt="GMT+13:00"></timezone>
+</resources>

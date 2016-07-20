@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources >
+    <string-array name="net_setting">
+ <item >有线设置 </item>
+ <item>无线设置</item>     
+ <item>网络诊断</item>  
+    </string-array>
+    
+      <string-array name="net_diag">
+ <item >网络连通性 </item>
+ <item>网络测速</item>     
+ <item>网络对时</item>  
+    </string-array>
+        <string-array name="ntp_server">
+        <item>1.cn.pool.ntp.org</item>
+        <item>1.tw.pool.ntp.org</item>
+        <item>time.nist.gov</item>
+    </string-array>
+</resources>

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- add_wifi_ssid_btn -->
+    <dimen name="add_wifi_ssid_btn_margin_bottom">1dp</dimen>
+    <dimen name="add_wifi_ssid_btn_minHeight">40dp</dimen>
+    <dimen name="add_wifi_ssid_btn_padding_left">30dp</dimen>
+    <dimen name="add_wifi_ssid_btn_textsize">22sp</dimen>
+    
+    <!-- atv_autotuning -->
+    <dimen name="atv_auto_ll_height">400dp</dimen>
+    <dimen name="atv_auto_tunning_title_tv_textsize">30sp</dimen>
+    <dimen name="atv_auto_line_ll_margin_top">10dp</dimen>
+    <dimen name="atv_auto_count_textsize">20sp</dimen>
+    <dimen name="atv_cancel_tuning_btn_width">100dp</dimen>
+    
+
+    <!-- atvmanualtuning -->
+    <dimen name="atvmanualtuning_padding">15dp</dimen>
+    <dimen name="atvmanualtuning_tv_textsize">20sp</dimen>
+    <dimen name="atvmanualtuning_width">100dp</dimen>
+    <dimen name="atvmanualtuning_height">53dp</dimen>
+    <dimen name="atvmanualtuning_channelnum_margin_top">5dp</dimen>
+    <dimen name="atvmanualtuning_margin_left">7dp</dimen>
+    <dimen name="linearlayout_content_width">500dp</dimen>
+    <dimen name="linearlayout_content_height">500dp</dimen>
+    <dimen name="linearlayout_content_margin_top">37dp</dimen>
+    <dimen name="str_cha_av_tv_width">453dp</dimen>
+    <dimen name="str_cha_av_tv_textsize">30sp</dimen>
+    <dimen name="linearlayout_one_width">448dp</dimen>
+    <dimen name="linearlayout_one_height">3dp</dimen>
+    <dimen name="linearlayout_one_margin_bottom">2dp</dimen>
+    <dimen name="linearlayout_one_margin_right">10dp</dimen>
+    <dimen name="linearlayout_one_margin_top">10dp</dimen>
+    <dimen name="str_cha_manual_ch_tv_width">100dp</dimen>
+    <dimen name="str_cha_manual_ch_margin_left">7dp</dimen>
+    <dimen name="atv_manualtuning_channelnum_val_height">47dp</dimen>
+    <dimen name="atv_manualtuning_channelnum_val_margin_left">50dp</dimen>
+    <dimen name="atv_manualtuning_frequency_val_tv_width">89dp</dimen>
+    <dimen name="atv_manualtuning_frequency_val_tv_margin_left">13dp</dimen>
+    <dimen name="str_cha_atvmanualtuning_frequency_mhz_tv_width">44dp</dimen>
+    <dimen name="atv_auto_tuning_focus_selector_width">480dp</dimen>
+    <dimen name="atv_auto_tuning_focus_selector_height">53dp</dimen>
+    <dimen name="atv_auto_tuning_focus_selector_margin_top">5dp</dimen>
+    
+    <!-- bottom_back -->
+    <dimen name="bottom_back_rl_padding_top">5dp</dimen>
+    <dimen name="bottom_back_tv_margin_right">50dp</dimen>
+    <dimen name="bottom_back_tv_textsize">18sp</dimen>
+    <dimen name="bottom_back_iv_width">30dp</dimen>
+    <dimen name="bottom_back_iv_height">25dp</dimen>
+    <dimen name="bottom_back_iv_margin_right">10dp</dimen>
+    
+    <!-- custom_progressbar -->
+    <dimen name="title_txt_width">160dp</dimen>
+    <dimen name="title_txt_height">48dp</dimen>
+    <dimen name="title_txt_padding_right">20dp</dimen>
+    <dimen name="progress_context_margin_right">20dp</dimen>
+    <dimen name="progress_context_margin_top">8dp</dimen>
+    <dimen name="custom_progressbar_progress_width">1dp</dimen>
+    <dimen name="custom_progressbar_progress_height">29dp</dimen>
+    <dimen name="custom_progressbar_progress_margin_right">7dp</dimen>
+    <dimen name="custom_progressbar_value_textsize">28sp</dimen>
+    <dimen name="custom_title_value_textsize">20sp</dimen>
+    <dimen name="custom_progressbar_value_linespaceextra">-4dp</dimen>
+    
+    <!-- download_progress -->
+    <dimen name="download_progress_tv_textsize">18sp</dimen>
+    <dimen name="download_progress_pb_paddding_left">10dp</dimen>
+
+
+    <!-- dtvmanualtuning -->
+    <dimen name="dtvmanualtuning_nor_textsize">20sp</dimen>
+    <dimen name="dtvmanualtuning_nor_tv_width">150dp</dimen>
+    <dimen name="dtvmanualtuning_ll_content_width">500dp</dimen>
+    <dimen name="dtvmanualtuning_ll_content_height">500dp</dimen>
+    <dimen name="dtvmanualtuning_ll_content_margin_top">37dp</dimen>
+    <dimen name="dtv_manualtuning_tv_textsize">30sp</dimen>
+    <dimen name="dtvmanualtuning_str_cha_ma_height">36dp</dimen>
+    <dimen name="dtv_linearlayout_content_padding">15dp</dimen>
+    <dimen name="dtv_manualtuning_ll_channelnum_height">40dp</dimen>
+    <dimen name="dtv_manualtuning_ll_channelnum_margin_top">5dp</dimen>
+	<dimen name="dtv_manualtuning_ll_tv_width">150dp</dimen>
+	<dimen name="dtv_manualtuning_channelnum_val_et_width">150dp</dimen>
+	<dimen name="dtv_manualtuning_channelnum_val_et_height">25dp</dimen>
+	<dimen name="dtv_manualtuning_channelnum_val_et_margin_left">20dp</dimen>
+	<dimen name="dtv_manualtuning_channelnum_val_padding">2dp</dimen>
+	<dimen name="dtv_manualtuning_frequency_lin_ll_height">40dp</dimen>
+	<dimen name="str_cha_dtvmanualtuning_frequency_width">100dp</dimen>
+	<dimen name="str_cha_dtvmanualtuning_frequency_height">27dp</dimen>
+	<dimen name="str_cha_dtvmanualtuning_frequency_maring_left">5dp</dimen>
+	<dimen name="dtv_manualtuning_frequency_val_tv_maring_left">35dp</dimen>
+	<dimen name="dtv_manu_modulation_lin_height">40dp</dimen>
+	<dimen name="dtv_manu_modulation_lin_margin_top">5dp</dimen>
+	<dimen name="dtv_manu_symbol_lin_ll_height">40dp</dimen>
+	<dimen name="dtv_manu_signalstrength_tv_width">150dp</dimen>
+	<dimen name="dtv_manu_signalstrength_tv_height">40dp</dimen>
+	<dimen name="dtv_manu_signalstrength_val_ll_width">133dp</dimen>
+	<dimen name="dtv_manu_signalstrength_val_ll_height">10dp</dimen>
+	<dimen name="dtv_manu_signalstrength_val_ll_margin_left">20dp</dimen>
+    <dimen name="dtv_manu_tv_dtv_val_margin_left">20dp</dimen>
+    
+    <!-- eos_finetuning -->
+    <dimen name="eos_finetuning_rl_padding">20dp</dimen>
+    <dimen name="eos_finetuning_minitrim_tv_textszie">35sp</dimen>
+    <dimen name="eos_finetuning_ll_channel_margin_top">15dp</dimen>
+    <dimen name="eos_finetuning_tv_channel_width">120dp</dimen>
+    <dimen name="eos_finetuning_tv_channel_margin_left">25dp</dimen>
+    <dimen name="eos_finetuning_tv_channel_textsize">24sp</dimen>
+    <dimen name="eos_finetuning_llayout_margin_top">15dp</dimen>
+    <dimen name="eos_finetuning_btn_width">120dp</dimen>
+    <dimen name="eos_finetuning_btn_height">40dp</dimen>
+    <dimen name="eos_finetuning_btn_margin_left">20dp</dimen>
+    <dimen name="eos_finetuning_btn_textsize">22sp</dimen>
+    
+    <!-- eos_menu_title_item -->
+    <dimen name="menuitem_title_txt_textsize">28sp</dimen>
+
+    <!-- eos_menu -->
+    <dimen name="eos_menu_rl_main_width">800dp</dimen>
+    <dimen name="eos_menu_rl_main_height">530dp</dimen>
+    <dimen name="eos_menu_rl_main_padding_bottom">10dp</dimen>
+
+    <!-- eos_password_check -->
+    <dimen name="eos_password_check_rl_padding">20dp</dimen>
+    <dimen name="eos_password_check_passwordcheck_tv_textsize">30sp</dimen>
+    <dimen name="eos_password_check_focusview_width">400dp</dimen>
+    <dimen name="eos_password_check_focusview_height">50dp</dimen>
+    <dimen name="eos_password_check_focusview_margin_top">25dp</dimen>
+    <dimen name="eos_password_check_input_tv_width">150dp</dimen>
+    <dimen name="eos_password_check_input_tv_textsize">22sp</dimen>
+    <dimen name="eos_password_check_input_et_width">200dp</dimen>
+    <dimen name="eos_password_check_input_et_margin_left">10dp</dimen>
+    <dimen name="eos_password_check_input_et_padding">5dp</dimen>
+    <dimen name="eos_password_check_input_et_textsize">13sp</dimen>
+    <dimen name="eos_password_check_btn_width">100dp</dimen>
+    <dimen name="eos_password_check_btn_height">40dp</dimen>
+    <dimen name="eos_password_check_btn_textsize">22sp</dimen>
+    <dimen name="eos_password_check_btn_margin_left">60dp</dimen>
+    
+    <!-- eos_passwordchange -->
+    <dimen name="eos_passwordchange_rl_width">500dp</dimen>
+    <dimen name="eos_passwordchange_rl_padding">20dp</dimen>
+    <dimen name="eos_passwordchange_focus_width">460dp</dimen>
+    <dimen name="eos_passwordchange_focus_height">50dp</dimen>
+    <dimen name="eos_passwordchange_ll_margin_top">10dp</dimen>
+    <dimen name="eos_passwordchange_ll_tv_width">170dp</dimen>
+    <dimen name="eos_passwordchange_ll_tv_margin">5dp</dimen>
+    <dimen name="eos_passwordchange_et_width">200dp</dimen>
+    <dimen name="eos_passwordchange_et_margin_left">15dp</dimen>
+    <dimen name="eos_passwordchange_et_padding">5dp</dimen>
+    <dimen name="eos_passwordchange_et_textsize">13sp</dimen>
+    <dimen name="eos_passwordchange_con_ll_margin_bottom">10dp</dimen>
+    <dimen name="eos_passwordchange_con_ll_margin_top">10dp</dimen>
+    <dimen name="eos_passwordchange_btn_width">100dp</dimen>
+    <dimen name="eos_passwordchange_btn_min_height">80dp</dimen>
+    <dimen name="eos_passwordchange_btn_textsize">20sp</dimen>
+    <dimen name="eos_passwordchange_btn_margin_left">25dp</dimen>
+    
+    <!-- ethernet_setting -->
+    <dimen name="ethernet_setting_ll_width">600dp</dimen>
+    <dimen name="ethernet_setting_ll_margin_top">20dp</dimen>
+    <dimen name="ethernet_setting_min_height">40dp</dimen>
+    <dimen name="ethernet_setting_height">35dp</dimen>
+    <dimen name="ethernet_setting_switch_tv_paddding_left">30dp</dimen>
+    <dimen name="ethernet_setting_textsize">22sp</dimen>
+    <dimen name="ethernet_setting_switch_cb_width">120dp</dimen>
+    <dimen name="ethernet_setting_switch_cb_margin_right">5dp</dimen>
+    <dimen name="ethernet_setting_btn_width">80dp</dimen>
+    <dimen name="ethernet_setting_btn_margin_right">200dp</dimen>
+    <dimen name="ethernet_setting_btn_margin_top">15dp</dimen>
+    <dimen name="ethernet_setting_btn_margin_bottom">15dp</dimen>
+    <dimen name="ethernet_setting_btn_textsize">18sp</dimen>
+
+    
+    <!-- full_tuning -->
+    <dimen name="full_tuning_ll_width">500dp</dimen>
+    <dimen name="full_tuning_ll_height">420dp</dimen>
+    <dimen name="full_tuning_title_tv_margin_top">10dp</dimen>
+    <dimen name="full_tuning_title_tv_margin_textsize">30sp</dimen>
+    <dimen name="full_tuning_tc_margin_top">20dp</dimen>
+    <dimen name="full_tuning_tv_ll_width">270dp</dimen>
+    <dimen name="full_tuning_ll_margin_top">10dp</dimen>
+    <dimen name="full_tuning_ll_tv_textsize">20sp</dimen>
+    <dimen name="full_tuning_iv_width">1dp</dimen>
+    <dimen name="full_tuning_iv_margin_bottom">10dp</dimen>
+    <dimen name="full_tuning_sf_ll_margin_left">20dp</dimen>
+    <dimen name="full_tuning_rf_txt_margin_left">30dp</dimen>
+    <dimen name="full_tuning_lv_height">80dp</dimen>
+    <dimen name="full_tuning_lv_margin_right">20dp</dimen>
+    <dimen name="full_tuning_lv_margin_top">20dp</dimen>
+    <dimen name="full_tuning_rl_margin_top">20dp</dimen>
+    <dimen name="full_cancel_tuning_btn_width">100dp</dimen>
+    <dimen name="full_cancel_tuning_btn_margin_top">30dp</dimen>      
+
+    <!-- eos_setting_dialog -->
+    <dimen name="eos_setting_dialog_rl_width">800dp</dimen>
+    <dimen name="eos_setting_dialog_rl_margin_bottom">27dp</dimen>
+    <dimen name="eos_setting_dialog_last_text_width">117dp</dimen>
+    <dimen name="eos_setting_dialog_last_text_margin_bottom">7dp</dimen>
+    <dimen name="eos_setting_dialog_last_text_padding_top">7dp</dimen>
+    <dimen name="eos_setting_dialog_progress_context_width">800dp</dimen>
+    <dimen name="eos_setting_dialog_title_txt_width">240dp</dimen>
+    <dimen name="eos_setting_dialog_title_txt_height">48dp</dimen>
+    <dimen name="eos_setting_dialog_title_txt_padding_right">20dp</dimen>
+    <dimen name="eos_setting_dialog_bar_fl_margin_top">8dp</dimen>
+    <dimen name="eos_setting_dialog_progress_margin_right">7dp</dimen>
+    <dimen name="eos_setting_dialog_value_textsize">21sp</dimen>
+    <dimen name="eos_setting_dialog_next_txt_width">117dp</dimen>
+    <dimen name="eos_setting_dialog_next_txt_margin_top">7dp</dimen>
+    <dimen name="eos_setting_dialog_next_txt_padding_top">31dp</dimen>
+    <dimen name="eos_autotuing_title_width">149dp</dimen>
+    <dimen name="eos_autotuing_progress_context_width">311dp</dimen>
+    <dimen name="eos_setting_dialog_last_text_margin_left">412dp</dimen>
+    <dimen name="eos_setting_dialog_next_txt_margin_left">412dp</dimen>
+    
+    
+    
+    <!-- wireless_ip_setting -->
+    <dimen name="wireless_setting_ll_margin_top">20dp</dimen>
+    <dimen name="wifi_switch_rl_min_height">40dip</dimen>
+    <dimen name="wireless_ip_setting_tv_height">35dip</dimen>
+    <dimen name="wireless_ip_setting_tv_pad_left">30dp</dimen>
+    <dimen name="wireless_ip_setting_tv_textsize">22sp</dimen>
+    <dimen name="wifi_switch_checkbox_width">120dp</dimen>
+    <dimen name="wifi_switch_checkbox_margin_right">5dp</dimen>
+    <dimen name="wifi_ssid_listview_height">400dp</dimen>
+    
+    <!-- wifi_list_item -->
+    <dimen name="wifi_list_item_min_height">40dip</dimen>
+    <dimen name="wifi_list_item_ssid_pad_left">30dip</dimen>
+    <dimen name="wifi_list_item_ssid_textsize">22sp</dimen>
+    <dimen name="wifi_list_item_level_pad_left">30dip</dimen>
+    <dimen name="wifi_list_item_iv_pad_right">60dp</dimen>
+    <dimen name="wifi_list_item_connect_hint_margin_right">30dp</dimen>
+    <dimen name="wifi_list_item_connect_hint_pad_right">120dp</dimen>
+    
+    <!-- wifi_connect -->
+    <dimen name="wifi_connect_text_size">22sp</dimen>
+    <dimen name="wifi_connect_min_height">40dp</dimen>
+    <dimen name="wifi_connect_pad_left">30dp</dimen>
+    <dimen name="wifi_connect_edittext_width">300dp</dimen>
+    <dimen name="wifi_connect_edittext_height">30dp</dimen>
+    <dimen name="wifi_connect_edittext_margin_right">40dp</dimen>
+    <dimen name="wifi_connect_secure_ly_width">230dp</dimen>
+    <dimen name="wifi_connect_secure_ly_margin_right">70dp</dimen>
+    <dimen name="wifi_connect_secure_left_img_margin_left">10dp</dimen>
+    <dimen name="wifi_connect_secure_right_img_margin_right">50dp</dimen>
+    <dimen name="wifi_connect_psword_visible_width">120dp</dimen>
+    <dimen name="wifi_connect_psword_visible_margin_right">5dp</dimen>
+    <dimen name="auto_ip_height">35dp</dimen>
+    <dimen name="wifi_edit_auto_ip_width">120dp</dimen>
+    <dimen name="wifi_edit_auto_ip_margin_right">5dp</dimen>
+    <dimen name="wifi_connect_save_layout_margin_top">5dp</dimen>
+    <dimen name="wifi_connect_button_width">100dp</dimen>
+    <dimen name="wifi_connect_button_height">40dp</dimen>
+    <dimen name="wifi_connect_button_margin_right">80dp</dimen>
+
+    <!-- system_restore_factory -->
+    <dimen name="setting_bg_width">600dp</dimen>
+    <dimen name="setting_bg_height">390dp</dimen>
+    <dimen name="system_restore_factory_margin_top">10dp</dimen>
+    <dimen name="system_restore_factory_pad_top">25dp</dimen>
+    <dimen name="system_restore_factory_textsize">24sp</dimen>
+    <dimen name="store_line_margin_top">25dp</dimen>
+    <dimen name="notice_restore_factory_margin_top">40dp</dimen>
+    <dimen name="notice_restore_factory_pad_left">50dp</dimen>
+    <dimen name="notice_restore_factory_textsize">18sp</dimen>
+    <dimen name="tv_data_restore_margin_top">20dp</dimen>
+    <dimen name="tv_data_restore_pad_left">70dp</dimen>
+    <dimen name="tv_data_restore_textsize">18sp</dimen>
+    <dimen name="restore_factory_cb_margin_left">65dp</dimen>
+    <dimen name="restore_factory_cb_margin_top">15dp</dimen>
+    <dimen name="restore_factory_cb_textsize">18sp</dimen>
+    <dimen name="store_line_iv_margin_top">40dp</dimen>
+    <dimen name="clear_button_width">80dp</dimen>
+    <dimen name="clear_button_height">30dp</dimen>
+    <dimen name="clear_button_margin_top">20dp</dimen>
+    <dimen name="clear_button_textsize">22sp</dimen>
+    
+    <!-- system_net_update -->
+    <dimen name="system_net_update_ll_widht">1000dp</dimen>
+    <dimen name="system_net_update_ll_height">600dp</dimen>
+    <dimen name="system_net_update_line_margin_top">40dp</dimen>
+    <dimen name="system_net_update_update_title_pad_left">40dp</dimen>
+    <dimen name="system_net_update_update_title_pad_top">10dp</dimen>
+    <dimen name="system_net_update_update_title_textsize">24sp</dimen>
+    <dimen name="net_update_info_width">960dp</dimen>
+    <dimen name="net_update_info_height">280dp</dimen>
+    <dimen name="net_update_info_margin_top">25dp</dimen>
+    <dimen name="net_update_info_pad_left">20dp</dimen>
+    <dimen name="net_update_info_pad_right">10dp</dimen>
+    <dimen name="net_update_info_pad_top">20dp</dimen>
+    <dimen name="net_update_info_textsize">18sp</dimen>
+    <dimen name="show_progress_pad_top">10dp</dimen>
+    <dimen name="progress_tv_pad_left">40dp</dimen>
+    <dimen name="progress_tv_textsize">18sp</dimen>
+    <dimen name="system_net_ll_width">960dp</dimen>
+    <dimen name="system_net_ll_height">25dp</dimen>
+    <dimen name="immediate_btn_width">200dp</dimen>
+    <dimen name="immediate_btn_height">60dp</dimen>
+    <dimen name="immediate_btn_margin_top">20dp</dimen>
+    <dimen name="immediate_btn_textsize">28sp</dimen>
+    <dimen name="system_net_iv_margin_top">30dp</dimen>
+    
+    <!-- system_local_update -->
+    <dimen name="system_local_setting_bg_width">1000dp</dimen>
+    <dimen name="system_local_setting_bg_height">600dp</dimen>
+    <dimen name="system_local_iv_line_margin_top">40dp</dimen>
+    <dimen name="local_update_title_pad_left">40dp</dimen>
+    <dimen name="local_update_title_pad_top">10dp</dimen>
+    <dimen name="local_update_title_textsize">24sp</dimen>
+    <dimen name="check_directry_tv_pad_left">40dp</dimen>
+    <dimen name="check_directry_tv_pad_top">10dp</dimen>
+    <dimen name="check_directry_tv_textsize">22sp</dimen>
+    <dimen name="local_update_info_width">960dp</dimen>
+    <dimen name="local_update_info_height">280dp</dimen>
+    <dimen name="local_update_info_margin_top">25dp</dimen>
+    <dimen name="local_update_info_pad_left">20dp</dimen>
+    <dimen name="local_update_info_pad_right">10dp</dimen>
+    <dimen name="local_update_info_pad_top">20dp</dimen>
+    <dimen name="local_update_info_textsize">18sp</dimen>
+    <dimen name="local_show_progress_pad_top">10dp</dimen>
+    <dimen name="system_local_progress_pad_left">40dp</dimen>
+    <dimen name="system_local_progress_textsize">18sp</dimen>
+    <dimen name="local_current_progress_textsize">18sp</dimen>
+    <dimen name="system_local_width">960dp</dimen>
+    <dimen name="system_local_height">25dp</dimen>
+    <dimen name="local_immediate_width">200dp</dimen>
+    <dimen name="local_immediate_height">60dp</dimen>
+    <dimen name="local_immediate_margin_top">20dp</dimen>
+    <dimen name="local_immediate_textsize">28sp</dimen>
+    <dimen name="system_local_line_margin_top">30dp</dimen>
+    
+    <!-- progress -->
+    <dimen name="progress_height">25dp</dimen>
+    <dimen name="progress_margin_left">40dp</dimen>
+    
+    <!-- net_setting -->
+    <dimen name="net_setting_ll_width">600dp</dimen>
+    <dimen name="net_setting_ll_padding_top">15dp</dimen>
+    <dimen name="net_current_position_textsize">28sp</dimen>
+   
+    <!-- ipv4_layout -->
+    <dimen name="ip_address_rl_min_height">40dp</dimen>
+    <dimen name="ip_address_rl_ip_address_tv_width">200dp</dimen>
+    <dimen name="ip_address_rl_ip_address_tv_heigth">35dp</dimen>
+    <dimen name="ip_address_rl_ip_address_pad_left">30dp</dimen>
+    <dimen name="ip_address_rl_ip_address_textsize">22sp</dimen>
+    <dimen name="ip_address_rl_input_ip_width">60dp</dimen>
+    <dimen name="ip_address_rl_input_ip_height">35dp</dimen>
+    <dimen name="ip_address_rl_input_ip_four_margin_right">40dp</dimen>
+    <dimen name="ip_address_rl_input_ip_other_margin_right">20dp</dimen>
+    <dimen name="ip_address_rl_ip_address_gateway_tv_width">220dp</dimen>
+    
+    <!-- ipv6_layout -->
+    <dimen name="ipv6_layout_rl_min_height">40dp</dimen>
+    <dimen name="ipv6_layout_tv_width">200dp</dimen>
+    <dimen name="ipv6_layout_tv_height">35dp</dimen>
+    <dimen name="ipv6_layout_tv_padding_left">30dp</dimen>
+    <dimen name="ipv6_layout_tv_textsize">22sp</dimen>
+    <dimen name="ipv6_layout_et_width">300dp</dimen>
+    <dimen name="ipv6_layout_et_height">35dp</dimen>
+    <dimen name="ipv6_layout_et_margin_right">40dp</dimen>
+ 
+    <!-- fulltuning_item -->
+    <dimen name="fulltuning_item_textsize">20sp</dimen>
+
+</resources>

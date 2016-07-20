@@ -1,0 +1,2 @@
+add_lunch_combo I_6A_638-userdebug
+add_lunch_combo I_6A_638-user

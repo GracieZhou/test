@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="horizontal" >
+
+	<RelativeLayout 
+		android:id="@+id/fragment_manager_rl_process"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="136dp"
+		android:focusable="true"
+		android:clickable="true"
+		android:focusableInTouchMode="true"
+		android:gravity="center|top"
+		android:paddingTop="21dp">
+		<RelativeLayout 
+		    android:id="@+id/fragment_manager_rl_process_bg"
+			android:layout_width="256dp"
+			android:layout_height="412dp"
+			android:gravity="center|top"
+			android:paddingTop="2dp"
+			android:background="@null">
+			<ImageView 
+				android:id="@+id/fragment_manager_imageview_process"
+				android:layout_width="252dp"
+				android:layout_height="408dp"
+				android:src="@drawable/fragment_manager_process"/>
+		</RelativeLayout>
+		
+		<TextView
+			android:layout_width="256dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="244dp"
+			android:gravity="center"
+			android:text="@string/home_page_manager_process"
+			android:textColor="@color/white"
+			android:textSize="28sp" />
+	</RelativeLayout>
+	
+	<RelativeLayout 
+		android:id="@+id/fragment_manager_rl_garbage"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/fragment_manager_rl_process"
+		android:focusable="true"
+		android:clickable="true"
+		android:focusableInTouchMode="true"
+		android:gravity="center|top"
+		android:layout_marginLeft="3dp"
+		android:paddingTop="21dp">
+		<RelativeLayout 
+		    android:id="@+id/fragment_manager_rl_garbage_bg"
+			android:layout_width="256dp"
+			android:layout_height="412dp"
+			android:gravity="center|top"
+			android:paddingTop="2dp"
+			android:background="@null">
+			<ImageView 
+				android:id="@+id/fragment_manager_imageview_garbage"
+				android:layout_width="252dp"
+				android:layout_height="408dp"
+				android:src="@drawable/fragment_manager_garbage"/>
+		</RelativeLayout>
+
+		<TextView
+			android:layout_width="256dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="244dp"
+			android:gravity="center"
+			android:text="@string/home_page_manager_garbage"
+			android:textColor="@color/white"
+			android:textSize="28sp" />
+	</RelativeLayout>
+    
+	<RelativeLayout 
+		android:id="@+id/fragment_manager_rl_appmanager"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/fragment_manager_rl_garbage"
+		android:focusable="true"
+		android:clickable="true"
+		android:focusableInTouchMode="true"
+		android:gravity="center|top"
+		android:layout_marginLeft="3dp"
+		android:paddingTop="21dp">
+		<RelativeLayout 
+		    android:id="@+id/fragment_manager_rl_appmanager_bg"
+			android:layout_width="256dp"
+			android:layout_height="412dp"
+			android:gravity="center|top"
+			android:paddingTop="2dp"
+			android:background="@null">
+			<ImageView 
+				android:id="@+id/fragment_manager_imageview_appmanage"
+				android:layout_width="252dp"
+				android:layout_height="408dp"
+				android:src="@drawable/fragment_manager_appmanager"/>
+		</RelativeLayout>
+		
+		<TextView
+			android:layout_width="256dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="244dp"
+			android:gravity="center"
+			android:text="@string/home_page_manager_appmanage"
+			android:textColor="@color/white"
+			android:textSize="28sp" />
+	</RelativeLayout>
+	
+	<RelativeLayout 
+		android:id="@+id/fragment_manager_rl_autostart"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/fragment_manager_rl_appmanager"
+		android:focusable="true"
+		android:clickable="true"
+		android:focusableInTouchMode="true"
+		android:gravity="center|top"
+		android:layout_marginLeft="3dp"
+		android:paddingTop="21dp">
+		<RelativeLayout 
+		    android:id="@+id/fragment_manager_rl_autostart_bg"
+			android:layout_width="256dp"
+			android:layout_height="412dp"
+			android:gravity="center|top"
+			android:paddingTop="2dp"
+			android:background="@null">
+			<ImageView 
+				android:id="@+id/fragment_manager_imageview_autostart"
+				android:layout_width="252dp"
+				android:layout_height="408dp"
+				android:src="@drawable/fragment_manager_autostart"/>
+		</RelativeLayout>
+		
+		<TextView
+			android:layout_width="256dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="244dp"
+			android:gravity="center"
+			android:text="@string/home_page_manager_autostart"
+			android:textColor="@color/white"
+			android:textSize="28sp" />
+	</RelativeLayout>
+
+</RelativeLayout>

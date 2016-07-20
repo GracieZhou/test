@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="170dp"
+    android:layout_height="175dp"
+    android:layout_gravity="center"
+    android:background="@drawable/gridview_item_selector"
+    android:padding="0dp" >
+
+    <ImageView
+        android:id="@+id/item_focus_img"
+        android:layout_width="170dp"
+        android:layout_height="175dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/grid_focus"
+        android:focusable="false"
+        android:visibility="invisible" />
+    <ImageView
+        android:id="@+id/item_press_img"
+        android:layout_width="170dp"
+        android:layout_height="175dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/grid_press"
+        android:focusable="false"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/grid_item_thumbnail"
+        android:layout_width="170dp"
+        android:layout_height="175dp"
+        android:focusable="false"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/file_size"
+        android:layout_width="@dimen/activity_downloaded_type_item_file_size_width"
+        android:layout_height="@dimen/activity_downloaded_type_item_file_size_height"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:focusable="false"
+        android:textSize="@dimen/activity_downloaded_type_item_file_size_size" />
+
+    <CheckBox
+        android:id="@+id/downloaded_type_item_checkbox"
+        style="@style/Downloaded_CheckBox_Enable"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@+id/file_size"
+        android:layout_alignTop="@+id/file_type_image"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/file_type_image"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_centerInParent="true"
+        android:focusable="false"
+        android:background="@drawable/video_default_icon" />
+
+    <TextView
+        android:id="@+id/file_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_downloaded_type_item_file_size_height"
+        android:layout_below="@+id/file_type_image"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/transparent"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:focusable="false"
+        android:textSize="@dimen/activity_downloaded_type_item_file_size_size" />
+
+</RelativeLayout>

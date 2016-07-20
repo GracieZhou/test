@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="help_array">
+        <item>快捷鍵提示</item>
+        <item>成員管理</item>
+        <item>遙控設定</item>
+
+    </string-array>
+
+
+</resources>

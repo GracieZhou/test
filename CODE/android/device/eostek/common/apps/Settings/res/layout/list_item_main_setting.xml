@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout   
+         xmlns:android="http://schemas.android.com/apk/res/android"   
+         android:layout_height="wrap_content"  
+         android:layout_width="230dp"
+         android:paddingLeft="2dp"
+         android:paddingRight="2dp">  
+<!--          android:background="@drawable/gridview_selector" -->
+         <ImageView   
+               android:id="@+id/ItemImage"   
+               android:layout_height="125dp"
+               android:layout_width="120dp"   
+               android:layout_marginTop="15dp"
+               android:layout_centerHorizontal="true">   
+         </ImageView>  
+         
+         <TextView   
+               android:id="@+id/firstText"  
+               android:layout_width="wrap_content"   
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/ItemImage"   
+               android:layout_marginBottom="30dp"
+               android:textSize="20sp"
+               android:layout_centerHorizontal="true"/> 
+         <TextView   
+               android:id="@+id/SecondText"
+               android:layout_width="wrap_content"   
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/firstText"   
+               android:layout_centerHorizontal="true"   
+               android:textColor="#84ff00"
+               android:textSize="15sp"
+               android:layout_marginBottom="15dp"
+             />  
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:focusable="true" >
+
+    <TextView
+        android:id="@+id/title_txt"
+        android:layout_width="@dimen/title_txt_width"
+        android:layout_height="@dimen/title_txt_height"
+        android:gravity="center|right"
+        android:paddingRight="@dimen/title_txt_padding_right"
+        android:layout_marginLeft="@dimen/title_txt_margin_left"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/custom_title_value_textsize" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/seekbar_bar_fl_margin_top" >
+
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="@dimen/seekbar_bar_width"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/seekbar_bar_padding_leftright"
+            android:paddingRight="@dimen/seekbar_bar_padding_leftright"
+            android:minHeight="@dimen/seekbar_bar_minmax_height"
+            android:maxHeight="@dimen/seekbar_bar_minmax_height"
+             />
+
+        <TextView
+            android:id="@+id/seekbar_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/seekbar_bar_txt_padding_top"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"/>
+    </FrameLayout>
+
+</LinearLayout>

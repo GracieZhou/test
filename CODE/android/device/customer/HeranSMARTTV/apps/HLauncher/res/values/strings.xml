@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="data_format"><xliff:g id="format">MM-dd E</xliff:g></string>
+    <string name="app_name">HERTV Launcher</string>
+    <string name="load_tip">loading...</string>
+    <string name="allapp">My Application</string>
+    <string name="back">back</string>
+    <string name="ad_txt_default">HERAN product development for three consecutive years won the Taiwan Golden Quality Award. Second wave of energy saving LCD may grant subsidies associated HERAN models released</string>
+    <string name="ad_playing">advertising is playing...</string>
+    <string name="more_app">All App</string>
+    <string name="default_temperature">N/A</string>
+    <string name="source_name">Source:</string>
+    <string name="signal_name">Signal status:</string>
+    <string name="nosignaltips">\u0020 No Signal</string>
+    <string name="default_show_city">Taipei</string>
+    <string name="date_format">MM-dd E</string>
+    <string name="shop_no_network">Please check network !</string>
+    <string name="order_remind">Order Reminder</string>
+    <string name="will_start"> will start.</string>
+    <string name="start_auto"> seconds will switch to it.</string>
+    <string name="switch_immediately">Sure</string>
+    <string name="order_record_remind">Order Recorder Reminder</string>
+    <string name="mono">MONO</string>
+    <string name="sap">SAP</string>
+    <string name="stereo">Stereo</string>
+    <string name="dtv">Digital TV</string>
+    <string name="atv">analog TV</string>
+    <string name="noprogram_tip">No program now.You need to search.</string>
+    <string name="app_run_error">Application run error!</string>
+    <string name="shopping_gold">,Shopping gold$</string>
+    <string name="bonus_gold">,Bonus gold$</string>
+    <string name="download_tips">使用聲明:</string>
+    <string name="download_msg">注意!您將安裝使用第三方應用程式，該應用僅作為本裝置系統相容性展示之用，所搭載之影音內容均非屬裝置製造商所提供，裝置本身不保證內容穩定性的及來源合法性。另若有官方單位、民間公證機關或相關利害關係人向本公司提出書面告知其適法性問題時，本公司有權逕行將此功能關閉。</string>
+    <string name="download_ok">OK</string>
+    <string name="download_cancel">Cancel</string>
+    <string name="download_illegal_url">The Application is not installed,Illegal download url!</string>
+    <string name="download_start_downloading">Start downloading!</string>
+    <string name="apk_downloading">Downloading！</string>
+    <string name="locked">The current channel has been locked</string>
+
+    <!-- pandora -->
+	<string name="enter_pandora_dialog_title">Pandora Studios</string>
+	<string name="enter_pandora_dialog_content">This area is Pandora Studios, part of the video content and controversial subject matter topic, inappropriate or enjoy watching a particular ethnic group. \nIf this service, causing you distress, please press [Close Services Forever] button to close the function, thank you.</string>
+	<string name="enter_pandora_dialog_yes">[Agree and enter]</string>
+    <string name="enter_pandora_dialog_no">[Disagree and leave]</string>
+    <string name="check_password_dialog_title">Please enter paternity password(0~9)</string>
+    <string name="check_password_dialog_content">Based on the protection of minors viewing security</string>
+    <string name="check_password_dialog_yes">[Enter]</string>
+    <string name="check_password_dialog_no">[Leave]</string>
+    <string name="wrong_password_dialog_title">Paternity Password</string>
+    <string name="wrong_password_dialog_content">Wrong password, please re-enter.</string>
+    <string name="wrong_password_dialog_yes">Re-enter</string>
+    
+    <string name="enter_pandora_dialog_defaultedit_text">[Edit Password]</string>
+    <string name="enter_pandora_dialog_default_text">Please enter password...</string>
+    <string name="enter_pandora_dialog_current_text">Please enter current password...</string>
+    <string name="enter_pandora_dialog_new_text">Please enter new password...</string>
+    <string name="enter_pandora_dialog_passwd_text">[Please enter Paternity Password]</string>
+    <string name="enter_pandora_dialog_editpwd_title">Please enter password</string>
+    <string name="enter_pandora_dialog_editpwd_emptytitle">Password is empty</string>
+    <string name="enter_pandora_dialog_editpwd_emptytext">Keep in mind to avoid the burden of customer service!</string>
+    <string name="enter_pandora_dialog_editpwd_editnewtitle">Edit Password</string>
+    <string name="enter_pandora_dialog_editpwd_editnewtext">Please enter 『new password』!</string>
+    <string name="enter_pandora_dialog_superpwd_title">Super Password</string>
+    <string name="enter_pandora_dialog_reset_title">Explanation</string>
+    <string name="enter_pandora_dialog_reset_text">After resetting the system need to change your password, enter 『New Password』!</string>
+   
+    <string name="skip_pandora_dialog_text">[Close Services Forever]</string>
+    <string name="skip_pandora_dialog_defaultedit_title">Close Services</string>
+    <string name="skip_pandora_dialog_defaultedit_text">If after executing [Close Services Forever] action, this feature will disappear in the television system, thank you.</string>
+    <string name="enter_allapp_dialog_yes">[Agree]</string>
+    <string name="enter_allapp_dialog_no">[Agree - no reminders]</string>
+    <string name="enter_allapp_dialog_title">Jowin Terms of Service</string>
+    <string name="enter_allapp_dialog_content">
+		Mounted on a multimedia application platform within the unit, set by the cloud-based platform drilling win Ltd ICP system of this device application architecture build it. Limited drilling by winning cloud responsible for the operation. Thank you for using Jowin drill win, the Department provides services under the terms of the Service (hereinafter referred to as "Jowin").	
+		\n\n
+	</string>
+    <string name="enter_allapp_checkdialog_content">Have you read "Jowin drill win Terms of Service" ?</string>
+    
+    <string name="scifly_video">91Q</string>
+    <string name="scifly_video_dialog_title">使用聲明:</string>
+    <string name="scifly_video_dialog_message">注意!您將安裝使用第三方影音平台應用程式，該應用僅作為本裝置系統相容性展示之用，所搭載之影音內容均非屬裝置製造商所提供，裝置本身不保證內容穩定性的及來源合法性。另若有官方單位、民間公證機關或相關利害關係人向本公司提出書面告知其適法性問題時，本公司有權逕行將此功能關閉。</string>
+    <string name="scifly_video_dialog_positive_button">確認繼續使用</string>
+    <string name="scifly_video_dialog_negative_button">離開</string>
+    <string name="scifly_video_notice">File does not exist!</string>
+    
+    <string name="babaofan_dialog_title">APP分享區使用須知:</string>
+	<string name="babaofan_dialog_message">本分享區內並非APP管理及經營平台，僅作為使用者資訊交流之用，所露出之應用程式均為使用者自行推薦提供，相關版權及安全問題由推薦者負完全責任。</string>
+	
+    <string name="install_title">Install</string>
+    <string name="install_info">Please wait for apk to install!</string>
+</resources>

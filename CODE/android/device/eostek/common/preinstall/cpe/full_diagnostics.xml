@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Diagnostics.xsl"?>
+<result>
+  <deviceinfo>	
+	  <devicetype></devicetype> 	
+	  <time></time> 	
+  </deviceinfo>
+  <ping>
+    <Host></Host>
+    <DiagnosticsState></DiagnosticsState>
+    <MaximumResponseTime></MaximumResponseTime>
+	<MinimumResponseTime></MinimumResponseTime>
+    <AverageResponseTime></AverageResponseTime>
+    <SuccessCount></SuccessCount>
+    <FailureCount></FailureCount>
+  </ping>
+  <cpumemeryinfo>
+    <cpu_usage></cpu_usage>
+    <memery_usage></memery_usage>
+    <MemoryToltal></MemoryToltal>
+  </cpumemeryinfo>
+  <disk>
+    <PhyMemSize></PhyMemSize>
+    <StorageSize></StorageSize>
+  </disk>
+</result>
+
+

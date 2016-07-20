@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    coreApp="true"
+    package="com.android.settings"
+    android:sharedUserId="android.uid.system" >
+
+    <original-package android:name="com.android.settings" />
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.MANAGE_USERS" />
+    <uses-permission android:name="android.permission.SET_TIME_ZONE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.COPY_PROTECTED_DATA" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true" >
+        <activity
+            android:name="com.android.settings.SettingsActivity"
+            android:theme="@style/ActivityTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.settings.SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.settings.system.SystemSettingsActivity"
+            android:theme="@style/ActivityTheme" >
+            <intent-filter>
+                <action android:name="android.settings.SYSTEM_SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Datetime and city settings -->
+        <activity
+            android:name="com.android.settings.datetimecity.DateTimeCitySettingsActivity"
+            android:theme="@style/ActivityTheme" >
+            <intent-filter>
+                <action android:name="android.settings.DATE_TIME_CITY_SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.settings.datetimecity.CitySettingActivity"
+            android:theme="@style/CityActivityTheme" />
+        <activity
+            android:name="com.android.settings.datetimecity.TimeZoneSettingActivity"
+            android:theme="@style/ActivityTheme" >
+            <intent-filter>
+                <action android:name="android.settings.TIME_ZONE_SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.settings.datetimecity.NtpServerActivity"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- display and sound settings -->
+        <activity
+            android:name="com.android.settings.DisplayAndSoundActivity"
+            android:theme="@style/ActivityTheme" >
+            <intent-filter>
+                <action android:name="android.settings.DISPLAY_AND_SOUND_SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.settings.sound.SoundSettingsActivity"
+            android:theme="@style/ActivityTheme" />
+        <activity
+            android:name="com.android.settings.display.ScreenZoomActivity"
+            android:theme="@style/TranslucentDialog" />
+        <activity
+            android:name="com.android.settings.display.ScreenPositionActivity"
+            android:theme="@style/TranslucentDialog" />
+
+        <!-- update -->
+        <activity
+            android:name="com.android.settings.update.SystemUpdateActivity"
+            android:theme="@style/ActivityTheme" >
+            <intent-filter>
+                <action android:name="android.settings.SYSTEM_UPDATE_SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.settings.update.MasterClearActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.settings.MASTERCLEAR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.settings.update.SystemLocalUpdateActivity"
+            android:theme="@style/ActivityTheme" />
+        <activity
+            android:name="com.android.settings.update.ota.SystemNetUpdateActivity"
+            android:theme="@style/ActivityTheme" >
+            <intent-filter>
+                <action android:name="android.settings.action.NETUPDATE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.android.settings.update.ota.UpdateService"
+            android:enabled="true"
+            android:permission="scifly.permission.UPDATE" >
+            <intent-filter>
+                <action android:name="scifly.intent.action.UPDATE_INCREMENTAL_ALL" />
+                <action android:name="scifly.intent.action.UPDATE_CLOUD_PUSH" />
+                <action android:name="scifly.intent.action.UPDATE_DOWNLOAD_FINISHED" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.android.settings.update.ota.IntentReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- download speed -->
+
+        <activity
+            android:name="com.android.settings.network.downloadspeed.DownloadSpeedActivity"
+            android:theme="@style/ActivityTheme" />
+        <activity
+            android:name="com.android.settings.SimpleSettingsUpgradeActivity"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- connectivity -->
+        <activity
+            android:name="com.android.settings.network.connectivity.ConnectionActivity"
+            android:theme="@style/ActivityTheme" />
+        <activity
+            android:name="com.android.settings.network.screendisplay.HelpActivity"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- network -->
+        <activity
+            android:name="com.android.settings.network.NetworkSettingActivity"
+            android:theme="@style/ActivityTheme" >
+            <intent-filter>
+                <action android:name="android.settings.NETWORK_SETTINGS" />
+                <action android:name="android.settings.action.NETWORK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Device Info -->
+        <activity
+            android:name="com.android.settings.deviceinfo.DeviceInfoActivity"
+            android:theme="@style/ActivityTheme" >
+            <intent-filter>
+                <action android:name="android.settings.DEVICE_INFO_SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- bugreport -->
+        <activity
+            android:name=".bugreport.BugReportActivity"
+            android:theme="@style/ActivityTheme" >
+            <intent-filter>
+                <action android:name="android.settings.BUGREPORT_SETTINGS" />
+                <action android:name="android.settings.action.BUGREPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".bugreport.ShortcutFeedbackActivity"
+            android:theme="@style/ActivityTheme" >
+            <intent-filter>
+                <action android:name="android.settings.action.SHORTCUTFEEDBACKACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".bugreport.FeedbackRecordActivity"
+            android:theme="@style/ActivityTheme" >
+            <intent-filter>
+                <action android:name="android.settings.action.FEEDBACKRECORDACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".bugreport.FeedbackRecordDetailActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.settings.action.FEEDBACKRECORDDETAILACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Bluetooth settings -->
+        <activity
+            android:name="com.android.settings.bluetooth.BluetoothSettingsActivity"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.android.settings.bluetooth.DevicePickerActivity"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/device_picker"
+            android:theme="@style/ActivityTheme" >
+            <intent-filter>
+                <action android:name="android.bluetooth.devicepicker.action.LAUNCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- Bluetooth stuff -->
+
+        <activity
+            android:name="com.android.settings.bluetooth.BluetoothPairingDialog"
+            android:excludeFromRecents="true"
+            android:label="@string/bluetooth_pairing_request"
+            android:theme="@*android:style/Theme.Holo.Dialog.Alert" >
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.PAIRING_REQUEST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.android.settings.bluetooth.BluetoothDiscoveryReceiver" >
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.DISCOVERY_STARTED" />
+                <action android:name="android.bluetooth.adapter.action.DISCOVERY_FINISHED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.settings.bluetooth.DockEventReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOCK_EVENT" />
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+                <action android:name="android.bluetooth.headset.action.STATE_CHANGED" />
+                <action android:name="android.bluetooth.a2dp.action.SINK_STATE_CHANGED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.settings.bluetooth.BluetoothDiscoverableTimeoutReceiver" >
+            <intent-filter>
+                <action android:name="android.bluetooth.intent.DISCOVERABLE_TIMEOUT" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.android.settings.bluetooth.DockService" />
+
+        <activity
+            android:name="com.android.settings.bluetooth.RequestPermissionActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/bluetooth_permission_request"
+            android:permission="android.permission.BLUETOOTH"
+            android:theme="@*android:style/Theme.Holo.Dialog.Alert" >
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.REQUEST_DISCOVERABLE" />
+                <action android:name="android.bluetooth.adapter.action.REQUEST_ENABLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.settings.bluetooth.RequestPermissionHelperActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/bluetooth_pairing_request"
+            android:permission="android.permission.BLUETOOTH"
+            android:theme="@*android:style/Theme.Holo.Dialog.Alert" >
+        </activity>
+
+        <receiver android:name="com.android.settings.bluetooth.BluetoothPairingRequest" >
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.PAIRING_REQUEST" />
+                <action android:name="android.bluetooth.device.action.PAIRING_CANCEL" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.android.settings.bluetooth.BluetoothPermissionRequest"
+            android:permission="android.permission.BLUETOOTH_ADMIN" >
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.CONNECTION_ACCESS_REQUEST" />
+                <action android:name="android.bluetooth.device.action.CONNECTION_ACCESS_CANCEL" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.android.settings.bluetooth.BluetoothPermissionActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/bluetooth_connection_permission_request"
+            android:permission="android.permission.BLUETOOTH_ADMIN"
+            android:theme="@*android:style/Theme.Holo.Dialog.Alert" >
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.CONNECTION_ACCESS_REQUEST" />
+                <action android:name="android.bluetooth.device.action.CONNECTION_ACCESS_CANCEL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- userbackup -->
+        <receiver android:name="com.android.settings.userbackup.RecoverData" >
+            <intent-filter>
+                <action android:name="android.userbackup.action.USERDATA_RECOVER" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.settings.userbackup.BackUpData" >
+            <intent-filter>
+                <action android:name="com.eostek.scifly.intent.action.ACTION_DEVICE_INFO_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Udisk Upgrade Begin -->
+        <receiver android:name="com.android.settings.miscupgrade.MediaMountReceiver" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="com.android.settings.miscupgrade.UpgradeActivity" >
+        </activity>
+        <activity
+            android:name="com.android.settings.screensaver.ScreensaverActivity"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        <!-- SimpleSettingsActivity -->
+        <activity
+            android:name=".SimpleSettingsActivity"
+            android:theme="@style/ActivityTheme" >
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <action android:name="android.settings.SIMPLESETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.android.settings.screensaver.EostekDream"
+            android:exported="true"
+            android:label="Dream" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.service.dreams.DreamService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.android.settings.screensaver.NotificationCollectorService"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+        <!-- Udisk Upgrade End -->
+
+        <receiver android:name="com.android.settings.datetimecity.LocationChangeReceiver" >
+            <intent-filter>
+                <action android:name="com.eostek.scifly.intent.action.LOCATION_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

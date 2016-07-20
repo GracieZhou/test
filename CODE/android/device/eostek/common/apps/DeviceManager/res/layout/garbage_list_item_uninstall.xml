@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="horizontal" >
+    
+     <CheckBox
+        android:id="@+id/cb_uninstall"
+        style="@style/CheckBox.Enable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:gravity="left"
+        android:visibility="invisible" >
+    </CheckBox>
+
+    <TextView
+        android:id="@+id/tv_title_uninstall"
+        android:layout_width="@dimen/list_width"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/margin_left_checkbox"
+        android:text="@string/act_garbage_tv_garbage_uninstalled"
+        style="@style/GarbageTV" />
+
+    <TextView
+        android:id="@+id/tv_summary_uninstall"
+        android:layout_width="@dimen/tv_width"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/margin_left_tv"
+        android:text="@string/act_garbage_tv_clean_complete"
+        style="@style/GarbageTV" />
+    
+    <ImageView
+        android:id="@+id/iv_ads"
+        android:layout_width="@dimen/more"
+        android:layout_height="@dimen/more"
+        android:layout_gravity="center_vertical"
+        android:visibility="invisible" />
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="@dimen/system_local_setting_bg_width"
+        android:layout_height="@dimen/system_local_setting_bg_height"
+        android:background="@drawable/setting_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/system_local_iv_line_margin_top"
+                android:background="@drawable/line" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/local_updateTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/local_update_title_pad_left"
+                android:paddingTop="@dimen/local_update_title_pad_top"
+                android:textColor="#CCCCCCCC"
+                android:textSize="@dimen/local_update_title_textsize" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/check_directry_tv_pad_left"
+            android:paddingTop="@dimen/check_directry_tv_pad_top"
+            android:singleLine="true"
+            android:text="@string/check_directry"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="@dimen/check_directry_tv_textsize" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/local_update_info"
+            android:layout_width="@dimen/local_update_info_width"
+            android:layout_height="@dimen/local_update_info_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/local_update_info_margin_top"
+            android:background="@drawable/taskbar_blue"
+            android:paddingLeft="@dimen/local_update_info_pad_left"
+            android:paddingRight="@dimen/local_update_info_pad_right"
+            android:paddingTop="@dimen/local_update_info_pad_top"
+            android:singleLine="false"
+            android:textColor="#CCCCCCCC"
+            android:textSize="@dimen/local_update_info_textsize" >
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/local_show_progress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/local_show_progress_pad_top"
+            android:visibility="invisible" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/system_local_progress_pad_left"
+                android:text="@string/progress"
+                android:textColor="#FFFFFFFF"
+                android:textSize="@dimen/system_local_progress_textsize" />
+
+            <TextView
+                android:id="@+id/local_current_progress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFFFF"
+                android:textSize="@dimen/local_current_progress_textsize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/system_local_width"
+            android:layout_height="@dimen/system_local_height"
+            android:layout_gravity="center_horizontal" >
+
+            <include layout="@layout/progress" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/local_immediate"
+            android:layout_width="@dimen/local_immediate_width"
+            android:layout_height="@dimen/local_immediate_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/local_immediate_margin_top"
+            android:textColor="#FFFFFFFF"
+            android:textSize="@dimen/local_immediate_textsize" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/system_local_line_margin_top"
+                android:background="@drawable/line" >
+            </ImageView>
+
+            <include layout="@layout/bottom_back" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

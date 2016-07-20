@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:focusable="false">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <include
+            android:id="@+id/item_channel_eidt_ll"
+            layout="@layout/custom_button_bar">
+        </include>
+        
+        <include
+            android:id="@+id/item_dtv_auto_tuning_ll"
+            layout="@layout/custom_button_bar">
+        </include>
+        
+        <include
+            android:id="@+id/item_dtv_manual_tuning_ll"
+            layout="@layout/custom_button_bar">
+        </include>
+        
+        <include
+            android:id="@+id/item_antenna_type_ll"
+            layout="@layout/custom_enum_bar">
+        </include>
+        
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/ll_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_screen_position"
+            android:layout_width="600dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/btn_selector"
+            android:text="@string/screen_position"
+            android:textColor="@drawable/text_color_selector"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/btn_screen_size"
+            android:layout_width="600dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_selector"
+            android:text="@string/screen_size"
+            android:textColor="@drawable/text_color_selector"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_screen_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/position_background" />
+
+        <ImageView
+            android:id="@+id/iv_position_up"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/position_up_unselected" />
+
+        <ImageView
+            android:id="@+id/iv_position_down"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="220dp"
+            android:background="@drawable/position_down_unselected" />
+
+        <ImageView
+            android:id="@+id/iv_position_left"
+            android:layout_width="15dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="111dp"
+            android:background="@drawable/position_left_unselected" />
+
+        <ImageView
+            android:id="@+id/iv_position_right"
+            android:layout_width="15dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="111dp"
+            android:background="@drawable/position_right_unselected" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="267dp"
+            android:text="@string/direction_key_instruction"
+            android:textColor="#84ff03"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_screen_size"
+        android:layout_width="750dp"
+        android:layout_height="330dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <SeekBar
+            android:id="@+id/screen_seekbar"
+            android:layout_width="680dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:max="20"
+            android:maxHeight="30dip"
+            android:minHeight="30dip"
+            android:paddingTop="100dp"
+            android:clickable="false"
+            android:progressDrawable="@drawable/seek_drawable"
+            android:thumb="@drawable/seek_thumb" />
+
+        <TextView
+            android:id="@+id/seekbar_exception_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"
+            android:text="@string/screen_size_exception"
+            android:textColor="#84ff03"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

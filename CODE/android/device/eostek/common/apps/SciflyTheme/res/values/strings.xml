@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">主题</string>
+    <string name="theme">主题</string>
+    <string name="allTheme">全部主题</string>
+    <string name="get_theme_failed">获取主题失败.</string>
+    <string name="deleteInfo">按   \&quot;菜单\&quot;   键,   可删除已下载主题。</string>
+    <string name="deleteCurrentTheme">不能删除当前主题</string>
+    <string name="deleteOnlineTheme">不能删除网络主题</string>
+    <string name="deleteDefaultTheme">不能删除默认主题</string>
+    <string name="delete_yes">确定删除</string>
+    <string name="cancel">取    消</string>
+    <string name="delete_local_theme">删除本地主题</string>
+    <string name="theme_name">主题名</string>
+    <string name="downloading">正在下载</string>
+    <string name="confirm">确定</string>
+    <string name="warning">更换主题失败</string>
+    <string name="info">对不起,下载失败</string>
+    <string name="change_success">更换主题成功</string>
+    <string name="no_downloadurl_tip">获取下载地址失败，请退出后重试!</string>
+    <string name="downloading_tip">正在下载中,请任务完成后重试!</string>
+    <string name="netconnectfail">网络连接失败</string>
+    <string name="netconnectsuccess">网络连接成功</string>
+    <string name="download_fail_tip">主题下载失败, 文件将被删除!</string>
+    <string name="low_memory">内存不足,请稍后重试!</string>
+    <string name="app_exception">程序异常,请稍后重试!</string>
+    <string name="no_server_url">获取请求地址失败!</string>
+
+</resources>

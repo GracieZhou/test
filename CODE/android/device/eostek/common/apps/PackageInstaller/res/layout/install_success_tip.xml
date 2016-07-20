@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="415dp"
+    android:layout_height="250dp"
+    android:background="@drawable/frame"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="45dp"
+        android:layout_marginTop="55dp"
+        android:text="@string/install_success_tip"
+        android:textColor="@color/text_color"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/install_complete_btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_style"
+            android:singleLine="true"
+            android:text="@string/completed_btn"
+            android:textColor="@color/text_color"
+            android:textSize="22sp" >
+
+            <requestFocus />
+        </Button>
+
+        <Button
+            android:id="@+id/open_apk"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/btn_style"
+            android:text="@string/open_btn"
+            android:textColor="@color/text_color"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>

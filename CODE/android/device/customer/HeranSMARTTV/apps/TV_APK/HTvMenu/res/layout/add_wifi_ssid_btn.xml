@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/add_wifi_ssid_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/add_wifi_ssid_btn_margin_bottom"
+        android:gravity="left|center"
+        android:minHeight="@dimen/add_wifi_ssid_btn_minHeight"
+        android:paddingLeft="@dimen/add_wifi_ssid_btn_padding_left"
+        android:text="@string/wifi_add_ssid"
+        android:textColor="#CCCCCCCC"
+        android:textSize="@dimen/add_wifi_ssid_btn_textsize" />
+
+</LinearLayout>

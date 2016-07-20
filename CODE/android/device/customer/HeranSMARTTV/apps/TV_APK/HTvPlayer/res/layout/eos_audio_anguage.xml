@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mtstype"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|right"
+    android:layout_marginRight="@dimen/audio_anguage_layout_marginRight"
+    android:layout_marginTop="@dimen/audio_anguage_layout_marginTop"
+    android:background="@drawable/setting_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mtsType_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/audio_anguage_paddingBottom"
+        android:paddingLeft="@dimen/audio_anguage_paddingLeft"
+        android:paddingRight="@dimen/audio_anguage_paddingRight"
+        android:paddingTop="@dimen/audio_anguage_paddingTop"
+        android:textColor="@android:color/white"
+        android:textIsSelectable="true"
+        android:textSize="@dimen/audio_anguage_textSize" />
+
+</LinearLayout>

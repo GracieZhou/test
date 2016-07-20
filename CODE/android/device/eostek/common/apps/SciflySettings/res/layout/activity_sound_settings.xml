@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.android.settings.widget.TitleWidget
+        android:id="@+id/activity_sound_settings_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="150dp"
+        android:paddingRight="150dp" >
+        <com.android.settings.widget.TextSwitchWidget 
+            android:id="@+id/key_tone"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@drawable/btn_bg_selector"
+            android:clickable="true"
+            android:focusable="true"    />
+
+        <com.android.settings.widget.TextSwitchWidget 
+            android:id="@+id/notification_tone"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@drawable/btn_bg_selector"
+            android:clickable="true"
+            android:focusable="true"    />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+
+    <item
+        className="com.eostek.scifly.devicemanager.DeviceManagerActivity"
+        packageName="com.eostek.scifly.devicemanager"
+        title="安全管家"/>
+    <item
+        className="com.jrm.babao.babaofan.activity.main.BabaofanMainActivity"
+        packageName="com.jrm.babao.babaofan"
+        title="八宝饭"/>
+    <item
+        className="com.biaoqi.filefly.STBFileFlyMainActivity"
+        packageName="com.biaoqi.filefly"
+        title="无线传屏"/>
+    <item
+        className="com.android.browser.BrowserActivity"
+        packageName="com.android.browser"
+        title="浏览器"/>
+    <item
+        className="com.android.settings.SettingsActivity"
+        packageName="com.android.settings"
+        title="设置"/>
+
+</items>

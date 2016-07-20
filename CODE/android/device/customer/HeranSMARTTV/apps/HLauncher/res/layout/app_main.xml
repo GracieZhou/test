@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout_app"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="@dimen/app_ad_filpper_width"
+        android:layout_height="@dimen/app_ad_filpper_height"
+        android:layout_marginLeft="@dimen/app_margin_left"
+        android:layout_marginTop="@dimen/app_margin_top"
+        android:background="@drawable/home_item_bg"
+        android:orientation="vertical" >
+
+        <ViewFlipper
+            android:id="@+id/app_ad_filpper"
+            android:layout_width="@dimen/app_store_allapp_width"
+            android:layout_height="@dimen/app_store_allapp_height"
+            android:layout_marginLeft="@dimen/app_margin_left"
+            android:layout_marginTop="@dimen/app_margin_top" >
+        </ViewFlipper>
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/topapp_tips"
+            />
+
+        <GridView
+            android:id="@+id/app_store_gv"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/app_store_gv_height"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="5"
+            android:paddingLeft="@dimen/app_margin_top"
+            android:paddingRight="@dimen/app_margin_top"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/app_linearlayout_width"
+        android:layout_height="@dimen/app_linearlayout_height"
+        android:layout_marginLeft="@dimen/app_margin_left"
+        android:layout_marginTop="@dimen/app_margin_top"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/imageview_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/app_imageview_setting_height"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/appsetup" />
+
+        <GridView
+            android:id="@+id/myapp_gv"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/app_imageview_myapp_height"
+            android:layout_marginTop="@dimen/app_margin_top"
+            android:background="@drawable/home_item_bg"
+            android:gravity="center"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:paddingLeft="@dimen/app_margin_top"
+            android:paddingRight="@dimen/app_margin_top"
+            android:paddingTop="@dimen/app_margin_top"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth" />
+    </LinearLayout>
+
+    <com.google.tv.eoslauncher.util.FocusView
+        android:id="@+id/app_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/app_margin_left"
+        android:layout_marginTop="@dimen/app_margin_top"
+        android:background="@drawable/home_focus"
+        android:visibility="gone" />
+
+</LinearLayout>

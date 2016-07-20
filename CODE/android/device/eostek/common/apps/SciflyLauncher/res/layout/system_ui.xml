@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/weather_img"
+        android:layout_width="@dimen/weather_img_width"
+        android:layout_height="@dimen/weather_img_height"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/weather_descption"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/weather_descption_height"
+        android:layout_marginLeft="@dimen/weather_descption_margin_left"
+        android:layout_toRightOf="@id/weather_img"
+        android:gravity="center"
+        android:textSize="@dimen/weather_descption_size" />
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/weather_descption_height"
+        android:layout_marginLeft="@dimen/weather_descption_margin_left"
+        android:layout_toRightOf="@id/weather_descption"
+        android:gravity="center"
+        android:textSize="@dimen/weather_descption_size" />
+    
+    <TextView
+        android:id="@+id/city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/weather_descption_height"
+        android:layout_marginLeft="@dimen/weather_descption_margin_left"
+        android:layout_toRightOf="@id/temperature"
+        android:gravity="center"
+        android:textSize="@dimen/weather_descption_size" />
+</RelativeLayout>

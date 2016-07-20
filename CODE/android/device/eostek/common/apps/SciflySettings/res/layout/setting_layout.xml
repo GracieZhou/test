@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/left_layout"
+        android:layout_width="700dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+        <include
+            android:id="@+id/wired"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginBottom="12dp"
+            layout="@layout/setting_item_layout" />
+        <include
+            android:id="@+id/wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginBottom="12dp"
+            layout="@layout/setting_item_layout" />
+        <include
+            android:id="@+id/localupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginBottom="12dp"
+            layout="@layout/setting_item_layout" />
+        <include
+            android:id="@+id/mac_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginBottom="12dp"
+            layout="@layout/setting_item_layout" />
+        <include
+            android:id="@+id/deviceId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginBottom="12dp"
+            layout="@layout/setting_item_layout" />
+
+    </LinearLayout>
+
+</RelativeLayout>

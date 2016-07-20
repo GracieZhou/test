@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="reticle_padding">8.0dip</dimen>
+    <dimen name="focus_bg_padding">4.0dip</dimen>
+
+    <dimen name="left_nav_collapsed_width">62.0dip</dimen>
+    <dimen name="left_nav_collapsed_apparent_width">50.0dip</dimen>
+    <dimen name="left_nav_expanded_width">182.0dip</dimen>
+    <dimen name="left_nav_expanded_apparent_width">170.0dip</dimen>
+    <dimen name="left_nav_icon_size">36.0dip</dimen>
+    <dimen name="title_bar_height">59.0dip</dimen> 
+    <dimen name="title_bar_apparent_height">52.0dip</dimen>
+    
+    <dimen name="item_glow_padding">5.0dip</dimen>
+    <dimen name="album_glow_padding">0.0dip</dimen>
+    <string name="cotent_area_height">300dp</string>
+
+</resources>

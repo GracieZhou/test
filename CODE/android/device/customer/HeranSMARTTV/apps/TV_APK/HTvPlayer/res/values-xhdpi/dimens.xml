@@ -1,0 +1,754 @@
+<resources>
+
+    <integer name="inputPassword_editText_maxLength">4</integer>
+    
+    <!-- ChannelListEditActivity -->
+    <integer name="channelList_edit_top_off_set">35</integer>
+
+    <!-- ChannelInfoDetailsView -->
+    <integer name="ChannelInfo_details_animator_x">150</integer>
+    <integer name="ChannelInfo_details_animator_y">600</integer>
+    <integer name="ChannelInfo_details_animator_height">810</integer>
+
+    <!-- PVRFullPageBrowserActivity -->
+    <integer name="init_tv_scaler_width">1440</integer>
+    <integer name="init_tv_scaler_height">810</integer>
+
+    <!-- EpgActivity -->
+    <integer name="epg_set_left_off">300</integer>
+
+    <!-- MTSview -->
+    <integer name="mtslayout_value">-113</integer>
+    <integer name="showmts_ui_x">1275</integer>
+    <integer name="showmts_ui_y">30</integer>
+    <integer name="showmts_ui_setX">1275</integer>
+    <integer name="showmts_ui_setY">-75</integer>
+
+    <!-- ChannelInfoView -->
+    <integer name="channelinfo_layout_value">-113</integer>
+    <integer name="showChannelInfo_value_x">75</integer>
+    <integer name="showChannelInfo_value_y">30</integer>
+    <integer name="showChannelInfo_value_setX">75</integer>
+    <integer name="showChannelInfo_value_setY">-75</integer>
+
+    <!-- input -->
+    <dimen name="input_marginBottom">10dp</dimen>
+    <dimen name="input_background_height">71dp</dimen>
+    <dimen name="input_background_marginTop">12dp</dimen>
+    <dimen name="input_grid_marginleft">100dp</dimen>
+    <dimen name="input_grid_marginright">100dp</dimen>
+    <dimen name="input_grid_horizontalSpacing">35dp</dimen>
+    <dimen name="input_selector_width">60dp</dimen>
+    <dimen name="input_selector_height">60dp</dimen>
+    <dimen name="inputitem_width">60dp</dimen>
+    <dimen name="inputitem_height">60dp</dimen>
+
+    
+    <integer name="input_selector_margintop">6</integer>
+    <!-- screenballot -->
+    <dimen name="screenballot_marginBottom">10dp</dimen>
+    <dimen name="screenballot_background_height">71dp</dimen>
+    <dimen name="screenballot_background_marginTop">12dp</dimen>
+    <dimen name="screenballot_grid_marginleft">100dp</dimen>
+    <dimen name="screenballot_grid_horizontalSpacing">35dp</dimen>
+    <dimen name="screenballot_selector_width">60dp</dimen>
+    <dimen name="screenballot_selector_height">60dp</dimen>
+    <dimen name="screenballotitem_width">60dp</dimen>
+    <dimen name="screenballotitem_height">60dp</dimen>
+
+    <integer name="screenballot_selector_margintop">5</integer>
+
+    <color name="silver">#C0C0C0</color>
+    <color name="CornflowerBlue">#6495ED</color>
+
+    <!-- eos_audio_anguage.xml -->
+    <dimen name="audio_anguage_layout_marginRight">38dp</dimen>
+    <dimen name="audio_anguage_layout_marginTop">15dp</dimen>
+    <dimen name="audio_anguage_paddingBottom">8dp</dimen>
+    <dimen name="audio_anguage_paddingLeft">15dp</dimen>
+    <dimen name="audio_anguage_paddingRight">15dp</dimen>
+    <dimen name="audio_anguage_paddingTop">8dp</dimen>
+    <dimen name="audio_anguage_textSize">23sp</dimen>
+    
+    <!-- eos_channel_edit_list_item.xml -->
+    <dimen name="channel_edit_item_paddingBottom">2dp</dimen>
+    <dimen name="channel_edit_item_paddingTop">2dp</dimen>
+    <dimen name="edit_item_channel_num_marginLeft">30dp</dimen>
+    <dimen name="edit_item_channel_num_textSize">15sp</dimen>
+    <dimen name="edit_item_channel_name_layout_marginLeft">109dp</dimen>
+    <dimen name="edit_item_channel_name_textSize">15sp</dimen>
+    <dimen name="linearLayout01_layout_width">60dp</dimen>
+    <dimen name="linearLayout01_layout_marginRight">289dp</dimen>
+    <dimen name="edit_item_channel_love_layout_width">23dp</dimen>
+    <dimen name="edit_item_channel_love_layout_height">23dp</dimen>
+    <dimen name="linearLayout02_layout_width">45dp</dimen>
+    <dimen name="linearLayout02_layout_marginRight">200dp</dimen>
+    <dimen name="edit_item_channel_lock_layout_width">23dp</dimen>
+    <dimen name="edit_item_channel_lock_layout_height">23dp</dimen>
+    <dimen name="linearLayout03_layout_width">45dp</dimen>
+    <dimen name="linearLayout03_layout_marginRight">99dp</dimen>
+    <dimen name="edit_item_channel_move_layout_width">23dp</dimen>
+    <dimen name="edit_item_channel_move_layout_height">23dp</dimen>
+    <dimen name="linearLayout04_layout_width">45dp</dimen>
+    <dimen name="linearLayout04_layout_marginRight">5dp</dimen>
+    <dimen name="edit_item_channel_hide_layout_width">23dp</dimen>
+    <dimen name="edit_item_channel_hide_layout_height">23dp</dimen>
+    
+    
+    <!-- eos_channel_edit.xml -->
+    <dimen name="RelativeLayout01_layout_width">750dp</dimen>
+    <dimen name="RelativeLayout01_layout_height">450dp</dimen>
+    <dimen name="channel_edit_padding">11dp</dimen>
+    <dimen name="title_channel_textSize">23sp</dimen>
+    <dimen name="RelativeLayout02_layout_marginLeft">23dp</dimen>
+    <dimen name="RelativeLayout02_layout_marginRight">23dp</dimen>
+    <dimen name="RelativeLayout02_layout_marginTop">15dp</dimen>
+    <dimen name="title_channelitem1_layout_marginLeft">19dp</dimen>
+    <dimen name="title_channelitem1_textSize">15sp</dimen>
+    <dimen name="title_channelitem2_layout_marginLeft">45dp</dimen>
+    <dimen name="title_channelitem2_textSize">15sp</dimen>
+    <dimen name="title_channelitem3_layout_width">60dp</dimen>
+    <dimen name="title_channelitem3_layout_marginLeft">180dp</dimen>
+    <dimen name="title_channelitem3_textSize">15sp</dimen>
+    <dimen name="title_channelitem4_layout_width">45dp</dimen>
+    <dimen name="title_channelitem4_layout_marginLeft">49dp</dimen>
+    <dimen name="title_channelitem4_textSize">15sp</dimen>
+    <dimen name="title_channelitem5_layout_width">45dp</dimen>
+    <dimen name="title_channelitem5_layout_marginLeft">49dp</dimen>
+    <dimen name="title_channelitem5_textSize">15sp</dimen>
+    <dimen name="title_channelitem6_layout_width">45dp</dimen>
+    <dimen name="title_channelitem6_layout_marginLeft">49dp</dimen>
+    <dimen name="title_channelitem6_textSize">15sp</dimen>
+    <dimen name="channel_selector_layout_width">683dp</dimen>
+    <dimen name="channel_selector_layout_height">26dp</dimen>
+    <dimen name="channel_edit_list_layout_height">332dp</dimen>
+    <dimen name="channel_edit_list_layout_marginTop">2dp</dimen>
+    <dimen name="LinearLayout01_layout_marginRight">15dp</dimen>
+    <dimen name="LinearLayout02_layout_marginRight">15dp</dimen>
+    <dimen name="LinearLayout03_layout_marginRight">15dp</dimen>
+    
+    <!-- eos_channel_epg.xml -->
+    <dimen name="LinearLayout01_layout_width">635dp</dimen>
+    <dimen name="LinearLayout01_layout_height">356dp</dimen>
+    <dimen name="epg_title_padding">3dp</dimen>
+    <dimen name="epg_title_textSize">15sp</dimen>
+    <dimen name="currenttime_layout_marginRight">8dp</dimen>
+    <dimen name="currenttime_padding">3dp</dimen>
+    <dimen name="currenttime_textSize">14sp</dimen>
+    <dimen name="LinearLayout02_layout_height">2dp</dimen>
+    <dimen name="RelativeLayout01_layout_marginLeft">8dp</dimen>
+    <dimen name="RelativeLayout01_layout_marginRight">8dp</dimen>
+    <dimen name="RelativeLayout01_layout_marginTop">4dp</dimen>
+    <dimen name="channel_epg_selector_layout_width">185dp</dimen>
+    <dimen name="channel_epg_selector_layout_height">39dp</dimen>
+    <dimen name="epg_selector_layout_width">242dp</dimen>
+    <dimen name="epg_selector_layout_height">26dp</dimen>
+    <dimen name="channel_lst_layout_width">185dp</dimen>
+    <dimen name="channel_lst_layout_height">306dp</dimen>
+    <dimen name="LinearLayout03_layout_width">1dp</dimen>
+    <dimen name="LinearLayout03_layout_height">308dp</dimen>
+    <dimen name="LinearLayout03_layout_marginLeft">8dp</dimen>
+    <dimen name="epg_layout_marginLeft">16dp</dimen>
+    <dimen name="epg_lst_layout_width">242dp</dimen>
+    <dimen name="epg_lst_layout_height">293dp</dimen>
+    <dimen name="LinearLayout04_layout_width">158dp</dimen>
+    <dimen name="LinearLayout04_layout_height">308dp</dimen>
+    <dimen name="LinearLayout04_layout_marginLeft">15dp</dimen>
+    <dimen name="LinearLayout04_layout_marginRight">8dp</dimen>
+    <dimen name="LinearLayout04_paddingBottom">5dp</dimen>
+    <dimen name="LinearLayout04_paddingLeft">8dp</dimen>
+    <dimen name="LinearLayout04_paddingRight">8dp</dimen>
+    <dimen name="LinearLayout04_paddingTop">5dp</dimen>
+    <dimen name="descriptor_title_textSize">11sp</dimen>
+    <dimen name="descriptor_content_textSize">11sp</dimen>
+    <dimen name="epg_hotkeys_layout_marginRight">8dp</dimen>
+    <dimen name="epg_hotkeys_layout_marginTop">4dp</dimen>
+    <dimen name="epg_hotkeys_pvr_tips_red_layout_marginBottom">2dp</dimen>
+    <dimen name="epg_hotkeys_recorder_layout_marginLeft">2dp</dimen>
+    <dimen name="epg_hotkeys_recorder_textSize">9sp</dimen>
+    <dimen name="epg_hotkeys_pvr_tips_green_layout_marginBottom">2dp</dimen>
+    <dimen name="epg_hotkeys_pvr_tips_green_marginLeft">8dp</dimen>
+    <dimen name="epg_hotkeys_reminder_layout_marginLeft">2dp</dimen>
+    <dimen name="epg_hotkeys_reminder_layout_marginRight">4dp</dimen>
+    <dimen name="epg_hotkeys_reminder_textSize">9sp</dimen>
+    <dimen name="epg_hotkeys_pvr_tips_yellow_layout_marginBottom">2dp</dimen>
+    <dimen name="epg_hotkeys_pvr_tips_yellow_layout_marginLeft">8dp</dimen>
+    <dimen name="epg_hotkeys_schedule_list_layout_marginLeft">2dp</dimen>
+    <dimen name="epg_hotkeys_schedule_list_textSize">9sp</dimen>
+    
+    <!-- eos_channel_info.xml --> 
+    <dimen name="channelinfo_layout_marginLeft">38dp</dimen>
+    <dimen name="channelinfo_layout_marginTop">15dp</dimen>
+    <dimen name="channel_id_maxWidth">113dp</dimen>
+    <dimen name="channel_id_paddingLeft">8dp</dimen>
+    <dimen name="channel_id_textSize">26sp</dimen>
+    <dimen name="sourcetype_layout_marginLeft">15dp</dimen>
+    <dimen name="sourcetype_maxWidth">338dp</dimen>
+    <dimen name="sourcetype_paddingRight">8dp</dimen>
+    <dimen name="sourcetype_textSize">19sp</dimen>
+    <dimen name="channel_name_textSize">23sp</dimen>
+    
+    <!-- eos_channelinfo_details.xml --> 
+    <dimen name="channelinfo_detail_layout_width">300dp</dimen>
+    <dimen name="channel_num_paddingLeft">53dp</dimen>
+    <dimen name="channel_num_textSize">41sp</dimen>
+    <dimen name="channelinfo_detail_paddingLeft">53dp</dimen>
+    <dimen name="channel_time_textSize">12sp</dimen>
+    <dimen name="output_layout_marginLeft">4dp</dimen>
+    <dimen name="output_layout_textSize">12sp</dimen>
+    <dimen name="videotype_layout_marginLeft">4dp</dimen>
+    <dimen name="videotype_textSize">12sp</dimen>
+    <dimen name="channel_details_name_textSize">19sp</dimen>
+    <dimen name="isfavorite_layout_marginLeft">2dp</dimen>
+    <dimen name="channelinfo_detail_layout_width1">338dp</dimen>
+    <dimen name="cur_pgm_tip_textSize">15sp</dimen>
+    <dimen name="cur_pgm_name_maxWidth">188dp</dimen>
+    <dimen name="cur_pgm_name_textSize">15sp</dimen>
+    <dimen name="channelinfo_detail_layout_marginTop">19dp</dimen>
+    <dimen name="next_pgm_tip_textSize">15sp</dimen>
+    <dimen name="next_pgm_time1_textSize">15sp</dimen>
+    <dimen name="next_pgm_name1_layout_marginLeft">8dp</dimen>
+    <dimen name="next_pgm_name1_maxWidth">113dp</dimen>
+    <dimen name="next_pgm_name1_textSize">15sp</dimen>
+    <dimen name="next_pgm_time2_textSize">15sp</dimen>
+    <dimen name="next_pgm_name2_layout_marginLeft">8dp</dimen>
+    <dimen name="next_pgm_name2_maxWidth">113dp</dimen>
+    <dimen name="next_pgm_name2_textSize">15sp</dimen>
+    <dimen name="back_tip_padding">30dp</dimen>
+    <dimen name="back_tip_textSize">12sp</dimen>
+    
+    <!-- eos_channelitem.xml -->
+    <dimen name="channelitem_layout_height">38dp</dimen>
+    <dimen name="dtvprogram_num_layout_width">30dp</dimen>
+    <dimen name="dtvprogram_num_layout_height">38dp</dimen>
+    <dimen name="dtvprogram_num_layout_marginLeft">8dp</dimen>
+    <dimen name="dtvprogram_num_layout_marginRight">15dp</dimen>
+    <dimen name="dtvprogram_num_textSize">17dp</dimen>
+    <dimen name="dtvprogram_name_layout_width">158dp</dimen>
+    <dimen name="dtvprogram_name_layout_height">38dp</dimen>
+    <dimen name="dtvprogram_name_textSize">20dp</dimen>
+    
+    <!-- eos_channels.xml -->
+    <dimen name="channellist_title_layout_width">240dp</dimen>
+    <dimen name="channellist_title_layout_marginBottom">15dp</dimen>
+    <dimen name="channellist_title_layout_marginTop">23dp</dimen>
+    <dimen name="channellist_title_textSize">26sp</dimen>
+    <dimen name="line_layout_width">240dp</dimen>
+    <dimen name="line_layout_heigh">2dp</dimen>
+    <dimen name="line_layout_marginBottom">2dp</dimen>
+    <dimen name="list_rl_layout_heigh">413dp</dimen>
+    <dimen name="channels_selector_layout_width">218dp</dimen>
+    <dimen name="channels_selector_layout_heigh">38dp</dimen>
+    <dimen name="dtvprogram_lv_layout_width">218dp</dimen>
+    <dimen name="dtvprogram_lv_layout_marginLeft">23dp</dimen>
+    <dimen name="dtvpage_layout_width">233dp</dimen>
+    <dimen name="dtvpage_layout_marginRight">38dp</dimen>
+    <dimen name="dtvpage_textSize">19sp</dimen>
+    
+    <!-- eos_counterdown.xml -->
+    <dimen name="linear_layout_popup_ontime_layout_width">50dp</dimen>
+    <dimen name="linear_layout_popup_ontime_layout_heighth">38dp</dimen>
+    <dimen name="linear_layout_popup_ontime_textSize">9sp</dimen>
+    <dimen name="linear_layout_popup_offtime_layout_width">300dp</dimen>
+    <dimen name="linear_layout_popup_offtime_layout_heighth">60dp</dimen>
+    <dimen name="text_view_offsecond_layout_width">75dp</dimen>
+    <dimen name="text_view_offsecond_textSize1">30sp</dimen>
+    <dimen name="text_view_offsecond_textSize2">19sp</dimen>
+    <dimen name="linear_layout_popup_ready_switch_layout_width">50dp</dimen>
+    <dimen name="linear_layout_popup_ready_switch_layout_heighth">38dp</dimen>
+    <dimen name="linear_layout_popup_ready_switch_textSize">9sp</dimen>
+    <dimen name="linear_layout_popup_ready_off_layout_width">50dp</dimen>
+    <dimen name="linear_layout_popup_ready_off_layout_heighth">38dp</dimen>
+    <dimen name="linear_layout_popup_ready_off_textSize">9sp</dimen>
+    <dimen name="linear_layout_popup_system_clkchange_layout_width">253dp</dimen>
+    <dimen name="linear_layout_popup_system_clkchange_layout_heighth">38dp</dimen>
+    <dimen name="linear_layout_popup_system_clkchange_textSize">11sp</dimen>
+    
+    <!-- eos_epg_channel_item.xml -->
+    <dimen name="eos_epg_channel_item_layout_width">185dp</dimen>
+    <dimen name="eos_epg_channel_item_padding">4dp</dimen>
+    <dimen name="eos_epg_channel_item_LinearLayout_layout_width">185dp</dimen>
+    <dimen name="epg_channelno_layout_width">75dp</dimen>
+    <dimen name="epg_channeltype_layout_width">98dp</dimen>
+    <dimen name="epg_channeltype_layout_marginRight">12dp</dimen>
+    <dimen name="epg_channelname_textSize">11sp</dimen>
+    
+    <!-- eos_epg_event_item.xml -->
+    <dimen name="eos_epg_event_item_layout_width">242dp</dimen>
+    <dimen name="eos_epg_event_item_padding">6dp</dimen>
+    <dimen name="epg_event_starttime_layout_width">60dp</dimen>
+    <dimen name="epg_event_starttime_textSize">11sp</dimen>
+    <dimen name="epg_event_channelname_layout_width">135dp</dimen>
+    <dimen name="epg_event_channelname_layout_marginLeft">4dp</dimen>
+    <dimen name="epg_event_channelname_textSize">11sp</dimen>
+    <dimen name="epg_event_statusicon_layout_width">38dp</dimen>
+    <dimen name="epg_event_statusicon_layout_marginLeft">4dp</dimen>
+    
+    <!-- eos_orderremind_dialog.xml -->
+    <dimen name="order_remind_layout_width">375dp</dimen>
+    <dimen name="order_remind_layout_height">225dp</dimen>
+    <dimen name="reminder_title_layout_marginTop">15dp</dimen>
+    <dimen name="reminder_title_textSize">21sp</dimen>
+    <dimen name="info_layout_paddingTop">23dp</dimen>
+    <dimen name="info_layout_textSize">18sp</dimen>
+    <dimen name="time_layout_paddingTop">8dp</dimen>
+    <dimen name="time_textSize">24sp</dimen>
+    <dimen name="start_auto_textSize">18sp</dimen>
+    <dimen name="focus_selector_layout_width">113dp</dimen>
+    <dimen name="focus_selector_layout_height">38dp</dimen>
+    <dimen name="focus_selector_layout_marginLeft">45dp</dimen>
+    <dimen name="focus_selector_layout_marginTop">30dp</dimen>
+    <dimen name="time_layout1_paddingTop">23dp</dimen>
+    <dimen name="switch_btn_layout_width">113dp</dimen>
+    <dimen name="switch_btn_layout_height">38dp</dimen>
+    <dimen name="switch_btn_textSize">17sp</dimen>
+    <dimen name="cancle_btn_layout_width">113dp</dimen>
+    <dimen name="cancle_btn_layout_height">38dp</dimen>
+    <dimen name="cancle_btn_layout_marginLeft">30dp</dimen>
+    <dimen name="cancle_btn_textSize">17sp</dimen>
+    
+    <!-- eos_other_info.xml -->
+    <dimen name="sourceinfo_layout_marginLeft">38dp</dimen>
+    <dimen name="sourceinfo_llayout_marginTop">15dp</dimen>
+    <dimen name="sourceinfo_padding">2dp</dimen>
+    <dimen name="sourcename_textSize">30sp</dimen>
+    <dimen name="resolution_layout_marginTop">31dp</dimen>
+    <dimen name="resolution_maxWidth">225dp</dimen>
+    <dimen name="resolution_textSize">14sp</dimen>
+    
+    <!-- eos_password_check.xml -->
+    <dimen name="eos_password_check_layout_height">180dp</dimen>
+    <dimen name="eos_password_check_padding">15dp</dimen>
+    <dimen name="title_passwordcheck_textSize">23sp</dimen>
+    <dimen name="title_passwordcheck_layout_width">300dp</dimen>
+    <dimen name="title_passwordcheck_layout_height">2dp</dimen>
+    <dimen name="title_passwordcheck_layout_marginTop">2dp</dimen>
+    <dimen name="passwordcheck_focus_selector_layout_width">300dp</dimen>
+    <dimen name="passwordcheck_focus_selector_layout_height">380dp</dimen>
+    <dimen name="passwordcheck_focus_selector_layout_marginTop">19dp</dimen>
+    <dimen name="inputPassword_ll_layout_width">300dp</dimen>
+    <dimen name="inputPassword_ll_layout_height">38dp</dimen>
+    <dimen name="inputPassword_ll_layout_marginTop">19dp</dimen>
+    <dimen name="inputPassword_ll_passwordCheck_layout_width">113dp</dimen>
+    <dimen name="inputPassword_ll_passwordCheck_textSize">17sp</dimen>
+    <dimen name="inputPassword_editText_layout_width">150dp</dimen>
+    <dimen name="inputPassword_editText_layout_marginLeft">8dp</dimen>
+    <dimen name="inputPassword_editText_maxLength">3dp</dimen>
+    <dimen name="inputPassword_editText_padding">4dp</dimen>
+    <dimen name="inputPassword_editText_textSize">10sp</dimen>
+    <dimen name="inputPassword_ll_paddingTop">15dp</dimen>
+    <dimen name="ok_button_layout_width">75dp</dimen>
+    <dimen name="ok_button_layout_height">30dp</dimen>
+    <dimen name="ok_button_textSize">17sp</dimen>
+    <dimen name="cancel_button_layout_width">75dp</dimen>
+    <dimen name="cancel_button_layout_height">30dp</dimen>
+    <dimen name="cancel_button_layout_marginLeft">45dp</dimen>
+    <dimen name="cancel_button_textSize">17sp</dimen>
+    
+    <!-- eos_pvr_file_system.xml -->
+    <dimen name="eos_pvr_file_system_layout_width">200dip</dimen>
+    <dimen name="eos_pvr_file_system_layout_height">174dip</dimen>
+    <dimen name="pvr_file_system_title_layout_width">200dip</dimen>
+    <dimen name="pvr_file_system_title_layout_height">26dip</dimen>
+    <dimen name="pvr_file_system_title_layout_marginTop">0dip</dimen>
+    <dimen name="pvr_file_system_select_disk_layout_width">200dip</dimen>
+    <dimen name="pvr_file_system_select_disk_layout_height">26dip</dimen>
+    <dimen name="pvr_file_system_time_shift_size_layout_width">200dip</dimen>
+    <dimen name="pvr_file_system_time_shift_size_layout_height">26dip</dimen>
+    <dimen name="pvr_file_system_format_start_layout_width">100dip</dimen>
+    <dimen name="pvr_file_system_format_start_layout_height">26dip</dimen>
+    <dimen name="pvr_file_system_format_context_layout_width">100dip</dimen>
+    <dimen name="pvr_file_system_format_context_layout_height">26dip</dimen>
+    <dimen name="pvr_file_system_speed_check_layout_width">100dip</dimen>
+    <dimen name="pvr_file_system_speed_check_layout_height">26dip</dimen>
+    <dimen name="pvr_file_system_speed_context_layout_width">100dip</dimen>
+    <dimen name="pvr_file_system_speed_context_layout_height">26dip</dimen>
+    <dimen name="pvr_file_system_always_timeshift_layout_width">100dip</dimen>
+    <dimen name="pvr_file_system_always_timeshift_layout_height">26dip</dimen>
+    <dimen name="pvr_file_system_always_context_layout_width">100dip</dimen>
+    <dimen name="pvr_file_system_always_context_layout_height">26dip</dimen>
+    <dimen name="eos_pvr_file_system_layout_marginTop">0dip</dimen>
+    <dimen name="str_mainmenu_menu_layout_height">18dip</dimen>
+    <dimen name="str_mainmenu_menu_layout_marginLeft">135dip</dimen>
+    
+    <!-- eos_pvr_full_page_browser.xml -->
+    <dimen name="str_pvr_video_manager_layout_marginTop">30dp</dimen>
+    <dimen name="str_pvr_video_manager_textSize">26sp</dimen>
+    <dimen name="str_pvr_video_manager_layout_height">410dip</dimen>
+    <dimen name="str_pvr_video_manager_layout_marginLeft">15dp</dimen>
+    <dimen name="str_pvr_video_manager_layout_marginRight">23dp</dimen>
+    <dimen name="str_pvr_video_manager_layout_marginTop1">15dp</dimen>
+    <dimen name="lcninfo_layout_width">450dip</dimen>
+    <dimen name="lcninfo_LinearLayout_layout_height">26dip</dimen>
+    <dimen name="pvr_index_textview_layout_width">45dp</dimen>
+    <dimen name="pvr_index_textview_layout_marginLeft">23dp</dimen>
+    <dimen name="pvr_index_textview_textSize">15sp</dimen>
+    <dimen name="pvr_lcn_textview_layout_width">75dp</dimen>
+    <dimen name="pvr_lcn_textview_textSize">15sp</dimen>
+    <dimen name="pvr_channel_textview_layout_width">128dp</dimen>
+    <dimen name="pvr_channel_textview_textSize">15sp</dimen>
+    <dimen name="pvr_program_service_textview_layout_width">195dp</dimen>
+    <dimen name="pvr_program_service_textview_textSize">15sp</dimen>
+    <dimen name="pvr_listview_layout_height">360dip</dimen>
+    <dimen name="pvr_listview_layout_marginTop">2dp</dimen>
+    <dimen name="eos_pvr_full_page_browser_layout_height">18dip</dimen>
+    <dimen name="pvr_tips_red_layout_width">8dip</dimen>
+    <dimen name="pvr_tips_red_layout_height">8dip</dimen>
+    <dimen name="pvr_tips_red_layout_marginLeft">50dip</dimen>
+    <dimen name="pvr_tips_red_layout_marginTop">5dip</dimen>
+    <dimen name="str_pvr_program_service_tips_red_layout_width">44dip</dimen>
+    <dimen name="str_pvr_program_service_tips_red_layout_height">18dip</dimen>
+    <dimen name="str_pvr_program_service_tips_red_layout_marginLeft">4dp</dimen>
+    <dimen name="str_pvr_program_service_tips_red_textSize">14sp</dimen>
+    <dimen name="pvr_tips_blue_layout_width">8dip</dimen>
+    <dimen name="pvr_tips_blue_layout_height">8dip</dimen>
+    <dimen name="pvr_tips_blue_layout_marginTop">5dp</dimen>
+    <dimen name="str_pvr_program_service_tips_blue_layout_width">44dip</dimen>
+    <dimen name="str_pvr_program_service_tips_blue_layout_height">18dip</dimen>
+    <dimen name="str_pvr_program_service_tips_blue_layout_marginLeft">4dp</dimen>
+    <dimen name="str_pvr_program_service_tips_blue_textSize">14sp</dimen>
+    <dimen name="menu_divideline_f10_layout_width">2dp</dimen>
+    <dimen name="menu_divideline_f10_layout_height">375dp</dimen>
+    <dimen name="menu_divideline_f10_layout_marginLeft">8dp</dimen>
+    <dimen name="lcninfo_layout_height">26dip</dimen>
+    <dimen name="lcninfo_layout_marginRight">23dp</dimen>
+    <dimen name="pvr_lcn_record_data_textSize">14sp</dimen>
+    <dimen name="eos_pvr_full_page_browser_LinearLayout_layout_height">262dip</dimen>
+    <dimen name="eos_pvr_full_page_browser_LinearLayout_layout_marginLeft">23dp</dimen>
+    <dimen name="eos_pvr_full_page_browser_LinearLayout_layout_marginRight">23dp</dimen>
+    <dimen name="eos_pvr_full_page_browser_LinearLayout_layout_marginTop">15dp</dimen>
+    <dimen name="eos_pvr_full_page_browser_LinearLayout1_layout_height">30dip</dimen>
+    <dimen name="eos_pvr_full_page_browser_LinearLayout1_layout_marginLeft">23dp</dimen>
+    <dimen name="eos_pvr_full_page_browser_LinearLayout1_layout_marginRight">23dp</dimen>
+    <dimen name="eos_pvr_full_page_browser_LinearLayout1_layout_marginTop">23dp</dimen>
+    <dimen name="pvr_progressBar_layout_height">15dip</dimen>
+    <dimen name="total_time_layout_marginRight">23dp</dimen>
+    <dimen name="total_time_textSize">14sp</dimen>
+    <dimen name="pvr_gallery_layout_height">116dip</dimen>
+    <dimen name="pvr_gallery_layout_marginLeft">15dp</dimen>
+    <dimen name="pvr_gallery_layout_marginRight">15dp</dimen>
+    
+     <!-- eos_pvr_listview_item.xml -->
+    <dimen name="eos_pvr_listview_item_layout_height">26dip</dimen>
+    <dimen name="pvr_listview_item_index_layout_width">45dp</dimen>
+    <dimen name="pvr_listview_item_index_layout_height">26dip</dimen>
+    <dimen name="pvr_listview_item_index_layout_marginLeft">23dp</dimen>
+    <dimen name="pvr_listview_item_index_textSize">14sp</dimen>
+    <dimen name="pvr_listview_item_lcn_layout_width">75dp</dimen>
+    <dimen name="pvr_listview_item_lcn_layout_height">26dip</dimen>
+    <dimen name="pvr_listview_item_lcn_textSize">14sp</dimen>
+    <dimen name="pvr_listview_item_channel_layout_width">128dp</dimen>
+    <dimen name="pvr_listview_item_channel_layout_height">26dip</dimen>
+    <dimen name="pvr_listview_item_channel_textSize">14sp</dimen>
+    <dimen name="pvr_listview_item_program_layout_width">195dp</dimen>
+    <dimen name="pvr_listview_item_program_layout_height">26dip</dimen>
+    <dimen name="pvr_listview_item_program_textSize">14sp</dimen>
+    <dimen name="player_recording_file_layout_width">30dip</dimen>
+    <dimen name="player_recording_file_layout_height">30dip</dimen>
+    
+    <!-- eos_pvr_menu_dialog.xml -->
+    <dimen name="pvr_menu_dialog_hours_layout_width">113dip</dimen>
+    <dimen name="schedule_list_img_time_layout_width">5dip</dimen>
+    <dimen name="pvr_menu_dialog_minutes_layout_width">113dip</dimen>
+    <dimen name="pvr_menu_dialog_seconds_layout_width">113dip</dimen>
+    
+    <!-- eos_pvr_menu_info_list_view_item.xml -->
+    <dimen name="str_pvr_listview_item_layout_width">200dip</dimen>
+    <dimen name="str_pvr_listview_item_layout_height">26dip</dimen>
+    
+    <!-- eos_pvr_menu_info.xml -->
+    <dimen name="pvr_menu_info_layout_layout_width">208dip</dimen>
+    <dimen name="pvr_menu_info_layout_layout_height">209dip</dimen>
+    <dimen name="str_pvr_listview_item_layout_layout_width">200dip</dimen>
+    <dimen name="str_pvr_listview_item_layout_layout_height">26dip</dimen>
+    <dimen name="pvr_menu_info_list_view_layout_height">138dip</dimen>
+    <dimen name="pvr_menu_info_list_view_layout_width">200dip</dimen>
+    <dimen name="common_img_ok_layout_height">18dip</dimen>
+    <dimen name="common_img_ok_layout_width">31dip</dimen>
+    
+    <!-- eos_pvr_menu.xml -->
+    <dimen name="pvrrootmenu_layout_marginBottom">18dp</dimen>
+    <dimen name="pvrrootmenu_layout_padding">4dp</dimen>
+    <dimen name="lineartitle_layout_heigh">15dip</dimen>
+    <dimen name="lineartitle_layout_marginLeft">23dp</dimen>
+    <dimen name="str_pvr_listview_item_textSize1">11sp</dimen>
+    <dimen name="str_pvr_listview_item_layout_marginLeft1">75dip</dimen>
+    <dimen name="linearprogress_layout_height">2dp</dimen>
+    <dimen name="linearprogress_layout_marginLeft">45dip</dimen>
+    <dimen name="pvrprocess_layout_layout_marginLeft">25dip</dimen>
+    <dimen name="pvrprocess_layout_layout_marginTop">8dip</dimen>
+    <dimen name="play_record_progress_layout_widtht">300dip</dimen>
+    <dimen name="play_record_progress_layout_height">9dip</dimen>
+    <dimen name="progressbar_loopab_layout_widtht">0dip</dimen>
+    <dimen name="progressbar_loopab_layout_height">1dip</dimen>
+    <dimen name="record_time_layout_marginLeft1">15dip</dimen>
+    <dimen name="record_time_textSize1">11sp</dimen>
+    <dimen name="linearmenu_layout_marginTop1">4dip</dimen>
+    <dimen name="player_recorder_icon_layout_widtht">53dp</dimen>
+    <dimen name="player_recorder_icon_layout_height">53dp</dimen>
+    <dimen name="player_recorder_layout_widtht1">30dip</dimen>
+    <dimen name="player_recorder_layout_height1">30dip</dimen>
+    <dimen name="player_recorder_layout_widtht2">53dp</dimen>
+    <dimen name="player_recorder_layout_height2">23dp</dimen>
+    <dimen name="player_recorder_textSize2">11sp</dimen>
+    <dimen name="eos_pvr_menu_layout_width">53dp</dimen>
+    <dimen name="eos_pvr_menu_layout_heigh">53dp</dimen>
+    <dimen name="player_play_layout_width">30dip</dimen>
+    <dimen name="player_play_layout_heigh">30dip</dimen>
+    <dimen name="text_view_player_play_layout_width">53dp</dimen>
+    <dimen name="text_view_player_play_layout_heigh">23dp</dimen>
+    <dimen name="text_view_player_play_textSize">11sp</dimen>
+    <dimen name="player_stop_layout_width">30dip</dimen>
+    <dimen name="player_stop_layout_heigh">30dip</dimen>
+    <dimen name="str_player_stop_layout_width">53dp</dimen>
+    <dimen name="str_player_stop_layout_heigh">23dp</dimen>
+    <dimen name="str_player_stop_textSize">11sp</dimen>
+    <dimen name="player_pause_layout_width">30dip</dimen>
+    <dimen name="player_pause_layout_heigh">30dip</dimen>
+    <dimen name="str_player_pause_layout_width">53dp</dimen>
+    <dimen name="str_player_pause_layout_heigh">23dp</dimen>
+    <dimen name="str_player_pause_textSize">11sp</dimen>
+    <dimen name="player_rev_layout_width">30dip</dimen>
+    <dimen name="player_rev_layout_heigh">30dip</dimen>
+    <dimen name="str_player_rev_layout_width">53dp</dimen>
+    <dimen name="str_player_rev_layout_heigh">23dp</dimen>
+    <dimen name="str_player_rev_textSize">11sp</dimen>
+    <dimen name="player_ff_layout_width">30dip</dimen>
+    <dimen name="player_ff_layout_heigh">30dip</dimen>
+    <dimen name="str_player_ff_layout_width">53dp</dimen>
+    <dimen name="str_player_ff_layout_heigh">23dp</dimen>
+    <dimen name="str_player_ff_textSize">11sp</dimen>
+    <dimen name="player_slow_layout_width">30dip</dimen>
+    <dimen name="player_slow_layout_heigh">30dip</dimen>
+    <dimen name="str_player_slow_layout_width">53dp</dimen>
+    <dimen name="str_player_slow_layout_heigh">23dp</dimen>
+    <dimen name="str_player_slow_textSize">11sp</dimen>
+    <dimen name="player_time1_layout_width">30dip</dimen>
+    <dimen name="player_time1_layout_heigh">30dip</dimen>
+    <dimen name="str_player_time1_layout_width">53dp</dimen>
+    <dimen name="str_player_time1_layout_heigh">23dp</dimen>
+    <dimen name="str_player_time1_textSize">11sp</dimen>
+    <dimen name="player_forward_layout_width">30dip</dimen>
+    <dimen name="player_forward_layout_heigh">30dip</dimen>
+    <dimen name="str_player_forward_layout_width">53dp</dimen>
+    <dimen name="str_player_forward_layout_heigh">23dp</dimen>
+    <dimen name="str_player_forward_textSize">11sp</dimen>
+    <dimen name="player_backward_layout_width">30dip</dimen>
+    <dimen name="player_backward_layout_heigh">30dip</dimen>
+    <dimen name="str_player_backward_layout_width">53dp</dimen>
+    <dimen name="str_player_backward_layout_heigh">23dp</dimen>
+    <dimen name="str_player_backward_textSize">11sp</dimen>
+    <dimen name="usbInfoLayout_layout_width">75dp</dimen>
+    <dimen name="usbInfoLayout_paddingBottom">3dip</dimen>
+    <dimen name="usbImage_layout_height">45dip</dimen>
+    <dimen name="usbFreeSpace_layout_height">6dip</dimen>
+    <dimen name="usbFreeSpacePercent_layout_marginBottom">4dip</dimen>
+    <dimen name="usbFreeSpacePercent_textSize">11sp</dimen>
+    <dimen name="usbLabelName_textSize">11sp</dimen>
+    <dimen name="pvrisrecording_layout_marginLeft">11dip</dimen>
+    <dimen name="pvrisrecording_layout_marginTop">11dip</dimen>
+    <dimen name="pvrrecordimage_layout_width">34dp</dimen>
+    <dimen name="pvrrecordimage_layout_height">34dp</dimen>
+    <dimen name="pvrrecordtext_layout_marginLeft">11dip</dimen>
+    <dimen name="pvrrecordtext_textSize">20dp</dimen>
+    <dimen name="thumbnailRoot_layout_width">600dip</dimen>
+    <dimen name="thumbnailRoot_layout_height">158dip</dimen>
+    <dimen name="thumbnailRoot_layout_marginTop">15dp</dimen>
+    
+    <!-- eos_pvr_option.xml -->
+    <dimen name="eos_pvr_option_layout_height">174dip</dimen>
+    <dimen name="eos_pvr_option_layout_width">200dip</dimen>
+    <dimen name="pvr_file_system_title_layout_width1">200dip</dimen>
+    <dimen name="pvr_file_system_title_layout_height1">26dip</dimen>
+    <dimen name="pvr_file_system_title_layout_marginTop1">0dip</dimen>
+    <dimen name="pvr_file_system_select_disk_layout_width1">200dip</dimen>
+    <dimen name="pvr_file_system_select_disk_layout_height1">26dip</dimen>
+    <dimen name="pvr_file_system_time_shift_size_layout_width1">200dip</dimen>
+    <dimen name="pvr_file_system_time_shift_size_layout_height1">26dip</dimen>
+    <dimen name="pvr_file_system_format_start_layout_width1">100dip</dimen>
+    <dimen name="pvr_file_system_format_start_layout_height1">26dip</dimen>
+    <dimen name="pvr_file_system_format_context_layout_width1">100dip</dimen>
+    <dimen name="pvr_file_system_format_context_layout_height1">26dip</dimen>
+    <dimen name="pvr_file_system_speed_context_layout_width1">100dip</dimen>
+    <dimen name="pvr_file_system_speed_context_layout_height1">26dip</dimen>
+    <dimen name="pvr_file_system_always_timeshift_layout_width1">100dip</dimen>
+    <dimen name="pvr_file_system_always_timeshift_layout_height1">26dip</dimen>
+    <dimen name="pvr_file_system_always_context_layout_width1">100dip</dimen>
+    <dimen name="pvr_file_system_always_context_layout_height1">26dip</dimen>
+    <dimen name="eos_pvr_option_layout_marginTop">0dip</dimen>
+    <dimen name="str_pvr_file_system_menu_layout_height">18dip</dimen>
+    <dimen name="str_pvr_file_system_menu_layout_marginLeft">135dip</dimen>
+    <dimen name="pvr_menu_info_layout_layout_width1">208dip</dimen>
+    <dimen name="pvr_menu_info_layout_layout_height1">209dip</dimen>
+    <dimen name="pvr_menu_info_layout_layout_marginLeft">5dip</dimen>
+    <dimen name="pvr_menu_info_title_layout_width">200dip</dimen>
+    <dimen name="pvr_menu_info_title_layout_height">26dip</dimen>
+    <dimen name="pvr_menu_info_subtitle_layout_width">200dip</dimen>
+    <dimen name="pvr_menu_info_subtitle_layout_height">26dip</dimen>
+    <dimen name="pvr_menu_info_list_view_layout_width1">200dip</dimen>
+    <dimen name="pvr_menu_info_list_view_layout_height1">138dip</dimen>
+    <dimen name="common_img_ok_layout_width1">31dip</dimen>
+    <dimen name="common_img_ok_layout_height1">18dip</dimen>
+    
+    <!-- eos_schedule_list_item.xml -->
+    <dimen name="eos_schedule_list_item_paddingBottom">2dp</dimen>
+    <dimen name="eos_schedule_list_item_paddingTop">2dp</dimen>
+    <dimen name="schedule_time_layout_width">60dp</dimen>
+    <dimen name="schedule_time_layout_marginLeft">4dp</dimen>
+    <dimen name="schedule_duration_layout_width">45dp</dimen>
+    <dimen name="schedule_duration_layout_marginLeft">8dp</dimen>
+    <dimen name="schedule_channelnum_layout_width">45dp</dimen>
+    <dimen name="schedule_channelnum_layout_marginLeft">8dp</dimen>
+    <dimen name="schedule_channelnum_textSize">11sp</dimen>
+    <dimen name="schedule_channelname_layout_width">90dp</dimen>
+    <dimen name="schedule_channelname_layout_marginLeft">8dp</dimen>
+    <dimen name="schedule_channelname_textSize">11sp</dimen>
+    <dimen name="schedule_epgname_layout_width">90dp</dimen>
+    <dimen name="schedule_epgname_layout_marginLeft">8dp</dimen>
+    <dimen name="schedule_epgname_textSize">11sp</dimen>
+    <dimen name="schedule_type_layout_width">19dp</dimen>
+    <dimen name="schedule_type_layout_marginLeft">8dp</dimen>
+    <dimen name="schedule_layout_marginRight">4dp</dimen>
+    
+    <!-- eos_schedule_list.xml -->
+    <dimen name="eos_schedule_list_layout_width">417dp</dimen>
+    <dimen name="eos_schedule_list_layout_height">323dp</dimen>
+    <dimen name="eos_schedule_list_padding">8dp</dimen>
+    <dimen name="pvr_lcn_textview_textSize1">19sp</dimen>
+    <dimen name="pvr_lcn_textview_layout_width1">402dp</dimen>
+    <dimen name="pvr_lcn_textview_layout_height">2dp</dimen>
+    <dimen name="pvr_lcn_textview_layout_marginTop">4dp</dimen>
+    <dimen name="title_schedule1_layout_marginTop">8dp</dimen>
+    <dimen name="title_schedule1_layout_width">60dp</dimen>
+    <dimen name="title_schedule1_layout_marginLeft">4dp</dimen>
+    <dimen name="title_schedule2_layout_width">45dp</dimen>
+    <dimen name="title_schedule2_layout_marginLeft">8dp</dimen>
+    <dimen name="title_schedule3_layout_width">45dp</dimen>
+    <dimen name="title_schedule3_layout_marginLeft">8dp</dimen>
+    <dimen name="title_schedule3_textSize">11sp</dimen>
+    <dimen name="title_schedule4_layout_width">90dp</dimen>
+    <dimen name="title_schedule4_layout_marginLeft">8dp</dimen>
+    <dimen name="title_schedule4_textSize">11sp</dimen>
+    <dimen name="title_schedule5_layout_width">90dp</dimen>
+    <dimen name="title_schedule5_layout_marginLeft">8dp</dimen>
+    <dimen name="title_schedule5_textSize">11sp</dimen>
+    <dimen name="title_schedule6_layout_marginLeft">4dp</dimen>
+    <dimen name="title_schedule6_textSize">11sp</dimen>
+    <dimen name="title_schedule_content_layout_marginTop">2dp</dimen>
+    <dimen name="content_selector_layout_width">402dp</dimen>
+    <dimen name="content_selector_layout_height">26dp</dimen>
+    <dimen name="content_schedule_listview_layout_height">213dp</dimen>
+    <dimen name="content_schedule_listview_dividerHeight">1dp</dimen>
+    <dimen name="pvr_delete_button_text_layout_marginRight">8dp</dimen>
+    <dimen name="pvr_delete_button_text_drawablePadding">2dp</dimen>
+    <dimen name="pvr_delete_button_text_textSize">9sp</dimen>
+    
+    <!-- eos_signal_tips.xml -->
+    <dimen name="eos_signal_tips_layout_marginLeft">38dp</dimen>
+    <dimen name="eos_signal_tips_layout_marginTop">15dp</dimen>
+    <dimen name="signaltip_txt_paddingLeft">8dp</dimen>
+    <dimen name="signaltip_txt_textSize">38sp</dimen>
+    
+    <!-- eos_usb_driver_item.xml -->
+    <dimen name="eos_usb_driver_item_paddingBottom">3dip</dimen>
+    <dimen name="usbItemImage_layout_height">45dip</dimen>
+    <dimen name="usbItemName_textSize">11dip</dimen>
+    <dimen name="usbItemSpace_layout_heigh">6dip</dimen>
+    
+    <!-- eos_usb_driver_selecter.xml -->
+    <dimen name="eos_usb_driver_select_layout_width">375dip</dimen>
+    <dimen name="str_pvr_file_system_select_disk1_textSize">18dip</dimen>
+    <dimen name="usb_driver_scroller_layout_width">390dip</dimen>
+    <dimen name="usb_driver_scroller_layout_marginLeft">11dip</dimen>
+    <dimen name="usb_driver_scroller_layout_marginRight">11dip</dimen>
+    <dimen name="usb_driver_scroller_layout_marginTop">8dip</dimen>
+    <dimen name="usb_driver_selecter_columnWidth">90dip</dimen>
+    <dimen name="usb_driver_selecter_horizontalSpacing">4dip</dimen>
+    <dimen name="usb_driver_selecter_cancel_layout_width">150dip</dimen>
+    <dimen name="usb_driver_selecter_cancel_layout_marginTop">8dip</dimen>
+    <dimen name="usb_driver_selecter_cancel_layout_textSize">14dip</dimen>
+     
+    <!-- tipdialog.xml -->
+    <dimen name="tips_main_layout_width">375dip</dimen>
+    <dimen name="tips_main_layout_height">263dip</dimen>
+    <dimen name="tips_title_layout_marginTop">30dp</dimen>
+    <dimen name="tips_title_textSize">24sp</dimen>
+    <dimen name="message_content_layout_marginTop">30dp</dimen>
+    <dimen name="message_content_textSize">20sp</dimen>
+    <dimen name="focus_selector1_layout_width">113dp</dimen>
+    <dimen name="focus_selector1_layout_height">38dp</dimen>
+    <dimen name="focus_selector1_layout_marginLeft">60dp</dimen>
+    <dimen name="focus_selector1_layout_marginTop">53dip</dimen>
+    <dimen name="tipdialog_layout_marginTop">53dip</dimen>
+    <dimen name="sure_btn1_layout_width">113dp</dimen>
+    <dimen name="sure_btn1_layout_height">38dp</dimen>
+    <dimen name="sure_btn1_textSize">17sp</dimen>
+    <dimen name="cancle_btn1_layout_width">113dp</dimen>
+    <dimen name="cancle_btn1_layout_height">38dp</dimen>
+    <dimen name="cancle_btn1_layout_marginLeft">30dp</dimen>
+    <dimen name="cancle_btn1_textSize">17sp</dimen>
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</resources>

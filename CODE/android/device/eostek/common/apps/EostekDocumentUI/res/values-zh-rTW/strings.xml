@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">下載</string>
+    <string name="download_manager">下載管理</string>
+    <string name="failed_download">下載失敗</string>
+    <string name="downloaded">已下載</string>
+    <string name="downloading">下載中</string>
+    <string name="download_settings">下載設置</string>
+    <string name="menu_tips">按目錄鍵可進行更多操作</string>
+    <string name="operate">操作</string>
+    <string name="delete">刪 除</string>
+    <string name="nothing_selected">請選擇要刪除的選項</string>
+    <string name="mutil_choose_text">多 選</string>
+    <string name="detail_text">詳 情</string>
+    <string name="mutil_cancle_text">取消選擇</string>
+    <string name="mutil_delete_text">全部刪除</string>
+    <string name="delete_mutil_string">確定刪除所選的文件嗎？</string>
+    <string name="ok_delete">確定</string>
+    <string name="cancle_delete">取消</string>
+    <string name="downloading_delete_text_before">確定刪除</string>
+    <string name="downloading_delete_text_after">文件嗎？</string>
+    <string name="download_task_num">下載任務數</string>
+    <string name="download_limit_speed">下載限速</string>
+    <string name="limit_downloading_nobur_text_before">當前下載限制數目爲</string>
+    <string name="limit_downloading_nobur_text_after">個！</string>
+    <string name="storage_directory">儲存目錄</string>
+    <string name="downloaded_vedio">影片</string>
+    <string name="downloaded_music">音樂</string>
+    <string name="downloaded_pictrue">圖片</string>
+    <string name="downloaded_document">文檔</string>
+    <string name="downloaded_package">安裝包</string>
+    <string name="downloaded_other">其他</string>
+    <string name="downloaded_empty">無下載文件</string>
+    <string name="downloading_empty">無下載任務</string>
+    <string name="unknown_size">未知大小</string>
+    <string name="unfound_tools_open">不能打開此文件</string>
+    <string name="file_name">文件名稱</string>
+    <string name="file_size">文件大小</string>
+    <string name="finish_time">完成時間</string>
+    <string name="file_location">存儲路徑</string>
+    <string name="sure_button">確 定</string>
+    <string name="all_start">全部開始</string>
+    <string name="all_pause">全部暫停</string>
+    <string name="sure_to_remove">確定刪除當前文件?</string>
+</resources>

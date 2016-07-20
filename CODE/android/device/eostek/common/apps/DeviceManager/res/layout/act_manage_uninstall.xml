@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_main_title"
+        style="@style/TextShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="71dp"
+        android:drawableLeft="@drawable/back_bg"
+        android:drawablePadding="10dp"
+        android:text="@string/app_uninstall"
+        android:textColor="#ffffffff"
+        android:textSize="32sp" />
+
+    <TextView
+		android:id="@+id/tv_no_app_uninstall"
+		android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="50dp"
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:text="@string/no_app_uninstall"
+		android:textColor="#ffffffff"   
+		android:textSize="22sp"
+		android:visibility="gone"/>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="50dp"
+        android:columnWidth="284dp"
+        android:gravity="center"
+        android:horizontalSpacing="-8dp"
+        android:listSelector="@color/white1"
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:stretchMode="none"
+        android:verticalSpacing="0dp" />
+
+</LinearLayout>

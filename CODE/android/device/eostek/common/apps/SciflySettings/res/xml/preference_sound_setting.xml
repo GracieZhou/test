@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.android.settings" >
+
+    <com.android.settings.SettingPreference
+        android:key="key_tone"
+        android:summary="key_tone"
+        android:title="@string/key_tone"
+        app:type="single_column_with_button" />
+    <com.android.settings.SettingPreference
+        android:key="notification_tone"
+        android:summary="notification_tone"
+        android:title="@string/notification_tone"
+        app:type="single_column_with_button" />
+
+</PreferenceScreen>

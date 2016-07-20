@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WifiEncryptionState">
+        <attr name="state_encrypted" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="PercentageBarChart">
+
+        <!-- Background color -->
+        <attr name="emptyColor" format="color" />
+        <!-- Minimum tick width for each slice in the bar chart. -->
+        <attr name="minTickWidth" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="SettingPreference">
+        <!--  Sets the type mode for the preference. SettingPreference will 
+              show different columns base on the type.   -->
+        <attr name="type">
+            <!-- Show only one column. -->
+            <enum name="single_column" value="1" />
+            <!-- Show two columns. -->
+            <enum name="two_column" value="2" />
+            <!-- Show two columns with left and arrow image beside right text view -->
+            <enum name="two_column_with_selector" value="3" />
+            <!-- Show only one column and right hand has a image button. -->
+            <enum name="single_column_with_button" value="4" />
+        </attr>
+        <!-- All values the preference can selected. Each value separate by " | ", such as "1 | 2 | 3". -->
+        <attr name="valueArray" format="reference" />
+    </declare-styleable>
+
+</resources>

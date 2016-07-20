@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+	<specVersion>
+		<major>1</major>
+		<minor>0</minor>
+	</specVersion>
+	<device>
+		<deviceType>urn:babao-com:device:DLNA:1</deviceType>
+		<friendlyName>EosTV DLNA</friendlyName>
+		<manufacturer>Eostek</manufacturer>
+		<manufacturerURL>http://www.ieostek.com</manufacturerURL>
+		<modelDescription>Eostek TV</modelDescription>
+		<modelName>Eostek T12</modelName>
+		<modelNumber>12</modelNumber>
+		<modelURL>http://www.ieostek.com</modelURL>
+		<serialNumber>0</serialNumber>
+		<UDN>uuid:00000000-0000-0000-0000-000000000000</UDN>
+		<UPC>123456789</UPC>
+		<deviceList>
+			<device>
+				<deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType>
+				<friendlyName>Eostek MediaServer</friendlyName>
+				<manufacturer>Eostek</manufacturer>
+				<manufacturerURL>http://www.ieostek.com</manufacturerURL>
+				<modelDescription>Eostek TV</modelDescription>
+				<modelName>Eostek T12</modelName>
+				<modelNumber>12</modelNumber>
+				<modelURL>http://www.ieostek.com</modelURL>
+				<serialNumber>0</serialNumber>
+				<UDN>uuid:00000000-0000-0000-0000-000000000000</UDN>
+				<UPC>123456789</UPC>
+				<serviceList>
+					<service>
+						<serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType>
+						<serviceId>urn:upnp-org:serviceId:ContentDirectory</serviceId>
+						<controlURL>/upnp/control/ContentDirectory</controlURL>
+						<eventSubURL>/upnp/event/ContentDirectory</eventSubURL>
+						<SCPDURL>/ContentDirectory.xml</SCPDURL>
+					</service>
+					<service>
+						<serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+						<serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId>
+						<controlURL>/upnp/control/ConnectionManager</controlURL>
+						<eventSubURL>/upnp/event/ConnectionManager</eventSubURL>
+						<SCPDURL>/ConnectionManager.xml</SCPDURL>
+					</service>
+				</serviceList>
+			</device>
+		</deviceList>
+	</device>
+</root>

@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#90000000" >
+
+    <TextSwitcher
+        android:id="@+id/ts_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:inAnimation="@anim/push_up_in"
+        android:outAnimation="@anim/push_up_out"
+        android:textColor="@color/marquee_text_color" />
+
+</LinearLayout>

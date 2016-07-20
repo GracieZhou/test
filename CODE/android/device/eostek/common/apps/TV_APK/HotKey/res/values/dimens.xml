@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- input -->
+    <dimen name="input_marginBottom">10dp</dimen>
+    <dimen name="input_background_height">71dp</dimen>
+    <dimen name="input_background_marginTop">12dp</dimen>
+    <dimen name="input_grid_marginleft">100dp</dimen>
+    <dimen name="input_grid_marginright">100dp</dimen>
+    <dimen name="input_grid_horizontalSpacing">35dp</dimen>
+    <dimen name="input_selector_width">60dp</dimen>
+    <dimen name="input_selector_height">60dp</dimen>
+    <dimen name="inputitem_selector_width">60dp</dimen>
+    <dimen name="inputitem_selector_height">60dp</dimen>
+
+    <integer name="input_selector_margintop">6</integer>
+    <!-- screenballot -->
+    <dimen name="screenballot_marginBottom">10dp</dimen>
+    <dimen name="screenballot_background_height">71dp</dimen>
+    <dimen name="screenballot_background_marginTop">12dp</dimen>
+    <dimen name="screenballot_grid_marginleft">100dp</dimen>
+    <dimen name="screenballot_grid_horizontalSpacing">35dp</dimen>
+    <dimen name="screenballot_selector_width">80dp</dimen>
+    <dimen name="screenballot_selector_height">80dp</dimen>
+    <dimen name="screenballotitem_width">60dp</dimen>
+    <dimen name="screenballotitem_height">60dp</dimen>
+
+    <integer name="screenballot_selector_margintop">0</integer>
+
+    <color name="silver">#C0C0C0</color>
+    <color name="CornflowerBlue">#6495ED</color>
+
+</resources>

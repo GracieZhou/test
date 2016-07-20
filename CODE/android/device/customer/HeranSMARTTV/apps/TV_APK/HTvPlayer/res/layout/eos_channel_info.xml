@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/channelinfo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/channelinfo_layout_marginLeft"
+    android:layout_marginTop="@dimen/channelinfo_layout_marginTop"
+    android:background="@drawable/setting_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/channel_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:maxWidth="@dimen/channel_id_maxWidth"
+            android:paddingLeft="@dimen/channel_id_paddingLeft"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/channel_id_textSize" />
+
+        <TextView
+            android:id="@+id/sourcetype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/sourcetype_layout_marginLeft"
+            android:ellipsize="marquee"
+            android:maxWidth="@dimen/sourcetype_maxWidth"
+            android:paddingRight="@dimen/sourcetype_paddingRight"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sourcetype_textSize" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/channel_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ellipsize="marquee"
+        android:includeFontPadding="false"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/channel_name_textSize" />
+
+</LinearLayout>

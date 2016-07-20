@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">開機嚮導</string>
+    <string name="app_setmeup">SciflyCast</string>
+    <string name="language">語言設置</string>
+    <string name="screen">屏幕設置</string>
+    <string name="time_zone">時區設置</string>
+    <string name="network">網絡設置</string>
+    <string name="enter">連線</string>
+    <string name="detect_network">正在偵測網絡...</string>
+    <string name="open_wifi">正在打開WiFi...</string>
+    <string name="scan_wifi">正在掃描WiFi...</string>
+    <string name="failed_open_wifi">打開WiFi失敗...</string>
+    <string name="simple_chinese">简体中文</string>
+    <string name="tradition_chinese">繁體中文</string>
+    <string name="english">English</string>
+    <string name="wire_success">有線網絡連接成功 !</string>
+    <string name="wifi_success">無線網絡連接成功 !</string>
+    <string name="network_conn_fail">有線網絡和無線網絡均連接失敗 !</string>
+    <string name="wifi_connecting">無線網絡正在連接 ... !</string>
+    <string name="show_psw">顯示密碼</string>
+    <string name="error_psw">Wifi 密碼錯誤，請重新輸入 !</string>
+    <string name="wifi_disabled_password_failure" >驗證問題</string>
+    <string name="direction_key_instruction">遙控器上下左右鍵控制位移</string>
+    <string name="screen_size_exception">遥控左右键控制缩放比例</string>
+    <string name="screen_position">屏幕位移</string>
+    <string name="screen_size">屏幕縮放</string>
+
+    <string name="title_language">語言設置</string>
+    <string name="title_screen">萤幕設置</string>
+    <string name="title_network">網路設置</string>
+    <string name="title_timezone">時區設置</string>
+    <string name="fail_setup_config">SciflyCast 應用啟動失敗：不能建立配置環境，應用將推出</string>
+    <string name="welcom_info">歡迎使用SciflyCast</string>
+    <string name="guide_description">請通過以下方式連接SciflyCast</string>
+    <string name="step_I">步驟1：掃描二維碼</string>
+    <string name="downlaod_url_I">或訪問:</string>
+    <!-- <string name="downlaod_url_II"><u>app.qq.com/#id=detail&appid=1101696872</u></string> -->
+    <string name="download_tip">下載安裝SciflyCast Android客戶端</string>
+    <string name="dev_name">本機設備名</string>
+    <string name="step_II">步驟2：運行客戶端</string>
+    <string name="ope_tip">連接SciflyCast設置無線網絡等</string>
+    <string name="phrase_req_pairing_code">已經連接客戶端</string>
+    <string name="phrase_timezone_setting">設置時區</string>
+    <string name="phrase_restoring_factory">正在恢復出廠</string>
+    <string name="phrase_device_name_setting">修改設備名稱</string>
+    <string name="phrase_wifi_setting">網絡設置</string>
+    <string name="phrase_wifi_setting_fail"> :失敗</string>
+    <string name="phrase_wifi_setting_success"> :成功</string>
+    <string name="reset_tip_second">秒</string>
+    <string name="reset_tip_i">後將清除網絡設置</string>
+    <string name="reset_tip_ii">鬆開reset鍵取消</string>
+    <string name="reset_tip_max">10</string>
+    <string name="exit_tip">按“返回”後進入設置，手動設置網絡</string>
+    <string name="input_right_psw">請輸入至少8位長度的密碼</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="/home/john/桌面/jar/scifly.jar"/>
+	<classpathentry kind="lib" path="/home/john/桌面/jar/framework01.jar"/>
+	<classpathentry kind="lib" path="/home/john/桌面/jar/framework2.jar"/>
+	<classpathentry kind="lib" path="/home/john/jar/kikat_Framework.jar"/>
+	<classpathentry kind="lib" path="/home/john/jar/mstar.jar"/>
+	<classpathentry excluding="com/eostek/mkeyeventservice/HandlerVirtualEvent.java" kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

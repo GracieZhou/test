@@ -1,0 +1,5 @@
+<resources>
+    
+    <dimen name="between_image_text">30dp</dimen>
+
+</resources>

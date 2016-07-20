@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="text_color">#80000000</color>
+    <color name="black">#000000</color>
+    <color name="tv_selected">#FFFFFFFF</color>
+    <color name="tv_unselected">#80FFFFFF</color>
+    <color name="shard_color">#0091EA</color>
+    <color name="currentsource_color">#ffec6c00</color>
+    <color name="defaultsource_color">#ff03a34e</color>
+    <color name="blue_bg">#FF0000FF</color>
+    <color name="black_transparent">#80FFFFFF</color>
+    <color name="text_white">#FFFFFFFF</color>
+    <color name="text_grey">#FF32364e</color>
+    <color name="divider_color">#66666666</color>
+    <color name="widgetBgColor">#20000000</color>
+    <color name="widgetFontColor">#ffffff</color>
+    <color name="tempCColor">#ffffff</color>
+    <color name="zoneTempColor">#a9a7a6</color>
+    <color name="whiteColor">#ffffff</color>
+    
+    <color name="hdmi_color">#64DD17</color>
+    <color name="atv_dtv_color">#039BE5</color>
+    <color name="av_color">#FBC02D</color>
+    <color name="vga_color">#F4511E</color>
+    
+    <color name="appwidget_error_color">#FCCC</color>
+
+</resources>

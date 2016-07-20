@@ -1,0 +1,158 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+     <style name="WithTitle" parent="@android:style/Theme.Holo">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+  
+
+    <style name="Widget">
+        <item name="android:textAppearance">?android:textAppearance</item>
+    </style>
+
+   
+
+    <style name="TextAppearance">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">?android:textColorLink</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+   
+
+    <style name="Widget.ActionBar">
+        <item name="android:background">@drawable/leftnav_bar_background_dark</item>
+        <item name="android:displayOptions">useLogo|showHome</item>
+        <item name="android:height">0dip</item>
+        <item name="android:homeLayout">@layout/leftnav_bar_home</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.ActionBar_Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.ActionBar_Subtitle</item>
+        <item name="selectableItemBackground">@drawable/leftnav_bar_item_background_dark</item>
+    </style>
+
+    <style name="TextAppearance.ActionBar_Title">
+        <item name="android:textSize">20dip</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="TextAppearance.ActionBar_Subtitle">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#FF999999</item>
+    </style>
+
+    <style name="Widget.ActionBarView_TabBar">
+        <item name="android:scrollbars">none</item>
+        <item name="android:divider">@drawable/leftnav_bar_tab_separator_dark</item>
+    </style>
+
+    <style name="Widget.ActionBarView_TabView">
+        <item name="android:background">@drawable/leftnav_bar_item_background_dark</item>
+    </style>
+
+    <style name="Widget.ActionBarView_TabText">
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="android:textColor">@color/leftnav_bar_tab_text_dark</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Widget.ActionButton">
+        <item name="android:background">@drawable/leftnav_bar_menu_background_top_dark</item>
+    </style>
+
+    <style name="Widget.ActionButton.Overflow">
+        <item name="android:src">@drawable/leftnav_bar_option_icon_dark</item>
+        <item name="android:background">@drawable/leftnav_bar_item_background_dark</item>
+        <item name="android:drawableTop">@drawable/leftnav_bar_menu_background_top_dark</item>
+        <item name="android:drawableBottom">@drawable/leftnav_bar_menu_background_bottom_dark</item>
+    </style>
+
+    <style name="Widget.ActionButton.Overflow_Text" parent="Widget.ActionBarView_TabText" />
+
+    <style name="Widget.Holo.ActionBar" parent="Widget.ActionBar" />
+    <style name="Widget.Holo.ActionBarView_TabBar" parent="Widget.ActionBarView_TabBar" />
+    <style name="Widget.Holo.ActionBarView_TabView" parent="Widget.ActionBarView_TabView" />
+    <style name="Widget.Holo.ActionBarView_TabText" parent="Widget.ActionBarView_TabText" />
+    <style name="Widget.Holo.ActionButton" parent="Widget.ActionButton" />
+    <style name="Widget.Holo.ActionButton.Overflow" parent="Widget.ActionButton.Overflow" />
+    <style name="Widget.Holo.ActionButton.Overflow_Text" parent="Widget.Holo.ActionBarView_TabText" />
+
+    <style name="Widget.Holo.Light.ActionBar" parent="Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/leftnav_bar_background_light</item>
+        <item name="selectableItemBackground">@drawable/leftnav_bar_item_background_light</item>
+    </style>
+    <style name="Widget.Holo.Light.ActionBarView_TabBar" parent="Widget.Holo.ActionBarView_TabBar">
+        <item name="android:divider">@drawable/leftnav_bar_tab_separator_light</item>
+    </style>
+    <style name="Widget.Holo.Light.ActionBarView_TabView" parent="Widget.Holo.ActionBarView_TabView">
+        <item name="android:background">@drawable/leftnav_bar_item_background_light</item>
+    </style>
+    <style name="Widget.Holo.Light.ActionBarView_TabText" parent="Widget.Holo.ActionBarView_TabText">
+        <item name="android:textColor">@color/leftnav_bar_tab_text_light</item>
+    </style>
+    <style name="Widget.Holo.Light.ActionButton" parent="Widget.ActionButton">
+        <item name="android:background">@drawable/leftnav_bar_menu_background_top_light</item>
+    </style>
+    <style name="Widget.Holo.Light.ActionButton.Overflow" parent="Widget.ActionButton.Overflow">
+        <item name="android:src">@drawable/leftnav_bar_option_icon_light</item>
+        <item name="android:background">@drawable/leftnav_bar_item_background_light</item>
+        <item name="android:drawableTop">@drawable/leftnav_bar_menu_background_top_light</item>
+        <item name="android:drawableBottom">@drawable/leftnav_bar_menu_background_bottom_light</item>
+    </style>
+    <style name="Widget.Holo.Light.ActionButton.Overflow_Text" parent="Widget.Holo.Light.ActionBarView_TabText" />
+
+    <style name="MainWindowTheme" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:textAppearanceMedium">@style/BreadcrumbsText</item>
+        <item name="android:textAppearanceSmall">@style/SmallText</item>
+        <item name="android:windowBackground">@color/main_window_bg</item>
+        <item name="android:actionBarTabTextStyle">@style/CustomActionBarTabTextStyle</item>
+    </style>
+    
+    <style name="BreadcrumbsText">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">@color/breadcrumbs_font</item>
+    </style>
+    
+    <style name="SmallText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0dip</item>
+    </style>
+    
+    <style name="CustomActionBarTabTextStyle">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ffd3d3d3</item>
+    </style>
+    
+    <style name="VerticalStack">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="VerticalStack.List" parent="@style/VerticalStack">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+    </style>
+</resources>

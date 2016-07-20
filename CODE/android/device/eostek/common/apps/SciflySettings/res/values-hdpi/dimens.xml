@@ -1,0 +1,5 @@
+<resources>
+
+    <integer name="webview_init_scale">100</integer>
+
+</resources>

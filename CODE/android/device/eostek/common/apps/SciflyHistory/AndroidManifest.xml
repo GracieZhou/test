@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eostek.history"
+    android:versionCode="4"
+    android:sharedUserId="android.uid.system"
+    android:versionName="2.1.1.0313" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/default_icon"
+        android:label="@string/app_name"
+        android:logo="@drawable/app_logo"
+        android:process=":process.main" >
+        <activity
+            android:name="com.eostek.history.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MainWindowTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".provider.HistoryProvider"
+            android:authorities="com.eostek.history"
+            android:exported="true" />
+    </application>
+
+</manifest>

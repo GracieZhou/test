@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout_popup_ontime"
+        android:layout_width="@dimen/linear_layout_popup_ontime_layout_width"
+        android:layout_height="@dimen/linear_layout_popup_ontime_layout_heighth"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_root_popup_left"
+            android:textSize="@dimen/linear_layout_popup_ontime_textSize" />
+
+        <TextView
+            android:id="@+id/text_view_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/linear_layout_popup_ontime_textSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_root_popup_second"
+            android:textSize="@dimen/linear_layout_popup_ontime_textSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_root_popup_switch_to"
+            android:textSize="@dimen/linear_layout_popup_ontime_textSize" />
+
+        <TextView
+            android:id="@+id/text_view_target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/linear_layout_popup_ontime_textSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_popup_offtime"
+        android:layout_width="@dimen/linear_layout_popup_offtime_layout_width"
+        android:layout_height="@dimen/linear_layout_popup_offtime_layout_heighth"
+        android:background="@drawable/setting_bg"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/text_view_offsecond"
+            android:layout_width="@dimen/text_view_offsecond_layout_width"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_view_offsecond_textSize1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:text="@string/str_root_popup_off_after"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_view_offsecond_textSize2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_popup_ready_switch"
+        android:layout_width="@dimen/linear_layout_popup_ready_switch_layout_width"
+        android:layout_height="@dimen/linear_layout_popup_ready_switch_layout_heighth"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_root_popup_ready_to_switch"
+            android:textSize="@dimen/linear_layout_popup_ready_switch_textSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_popup_ready_off"
+        android:layout_width="@dimen/linear_layout_popup_ready_off_layout_width"
+        android:layout_height="@dimen/linear_layout_popup_ready_off_layout_heighth"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_root_popup_ready_off"
+            android:textSize="@dimen/linear_layout_popup_ready_off_textSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_popup_system_clkchange"
+        android:layout_width="@dimen/linear_layout_popup_system_clkchange_layout_width"
+        android:layout_height="@dimen/linear_layout_popup_system_clkchange_layout_heighth"
+        android:background="@drawable/setting_bg"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:text="@string/str_root_popup_system_clock_change"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/linear_layout_popup_system_clkchange_textSize" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="help_array">
+        <item>快捷键提示</item>
+        <item>成员管理</item>
+        <item>遙控設定</item>
+        <!--
+		<item>成员退出</item>
+        <item>我的足迹</item>
+        <item>新手上路</item> 
+        -->
+    </string-array>
+    <string-array name="ad_btn_name">
+        <item>回首页-EE</item>
+        <item>略过广告-EE</item>
+        <item>不做任何选择-EE</item>
+        <item>"异常-EE"</item>
+    </string-array>
+    <string-array name="error">
+        <item>异常-EE</item>
+        <item>不做任何选择-EE</item>
+    </string-array>
+    <string-array name="menu_preview_tips">
+        <item>频道</item>
+        <item>生活专区</item>
+        <item>我的APP</item>
+        <item>成员管理</item>
+        <item>设置</item>
+    </string-array>
+    <string-array name="weekDays">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/eos_epg_event_item_layout_width"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/eos_epg_event_item_padding" >
+
+    <TextView
+        android:id="@+id/epg_event_starttime"
+        style="@style/setting_content"
+        android:layout_width="@dimen/epg_event_starttime_layout_width"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/epg_event_starttime_textSize" />
+
+    <TextView
+        android:id="@+id/epg_event_channelname"
+        style="@style/setting_epg_content"
+        android:layout_width="@dimen/epg_event_channelname_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/epg_event_channelname_layout_marginLeft"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/epg_event_channelname_textSize" />
+
+    <ImageView
+        android:id="@+id/epg_event_statusicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/epg_event_statusicon_layout_marginLeft"
+        android:gravity="center_vertical" />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="6.5%p"
+   android:horizontalGap="6dp"
+   android:verticalGap="8dp"
+    android:keyHeight="@dimen/key_height"
+    >
+        <Row row_id="1">
+        <!-- <Key android:codes="97" android:keyLabel="A" android:keyEdgeFlags="left"/> -->
+        <Key android:codes="1633" android:keyLabel="١" android:keyEdgeFlags="left" android:horizontalGap="8dp"/>
+        <Key android:codes="1634" android:keyLabel="٢"/>
+        <Key android:codes="1635" android:keyLabel="٣"/>
+        <Key android:codes="1780" android:keyLabel="۴"/>
+        <Key android:codes="1781" android:keyLabel="۵" />
+        <Key android:codes="1782" android:keyLabel="۶"/>
+        <Key android:codes="1639" android:keyLabel="٧"/>
+        <Key android:codes="1640" android:keyLabel="٨"/>
+        <Key android:codes="1641" android:keyLabel="٩"/>
+        <Key android:codes="1632" android:keyLabel="٠"/>
+         <Key android:codes="8226" android:keyLabel=" •"/>
+        <Key android:codes="55" android:keyLabel="7" android:horizontalGap="2%p"/>
+        <Key android:codes="56" android:keyLabel="8"/>
+        <Key android:codes="57" android:keyLabel="9" android:keyEdgeFlags="right"/>
+    </Row>
+     <Row row_id="2">
+        <Key android:codes="46" android:keyLabel="." android:keyEdgeFlags="left" android:horizontalGap="8dp"/>
+        <Key android:codes="1548" android:keyLabel="،"/>
+        <Key android:codes="1567" android:keyLabel="؟"/>
+        <Key android:codes="33" android:keyLabel="!"/>
+        <Key android:codes="39" android:keyLabel="'"/>
+        <Key android:codes="1563" android:keyLabel="؛"/>
+        <Key android:codes="1549" android:keyLabel="؍" />
+        <Key android:codes="1642" android:keyLabel="٪" />
+        <Key android:codes="1600" android:keyLabel="ـ"/>
+        <Key android:codes="1566" android:keyLabel="؞"/>
+        <Key android:codes="34" android:keyLabel="&quot;"/>
+        <Key android:codes="52" android:keyLabel="4" android:horizontalGap="2%p"/>
+        <Key android:codes="53" android:keyLabel="5"/>
+        <Key android:codes="54" android:keyLabel="6" android:keyEdgeFlags="right"/>
+    </Row>
+     <Row row_id="3">
+         <Key android:codes="58" android:keyLabel=":" android:keyEdgeFlags="left" android:horizontalGap="8dp"/>
+        <Key android:codes="47" android:keyLabel="/"/>
+         <Key android:codes="40" android:keyLabel="("/>
+         <Key android:codes="41" android:keyLabel=")"/>
+         <Key android:codes="45" android:keyLabel="-"/>
+        <Key android:codes="43" android:keyLabel="+"/>
+        <Key android:codes="126" android:keyLabel="~"/>
+        <Key android:codes="163" android:keyLabel="£"/>
+        <Key android:codes="8364" android:keyLabel="€" />
+          <Key android:codes="36" android:keyLabel="$"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/delete_icon" 
+             android:isRepeatable="true" />
+        <Key android:codes="49" android:keyLabel="1" android:horizontalGap="2%p" />
+        <Key android:codes="50" android:keyLabel="2"/>
+        <Key android:codes="51" android:keyLabel="3" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key size="2" android:keyIcon="@drawable/persian_logo" android:codes="-9" isLogo="true"
+             android:isSticky="true" android:horizontalGap="8dp" android:keyEdgeFlags="left"/>
+        <Key android:codes="-7" android:keyIcon="@drawable/persian_on" isSmallText="true"/>
+        <Key size="2" android:codes="-8" android:keyLabel="برگشت" isSmallText="true"/>
+        <Key size="4" android:codes="32"  android:keyLabel=" فضا" isSmallText="true"  
+            android:isRepeatable="true" />
+        <Key size="2" android:codes="10" android:keyLabel="داخل شدن" isSmallText="true"/>
+        <Key size="2" android:codes="48" android:keyLabel="0" />
+        <Key android:codes="46" android:keyLabel="." android:keyEdgeFlags="right"/>
+    </Row>
+     
+</Keyboard>

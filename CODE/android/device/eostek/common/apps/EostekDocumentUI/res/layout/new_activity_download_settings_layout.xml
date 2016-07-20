@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg" >
+
+    <RelativeLayout
+        android:id="@+id/widget_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="232dp"
+        android:layout_marginTop="71dp"
+        android:gravity="center_horizontal" >
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/back_icon" />
+
+        <TextView
+            android:id="@+id/download_setting_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="@string/download_settings"
+            android:textColor="@android:color/white"
+            android:textSize="36sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget_ll"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical" >
+
+        <com.eostek.documentui.view.TextSelectorWidget
+            android:id="@+id/download_task_num"
+            android:layout_width="@dimen/activity_settings_textselectorwidget_width"
+            android:layout_height="@dimen/activity_settings_textselectorwidget_height"
+            android:background="@drawable/btn_bg_selector"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <ImageView
+            android:layout_width="791dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/list_slide_line" />
+
+        <com.eostek.documentui.view.TextSelectorWidget
+            android:id="@+id/download_limit_speed"
+            android:layout_width="@dimen/activity_settings_textselectorwidget_width"
+            android:layout_height="@dimen/activity_settings_textselectorwidget_height"
+            android:background="@drawable/btn_bg_selector"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <ImageView
+            android:layout_width="791dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/list_slide_line" />
+
+        <com.eostek.documentui.view.TextSelectorWidget
+            android:id="@+id/storage_directory"
+            android:layout_width="@dimen/activity_settings_textselectorwidget_width"
+            android:layout_height="@dimen/activity_settings_textselectorwidget_height"
+            android:background="@drawable/btn_bg_selector"
+            android:clickable="true"
+            android:focusable="true" />
+    </LinearLayout>
+
+</RelativeLayout>

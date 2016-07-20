@@ -1,0 +1,16 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+    <dimen name="category_title">20sp</dimen>
+    
+    <dimen name="first_label_height">12dp</dimen>
+    <dimen name="first_label_fontsize">15sp</dimen>
+    <dimen name="second_label_height">20dp</dimen>
+    <dimen name="second_label_fontsize">18sp</dimen>
+    
+    <dimen name="label_offset_y">5sp</dimen>
+    
+</resources>

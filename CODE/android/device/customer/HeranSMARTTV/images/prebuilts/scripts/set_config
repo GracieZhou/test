@@ -1,0 +1,20 @@
+# <- this is for comment / total file size must be less than 4KB
+# Kernel protect is automatically done by mboot
+
+# Boot from RamDisk.
+setenv bootargs console
+saveenv
+setenv bootargs console=ttyS0,115200 androidboot.console=ttyS0 root=/dev/ram rw rootwait init=/init CORE_DUMP_PATH=/data/core_dump.%%p.gz KDebug=1 delaylogo=true androidboot.selinux=permissive swiotlb=512
+setenv bootlogo_gopidx 2
+setenv bootlogo_buffer E_MMAP_ID_BOOTLOGO_BUFFER
+setenv str_crc 2
+setenv db_table 0
+setenv verify n
+setenv WDT_ENABLE 1
+setenv EarPhone on
+setenv interalSpeaker on
+setenv sync_mmap 1
+saveenv
+sync_mmap
+
+% <- this is end of file symbol

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">下载</string>
+    <string name="download_manager">下载管理</string>
+    <string name="failed_download">下载失败</string>
+    <string name="downloaded">已下载</string>
+    <string name="downloading">下载中</string>
+    <string name="download_settings">下载设置</string>
+    <string name="menu_tips">按menu键可进行更多操作</string>
+    <string name="operate">操作</string>
+    <string name="delete">删 除</string>
+    <string name="nothing_selected">请选择要删除的选项</string>
+    <string name="mutil_choose_text">多 选</string>
+    <string name="detail_text">详 情</string>
+    <string name="mutil_cancle_text">取消选择</string>
+    <string name="mutil_delete_text">全部删除</string>
+    <string name="delete_mutil_string">确定删除所选的文件吗？</string>
+    <string name="ok_delete">确定</string>
+    <string name="cancle_delete">取消</string>
+    <string name="downloading_delete_text_before">确定删除</string>
+    <string name="downloading_delete_text_after">文件吗？</string>
+    <string name="download_task_num">下载任务数</string>
+    <string name="download_limit_speed">下载限速</string>
+    <string name="limit_downloading_nobur_text_before">当前下载限制的数量是</string>
+    <string name="limit_downloading_nobur_text_after">个！</string>
+    <string name="storage_directory">储存目录</string>
+    <string name="downloaded_vedio">视频</string>
+    <string name="downloaded_music">音乐</string>
+    <string name="downloaded_pictrue">图片</string>
+    <string name="downloaded_document">文档</string>
+    <string name="downloaded_package">安装包</string>
+    <string name="downloaded_other">其他</string>
+    <string name="downloaded_empty">无下载文件</string>
+    <string name="downloading_empty">无下载任务</string>
+    <string name="unknown_size">未知大小</string>
+    <string name="unfound_tools_open">不能打开此文件</string>
+    <string name="file_name">文件名称</string>
+    <string name="file_size">文件大小</string>
+    <string name="finish_time">完成时间</string>
+    <string name="file_location">存储路径</string>
+    <string name="sure_button">确 定</string>
+    <string name="all_start">全部开始</string>
+    <string name="all_pause">全部暂停</string>
+    <string name="sure_to_remove">确定删除当前文件?</string>
+
+</resources>

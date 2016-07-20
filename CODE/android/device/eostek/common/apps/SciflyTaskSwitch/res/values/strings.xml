@@ -1,0 +1,38 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">  Task switching </string>
+    <string name="action_settings">  Set </string>
+    <string name="tab_all">  All the files </string>
+    <string name="tab_video">  Local video </string>
+    <string name="tab_photo">  Local pictures </string>
+    <string name="tab_music">  Local music </string>
+    <string name="tip_title">USB  Devices are connected </string>
+    <string name="not_tip">  Do not show ! </string>
+    <string name="related_application_not_found">  Sorry , Application not found ! </string>
+    <string name="exit_app">  Exit the application </string>
+    <string name="one_key_clean">  One-click cleanup process </string>
+    <string name="bkground_count">  Backstage %d A process </string>
+    <string name="get_back_theads">  Gets the background thread </string>
+    <string name="memory_used">  Memory used </string>
+    <string name="key_up_tip">    \" Up \"  Keys to launch applications .  </string>
+    <string name="remove_usb">  Safely remove storage device </string>
+    <string name="remove_usb_count">%d  A device to remove </string>
+    <string name="exit_tip">  Exit the application </string>
+    <string name="app_text">application name</string>
+    <string name="report_bug"> Report Bug </string>
+    <string name="all_app_text">  Apply to all </string>
+    <string name="history_text">  History </string>
+    <string name="setting_text">  System settings </string>
+    <string name="media_text">  Local media </string>
+    <string name="quality_text">  Video quality </string>
+    <string name="voice_controller"> Voice Search</string>
+    <string name="delete_message">  Safely remove hardware </string>
+    <string name="delete_tip">  Please select safely remove hardware , Press OK </string>
+    <string name="cancel">  Close </string>
+    <string name="start_app_fail">  failed  to start application... </string>
+    <string name="remove_disk_default">  USB storage device  </string>
+    <string name="remove_external_sdcard_default">  External TFCard  </string>
+    <string name="remove_unknown_storage_default">  Unknown storage device  </string>
+    <string name="unmounted">Unmounted</string>
+</resources>

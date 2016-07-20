@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </FrameLayout>
+    
+    <RelativeLayout
+        android:id="@+id/pvrrootmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/pvrrootmenu_layout_marginBottom"
+        android:background="@drawable/setting_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/pvrrootmenu_layout_padding" >
+
+        <LinearLayout
+            android:id="@+id/lineartitle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/lineartitle_layout_heigh"
+            android:layout_marginLeft="@dimen/lineartitle_layout_marginLeft"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_pvr_listview_item"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/str_pvr_listview_item_textSize1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/str_pvr_listview_item_layout_marginLeft1"
+                android:text="@string/str_pvr_listview_item"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/str_pvr_listview_item_textSize1" />
+
+            <TextView
+                android:id="@+id/play_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/str_pvr_listview_item_layout_marginLeft1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/str_pvr_listview_item_textSize1"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearprogress"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/linearprogress_layout_height"
+            android:layout_below="@+id/lineartitle"
+            android:layout_marginLeft="@dimen/linearprogress_layout_marginLeft"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/pvrprocess_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/pvrprocess_layout_layout_marginLeft"
+                android:layout_marginTop="@dimen/pvrprocess_layout_layout_marginTop" >
+
+                <com.eostek.tv.player.pvr.TextProgressBar
+                    android:id="@+id/play_record_progress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="@dimen/play_record_progress_layout_widtht"
+                    android:layout_height="@dimen/play_record_progress_layout_height"
+                    android:secondaryProgress="100"
+                    android:src="@drawable/tv_record_list_timeline_bg" />
+
+                <!--
+                     <ImageView
+                    android:id="@+id/image_view_loop_ab"
+                    android:layout_width="0dip"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="0dip"
+                    android:background="#4ff11111"
+                    android:visibility="gone" />
+                -->
+
+                <ProgressBar
+                    android:id="@+id/progressbar_loopab"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="@dimen/progressbar_loopab_layout_widtht"
+                    android:layout_height="@dimen/progressbar_loopab_layout_height"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/loopab_progressbar_style" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/record_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/record_time_layout_marginLeft1"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/record_time_textSize1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearprogress"
+            android:layout_marginTop="@dimen/linearmenu_layout_marginTop1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/player_recorder_icon"
+                android:layout_width="@dimen/player_recorder_icon_layout_widtht"
+                android:layout_height="@dimen/player_recorder_icon_layout_height"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/player_recorder"
+                    android:layout_width="@dimen/player_recorder_layout_widtht1"
+                    android:layout_height="@dimen/player_recorder_layout_height1"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/pvr_button_state"
+                    android:focusable="true"
+                    android:src="@drawable/player_recorder" />
+
+                <TextView
+                    android:layout_width="@dimen/player_recorder_layout_widtht2"
+                    android:layout_height="@dimen/player_recorder_layout_height2"
+                    android:gravity="center"
+                    android:text="@string/str_player_recorder"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/player_recorder_textSize2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/player_play"
+                    android:layout_width="@dimen/player_play_layout_width"
+                    android:layout_height="@dimen/player_play_layout_heigh"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/pvr_button_state"
+                    android:focusable="true"
+                    android:src="@drawable/player_play" />
+
+                <TextView
+                    android:id="@+id/text_view_player_play"
+                    android:layout_width="@dimen/text_view_player_play_layout_width"
+                    android:layout_height="@dimen/text_view_player_play_layout_heigh"
+                    android:gravity="center"
+                    android:text="@string/str_player_play"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/text_view_player_play_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/player_stop"
+                    android:layout_width="@dimen/player_stop_layout_width"
+                    android:layout_height="@dimen/player_stop_layout_heigh"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/pvr_button_state"
+                    android:focusable="true"
+                    android:src="@drawable/player_stop" />
+
+                <TextView
+                    android:layout_width="@dimen/str_player_stop_layout_width"
+                    android:layout_height="@dimen/str_player_stop_layout_heigh"
+                    android:gravity="center"
+                    android:text="@string/str_player_stop"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/str_player_stop_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/player_pause"
+                    android:layout_width="@dimen/player_pause_layout_width"
+                    android:layout_height="@dimen/player_pause_layout_heigh"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/pvr_button_state"
+                    android:focusable="true"
+                    android:src="@drawable/player_pause" />
+
+                <TextView
+                    android:layout_width="@dimen/str_player_pause_layout_width"
+                    android:layout_height="@dimen/str_player_pause_layout_heigh"
+                    android:gravity="center"
+                    android:text="@string/str_player_pause"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/str_player_pause_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/player_rev"
+                    android:layout_width="@dimen/player_rev_layout_width"
+                    android:layout_height="@dimen/player_rev_layout_heigh"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/pvr_button_state"
+                    android:focusable="true"
+                    android:src="@drawable/player_rev" />
+
+                <TextView
+                    android:layout_width="@dimen/str_player_rev_layout_width"
+                    android:layout_height="@dimen/str_player_rev_layout_heigh"
+                    android:gravity="center"
+                    android:text="@string/str_player_rev"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/str_player_rev_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/player_ff"
+                    android:layout_width="@dimen/player_ff_layout_width"
+                    android:layout_height="@dimen/player_ff_layout_heigh"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/pvr_button_state"
+                    android:focusable="true"
+                    android:src="@drawable/player_ff" />
+
+                <TextView
+                    android:layout_width="@dimen/str_player_ff_layout_width"
+                    android:layout_height="@dimen/str_player_ff_layout_heigh"
+                    android:gravity="center"
+                    android:text="@string/str_player_ff"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/str_player_ff_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/player_slow"
+                    android:layout_width="@dimen/player_slow_layout_width"
+                    android:layout_height="@dimen/player_slow_layout_heigh"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/pvr_button_state"
+                    android:focusable="true"
+                    android:src="@drawable/player_slow" />
+
+                <TextView
+                    android:layout_width="@dimen/str_player_slow_layout_width"
+                    android:layout_height="@dimen/str_player_slow_layout_heigh"
+                    android:gravity="center"
+                    android:text="@string/str_player_slow"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/str_player_slow_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/player_time"
+                    android:layout_width="@dimen/player_time1_layout_width"
+                    android:layout_height="@dimen/player_time1_layout_heigh"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/pvr_button_state"
+                    android:focusable="true"
+                    android:src="@drawable/playertime" />
+
+                <TextView
+                    android:layout_width="@dimen/str_player_time1_layout_width"
+                    android:layout_height="@dimen/str_player_time1_layout_heigh"
+                    android:gravity="center"
+                    android:text="@string/str_player_time"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/str_player_time1_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/player_forward"
+                    android:layout_width="@dimen/player_forward_layout_width"
+                    android:layout_height="@dimen/player_forward_layout_heigh"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/pvr_button_state"
+                    android:focusable="true"
+                    android:src="@drawable/player_forward" />
+
+                <TextView
+                    android:layout_width="@dimen/str_player_forward_layout_width"
+                    android:layout_height="@dimen/str_player_forward_layout_heigh"
+                    android:gravity="center"
+                    android:text="@string/str_player_forward"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/str_player_forward_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/player_backward"
+                    android:layout_width="@dimen/player_backward_layout_width"
+                    android:layout_height="@dimen/player_backward_layout_heigh"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/pvr_button_state"
+                    android:focusable="true"
+                    android:src="@drawable/player_backward" />
+
+                <TextView
+                    android:layout_width="@dimen/str_player_backward_layout_width"
+                    android:layout_height="@dimen/str_player_backward_layout_heigh"
+                    android:gravity="center"
+                    android:text="@string/str_player_backward"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/str_player_backward_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:orientation="vertical" >
+
+                <!--
+                <ImageButton
+                    android:id="@+id/player_capture"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:layout_gravity="center_horizontal"
+                    android:focusable="true"
+                    android:src="@drawable/player_capture" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/str_player_capture"
+                    android:textColor="#ffffff"
+                    android:textSize="10dip" />
+                -->
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/usbInfoLayout"
+            android:layout_width="@dimen/usbInfoLayout_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/linearmenu"
+            android:layout_toRightOf="@+id/linearmenu"
+            android:paddingBottom="@dimen/usbInfoLayout_paddingBottom" >
+
+            <ImageView
+                android:id="@+id/usbImage"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/usbImage_layout_height"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/usb_drive" />
+
+            <ProgressBar
+                android:id="@+id/usbFreeSpace"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/usbFreeSpace_layout_height"
+                android:layout_below="@+id/usbImage"
+                android:layout_centerHorizontal="true"
+                android:secondaryProgress="100" />
+
+            <TextView
+                android:id="@+id/usbFreeSpacePercent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/usbFreeSpace"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/usbFreeSpacePercent_layout_marginBottom"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/usbFreeSpacePercent_textSize" />
+
+            <TextView
+                android:id="@+id/usbLabelName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/usbFreeSpace"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textSize="@dimen/usbLabelName_textSize" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pvrisrecording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/pvrisrecording_layout_marginLeft"
+        android:layout_marginTop="@dimen/pvrisrecording_layout_marginTop"
+        android:focusable="false"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/pvrrecordimage"
+            android:layout_width="@dimen/pvrrecordimage_layout_width"
+            android:layout_height="@dimen/pvrrecordimage_layout_height"
+            android:src="@drawable/idle_img_press_ststus_pvr" />
+
+        <TextView
+            android:id="@+id/pvrrecordtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/pvrrecordtext_layout_marginLeft"
+            android:layout_toRightOf="@+id/pvrrecordimage"
+            android:gravity="center_vertical"
+            android:shadowColor="#000000"
+            android:text="@string/str_pvr_is_recording"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/pvrrecordtext_textSize" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/thumbnailRoot"
+        android:layout_width="@dimen/thumbnailRoot_layout_width"
+        android:layout_height="@dimen/thumbnailRoot_layout_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/thumbnailRoot_layout_marginTop" >
+    </RelativeLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="536dp"
+    android:layout_height="366dp"
+    android:background="@drawable/weather_03_frame" >
+
+    <ImageView
+        android:id="@+id/life_img01"
+        android:layout_width="78dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="14dp" />
+
+    <ImageView
+        android:id="@+id/life_img02"
+        android:layout_width="78dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="100dp" />
+
+    <ImageView
+        android:id="@+id/life_img03"
+        android:layout_width="78dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="190dp" />
+
+    <ImageView
+        android:id="@+id/life_img04"
+        android:layout_width="78dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="280dp" />
+
+    <TextView
+        android:id="@+id/life_txt01"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/life_txt02"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="140dp"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/life_txt03"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="230dp"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/life_txt04"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="320dp"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+</RelativeLayout>

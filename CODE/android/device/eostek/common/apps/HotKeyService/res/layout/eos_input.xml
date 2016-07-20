@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/input_rl"
+    android:layout_width="1280dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="@dimen/input_marginBottom"
+    android:gravity="center" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/input_background_height"
+        android:layout_marginTop="@dimen/input_background_marginTop"
+        android:background="@drawable/osd_bar" />
+
+    <GridView
+        android:id="@+id/input_gv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/input_grid_marginleft"
+        android:layout_marginRight="@dimen/input_grid_marginright"
+        android:layout_marginTop="@dimen/input_grid_margintop"
+        android:fadingEdgeLength="0dp"
+        android:footerDividersEnabled="false"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/input_grid_horizontalSpacing"
+        android:listSelector="@drawable/focus"
+        android:numColumns="8" />
+
+    <ImageView
+        android:id="@+id/selector"
+        android:layout_width="@dimen/input_selector_width"
+        android:layout_height="@dimen/input_selector_height"
+        android:background="@drawable/focus"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1066dp"
+    android:layout_height="600dp"
+    android:background="@drawable/nmediaback" >
+
+    <Button
+        android:id="@+id/btn_entertainment"
+        android:layout_width="350dp"
+        android:layout_height="467dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/entertainment" />
+
+    <ImageView
+        android:id="@+id/msg_icon2"
+        android:layout_width="350dp"
+        android:layout_height="123dp"
+        android:layout_alignStart="@id/btn_entertainment"
+        android:layout_below="@id/btn_entertainment"
+        android:scaleType="fitXY"
+        android:src="@drawable/entertainment_shadow" />
+
+    <Button
+        android:id="@+id/btn_education"
+        android:layout_width="476dp"
+        android:layout_height="229dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@id/btn_entertainment"
+        android:background="@drawable/education" />
+
+    <Button
+        android:id="@+id/btn_shopping"
+        android:layout_width="476dp"
+        android:layout_height="229dp"
+        android:layout_alignStart="@id/btn_education"
+        android:layout_below="@id/btn_education"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shopping" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="476dp"
+        android:layout_height="123dp"
+        android:layout_alignStart="@id/btn_shopping"
+        android:layout_below="@id/btn_shopping"
+        android:scaleType="fitXY"
+        android:src="@drawable/shopping_shadow" />
+
+</RelativeLayout>

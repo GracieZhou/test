@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout_media"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/imageview_video"
+        android:layout_width="@dimen/media_imagebutton_width"
+        android:layout_height="@dimen/media_imagebutton_height"
+        android:layout_marginLeft="@dimen/media_video_margin_left"
+        android:layout_marginRight="@dimen/media_margin_right"
+        android:layout_marginTop="@dimen/media_margin_top"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/video" />
+
+    <ImageButton
+        android:id="@+id/imageview_photo"
+        android:layout_width="@dimen/media_imagebutton_width"
+        android:layout_height="@dimen/media_imagebutton_height"
+        android:layout_marginRight="@dimen/media_margin_right"
+        android:layout_marginTop="@dimen/media_margin_top"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/photo" />
+
+    <ImageButton
+        android:id="@+id/imageview_music"
+        android:layout_width="@dimen/media_imagebutton_width"
+        android:layout_height="@dimen/media_imagebutton_height"
+        android:layout_marginTop="@dimen/media_margin_top"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/music" />
+
+    <com.google.tv.eoslauncher.util.FocusView
+        android:id="@+id/selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_focus"
+        android:visibility="gone" />
+
+</LinearLayout>

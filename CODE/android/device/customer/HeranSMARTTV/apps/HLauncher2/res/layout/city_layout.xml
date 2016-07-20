@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="820dp"
+        android:layout_height="685dp"
+        android:background="@drawable/city_w1_1" 
+        
+       >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="817dp"
+            android:layout_height="41dp" 
+            android:background="@drawable/city_bar1">
+
+            <TextView
+                android:id="@+id/city_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/taipei_city" 
+                android:textSize="35sp"
+                android:layout_marginLeft="530dp"
+                android:textColor="#ffffff"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="554dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/map_left"
+                    android:layout_width="202dp"
+                    android:layout_height="188dp"
+                    android:background="@drawable/city_map1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                   	android:layout_gravity="right"
+                   	android:layout_marginTop="20dp"
+                   	android:layout_marginRight="5dp"
+                     >
+
+                    <TextView
+                        android:id="@+id/city20"
+                        android:layout_width="120dp"
+                        android:layout_height="35dp"
+                        android:gravity="right"
+                        android:paddingRight="15dp"
+                        android:text="@string/lienchiang_county"
+                        android:textColor="#3300ff"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/city21"
+                        android:layout_width="120dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="25dp"
+                        android:gravity="right"
+                        android:paddingRight="15dp"
+                        android:text="@string/kinmen_county"
+                        android:textColor="#3300ff"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/city22"
+                        android:layout_width="120dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="25dp"
+                        android:gravity="right"
+                        android:paddingRight="15dp"
+                        android:text="@string/penghu_county"
+                        android:textColor="#3300ff"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" 
+                >
+
+                <TextView
+                    android:id="@+id/city1"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="@string/taipei_city"
+                    android:textColor="#3300ff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/city2"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="@string/newtaipei_city"
+                    android:textColor="#3300ff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/city3"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="@string/taoyuan_city"
+                    android:textColor="#3300ff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/city4"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="@string/hsinchu_city"
+                    android:textColor="#3300ff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/city5"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="@string/hsinchu_county"
+                    android:textColor="#3300ff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/city6"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="@string/miaoli_county"
+                    android:textColor="#3300ff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/city7"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="@string/taichung_city"
+                    android:textColor="#3300ff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/city8"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="@string/changhua_county"
+                    android:textColor="#3300ff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/city9"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="@string/yunlin_county"
+                    android:textColor="#3300ff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/city10"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="@string/chiayi_county"
+                    android:textColor="#3300ff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/city11"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="@string/chiayi_city"
+                    android:textColor="#3300ff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/city12"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="@string/tainan_city"
+                    android:textColor="#3300ff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/city13"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="@string/kaohsiung_city"
+                    android:textColor="#3300ff"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/map"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+               android:background="@drawable/city_map6"
+                android:layout_marginLeft="30dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp" >
+                
+                 <TextView
+                     android:id="@+id/city14"
+                     android:layout_width="120dp"
+                     android:layout_height="35dp"
+                     android:gravity="right"
+                     android:paddingRight="15dp"
+                     android:text="@string/keelung_city"
+                     android:textColor="#3300ff"
+                     android:textSize="25sp" />
+                 
+                  <TextView
+                      android:id="@+id/city15"
+                      android:layout_width="120dp"
+                      android:layout_height="35dp"
+                      android:layout_marginTop="5dp"
+                      android:gravity="right"
+                      android:paddingRight="15dp"
+                      android:text="@string/yilan_county"
+                      android:textColor="#3300ff"
+                      android:textSize="25sp" />
+                  
+                   <TextView
+                       android:id="@+id/city16"
+                       android:layout_width="120dp"
+                       android:layout_height="35dp"
+                       android:layout_marginTop="5dp"
+                       android:gravity="right"
+                       android:paddingRight="15dp"
+                       android:text="@string/hualien_county"
+                       android:textColor="#3300ff"
+                       android:textSize="25sp" />
+                   
+                    <TextView
+                        android:id="@+id/city17"
+                        android:layout_width="120dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="right"
+                        android:paddingRight="15dp"
+                        android:text="@string/nantou_county"
+                        android:textColor="#3300ff"
+                        android:textSize="25sp" />
+                    
+                     <TextView
+                         android:id="@+id/city18"
+                         android:layout_width="120dp"
+                         android:layout_height="35dp"
+                         android:layout_marginTop="5dp"
+                         android:gravity="right"
+                         android:paddingRight="15dp"
+                         android:text="@string/taitung_county"
+                         android:textColor="#3300ff"
+                         android:textSize="25sp" />
+                     
+                      <TextView
+                          android:id="@+id/city19"
+                          android:layout_width="120dp"
+                          android:layout_height="35dp"
+                          android:layout_marginTop="5dp"
+                          android:gravity="right"
+                          android:paddingRight="15dp"
+                          android:text="@string/pingtung_county"
+                          android:textColor="#3300ff"
+                          android:textSize="25sp" />
+                 
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/city_confirm"
+                android:layout_width="101dp"
+                android:layout_height="38dp"
+                android:layout_marginRight="200dp"
+                android:background="@color/transparent"
+                android:src="@drawable/city_bt3" />
+
+            <ImageButton
+                android:id="@+id/city_cancel"
+                android:layout_width="101dp"
+                android:layout_height="38dp"
+                android:background="@color/transparent"
+                android:src="@drawable/city_bt5" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="850dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/selector_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="220dp"
+        android:layout_toLeftOf="@+id/seletor_widget"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+    <com.android.settings.widget.SelectorWidget
+        android:id="@+id/seletor_widget"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

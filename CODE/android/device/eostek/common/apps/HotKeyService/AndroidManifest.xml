@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eostek.hotkeyservice"
+    android:versionCode="1"
+    android:sharedUserId="android.uid.system"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="20" />
+    
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.MASTER_CLEAR" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    
+    <application 
+        android:name="com.eostek.hotkeyservice.HotKeyApplication"
+        android:persistent="true"
+        android:allowBackup="true" >
+        <service  android:name="com.eostek.hotkeyservice.HotKeyService">
+            <intent-filter>
+                <action android:name="com.eostek.hotkeyservice.HotKeyService" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.eostek.hotkeyservice.BootCompleteReceiver" >
+            <intent-filter>
+                <action android:name="com.eostek.tv.SOURCE"/>
+                <action android:name="com.eostek.hotkeyservice.HotKeyService.REBOOT"/>
+                <action android:name="com.mstar.tv.service.COMMON_EVENT_SIGNAL_STATUS_UPDATE"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

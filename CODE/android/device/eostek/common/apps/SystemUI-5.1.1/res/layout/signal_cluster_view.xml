@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* apps/common/assets/default/default/skins/StatusBar.xml
+**
+** Copyright 2011, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+<!-- EosTek Patch Begin -->
+<!-- extends LinearLayout -->
+<com.android.systemui.statusbar.SignalClusterView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/signal_cluster_battery_padding"
+    >
+<!-- EosTek Patch End -->
+    <ImageView
+        android:id="@+id/vpn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingEnd="6dp"
+        android:src="@drawable/stat_sys_vpn_ic"
+        />
+    <FrameLayout
+        android:id="@+id/wifi_combo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        >
+        <!-- EosTek Patch Begin -->
+        <ImageView
+            android:id="@+id/wifi_signal"
+            android:layout_height="@dimen/status_bar_icon_size"
+            android:layout_width="@dimen/status_bar_icon_size"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"
+            />
+        <TextView
+            android:id="@+id/wifi_strength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="right|bottom"
+            android:layout_marginLeft="26dp"
+            android:textSize="12dp"
+            android:typeface="sans"
+            android:textStyle="normal"
+            android:singleLine="true"
+            />
+        <TextView
+            android:id="@+id/wifi_ssid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:maxWidth="132dp"
+            android:layout_marginLeft="56dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical|center_horizontal"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.StatusBar.Clock" />
+        <!-- EosTek Patch End -->
+    </FrameLayout>
+    <!-- EosTek Patch Begin -->
+    <FrameLayout
+        android:id="@+id/ethernet_combo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/ethernet_signal"
+            android:layout_height="@dimen/status_bar_icon_size"
+            android:layout_width="@dimen/status_bar_icon_size"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"
+            />
+    </FrameLayout>
+    <!-- EosTek Patch End -->
+       <!-- EosTek Patch Begin -->
+    <FrameLayout
+        android:id="@+id/pppoe_combo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/pppoe_signal"
+            android:layout_height="@dimen/status_bar_icon_size"
+            android:layout_width="@dimen/status_bar_icon_size"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"
+            android:scaleType="fitCenter"
+            />
+    </FrameLayout>
+    <!-- EosTek Patch End -->
+    <View
+        android:id="@+id/wifi_signal_spacer"
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:visibility="gone"
+        />
+    <!-- EosTek Patch Begin -->
+    <LinearLayout
+        android:id="@+id/mobile_signal_group"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        >
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/no_sims"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/stat_sys_no_sims"
+        android:visibility="gone"
+        />
+    <!-- EosTek Patch End -->
+    <View
+        android:id="@+id/wifi_airplane_spacer"
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/airplane"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        />
+</com.android.systemui.statusbar.SignalClusterView>

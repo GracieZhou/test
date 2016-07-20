@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Scifly.ListView" parent="@android:style/Widget.ListView">
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:listSelector">#00000000</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+    </style>
+
+    <style name="Scifly.ListView.NoDivider">
+        <item name="android:divider">#00000000</item>
+    </style>
+
+    <style name="Scifly.ListSelector">
+        <item name="android:background">@drawable/scifly_listview_selector_normal</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="Scifly.ListSelector.Fill">
+        <item name="android:background">@drawable/scifly_listview_selector_fill</item>
+    </style>
+
+    <style name="Scifly.ListSelector.Button">
+        <item name="android:background">@drawable/scifly_listview_selector_button</item>
+    </style>
+
+</resources>

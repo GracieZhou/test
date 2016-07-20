@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eostek.scifly.devicemanager"
+    android:versionCode="1"
+    android:versionName="1.0.4"
+    coreApp="true"
+    android:sharedUserId="android.uid.system" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name" 
+        android:theme="@android:style/Theme.NoTitleBar">
+        <activity
+            android:name="com.eostek.scifly.devicemanager.DeviceManagerActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.eostek.scifly.devicemanager.MemoryFullActicity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar" >
+        </activity>
+        
+        <activity 
+            android:name="com.eostek.scifly.devicemanager.manage.process.ProcessActivity"
+            android:theme="@style/dialog" >
+        </activity>
+
+        <activity 
+            android:name="com.eostek.scifly.devicemanager.manage.autostart.AutoStartActivity" >
+        </activity>
+
+        <activity 
+            android:name="com.eostek.scifly.devicemanager.manage.garbage.GarbageActivity" 
+            android:theme="@style/dialog">
+        </activity>
+        
+        <activity 
+            android:name="com.eostek.scifly.devicemanager.manage.garbage.ApkFileActivity" >
+        </activity>
+        
+         <activity 
+            android:name="com.eostek.scifly.devicemanager.manage.garbage.BigFileActivity" >
+        </activity>
+        
+         <activity
+            android:name="com.eostek.scifly.devicemanager.manage.garbage.MenuActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.DELETE_SELECT_MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name="com.eostek.scifly.devicemanager.manage.appuninstall.AppUninstallActivity" >
+        </activity>
+        
+        <activity 
+            android:name="com.eostek.scifly.devicemanager.manage.appmanagement.AppManagementActivity">
+        </activity>
+	
+        <receiver 
+            android:name="com.eostek.scifly.devicemanager.receiver.MessageReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+                <action android:name="android.intent.action.DEVICE_STORAGE_FULL" />
+            </intent-filter>
+            
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data android:scheme="package" />
+            </intent-filter>
+            
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+                <action android:name="android.intent.action.MEDIA_CHECKING" />
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                <action android:name="android.intent.action.MEDIA_REMOVED" />
+                <action android:name="android.intent.action.MEDIA_BAD_REMOVAL" />
+                <data android:scheme="file" />
+            </intent-filter>
+            
+        </receiver>
+
+        <service 
+            android:name="com.eostek.scifly.devicemanager.service.DownloadService">
+        </service>
+        
+        <service 
+            android:name="com.eostek.scifly.devicemanager.service.UpgradeService">
+        </service>
+        
+    </application>
+
+</manifest>
+

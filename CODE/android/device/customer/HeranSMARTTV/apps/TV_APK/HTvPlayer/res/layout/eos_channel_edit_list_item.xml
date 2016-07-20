@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/channel_edit_item_paddingBottom"
+    android:paddingTop="@dimen/channel_edit_item_paddingTop" >
+
+    <TextView
+        android:id="@+id/edit_item_channel_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/edit_item_channel_num_marginLeft"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/edit_item_channel_num_textSize" />
+
+    <TextView
+        android:id="@+id/edit_item_channel_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/edit_item_channel_name_layout_marginLeft"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/edit_item_channel_name_textSize" />
+
+    <LinearLayout
+        android:layout_width="@dimen/linearLayout01_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/linearLayout01_layout_marginRight"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/edit_item_channel_love"
+            android:layout_width="@dimen/edit_item_channel_love_layout_width"
+            android:layout_height="@dimen/edit_item_channel_love_layout_height" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/linearLayout02_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/linearLayout02_layout_marginRight"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/edit_item_channel_lock"
+            android:layout_width="@dimen/edit_item_channel_lock_layout_width"
+            android:layout_height="@dimen/edit_item_channel_lock_layout_height" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/linearLayout03_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/linearLayout03_layout_marginRight"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/edit_item_channel_move"
+            android:layout_width="@dimen/edit_item_channel_move_layout_width"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/linearLayout04_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/linearLayout04_layout_marginRight"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/edit_item_channel_hide"
+            android:layout_width="@dimen/edit_item_channel_hide_layout_width"
+            android:layout_height="@dimen/edit_item_channel_hide_layout_height" />
+    </LinearLayout>
+
+</RelativeLayout>

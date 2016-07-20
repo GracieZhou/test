@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.android.settings.widget.TitleWidget
+        android:id="@+id/activity_bugreport_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/ll_device_id"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/et_bugport_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_more_device_id"
+                android:textColor="@color/green"
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/colon"
+                android:textColor="@color/green"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/tv_device_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:textSize="21sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/et_bugport_content"
+            android:layout_marginRight="3dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_bugport_content"
+            android:layout_marginTop="10dp"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_count"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="top|left"
+            android:hint="@string/say_your_suggestion"
+            android:maxLines="6"
+            android:minHeight="150dp" />
+
+        <Button
+            android:id="@+id/btn_bugreport_submit"
+            android:layout_width="157dp"
+            android:layout_height="54dp"
+            android:layout_below="@+id/et_bugport_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/button_selector"
+            android:textColor="#000000"
+            android:textSize="23sp" />
+    </RelativeLayout>
+
+</LinearLayout>

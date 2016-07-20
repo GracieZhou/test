@@ -1,0 +1,15 @@
+<resources>
+
+<add-resource type="style" name="FullscreenDialog"/>
+
+<style name="FullscreenDialog" >
+
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@color/transparent</item>
+    <item name="android:windowAnimationStyle">
+         @+android:style/Animation.LockScreen
+   </item>
+</style>
+</resources>

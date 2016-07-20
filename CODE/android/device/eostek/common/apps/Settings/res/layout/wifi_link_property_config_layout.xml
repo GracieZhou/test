@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical" >
+
+    <com.android.settings.widget.TitleWidget
+        android:id="@+id/title_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+      <!--   android:gravity="center_vertical" -->
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/auto_get"
+                layout="@layout/wifi_link_property_config_item_switch" />
+
+            <include
+                android:id="@+id/ip_address"
+                layout="@layout/wifi_link_property_config_item" />
+
+            <include
+                android:id="@+id/subnet_mask"
+                layout="@layout/wifi_link_property_config_item" />
+
+            <include
+                android:id="@+id/gateway"
+                layout="@layout/wifi_link_property_config_item" />
+
+            <include
+                android:id="@+id/dns"
+                layout="@layout/wifi_link_property_config_item" />
+
+            <Button
+                android:id="@+id/link_property_config_yes"
+                android:layout_width="157dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_selector"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

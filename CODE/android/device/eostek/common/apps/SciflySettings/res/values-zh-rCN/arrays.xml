@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="screen_saver_start_time_arrays">
+        <item>关闭</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>30分钟</item>
+        <item>1小时</item>
+    </string-array>
+    <string-array name="screen_saver_picture">
+        <item>系统图片</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="screen_saver_dir">
+        <item>系统目录</item>
+    </string-array>
+
+</resources>

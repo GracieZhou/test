@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Widget</string>
+    <string name="action_settings">設置</string>
+    <string name="hello_world">你好!</string>
+    <string name="monday">週一</string>
+    <string name="tuesday">週二</string>
+    <string name="wednesday">週三</string>
+    <string name="thursday">週四</string>
+    <string name="friday">週五</string>
+    <string name="saturday">週六</string>
+    <string name="sunday">週日</string>
+    <string name="sun">晴</string>
+    <string name="fog">霧</string>
+    <string name="cloudy">多雲</string>
+    <string name="rain">雨</string>
+    <string name="snow">雪</string>
+    <string name="rain_snow">雨夾雪</string>
+    <string name="shower">陣雨</string>
+    <string name="snow_shower">陣雪</string>
+    <string name="thunder_shower">雷陣雨</string>
+    <string name="default_show_city">深圳</string>
+    <string name="high_tem">高 </string>
+    <string name="low_tem">低 </string>
+    <string name="last_update">上次更新 </string>
+    <string name="temp_c">°C</string>
+    
+    <!-- upgrade widget -->
+    <string name="network_upgrade">網絡升級</string>
+    <string name="found_new_verions">檢測到新版本</string>
+    <string name="download_percentage">正在下載升級包</string>
+    
+    <string name="qr_code_tip">微信掃一掃\n手機控TV</string>
+
+</resources>

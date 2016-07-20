@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/custom_toast_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <Button 
+        android:id="@+id/custom_toast_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:clickable="false"
+        android:focusable="false"
+        android:background="@drawable/toast_background"/>
+
+</RelativeLayout>

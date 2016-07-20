@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="0" android:drawable="@drawable/ic_wifi_lock_signal_1_light" />
+    <item android:maxLevel="1" android:drawable="@drawable/ic_wifi_lock_signal_2_light" />
+    <item android:maxLevel="2" android:drawable="@drawable/ic_wifi_lock_signal_3_light" />
+    <item android:maxLevel="3" android:drawable="@drawable/ic_wifi_lock_signal_4_light" />
+</level-list>
+

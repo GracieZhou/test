@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#b0000000" >
+
+    <TextView
+        android:id="@+id/authorize_failed_message"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top"
+        android:textColor="#FFFFFFFF"
+        android:gravity="center_horizontal|center_vertical" />
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:focusable="false">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    
+        <include
+            android:id="@+id/mItemSoundMode"
+            layout="@layout/custom_enum_bar">
+        </include>
+        
+        <include
+            android:id="@+id/mItemLowPitch"
+            layout="@layout/custom_seek_bar"/>
+        
+        <include
+            android:id="@+id/mItemHigh"
+            layout="@layout/custom_seek_bar">
+        </include>
+        
+          <include
+            android:id="@+id/mItemEquilizer"
+            layout="@layout/custom_button_bar">
+        </include>
+        
+          <include
+            android:id="@+id/mItemBalance"
+            layout="@layout/custom_seek_bar">
+        </include>
+        
+          <include
+            android:id="@+id/mItemAvc"
+            layout="@layout/custom_enum_bar">
+        </include>
+        
+          <include
+            android:id="@+id/mItemSurround"
+            layout="@layout/custom_enum_bar">
+        </include>
+        
+        <include
+            android:id="@+id/mItemSpidfOutput"
+            layout="@layout/custom_enum_bar">
+        </include>
+        
+        <include
+            android:id="@+id/mItemInteralSpeaker"
+            layout="@layout/custom_enum_bar">
+        </include>
+        
+          <include
+            android:id="@+id/mItemExtSpeaker"
+            layout="@layout/custom_enum_bar">
+        </include>
+        
+        <include
+            android:id="@+id/mItemNotificationSound"
+            layout="@layout/custom_enum_bar">
+        </include>
+        
+        <include
+            android:id="@+id/mItemPowerOnMusic"
+            layout="@layout/custom_enum_bar">
+        </include>
+        
+        <include
+            android:id="@+id/mItemSeperateHear"
+            layout="@layout/custom_button_bar">
+        </include>
+        
+    </LinearLayout>
+</ScrollView>

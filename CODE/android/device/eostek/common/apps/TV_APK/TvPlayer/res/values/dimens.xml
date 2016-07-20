@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- ChannelListEditActivity -->
+    <integer name="channelList_edit_top_off_set">46</integer>
+
+    <!-- ChannelInfoDetailsView -->
+    <integer name="ChannelInfo_details_animator_x">200</integer>
+    <integer name="ChannelInfo_details_animator_y">800</integer>
+    <integer name="ChannelInfo_details_animator_height">1080</integer>
+
+    <!-- PVRFullPageBrowserActivity -->
+    <integer name="init_tv_scaler_width">1920</integer>
+    <integer name="init_tv_scaler_height">1080</integer>
+
+    <!-- EpgActivity -->
+    <integer name="epg_set_left_off">400</integer>
+
+    <!-- MTSview -->
+    <integer name="mtslayout_value">-150</integer>
+    <integer name="showmts_ui_x">1700</integer>
+    <integer name="showmts_ui_y">20</integer>
+    <integer name="showmts_ui_setX">1700</integer>
+    <integer name="showmts_ui_setY">-100</integer>
+
+    <!-- ChannelInfoView -->
+    <integer name="channelinfo_layout_value">-150</integer>
+    <integer name="showChannelInfo_value_x">100</integer>
+    <integer name="showChannelInfo_value_y">40</integer>
+    <integer name="showChannelInfo_value_setX">100</integer>
+    <integer name="showChannelInfo_value_setY">-100</integer>
+
+    <!-- input -->
+    <dimen name="input_marginBottom">10dp</dimen>
+    <dimen name="input_background_height">71dp</dimen>
+    <dimen name="input_background_marginTop">12dp</dimen>
+    <dimen name="input_grid_marginleft">100dp</dimen>
+    <dimen name="input_grid_marginright">100dp</dimen>
+    <dimen name="input_grid_horizontalSpacing">35dp</dimen>
+    <dimen name="input_selector_width">60dp</dimen>
+    <dimen name="input_selector_height">60dp</dimen>
+    <dimen name="inputitem_selector_width">60dp</dimen>
+    <dimen name="inputitem_selector_height">60dp</dimen>
+
+    <integer name="input_selector_margintop">6</integer>
+    <!-- screenballot -->
+    <dimen name="screenballot_marginBottom">10dp</dimen>
+    <dimen name="screenballot_background_height">71dp</dimen>
+    <dimen name="screenballot_background_marginTop">12dp</dimen>
+    <dimen name="screenballot_grid_marginleft">100dp</dimen>
+    <dimen name="screenballot_grid_horizontalSpacing">35dp</dimen>
+    <dimen name="screenballot_selector_width">80dp</dimen>
+    <dimen name="screenballot_selector_height">80dp</dimen>
+    <dimen name="screenballotitem_width">60dp</dimen>
+    <dimen name="screenballotitem_height">60dp</dimen>
+
+    <integer name="screenballot_selector_margintop">0</integer>
+
+    <color name="silver">#C0C0C0</color>
+    <color name="CornflowerBlue">#6495ED</color>
+
+    <!-- eos_audio_anguage.xml -->
+    <dimen name="audio_anguage_layout_marginRight">50dp</dimen>
+    <dimen name="audio_anguage_layout_marginTop">20dp</dimen>
+    <dimen name="audio_anguage_paddingBottom">10dp</dimen>
+    <dimen name="audio_anguage_paddingLeft">20dp</dimen>
+    <dimen name="audio_anguage_paddingRight">20dp</dimen>
+    <dimen name="audio_anguage_paddingTop">10dp</dimen>
+    <dimen name="audio_anguage_textSize">30sp</dimen>
+
+    <!-- eos_channel_edit_list_item.xml -->
+    <dimen name="channel_edit_item_paddingBottom">2dp</dimen>
+    <dimen name="channel_edit_item_paddingTop">2dp</dimen>
+    <dimen name="edit_item_channel_num_marginLeft">40dp</dimen>
+    <dimen name="edit_item_channel_num_textSize">20sp</dimen>
+    <dimen name="edit_item_channel_name_layout_marginLeft">145dp</dimen>
+    <dimen name="edit_item_channel_name_textSize">20sp</dimen>
+    <dimen name="linearLayout01_layout_width">80dp</dimen>
+    <dimen name="linearLayout01_layout_marginRight">385dp</dimen>
+    <dimen name="edit_item_channel_love_layout_width">30dp</dimen>
+    <dimen name="edit_item_channel_love_layout_height">30dp</dimen>
+    <dimen name="linearLayout02_layout_width">80dp</dimen>
+    <dimen name="linearLayout02_layout_marginRight">385dp</dimen>
+    <dimen name="channel_edit_item_layout_marginRight">30sp</dimen>
+    <dimen name="edit_item_channel_lock_layout_width">30sp</dimen>
+    <dimen name="edit_item_channel_lock_layout_height">30sp</dimen>
+    <dimen name="channel_edit_item_layout_width">30sp</dimen>
+    <dimen name="edit_item_channel_move_layout_marginRight">30sp</dimen>
+
+</resources>

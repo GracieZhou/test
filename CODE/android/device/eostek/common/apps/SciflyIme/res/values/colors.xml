@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="candidate_normal">#FFFFFFFF</color>
+    <color name="candidate_suggestion">#2c2f2f</color>
+    <color name="candidate_background">#7f878a</color>
+    <color name="input_keytext">#FFFFFFFF</color>
+    <color name="input_shadow">#ff000000</color>
+<!--     <color name="candidate_shadow">#ff000000</color> -->
+<!--     <color name="candidate_recommended">#FFE35900</color> -->
+<!--     <color name="candidate_other">#FF7F8689</color> -->
+
+	<color name="bg_color">#011b35</color>
+    <color name="title_color">#33b0de</color>
+    <color name="horizon_color">#33b0de</color>
+    <color name="content_color">#ffffff</color>
+    <color name="content_color_g">#55ffffff</color>
+    <color name="composing_background">#5e6069</color>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout
+        android:layout_width="600dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/menu_background_color"
+        android:gravity="center_vertical">
+
+        
+        <View
+            android:id="@+id/foucus1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/downloading_delete"
+            android:layout_alignLeft="@+id/downloading_delete"
+            android:layout_alignRight="@+id/downloading_delete"
+            android:layout_alignTop="@+id/downloading_delete"
+            android:background="@drawable/grid_item_fcous_bg"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/downloading_delete"
+            android:layout_width="195dp"
+            android:layout_height="76dp"
+            android:layout_alignParentRight="true"
+            android:paddingTop="@dimen/activity_settings_title_padding_new"
+            android:paddingBottom="@dimen/activity_settings_title_padding_new"
+            android:layout_marginRight="40dp"
+            android:background="@android:color/transparent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/delete"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_download_classify_menu_size"
+            android:textStyle="bold" />
+        <View
+            android:id="@+id/foucus2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/all_start"
+            android:layout_alignLeft="@+id/all_start"
+            android:layout_alignRight="@+id/all_start"
+            android:layout_alignTop="@+id/all_start"
+            android:background="@drawable/grid_item_fcous_bg"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/all_start"
+            android:layout_width="195dp"
+            android:layout_height="76dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:paddingTop="@dimen/activity_settings_title_padding_new"
+            android:paddingBottom="@dimen/activity_settings_title_padding_new"
+            android:layout_below="@id/downloading_delete"
+            android:background="@android:color/transparent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/all_start"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_download_classify_menu_size"
+            android:textStyle="bold" />
+        <View
+            android:id="@+id/foucus3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/all_pause"
+            android:layout_alignLeft="@+id/all_pause"
+            android:layout_alignRight="@+id/all_pause"
+            android:layout_alignTop="@+id/all_pause"
+            android:background="@drawable/grid_item_fcous_bg"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/all_pause"
+            android:layout_width="195dp"
+            android:layout_height="76dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:paddingTop="@dimen/activity_settings_title_padding_new"
+            android:paddingBottom="@dimen/activity_settings_title_padding_new"
+            android:layout_below="@id/all_start"
+            android:background="@android:color/transparent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/all_pause"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_download_classify_menu_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 自定义复选框样式图片 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- checked -->
+    <item android:state_focused="true" android:drawable="@drawable/focus_bg" /> 
+    <!-- default -->
+    <item android:state_focused="false" android:drawable="@android:color/transparent" />
+</selector>

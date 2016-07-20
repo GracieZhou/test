@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF000000"
+    android:orientation="vertical" >
+
+    <!-- 布局最后面的大图 -->
+
+    <RelativeLayout
+        android:id="@+id/photo_bbg_abs"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <include layout="@layout/imageviewtouch" />
+
+        <include layout="@layout/imagesurfaceview" />
+    </RelativeLayout>
+
+    <!-- 提示上下按键切换 -->
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_photo_changephoto"
+        android:layout_width="188dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="26dip"
+        android:layout_marginLeft="73dip"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/photo_changephoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/one_pixel" />
+    </RelativeLayout>
+
+    <!-- 提示ok键自动播放 -->
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_photo_autoplay"
+        android:layout_width="153dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="26dip"
+        android:layout_marginLeft="989dip"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/photo_autoplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/one_pixel" />
+    </RelativeLayout>
+
+    <!-- 提示按上下左右移动 -->
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_photo_move"
+        android:layout_width="113dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="26dip"
+        android:layout_marginLeft="1009dip"
+        android:gravity="center_vertical"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/photo_move"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/one_pixel" />
+    </RelativeLayout>
+
+    <!-- 提示按ok键放大 -->
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_photo_ok_enl"
+        android:layout_width="113dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="26dip"
+        android:layout_marginLeft="866dip"
+        android:gravity="center_vertical"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/photo_photo_ok_enl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/one_pixel" />
+    </RelativeLayout>
+
+    <!-- 提示按返回键结束 -->
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_photo_stop"
+        android:layout_width="93dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="26dip"
+        android:layout_marginLeft="1167dip"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/photo_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/one_pixel" />
+    </RelativeLayout>
+
+    <!-- 右侧控件，鼠标点击后弹出左侧一列图片 -->
+
+    <RelativeLayout
+        android:id="@+id/photo_left_relativelayout"
+        android:layout_width="133dip"
+        android:layout_height="fill_parent" >
+    </RelativeLayout>
+    <!-- 左侧的一列图片 -->
+
+    <RelativeLayout
+        android:id="@+id/photo_right_list_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="91dip"
+            android:background="@drawable/one_pixel" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="91dip"
+            android:layout_alignParentBottom="true" />
+
+        <ImageView
+            android:layout_width="133dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/one_pixel" />
+
+        <RelativeLayout
+            android:id="@+id/photo_right_list"
+            android:layout_width="113dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="20dip"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="113dip"
+                android:layout_height="113dip"
+                android:layout_marginTop="0dip"
+                android:orientation="vertical" >
+
+                <!-- 最上面需要蒙版的图片 -->
+
+                <ImageView
+                    android:id="@+id/photo_previousphoto"
+                    android:layout_width="100dip"
+                    android:layout_height="100dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:padding="7dip"
+                    android:scaleType="fitCenter" />
+                <!-- 蒙版 -->
+
+                <ImageView
+                    android:id="@+id/photo_photobgup"
+                    android:layout_width="100dip"
+                    android:layout_height="100dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true" />
+                <!-- 向上的箭头（图片） -->
+
+                <ImageView
+                    android:id="@+id/photo_up"
+                    android:layout_width="87dip"
+                    android:layout_height="33dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="45dip"
+                    android:gravity="center_horizontal"
+                    android:scaleType="center"
+                    android:src="@drawable/one_pixel" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="113dip"
+                android:layout_height="113dip"
+                android:layout_marginTop="113dip"
+                android:orientation="vertical" >
+
+                <!-- 红色背景框 -->
+
+                <ImageView
+                    android:id="@+id/photo_bgphoto1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:src="@drawable/one_pixel" />
+                <!-- 右侧第一张图 -->
+
+                <ImageView
+                    android:id="@+id/photo_firstphoto"
+                    android:layout_width="100dip"
+                    android:layout_height="100dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/one_pixel" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/photo_relativalayout_default_foucs"
+                android:layout_width="113dip"
+                android:layout_height="113dip"
+                android:layout_marginTop="220dip"
+                android:orientation="vertical" >
+
+                <!-- 红色背景框 -->
+
+                <ImageView
+                    android:id="@+id/photo_bgphoto2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:src="@drawable/one_pixel"
+                    android:visibility="invisible" />
+
+                <!-- 右侧第2张图 -->
+
+                <ImageView
+                    android:id="@+id/photo_secendphoto"
+                    android:layout_width="100dip"
+                    android:layout_height="100dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:clickable="true"
+                    android:padding="7dip"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/one_pixel" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="113dip"
+                android:layout_height="113dip"
+                android:layout_marginTop="327dip"
+                android:orientation="vertical" >
+
+                <!-- 背景 -->
+
+                <ImageView
+                    android:id="@+id/photo_bgphoto3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:src="@drawable/one_pixel"
+                    android:visibility="invisible" />
+                <!-- 右侧第3张图 -->
+
+                <ImageView
+                    android:id="@+id/photo_thirdphoto"
+                    android:layout_width="100dip"
+                    android:layout_height="100dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:padding="7dip"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/one_pixel" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="113dip"
+                android:layout_height="113dip"
+                android:layout_marginTop="433dip"
+                android:orientation="vertical" >
+
+                <!-- 背景 -->
+
+                <ImageView
+                    android:id="@+id/photo_bgphoto4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:src="@drawable/one_pixel"
+                    android:visibility="invisible" />
+                <!-- 右侧第4张图 -->
+
+                <ImageView
+                    android:id="@+id/photo_fourthphoto"
+                    android:layout_width="100dip"
+                    android:layout_height="100dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:padding="7dip"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/one_pixel" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="113dip"
+                android:layout_height="113dip"
+                android:layout_marginTop="540dip"
+                android:orientation="vertical" >
+
+                <!-- 最下面需要蒙版效果的图 -->
+
+                <ImageView
+                    android:id="@+id/photo_nextphoto"
+                    android:layout_width="100dip"
+                    android:layout_height="100dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:padding="7dip"
+                    android:scaleType="fitCenter" />
+
+                <!-- 右侧最下面一张图的蒙版 -->
+
+                <ImageView
+                    android:id="@+id/photo_photobgdown"
+                    android:layout_width="100dip"
+                    android:layout_height="100dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true" />
+
+                <!-- 右侧向下的箭头（icon） -->
+
+                <ImageView
+                    android:id="@+id/photo_down"
+                    android:layout_width="87dip"
+                    android:layout_height="33dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="33dip"
+                    android:gravity="center_horizontal"
+                    android:scaleType="center"
+                    android:src="@drawable/one_pixel" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <!-- 菜单 -->
+
+    <LinearLayout
+        android:id="@+id/photo_suspension_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="130dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="600dip"
+                android:layout_height="81dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/music_menu_button_bg" />
+
+            <LinearLayout
+                android:layout_width="612dip"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="100dip"
+                    android:layout_height="94dip" >
+
+                    <!-- 播放 模式 -->
+
+                    <ImageView
+                        android:id="@+id/photo_play_mode"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/list_selector_holo_dark2"
+                        android:scaleType="center"
+                        android:src="@drawable/music_play_mode_order" />
+
+                    <TextView
+                        android:id="@+id/photo_play_mode_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/photo_play_mode"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="9dip"
+                        android:singleLine="true"
+                        android:text="@string/play_photo_by_list"
+                        android:textColor="#ffffffff"
+                        android:textSize="16sp"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dip"
+                    android:layout_height="94dip"
+                    android:layout_marginLeft="-15dp" >
+
+                    <!-- ppt播放模式 -->
+
+                    <ImageView
+                        android:id="@+id/photo_ppt_play_mode"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/list_selector_holo_dark2"
+                        android:scaleType="center"
+                        android:src="@drawable/photo_ppt" />
+
+                    <TextView
+                        android:id="@+id/photo_ppt_play_mode_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/photo_ppt_play_mode"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="9dip"
+                        android:text="@string/photo_normal"
+                        android:textColor="#ffffffff"
+                        android:textSize="16sp"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dip"
+                    android:layout_height="94dip"
+                    android:layout_marginLeft="-15dp" >
+
+                    <!-- 上一张 -->
+
+                    <ImageView
+                        android:id="@+id/photo_player_previous"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/list_selector_holo_dark2"
+                        android:scaleType="center"
+                        android:src="@drawable/photo_player_icon_previous_focus" />
+
+                    <TextView
+                        android:id="@+id/photo_pre_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/photo_player_previous"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="9dip"
+                        android:text="@string/pre_photo"
+                        android:textColor="#ffffffff"
+                        android:textSize="16sp"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dip"
+                    android:layout_height="94dip"
+                    android:layout_marginLeft="-15dp" >
+
+                    <!-- 播放 -->
+
+                    <ImageView
+                        android:id="@+id/photo_play"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/list_focused_holo2"
+                        android:scaleType="center"
+                        android:src="@drawable/photo_player_icon_play_focus" />
+
+                    <TextView
+                        android:id="@+id/photo_play_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/photo_play"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="9dip"
+                        android:text="@string/play_photo"
+                        android:textColor="#ffffffff"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dip"
+                    android:layout_height="94dip"
+                    android:layout_marginLeft="-15dp" >
+
+                    <!-- 下一张 -->
+
+                    <ImageView
+                        android:id="@+id/photo_next"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/list_selector_holo_dark2"
+                        android:scaleType="center"
+                        android:src="@drawable/photo_player_icon_next_focus" />
+
+                    <TextView
+                        android:id="@+id/photo_next_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/photo_next"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="9dip"
+                        android:text="@string/next_photo"
+                        android:textColor="#ffffffff"
+                        android:textSize="16sp"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dip"
+                    android:layout_height="94dip"
+                    android:layout_marginLeft="-15dp" >
+
+                    <!-- 旋转 -->
+
+                    <ImageView
+                        android:id="@+id/photo_turn_right"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/list_selector_holo_dark2"
+                        android:scaleType="center"
+                        android:src="@drawable/photo_player_icon_right" />
+
+                    <TextView
+                        android:id="@+id/photo_turn_right_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/photo_turn_right"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="9dip"
+                        android:text="@string/turn_right_photo"
+                        android:textColor="#ffffffff"
+                        android:textSize="16sp"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dip"
+                    android:layout_height="94dip"
+                    android:layout_marginLeft="-15dp" >
+
+                    <!-- 放大 -->
+
+                    <ImageView
+                        android:id="@+id/photo_enlarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/list_selector_holo_dark2"
+                        android:scaleType="center"
+                        android:src="@drawable/photo_player_icon_amplification_focus" />
+
+                    <TextView
+                        android:id="@+id/photo_enlarge_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/photo_enlarge"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="9dip"
+                        android:text="@string/enl_photo"
+                        android:textColor="#ffffffff"
+                        android:textSize="16sp"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/photo_progress_bar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/photo_fun_enl_lenearlayout"
+        android:layout_width="307dip"
+        android:layout_height="195dip"
+        android:layout_marginLeft="57dip"
+        android:layout_marginTop="443dip"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <RelativeLayout
+            android:layout_width="303dip"
+            android:layout_height="191dip"
+            android:layout_marginLeft="2dip"
+            android:layout_marginTop="2dip"
+            android:background="#000000"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/photo_fun_enl"
+                android:layout_width="303dip"
+                android:layout_height="191dip"
+                android:scaleType="fitCenter" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <!-- 选择播放模式 -->
+
+    <RelativeLayout
+        android:id="@+id/photo_play_mode_selector_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#bb000000"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:layout_width="360dip"
+            android:layout_height="204dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/pop_bg" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <!-- 全部播放 -->
+
+            <LinearLayout
+                android:id="@+id/photo_play_mode_order"
+                android:layout_width="354dip"
+                android:layout_height="66dip"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music_play_mode_order" />
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dip"
+                    android:gravity="center_horizontal"
+                    android:text="@string/all_play"
+                    android:textColor="#ffffffff"
+                    android:textSize="24dip" />
+            </LinearLayout>
+
+            <!-- 全部循环 -->
+
+            <LinearLayout
+                android:id="@+id/photo_play_mode_all_repeat"
+                android:layout_width="354dip"
+                android:layout_height="66dip"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music_play_mode_all_repeat" />
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dip"
+                    android:gravity="center_horizontal"
+                    android:text="@string/all_repeat"
+                    android:textColor="#ffffffff"
+                    android:textSize="24dip" />
+            </LinearLayout>
+
+            <!-- 随机播放 -->
+
+            <LinearLayout
+                android:id="@+id/photo_play_mode_random"
+                android:layout_width="354dip"
+                android:layout_height="66dip"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music_play_mode_random" />
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dip"
+                    android:gravity="center_horizontal"
+                    android:text="@string/random_play"
+                    android:textColor="#ffffffff"
+                    android:textSize="24dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <!-- 选择ppt播放模式 -->
+
+    <RelativeLayout
+        android:id="@+id/ppt_play_mode_selector_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#bb000000"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:layout_width="360dip"
+            android:layout_height="424dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/pop_bg" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <!-- 模式0 -->
+
+            <LinearLayout
+                android:id="@+id/ppt_play_mode_a"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/normal"
+                    android:textColor="#ffffffff"
+                    android:textSize="24dip" />
+            </LinearLayout>
+
+            <!-- 模式1 -->
+
+            <LinearLayout
+                android:id="@+id/ppt_play_mode_b"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/photo_fade"
+                    android:textColor="#ffffffff"
+                    android:textSize="24dip" />
+            </LinearLayout>
+
+            <!-- 模式2 -->
+
+            <LinearLayout
+                android:id="@+id/ppt_play_mode_c"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/photo_right_to_left"
+                    android:textColor="#ffffffff"
+                    android:textSize="24dip" />
+            </LinearLayout>
+            <!-- 模式3 -->
+
+            <LinearLayout
+                android:id="@+id/ppt_play_mode_d"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/photo_left_to_right"
+                    android:textColor="#ffffffff"
+                    android:textSize="24dip" />
+            </LinearLayout>
+            <!-- 模式4 -->
+
+            <LinearLayout
+                android:id="@+id/ppt_play_mode_e"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/photo_up_to_down"
+                    android:textColor="#ffffffff"
+                    android:textSize="24dip" />
+            </LinearLayout>
+            <!-- 模式5 -->
+
+            <LinearLayout
+                android:id="@+id/ppt_play_mode_f"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/photo_down_to_up"
+                    android:textColor="#ffffffff"
+                    android:textSize="24dip" />
+            </LinearLayout>
+            <!-- 模式6 -->
+
+            <LinearLayout
+                android:id="@+id/ppt_play_mode_g"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/photo_large"
+                    android:textColor="#ffffffff"
+                    android:textSize="24dip" />
+            </LinearLayout>
+            <!-- 模式7 -->
+
+            <LinearLayout
+                android:id="@+id/ppt_play_mode_h"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/photo_narrow"
+                    android:textColor="#ffffffff"
+                    android:textSize="24dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

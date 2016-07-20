@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/first_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:nextFocusDown="@+id/scrollView" >
+
+    <!-- android:focusable="true" -->
+
+    <LinearLayout
+        android:id="@+id/second_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:focusable="false"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:focusable="false" >
+
+            <ImageView
+                android:id="@+id/user_face"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_gravity="bottom|right"
+                android:background="@drawable/bg_border_img"
+                android:focusable="false"
+                android:padding="2dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/system_userface" />
+
+            <TextView
+                android:id="@+id/unread_msg_count"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_gravity="left|top"
+                android:background="@drawable/newmsg_bg"
+                android:focusable="false"
+                android:gravity="center"
+                android:visibility="invisible" />
+
+            <ImageView 
+                android:id="@+id/block_user_icon"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:focusable="false"
+                android:padding="2dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/newmsg_bg"
+                android:src="@drawable/btn_icon_shield"
+                android:visibility="gone"/>
+            <!-- android:visibility="invisible" -->
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/bg_arrow"
+            android:layout_width="23dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:focusable="false"
+            android:src="@drawable/msg_main_bg_arrow"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/info_scifly"
+        android:layout_width="120dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_border_img"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/info_bkground"
+            android:layout_width="118dp"
+            android:layout_height="64dp"
+            android:background="@color/bg_orange"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <!-- android:visibility="gone" -->
+            <!-- android:background="@android:drawable/list_selector_background" -->
+
+            <com.eostek.scifly.messagecenter.ui.MarqueeTextView
+                android:id="@+id/user_nickname"
+                android:layout_width="84dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:focusable="false"
+                android:textColor="#FFFFFFFF"
+                android:textSize="21dp" />
+            <!-- android:text="@string/scifly_nickname" -->
+            <!-- android:layout_marginLeft="15dp" -->
+
+            <TextView
+                android:id="@+id/user_message_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:focusable="false"
+                android:text="@string/message_type_system"
+                android:textColor="#99FFFFFF"
+                android:textSize="16dp" />
+            <!-- android:layout_marginLeft="15dp" -->
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

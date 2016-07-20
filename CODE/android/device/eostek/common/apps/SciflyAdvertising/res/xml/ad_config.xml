@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ADConfig>
+    <switch>0</switch>
+    <system>0</system>
+    <bd>
+        <pkgName>com.eostek.scifly.advertising</pkgName>
+        <imageurl>www.baidu.com</imageurl>
+        <targeturl>www.baidu.com</targeturl>
+        <period>11-12</period>
+        <time>3</time>
+    </bd>
+    <bd>
+        <pkgName>com.eostek.scifly.advertising</pkgName>
+        <imageurl>www.baidu.com</imageurl>
+        <targeturl>www.baidu.com</targeturl>
+        <period>11-12</period>
+        <time>3</time>
+    </bd>
+</ADConfig>

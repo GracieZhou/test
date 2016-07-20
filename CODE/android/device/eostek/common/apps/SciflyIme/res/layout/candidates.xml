@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.eostek.scifly.ime.ui.CandidatesContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="Overdraw" >
+
+    <!-- android:background="#77ffffff" -->
+    <!-- android:background="@drawable/bg_candidate" -->
+
+    <TextView
+        android:id="@+id/char_input_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="@dimen/candidateview_padding_left"
+        android:layout_marginTop="5dp"
+        android:background="@color/composing_background"
+        android:paddingLeft="17dp"
+        android:paddingRight="17dp"
+        android:textColor="@color/input_keytext"
+        android:textSize="@dimen/candidate_char_tip_height" />
+
+    <LinearLayout
+        android:id="@+id/candidatebkg"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/candidateview_padding_left"
+        android:paddingRight="@dimen/candidateview_padding_right"
+        tools:ignore="Overdraw" >
+        <!-- 	android:background="@drawable/candidate_bk" -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:gravity="center_horizontal" >
+
+            <ImageButton
+                android:id="@+id/arrow_left"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="1dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/arrow_left"
+                android:visibility="invisible"
+                tools:ignore="ContentDescription" />
+
+            <com.eostek.scifly.ime.ui.CandidateView
+                android:id="@+id/candidate_view"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/candidates_view_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1" >
+            </com.eostek.scifly.ime.ui.CandidateView>
+
+            <ImageButton
+                android:id="@+id/arrow_right"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/arrow_right"
+                android:visibility="invisible"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.eostek.scifly.ime.ui.CandidatesContainer>

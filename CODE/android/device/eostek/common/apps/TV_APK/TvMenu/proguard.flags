@@ -1,0 +1,7 @@
+-keepclassmembers class com.google.common.collect.** {
+    public <methods>;
+}
+
+-keepclassmembers class com.google.common.collect.** {
+    public static <methods>;
+}

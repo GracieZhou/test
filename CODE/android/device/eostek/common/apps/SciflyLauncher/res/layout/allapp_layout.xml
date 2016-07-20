@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/all_app_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/allapp_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/allapp_tv_margin_left"
+        android:layout_marginTop="@dimen/allapp_tv_margin_top"
+        android:text="@string/allapp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/allapp_tv_textsize" />
+
+    <GridView
+        android:id="@+id/appgridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/allapp_appgridview_margin_rifht"
+        android:layout_marginLeft="@dimen/allapp_appgridview_margin_rifht"
+        android:layout_marginTop="@dimen/allapp_appgridview_margin_top"
+        android:layout_below="@id/allapp_tv"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/allapp_appgridview_horizontalSpacing"
+        android:listSelector="@drawable/imagebutton_focus_border"
+        android:scrollbars="none"
+        android:numColumns="8"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/allapp_appgridview_verticalSpacing" />
+
+</RelativeLayout>

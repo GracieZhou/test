@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="default_show_city">Wuhan</string>
+    <string name="my_tv">TV</string>
+    <string name="update_network_data">Please wait for updating data from network</string>
+    <string name="update_locale_data">Reloading data,please wait</string>
+    <string name="update_network_fail">Failed to update the data network！</string>
+    <string name="no_network">Please check the network settings</string>
+    <string name="allapp">All Application</string>
+    <string name="back">Back</string>
+    <string name="unknown_service">Unknow service,can not start！</string>
+    <string name="get_lastest_launcher_data">Get the latest data </string>
+    <string name="reset_application">Reset Application</string>
+    <string name="video_setting">Video Settings</string>
+    <string name="general_setting">General Settings</string>
+    <string name="app_not_installed">Application not installed！</string>
+    <string name="labelCity">City_Setting</string>
+    <string name="dateFormat">MM month dd day</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="sun">Sun</string>
+    <string name="download_tips">Notice</string>
+    <string name="download_msg">The Application is not installed,whether to download now? </string>
+    <string name="download_ok">OK</string>
+    <string name="download_cancel">Cancel</string>
+    <string name="download_illegal_url">The Application is not installed,Illegal download url!</string>
+    <string name="download_start_downloading">Start downloading!</string>
+    <string name="apk_downloading">Downloading！</string>
+
+    <string-array name="title_array">
+        <item>TV</item>
+        <item>Videos</item>
+        <item>Application</item>
+        <item>Setting</item>
+    </string-array>
+    <string-array name="source_array">
+        <item>ATV</item>
+        <item>DTV</item>
+        <item>HDMI 1</item>
+        <item>HDMI 2</item>
+        <item>HDMI 3</item>
+        <item>AV</item>
+        <item>YPbPr</item>
+        <item>VGA</item>
+    </string-array>
+    <string-array name="source_array_828">
+        <item>CATV</item>
+        <item>DTV</item>
+        <item>HDMI 1</item>
+        <item>HDMI 2</item>
+        <item>HDMI 3</item>
+        <item>Video</item>
+        <item>YPbPr</item>
+        <item>PC</item>
+    </string-array>
+    <string-array name="sharpness_array">
+        <item>Fluency Priority </item>
+    </string-array>
+    <string-array name="aspect_ratio_array">
+        <item>Automatic</item>
+    </string-array>
+    <string-array name="skip_start_end_array">
+        <item>Open</item>
+    </string-array>
+    <string-array name="setting_item_title">
+        <item>Sharpness</item>
+        <item>Aspect ratio</item>
+        <item>Skip start and end</item>
+        <item>Refresh home page</item>
+        <item>Check new version</item>
+        <item>Reset application</item>
+    </string-array>
+    <string-array name="sublight_item">
+        <item>Flueny first</item>
+        <item>Image quality first</item>
+        <item>sound quality first</item>
+    </string-array>
+    <string-array name="subscale_item">
+        <item>Auto</item>
+        <item>4:3</item>
+        <item>16:9</item>
+    </string-array>
+    <string-array name="subskip_item">
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+
+    <string name="obtain_new_page">Get the latest home page</string>
+    <string name="check_new_version">V1.0.4</string>
+    <string name="reset_app">clear cache</string>
+    <string name="gadget_error_text">Problem loading widget</string>
+
+    <!--  -->
+    <string name="oldversionname">Current Version : </string>
+    <string name="newversionname">New Version : </string>
+    <string name="newversionsize">Update Size :</string>
+    <string name="updatedesc">Update Log : </string>
+    <string name="upgrade_status_down">Downloading  </string>
+    <string name="app_upgrade">Launcher Upgrade</string>
+    <string name="app_upgrade_status_failure">Download Failed !</string>
+    <string name="upgrade_downloading">Downloading </string>
+
+    <!--  -->
+    <string name="crash_toast">Sorry for the unexception,the app will exit</string>
+    <string name="crash_reset_toast">Sorry for the unexception,the app will reset data and exit</string>
+
+</resources>

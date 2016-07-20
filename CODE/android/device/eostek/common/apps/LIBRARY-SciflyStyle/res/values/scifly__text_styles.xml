@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- TextView Styles -->
+    <style name="Scifly.TextView" parent="@android:style/Widget.TextView">
+        <item name="android:background">@drawable/scifly_text_bg_normal</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="Scifly.TextView.Left"></style>
+
+    <style name="Scifly.TextView.Center">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Scifly.TextView.Right">
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="Scifly.TextView.SingleLine">
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Scifly.TextView.Center.SingleLine">
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Scifly.TextView.Right.SingleLine">
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- EditText Styles -->
+    <style name="Scifly.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/scifly_text_bg_normal</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="Scifly.EditText.Left"></style>
+
+    <style name="Scifly.EditText.Center">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Scifly.EditText.Right">
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="Scifly.EditText.SingleLine">
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Scifly.EditText.Center.SingleLine">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Scifly.EditText.Right.SingleLine">
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>

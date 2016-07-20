@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">任务切换</string>
+    <string name="action_settings">设置</string>
+    <string name="tab_all">所有文件</string>
+    <string name="tab_video">本地视频</string>
+    <string name="tab_photo">本地图片</string>
+    <string name="tab_music">本地音乐</string>
+    <string name="tip_title">USB设备已连接</string>
+    <string name="not_tip">不再显示!</string>
+    <string name="related_application_not_found">抱歉,应用未找到!</string>
+    <string name="exit_app">退出应用</string>
+    <string name="one_key_clean">一键清理进程</string>
+    <string name="bkground_count">后台有%d个进程</string>
+    <string name="get_back_theads">获取后台线程</string>
+    <string name="memory_used">内存已用</string>
+    <string name="key_up_tip">按  \"上\" 键可退出应用。</string>
+    <string name="remove_usb">安全删除存储设备</string>
+    <string name="remove_usb_count">%d个设备可删除</string>
+    <string name="exit_tip">退出应用</string>
+    <string name="app_text">application name</string>
+    <string name="report_bug">用户反馈</string>
+    <string name="all_app_text">全部应用</string>
+    <string name="history_text">历史记录</string>
+    <string name="setting_text">系统设置</string>
+    <string name="media_text">本地媒体</string>
+    <string name="quality_text">画质调整</string>
+    <string name="voice_controller">语音搜索</string>
+    <string name="delete_message">安全删除硬件</string>
+    <string name="delete_tip">请选择要安全删除的硬件,按确定</string>
+    <string name="cancel">关闭</string>
+    <string name="start_app_fail">打开应用失败...</string>
+    <string name="remove_disk_default">USB存储设备</string>
+    <string name="remove_external_sdcard_default">外置 TFCard</string>
+    <string name="remove_unknown_storage_default">未知存储设备</string>
+    <string name="unmounted">已弹出</string>
+
+</resources>

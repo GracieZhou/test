@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.android.settings" >
+
+    <com.android.settings.SettingPreference
+        android:key="deviceId"
+        android:title="@string/about_more_device_id"
+        app:type="two_column" />
+    <com.android.settings.SettingPreference
+        android:key="deviceName"
+        android:title="@string/device_name"
+        app:type="two_column" />
+    <com.android.settings.SettingPreference
+        android:key="buildNumber"
+        android:title="@string/about_build_number"
+        app:type="two_column" />
+    <com.android.settings.SettingPreference
+        android:key="storageInfo"
+        android:title="@string/about_storage_info"
+        app:type="two_column" />
+    <com.android.settings.SettingPreference
+        android:key="moreInfo"
+        android:title="@string/about_more_info"
+        app:type="two_column" />
+
+</PreferenceScreen>

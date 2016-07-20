@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="TranslucentDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="ActivityTheme">
+        <item name="android:windowBackground">@drawable/activity_bg</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="CityActivityTheme">
+        <item name="android:windowBackground">@drawable/city_background</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="circleProgressStyle">
+        <item name="android:indeterminateDrawable">@drawable/system_update_process</item>
+        <item name="android:minWidth">75dip</item>
+        <item name="android:maxWidth">75dip</item>
+        <item name="android:minHeight">75dip</item>
+        <item name="android:maxHeight">75dip</item>
+    </style>
+
+</resources>

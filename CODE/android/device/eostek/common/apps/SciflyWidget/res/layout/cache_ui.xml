@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:id="@+id/layout"  
+    android:layout_width="fill_parent"   
+    android:layout_height="fill_parent">  
+  
+    <ImageView 
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/widget_ram_bg"
+        android:visibility="visible"/>
+    <ImageView 
+        android:id="@+id/image_en"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/widget_ram_bg_en"
+        android:visibility="gone"/>
+    <ImageView 
+        android:id="@+id/image_tw"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/widget_ram_bg_tw"
+        android:visibility="gone"/> 
+        
+    <ImageView
+        android:id="@+id/circlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+</FrameLayout>

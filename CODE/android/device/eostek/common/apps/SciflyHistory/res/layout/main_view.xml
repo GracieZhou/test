@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/qingyu_and_android_layer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/main_window_bg"
+            android:descendantFocusability="afterDescendants"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/qingyu_layer"
+                android:focusable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <FrameLayout
+                android:id="@+id/android_layer"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/main_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/main_window_bg" >
+                        
+                        <FrameLayout
+                            android:id="@+id/top_bar"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/header_bg" >
+
+                            <com.eostek.history.ui.StyledBreadCrumbs
+                                android:id="@+id/bread_crumbs"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="25.0dip" />
+                                                        <LinearLayout
+                                android:id="@+id/refresh"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right|center"
+                                android:alpha="0.15"
+                                android:gravity="right|center"
+                                android:visibility="gone" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/refreshing" />
+
+                                <ProgressBar
+                                    android:layout_width="30.0dip"
+                                    android:layout_height="30.0dip"
+                                    android:layout_marginRight="4.0dip" />
+                            </LinearLayout>
+                        </FrameLayout>
+                    </FrameLayout>
+
+                    <!--  
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/main_window_bg" >
+
+                        <include layout="@layout/filterbar" />
+                    </FrameLayout>
+                    -->
+
+                    <ViewSwitcher
+                        android:id="@+id/content_view_switcher"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+
+                        <FrameLayout
+                            android:id="@+id/content_fragment"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:padding="0.0dip" />
+
+                        <include layout="@layout/loading_view" />
+                    </ViewSwitcher>
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+    
+    <com.eostek.history.ui.leftnavbar.TitleBarView
+        android:id="@+id/title_container"
+        style="?android:attr/windowTitleBackgroundStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginLeft="@dimen/left_nav_collapsed_apparent_width"
+        android:visibility="gone" />
+
+    <com.eostek.history.ui.leftnavbar.LeftNavView
+        android:id="@+id/left_nav"
+        style="@style/Widget.Holo.ActionBar"
+        android:layout_width="@dimen/left_nav_collapsed_width"
+        android:layout_height="fill_parent" />
+
+</RelativeLayout>

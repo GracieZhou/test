@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/ip_address_mxl_rl_min_height" >
+
+    <TextView
+        android:layout_width="@dimen/ip_address_tv_width"
+        android:layout_height="@dimen/ip_address_tv_height"
+        android:paddingLeft="@dimen/ip_address_tv_padding_left"
+        android:text="@string/ip_address"
+        android:textColor="#CCCCCCCC"
+        android:textSize="@dimen/ip_address_tv_textsize" />
+
+    <EditText
+        android:id="@+id/ip_four"
+        android:layout_width="@dimen/ip_address_et_width"
+        android:layout_height="@dimen/ip_address_et_height"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/ip_address_et_four_margin_right"
+        android:background="@drawable/edit_text"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/ip_three"
+        android:layout_width="@dimen/ip_address_et_width"
+        android:layout_height="@dimen/ip_address_et_height"
+        android:layout_marginRight="@dimen/ip_address_et_other_margin_right"
+        android:layout_toLeftOf="@id/ip_four"
+        android:background="@drawable/edit_text"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/ip_two"
+        android:layout_width="@dimen/ip_address_et_width"
+        android:layout_height="@dimen/ip_address_et_height"
+        android:layout_marginRight="@dimen/ip_address_et_other_margin_right"
+        android:layout_toLeftOf="@id/ip_three"
+        android:background="@drawable/edit_text"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/ip_one"
+        android:layout_width="@dimen/ip_address_et_width"
+        android:layout_height="@dimen/ip_address_et_height"
+        android:layout_marginRight="@dimen/ip_address_et_other_margin_right"
+        android:layout_toLeftOf="@id/ip_two"
+        android:background="@drawable/edit_text"
+        android:gravity="center" />
+
+</RelativeLayout>

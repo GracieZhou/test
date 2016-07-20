@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.android.settings" >
+
+    <com.android.settings.SettingPreference
+        android:key="screen_scale"
+        android:summary="screen_scale"
+        android:title="@string/screen_scale"
+        app:type="single_column" />
+    <com.android.settings.SettingPreference
+        android:key="screen_translate"
+        android:summary="screen_translate"
+        android:title="@string/screen_translate"
+        app:type="single_column" />
+
+</PreferenceScreen>

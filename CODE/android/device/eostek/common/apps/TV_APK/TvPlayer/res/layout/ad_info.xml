@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ad_info_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/ad_info_iv"
+        android:layout_width="@dimen/ad_imageview_width"
+        android:layout_height="@dimen/ad_imageview_height"
+        android:layout_marginLeft="@dimen/ad_imageview_left"
+        android:layout_marginTop="@dimen/ad_imageview_top"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Title for Latin keyboard -->
+    <string name="ime_name">Scifly IME</string>
+
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+
+    <!-- Labels on soft keys -->
+    <string name="label_go_key">Enter</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+    <string name="label_ChEn">CN\\EN</string>
+
+    <!-- Labels for subtype -->
+    <string name="label_subtype_generic">%s</string>
+    <string name="label_subtype_en_GB">English (GB)</string>
+
+    <!-- Titles for ImePreference -->
+    <string name="settings_name">Sample Soft Keyboard Settings</string>
+    <string name="language_selection_title">Input languages</string>
+    <string name="select_language">Select input languages</string>
+    <!-- <string name="general_category">General</string> -->
+
+    <string name="title_content">Select IME</string>
+    <string name="pinyin_IME">Scifly Pinyin IME</string>
+    <string name="zhuyin_IME">Scifly Zhuyin IME</string>
+    <string name="cangjie_IME">Scifly Cangjie IME</string>
+    <string name="french_IME">Scifly French IME</string>
+    <string name="arabic_IME">Scifly Arabic IME</string>
+    <string name ="persian_IME">Scifly Persian IME</string>
+    <string name = "korean_IME">Scifly Korean IME</string>
+    <string name = "japan_IME">Scifly Japan IME</string>
+    <string name="back">Back</string>
+    <string name="language_en">EN</string>
+    <string name="language_cn">CN</string>
+     <string name="language_fr">FR</string>
+    <string name="symbols">sym</string><!-- morekeys -->
+    <!-- French Ime -->
+    <string name="à">\u00E0</string>
+    <string name="á">á</string>
+    <string name="â">â</string>
+    <string name="ã">ã</string>
+    <string name="ä">ä</string>
+    <string name="å">å</string>
+    <string name="æ">æ</string>
+    <string name="ā">ā</string>
+    <string name="ª">ª</string>
+    <string name="a">a</string>
+     <string name="À">À</string>
+    <string name="Á">Á</string>
+    <string name="Â">Â</string>
+    <string name="Ã">Ã</string>
+    <string name="Ä">Ä</string>
+    <string name="Å">Å</string>
+    <string name="Æ">Æ</string>
+    <string name="Ā">Ā</string>
+    <string name="A">A</string>
+    
+    <string name="o">o</string>
+    <string name="ò">ò</string>
+    <string name="ó">ó</string>
+    <string name="ô">ô</string>
+    <string name="õ">õ</string>
+    <string name="ö">ö</string>
+    <string name="œ">œ</string>
+    <string name="ø">ø</string>
+    <string name="º">º</string>
+    <string name="ō">ō</string>
+     <string name="O">O</string>
+    <string name="Ò">Ò</string>
+    <string name="Ó">Ó</string>
+    <string name="Ô">Ô</string>
+    <string name="Õ">Õ</string>
+    <string name="Ö">Ö</string>
+    <string name="Œ">Œ</string>
+    <string name="Ø">Ø</string>
+    <string name="Ō">Ō</string>
+    
+    <string name="i">i</string>
+    <string name="ì">ì</string>
+    <string name="í">í</string>
+    <string name="î">î</string>
+    <string name="ï">ï</string>
+    <string name="į">į</string>
+    <string name="ī">ī</string>
+     <string name="I">I</string>
+    <string name="Ì">Ì</string>
+    <string name="Í">Í</string>
+    <string name="Î">Î</string>
+    <string name="Ï">Ï</string>
+    <string name="Į">Į</string>
+    <string name="Ī">Ī</string>
+    
+    <string name="u">u</string>
+    <string name="ù">ù</string>
+    <string name="ú">ú</string>
+    <string name="û">û</string>
+    <string name="ü">ü</string>
+    <string name="ū">ū</string>
+    <string name="U">U</string>
+    <string name="Ù">Ù</string>
+    <string name="Ú">Ú</string>
+    <string name="Û">Û</string>
+    <string name="Ü">Ü</string>
+    <string name="Ū">Ū</string>
+    
+    <string name="ý">ý</string>
+    <string name="ÿ">ÿ</string>
+    <string name="y">y</string>
+     <string name="Ý">Ý</string>
+    <string name="Ÿ">Ÿ</string>
+    <string name="Y">Y</string>
+    
+    
+    <string name="e">e</string>
+    <string name="è">è</string>
+    <string name="é">é</string>
+    <string name="ê">ê</string>
+    <string name="ë">ë</string>
+    <string name="ę">ę</string>
+    <string name="ē">ē</string>
+    <string name="ė">ė</string>
+    <string name="E">E</string>
+    <string name="È">È</string>
+    <string name="É">É</string>
+    <string name="Ê">Ê</string>
+    <string name="Ë">Ë</string>
+    <string name="Ę">Ę</string>
+    <string name="Ē">Ē</string>
+    <string name="Ė">Ė</string>
+    
+    <string name="c">c</string>
+    <string name="ç">ç</string>
+    <string name="ć">ć</string>
+    <string name="č">č</string>
+    <string name="C">C</string>
+    <string name="Ç">Ç</string>
+    <string name="Ć">Ć</string>
+    <string name="Č">Č</string>
+    
+    <string name="n">n</string>
+    <string name="ñ">ñ</string>
+    <string name="ń">ń</string>
+    <string name="N">N</string>
+    <string name="Ñ">Ñ</string>
+    <string name="Ń">Ń</string>
+    
+    <!-- Arabic Ime -->
+    <string name="ى">ى</string>
+    <string name="ئ">ئ</string>
+    
+    <string name="و">و</string>
+    <string name="ؤ">ؤ</string>
+    
+    <string name="ز">ز</string>
+    <string name="ژ">ژ</string>
+    
+    <string name="ك">ك</string>
+    <string name="ک">ک</string>
+    <string name="گ">گ</string>
+    
+    <string name="ا">ا</string>
+    <string name="ٱ">ٱ</string>
+    <string name="إ">إ</string>
+     <string name="آ">آ</string>
+    <string name="أ">أ</string>
+    
+    <string name="ل">ل</string>
+    <string name="ﻹ">ﻹ</string>
+    <string name="ﻵ">ﻵ</string>
+     <string name="ﻷ">ﻷ</string>
+    <string name="لا">لا</string>
+    
+    <string name="ب">ب</string>
+    <string name="پ">پ</string>
+    
+    <string name="ي">ي</string>
+    
+    <string name="ه">ه</string>
+    <string name="هـ">هـ</string>
+    
+    <string name="ج">ج</string>
+    <string name="چ">چ</string>
+    
+    <string name="ف">ف</string>
+    <string name="ڥ">ڥ</string>
+    <string name="ڤ">ڤ</string>
+    <string name="ڢ">ڢ</string>
+    
+    <string name="ش">ش</string>
+    <string name="ڜ">ڜ</string>
+   
+    <string name="a_1"> ْ</string>
+    <string name="a_2">ٍ</string>
+    <string name="a_3">ً</string>
+    <string name="a_4">ًٌ</string>
+    
+    <string name ="a_5">ّ</string>
+     <string name="a_6">ِ</string>
+    <string name="a_7">ٰ</string>
+    <string name="a_8"> ُ</string>
+    
+    <string name ="a_9">ِ</string>
+    <string name="a_10">ـ</string>
+    <string name="a_11">ٓ</string>
+    <string name="a_12">ٔ</string>
+    
+    <!-- Persian Ime -->
+    <string name="ت">ت</string>
+    <string name="ث">ث</string>
+    <string name ="ة">ة</string>
+    
+    <!-- Korean Ime -->
+     <string name ="ㅂ">ㅂ</string>
+    <string name="ㅃ">ㅃ</string>
+    
+     <string name ="ㅈ">ㅈ</string>
+    <string name="ㅉ">ㅉ</string>
+    
+    <string name ="ㄷ">ㄷ</string>
+    <string name="ㄸ">ㄸ</string>
+    
+    <string name ="ㄱ">ㄱ</string>
+    <string name="ㄲ">ㄲ</string>
+    
+     <string name ="ㅅ">ㅅ</string>
+     <string name="ㅆ">ㅆ</string>
+     
+     <string name ="ㅐ">ㅐ</string>
+     <string name="ㅒ">ㅒ</string>
+     
+    <string name ="ㅔ">ㅔ</string>
+     <string name="ㅖ">ㅖ</string>
+
+    </resources>

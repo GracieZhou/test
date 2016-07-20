@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/itemPictureMode"
+            layout="@layout/custom_enum_bar" >
+        </include>
+
+        <include
+            android:id="@+id/itemPictureContrast"
+            layout="@layout/custom_seek_bar" />
+
+        <include
+            android:id="@+id/itemPictureBrightness"
+            layout="@layout/custom_seek_bar" >
+        </include>
+
+        <include
+            android:id="@+id/itemPictureHue"
+            layout="@layout/custom_seek_bar" >
+        </include>
+
+        <include
+            android:id="@+id/itemPictureSharpness"
+            layout="@layout/custom_seek_bar" >
+        </include>
+
+        <include
+            android:id="@+id/itemPictureSaturation"
+            layout="@layout/custom_seek_bar" >
+        </include>
+
+        <include
+            android:id="@+id/itemPictureBackLight"
+            layout="@layout/custom_seek_bar" >
+        </include>
+
+        <include
+            android:id="@+id/itemColorTemperature"
+            layout="@layout/custom_enum_bar" >
+        </include>
+
+        <include
+            android:id="@+id/itemRed"
+            layout="@layout/custom_seek_bar" >
+        </include>
+
+        <include
+            android:id="@+id/itemGreen"
+            layout="@layout/custom_seek_bar" >
+        </include>
+
+        <include
+            android:id="@+id/itemBlue"
+            layout="@layout/custom_seek_bar" >
+        </include>
+
+        <include
+            android:id="@+id/itemHdmiFull"
+            layout="@layout/custom_enum_bar" >
+        </include>
+
+        <include
+            android:id="@+id/itemHdmiRgb"
+            layout="@layout/custom_enum_bar" >
+        </include>
+
+        <include
+            android:id="@+id/itemZoomMode"
+            layout="@layout/custom_enum_bar" >
+        </include>
+
+        <include
+            android:id="@+id/itemImageNoiseReduction"
+            layout="@layout/custom_enum_bar" >
+        </include>
+
+        <include
+            android:id="@+id/itemMpegNoiseReduction"
+            layout="@layout/custom_enum_bar" >
+        </include>
+        
+        <include
+            android:id="@+id/itemOSDTransparency"
+            layout="@layout/custom_enum_bar" >
+        </include>
+        
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <style name="padded">
+        <item name="android:paddingStart">16dip</item>
+        <item name="android:paddingEnd">16dip</item>
+    </style>
+    <style name="DialogWhenLarge" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+    </style>
+    
+    <!-- Eostek Path Begin -->
+    <style name="load_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:background">@drawable/background_style</item>
+        <!-- dialog背景样式 -->
+    </style>
+    
+    <style name="circleProgressStyle">
+        <item name="android:indeterminateDrawable">@drawable/progress_large</item>
+        <item name="android:minWidth">22dip</item>
+        <item name="android:maxWidth">22dip</item>
+        <item name="android:minHeight">22dip</item>
+        <item name="android:maxHeight">22dip</item>
+    </style>
+    <style name="loadingStyle">
+        <item name="android:indeterminateDrawable">@drawable/loading_define</item>
+        <item name="android:minWidth">60dp</item>
+        <item name="android:maxWidth">60dp</item>
+        <item name="android:minHeight">60dp</item>
+        <item name="android:maxHeight">60dp</item>
+    </style>
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:button">@drawable/checkbox_selector</item>
+        <item name="android:minWidth">22dp</item>
+        <item name="android:maxWidth">22dp</item>
+        <item name="android:minHeight">22dp</item>
+        <item name="android:maxHeight">22dp</item>
+    </style>
+    <!-- Eostek Path End -->
+    
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="manage_app_blacklist">
+	    <item >com.google.android.voicesearch</item>
+	    <item >com.google.android.gms</item>
+	    <item >com.chaozh.iReaderFree</item>
+	    <item >com.android.vending</item>
+	    <item >com.eostek.setupwizardactivity</item>
+	    <item >com.eostek.scifly.video</item>
+	    <item >com.imusic.kalaok2</item>
+	    <item >com.jrm.babao.babaofan</item>
+	    <item >com.eostek.launcher</item>
+	    <item >com.android.providers.downloads.ui</item>
+	</string-array>
+</resources>

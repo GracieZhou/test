@@ -1,0 +1,107 @@
+<resources>
+
+    <!-- ChannelListEditActivity -->
+    <integer name="channelList_edit_top_off_set">31</integer>
+
+    <!-- ChannelInfoDetailsView -->
+    <integer name="ChannelInfo_details_animator_x">200</integer>
+    <integer name="ChannelInfo_details_animator_y">534</integer>
+    <integer name="ChannelInfo_details_animator_height">720</integer>
+    
+    <!-- AD image target resolution -->
+    <integer name="ad_target_image_height">160</integer>
+    <integer name="ad_target_image_width">245</integer>
+    
+    <!-- PVRFullPageBrowserActivity -->
+    <integer name="init_tv_scaler_width">1280</integer>
+    <integer name="init_tv_scaler_height">720</integer>
+
+    <!-- EpgActivity -->
+    <integer name="epg_set_left_off">267</integer>
+
+    <!-- MTSview -->
+    <integer name="mtslayout_value">-100</integer>
+    <integer name="showmts_ui_x">1134</integer>
+    <integer name="showmts_ui_y">27</integer>
+    <integer name="showmts_ui_setX">1134</integer>
+    <integer name="showmts_ui_setY">-67</integer>
+    
+    <!-- ChannelInfoView -->
+    <integer name="channelinfo_layout_value">-100</integer>
+    <integer name="showChannelInfo_value_x">67</integer>
+    <integer name="showChannelInfo_value_y">27</integer>
+    <integer name="showChannelInfo_value_setX">67</integer>
+    <integer name="showChannelInfo_value_setY">-67</integer>
+    
+    <!-- AD imageview layout-->
+    <dimen name="ad_imageview_top">0dp</dimen>
+    <dimen name="ad_imageview_left">0dp</dimen>
+    <dimen name="ad_imageview_width">245dp</dimen>
+    <dimen name="ad_imageview_height">160dp</dimen>
+    
+    <!-- bottom info viewgroup layout -->
+    <dimen name="bottom_info_top">530dp</dimen>
+    <dimen name="bottom_info_left">950dp</dimen>
+    <dimen name="bottom_info_width">950dp</dimen>
+    <dimen name="bottom_info_height">132dp</dimen>
+
+    <!-- input -->
+    <dimen name="input_marginBottom">13dp</dimen>
+    <dimen name="input_background_height">92dp</dimen>
+    <dimen name="input_background_marginTop">16dp</dimen>
+    <dimen name="input_grid_marginleft">133dp</dimen>
+    <dimen name="input_grid_marginright">133dp</dimen>
+    <dimen name="input_grid_horizontalSpacing">47dp</dimen>
+    <dimen name="input_selector_width">80dp</dimen>
+    <dimen name="input_selector_height">80dp</dimen>
+    <dimen name="inputitem_width">80dp</dimen>
+    <dimen name="inputitem_height">80dp</dimen>
+
+    <integer name="input_selector_margintop">8</integer>
+    <!-- screenballot -->
+    <dimen name="screenballot_marginBottom">13dp</dimen>
+    <dimen name="screenballot_background_height">92dp</dimen>
+    <dimen name="screenballot_background_marginTop">16dp</dimen>
+    <dimen name="screenballot_grid_marginleft">133dp</dimen>
+    <dimen name="screenballot_grid_horizontalSpacing">47dp</dimen>
+    <dimen name="screenballot_selector_width">80dp</dimen>
+    <dimen name="screenballot_selector_height">80dp</dimen>
+    <dimen name="screenballotitem_width">80dp</dimen>
+    <dimen name="screenballotitem_height">80dp</dimen>
+
+    <integer name="screenballot_selector_margintop">6</integer>
+
+    <color name="silver">#C0C0C0</color>
+    <color name="CornflowerBlue">#6495ED</color>
+
+    <!-- eos_audio_anguage.xml -->
+    <dimen name="audio_anguage_layout_marginRight">50dp</dimen>
+    <dimen name="audio_anguage_layout_marginTop">20dp</dimen>
+    <dimen name="audio_anguage_paddingBottom">10dp</dimen>
+    <dimen name="audio_anguage_paddingLeft">20dp</dimen>
+    <dimen name="audio_anguage_paddingRight">20dp</dimen>
+    <dimen name="audio_anguage_paddingTop">10dp</dimen>
+    <dimen name="audio_anguage_textSize">30sp</dimen>
+
+    <!-- eos_channel_edit_list_item.xml -->
+    <dimen name="channel_edit_item_paddingBottom">2dp</dimen>
+    <dimen name="channel_edit_item_paddingTop">2dp</dimen>
+    <dimen name="edit_item_channel_num_marginLeft">40dp</dimen>
+    <dimen name="edit_item_channel_num_textSize">20sp</dimen>
+    <dimen name="edit_item_channel_name_layout_marginLeft">145dp</dimen>
+    <dimen name="edit_item_channel_name_textSize">20sp</dimen>
+    <dimen name="linearLayout01_layout_width">80dp</dimen>
+    <dimen name="linearLayout01_layout_marginRight">385dp</dimen>
+    <dimen name="edit_item_channel_love_layout_width">30dp</dimen>
+    <dimen name="edit_item_channel_love_layout_height">30dp</dimen>
+    <dimen name="linearLayout02_layout_width">80dp</dimen>
+    <dimen name="linearLayout02_layout_marginRight">255dp</dimen>
+    <dimen name="channel_edit_item_layout_marginRight">30sp</dimen>
+    <dimen name="edit_item_channel_lock_layout_width">30sp</dimen>
+    <dimen name="edit_item_channel_lock_layout_height">30sp</dimen>
+    <dimen name="channel_edit_item_layout_width">30sp</dimen>
+    <dimen name="edit_item_channel_move_layout_marginRight">30sp</dimen>
+    
+    <dimen name="content_schedule_listview_layout_height">278dp</dimen>
+
+</resources>

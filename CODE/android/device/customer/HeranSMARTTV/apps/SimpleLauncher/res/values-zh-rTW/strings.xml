@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+     <string name="data_format"><xliff:g id="format">MM月dd日 E</xliff:g></string>
+    <string name="app_name">HERTV 首頁</string>
+    <string name="source_name">信源:</string>
+    <string name="signal_name">信號狀態:</string>
+    <string name="nosignaltips">\u0020 無信號</string>
+    <string name="date_format">MM月dd日 E</string>
+    <string name="order_remind">預約提醒</string>
+    <string name="will_start"> 即将开始</string>
+    <string name="start_auto"> 秒后 将自动切换</string>
+    <string name="switch_immediately">立即换台</string>
+    <string name="order_record_remind">預約录制提醒</string>
+    <string name="mono">單聲道</string>
+    <string name="sap">副語音</string>
+    <string name="stereo">立體聲</string>
+    <string name="atv">有線電視</string>
+    <string name="dtv">數位電視</string>
+    <string name="noprogram_tip">當前沒有電視節目，請搜臺。</string>
+    <string name="locked">當前頻道已被鎖定</string>
+    <string name="version">1.00</string>
+	<string name="download_success">下載成功</string>
+	<string name="download_progress">下載進度</string>
+</resources>

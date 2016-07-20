@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.android.settings.widget.TitleWidget
+        android:id="@+id/activity_screen_settings_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btn_screen_zoom"
+        android:layout_width="@dimen/selector_width"
+        android:layout_height="@dimen/list_item_height"
+        android:background="@drawable/btn_bg_selector"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="#ffffffff"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_screen_position"
+        android:layout_width="@dimen/selector_width"
+        android:layout_height="@dimen/list_item_height"
+        android:background="@drawable/btn_bg_selector"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="#ffffffff"
+        android:textSize="22sp" />
+
+</LinearLayout>

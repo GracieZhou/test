@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/ll_wifi_psw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/et_psw"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/edit_selector"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="#ffffff" />
+
+        <CheckBox
+            android:id="@+id/cb_show_psw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/show_psw"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_wifi_psw"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btn_selector"
+            android:text="@string/enter"
+            android:textColor="#ffffff"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/tv_error_psw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/error_psw"
+            android:textColor="@color/red"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="@android:style/Widget.DeviceDefault.ProgressBar.Large"
+            android:layout_width="250dp"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:id="@+id/tv_connecting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/detect_network"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_conn_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/iv_conn_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_conn_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="@string/detect_network"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_wifi"
+        android:layout_width="600dp"
+        android:layout_height="340dp"
+        android:layout_centerInParent="true"
+        android:descendantFocusability="blocksDescendants"
+        android:divider="#00000000"
+        android:dividerHeight="10dp"
+        android:listSelector="@drawable/btn_selector"
+        android:scrollbars="none"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:text="@string/str_pvr_listview_item"
+    android:id="@+id/textView1"
+    android:layout_width="@dimen/str_pvr_listview_item_layout_width"
+    android:layout_height="@dimen/str_pvr_listview_item_layout_width"
+    android:gravity="center"></TextView>
+

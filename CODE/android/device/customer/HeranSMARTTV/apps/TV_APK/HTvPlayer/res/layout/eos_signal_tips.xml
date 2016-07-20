@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/signaltip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="@dimen/eos_signal_tips_layout_marginLeft"
+    android:layout_marginTop="@dimen/eos_signal_tips_layout_marginTop"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/signaltip_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:paddingLeft="@dimen/signaltip_txt_paddingLeft"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/signaltip_txt_textSize" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/other_info_rl"
+    android:layout_width="@dimen/bottom_info_width"
+    android:layout_height="@dimen/bottom_info_height"
+    android:layout_marginLeft="@dimen/bottom_info_left"
+    android:layout_marginTop="@dimen/bottom_info_top"
+    android:background="@drawable/setting_bg" >
+
+    <TextView
+        android:id="@+id/source_name_ad_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/channel_id_textSize" />
+
+    <TextView
+        android:id="@+id/resolution_ad_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/source_name_ad_tv"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/resolution_textSize"/>
+    
+        <TextView
+        android:id="@+id/resolution_ad_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resolution_ad_tv"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/resolution_textSize"/>
+
+</RelativeLayout>

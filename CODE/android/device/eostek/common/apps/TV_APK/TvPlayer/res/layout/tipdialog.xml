@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tips_main"
+    android:layout_width="@dimen/tips_main_layout_width"
+    android:layout_height="@dimen/tips_main_layout_height"
+    android:layout_gravity="center"
+    android:background="@drawable/setting_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tips_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="@dimen/tips_title_layout_marginTop"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="0.02"
+        android:text="@string/tips"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tips_title_textSize" />
+
+    <TextView
+        android:id="@+id/message_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tips_title"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/message_content_layout_marginTop"
+        android:text="@string/message"
+        android:textColor="#F1F1F1"
+        android:textSize="@dimen/message_content_textSize" />
+
+    <com.eostek.tv.widget.FocusView
+        android:id="@+id/focus_selector"
+        android:layout_width="@dimen/focus_selector1_layout_width"
+        android:layout_height="@dimen/focus_selector1_layout_height"
+        android:layout_below="@id/message_content"
+        android:layout_marginLeft="@dimen/focus_selector1_layout_marginLeft"
+        android:layout_marginTop="@dimen/focus_selector1_layout_marginTop"
+        android:background="@drawable/btnfocus" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/message_content"
+        android:layout_marginTop="@dimen/tipdialog_layout_marginTop"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/sure_btn"
+            android:layout_width="@dimen/sure_btn1_layout_width"
+            android:layout_height="@dimen/sure_btn1_layout_height"
+            android:background="@android:color/transparent"
+            android:text="@string/sure"
+            android:textColor="#F1F1F1"
+            android:textSize="@dimen/sure_btn1_textSize" />
+
+        <Button
+            android:id="@+id/cancle_btn"
+            android:layout_width="@dimen/cancle_btn1_layout_width"
+            android:layout_height="@dimen/cancle_btn1_layout_width"
+            android:layout_marginLeft="@dimen/cancle_btn1_layout_marginLeft"
+            android:background="@android:color/transparent"
+            android:text="@string/cancel"
+            android:textColor="#F1F1F1"
+            android:textSize="@dimen/cancle_btn1_textSize" />
+    </LinearLayout>
+
+</RelativeLayout>

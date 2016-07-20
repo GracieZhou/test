@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2013, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+**/
+-->
+
+<resources>
+
+    <!-- memory clean -->
+    <add-resource type="string" name="memory_cleaned_message" />
+    <add-resource type="string" name="no_process_cleaned_message" />
+
+    <!-- status bar message -->
+    <add-resource type="string" name="ext_usb_media_badremoval_notification_title" />
+    <add-resource type="string" name="ext_sdcard_media_badremoval_notification_title" />
+    <add-resource type="string" name="ext_usb_media_checking_notification_title" />
+    <add-resource type="string" name="ext_sdcard_media_checking_notification_title" />
+    <add-resource type="string" name="ext_usb_storage_notification_title" />
+    <add-resource type="string" name="ext_sdcard_storage_notification_title" />
+    <add-resource type="string" name="ext_usb_media_nomedia_notification_title" />
+    <add-resource type="string" name="ext_sdcard_media_nomedia_notification_title" />
+    <add-resource type="string" name="ext_usb_media_state_abnormal_notification_title" />
+    <add-resource type="string" name="ext_sdcard_media_state_abnormal_notification_title" />
+    <add-resource type="string" name="ext_usb_media_state_ro_notification_title" />
+    <add-resource type="string" name="ext_sdcard_media_state_ro_notification_title" />
+    <add-resource type="string" name="ext_sdcard_media_low_storage_notification_title" />
+    <add-resource type="string" name="virtual_mouse_enable" />
+    <add-resource type="string" name="virtual_mouse_disable" />
+    <add-resource type="string" name="tv_remote_mode" />
+    <add-resource type="string" name="machine_remote_mode" />
+    <add-resource type="string" name="default_ime" />
+	
+</resources>

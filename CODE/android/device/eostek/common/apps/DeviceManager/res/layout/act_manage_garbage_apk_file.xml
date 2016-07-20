@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_main_title"
+        style="@style/TextShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="71dp"
+        android:drawableLeft="@drawable/back_bg"
+        android:drawablePadding="10dp"
+        android:text="@string/garbage_apk_file"
+        android:textColor="#ffffffff"
+        android:textSize="32sp" />
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="471dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="59dp"
+        android:columnWidth="284dp"
+        android:gravity="center"
+        android:horizontalSpacing="-8dp"
+        android:verticalSpacing="0dp"
+        android:listSelector="@color/white1"
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:stretchMode="none" />
+    
+    <TextView
+        android:id="@+id/tv_clear_apk_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="80dp"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+</LinearLayout>

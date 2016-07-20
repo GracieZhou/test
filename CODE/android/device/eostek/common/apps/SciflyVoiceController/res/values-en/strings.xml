@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">SciflyVoice</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_recognizer">RecognizerActivity</string>
+    <string name="start_plz_tip">Try to speak</string>
+    <string name="voice_content_tip">Try to say the name of the movie you want to see, such as\&quot;Captain America\&quot;</string>
+    <string name="rec_error_tip1">Failed to get recognition result,reason :</string>
+    <string name="rec_error_tip2">Speak louder or be closer to microphone</string>
+    <string name="rec_try_again">Try again</string>
+    <string name="time_out">recognition is time out</string>
+
+</resources>

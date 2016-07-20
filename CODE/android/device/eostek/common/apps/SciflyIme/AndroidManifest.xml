@@ -1,0 +1,157 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eostek.scifly.ime"
+    android:versionCode="20"
+    android:sharedUserId="com.android.systemui"
+    android:versionName="4.4.2-v2.3.9.20001" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+
+    <application android:label="@string/ime_name" android:persistent="true">
+        <service
+            android:name="com.eostek.scifly.ime.pinyin.PinyinDecoderService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.eostek.scifly.ime.Decoder_Service" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.eostek.scifly.ime.sync.SyncService"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.eostek.scifly.ime.sync.ISyncManager" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".pinyin.PinyinImeService"
+            android:permission="android.permission.BIND_INPUT_METHOD" android:label="@string/pinyin_IME">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+        <service
+            android:name=".cangjie.CangjieImeService"
+            android:permission="android.permission.BIND_INPUT_METHOD" android:label="@string/cangjie_IME">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+          <service
+            android:name=".zhuyin.ZhuyinImeService"
+            android:permission="android.permission.BIND_INPUT_METHOD" android:label="@string/zhuyin_IME">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+        
+        <service
+            android:name=".french.FrenchImeService"
+            android:permission="android.permission.BIND_INPUT_METHOD" android:label="@string/french_IME">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+          
+        <service
+            android:name = ".arabic.ArabicImeService"
+            android:permission="android.permission.BIND_INPUT_METHOD" android:label="@string/arabic_IME">
+            <intent-filter>
+                <action android:name ="android.view.InputMethod"/>
+            </intent-filter>
+            
+            <meta-data
+                android:name ="android.view.im"
+                android:resource="@xml/method"/>
+            </service>
+            
+              <service
+            android:name = ".persian.PersianImeService"
+            android:permission="android.permission.BIND_INPUT_METHOD" android:label="@string/persian_IME">
+            <intent-filter>
+                <action android:name ="android.view.InputMethod"/>
+            </intent-filter>
+            
+            <meta-data
+                android:name ="android.view.im"
+                android:resource="@xml/method"/>
+            </service>
+            
+                <service
+            android:name = ".korean.KoreanImeService"
+            android:permission="android.permission.BIND_INPUT_METHOD" android:label="@string/korean_IME">
+            <intent-filter>
+                <action android:name ="android.view.InputMethod"/>
+            </intent-filter>
+            
+            <meta-data
+                android:name ="android.view.im"
+                android:resource="@xml/method"/>
+            </service>
+            
+              <service   
+            android:name = ".japan.JapanImeService"
+            android:permission="android.permission.BIND_INPUT_METHOD" android:label="@string/japan_IME">
+            <intent-filter>
+                <action android:name ="android.view.InputMethod"/>
+            </intent-filter>
+            
+            <meta-data
+                android:name ="android.view.im"
+                android:resource="@xml/method"/>
+            </service>
+            
+        <activity
+            android:name=".ImePreferences"
+            android:label="@string/settings_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
+        <!-- <activity android:name="com.eostek.scifly.ime.development.MainActivity2" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+      <!--  <activity 
+            android:name="com.eostek.scifly.ime.imeswitch.IMETestActivity" 
+             android:label="测试" > 
+             <intent-filter> 
+                <action android:name="android.intent.action.MAIN" /> 
+
+                <category android:name="android.intent.category.LAUNCHER" /> 
+             </intent-filter> 
+        </activity>  -->
+
+    </application>
+
+</manifest>

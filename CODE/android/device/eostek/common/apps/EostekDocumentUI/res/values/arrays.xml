@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="downloaded_item_name">
+        <item>Video</item>
+        <item>Music</item>
+        <item>Image</item>
+        <item>Document</item>
+        <item>Apk</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="storage_directory_items">
+        <item>Internal Storage</item>
+        <item>External Devices</item>
+    </string-array>
+    <string-array name="download_limit_speed_items">
+        <item>No speed limit</item>
+        <item>50KB/s</item>
+        <item>100KB/s</item>
+        <item>200KB/s</item>
+        <item>500KB/s</item>
+        <item>1MB/s</item>
+        <item>2MB/s</item>
+        <item>5MB/s</item>
+    </string-array>
+
+</resources>

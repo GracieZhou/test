@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">安全管家</string>
+
+
+    <string name="autostart_manager">自啟管理</string>
+
+
+
+
+    <string name="app_uninstall">應用卸載</string>
+
+
+    <string name="running_apps">運行中</string>
+
+    <string name="ram">內存</string>
+
+
+
+
+    <!-- Auto start -->
+    <string name="allowed_app_str">允許自啟（按確定鍵禁止應用自啟）</string>
+    <string name="forbidden_app_str">禁止自啟（按確定鍵允許應用自啟）</string>
+
+    <!-- Garbage -->
+    
+    
+
+
+    
+    <string name="garbage_apk_file">可刪除安裝文件</string>
+    <string name="garbage_big_file">大文件和臨時文件</string>
+    
+    
+    
+
+    
+    
+    
+    
+
+    <!-- AppInstall -->
+    
+    
+    
+    
+    
+
+    <!-- AppUninstall -->
+    <string name="no_app_uninstall">無應用可卸載</string>
+
+    <!-- AppUpdate -->
+    <string name="update_manager">一鍵更新</string>
+    <string name="select_all">自動更新全部</string>
+    <string name="space">佔用空間:</string>
+    <string name="file_name">文件名:</string>
+    
+    <string name="name">名稱:</string>
+    <string name="recently_used">最近使用</string>
+    <string name="recommend_load_failure">從服務器獲取應用失敗</string>
+    <string name="network_unavaliable">網絡不可用，請檢查網絡</string>
+    <string name="no_update_app">沒有可更新應用</string>
+    <string name="install_app_success">安裝成功</string>
+    <string name="install_app_failure">安裝失敗</string>
+    <string name="update_app_success">更新成功</string>
+    <string name="update_app_failure">更新失敗</string>
+    <string name="app_is_updating">正在更新</string>
+	<string name="act_recommend_start_update">開始下載</string>
+    <!-- AppRecommend -->
+    
+    
+    
+    
+    
+    <string name="home_manager">管理</string>
+    <string name="home_recommand">推薦</string>
+    <string name="home_page_manager_process">一鍵加速</string>
+    <string name="home_page_manager_garbage">清理垃圾</string>
+    <string name="home_page_manager_appmanage">應用管理</string>
+    <string name="home_page_manager_autostart">自啟管理</string>
+    <string name="act_tv_tip_disk_fulled">磁盤空間已滿，建議清理系統</string>
+    <string name="act_btn_clean_memory">立即清理</string>
+    <string name="act_btn_view_disk_space">查看空間</string>
+
+    <!-- activity_management_dialog -->
+    <string name="act_management_dlg_disk_title">空間</string>
+    <string name="act_management_dlg_disk_sub_title_total">總計</string>
+    <string name="act_management_dlg_disk_sub_title_app">應用</string>
+    <string name="act_management_dlg_disk_sub_title_data">數據</string>
+    <string name="act_management_dlg_cache_title">緩存</string>
+    <string name="act_management_dlg_btn_clear_data">清除數據</string>
+    <string name="act_management_dlg_btn_clear_cache">清除緩存</string>
+    <string name="act_management_dlg_btn_uninstall">卸載</string>
+    <string name="act_management_dlg_btn_update">更新</string>
+    <string name="act_management_dlg_tv_version">版本：  %1$s</string>
+    <string name="act_management_dlg_toast_update">開始更新%1$s</string>
+
+    <!-- Garbage -->
+    <string name="act_garbage_tv_scan_waiting">等待掃描</string>
+    <string name="act_garbage_tv_scan_running">正在掃描......</string>
+    <string name="act_garbage_tv_scan_result">已經掃描出%1$s垃圾</string>
+    <string name="act_garbage_tv_scan_no_found">沒有垃圾，真棒</string>
+    <string name="act_garbage_tv_confirm">確認</string>
+    <string name="act_garbage_tv_clean_no_need">無需清理</string>
+    <string name="act_garbage_tv_clean_now">立即清理</string>
+    <string name="act_garbage_tv_clean_running">正在清理......</string>
+    <string name="act_garbage_tv_clean_result">本次清理%1$s</string>
+    <string name="act_garbage_tv_clean_complete">完成清理</string>
+    <string name="act_garbage_tv_garbage_cache">垃圾緩存</string>
+    <string name="act_garbage_tv_garbage_uninstalled">卸載殘留</string>
+    <string name="act_garbage_tv_garbage_ads">廣告文件</string>
+    <string name="act_garbage_tv_garbage_apk">無用安裝包</string>
+    <string name="act_garbage_tv_garbage_big_file">大文件和臨時文件</string>
+    <string name="act_garbage_tv_garbage_unused_apk">半年未使用應用</string>
+    <string name="act_bigfile_tv_delete_all">刪除全部</string>
+    <string name="act_bigfile_tv_choose_more">多選</string>
+    <string name="act_bigfile_tv_delete">刪除</string>
+    <string name="act_bigfile_tv_choose_all">全部選擇</string>
+    <string name="act_bigfile_tv_big_file_space">佔用:</string>
+    <string name="act_bigfile_tv_prefix_choose">已選擇 %1$s %2$s</string>
+    <string name="act_bigfile_dialog_single_delete">確認刪除該文件？</string>
+    <string name="act_bigfile_dialog_select_delete">確認刪除所選文件？</string>
+    
+    <string name="act_bigfile_dialog_btn_confirm">確認</string>
+    <string name="act_bigfile_dialog_btn_cancel">取消</string>
+
+    <!-- Process -->
+    <string name="act_process_tv_scan_running">正在掃描......</string>
+    <string name="act_process_btn_clean_ready">立即加速</string>
+    <string name="act_process_tv_clean_ready">可以進行加速</string>
+    <string name="act_process_btn_confirm">確認</string>
+    <string name="act_process_tv_confirm">已提速  %1$d%%</string>
+
+</resources>

@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/shop_main_fl_height"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/shop_main_fl_margin_left"
+        android:layout_marginRight="@dimen/shop_main_fl_margin_right"
+        android:layout_marginTop="@dimen/shop_main_fl_margin_top" >
+
+        <LinearLayout
+            android:id="@+id/webviewcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <FrameLayout
+                android:layout_width="@dimen/app_ad_filpper_width"
+                android:layout_height="@dimen/app_ad_filpper_height"
+                android:background="@drawable/home_item_bg" >
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/app_linearlayout_width"
+                android:layout_height="@dimen/app_linearlayout_height"
+                android:layout_marginLeft="@dimen/app_margin_left"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/app_imageview_myapp_height"
+                    android:background="@drawable/home_item_bg" >
+                    
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/app_imageview_setting_height"
+                    android:layout_marginTop="@dimen/app_margin_top"
+                    android:background="@drawable/home_item_bg" >
+                    
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/focusviewcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <ImageButton
+                android:id="@+id/web_bt_01"
+                android:layout_width="@dimen/app_ad_filpper_width"
+                android:layout_height="@dimen/app_ad_filpper_height"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"/>"
+
+            <LinearLayout
+                android:layout_width="@dimen/app_linearlayout_width"
+                android:layout_height="@dimen/app_linearlayout_height"
+                android:layout_marginLeft="@dimen/app_margin_left"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/web_bt_02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/app_imageview_myapp_height"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY" >
+                </ImageButton>
+
+                <ImageButton
+                    android:id="@+id/web_bt_03"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/app_imageview_setting_height"
+                    android:layout_marginTop="@dimen/app_margin_top"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <com.google.tv.eoslauncher.util.FocusView
+        android:id="@+id/home_selector"
+        android:layout_width="@dimen/buttion_tv_width"
+        android:layout_height="@dimen/buttion_tv_height"
+        android:background="@drawable/home_focus"
+        android:visibility="gone" />
+
+</LinearLayout>

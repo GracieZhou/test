@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent_background">#50000000</color>
+    <color name="delete_dialog_button_n">#50000000</color>
+    <color name="delete_dialog_button_y">#FF1E88E5</color>
+    <color name="delete_dialog_button_p">#FF1E8FFF</color>
+    <color name="translucent_black">#ee000000</color>
+    <color name="translucent_medium">#ef000000</color>
+    <color name="translucent">#77000000</color>
+
+</resources>

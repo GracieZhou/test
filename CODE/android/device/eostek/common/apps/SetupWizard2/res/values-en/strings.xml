@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_setmeup">SciflyCast</string>
+	<string name="fail_setup_config">SciflyCast setup failed: not able to bulid configure environment,application will exit</string>
+	<string name="welcom_info">Welcome to use SciflyCast</string>
+	<string name="guide_description">Please connect to SciflyCast by the following methods</string>
+	<string name="step_I">Step 1：scan QR code</string>
+	<string name="downlaod_url_I">Or visit:</string>
+    <!-- <string name="downlaod_url_II"><u>t.cn/RvuPNVF</u></string> -->
+	<string name="download_tip">Download and install the Android client of SciflyCast</string>
+	<string name="dev_name">Device name</string>
+	<string name="step_II">Step 2：Run the client</string>
+	<string name="ope_tip">Connect to SciflyCast to setup the wireless network</string>
+	<string name="phrase_req_pairing_code">Already connected to the client</string>
+    <string name="phrase_timezone_setting">Setting Time Zone</string>
+    <string name="phrase_restoring_factory">Restoring factory</string>
+    <string name="phrase_device_name_setting">Modify the device name</string>
+    <string name="phrase_wifi_setting">Network Setup</string>
+    <string name="phrase_wifi_setting_fail"> :Failed</string>
+    <string name="phrase_wifi_setting_success"> :Succeeded</string>
+    <string name="reset_tip_second">s</string>
+    <string name="reset_tip_i">Reset Network</string>
+    <string name="reset_tip_ii">Release reset button to cancle</string>
+    <string name="reset_tip_max">10</string>
+    <string name="exit_tip">Press"Back" to enter the setup,setup the network manually</string>
+</resources>

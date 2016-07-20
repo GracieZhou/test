@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/LinearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="50dp"
+            android:layout_weight="4.00"
+            android:background="@drawable/local_upgrade_bg"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:scaleType="centerInside" >
+
+                <LinearLayout
+                android:id="@+id/LinearLayout2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:scaleType="centerInside" >
+
+                <ImageView
+                    android:id="@+id/imageView2_1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:scaleType="centerInside"
+                    android:layout_marginRight="@dimen/between_image_text"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/point" />
+
+                <TextView
+                    android:id="@+id/textView2_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:text="@string/bootVideo"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:scaleType="centerInside" >
+
+                <ImageView
+                    android:id="@+id/imageView2_2"
+                    android:layout_width="30dp"
+                     android:layout_height="30dp"
+                    android:scaleType="centerInside"
+                    android:layout_gravity="center_vertical"
+                  android:layout_marginRight="@dimen/between_image_text"
+                    android:src="@drawable/point" />
+
+                <TextView
+                    android:id="@+id/textView2_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:text="@string/bootAnim"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:scaleType="centerInside" >
+
+                <ImageView
+                    android:id="@+id/imageView2_3"
+                    android:layout_width="30dp"
+                    android:scaleType="centerInside"
+                     android:layout_marginRight="@dimen/between_image_text"
+                     android:layout_gravity="center_vertical"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/point" />
+
+                <TextView
+                    android:id="@+id/textView2_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:text="@string/launcher"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            </LinearLayout>

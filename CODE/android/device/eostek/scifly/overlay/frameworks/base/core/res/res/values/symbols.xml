@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright 2012, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+  <!-- We don't want to publish private symbols in android.R as part of the
+       SDK.  Instead, put them here. -->
+  <private-symbols package="com.android.internal" />
+
+  <java-symbol type="string" name="ext_usb_media_badremoval_notification_title" />
+  <java-symbol type="string" name="ext_sdcard_media_badremoval_notification_title" />
+  <java-symbol type="string" name="ext_usb_media_checking_notification_title" />
+  <java-symbol type="string" name="ext_sdcard_media_checking_notification_title" />
+  <java-symbol type="string" name="ext_usb_storage_notification_title" />
+  <java-symbol type="string" name="ext_sdcard_storage_notification_title" />
+  <java-symbol type="string" name="ext_usb_media_nomedia_notification_title" />
+  <java-symbol type="string" name="ext_sdcard_media_nomedia_notification_title" />
+  <java-symbol type="drawable" name="status_sys_notify_storage_sdcard" />
+  <java-symbol type="drawable" name="status_sys_notify_storage_usb" />
+  <java-symbol type="string" name="ext_usb_media_state_abnormal_notification_title" />
+  <java-symbol type="string" name="ext_sdcard_media_state_abnormal_notification_title" />
+  <java-symbol type="drawable" name="status_sys_notify_storage_usb_abnormal" />
+  <java-symbol type="drawable" name="status_sys_notify_storage_sdcard_abnormal" />
+  <java-symbol type="string" name="ext_usb_media_state_ro_notification_title" />
+  <java-symbol type="string" name="ext_sdcard_media_state_ro_notification_title" />
+  <java-symbol type="string" name="ext_sdcard_media_low_storage_notification_title" />
+
+  <java-symbol type="id" name="authorize_failed_message" />
+  <java-symbol type="layout" name="authorize_failed_layout" />
+  <java-symbol type="dimen" name="authorize_failed_layout_height" />
+
+  <java-symbol type="string" name="memory_cleaned_message" />
+  <java-symbol type="string" name="no_process_cleaned_message" />
+  <java-symbol type="string" name="default_ime" />
+
+  <!-- im message state drawable icon. -->
+  <java-symbol type="drawable" name="status_sys_im_offline" />
+  <java-symbol type="drawable" name="status_sys_im_offline_message" />
+  <java-symbol type="drawable" name="status_sys_im_online" />
+  <java-symbol type="drawable" name="status_sys_im_online_message" />
+  <java-symbol type="drawable" name="status_sys_im_connected" />
+  <java-symbol type="drawable" name="status_sys_im_connected_message" />
+
+  <!-- Shutdown greeting -->
+  <java-symbol type="style" name="FullscreenDialog" />
+  <java-symbol type="id" name="shutdown_text" />
+  <java-symbol type="layout" name="shutdown_message_layout" />
+</resources>

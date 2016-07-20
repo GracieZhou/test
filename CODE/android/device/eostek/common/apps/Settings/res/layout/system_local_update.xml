@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <com.android.settings.widget.TitleWidget
+        android:id="@+id/title_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.android.settings.widget.TitleWidget>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/check_directry"
+        android:textSize="22sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/local_current_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/current_version"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/local_update_info"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/update_not_display"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="left"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:scrollbarSize="5dp"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:textColor="#CCCCCCCC"
+        android:textSize="18sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/local_current_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/progress"
+        android:textColor="#FFFFFFFF"
+        android:textSize="22sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/local_immediate"
+        android:layout_width="157dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_selector"
+        android:textColor="#FFFFFFFF"
+        android:textSize="28sp" />
+
+</LinearLayout>

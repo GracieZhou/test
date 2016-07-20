@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/act_manage_garbage_apk_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    style="@style/list"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="horizontal" >
+    
+     <CheckBox
+        android:id="@+id/cb_apk_file"
+        style="@style/CheckBox.Enable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:gravity="left"
+        android:background="@drawable/big_file_checkbox_selector" >
+    </CheckBox>
+
+    <TextView
+        android:id="@+id/tv_title_apk"
+        style="@style/GarbageTV"
+        android:layout_width="@dimen/list_width"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/margin_left_checkbox"
+        android:text="@string/act_garbage_tv_garbage_apk"/>
+
+    <TextView
+        android:id="@+id/tv_summary_apk"
+        style="@style/GarbageTV" 
+        android:layout_width="@dimen/tv_width"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/margin_left_tv"
+        android:text="@string/act_garbage_tv_clean_complete"/>
+
+     <ImageView
+        android:id="@+id/iv_apk"
+        android:layout_width="@dimen/more"
+        android:layout_height="@dimen/more"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/more"/>
+
+</LinearLayout>

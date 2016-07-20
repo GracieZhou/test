@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Scifly TV Player</string>
+    <string name="noprogram_tip">No program now.You need to search.</string>
+    <string name="tips">Tip</string>
+    <string name="message">Dear,are you sure to exit tv system?</string>
+    <string name="nodescriptor">no descriptor information!</string>
+    <string name="getepg_tip">Collect epg information now!</string>
+    <string name="getepgdes_tip">Collect epg descriptor now!</string>
+    <string name="schedule_starttime">Start Time</string>
+    <string name="schedule_duration">Time Span</string>
+    <string name="schedule_number">Channel</string>
+    <string name="schedule_channel_name">Channel Name</string>
+    <string name="schedule_event_name">Program Name</string>
+    <string name="schedule_type">Type</string>
+    <string name="schedule_list">Schedule List</string>
+    <string name="epgnoorder">No Schedule List</string>
+    <string name="delete">Delete</string>
+    <string name="epg_tip">Loading&#8230;</string>
+    <string name="epg_title">TV Guide Card</string>
+    <string name="epgordersuccess">Successful appointment.</string>
+    <string name="epgorderoverlay">Overlay with other appointments。</string>
+    <string name="epgorderpast">Reservation program obsolete</string>
+    <string name="epgorderfail">Make an appointment to fail.</string>
+    <string name="recorder">Recorder</string>
+    <string name="reminder">Reminder</string>
+    <string name="nosignaltips">No Signal</string>
+    <string name="unsupporttips">Unsupport</string>
+    <string name="autoadjust">Auto Adjust</string>
+    <string name="invalidservice">Invalid Service</string>
+    <string name="close">close</string>
+    <string name="cur_pgm">Now playing: </string>
+    <string name="next_pgm">Upcoming: </string>
+    <string name="mono">MONO</string>
+    <string name="sap">SAP</string>
+    <string name="stereo">Stereo</string>
+
+    <string-array name="trackArray">
+        <item>Stereo</item>
+        <item>Left Track</item>
+        <item>Right Track</item>
+        <item>Mix Track</item>
+    </string-array>
+
+    <string name="dtv">Digital TV</string>
+    <string name="radio">Audio BroadCast</string>
+    <string name="data">Data BroadCast</string>
+    <string name="atv">Analog TV</string>
+    <string name="favorite">Favorite Channels</string>
+    <string name="favoritetip">No favorite channels,please go to the channel edit menu to add it!</string>
+    <string name="order_remind">Order Reminder</string>
+    <string name="order_record_remind">Order Recorder Reminder</string>
+    <string name="will_start"> will start.</string>
+    <string name="start_auto"> seconds will switch to it.</string>
+    <string name="switch_immediately">Sure</string>
+
+    <!-- for pvr file system -->
+    <string name="str_pvr_file_system_title">PVR File System</string>
+    <string name="str_pvr_file_system_select_disk">Select Disk</string>
+    <string name="str_pvr_file_system_time_shift_size">Time Shift Size</string>
+    <string name="str_pvr_file_system_format_start">Format Start</string>
+    <string name="str_pvr_file_system_format_context">Success</string>
+    <string name="str_pvr_file_system_speed_check">Speed Check</string>
+    <string name="str_pvr_file_system_speed_context">complete</string>
+    <string name="str_pvr_file_system_always_timeshift">Always Timeshift</string>
+    <string name="str_pvr_file_system_always_context">On</string>
+    <string name="str_mainmenu_menu">Menu</string> <!-- for pvr full page browser -->
+    <string name="str_pvr_lcn_textview">Channel NO</string>
+    <string name="str_pvr_index_textview">Index</string>
+    <string name="str_pvr_video_manager">Video Explorer</string>
+    <string name="str_pvr_channel_textview">CHANNEL</string>
+    <string name="srt_pvr_program_service_textview">ProgramService</string>
+    <string name="str_pvr_program_service_tips_red">Delete</string>
+    <string name="str_pvr_program_service_tips_green">Record</string>
+    <string name="str_pvr_program_service_tips_blue">Index</string>
+    <string name="str_pvr_program_service_tips_yellow">OK</string>
+    <string name="str_pvr_lcn_title">Title</string>
+    <string name="str_pvr_currenttime">Current Time:</string>
+    <string name="str_pvr_listview_item">TextView</string>
+    <string name="str_pvr_lcn_data">2011&#8211;11&#8211;25</string>
+    <string name="str_pvr_insert_usb">Can\'t find disk,Please Insert A Disk First!</string>
+    <string name="str_pvr_format_usb">Do you Want to Format the Selected Disk?</string>
+    <string name="str_pvr_usb_speed_test_progressing">Speed Test Progressing&#8230;\nPlease Do Not Unplug the
+		Disk!</string>
+    <string name="str_pvr_program_saving">Now Program Saving&#8230;Please Wait!</string>
+    <string name="str_pvr_exit_confirm">Now Recording&#8230;Do you Really Want to Exit?</string>
+    <string name="str_pvr_time_shift_exit_confirm">Now Time Shiftting&#8230;Do you Really Want to Exit?</string>
+    <string name="str_pvr_is_recording">Recording</string>
+    <string name="str_pvr_is_time_shift">Time Shift</string>
+    <string name="str_editText1">00</string>
+    <string name="str_pvr_unsurpt_flsystem">Unsupported File System,Please Do Format First!</string>
+    <string name="str_pvr_timeshift_filespaceerror">Disk space is insufficient。Please clean up disk before time shift.</string>
+    <string name="pvr_disk_full">Disk space is full，stop record</string>
+    <!-- for pvr menu -->
+    <string name="str_player_recorder">RECORDER</string>
+    <string name="str_player_play">Play</string>
+    <string name="str_player_stop">Stop</string>
+    <string name="str_player_pause">Pause</string>
+    <string name="str_player_rev">Rev</string>
+    <string name="str_player_ff">FF</string>
+    <string name="str_player_slow">SlowMotion</string>
+    <string name="str_player_time">TimePlay</string>
+    <string name="str_player_forward">Forward</string>
+    <string name="str_player_backward">Backward</string>
+    <string name="str_player_capture">Capture</string>
+    <string name="str_pvr_file_system_menu">Menu</string>
+    <string name="str_list_menu_hint_b_skip">Skip</string>
+    <string name="str_list_menu_hint_g_fivorite">Favorite</string>
+    <string name="str_list_menu_hint_r_delete">Delete</string>
+    <string name="str_list_menu_hint_y_move">Move</string>
+    <string name="str_time_hour">Hour</string>
+    <string name="str_time_minute">Minute</string>
+    <string name="str_time_second">Second</string>
+    <string name="clean_J2T_value">Clean the input time value</string>
+    <string name="str_stop_record_dialog_title">STOP RECORDING</string>
+    <string name="str_stop_record_dialog_message">System will stop record if user want to channel up/down</string>
+    <string name="str_textview_record_start_time">Start Time</string>
+    <string name="str_textview_record_end_time">End Time</string>
+    <string name="sure">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="str_root_popup_left">Within</string>
+    <string name="str_root_popup_second">seconds</string>
+    <string name="str_root_popup_switch_to">Switch to</string>
+    <string name="str_root_popup_ready_to_switch">Ready to perform the switch</string>
+    <string name="str_root_popup_ready_off">Ready to shut down</string>
+    <string name="str_root_popup_off_after">Seconds before entering the auto sleep </string>
+    <string name="str_root_popup_system_clock_change">System clock has been changed, close \'AutoDown\'function\'</string>
+    <string name="str_root_toast_userdiableofftimer">The countdown has cancelled</string>
+    <string name="formattip">PVR File System only supports FAT format disk!</string>
+    <string name="pvrrecordfail">PVR recording fail</string>
+    <string name="pvrrecordfull">Record is out of disk space.</string>
+    <string name="pvrrecordusbremove">Disk removed.</string>
+    <string name="pvraberror">The AB Loop time is too short, the shortest time is 2 seconds.</string>
+    <string name="pvrplayererror">Can\'t PlayBack Properly.</string>
+    <!-- channel edit -->
+    <string name="channeledit">Channel Edit</string>
+    <string name="channelNum">Number</string>
+    <string name="channelName">Name</string>
+    <string name="channelLove">Favorite</string>
+    <string name="channelLock">Lock</string>
+    <string name="channelHide">Skip</string>
+    <string name="channelBack">Back</string>
+    <string name="channelMove">Move</string>
+    <string name="channelLove_tip">Favorite/cancle favorite</string>
+    <string name="channelLock_tip">Lock/cancle lock</string>
+    <string name="channelHide_tip">Skip/cancle skip</string>
+    <string name="channelMove_tip">Move/cancle move</string>
+    <string name="channeldelete_tip">Delete</string>
+    <string name="inputPassword">Input Password</string>
+    <string name="passwordSetTip">Enter 4 char or less！</string>
+    <string name="passwordCheck">Password</string>
+    <string name="passwordIsNull">Your password is null!</string>
+    <string name="passwordCheckError">Your password is error!</string>
+    <string name="passwordtip">Press enter to input password</string>
+    <string name="tuningtip">Press enter to tuning</string>
+    <string name="cantskipall">Sorry, you can\'t hide all channels.</string>
+    <string name="audiolanguage">Audio Language</string>
+    <string name="audiolanguage_dtv_main">Main</string>
+    <string name="audiolanguage_dtv_sub">Sub</string>
+    
+    <string name="schedule_str_time_minute">minutes</string>
+
+</resources>

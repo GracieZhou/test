@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pppoe_setting_ll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="750dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="246dip"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/pppoe_auto_ip_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:text="@string/pppoe_connect_format"
+                android:textColor="#ffffffff"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/pppoe_auto_ip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="120dp"
+                android:background="@drawable/one_px"
+                android:text="@string/wire_connect"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/username_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:gravity="center_vertical"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:paddingLeft="30dp"
+                android:text="@string/username"
+                android:textColor="#FFFFFFFF"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/username_et"
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/edit_text_large"
+                android:gravity="center"
+                android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/password_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:gravity="center_vertical"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:paddingLeft="30dp"
+                android:text="@string/password"
+                android:textColor="#ffffffff"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/password_et"
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/edit_text_large"
+                android:gravity="center"
+                android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+                android:password="true"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/show_password_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:text="@string/show_password"
+                android:textColor="#ffffffff"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/show_password"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:button="@drawable/custom_checkbox"
+                android:gravity="center_vertical" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/auto_dialer_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:text="@string/auto_dialer"
+                android:textColor="#ffffffff"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/auto_dialer_cb"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:button="@drawable/custom_checkbox"
+                android:gravity="center_vertical" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:gravity="center_vertical"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:id="@+id/dialer_status_title"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:paddingLeft="30dp"
+                android:text="@string/pppoe_status_str"
+                android:textColor="#FFFFFFFF"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/dialer_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:layout_toRightOf="@+id/dialer_status_title"
+                android:singleLine="true"
+                android:text="@string/pppoe_disconnect"
+                android:textColor="#ffffffff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dialer_switch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <Button
+                android:id="@+id/dialer_hangup"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="150dp"
+                android:background="@drawable/edit_normal"
+                android:nextFocusRight="@+id/dialer_ok"
+                android:text="@string/dialer_hangup"
+                android:textColor="#FFFFFFFF"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/dialer_ok"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="150dp"
+                android:background="@drawable/edit_normal"
+                android:nextFocusLeft="@+id/dialer_hangup"
+                android:text="@string/dialer_ok"
+                android:textColor="#FFFFFFFF"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

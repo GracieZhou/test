@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="324dp"
+    android:layout_height="408dp" >
+
+    <TextView
+        android:id="@+id/data_title"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/data_dispaly"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/data_listview"
+        android:layout_width="370dp"
+        android:layout_height="240dp"
+        android:layout_below="@+id/data_title"
+        android:layout_centerHorizontal="true"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:scrollingCache="false" />
+
+</RelativeLayout>

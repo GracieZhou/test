@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/pvr_menu_info_layout"
+        android:layout_height="@dimen/pvr_menu_info_layout_layout_width"
+        android:layout_width="@dimen/pvr_menu_info_layout_layout_height"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/tv_record_list_r_bg">
+        <TextView
+            android:text="@string/str_pvr_listview_item"
+            android:id="@+id/pvr_menu_info_title"
+            android:layout_width="@dimen/str_pvr_listview_item_layout_layout_width"
+            android:layout_height="@dimen/str_pvr_listview_item_layout_layout_height"
+            android:gravity="center"></TextView>
+        <TextView
+            android:focusable="true"
+            android:text="@string/str_pvr_listview_item"
+            android:id="@+id/pvr_menu_info_subtitle"
+            android:layout_width="@dimen/str_pvr_listview_item_layout_layout_width"
+            android:layout_height="@dimen/str_pvr_listview_item_layout_layout_height"
+            android:gravity="center"
+            android:background="@drawable/programme_epg_selcet"></TextView>
+        <ListView
+            android:listSelector="@drawable/button_state"
+            android:layout_height="@dimen/pvr_menu_info_list_view_layout_height"
+            android:id="@+id/pvr_menu_info_list_view"
+            android:layout_width="@dimen/pvr_menu_info_list_view_layout_width"></ListView>
+        <ImageView
+            android:src="@drawable/common_img_ok"
+            android:layout_height="@dimen/common_img_ok_layout_height"
+            android:layout_width="@dimen/common_img_ok_layout_width"></ImageView>
+    </LinearLayout>
+
+</LinearLayout>

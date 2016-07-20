@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--     <integer name="max_backend_cache_size_bytes">5242880</integer> -->
+<!--     <integer name="max_backend_cache_age_seconds">86400</integer> -->
+<!--     <integer name="max_backend_cache_in_memory_size_item_count">100</integer> -->
+<!--     <integer name="max_availability_cache_size_item_count">50</integer> -->
+<!--     <integer name="max_availability_cache_age_seconds">1800</integer> -->
+<!--     <integer name="shelf_title_gradient_height">30</integer> -->
+<!--     <integer name="movie_entity_max_cast_count">10</integer> -->
+<!--     <integer name="series_entity_max_cast_count">10</integer> -->
+<!--     <integer name="entity_page_size">10</integer> -->
+<!--     <integer name="hovercard_display_delay_millis">500</integer> -->
+<!--     <integer name="entity_page_hovercard_display_delay_millis">200</integer> -->
+<!--     <integer name="tv_bar_delay_millis">1000</integer> -->
+<!--     <integer name="non_focused_shelf_brightness_percentage">40</integer> -->
+<!--     <integer name="button_enter_anim_duration">200</integer> -->
+<!--     <integer name="button_exit_anim_duration">100</integer> -->
+<!--     <integer name="rating_display_delay">400</integer> -->
+<!--     <integer name="rating_game_movie_count">15</integer> -->
+<!--     <integer name="rating_game_series_count">10</integer> -->
+<!--     <integer name="reload_spinner_background_brightness_percentage">30</integer> -->
+<!--     <integer name="surf_shelf_coulumn_count_all_portrait">7</integer> -->
+<!--     <integer name="surf_shelf_coulumn_count">5</integer> -->
+<!--     <integer name="surf_caption_display_delay_millis">500</integer> -->
+<!--     <integer name="transparency_support_max_pixels">20000</integer> -->
+<!--     <integer name="max_img_cache_size_bytes">31457280</integer> -->
+<!--     <integer name="max_img_cache_age_seconds">604800</integer> -->
+<!--     <integer name="max_img_in_memory_cache_bytes">20971520</integer> -->
+    
+    
+    <integer name="reticle_pulse_pace_on">4</integer>
+    <integer name="reticle_pulse_pace_off">4</integer>
+    <integer name="reticle_pulse_value_on">100</integer>
+    <integer name="reticle_pulse_value_off">40</integer>
+</resources>

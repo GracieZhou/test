@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/ll_screen_size"
+        android:layout_width="750dp"
+        android:layout_height="330dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <SeekBar
+            android:id="@+id/screen_seekbar"
+            android:layout_width="680dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:max="20"
+            android:maxHeight="30dip"
+            android:minHeight="30dip"
+            android:paddingTop="100dp"
+            android:progressDrawable="@drawable/seek_drawable"
+            android:thumb="@drawable/seek_thumb" />
+
+        <TextView
+            android:id="@+id/seekbar_exception_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"
+            android:text="@string/screen_size_exception"
+            android:textColor="#84ff03"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

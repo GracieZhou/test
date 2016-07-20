@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pager_effects">
+        <item>Standard</item>
+        <item>Crossfade</item>
+        <item>Zoom</item>
+        <item>Rotate</item>
+        <item>Cube</item>
+        <item>Accordion</item>
+        <item>InRightUp</item>
+        <item>InRightDown</item>
+    </string-array>
+
+</resources>

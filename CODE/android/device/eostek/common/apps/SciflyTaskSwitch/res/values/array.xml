@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="package_whitelist">
+        <item>com.eostek.llauncher</item>
+        <item>com.utsmta.app</item>
+        <item>com.eostek.im</item>
+        <item>com.eostek.scifly.video</item>
+        <item>com.mstar.tv.menu</item>
+        <item>com.google.tv.eoslauncher</item>
+        <item>com.eostek.scifly.advertising</item>
+    </string-array>
+
+</resources>

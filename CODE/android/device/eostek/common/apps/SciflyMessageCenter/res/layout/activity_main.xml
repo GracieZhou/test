@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/message_center_main"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/activity_header" />
+
+    <!-- <LinearLayout -->
+    <!-- android:id="@+id/delete_info" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:gravity="center_horizontal" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:text="@string/delete_tip" -->
+    <!-- android:textColor="@android:color/white" /> -->
+    <!-- </LinearLayout> -->
+
+    <FrameLayout
+        android:layout_marginTop="29dp"
+        android:id="@+id/user_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:layout_height="111dp"
+            layout="@layout/user_view" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/message_content" >
+        </include>
+
+        <include
+            android:id="@+id/no_message_tip"
+            layout="@layout/no_message"
+            android:visibility="gone" >
+        </include>
+        <!-- android:visibility="invisible" -->
+    </FrameLayout>
+
+    <include layout="@layout/activity_bottom"></include>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingTop="0dp" >
+
+    <TextView
+        android:id="@+id/city_name"
+        android:layout_width="78.6dp"
+        android:layout_height="46.6dp"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tmp"
+        android:layout_width="78.6dp"
+        android:layout_height="46.6dp"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/rain"
+        android:layout_width="78.6dp"
+        android:layout_height="46.6dp"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/weather_img"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="19dp"
+        android:contentDescription="@string/weather_img_des"
+        android:gravity="center"
+        android:scaleType="fitXY" />
+
+</LinearLayout>

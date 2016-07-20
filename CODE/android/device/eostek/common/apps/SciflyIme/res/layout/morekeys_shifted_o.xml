@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/more_keys_layout"
+    android:layout_width="304dp"
+    android:layout_height="205dp"
+    android:background="@drawable/morekeys_o"
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="@dimen/morekeys_width"
+            android:layout_height="@dimen/morkeys_height"
+            android:background="@android:color/transparent"
+            android:enabled="false"
+            android:focusable="false" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="9dp"
+            android:text="@string/Ō" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="9dp"
+            android:text="@string/Œ" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="9dp"
+            android:text="@string/Ø" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" >
+
+        <Button
+            style="@style/morekeys"
+            android:text="@string/º" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="9dp"
+            android:text="@string/Ö" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="9dp"
+            android:focusable="true"
+            android:text="@string/O" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="9dp"
+            android:text="@string/Ô" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" >
+
+        <Button
+            android:layout_width="@dimen/morekeys_width"
+            android:layout_height="@dimen/morkeys_height"
+            android:background="@android:color/transparent"
+            android:enabled="false"
+            android:focusable="false" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="9dp"
+            android:text="@string/Ò" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="9dp"
+            android:text="@string/Ó" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="9dp"
+            android:text="@string/Õ" />
+    </LinearLayout>
+
+</LinearLayout>

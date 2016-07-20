@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/more_keys_layout"
+    android:layout_width="224dp"
+    android:layout_height="202dp"
+    android:background="@drawable/morekeys_i"
+    android:orientation="vertical"
+    android:padding="1dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="1dp"
+        android:paddingTop="1dp" >
+
+        <Button
+            android:layout_width="@dimen/morekeys_width"
+            android:layout_height="@dimen/morkeys_height"
+            android:background="@android:color/transparent"
+            android:enabled="false"
+            android:focusable="false" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="8dp"
+            android:text="@string/Ī" />
+
+        <Button
+            android:layout_width="@dimen/morekeys_width"
+            android:layout_height="@dimen/morkeys_height"
+            android:layout_marginLeft="8dp"
+            android:background="@android:color/transparent"
+            android:enabled="false"
+            android:focusable="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp" 
+        android:paddingLeft="1dp">
+
+        <Button
+            style="@style/morekeys"
+            android:text="@string/Ï" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="8dp"
+            android:focusable="true"
+            android:text="@string/I" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="8dp"
+            android:text="@string/Î" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="1dp" >
+
+        <Button
+            style="@style/morekeys"
+            android:text="@string/Ì" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="8dp"
+            android:text="@string/Í" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="8dp"
+            android:text="@string/Į" />
+    </LinearLayout>
+
+</LinearLayout>

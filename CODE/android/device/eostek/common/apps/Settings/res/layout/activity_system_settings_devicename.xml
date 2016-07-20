@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.android.settings.widget.TitleWidget
+        android:id="@+id/activity_system_settings_devicename_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="100dp"
+        android:paddingLeft="200dp"
+        android:paddingRight="200dp" >
+
+
+        <EditText
+            android:id="@+id/device_name_et"
+            android:layout_width="480dp"
+            android:layout_height="54dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="3dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/edit_text_bg"
+            android:maxLength="20"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/device_btn_ok"
+            android:layout_width="157dp"
+            android:layout_height="54dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/device_name_et"
+            android:background="@drawable/button_selector"
+            android:gravity="center|center_vertical"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</LinearLayout>

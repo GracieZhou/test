@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="415dp"
+    android:layout_height="250dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/frame"
+    android:layout_margin="5dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/safe_title"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_safe_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/safe_info"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="18dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_style"
+            android:text="@string/cancel_btn"
+            android:focusable="true"
+            android:textColor="@color/text_color"
+            android:textSize="22sp" >
+        </Button>
+
+        <Button
+            android:id="@+id/bt_install"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_style"
+            android:text="@string/install_btn_txt"
+            android:layout_marginLeft="45dp"
+            android:focusable="true"
+            android:textColor="@color/text_color"
+            android:textSize="22sp" />
+            <requestFocus />
+    </LinearLayout>
+
+</LinearLayout>

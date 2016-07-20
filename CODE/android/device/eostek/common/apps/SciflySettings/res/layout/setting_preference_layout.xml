@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/settings_item_height"
+    android:layout_gravity="center"
+    android:background="@drawable/btn_bg_selector"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+android:id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+android:id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:layout_weight="1"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:gravity="right"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:id="@+id/rightLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/left_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="true"
+            android:focusable="false"
+            android:paddingRight="20dp"
+            android:src="@drawable/arrow_left_selector"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@drawable/text_color"
+            android:textSize="22sp" />
+
+        <ToggleButton
+            android:id="@+id/toggle_button"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:background="@drawable/setting_preference_image_selector"
+            android:textOn=""
+            android:textOff=""
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="true"
+            android:focusable="false"
+            android:paddingLeft="20dp"
+            android:src="@drawable/arrow_right_selector"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- Preference should place its actual preference widget here. -->
+
+    <LinearLayout
+        android:id="@+android:id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical" />
+
+</LinearLayout>

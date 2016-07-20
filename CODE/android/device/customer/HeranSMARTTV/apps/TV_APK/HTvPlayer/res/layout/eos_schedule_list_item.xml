@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/eos_schedule_list_item_paddingBottom"
+    android:paddingTop="@dimen/eos_schedule_list_item_paddingTop" >
+
+    <TextView
+        android:id="@+id/schedule_time"
+        android:layout_width="@dimen/schedule_time_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/schedule_time_layout_marginLeft"
+        android:gravity="center"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/schedule_duration"
+        android:layout_width="@dimen/schedule_duration_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/schedule_duration_layout_marginLeft"
+        android:gravity="center"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/schedule_channelnum"
+        android:layout_width="@dimen/schedule_channelnum_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/schedule_channelnum_layout_marginLeft"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/schedule_channelnum_textSize" />
+
+    <TextView
+        android:id="@+id/schedule_channelname"
+        android:layout_width="@dimen/schedule_channelname_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/schedule_channelname_layout_marginLeft"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/schedule_channelname_textSize" />
+
+    <TextView
+        android:id="@+id/schedule_epgname"
+        android:layout_width="@dimen/schedule_epgname_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/schedule_epgname_layout_marginLeft"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/schedule_epgname_textSize" />
+
+    <ImageView
+        android:id="@+id/schedule_type"
+        android:layout_width="@dimen/schedule_type_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/schedule_type_layout_marginLeft"
+        android:layout_marginRight="@dimen/schedule_layout_marginRight" />
+
+</LinearLayout>

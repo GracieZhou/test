@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/more_keys_layout"
+    android:layout_width="217dp"
+    android:layout_height="132dp"
+    android:background="@drawable/morekeys_ar_11"
+    android:orientation="vertical"
+    android:padding="1dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       >
+
+        <Button
+            style="@style/morekeys_a"
+            android:text="@string/ڥ" />
+
+        <Button
+            style="@style/morekeys_a"
+            android:layout_marginLeft="9dp"
+            android:focusable="true"
+            android:text="@string/ف" />
+
+          <Button
+            style="@style/morekeys_a"
+            android:layout_marginLeft="8dp"
+            android:focusable="true"
+            android:text="@string/ڤ" />
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp" 
+       >
+
+        <Button
+            style="@style/morekeys_a"
+            android:background="@android:color/transparent"
+            android:focusable="false"
+            android:enabled="false"
+           />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="8dp"
+            android:text="@string/ڢ"/>
+
+       <Button
+            style="@style/morekeys_a"
+            android:layout_marginLeft="8dp"
+            android:background="@android:color/transparent"
+            android:focusable="false"
+            android:enabled="false"
+           />
+    </LinearLayout>
+
+</LinearLayout>

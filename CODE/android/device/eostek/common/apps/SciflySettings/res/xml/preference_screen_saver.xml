@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.android.settings" >
+
+    <com.android.settings.SettingPreference
+        android:key="screen_saver_start_time"
+        android:summary="screen_saver_start_time"
+        android:title="@string/screen_saver_start"
+        app:valueArray="@array/screen_saver_start_time_arrays"
+        app:type="two_column_with_selector" />
+
+
+</PreferenceScreen>

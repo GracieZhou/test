@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Scifly.SeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:layout_width">1000dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxHeight">7dip</item>
+        <item name="android:minHeight">7dip</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:progressDrawable">@drawable/scifly_seekbar_progressdrawable</item>
+        <item name="android:thumb">@drawable/seekbar_thumb</item>
+        <item name="android:thumbOffset">10dip</item>
+    </style>
+
+</resources>

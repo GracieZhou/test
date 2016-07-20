@@ -1,0 +1,191 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_padding">13dp</dimen>
+    <dimen name="activity_vertical_padding">13dp</dimen>
+    <dimen name="text_size_big">40sp</dimen>
+    <dimen name="text_size_small">16sp</dimen>
+
+    <integer name="videoWindowType_x">15</integer>
+    <integer name="videoWindowType_y">15</integer>
+    <integer name="videoWindowType_width">1420</integer>
+    <integer name="videoWindowType_height">800</integer>
+
+    <!-- anim -->
+    <integer name="anim_leftin_valueFrom">-1920</integer>
+    <integer name="anim_leftout_valueTo">-1920</integer>
+    <integer name="anim_rightin_valueFrom">1920</integer>
+    <integer name="anim_rightin_valueTo">1920</integer>
+    
+    <!-- focus view focusViewGap  -->
+    <integer name="focus_view_gap">15</integer>
+    
+    <!-- webview Initial Scale -->
+    <integer name="webview_init_scale">100</integer>
+
+    <!-- activity_main -->
+    <dimen name="video_width">947dp</dimen>
+    <dimen name="video_hight">533dp</dimen>
+    <dimen name="help_tip_padding">7dp</dimen>
+    <dimen name="buttion_tv_width">947dp</dimen>
+    <dimen name="buttion_tv_height">533dp</dimen>
+    <dimen name="scrollTextView_margin_left">160dp</dimen>
+    <dimen name="scrollTextView_margin_right">133dp</dimen>
+    <dimen name="scrollTextView_margin_top">576dp</dimen>
+    <dimen name="time_txt_margin_right">7dp</dimen>
+    <dimen name="time_txt_margin_top">7dp</dimen>
+    <dimen name="date_txt_margin_right">7dp</dimen>
+    <dimen name="date_txt_margin_top">0dp</dimen>
+    <dimen name="degree_text_szie">20sp</dimen>
+    <dimen name="weather_img_width">60dp</dimen>
+    <dimen name="weather_img_height">60dp</dimen>
+    <dimen name="weather_margin_right">17dp</dimen>
+    <dimen name="weather_margin_top">15dp</dimen>
+    <dimen name="weather_ll_margin_right">15dp</dimen>
+    <dimen name="weather_ll_margin_top">20dp</dimen>
+    <dimen name="status_bar_margin_bottom">3dp</dimen>
+    <dimen name="status_bar_margin_top">2dp</dimen>
+    <dimen name="status_bar_ll_height">31dp</dimen>
+    <dimen name="status_bar_iv_width">31dp</dimen>
+    <dimen name="status_bar_iv_padding_left">15dp</dimen>
+
+    <!-- AD main -->
+    <dimen name="ad_webview_width">950dp</dimen>
+    <dimen name="ad_webview_height">600dp</dimen>
+    <dimen name="ad_webview_padding_top">128dp</dimen>
+    <dimen name="ad_webview_margin_left">164dp</dimen>
+    <dimen name="ad_prg_margin_top">50dp</dimen>
+
+    <!-- video_progress -->
+    <dimen name="video_prg_prg_margin_top">330dp</dimen>
+    <dimen name="video_prg_padding_op">5dp</dimen>
+    <dimen name="video_prg_text_size">14sp</dimen>
+
+    <!-- app_main -->
+    <dimen name="app_ad_filpper_width">800dp</dimen>
+    <dimen name="app_ad_filpper_height">533dp</dimen>
+    <dimen name="app_margin_left">13dp</dimen>
+    <dimen name="app_margin_top">13dp</dimen>
+    <dimen name="app_linearlayout_width">440dp</dimen>
+    <dimen name="app_linearlayout_height">547dp</dimen>
+    <dimen name="app_imageview_myapp_height">320dp</dimen>
+    <dimen name="app_imageview_setting_height">200dp</dimen>
+    <dimen name="app_store_allapp_width">769dp</dimen>
+    <dimen name="app_store_allapp_height">331dp</dimen>
+    <dimen name="app_store_gv_height">200dp</dimen>
+
+    <!-- media_main -->
+    <dimen name="media_imagebutton_width">400dp</dimen>
+    <dimen name="media_imagebutton_height">533dp</dimen>
+    <dimen name="media_video_margin_left">20dp</dimen>
+    <dimen name="media_margin_top">13dp</dimen>
+    <dimen name="media_margin_right">20dp</dimen>
+
+    
+    <!-- media_main -->
+    <dimen name="mediah_video_margin_left">10dp</dimen>
+    <dimen name="mediah_margin_top">120dp</dimen>
+    <dimen name="mediah_margin_top_8">80dp</dimen>
+    <dimen name="mediah_margin_top_4">40dp</dimen>
+    <dimen name="mediah_margin_top_2">20dp</dimen>
+    <dimen name="mediah_margin_right">10dp</dimen>
+    <dimen name="mediah_video_margin_start">5dp</dimen>
+    <dimen name="mediah_video_margin_end">10dp</dimen>
+    
+    
+    <!-- ad_item -->
+    <dimen name="ad_item_linearlayout_height">533dp</dimen>
+    <dimen name="ad_item_button_width">293dp</dimen>
+    <dimen name="ad_item_button_height">260dp</dimen>
+    <dimen name="ad_item_margin_top">13dp</dimen>
+
+    <!-- allapplication -->
+    <dimen name="allapp_relativeLayout_width">453dp</dimen>
+    <dimen name="allapp_tv_margin_top">53dp</dimen>
+    <dimen name="allapp_tv_margin_left">40dp</dimen>
+    <dimen name="allapp_tv_textsize">40sp</dimen>
+    <dimen name="allapp_ad_img_width">215dp</dimen>
+    <dimen name="allapp_ad_img_heigth">477dp</dimen>
+    <dimen name="allapp_ad_img_margin_left">39dp</dimen>
+    <dimen name="allapp_ad_img_margin_top">13dp</dimen>
+    <dimen name="allapp_back_btn_heigth">67dp</dimen>
+    <dimen name="allapp_back_btn_margin_bottom">53dp</dimen>
+    <dimen name="allapp_back_btn_margin_left">40dp</dimen>
+    <dimen name="allapp_back_btn_padding_bottom">7dp</dimen>
+    <dimen name="allapp_back_btn_padding_top">7dp</dimen>
+    <dimen name="allapp_back_btn_padding_right">20dp</dimen>
+    <dimen name="allapp_back_btn_padding_left">20dp</dimen>
+    <dimen name="allapp_back_btn_textsize">20sp</dimen>
+    <dimen name="allapp_back_btnlist_selector_width">169dp</dimen>
+    <dimen name="allapp_back_btnlist_selector_height">156dp</dimen>
+    <dimen name="allapp_appgridview_widht">800dp</dimen>
+    <dimen name="allapp_appgridview_margin_rifht">27dp</dimen>
+    <dimen name="allapp_appgridview_margin_top">13dp</dimen>
+    <dimen name="allapp_appgridview_horizontalSpacing">13dp</dimen>
+    <dimen name="allapp_appgridview_verticalSpacing">13dp</dimen>
+
+    <!-- app_ad_item -->
+    <dimen name="app_ad_item_img_width">783dp</dimen>
+    <dimen name="app_ad_item_img_heigth">345dp</dimen>
+    <dimen name="app_ad_item_img_padding">7dp</dimen>
+
+    <!-- appicon_item -->
+    <dimen name="appicon_item_linearlayout_width">130dp</dimen>
+    <dimen name="appicon_item_linearlayout_height">130dp</dimen>
+    <dimen name="appicon_item_padding_bottom">7dp</dimen>
+    <dimen name="appicon_item_padding_top">7dp</dimen>
+    <dimen name="appicon_item_linearlayout_1_width">130dp</dimen>
+    <dimen name="appicon_item_linearlayout_1_height">104dp</dimen>
+    <dimen name="appicon_item_appicon_width">78dp</dimen>
+    <dimen name="appicon_item_appicon_height">78dp</dimen>
+    <dimen name="appicon_item_apptitle_width">130dp</dimen>
+    <dimen name="appicon_item_apptitle_textSize">16sp</dimen>
+
+    <!-- my_app_item -->
+    <dimen name="my_app_item_appicon_width">91dp</dimen>
+    <dimen name="my_app_item_appicon_height">91dp</dimen>
+
+    <!-- help_item -->
+    <dimen name="help_item_textview_height">39dp</dimen>
+    <dimen name="help_item_textview_textSize">20sp</dimen>
+
+    <!-- helper_main -->
+    <dimen name="helper_main_rl_width">520dp</dimen>
+    <dimen name="helper_main_rl_height">520dp</dimen>
+    <dimen name="helper_main_list_rl_width">208dp</dimen>
+    <dimen name="helper_main_list_selector_width">78dp</dimen>
+    <dimen name="helper_main_list_selector_height">78dp</dimen>
+    <dimen name="helper_main_list_padding_bottom">13dp</dimen>
+    <dimen name="helper_main_list_padding_left">33dp</dimen>
+    <dimen name="helper_main_list_padding_right">33dp</dimen>
+    <dimen name="helper_main_list_padding_top">13dp</dimen>
+    <dimen name="helper_main_tip_detail_width">312dp</dimen>
+    <dimen name="helper_main_tip_detail_padding_left">52dp</dimen>
+
+    <!-- home_main -->
+    <dimen name="main_help_tip_width">193dp</dimen>
+    <dimen name="main_help_tip_height">132dp</dimen>
+    <dimen name="main_padding_left">13dp</dimen>
+    <dimen name="main_padding_right">13dp</dimen>
+    <dimen name="main_flipper_width">293dp</dimen>
+    <dimen name="main_flipper_height">547dp</dimen>
+    <dimen name="main_flipper_padding_bottom">13dp</dimen>
+    <dimen name="main_loading_margin_left">53dp</dimen>
+    <dimen name="main_loading_margin_top">240dp</dimen>
+    <dimen name="main_source_padding">5dp</dimen>
+    <dimen name="main_source_txt_width">80dp</dimen>
+
+    <!-- shop_main -->
+    <dimen name="shop_main_fl_height">533dp</dimen>
+    <dimen name="shop_main_fl_margin_left">13dp</dimen>
+    <dimen name="shop_main_fl_margin_right">13dp</dimen>
+    <dimen name="shop_main_fl_margin_top">13dp</dimen>
+
+    <!-- channel info view  animation x,y -->
+    <integer name="channel_info_view_to_x">1050</integer>
+    <integer name="channel_info_view_to_y">40</integer>
+    <integer name="channel_info_view_from_x">1050</integer>
+    <integer name="channel_info_view_from_y">-100</integer>
+    <integer name="channel_info_view_dismiss_y">-150</integer>
+    
+</resources>

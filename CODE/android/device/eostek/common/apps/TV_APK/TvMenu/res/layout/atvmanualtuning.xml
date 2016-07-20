@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout_content"
+    android:layout_width="@dimen/linearlayout_content_width"
+    android:layout_height="@dimen/linearlayout_content_height"
+    android:layout_marginTop="@dimen/linearlayout_content_margin_top"
+    android:background="@drawable/setting_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/atvmanualtuning_padding" >
+
+    <TextView
+        android:id="@+id/atv_manualtuning"
+        android:layout_width="@dimen/str_cha_av_tv_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/atvmanualtuning_margin_left"
+        android:gravity="center"
+        android:text="@string/str_cha_atvmanualtuning"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/str_cha_av_tv_textsize" />
+    <!-- For Channel Num -->
+
+    <LinearLayout
+        android:id="@+id/line"
+        android:layout_width="@dimen/linearlayout_one_width"
+        android:layout_height="@dimen/linearlayout_one_height"
+        android:layout_below="@id/atv_manualtuning"
+        android:layout_marginBottom="@dimen/linearlayout_one_margin_bottom"
+        android:layout_marginRight="@dimen/linearlayout_one_margin_right"
+        android:layout_marginTop="@dimen/linearlayout_one_margin_top"
+        android:orientation="horizontal"
+        android:background="@drawable/line" >
+    </LinearLayout>
+
+    <com.eostek.tvmenu.ui.FocusView
+        android:id="@+id/focus_selector"
+        android:layout_width="@dimen/atv_auto_tuning_focus_selector_width"
+        android:layout_height="@dimen/atv_auto_tuning_focus_selector_height"
+        android:layout_below="@id/line"
+        android:layout_marginTop="@dimen/atv_auto_tuning_focus_selector_margin_top"
+        android:background="@drawable/setbar_focus" />
+
+    <LinearLayout
+        android:id="@+id/atv_manualtuning_channelnum"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/atvmanualtuning_height"
+        android:layout_below="@id/line"
+        android:layout_marginTop="@dimen/atvmanualtuning_channelnum_margin_top"
+        android:focusable="true" >
+
+        <TextView
+            android:layout_width="@dimen/str_cha_manual_ch_tv_width"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/str_cha_manual_ch_margin_left"
+            android:gravity="center"
+            android:text="@string/str_cha_manualtuning_ch"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/atvmanualtuning_tv_textsize" />
+
+        <EditText
+            android:id="@+id/atv_manualtuning_channelnum_val"
+            android:layout_width="@dimen/atvmanualtuning_width"
+            android:layout_height="@dimen/atv_manualtuning_channelnum_val_height"
+            android:layout_marginLeft="@dimen/atv_manualtuning_channelnum_val_margin_left"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/atvmanualtuning_tv_textsize" />
+    </LinearLayout>
+    <!-- For Color System -->
+
+    <LinearLayout
+        android:id="@+id/atv_manualtuning_colorsystem"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/atvmanualtuning_height"
+        android:layout_below="@id/atv_manualtuning_channelnum"
+        android:focusable="true" >
+
+        <TextView
+            android:layout_width="@dimen/atvmanualtuning_width"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/atvmanualtuning_margin_left"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_cha_atvmanualtuning_colorsystem"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/atvmanualtuning_tv_textsize" />
+
+        <TextView
+            android:id="@+id/atv_manualtuning_colorsystem_val"
+            android:layout_width="@dimen/atvmanualtuning_width"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/str_cha_atvmanualtuning_colorsystem_Auto"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/atvmanualtuning_tv_textsize" />
+    </LinearLayout>
+
+    <!-- For Sound System -->
+
+    <LinearLayout
+        android:id="@+id/atv_manualtuning_soundsystem"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/atvmanualtuning_height"
+        android:layout_below="@id/atv_manualtuning_colorsystem"
+        android:focusable="true" >
+
+        <TextView
+            android:layout_width="@dimen/atvmanualtuning_width"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/atvmanualtuning_margin_left"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_cha_atvmanualtuning_soundsystem"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/atvmanualtuning_tv_textsize" />
+
+        <TextView
+            android:id="@+id/atv_manualtuning_soundsystem_val"
+            android:layout_width="@dimen/atvmanualtuning_width"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/atvmanualtuning_tv_textsize" />
+    </LinearLayout>
+
+    <!-- For Frequency -->
+
+    <LinearLayout
+        android:id="@+id/atv_manualtuning_fre"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/atvmanualtuning_height"
+        android:layout_below="@id/atv_manualtuning_soundsystem"
+        android:focusable="true" >
+
+        <TextView
+            android:layout_width="@dimen/atvmanualtuning_width"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/atvmanualtuning_margin_left"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_cha_atvmanualtuning_frequency"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/atvmanualtuning_tv_textsize" />
+
+        <TextView
+            android:id="@+id/atv_manualtuning_frequency_val"
+            android:layout_width="@dimen/atv_manualtuning_frequency_val_tv_width"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/atv_manualtuning_frequency_val_tv_margin_left"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/atvmanualtuning_tv_textsize" />
+
+        <TextView
+            android:layout_width="@dimen/str_cha_atvmanualtuning_frequency_mhz_tv_width"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/str_cha_atvmanualtuning_frequency_mhz"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/atvmanualtuning_tv_textsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/atv_manualtuning_start"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/atvmanualtuning_height"
+        android:layout_below="@id/atv_manualtuning_fre"
+        android:focusable="true" >
+
+        <TextView
+            android:id="@+id/atvmanualtuning_start"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/str_cha_dtvmanualtuning_starttuning"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/atvmanualtuning_tv_textsize" />
+    </LinearLayout>
+
+</RelativeLayout>

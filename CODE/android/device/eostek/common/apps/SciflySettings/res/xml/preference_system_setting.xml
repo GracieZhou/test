@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.android.settings" >
+
+    <com.android.settings.SettingPreference
+        android:key="language"
+        android:summary="English"
+        android:title="@string/language_settings"
+        app:type="two_column" />
+    <com.android.settings.SettingPreference
+        android:key="inputMethod"
+        android:summary="scifly ime"
+        android:title="@string/inputmethod_settings"
+        app:type="two_column" />
+    <com.android.settings.SettingPreference
+        android:key="deviceInfo"
+        android:summary="new device"
+        android:title="@string/device_name"
+        app:type="two_column" />
+    <com.android.settings.SettingPreference
+        android:key="appInstall"
+        android:summary="sd card"
+        android:title="@string/install_location"
+        app:type="two_column" />
+    <com.android.settings.SettingPreference
+        android:key="appWhiteList"
+        android:title="@string/app_white_list"
+        app:type="single_column_with_button" />
+
+</PreferenceScreen>

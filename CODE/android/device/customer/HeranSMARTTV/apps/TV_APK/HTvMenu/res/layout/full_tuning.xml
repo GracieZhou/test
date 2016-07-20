@@ -1,0 +1,364 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/full_tuning_ll_width"
+    android:layout_height="@dimen/full_tuning_ll_height"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    android:background="@drawable/setting_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!-- full tuning title -->
+
+    <TextView
+        android:id="@+id/tuning_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/full_tuning_title_tv_margin_top"
+        android:gravity="center"
+        android:text="@string/autotuning"
+        android:textSize="@dimen/full_tuning_title_tv_margin_textsize" />
+
+    <!-- data  show -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/full_tuning_line_ll_margin_left"
+        android:layout_marginRight="@dimen/full_tuning_line_ll_margin_right"
+        android:layout_marginTop="@dimen/full_tuning_line_ll_margin_top"
+        android:background="@drawable/line" >
+    </LinearLayout>
+    <!-- left -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/full_tuning_tc_margin_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/eos_autotuing_title_width"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="@dimen/title_txt_padding_right"
+            android:text="@string/count"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/custom_title_value_textsize" />
+
+        <TextView
+            android:id="@+id/totalcount_txt"
+            android:layout_width="@dimen/eos_autotuing_progress_context_width"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setbar_bg"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="-4dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/custom_progressbar_value_textsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="@dimen/full_tuning_tv_ll_width"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- TV -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/full_tuning_ll_margin_top" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/tv"
+                    android:textSize="@dimen/full_tuning_ll_tv_textsize" />
+
+                <TextView
+                    android:id="@+id/tv_count_txt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/full_tuning_ll_tv_textsize" />
+            </LinearLayout>
+
+            <!-- bc -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/full_tuning_ll_margin_top" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/broadcast"
+                    android:textSize="@dimen/full_tuning_ll_tv_textsize" />
+
+                <TextView
+                    android:id="@+id/bc_count_txt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/full_tuning_ll_tv_textsize" />
+            </LinearLayout>
+
+            <!-- dbc -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/full_tuning_ll_margin_top" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/data"
+                    android:textSize="@dimen/full_tuning_ll_tv_textsize" />
+
+                <TextView
+                    android:id="@+id/dbc_count_txt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/full_tuning_ll_tv_textsize" />
+            </LinearLayout>
+
+            <!-- total -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/full_tuning_ll_margin_top" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/count"
+                    android:textSize="@dimen/full_tuning_ll_tv_textsize" />
+
+                <TextView
+                    android:id="@+id/total_count_txt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/full_tuning_ll_tv_textsize" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/full_tuning_iv_width"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="@dimen/full_tuning_iv_margin_bottom"
+            android:layout_marginTop="@dimen/full_tuning_ll_margin_top"
+            android:background="@color/enable_text_color" />
+
+        <!-- right -->
+
+
+        <!-- search Frequency -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/full_tuning_sf_ll_margin_left"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/full_tuning_ll_margin_top" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/rfnum"
+                    android:textSize="@dimen/full_tuning_ll_tv_textsize" />
+
+                <TextView
+                    android:id="@+id/rf_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/full_tuning_rf_txt_margin_left"
+                    android:textSize="@dimen/full_tuning_ll_tv_textsize" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/tuning_program_lv"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/full_tuning_lv_height"
+                android:layout_marginRight="@dimen/full_tuning_lv_margin_right"
+                android:layout_marginTop="@dimen/full_tuning_lv_margin_top"
+                android:divider="@null"
+                android:focusable="false"
+                android:transcriptMode="alwaysScroll" >
+            </ListView>
+        </LinearLayout>
+    </LinearLayout> <!-- signalStrength -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/full_tuning_rl_margin_top" >
+
+        <TextView
+            android:id="@+id/strength_title"
+            android:layout_width="@dimen/eos_autotuing_title_width"
+            android:layout_height="@dimen/title_txt_height"
+            android:gravity="center|right"
+            android:paddingRight="@dimen/title_txt_padding_right"
+            android:text="@string/strength"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/custom_title_value_textsize" />
+
+        <FrameLayout
+            android:layout_width="@dimen/eos_autotuing_progress_context_width"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/progress_context_margin_right"
+            android:layout_marginTop="@dimen/progress_context_margin_top"
+            android:layout_toRightOf="@id/strength_title"
+            android:background="@drawable/setbar_bg" >
+
+            <ProgressBar
+                android:id="@+id/full_signalStrengthbar"
+                style="@style/myProgressBarStyle"
+                android:layout_width="@dimen/custom_progressbar_progress_width"
+                android:layout_height="@dimen/custom_progressbar_progress_height"
+                android:layout_marginRight="@dimen/custom_progressbar_progress_margin_right"
+                android:progress="100"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/signalStrength_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="-4dp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/custom_progressbar_value_textsize" />
+        </FrameLayout>
+    </RelativeLayout> <!-- signalQuality -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/full_tuning_ll_margin_top" >
+
+        <TextView
+            android:id="@+id/quality_title"
+            android:layout_width="@dimen/eos_autotuing_title_width"
+            android:layout_height="@dimen/title_txt_height"
+            android:gravity="center|right"
+            android:paddingRight="@dimen/title_txt_padding_right"
+            android:text="@string/quality"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/custom_title_value_textsize" />
+
+        <FrameLayout
+            android:layout_width="@dimen/eos_autotuing_progress_context_width"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/progress_context_margin_right"
+            android:layout_marginTop="@dimen/progress_context_margin_top"
+            android:layout_toRightOf="@id/quality_title"
+            android:background="@drawable/setbar_bg" >
+
+            <ProgressBar
+                android:id="@+id/full_signalQualitybar"
+                style="@style/myProgressBarStyle"
+                android:layout_width="@dimen/custom_progressbar_progress_width"
+                android:layout_height="@dimen/custom_progressbar_progress_height"
+                android:layout_marginRight="@dimen/custom_progressbar_progress_margin_right"
+                android:progress="100"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/signalQuality_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="-4dp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/custom_progressbar_value_textsize" />
+        </FrameLayout>
+    </RelativeLayout> <!-- searchProgress -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/full_tuning_ll_margin_top" >
+
+        <TextView
+            android:id="@+id/percent_title"
+            android:layout_width="@dimen/eos_autotuing_title_width"
+            android:layout_height="@dimen/title_txt_height"
+            android:gravity="center|right"
+            android:paddingRight="@dimen/title_txt_padding_right"
+            android:text="@string/percent"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/custom_title_value_textsize" />
+
+        <FrameLayout
+            android:layout_width="@dimen/eos_autotuing_progress_context_width"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/progress_context_margin_right"
+            android:layout_marginTop="@dimen/progress_context_margin_top"
+            android:layout_toRightOf="@id/percent_title"
+            android:background="@drawable/setbar_bg" >
+
+            <ProgressBar
+                android:id="@+id/full_searchBar"
+                style="@style/myProgressBarStyle"
+                android:layout_width="@dimen/custom_progressbar_progress_width"
+                android:layout_height="@dimen/custom_progressbar_progress_height"
+                android:layout_marginRight="@dimen/custom_progressbar_progress_margin_right"
+                android:progress="100"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tuning_process_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="-4dp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/custom_progressbar_value_textsize" />
+        </FrameLayout>
+    </RelativeLayout> <!-- cancelTuning -->
+
+    <Button
+        android:id="@+id/full_cancel_tuning_btn"
+        android:layout_width="@dimen/full_cancel_tuning_btn_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/full_cancel_tuning_btn_margin_top"
+        android:background="@drawable/setbar_focus"
+        android:text="@string/cancel"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/full_tuning_ll_tv_textsize" />
+
+</LinearLayout>

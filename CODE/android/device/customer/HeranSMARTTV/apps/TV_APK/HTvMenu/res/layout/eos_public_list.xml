@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/version_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/curr_ver_title"
+            android:layout_width="@dimen/title_txt_width"
+            android:layout_height="@dimen/title_txt_height"
+            android:focusable="false"
+            android:gravity="center|right"
+            android:layout_marginLeft="@dimen/curr_ver_title_tv_margin_left"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/custom_title_value_textsize"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/current_version"
+            android:layout_width="@dimen/progress_context_width"
+       		android:layout_height="@dimen/current_version_tv_height"
+            android:layout_marginLeft="@dimen/current_version_margin_left"
+        	android:layout_marginTop="@dimen/current_version_margin_top"
+           	android:gravity="center"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="@dimen/current_version_linespace"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/custom_title_value_textsize"
+            android:background="@drawable/setbar_bg2"
+            android:focusable="false"
+            android:visibility="gone" />
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/list_selector"
+        android:layout_width="@dimen/eos_public_list_iv_selector_width"
+        android:layout_height="@dimen/eos_public_list_iv_selector_height"
+        android:background="@drawable/setbar_focus"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/context_lst"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/version_layout"
+        android:layout_marginRight="@dimen/eos_public_list_context_lst_margin_right"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+
+</RelativeLayout>

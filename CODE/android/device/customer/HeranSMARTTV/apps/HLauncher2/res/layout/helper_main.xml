@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/helper_main_rl_width"
+    android:layout_height="@dimen/helper_main_rl_height"
+    android:layout_gravity="left" >
+
+    <RelativeLayout
+        android:id="@+id/list_rl"
+        android:layout_width="@dimen/helper_main_list_rl_width"
+        android:layout_height="fill_parent"
+        android:background="@drawable/help_tips_l" >
+
+        <ImageView
+            android:id="@+id/list_selector"
+            android:layout_width="@dimen/helper_main_list_selector_width"
+            android:layout_height="@dimen/helper_main_list_selector_height"
+            android:background="@drawable/setbar_focus"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@null"
+            android:listSelector="@drawable/home_focus"
+            android:paddingBottom="@dimen/helper_main_list_padding_bottom"
+            android:paddingLeft="@dimen/helper_main_list_padding_left"
+            android:paddingRight="@dimen/helper_main_list_padding_right"
+            android:paddingTop="@dimen/helper_main_list_padding_top" 
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/tip_detail"
+        android:layout_width="@dimen/helper_main_tip_detail_width"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@id/list_rl"
+        android:background="@drawable/help_tips_r"
+        android:paddingLeft="@dimen/helper_main_tip_detail_padding_left" />
+
+</RelativeLayout>

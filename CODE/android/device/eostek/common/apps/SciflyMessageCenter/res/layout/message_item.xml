@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp" >
+
+        <TextView
+            android:id="@+id/timeLable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/timeline_bg"
+            android:gravity="left|bottom"
+            android:lines="1"
+            android:text="@string/time_info"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:layout_marginBottom="10dp" >
+
+        <LinearLayout
+            android:id="@+id/message_main_content_border"
+            android:layout_width="@dimen/content_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/selected_white_border"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <LinearLayout
+                android:id="@+id/message_main_content"
+                android:layout_width="@dimen/content_layout_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/message_inner_focus"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/content_layout_height"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/message_content_type"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/type_default"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp" />
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal" >
+
+                        <ImageView
+                            android:id="@+id/message_img"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/bg_border_img"
+                            android:maxHeight="@dimen/IMAGE_THUMB_MAXHEIGHT"
+                            android:maxWidth="@dimen/IMAGE_THUMB_MAXWIDTH"
+                            android:padding="2dp"
+                            android:scaleType="fitStart" />
+
+                        <TextView
+                            android:id="@+id/pgm_index"
+                            android:layout_width="@dimen/EPG_THUMB_WIDTH"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:gravity="bottom|center"
+                            android:textSize="18dp"
+                            android:textColor="@android:color/white"
+                            android:background="@color/tanslucent_half_balck"
+                            android:visibility="gone"/>
+
+                        <ImageView
+                            android:id="@+id/message_play_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:scaleX="0.67"
+                            android:scaleY="0.67"
+                            android:src="@drawable/msg_icon_video"
+                            android:visibility="gone" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/content_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="1dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/description"
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/message_play_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/tanslucent_half_balck"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="invisible" >
+
+                    <ImageView
+                        android:id="@+id/message_play_layout_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@android:drawable/ic_media_play" />
+
+                    <TextView
+                        android:id="@+id/message_play"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/play_resource"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/delete_cover"
+            android:layout_width="@dimen/content_layout_width"
+            android:layout_height="321dp"
+            android:layout_centerInParent="true"
+            android:background="@color/tanslucent_half_balck_dark"
+            android:gravity="center"
+            android:visibility="invisible" >
+
+            <!-- android:visibility="invisible" -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/msg_del_icon" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

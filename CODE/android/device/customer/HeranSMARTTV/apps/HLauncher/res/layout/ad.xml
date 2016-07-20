@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/ad_view_bg" >
+
+        <EOSWebView
+            android:id="@+id/webview"
+            android:layout_width="@dimen/ad_webview_width"
+            android:layout_height="@dimen/ad_webview_height"
+            android:layout_marginLeft="@dimen/ad_webview_margin_left"
+            android:layout_marginTop="@dimen/ad_webview_padding_top"
+            android:background="@android:color/transparent"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/customViewContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="visible" />
+
+        <ProgressBar
+            android:id="@+id/prg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/ad_prg_margin_top"
+            android:visibility="visible" />
+    </FrameLayout>
+
+
+</FrameLayout>

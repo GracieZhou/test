@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Scifly"></style>
+
+    <style name="Scifly.Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/scifly_button_bg_normal</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Scifly.Button.Normal"></style>
+
+    <style name="Scifly.Button.Danger">
+        <item name="android:background">@drawable/scifly_button_bg_danger</item>
+    </style>
+
+    <style name="Scifly.Button.Flat">
+        <item name="android:background">@drawable/scifly_button_bg_flat</item>
+    </style>
+
+    <style name="Scifly.Button.Inactive">
+        <item name="android:background">@drawable/scifly_button_bg_inactive</item>
+    </style>
+
+</resources>

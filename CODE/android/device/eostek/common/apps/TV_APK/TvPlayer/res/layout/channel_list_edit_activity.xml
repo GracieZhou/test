@@ -1,0 +1,168 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/RelativeLayout01_layout_width"
+    android:layout_height="@dimen/RelativeLayout01_layout_height"
+    android:layout_gravity="center"
+    android:background="@drawable/setting_bg"
+    android:padding="@dimen/channel_edit_padding" >
+
+    <!-- Title -->
+
+    <TextView
+        android:id="@+id/title_channel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/channeledit"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/title_channel_textSize" />
+
+    <!-- channel edit -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title_channel"
+        android:layout_marginLeft="@dimen/RelativeLayout02_layout_marginLeft"
+        android:layout_marginRight="@dimen/RelativeLayout02_layout_marginRight"
+        android:layout_marginTop="@dimen/RelativeLayout02_layout_marginTop"
+        android:orientation="vertical" >
+
+        <!-- Channel Edit title -->
+
+        <LinearLayout
+            android:id="@+id/title_channelitem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_long"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/title_channelitem1_layout_marginLeft"
+                android:text="@string/channelNum"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/title_channelitem1_textSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/title_channelitem2_layout_marginLeft"
+                android:text="@string/channelName"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/title_channelitem2_textSize" />
+
+            <TextView
+                android:layout_width="@dimen/title_channelitem3_layout_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/title_channelitem3_layout_marginLeft"
+                android:gravity="center"
+                android:text="@string/channelLove"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/title_channelitem3_textSize" />
+
+            <TextView
+                android:layout_width="@dimen/title_channelitem4_layout_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/title_channelitem4_layout_marginLeft"
+                android:gravity="center"
+                android:text="@string/channelLock"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/title_channelitem4_textSize" />
+
+            <TextView
+                android:layout_width="@dimen/title_channelitem5_layout_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/title_channelitem5_layout_marginLeft"
+                android:gravity="center"
+                android:text="@string/channelMove"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/title_channelitem5_textSize" />
+
+            <TextView
+                android:layout_width="@dimen/title_channelitem6_layout_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/title_channelitem6_layout_marginLeft"
+                android:gravity="center"
+                android:text="@string/channelHide"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/title_channelitem6_textSize" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/channel_selector"
+            android:layout_width="@dimen/channel_selector_layout_width"
+            android:layout_height="@dimen/channel_selector_layout_height"
+            android:layout_below="@id/title_channelitem"
+            android:background="@drawable/btnbg"
+            android:contentDescription="@string/app_name"
+            android:visibility="gone" />
+        <!-- channel List -->
+
+        <ListView
+            android:id="@+id/channel_edit_list"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/channel_edit_list_layout_height"
+            android:layout_below="@id/title_channelitem"
+            android:layout_marginTop="@dimen/channel_edit_list_layout_marginTop"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" />
+    </RelativeLayout>
+
+    <!-- menu text -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:focusable="false"
+        android:gravity="right" >
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/LinearLayout01_layout_marginRight"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/pvr_tips_red"
+            android:focusable="false"
+            android:text="@string/channelLove_tip"
+            android:textColor="@android:color/white" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/LinearLayout02_layout_marginRight"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/pvr_tips_green"
+            android:focusable="false"
+            android:text="@string/channelLock_tip"
+            android:textColor="@android:color/white" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/LinearLayout03_layout_marginRight"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/pvr_tips_yellow"
+            android:focusable="false"
+            android:text="@string/channelMove_tip"
+            android:textColor="@android:color/white" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/LinearLayout02_layout_marginRight"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/pvr_tips_blue"
+            android:focusable="false"
+            android:text="@string/channelHide_tip"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

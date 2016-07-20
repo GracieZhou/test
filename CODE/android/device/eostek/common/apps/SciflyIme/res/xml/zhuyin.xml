@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="6.78%p"
+    android:horizontalGap="8dp"
+    android:verticalGap="8dp"
+    android:keyHeight="@dimen/key_height"
+    android:focusable="true"
+    >
+    
+    <Row>
+        <Key android:codes="12549" android:keyLabel="ㄅ" android:keyEdgeFlags="left"/>
+        <Key android:codes="12553" android:keyLabel="ㄉ"/>
+        <Key android:codes="711" android:keyLabel="ˇ"/>
+        <Key android:codes="715" android:keyLabel="ˋ"/>
+        <Key android:codes="12563" android:keyLabel="ㄓ"/>
+        <Key android:codes="714" android:keyLabel="ˊ"/>
+        <Key android:codes="729" android:keyLabel="˙"/>
+        <Key android:codes="12570" android:keyLabel="ㄚ"/>
+        <Key android:codes="12574" android:keyLabel="ㄞ"/>
+        <Key android:codes="12578" android:keyLabel="ㄢ"/>
+        <Key android:codes="55" android:keyLabel="7" android:horizontalGap="2.54%p"/>
+        <Key android:codes="56" android:keyLabel="8"/>
+        <Key android:codes="57" android:keyLabel="9" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="12550" android:keyLabel="ㄆ" android:keyEdgeFlags="left"/>
+        <Key android:codes="12554" android:keyLabel="ㄊ"/>
+        <Key android:codes="12557" android:keyLabel="ㄍ"/>
+        <Key android:codes="12560" android:keyLabel="ㄐ"/>
+        <Key android:codes="12564" android:keyLabel="ㄔ"/>
+        <Key android:codes="12567" android:keyLabel="ㄗ"/>
+        <Key android:codes="12583" android:keyLabel="ㄧ"/>
+        <Key android:codes="12571" android:keyLabel="ㄛ"/>
+        <Key android:codes="12575" android:keyLabel="ㄟ"/>
+        <Key android:codes="12579" android:keyLabel="ㄣ"/>
+        <Key android:codes="52" android:keyLabel="4" android:horizontalGap="2.54%p"/>
+        <Key android:codes="53" android:keyLabel="5"/>
+        <Key android:codes="54" android:keyLabel="6" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="12551" android:keyLabel="ㄇ" android:keyEdgeFlags="left"/>
+        <Key android:codes="12555" android:keyLabel="ㄋ"/>
+        <Key android:codes="12558" android:keyLabel="ㄎ"/>
+        <Key android:codes="12561" android:keyLabel="ㄑ"/>
+        <Key android:codes="12565" android:keyLabel="ㄕ"/>
+        <Key android:codes="12568" android:keyLabel="ㄘ"/>
+        <Key android:codes="12584" android:keyLabel="ㄨ"/>
+        <Key android:codes="12572" android:keyLabel="ㄜ"/>
+        <Key android:codes="12576" android:keyLabel="ㄠ"/>
+        <Key android:codes="12580" android:keyLabel="ㄤ"/>
+        <Key android:codes="49" android:keyLabel="1"/>
+        <Key android:codes="50" android:keyLabel="2"/>
+        <Key android:codes="51" android:keyLabel="3" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="12552" android:keyLabel="ㄈ" android:keyEdgeFlags="left"/>
+        <Key android:codes="12556" android:keyLabel="ㄌ"/>
+        <Key android:codes="12559" android:keyLabel="ㄏ"/>
+        <Key android:codes="12562" android:keyLabel="ㄒ"/>
+        <Key android:codes="12566" android:keyLabel="ㄖ"/>
+        <Key android:codes="12569" android:keyLabel="ㄙ"/>
+        <Key android:codes="12585" android:keyLabel="ㄩ"/>
+        <Key android:codes="12573" android:keyLabel="ㄝ"/>
+        <Key android:codes="12577" android:keyLabel="ㄡ"/>
+        <Key android:codes="12581" android:keyLabel="ㄥ" android:keyEdgeFlags="right"/>
+        <Key size="2" android:codes="48" android:keyLabel="0" android:keyWidth="14.41%p"/>
+        <Key android:codes="46" android:keyLabel="."  android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row row_id="4" 
+         android:rowEdgeFlags="bottom">
+        <Key size="2" android:keyIcon="@drawable/zhuyin_logo" android:codes="-9" isLogo="true"
+             android:isSticky="true" android:keyWidth="14.41%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="-7" android:keyIcon="@drawable/chinese_on"/>
+        <Key android:codes="-8"  android:keyIcon="@drawable/symbal" isSmallText="true"/>
+        <Key android:codes="12582" android:keyLabel="ㄦ"/>
+        <Key size="3" android:codes="32"   android:keyIcon="@drawable/sym_keyboard_space"  
+            android:isRepeatable="true" isSmallText="true"/>
+        <Key size="2" android:codes="10" android:keyLabel="确定" isSmallText="true" />
+        <Key size="3" android:codes="-5" android:keyIcon="@drawable/delete_icon" 
+             android:isRepeatable="true" android:horizontalGap="2.54%p" android:keyEdgeFlags="right" />
+    </Row>
+</Keyboard>

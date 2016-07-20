@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/auto_start_layout"
+    android:layout_width="141dp"
+    android:layout_height="157dp"
+    android:background="@drawable/bg_autostart_dark_list_selector"
+    android:padding="0dp" >
+
+    <ImageView
+        android:id="@+id/iv_switch1"
+        android:layout_width="141dp"
+        android:layout_height="157dp" />
+
+    <ImageView
+        android:id="@+id/iv_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:paddingRight="12dp" />
+
+    <ImageView
+        android:id="@+id/iv_app_icon"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/app_icon" />
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+</RelativeLayout>

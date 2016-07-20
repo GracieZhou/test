@@ -1,0 +1,7 @@
+-keep class scifly.middleware.network.mstar.kitkat.EthernetManagerImpl {
+*;
+}
+
+-keep class scifly.middleware.network.mstar.lollipop.EthernetManagerImpl {
+*;
+}

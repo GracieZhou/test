@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="TEXT_SIZE_DEFAULT">14dp</dimen>
+    <dimen name="TEXT_SIZE">14dp</dimen>
+
+</resources>

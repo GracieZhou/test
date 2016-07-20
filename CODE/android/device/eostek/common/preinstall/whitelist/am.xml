@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<apps>
+<app pkg="com.jrm.tm.cpe" />
+<app pkg="com.eos.notificationcenter"/>
+<app pkg="com.eostek.filefly"/>
+<app pkg="com.eostek.isynergy.setmeup"/>
+</apps>

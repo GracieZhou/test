@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="action_bar_switch_padding">16dip</dimen>
+    <dimen name="WIFI_PASSWORD_DIALOG_WIDTH">533dp</dimen>
+    <dimen name="WIFI_PASSWORD_DIALOG_HEIGHT">350dp</dimen>
+    <dimen name="WIFI_SELECTOR_HEIGHT">50dp</dimen>
+    <dimen name="device_memory_usage_button_width">16dip</dimen>
+    <dimen name="device_memory_usage_button_height">32dip</dimen>
+    <dimen name="message_title_margin_left">30dp</dimen>
+    <dimen name="dialog_title_text_size">25dp</dimen>
+    <dimen name="message_title_margin_bottom">10dp</dimen>
+    <dimen name="message_title_margin_top">30dp</dimen>
+    <dimen name="title_image_margin_left">20dp</dimen>
+    <dimen name="message_time_text_size">18dp</dimen>
+    <dimen name="cmd_dialog_layout_width">650dp</dimen>
+    <dimen name="cmd_dialog_layout_height">480dp</dimen>
+    <dimen name="master_clear_dialog_height">200dp</dimen>
+    <dimen name="master_clear_dialog_width">350dp</dimen>
+    <dimen name="list_item_height">60dp</dimen>
+    <dimen name="settings_item_height">56dp</dimen>
+
+    <!-- Udisk Upgrade Begin -->
+    <dimen name="between_image_text">30dp</dimen>
+    <!-- Udisk Upgrade End -->
+
+    <dimen name="selector_width">896dp</dimen>
+    <dimen name="network_item_padding">100dp</dimen>
+
+</resources>

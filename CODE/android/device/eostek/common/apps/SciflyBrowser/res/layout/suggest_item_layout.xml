@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/gridview_border_width"
+    android:layout_height="@dimen/gridview_border_heigth"
+    android:gravity="center" >
+   <ImageView 
+        android:id="@+id/suggest_item"
+        android:layout_width="@dimen/gridview_border_width"
+        android:layout_height="@dimen/gridview_border_heigth"
+        android:background="@drawable/suggest_item_style"
+        android:scaleType="fitXY"/>
+
+</LinearLayout>

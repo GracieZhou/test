@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Gallery">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
+    <declare-styleable name="TimeChooser">
+        <attr name="chooseType" />
+        <attr name="hourLimit" format="integer" />
+    </declare-styleable>
+
+    <attr name="chooseType">
+        <flag name="hour" value="0" />
+        <flag name="minute" value="1" />
+        <flag name="second" value="2" />
+    </attr>
+
+</resources>

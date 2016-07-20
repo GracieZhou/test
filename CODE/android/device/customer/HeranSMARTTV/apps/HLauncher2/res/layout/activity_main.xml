@@ -1,0 +1,240 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/home_content"
+            android:layout_width="1066dp"
+            android:layout_height="600dp"
+            android:orientation="vertical" >
+
+            <EOSWebView
+                android:id="@+id/ad_webview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/ad_prg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="213dp"
+            android:layout_height="597.5dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:orientation="vertical" >
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="49.3dp"
+                layout="@layout/home_btn_icon" />
+
+            <FrameLayout
+                android:layout_width="213.3dp"
+                android:layout_height="550.6dp" >
+
+                <ViewFlipper
+                    android:id="@+id/flipper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </ViewFlipper>
+
+                <ProgressBar
+                    android:id="@+id/loading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/main_loading_margin_left"
+                    android:layout_marginTop="@dimen/main_loading_margin_top"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_other"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:visibility="invisible" >
+    </FrameLayout>
+    <!-- 底部左侧标题 -->
+    
+    
+     <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp" >
+
+        <ImageView
+            android:layout_width="226dp"
+            android:layout_height="47dp"
+            android:layout_gravity="left"
+            android:scaleType="fitXY"
+            android:src="@drawable/index_bottom_itle_bg" />
+
+        <ImageView
+            android:id="@+id/title_name"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/index_bottom_nws_title" />
+    </FrameLayout>
+
+    <!-- 底部左侧时间 -->
+
+     <ImageView
+         android:id="@+id/left_view"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="50dp"
+         android:layout_marginLeft="240dp"
+         android:src="@drawable/left_s" />
+
+     <ImageView
+         android:id="@+id/right_view"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginBottom="50dp"
+         android:layout_marginRight="230dp"
+         android:src="@drawable/right_s" />
+
+    <TextView
+        android:id="@+id/tv_currentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="640dp"
+        android:gravity="center"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tv_aPm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="648dp"
+        android:layout_marginStart="150dp"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_dayOfWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_date"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/tv_date"
+        android:textSize="16sp" />
+    <!-- 底部资讯栏 -->
+
+    <FrameLayout
+        android:id="@+id/framelayout_fragment"
+        android:layout_width="851dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="600dp"
+        android:layout_toEndOf="@id/tv_aPm" >
+    </FrameLayout>
+    <!-- 底部更多按钮 -->
+
+    <ImageButton
+        android:id="@+id/fragmentBtn"
+        android:layout_width="133.3dp"
+        android:layout_height="38.6dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="630dp"
+        android:layout_toEndOf="@id/framelayout_fragment"
+        android:background="@drawable/index_bottom_nws_btw"
+        android:scaleType="fitXY" />
+
+    <!-- 预览图 -->
+
+    <LinearLayout
+        android:id="@+id/thumb_liner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="825dp"
+        android:background="@drawable/thumb_bar"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/thumb_dsc"
+            android:layout_width="wrap_content"
+            android:layout_height="49.3dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/lottery_qs"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:gravity="center_vertical"
+            android:text="@string/thumb_text1"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/thumb_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="215dp"
+        android:layout_marginStart="720dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/thumb_home"
+        android:visibility="invisible" >
+
+    </ImageView>
+
+    <com.heran.launcher2.util.FocusView
+        android:id="@+id/fragment_selector"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/focus_home"
+        android:visibility="gone" />
+       <FrameLayout
+        android:id="@+id/city_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+         >
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/more_keys_layout"
+    android:layout_width="140dp"
+    android:layout_height="65dp"
+    android:background="@drawable/morekeys_y"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="1dp"
+        android:paddingTop="2dp" >
+
+        <Button
+            style="@style/morekeys_a"
+            android:text="@string/چ"/>
+
+        <Button
+            style="@style/morekeys_a"
+            android:layout_marginLeft="6dp"
+            android:focusable="true"
+            android:text="@string/ج"/>
+    </LinearLayout>
+
+</LinearLayout>

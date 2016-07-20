@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DisableBaselineAlignment">
+        <ignore path="res/layout/delete_theme_dialog.xml" />
+    </issue>
+    <issue id="IconLocation" severity="ignore" />
+    <issue id="ProtectedPermissions">
+        <ignore path="AndroidManifest.xml" />
+    </issue>
+</lint>

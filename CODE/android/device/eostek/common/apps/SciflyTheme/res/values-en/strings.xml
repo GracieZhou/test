@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">SciflyTheme</string>
+    <string name="theme">Themes</string>
+    <string name="allTheme">All</string>
+    <string name="get_theme_failed">Failed to get themes.</string>
+    <string name="deleteInfo">Press   \&quot;menu\&quot;   to delete the downloaded theme。</string>
+    <string name="deleteCurrentTheme">Unable to delete applying theme!</string>
+    <string name="deleteOnlineTheme">Unable to delete online theme!</string>
+    <string name="deleteDefaultTheme">Unable to delete default theme!</string>
+    <string name="delete_yes">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_local_theme">Delete Local Theme</string>
+    <string name="theme_name">theme name</string>
+    <string name="downloading">downloading</string>
+    <string name="confirm">confirm</string>
+    <string name="warning">switch theme failure</string>
+    <string name="info">Sorry, download is error</string>
+    <string name="change_success">change theme successed</string>
+    <string name="no_downloadurl_tip">Failed to get download Url,try it later!</string>
+    <string name="downloading_tip">Task is underway ,try it later!</string>
+    <string name="netconnectfail">Network connection failure </string>
+    <string name="netconnectsuccess">Network connection is successful </string>
+    <string name="download_fail_tip">Theme download failed, file will be deleted! </string>
+    <string name="low_memory">Low Memory,Please try later!</string>
+    <string name="app_exception">App Exception,Please try later!</string>
+    <string name="no_server_url">Failed to get request URL!</string>
+
+</resources>

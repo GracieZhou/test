@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.android.settings.widget.TitleWidget
+        android:id="@+id/activity_device_info_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <com.android.settings.widget.TextTextWidget
+            android:id="@+id/widget_device_id"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/settings_item_height" />
+
+        <com.android.settings.widget.TextTextWidget
+            android:id="@+id/widget_device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/settings_item_height" />
+
+        <com.android.settings.widget.TextTextWidget
+            android:id="@+id/widget_device_model"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/settings_item_height"
+            android:visibility="gone" />
+
+        <com.android.settings.widget.TextTextWidget
+            android:id="@+id/widget_build_number"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/settings_item_height" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <com.android.settings.widget.TextTextWidget
+            android:id="@+id/widget_storage"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/settings_item_height"
+            android:background="@drawable/btn_bg_selector"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <com.android.settings.widget.TextTextWidget
+            android:id="@+id/widget_more"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/settings_item_height"
+            android:background="@drawable/btn_bg_selector"
+            android:clickable="true"
+            android:focusable="true" />
+    </LinearLayout>
+
+</LinearLayout>

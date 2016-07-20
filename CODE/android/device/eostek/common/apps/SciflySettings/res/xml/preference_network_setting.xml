@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.android.settings" >
+
+    <com.android.settings.SettingPreference
+        android:key="wired"
+        android:title="@string/ethernet_setting"
+        app:type="two_column" />
+    <com.android.settings.SettingPreference
+        android:key="wifi"
+        android:title="@string/wireless_setting"
+        app:type="two_column" />
+   <com.android.settings.SettingPreference
+        android:key="PPPoE"
+        android:title="@string/pppoe_settings_title"
+        app:type="two_column" /> 
+    <com.android.settings.SettingPreference
+        android:key="netdiag"
+        android:title="@string/network_diag"
+        app:type="two_column" />
+    <com.android.settings.SettingPreference
+        android:key="speed"
+        android:title="@string/download_speed"
+        app:type="two_column" />
+    <com.android.settings.SettingPreference
+        android:key="blue_tooth"
+        android:title="@string/blue_tooth"
+        app:type="two_column" />
+    <com.android.settings.SettingPreference
+        android:key="screen_display"
+        android:title="@string/screen_display"
+        app:type="two_column" />
+    <com.android.settings.SettingPreference
+        android:key="wlan"
+        android:title="@string/wlan"
+        app:type="two_column" />
+
+</PreferenceScreen>

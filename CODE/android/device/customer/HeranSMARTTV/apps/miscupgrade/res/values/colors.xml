@@ -1,0 +1,11 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="spinner_default_color">#00000000</color>
+    <color name="spinner_focus">#1abc9c</color>
+    
+        <color name="white">#FFFFFF</color>
+    <color name="dark">#000000</color>
+    <color name="red">#FF0000</color>
+
+</resources>

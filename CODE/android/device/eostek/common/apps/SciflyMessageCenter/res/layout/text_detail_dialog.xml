@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/cmd_dialog_layout_width"
+    android:layout_height="@dimen/cmd_dialog_layout_height"
+    android:layout_gravity="center"
+    android:background="#E3F2FD" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/message_title_margin_bottom"
+        android:layout_marginLeft="@dimen/message_title_margin_left"
+        android:layout_marginTop="@dimen/message_title_margin_top"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/title_image_margin_left"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_message_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_detail_title"
+                android:textColor="#212121"
+                android:textSize="@dimen/dialog_title_text_size" />
+
+            <TextView
+                android:id="@+id/text_detail_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/default_time"
+                android:textColor="#757575"
+                android:textSize="@dimen/message_time_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vertical_seperator"
+        android:layout_width="620dp"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:background="#1A424242" />
+
+    <ScrollView
+        android:id="@+id/text_detail_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/ll_two_button"
+        android:layout_below="@id/vertical_seperator"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:scrollbars="vertical" >
+
+        <TextView
+            android:id="@+id/text_detail_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/text_detail_content"
+            android:textColor="#333333"
+            android:textSize="24dp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_two_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/text_detail_close"
+                android:layout_width="fill_parent"
+                android:layout_height="57dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/delete_button_focus"
+                android:focusable="true"
+                android:text="@string/text_detail_close"
+                android:textColor="@android:color/white"
+                android:textSize="22dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

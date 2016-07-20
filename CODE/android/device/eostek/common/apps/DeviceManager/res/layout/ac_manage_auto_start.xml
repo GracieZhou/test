@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app1="http://schemas.android.com/apk/res/com.eostek.scifly.devicemanager"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <!-- title -->
+
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+
+
+    <!-- android:orientation="horizontal" > -->
+
+
+    <!-- <ImageView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center" -->
+    <!-- android:layout_marginRight="10dp" -->
+    <!-- android:background="@drawable/back_bg" /> -->
+
+    <TextView
+        android:id="@+id/tv_main_title"
+        style="@style/TextShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="71dp"
+        android:drawableLeft="@drawable/back_bg"
+        android:drawablePadding="10dp"
+        android:text="@string/autostart_manager"
+        android:textColor="#ffffffff"
+        android:textSize="32sp" />
+
+    <!-- </LinearLayout> -->
+
+
+    <!-- allow -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:paddingLeft="80dp">
+
+        <TextView
+            android:id="@+id/allowed_app_title"
+            style="@style/TextShadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/allowed_app_str"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal" >
+
+            <com.jess.ui.TwoWayGridView
+                android:id="@+id/allowed_app"
+                android:layout_width="1074dp"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                app:columnWidth="141dp"
+                app:horizontalSpacing="-8dp"
+                app:numColumns="auto_fit"
+                app:numRows="1"
+                app:rowHeight="157dp"
+                app:scrollDirectionLandscape="horizontal"
+                app:stretchMode="none" />
+
+            <ImageView
+                android:id="@+id/allow_right_more"
+                android:layout_width="24dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="20dp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- forbid -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:orientation="vertical"
+        android:paddingLeft="80dp" >
+
+        <TextView
+            android:id="@+id/forbidden_app_title"
+            style="@style/TextShadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forbidden_app_str"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal" >
+
+            <com.jess.ui.TwoWayGridView
+                android:id="@+id/forbidden_app"
+                android:layout_width="1074dp"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                app:columnWidth="141dp"
+                app:horizontalSpacing="-8dp"
+                app:numColumns="auto_fit"
+                app:numRows="1"
+                app:rowHeight="157dp"
+                app:scrollDirectionLandscape="horizontal"
+                app:stretchMode="none" />
+
+            <ImageView
+                android:id="@+id/forbidden_right_more"
+                android:layout_width="24dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="20dp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_rl"
+    android:layout_width="@dimen/eos_setting_dialog_rl_width"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/eos_setting_dialog_rl_margin_bottom" >
+
+    <TextView
+        android:id="@+id/last_txt"
+        android:layout_width="@dimen/eos_setting_dialog_last_text_width"
+        android:layout_height="@dimen/eos_setting_dialog_last_text_height"
+        android:layout_marginBottom="@dimen/eos_setting_dialog_last_text_margin_bottom"
+        android:background="@drawable/arrow_up"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/eos_setting_dialog_last_text_margin_left"
+        android:paddingTop="@dimen/eos_setting_dialog_last_text_padding_top"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/custom_title_value_textsize" />
+
+    <LinearLayout
+        android:id="@+id/context"
+        android:layout_width="@dimen/eos_setting_dialog_progress_context_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/last_txt" >
+
+        <LinearLayout
+            android:id="@+id/title_cur"
+            android:layout_width="@dimen/eos_setting_dialog_progress_context_width"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setbar_focus"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/title_cur_txt"
+                android:layout_width="@dimen/eos_setting_dialog_title_txt_width"
+                android:layout_height="@dimen/eos_setting_dialog_title_txt_height"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/custom_title_value_textsize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/progress_context"
+            android:layout_width="@dimen/eos_setting_dialog_progress_context_width"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setbar_focus" >
+
+            <TextView
+                android:id="@+id/title_txt"
+                android:layout_width="@dimen/eos_setting_dialog_title_txt_width"
+                android:layout_height="@dimen/eos_setting_dialog_title_txt_height"
+                android:gravity="center_vertical|right"
+                android:paddingRight="@dimen/eos_setting_dialog_title_txt_padding_right"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/custom_title_value_textsize" />
+
+            <FrameLayout
+                android:id="@+id/bar_fl"
+                android:layout_width="@dimen/eos_setting_dialog_bar_fl_width"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/eos_setting_dialog_bar_fl_margin_top"
+                android:background="@drawable/setbar_bg" >
+
+                <ProgressBar
+                    android:id="@+id/progress"
+                    style="@style/myProgressBarStyle"
+                    android:layout_width="@dimen/eos_setting_dialog_progress_width"
+                    android:layout_height="@dimen/eos_setting_dialog_progress_height"
+                    android:layout_marginRight="@dimen/eos_setting_dialog_progress_margin_right"
+                    android:progress="100"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:includeFontPadding="false"
+                    android:lineSpacingExtra="-4dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/custom_progressbar_value_textsize" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/next_txt"
+        android:layout_width="@dimen/eos_setting_dialog_next_txt_width"
+        android:layout_height="@dimen/eos_setting_dialog_next_txt_height"
+        android:layout_below="@+id/context"
+        android:layout_marginTop="@dimen/eos_setting_dialog_next_txt_margin_top"
+        android:background="@drawable/arrow_down"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/eos_setting_dialog_next_txt_margin_left"
+        android:paddingTop="@dimen/eos_setting_dialog_next_txt_padding_top"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/custom_title_value_textsize" />
+    
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e0000000" >
+
+    <TextView
+        android:id="@+id/shutdown_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textColor="#2ef101"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:text="@string/shutdown_message" />
+
+</RelativeLayout>

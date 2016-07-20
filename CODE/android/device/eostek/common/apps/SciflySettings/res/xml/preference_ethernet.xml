@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res/com.android.settings">
+
+      <com.android.settings.SettingPreference
+        android:key="ethernet_switch"
+        android:title="@string/ethernet_setting" 
+        app:type="single_column_with_button"/>
+    <com.android.settings.SettingPreference
+        android:key="auto_get_ip"
+        android:title="@string/wifi_link_property_ip_get" 
+         app:valueArray="@array/auto_ip"
+        app:type="two_column_with_selector"/>
+    <com.android.settings.SettingPreference
+        android:key="IP_address"
+        app:type="two_column"
+        android:title="@string/IP_address" />
+    <com.android.settings.SettingPreference
+        android:key="wifi_mask"
+        app:type="two_column"
+        android:title="@string/wifi_mask" />
+    <com.android.settings.SettingPreference
+        android:key="wifi_gateway"
+        app:type="two_column"
+        android:title="@string/wifi_gateway" />
+     <com.android.settings.SettingPreference
+        android:key="wifi_dns"
+        app:type="two_column"
+        android:title="@string/wifi_dns" />
+
+</PreferenceScreen>

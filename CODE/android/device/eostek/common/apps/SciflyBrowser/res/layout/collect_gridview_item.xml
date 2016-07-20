@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="@dimen/gridview_border_heigth"
+    android:background="@drawable/suggest_item_style">
+    <FrameLayout
+         android:layout_width="240dp"  
+        android:layout_height="@dimen/gridview_border_heigth"
+         >
+    
+    <ImageView  
+        android:id="@+id/collect_gv_item_img"  
+        android:layout_width="240dp"  
+        android:layout_height="@dimen/gridview_border_heigth"
+        android:visibility="visible"
+        android:scaleType="fitXY"/>
+     <TextView
+                android:id="@+id/collect_item_text"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="bottom"
+                android:background="@color/black_layer"
+                android:focusable="false"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:textColor="@color/text_color"
+                android:textSize="12sp" />  
+    
+     </FrameLayout>   
+    <ImageView  
+        android:id="@+id/collect_gv_cancel_img"  
+        android:layout_width="240dp"  
+        android:layout_height="@dimen/gridview_border_heigth"/>  
+
+</RelativeLayout>

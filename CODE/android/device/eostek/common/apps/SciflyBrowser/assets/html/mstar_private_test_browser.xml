@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+     <item stayTime="6000">
+        <introduction>百度首页</introduction>
+        <url>http://www.baidu.com/</url>
+     </item>
+     <item stayTime="15000">
+        <introduction>优酷首页</introduction>
+        <url>http://www.youku.com/</url>
+     </item>
+     <item stayTime="7000"  tabTarget="open">
+        <introduction>土豆网首页</introduction>
+        <url>http://www.tudou.com/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>爱奇异首页</introduction>
+        <url>http://www.iqiyi.com/</url>
+     </item>
+     <item stayTime="10000" tabTarget="open">
+        <introduction>56网首页</introduction>
+        <url>http://www.56.com/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>腾迅视频首页</introduction>
+        <url>http://v.qq.com/movie/</url>
+     </item>
+     <item stayTime="10000"  tabTarget="close">
+        <introduction>百度图片</introduction>
+        <url>http://image.baidu.com/channel?ref=search&amp;col=%E7%BE%8E%E5%A5%B3&amp;c=%E7%BE%8E%E5%A5%B3#%E7%BE%8E%E5%A5%B3</url>
+     </item>
+     <item stayTime="10000"  tabTarget="close">
+        <introduction>百度图片</introduction>
+        <url>http://image.baidu.com/detail/index?from=1&amp;pn=1&amp;picture_id=9505540026&amp;album_id=400061031&amp;app_id=578130&amp;user_id=989118869&amp;column=%E5%A3%81%E7%BA%B8&amp;is_album=0&amp;sortlog=0&amp;tag=%E5%85%A8%E9%83%A8&amp;tag3=&amp;width=1280&amp;height=800&amp;ic=0#pn1&amp;0&amp;id9505540026</url>
+     </item>
+     <item stayTime="10000"  tabTarget="open">
+        <introduction>百度图片</introduction>
+        <url>http://image.baidu.com/detail/index?from=1&amp;pn=0&amp;picture_id=9415790805&amp;album_id=332894367&amp;app_id=578130&amp;user_id=850080044&amp;column=%E5%A3%81%E7%BA%B8&amp;is_album=0&amp;sortlog=0&amp;tag=%E5%85%A8%E9%83%A8&amp;tag3=&amp;width=1280&amp;height=800&amp;ic=0</url>
+     </item>
+     <item stayTime="10000"  tabTarget="close">
+        <introduction>百度图片</introduction>
+        <url>http://photos.caijing.com.cn/2013-11-08/113540144_3.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>百度图片</introduction>
+        <url>http://photos.caijing.com.cn/2013-11-08/113540038.html</url>
+     </item>
+     <item stayTime="10000"  tabTarget="open">
+        <introduction>百度图片</introduction>
+        <url>http://image.baidu.com/detail/index?from=1&amp;pn=10&amp;picture_id=9570624697&amp;album_id=400050987&amp;app_id=578130&amp;user_id=862800178&amp;column=%E5%A3%81%E7%BA%B8&amp;is_album=0&amp;sortlog=0&amp;tag=%E5%85%A8%E9%83%A8&amp;tag3=&amp;width=1280&amp;height=800&amp;ic=0#pn10&amp;-1&amp;id9570624697</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>百度图片</introduction>
+        <url>http://blog.sina.com.cn/s/blog_474928c90100x7cd.html</url>
+     </item>
+     <item stayTime="10000"  tabTarget="open">
+        <introduction>凤皇网</introduction>
+        <url>http://www.ifeng.com/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://news.ifeng.com/photo/#tag</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/</url>
+     </item>
+     <item stayTime="10000"  tabTarget="open">
+        <introduction>北京一店主加毒色素炒花生米 目前售出900余斤</introduction>
+        <url>http://health.sina.com.cn/news/2014-01-23/0939122487.shtml</url>
+     </item>
+
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/image/all/6134073?act=type</url>
+     </item>
+     <item stayTime="10000"  tabTarget="open">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/image/gaoxiao_egao/6505388?act=type</url>
+     </item>
+     <item stayTime="10000"  tabTarget="open">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/image/all/6505405?act=type</url>
+     </item>
+     <item stayTime="10000"  tabTarget="open">
+        <introduction>美女图片</introduction>
+        <url>http://www.yeahwen.com/pics/4/1?fr=hdjIndex</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/image/all/6505374?act=type</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://image.baidu.com/i?ct=503316480&amp;z=&amp;tn=baiduimagedetail&amp;ipn=d&amp;word=javascript&amp;step_word=&amp;ie=utf-8&amp;in=9160&amp;cl=2&amp;lm=-1&amp;st=&amp;pn=37&amp;rn=1&amp;di=77426617620&amp;ln=1999&amp;fr=&amp;&amp;fmq=1390478768411_R&amp;ic=&amp;s=&amp;se=&amp;sme=0&amp;tab=&amp;width=&amp;height=&amp;face=&amp;is=&amp;istype=&amp;ist=&amp;jit=&amp;objurl=http%3A%2F%2Fpic002.cnblogs.com%2Fimages%2F2011%2F302729%2F2011110523372314.jpg#pn37&amp;-1&amp;di77426617620&amp;objURLhttp%3A%2F%2Fpic002.cnblogs.com%2Fimages%2F2011%2F302729%2F2011110523372314.jpg&amp;fromURLippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3Bvgks52f_z%26e3Bv54AzdH3Ff7rj6-1dAzdH3Fw6vitejAzdH3Fda88AzdH3F88AzdH3FacAzdH3Fddn00b8_z%26e3Bip4s&amp;W2592&amp;H1456&amp;T8171&amp;S1254&amp;TPjpg</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://image.baidu.com/i?tn=baiduimage&amp;ct=201326592&amp;lm=-1&amp;cl=2&amp;nc=1&amp;word=javascript&amp;ie=utf-8</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>百度地图</introduction>
+        <url>http://map.baidu.com/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>新浪图片</introduction>
+        <url>http://photo.sina.com.cn/</url>
+     </item>
+     <item stayTime="8000">
+        <introduction>新浪图片</introduction>
+        <url>http://slide.news.sina.com.cn/z/slide_1_33131_41357.html#p=1</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://photo.sina.com.cn/photog/</url>
+     </item>
+     <item stayTime="8000">
+        <introduction>百合网首页</introduction>
+        <url>http://www.baihe.com/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.jd.com/?juc=emp1&amp;utm_source=www.hao123.com&amp;utm_medium=tuiguang&amp;utm_campaign=t_35_&amp;utm_term=51ca4223708b4cc88dd5261309857d58</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://sale.jd.com/act/Zp5A4hMLDrxzG0.html&amp;erpad_source=erpad</url>
+     </item>
+     <item stayTime="10000"  tabTarget="close">
+        <introduction>图片</introduction>
+        <url>http://sale.jd.com/act/FJHih2SAWvqaxm.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.tianya.cn/</url>
+     </item>
+     <item stayTime="8000">
+        <introduction>图片</introduction>
+        <url>http://page.tianya.cn/maotai/shop?c=3275928</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://v.hao123.com/zongyi/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://sports.sohu.com/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://pic.sports.sohu.com/group-526998.shtml#0</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://sports.huanqiu.com/pictures/list/2014-01/2725259.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://hao123qipai.baidu.com/cover/?pid=100108030900642_1093237</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/meinv</url>
+     </item>
+     <item stayTime="10000"  tabTarget="close">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/image/meinv/6010941?act=type</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.gome.com.cn/ec/homeus/?cmpid=dh_hao123_sc</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.gome.com.cn/category/cat10000116.html</url>
+     </item>
+     <item stayTime="10000"  tabTarget="close">
+        <introduction>图片</introduction>
+        <url>http://www.gome.com.cn/product/9127323648.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.gome.com.cn/product/A0003292775-pop8001111176.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.qdmm.com/</url>
+     </item>
+     <item stayTime="10000"  tabTarget="close">
+        <introduction>图片</introduction>
+        <url>http://www.renren.com/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://sz.ganji.com/zq_new/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://sz.ganji.com/shouji/809124091x.htm</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://ny.meituan.com/deal/2244403.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://ny.meituan.com/deal/1509463.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.lashou.com/?qdh=3002</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://gz.jumei.com/?referer=hao123_kz</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://xian.lashou.com/</url>
+     </item>
+     <item stayTime="10000"  tabTarget="open">
+        <introduction>图片</introduction>
+        <url>http://gz.jumei.com/i/deal/gz140123p344718.html?from=index_top_pos002_d1_onsale_t61normal_first_visit</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://mall.jumei.com/magiccastle/product_17542.html?from=recommendation_deal_main_344718_pos3</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://huodong.jumei.com/wish2_laneige140121.html?from=deal_null_index_afterdeal_null_null&amp;lo=2252&amp;mat=17565</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.ci123.com/special/yingyang</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://baobao.ci123.com/spaces/show/592547</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://baobao.ci123.com/albums/show/835639</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://mobile.pconline.com.cn/420/4205303.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://tb.zhcw.com/ssq/556259.shtml</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://huaban.com/</url>
+     </item>
+     <item stayTime="10000"  tabTarget="open">
+        <introduction>图片</introduction>
+        <url>http://huaban.com/pins/136197909/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://huaban.com/pins/136203794/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://huaban.com/pins/136203621/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://e.weibo.com/1895332380/Ah1j86JpD?ref=http%3A%2F%2Fhuaban.com%2Fpins%2F136203621%2F</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://lady.hao123.com/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://liren.55bbs.com/2013/1120/2153907.shtml</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-10.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-11.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-12.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-13.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-14.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-15.html</url>
+     </item>
+     <item stayTime="6000"  tabTarget="close">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-16.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-17.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-18.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-19.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-2.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/album/jiayi</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/aimg/jiayi/3566811</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/aimg/qingchunmeishaonv/2743284?act=</url>
+     </item>
+     <item stayTime="6000"  tabTarget="open">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/aimg/qingchunmeishaonv/2743079?act=</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://www.xiaomi.com/index.php</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://www.miui.com/</url>
+     </item>
+     <item stayTime="6000"  tabTarget="open">
+        <introduction>图片</introduction>
+        <url>http://www.pengfu.com/</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>baidu</introduction>
+        <url>http://www.baidu.com/</url>
+     </item>
+
+
+
+
+     <item stayTime="6000"  tabTarget="close">
+        <introduction>百度首页</introduction>
+        <url>http://www.baidu.com/</url>
+     </item>
+     <item stayTime="15000">
+        <introduction>优酷首页</introduction>
+        <url>http://www.youku.com/</url>
+     </item>
+     <item stayTime="7000">
+        <introduction>土豆网首页</introduction>
+        <url>http://www.tudou.com/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>爱奇异首页</introduction>
+        <url>http://www.iqiyi.com/</url>
+     </item>
+     <item stayTime="10000"  tabTarget="close">
+        <introduction>56网首页</introduction>
+        <url>http://www.56.com/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>腾迅视频首页</introduction>
+        <url>http://v.qq.com/movie/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>百度图片</introduction>
+        <url>http://image.baidu.com/channel?ref=search&amp;col=%E7%BE%8E%E5%A5%B3&amp;c=%E7%BE%8E%E5%A5%B3#%E7%BE%8E%E5%A5%B3</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>百度图片</introduction>
+        <url>http://image.baidu.com/detail/index?from=1&amp;pn=1&amp;picture_id=9505540026&amp;album_id=400061031&amp;app_id=578130&amp;user_id=989118869&amp;column=%E5%A3%81%E7%BA%B8&amp;is_album=0&amp;sortlog=0&amp;tag=%E5%85%A8%E9%83%A8&amp;tag3=&amp;width=1280&amp;height=800&amp;ic=0#pn1&amp;0&amp;id9505540026</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>百度图片</introduction>
+        <url>http://image.baidu.com/detail/index?from=1&amp;pn=0&amp;picture_id=9415790805&amp;album_id=332894367&amp;app_id=578130&amp;user_id=850080044&amp;column=%E5%A3%81%E7%BA%B8&amp;is_album=0&amp;sortlog=0&amp;tag=%E5%85%A8%E9%83%A8&amp;tag3=&amp;width=1280&amp;height=800&amp;ic=0</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>百度图片</introduction>
+        <url>http://photos.caijing.com.cn/2013-11-08/113540144_3.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>百度图片</introduction>
+        <url>http://photos.caijing.com.cn/2013-11-08/113540038.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>百度图片</introduction>
+        <url>http://image.baidu.com/detail/index?from=1&amp;pn=10&amp;picture_id=9570624697&amp;album_id=400050987&amp;app_id=578130&amp;user_id=862800178&amp;column=%E5%A3%81%E7%BA%B8&amp;is_album=0&amp;sortlog=0&amp;tag=%E5%85%A8%E9%83%A8&amp;tag3=&amp;width=1280&amp;height=800&amp;ic=0#pn10&amp;-1&amp;id9570624697</url>
+     </item>
+     <item stayTime="10000" tabTarget="open">
+        <introduction>百度图片</introduction>
+        <url>http://blog.sina.com.cn/s/blog_474928c90100x7cd.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>凤皇网</introduction>
+        <url>http://www.ifeng.com/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://news.ifeng.com/photo/#tag</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/</url>
+     </item>
+     <item stayTime="10000" tabTarget="open">
+        <introduction>北京一店主加毒色素炒花生米 目前售出900余斤</introduction>
+        <url>http://health.sina.com.cn/news/2014-01-23/0939122487.shtml</url>
+     </item>
+
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/image/all/6134073?act=type</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/image/gaoxiao_egao/6505388?act=type</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/image/all/6505405?act=type</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>美女图片</introduction>
+        <url>http://www.yeahwen.com/pics/4/1?fr=hdjIndex</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/image/all/6505374?act=type</url>
+     </item>
+     <item stayTime="10000" tabTarget="open">
+        <introduction>图片</introduction>
+        <url>http://image.baidu.com/i?ct=503316480&amp;z=&amp;tn=baiduimagedetail&amp;ipn=d&amp;word=javascript&amp;step_word=&amp;ie=utf-8&amp;in=9160&amp;cl=2&amp;lm=-1&amp;st=&amp;pn=37&amp;rn=1&amp;di=77426617620&amp;ln=1999&amp;fr=&amp;&amp;fmq=1390478768411_R&amp;ic=&amp;s=&amp;se=&amp;sme=0&amp;tab=&amp;width=&amp;height=&amp;face=&amp;is=&amp;istype=&amp;ist=&amp;jit=&amp;objurl=http%3A%2F%2Fpic002.cnblogs.com%2Fimages%2F2011%2F302729%2F2011110523372314.jpg#pn37&amp;-1&amp;di77426617620&amp;objURLhttp%3A%2F%2Fpic002.cnblogs.com%2Fimages%2F2011%2F302729%2F2011110523372314.jpg&amp;fromURLippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3Bvgks52f_z%26e3Bv54AzdH3Ff7rj6-1dAzdH3Fw6vitejAzdH3Fda88AzdH3F88AzdH3FacAzdH3Fddn00b8_z%26e3Bip4s&amp;W2592&amp;H1456&amp;T8171&amp;S1254&amp;TPjpg</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://image.baidu.com/i?tn=baiduimage&amp;ct=201326592&amp;lm=-1&amp;cl=2&amp;nc=1&amp;word=javascript&amp;ie=utf-8</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>百度地图</introduction>
+        <url>http://map.baidu.com/</url>
+     </item>
+     <item stayTime="10000" tabTarget="open">
+        <introduction>新浪图片</introduction>
+        <url>http://photo.sina.com.cn/</url>
+     </item>
+     <item stayTime="8000">
+        <introduction>新浪图片</introduction>
+        <url>http://slide.news.sina.com.cn/z/slide_1_33131_41357.html#p=1</url>
+     </item>
+     <item stayTime="10000" tabTarget="close">
+        <introduction>图片</introduction>
+        <url>http://photo.sina.com.cn/photog/</url>
+     </item>
+     <item stayTime="8000">
+        <introduction>百合网首页</introduction>
+        <url>http://www.baihe.com/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.jd.com/?juc=emp1&amp;utm_source=www.hao123.com&amp;utm_medium=tuiguang&amp;utm_campaign=t_35_&amp;utm_term=51ca4223708b4cc88dd5261309857d58</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://sale.jd.com/act/Zp5A4hMLDrxzG0.html&amp;erpad_source=erpad</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://sale.jd.com/act/FJHih2SAWvqaxm.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.tianya.cn/</url>
+     </item>
+     <item stayTime="8000">
+        <introduction>图片</introduction>
+        <url>http://page.tianya.cn/maotai/shop?c=3275928</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://v.hao123.com/zongyi/</url>
+     </item>
+     <item stayTime="10000" tabTarget="open">
+        <introduction>图片</introduction>
+        <url>http://sports.sohu.com/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://pic.sports.sohu.com/group-526998.shtml#0</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://sports.huanqiu.com/pictures/list/2014-01/2725259.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://hao123qipai.baidu.com/cover/?pid=100108030900642_1093237</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/meinv</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/image/meinv/6010941?act=type</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.gome.com.cn/ec/homeus/?cmpid=dh_hao123_sc</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.gome.com.cn/category/cat10000116.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.gome.com.cn/product/9127323648.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.gome.com.cn/product/A0003292775-pop8001111176.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.qdmm.com/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.renren.com/</url>
+     </item>
+     <item stayTime="10000" tabTarget="open">
+        <introduction>图片</introduction>
+        <url>http://sz.ganji.com/zq_new/</url>
+     </item>
+     <item stayTime="10000" tabTarget="close">
+        <introduction>图片</introduction>
+        <url>http://sz.ganji.com/shouji/809124091x.htm</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://ny.meituan.com/deal/2244403.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://ny.meituan.com/deal/1509463.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.lashou.com/?qdh=3002</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://gz.jumei.com/?referer=hao123_kz</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://xian.lashou.com/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://gz.jumei.com/i/deal/gz140123p344718.html?from=index_top_pos002_d1_onsale_t61normal_first_visit</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://mall.jumei.com/magiccastle/product_17542.html?from=recommendation_deal_main_344718_pos3</url>
+     </item>
+     <item stayTime="10000" tabTarget="close">
+        <introduction>图片</introduction>
+        <url>http://huodong.jumei.com/wish2_laneige140121.html?from=deal_null_index_afterdeal_null_null&amp;lo=2252&amp;mat=17565</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://www.ci123.com/special/yingyang</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://baobao.ci123.com/spaces/show/592547</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://baobao.ci123.com/albums/show/835639</url>
+     </item>
+     <item stayTime="10000" tabTarget="close">
+        <introduction>图片</introduction>
+        <url>http://mobile.pconline.com.cn/420/4205303.html</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://tb.zhcw.com/ssq/556259.shtml</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://huaban.com/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://huaban.com/pins/136197909/</url>
+     </item>
+     <item stayTime="10000" tabTarget="close">
+        <introduction>图片</introduction>
+        <url>http://huaban.com/pins/136203794/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://huaban.com/pins/136203621/</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://e.weibo.com/1895332380/Ah1j86JpD?ref=http%3A%2F%2Fhuaban.com%2Fpins%2F136203621%2F</url>
+     </item>
+     <item stayTime="10000">
+        <introduction>图片</introduction>
+        <url>http://lady.hao123.com/</url>
+     </item>
+     <item stayTime="10000"  tabTarget="open">
+        <introduction>图片</introduction>
+        <url>http://liren.55bbs.com/2013/1120/2153907.shtml</url>
+     </item>
+     <item stayTime="6000" tabTarget="close">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-10.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-11.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-12.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-13.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-14.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-15.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-16.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-17.html</url>
+     </item>
+     <item stayTime="6000" tabTarget="close">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-18.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-19.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://bbs.55bbs.com/gallery-9004884-2.html</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/album/jiayi</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/aimg/jiayi/3566811</url>
+     </item>
+     <item stayTime="6000" tabTarget="open">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/aimg/qingchunmeishaonv/2743284?act=</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://pic.hao123.com/aimg/qingchunmeishaonv/2743079?act=</url>
+     </item>
+     <item stayTime="6000"  tabTarget="close">
+        <introduction>图片</introduction>
+        <url>http://www.xiaomi.com/index.php</url>
+     </item>
+     <item stayTime="6000">
+        <introduction>图片</introduction>
+        <url>http://www.miui.com/</url>
+     </item>
+     <item stayTime="6000" tabTarget="open">
+        <introduction>图片</introduction>
+        <url>http://www.pengfu.com/</url>
+     </item>
+     <item stayTime="6000" tabTarget="close">
+        <introduction>baidu</introduction>
+        <url>http://www.baidu.com/</url>
+     </item>
+     <item stayTime="1000">
+        <introduction>结束</introduction>
+        <url>javascript:alert("自动化测试已完成！");</url>
+     </item>
+</items>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tvsetting="http://schemas.android.com/apk/res/com.eostek.tv"
+    android:id="@+id/pvr_dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <com.eostek.tv.widget.TimeChooser
+        android:id="@+id/pvr_menu_dialog_hours"
+        android:layout_width="@dimen/pvr_menu_dialog_hours_layout_width"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/str_time_hour"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        tvsetting:chooseType="hour"
+        tvsetting:hourLimit="100" />
+
+    <ImageView
+        android:id="@+id/editText1"
+        android:layout_width="@dimen/schedule_list_img_time_layout_width"
+        android:layout_height="wrap_content"
+        android:src="@drawable/schedule_list_img_time" />
+
+    <com.eostek.tv.widget.TimeChooser
+        android:id="@+id/pvr_menu_dialog_minutes"
+        android:layout_width="@dimen/pvr_menu_dialog_minutes_layout_width"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/str_time_minute"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        tvsetting:chooseType="minute" />
+
+    <ImageView
+        android:id="@+id/editText2"
+        android:layout_width="@dimen/schedule_list_img_time_layout_width"
+        android:layout_height="wrap_content"
+        android:src="@drawable/schedule_list_img_time" />
+
+    <com.eostek.tv.widget.TimeChooser
+        android:id="@+id/pvr_menu_dialog_seconds"
+        android:layout_width="@dimen/pvr_menu_dialog_seconds_layout_width"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/str_time_second"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        tvsetting:chooseType="second" />
+
+    <Button
+        android:id="@+id/ResetJ2TBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clean_J2T_value" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:oneshot="true">  
+    <item android:drawable="@drawable/bg_mic_disabled" android:duration="200" />  
+    <item android:drawable="@drawable/bg_mic_speak" android:duration="200" />  
+    <item android:drawable="@drawable/bg_mic_listen" android:duration="200" />  
+    <item android:drawable="@drawable/bg_mic_listen_expanded" android:duration="200" />  
+</animation-list>  

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">历史记录</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">你好，天朝!</string>
+    
+    <string name="tab_today">今天</string>
+    <string name="tab_yesterday">昨天</string>
+    <string name="tab_7_day_ago">本周</string>
+    <string name="tab_30_day_ago">本月</string>
+    <string name="tab_greater_than_30_day">超过一月</string>
+    <string name="tab_clean_history">清除全部</string>
+
+    <string name="refreshing">正在刷新...</string>
+    <string name="leftnav_bar_option_label">选项</string>
+    
+    <string name="bullet">•</string>
+    
+    <string name="folder_is_empty">此处暂无内容显示。</string>
+    <string name="advice_header">您可以试试：</string>
+    <string name="advice_insert_usb">连接 USB 设备。</string>
+    <string name="advice_navigate">导航到包含照片的文件夹或相册。</string>
+    <string name="advice_use_filter_bar">使用上方的过滤栏显示所有可用资源。</string>
+    <string name="advice_add_account">添加帐户。</string>
+    <string name="advice_follow">通过网络浏览器在 Picasa 或 Flickr 上关注更多人。</string>
+    <string name="advice_ask_to_share">邀请其他人在 Picasa 上与您分享相册。</string>
+    <string name="advice_switch_to_network">切换到“我的照片”。</string>
+    <string name="advice_switch_to_local">切换到本地媒体。</string>
+    <string name="advice_no_usb">未检测到 USB 存储设备。</string>
+    
+    <string name="advice_no_history">未检测到任何历史记录。</string>
+    
+    <string name="folder_error">获取内容时出现问题。请稍后重试。</string>
+    
+    <string name="error_could_not_launch" msgid="686334944020799211">"无法启动所请求的项。"</string>
+    
+    <string name="aggregate_longer_than_expected">此操作所需的时间会比预期略长...</string>
+    
+    <string name="more">更多</string>
+    
+    <string name="warning_clean_history">所有的历史记录将要被清除</string>
+    <string name="hint_about_file">“%s”不存在</string>
+    
+    <string name="media_browser">媒体</string>
+    <string name="apps">应用程序</string>
+    <string name="chrome">浏览器</string>
+
+    <string name="local_media">本地媒体</string>
+    <string name="vod_media">点播媒体</string>
+    <string name="time_not_ready">系统对时中，请稍后进入.</string>
+</resources>

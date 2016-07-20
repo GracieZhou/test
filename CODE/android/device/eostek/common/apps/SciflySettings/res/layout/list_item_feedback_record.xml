@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="460dp"
+    android:layout_height="72dp" >
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/activity_feedback_record_bg"
+        android:contentDescription="@string/ system_setting" />
+
+    <ImageView
+        android:layout_width="460dp"
+        android:layout_height="72dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/activity_feedback_record_focus_bg"
+        android:contentDescription="@string/ system_setting" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="100dp" >
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dealing"
+            android:textColor="#F26A12"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/record_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/status"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/status"
+            android:textColor="@drawable/list_item_shortcut_content_selector"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/record_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/status"
+            android:layout_below="@id/status"
+            android:ellipsize="end"
+            android:maxEms="22"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@drawable/list_item_shortcut_content_selector"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

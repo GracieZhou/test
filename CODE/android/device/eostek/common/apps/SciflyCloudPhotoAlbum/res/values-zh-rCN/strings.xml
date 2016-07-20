@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="defaultlocale">默认路径</string>
+    <string name="app_name">云相册</string>
+    <string name="action_settings">设置</string>
+    <string name="scifly_potho_album">Scifly相册</string>
+    <string name="photo_num">共0张</string>
+    <string name="dialog_title">提示</string>
+    <string name="dialog_msg">正在更新数据,请稍后...</string>
+    <string name="dialog_msg1">正在查询数据,请稍后...</string>
+    <!-- my cloud disk -->
+    <string name="my_cloud_disk">我的云盘</string>
+    <string name="have_cleaned">已清理</string>
+    <string name="Thumb_cache">图片缓存</string>
+    <string name="full_preview_cache">全屏预览图缓存</string>
+    <string name="clean_Thumb_cache">清除图片缓存</string>
+    <string name="baidu_cloud">百度云</string>
+    <string name="sina_cloud_disk">新浪V盘</string>
+    <string name="drop_box">Dropbox</string>
+    <string name="one_drive">OneDrive</string>
+    <string name="no_bind">未绑定</string>
+    <string name="binded">已绑定</string>
+    <string name="log_off">是否注销</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <!-- My Photo Album -->
+    <string name="de">的</string>
+    <string name="album_name">相册</string>
+    <!-- ImagePager -->
+    <string name="last_one">已是最后一张</string>
+    <string name="first_one">已是第一张</string>
+    <!-- effect settings -->
+    <string name="switch_effect">切换效果</string>
+    <string name="time_period">时间间隔</string>
+    <string name="slideshow">幻灯播放</string>
+    <!-- MenuActivity -->
+    <string name="slideshow_setting">幻灯设置</string>
+    <!-- CloudLoginActivity -->
+    <string name="use_tip">Scifly云相册使用</string>
+    <string name="use_tip1">1.登陆关联网盘后，Scifly将在云盘根目录下创建Scifly Album目录</string>
+    <string name="cloud_add">添加</string>
+    <string name="no_network">无法连接网络，云相册暂不可用</string>
+    <string name="prompt_information">正在处理，请稍后...</string>
+
+</resources>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.eostek.tv.widget.MTSView
+        android:id="@+id/mtsview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/mts_margin_top" />
+
+    <RelativeLayout
+        android:id="@+id/pvrrootmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#88494949"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/linearprogress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/record_time"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/progress_layout_height"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/play_record_progress_layout_height"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/record_time_textSize1" />
+
+            <com.eostek.tv.widget.TextProgress
+                android:id="@+id/play_record_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lineartitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearprogress"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_pvr_listview_item"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/str_pvr_listview_item_textSize1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/str_pvr_listview_item_layout_marginLeft1"
+                android:text="@string/str_pvr_listview_item"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/str_pvr_listview_item_textSize1" />
+
+            <TextView
+                android:id="@+id/play_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/str_pvr_listview_item_layout_marginLeft1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/str_pvr_listview_item_textSize1"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lineartitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/usbFreeSpacePercent_layout_marginBottom"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/player_recorder"
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:background="@drawable/pvr_button_state"
+                android:contentDescription="@string/app_name"
+                android:focusable="true"
+                android:scaleType="center"
+                android:src="@drawable/player_recorder" />
+
+            <RelativeLayout
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh" >
+
+                <ImageButton
+                    android:id="@+id/player_play"
+                    android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                    android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                    android:background="@drawable/pvr_button_state"
+                    android:contentDescription="@string/app_name"
+                    android:focusable="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/player_play" />
+
+                <TextView
+                    android:id="@+id/text_view_player_play"
+                    android:layout_width="@dimen/text_view_player_play_layout_width"
+                    android:layout_height="@dimen/text_view_player_play_layout_heigh"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:text="@string/str_player_play"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/text_view_player_play_textSize"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/player_stop"
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:background="@drawable/pvr_button_state"
+                android:contentDescription="@string/app_name"
+                android:focusable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/player_stop" />
+
+            <ImageButton
+                android:id="@+id/player_pause"
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:background="@drawable/pvr_button_state"
+                android:contentDescription="@string/app_name"
+                android:focusable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/player_pause" />
+
+            <ImageButton
+                android:id="@+id/player_rev"
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:background="@drawable/pvr_button_state"
+                android:contentDescription="@string/app_name"
+                android:focusable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/player_rev" />
+
+            <ImageButton
+                android:id="@+id/player_ff"
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:background="@drawable/pvr_button_state"
+                android:contentDescription="@string/app_name"
+                android:focusable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/player_ff" />
+
+            <ImageButton
+                android:id="@+id/player_slow"
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:background="@drawable/pvr_button_state"
+                android:contentDescription="@string/app_name"
+                android:focusable="true"
+                android:scaleType="center"
+                android:src="@drawable/player_slow" />
+
+            <ImageButton
+                android:id="@+id/player_time"
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:background="@drawable/pvr_button_state"
+                android:contentDescription="@string/app_name"
+                android:focusable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/playertime" />
+
+            <ImageButton
+                android:id="@+id/player_forward"
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:background="@drawable/pvr_button_state"
+                android:contentDescription="@string/app_name"
+                android:focusable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/player_forward" />
+
+            <ImageButton
+                android:id="@+id/player_backward"
+                android:layout_width="@dimen/eos_pvr_menu_layout_width"
+                android:layout_height="@dimen/eos_pvr_menu_layout_heigh"
+                android:background="@drawable/pvr_button_state"
+                android:contentDescription="@string/app_name"
+                android:focusable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/player_backward" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/usbInfoLayout"
+            android:layout_width="@dimen/usbInfoLayout_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/lineartitle"
+            android:layout_marginLeft="@dimen/schedule_duration_layout_width"
+            android:layout_toRightOf="@+id/linearmenu" >
+
+            <ImageView
+                android:id="@+id/usbImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/usb_image" />
+
+            <TextView
+                android:id="@+id/usbLabelName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/usbImage"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/usbFreeSpacePercent_layout_marginBottom"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/usbLabelName_textSize" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/usbLabelName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/usbFreeSpacePercent_layout_marginBottom"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ProgressBar
+                    android:id="@+id/usbFreeSpace"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="@dimen/usbInfoLayout_layout_width"
+                    android:layout_height="@dimen/usbFreeSpace_layout_height"
+                    android:progressDrawable="@drawable/usb_progress_bg" />
+
+                <TextView
+                    android:id="@+id/usbFreeSpacePercent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/usbFreeSpacePercent_layout_marginBottom"
+                    android:textColor="@color/blue_color"
+                    android:textSize="@dimen/usbFreeSpacePercent_textSize" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pvrisrecording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/pvrisrecording_layout_marginLeft"
+        android:layout_marginTop="@dimen/pvrisrecording_layout_marginTop"
+        android:focusable="false"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/pvrrecordimage"
+            android:layout_width="@dimen/pvrrecordimage_layout_width"
+            android:layout_height="@dimen/pvrrecordimage_layout_height"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/idle_img_press_ststus_pvr" />
+
+        <TextView
+            android:id="@+id/pvrrecordtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/pvrrecordtext_layout_marginLeft"
+            android:layout_toRightOf="@+id/pvrrecordimage"
+            android:gravity="center_vertical"
+            android:shadowColor="#000000"
+            android:text="@string/str_pvr_is_recording"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/pvrrecordtext_textSize" />
+    </RelativeLayout>
+
+</RelativeLayout>

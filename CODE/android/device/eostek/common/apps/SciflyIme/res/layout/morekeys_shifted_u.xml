@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/more_keys_layout"
+    android:layout_width="224dp"
+    android:layout_height="136dp"
+    android:background="@drawable/morekeys_u"
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="1dp" >
+
+        <Button
+            style="@style/morekeys"
+            android:text="@string/Ù" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="8dp"
+            android:focusable="true"
+            android:text="@string/U" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="8dp"
+            android:text="@string/Ü" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp" >
+
+        <Button
+            style="@style/morekeys"
+            android:text="@string/Û" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="8dp"
+            android:text="@string/Ú" />
+
+        <Button
+            style="@style/morekeys"
+            android:layout_marginLeft="8dp"
+            android:text="@string/Ū" />
+    </LinearLayout>
+
+</LinearLayout>

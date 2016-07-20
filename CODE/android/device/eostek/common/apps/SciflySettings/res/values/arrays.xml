@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- languages -->
+    <string-array name="special_locale_codes" translatable="false">
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+    </string-array>
+    <!-- uneffective!!! for the chinese encoding not fit all the time -->
+    <string-array name="special_locale_names" translatable="false">
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+    </string-array>
+    <!-- wifi security arrays -->
+    <string-array name="wifi_security" translatable="false">
+        <item>None</item>
+        <item>WEP</item>
+        <item>PSK</item>
+        <item>EAP</item>
+    </string-array>
+
+    <!-- default sound :ringtone and notification -->
+    <string-array name="default_ringtone_uris" translatable="false">
+        <item>content://media/internal/audio/media/176</item>
+        <item>content://media/internal/audio/media/97</item>
+    </string-array>
+    <!-- wifi -->
+    <string-array name="wifi_status">
+
+        <!-- Status message of Wi-Fi when it is idle. -->
+        <item></item>
+        <!-- Status message of Wi-Fi when it is scanning. -->
+        <item>Scanning\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting. -->
+        <item>Connecting\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating. -->
+        <item>Authenticating\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address. -->
+        <item>Obtaining IP address\u2026</item>
+        <!-- Status message of Wi-Fi when it is connected. -->
+        <item>Connected</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
+        <item>Suspended</item>
+        <!-- Status message of Wi-Fi when it is disconnecting. -->
+        <item>Disconnecting\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
+        <item>Disconnected</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
+        <item>Unsuccessful</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
+        <item>Blocked</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+
+    <!-- Match this with the order of NetworkInfo.DetailedState. -->
+    <skip />
+    <!-- Wi-Fi settings. The status messages when the network is known. -->
+    <string-array name="wifi_status_with_ssid">
+
+        <!-- Status message of Wi-Fi when it is idle. -->
+        <item></item>
+        <!-- Status message of Wi-Fi when it is scanning. -->
+        <item>Scanning\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting to a network. -->
+        <item>Connecting to <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating with a network. -->
+        <item>Authenticating with <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address from a network. -->
+        <item>Obtaining IP address from <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is connected to a network. -->
+        <item>Connected to <xliff:g id="network_name">%1$s</xliff:g></item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
+        <item>Suspended</item>
+        <!-- Status message of Wi-Fi when it is disconnecting from a network. -->
+        <item>Disconnecting from <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
+        <item>Disconnected</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
+        <item>Unsuccessful</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
+        <item>Blocked</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+
+    <!-- Bluetooth Settings -->
+    <!-- Discoverable mode timeout options -->
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>1 hour</item>
+        <item>Never time out</item>
+    </string-array>
+    <string-array name="actions_main_images">
+        <item>@drawable/network</item>
+        <item>@drawable/display_sound</item>
+        <item>@drawable/area_time_icon</item>
+        <item>@drawable/user_back</item>
+        <item>@drawable/system_setting</item>
+        <item>@drawable/system_update</item>
+        <item>@drawable/about_icon</item>
+    </string-array>
+    <string-array name="screen_saver_start_time_arrays">
+        <item>Close</item>
+        <item>Five minute</item>
+        <item>Ten minute</item>
+        <item>Thirty minute</item>
+        <item>One hour</item>
+    </string-array>
+    <string-array name="screen_saver_picture">
+        <item>System picture</item>
+        <item>Customize</item>
+    </string-array>
+    <string-array name="screen_saver_dir">
+        <item>System content</item>
+    </string-array>
+    <string-array name="is24hour">
+        <item>@string/yes</item>
+        <item>@string/no</item>
+    </string-array>
+        <string-array name="security">
+        <item>@string/wlan_close</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="auto_ip">
+        <item>@string/wifi_link_property_auto</item>
+        <item>@string/wifi_link_property_manual</item>
+    </string-array>
+</resources>

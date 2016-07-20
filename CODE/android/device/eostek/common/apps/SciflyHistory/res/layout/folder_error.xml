@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/folder_error"
+    style="@style/VerticalStack"
+    android:layout_gravity="center"
+    android:focusable="true"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/type_broken" />
+
+    <TextView
+        style="@style/VerticalStack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:focusable="true"
+        android:text="@string/folder_error"
+        android:textAppearance="?android:textAppearance"
+        android:textStyle="bold" />
+
+</LinearLayout>

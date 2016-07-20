@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DeviceManager</string>
+    <string name="autostart_manager">Auto Start</string>
+    <string name="app_uninstall">App Uninstall</string>
+
+
+    <string name="running_apps">Running application</string>
+
+    <string name="ram">Memory</string>
+
+    <!-- Auto start -->
+    <string name="allowed_app_str">Allowed Apps (Press OK to forbid)</string>
+    <string name="forbidden_app_str">Forbidden Apps (Press OK to allow)</string>
+
+    <!-- Garbage -->
+
+
+	<string name="garbage_apk_file">Apk Files</string>
+    <string name="garbage_big_file">Large Files</string>
+
+
+
+    <!-- AppInstall -->
+
+    <!-- AppUninstall -->
+    <string name="no_app_uninstall">No Apk installed</string>
+
+    <!-- AppUpdate -->
+    <string name="update_manager">Update</string>
+    <string name="select_all">Auto update all</string>
+    <string name="space">Space:</string>
+    <string name="file_name">Name:</string>
+    <string name="name">Name:</string>
+    <string name="recently_used">Recently used</string>
+    <string name="recommend_load_failure">load recommended app error from server</string>
+    <string name="network_unavaliable">The network is not available, please check the network</string>
+    <string name="no_update_app">Can not find the application to update</string>
+    <string name="install_app_success">installed successfully</string>
+    <string name="install_app_failure">installed failurely</string>
+    <string name="update_app_success">updated successfully</string>
+    <string name="update_app_failure">updated failurely</string>
+    <string name="app_is_updating">is updating</string>
+	<string name="act_recommend_start_update">start download</string>
+    
+    <!-- AppRecommend -->
+    <string name="home_manager">Manage</string>
+    <string name="home_recommand">Recommend</string>
+    <string name="home_page_manager_process">Process</string>
+    <string name="home_page_manager_garbage">Garbage</string>
+    <string name="home_page_manager_appmanage">App Manager</string>
+    <string name="home_page_manager_autostart">Auto Start</string>
+    <string name="act_tv_tip_disk_fulled">The disk is full, recommended to clear</string>
+    <string name="act_btn_clean_memory">Clear up</string>
+    <string name="act_btn_view_disk_space">View space</string>
+    
+    
+    <!-- activity_management_dialog -->
+    <string name="act_management_dlg_disk_title">Space</string>
+    <string name="act_management_dlg_disk_sub_title_total">Total</string>
+    <string name="act_management_dlg_disk_sub_title_app">App</string>
+    <string name="act_management_dlg_disk_sub_title_data">Data</string>
+    <string name="act_management_dlg_cache_title">Cache</string>
+    <string name="act_management_dlg_btn_clear_data">Clear Data</string>
+    <string name="act_management_dlg_btn_clear_cache">Clear Cache</string>
+    <string name="act_management_dlg_btn_uninstall">Uninstall</string>
+    <string name="act_management_dlg_btn_update">Update</string>
+    <string name="act_management_dlg_tv_version">Version：  %1$s</string>
+    <string name="act_management_dlg_toast_update">Start Update %1$s</string>
+
+    <!-- Garbage -->
+    <string name="act_garbage_tv_scan_waiting">Waiting</string>
+    <string name="act_garbage_tv_scan_running">Scanning......</string>
+    <string name="act_garbage_tv_scan_result">%1$s has been cleaned</string>
+    <string name="act_garbage_tv_scan_no_found">No garbage, perfect</string>
+    <string name="act_garbage_tv_confirm">OK</string>
+    <string name="act_garbage_tv_clean_no_need">Nothing</string>
+    <string name="act_garbage_tv_clean_now">Clean</string>
+    <string name="act_garbage_tv_clean_running">Cleaning......</string>
+    <string name="act_garbage_tv_clean_result">Cleaned %1$s</string>
+    <string name="act_garbage_tv_clean_complete">Done</string>
+    <string name="act_garbage_tv_garbage_cache">Cache</string>
+    <string name="act_garbage_tv_garbage_uninstalled">Residue Files</string>
+    <string name="act_garbage_tv_garbage_ads">Ads</string>
+    <string name="act_garbage_tv_garbage_apk">Useless Apk</string>
+    <string name="act_garbage_tv_garbage_big_file">Large Files</string>
+    <string name="act_garbage_tv_garbage_unused_apk">Unused Apk</string>
+    <string name="act_bigfile_tv_delete_all">Delete All</string>
+    <string name="act_bigfile_tv_choose_more">Multiselect</string>
+    <string name="act_bigfile_tv_delete">Delete</string>
+    <string name="act_bigfile_tv_choose_all">Check All</string>
+    <string name="act_bigfile_tv_big_file_space">Occupy:</string>
+    <string name="act_bigfile_tv_prefix_choose">Have chose %1$s %2$s</string>
+    <string name="act_bigfile_dialog_single_delete">Delete this File?</string>
+    <string name="act_bigfile_dialog_select_delete">Delete these Selected Files?</string>
+    <string name="act_bigfile_dialog_btn_confirm">Delete</string>
+    <string name="act_bigfile_dialog_btn_cancel">Cancel</string>
+
+    <!-- Process -->
+    <string name="act_process_tv_scan_running">Scanning......</string>
+    <string name="act_process_btn_clean_ready">Accelerate</string>
+    <string name="act_process_tv_clean_ready">Can be accelerated</string>
+    <string name="act_process_btn_confirm">OK</string>
+    <string name="act_process_tv_confirm">Already speed %1$d%%</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+	android:interpolator="@android:anim/decelerate_interpolator">
+<!-- 影藏图片播放器左侧菜单  -->
+<translate
+	android:fromXDelta="0%"
+	android:toXDelta="-150%"
+	android:fromYDelta="0%"
+	android:toYDelta="0%"
+	android:duration="600" 
+	/>
+</set>

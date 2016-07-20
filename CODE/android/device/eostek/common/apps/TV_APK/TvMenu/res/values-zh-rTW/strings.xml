@@ -1,0 +1,441 @@
+﻿<resources>
+
+    <string name="menu_custom_option_label">Advanced options</string>
+    <string-array name="menu_setting_title">
+        <item>影像設定</item>
+        <item>聲音設定</item>
+        <item>網路設定</item>
+        <item>進階設置</item>
+    </string-array>
+    <string-array name="menu_setting_title_tv">
+        <item>影像設定</item>
+        <item>聲音設定</item>
+        <item>頻道管理</item>
+        <item>網路設定</item>
+        <item>進階設置</item>
+    </string-array>
+    <string-array name="menu_setting_title_vga">
+        <item>影像設定</item>
+        <item>聲音設定</item>
+        <item>電腦設定</item>
+        <item>網路設定</item>
+        <item>進階設置</item>
+    </string-array>
+    <!-- Audio setting -->
+    <string-array name="setting_audio">
+        <item>聲音模式</item>
+        <item>低音</item>
+        <item>高音</item>
+        <item>等化器</item>
+        <item>聲音平衡</item>
+        <item>AVC</item>
+        <item>​​環繞音</item>
+        <item>SPDIF輸出 </item>
+        <item>内部喇叭 </item>
+        <item>外部喇叭 </item>
+        <item>系統提示音</item>
+        <item>開機音樂</item>
+        <item>單獨聽</item>
+    </string-array>
+    <string-array name="setting_soundmode_vals">
+        <item>標準 </item>
+        <item>音樂 </item>
+        <item>影院</item>
+        <item>新聞 </item>
+        <item>自訂 </item>
+        <item>現場1</item>
+        <item>現場2</item>
+    </string-array>
+    <string-array name="turnon_off">
+        <item>關</item>
+        <item>開</item>
+    </string-array>
+    <string-array name="channelmanager_atv_vals">
+        <item>ATV自動搜台</item>
+        <item>微調</item>
+    </string-array>
+    <string-array name="channelmanager_dtv_vals">
+        <item>頻道編輯</item>
+        <item>DTV自動搜台</item>
+        <item>DTV手動搜台</item>
+        <item>天線類型</item>
+    </string-array>
+
+    <string name="channellocktip">有頻道被鎖定，需要輸入密碼才能搜台。</string>
+    <string name="menu_finetuning">微調</string>
+    <string name="nohotkeytip">沒有設置熱鍵，請設置。</string>
+
+    <string-array name="setting_equilizer">
+        <item>120Hz</item>
+        <item>500Hz</item>
+        <item>1.5KHz</item>
+        <item>5KHz</item>
+        <item>10KHz</item>
+    </string-array>
+    <string-array name="pc_adjust">
+        <item>時脈</item>
+        <item>相位</item>
+        <item>水平位置</item>
+        <item>垂直位置</item>
+        <item>畫面調整</item>
+    </string-array>
+
+    <string name="picadjust">畫面調整中 &#8230;</string>
+    <string name="picadjustsuccess">畫面調整成功！</string>
+    <string name="picadjustfail">畫面調整失敗</string>
+    <string name="cancel">取消</string>
+    <string name="autotuning">自動搜台中</string>
+    <string name="tv">電視節目</string>
+    <string name="broadcast">廣播節目</string>
+    <string name="data">數據廣播</string>
+    <string name="count">節目總數</string>
+    <string name="strength">信號強度</string>
+    <string name="quality">信號品質</string>
+    <string name="percent">搜索進度</string>
+    <string name="rfnum">RF Number</string>
+    <string name="str_cha_dtvmanualtuning">DTV手動搜台</string>
+    <string name="str_cha_manualtuning_ch">頻道</string>
+    <string name="str_cha_dtvmanualtuning_starttuning">開始搜索</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_dtv">節目數</string>
+    <string name="atv_autotuning_title">自動搜台中</string>
+    <string name="atv_frequency">頻點</string>
+    <string name="atv_count">數量</string>
+    <string name="atv_curchannel">當前頻道</string>
+
+    <string-array name="network">
+        <item>有線網路設置</item>
+        <item>無線網路設置</item>
+        <item>進階設定</item>
+    </string-array>
+    <string-array name="setting_advance">
+        <item>語言選擇</item>
+        <item>重置</item>
+        <item>USB更新</item>
+        <item>網路更新</item>
+        <item>自動休眠</item>
+        <item>省電模式</item>
+        <item>自動開機</item>
+        <item>密碼修改</item>
+        <item>夏令時</item>
+        <item>時區</item>
+        <item>個人視頻文件系統</item>
+        <item>菜單顯示時間</item>
+        <item>關機時間</item>
+        <item>開機時間</item>
+        <item>家長控制</item>
+        <item>熱鍵1</item>
+        <item>熱鍵2</item>
+        <item>當前版本</item>
+    </string-array>
+    <string-array name="language">
+        <item>中文(繁體)</item>
+        <item>英語</item>
+        <item>中文(簡體)</item> 
+    </string-array>
+    <string-array name="dst">
+        <item>自動</item>
+        <item>關</item>
+        <item>開</item>
+    </string-array>
+    <string-array name="versionerror">
+        <item>無法獲取到版本號</item>
+    </string-array>
+
+    <string name="changepassword_title">密碼修改</string>
+    <string name="old_password">舊密碼</string>
+    <string name="new_password">新密碼</string>
+    <string name="confirm_password">確認密碼</string>
+    <string name="oldpasswordtip">請輸入舊密碼.</string>
+    <string name="newpasswordtip">請輸入新密碼.</string>
+    <string name="confirmpasswordtip">請輸入確認密碼.</string>
+    <string name="clean">清空</string>
+
+    <string-array name="setting_picture">
+        <item>影像模式</item>
+        <item>對比度</item>
+        <item>亮度</item>
+        <item>色相</item>
+        <item>銳利度</item>
+        <item>飽和度</item>
+        <item>背光</item>
+        <item>色溫</item>
+        <item>紅色</item>
+        <item>綠色</item>
+        <item>藍色</item>
+        <item>HDMI畫面滿框</item>
+        <item>畫面比例</item>
+        <item>雜訊消除</item>
+        <item>菜單透明度</item>
+        <item>MPEG雜訊消除</item>
+        <item>顏色範圍</item>
+        <item>HDMI RGB 範圍</item>
+    </string-array>
+    <string-array name="setting_picturemode_vals">
+        <item>鮮明</item>
+        <item>標準</item>
+        <item>柔和</item>
+        <item>自訂</item>
+    </string-array>
+    <string-array name="setting_colortemperature_vals">
+        <item>冷色</item>
+        <item>標準</item>
+        <item>暖色</item>
+        <item>自訂</item>
+    </string-array>
+    <string-array name="setting_hdmifull_vals">
+        <item>自動</item>
+        <item>關</item>
+        <item>開</item>
+    </string-array>
+    <string-array name="setting_hdmirgb_vals">
+        <item>自動</item>
+        <item>標準</item>
+        <item>全取</item>
+    </string-array>
+    <string-array name="setting_zoommode_vals">
+        <item>滿框</item>
+        <item>4:3</item>
+        <item>自動</item>
+        <item>全景</item>
+        <item>全畫面</item>
+    </string-array>
+<!--         <item>放大</item>
+        <item>字幕</item> -->
+    <string-array name="setting_zoommode_vals_tv">
+        <item>滿框</item>
+        <item>4:3</item>
+        <item>自動</item>
+        <item>全景</item>
+    </string-array>
+<!--         <item>放大</item>
+        <item>字幕</item> -->
+    <string-array name="setting_imgnoisereduction_vals">
+        <item>關</item>
+        <item>弱</item>
+        <item>中</item>
+        <item>強 </item>
+        <item>自動</item>
+    </string-array>
+    <string-array name="setting_mpegnoisereduction_vals">
+        <item>關 </item>
+        <item>弱</item>
+        <item>中</item>
+        <item>強 </item>
+    </string-array>
+    
+     <string-array name="osd_time_out_vals">
+        <item>5秒</item>
+        <item>10秒</item>
+        <item>15秒</item>
+        <item>20秒</item>
+        <item>30秒</item>
+        <item>始終顯示</item>
+    </string-array>
+    
+     <string-array name="osd_transparency_vals">
+        <item>0%</item>
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100%</item>
+    </string-array>
+    
+     <string-array name="off_time_val">
+        <item>設定關機時間</item>
+        <item>小時</item>
+        <item>分鐘</item>
+    </string-array>
+    
+     <string-array name="on_time_val">
+        <item>設定開機時間</item>
+        <item>小時</item>
+        <item>分鐘</item>
+        <item>當前時間</item>
+    </string-array>
+    
+    <string-array name="time_setting_sleep_time">
+        <item>關</item>
+        <item>10分鐘</item>
+        <item>20分鐘</item>
+        <item>30分鐘</item>
+        <item>60分鐘</item>
+        <item>90分鐘</item>
+        <item>120分鐘</item>
+        <item>180分鐘</item>
+        <item>240分鐘</item>
+    </string-array>
+
+    <string name="oldpasswordnullorlessthansix">沒有輸入舊密碼或是舊密碼長度小於4，請重新輸入。</string>
+    <string name="newpasswordnullorlessthansix">沒有輸入新密碼或是新密碼長度小於4，請重新輸入</string>
+    <string name="confirmpasswordnullorlessthansix">沒有輸入確認密碼或是確認密碼長度小於4，請重新輸入</string>
+    <string name="originalpassworderr">原始密碼不正確，請重新輸入。</string>
+    <string name="newconfirmpassworderr">新密碼和確認密碼不一致，請重新輸入。</string>
+    <string name="resetsuccess">重置密碼成功。</string>
+
+    <!-- DTV Manua tuning -->
+    <string name="str_cha_dtvmanualtuning_frequency">频道</string>
+    <string name="str_cha_dtvmanualtuning_modulation">Modulation</string>
+    <string name="str_cha_dtvmanualtuning_symbol">Symbol Rate</string>
+    <string name="str_cha_dtvmanualtuning_modulation_64qam">64QAM</string>
+    <string name="inputPassword">輸入密碼</string>
+    <string name="passwordSetTip">密碼為非空4位數字</string>
+    <string name="passwordCheck">密碼驗證</string>
+    <string name="passwordIsNull">您輸入的密碼為空!</string>
+    <string name="passwordCheckError">您輸入的密碼不正確!</string>
+
+    <!-- ATV Manual tuning -->
+    <string name="str_cha_atvmanualtuning">ATV手動搜臺</string>
+    <string name="str_cha_atvmanualtuning_colorsystem">彩色制式</string>
+    <string name="str_cha_atvmanualtuning_soundsystem">聲音制式</string>
+    <string name="str_cha_atvmanualtuning_colorsystem_Auto">Auto</string>
+    <string name="str_cha_atvmanualtuning_frequency">頻點</string>
+    <string name="str_cha_atvmanualtuning_frequency_mhz">MHZ</string>
+    <string name="finetuningtip">已經是最小值了。</string>
+
+    <string-array name="setting_set_colorrangetype">
+        <item>0~255</item>
+        <item>16~235</item>
+        <item>auto</item>
+    </string-array>
+
+    <!-- system update -->
+    <string name="new_version">檢測到新版本：</string>
+    <string name="update_list">本版本的更新內容如下：</string>
+    <string name="download">立即下載</string>
+    <string name="latest">當前系統已經是最新版本，暫時不需要更新！</string>
+    <string name="exit">退出</string>
+    <string name="system_net_update">系統網路更新</string>
+    <string name="system_local_update">系統USB更新</string>
+    <string name="update">立即更新</string>
+    <string name="progress">當前進度：</string>
+    <string name="current_version">當前系統版本：</string>
+    <string name="sdcard_success">外接硬碟可以正常使用</string>
+    <string name="cache_success">cache分區有足夠的儲存空間</string>
+    <string name="check_new_version">正在檢查新版本......</string>
+    <string name="check_updatezip">檢測到更新包，確認是否更新？</string>
+    <string name="downloading">正在下載新版本......</string>
+    <string name="downloaded">下載完成</string>
+    <string name="to_update">馬上更新？</string>
+    <string name="updated">請重新啓動TV，更新程式會在重啓後繼續......</string>
+    <string name="no_sdcard">系統不能檢測到外接硬碟，沒有辦法執行更新操作，請插入外接硬碟。</string>
+    <string name="sdcard">正在檢測設備.....</string>
+    <string name="download_error">下載的過程中出現錯誤，請重新下載</string>
+    <string name="check_failure">安裝過程中出現錯誤，請更換更新包。</string>
+    <string name="check_success">校驗成功。</string>
+    <string name="check_version_fail">從伺服器獲取更新包版本號異常，無法正常更新！</string>
+    <string name="check_directry">更新包必須放在外接硬碟根目錄，且更新包檔案名爲：update_signed.zip</string>
+    <string name="back">返回</string>
+    <string name="not_network">沒有連接網路，不能進行網路更新！</string>
+    <string name="download_ing">正在下載</string>
+    <string name="check_package">正在校驗更新包......</string>
+    <string name="check_update">檢測新版本</string>
+    <string name="check_update_ing">檢測中...</string>
+    <string name="sdcard_insert">檢測到外接硬碟插入</string>
+    <string name="sdcard_remove">檢測到外接硬碟移除或出現異常</string>
+    <string name="continue_download">繼續下載</string>
+    <string name="sdcard_lable">SDcard</string>
+    <string name="mobile_stoarge_device">外接硬碟</string>
+    <string name="no_update_file">您的外接硬碟上沒有更新包</string>
+    <string name="update_packages_download">正在進行更新包的下載</string>
+
+    <!-- network setting -->
+    <string name="auto_ip">自動取得IP位址</string>
+    <string name="ip_address">IP 位址</string>
+    <string name="subnet_mask">子網路遮罩</string>
+    <string name="default_geteway">預設閘道</string>
+    <string name="forget">清除</string>
+    <string name="first_dns">慣用DNS</string>
+    <string name="second_dns">其他DNS</string>
+    <string name="show_password">顯示密碼</string>
+    <string name="input_password">請輸入密碼</string>
+    <string name="ss_id">SSID</string>
+    <string name="Wifi">WiFi</string>
+    <string name="add_wifi_net">新增WiFi網路</string>
+    <string name="modify">未修改</string>
+    <string name="net_ssid">網路SSID：</string>
+    <string name="wifi_secure">安全性:</string>
+    <string name="none">無</string>
+    <string name="secure_wep">WEP</string>
+    <string name="secure_wpa">WPA/WPA2 PSK</string>
+    <string name="net_password">密碼：</string>
+    <string name="save">儲存</string>
+    <string name="saved">已儲存</string>
+    <string name="connect_to">連接</string>
+    <string name="check_ip_failure">驗證IP位址失敗</string>
+    <string name="please_insert_dongle">請插入無線網卡</string>
+    <string name="wifi_hotspot_secure">安全性</string>
+    <string name="ssid_password_error">SSID或密碼錯誤</string>
+    <string name="cancle">取消</string>
+    <string name="close_wifiap_txt">"請先關閉WiFi熱點!"</string>
+    <string name="wifi_failed_connect_message">"無法連接網路"</string>
+    <string name="wifi_failed_save_message">"無法儲存網路設定"</string>
+    <string name="wifi_failed_forget_message">"無法取消儲存網路設定"</string>
+    <string name="wifi_add_ssid">"新增WiFi網路"</string>
+    <string name="ethernet_switch">"開啟有線連接"</string>
+    <string name="ethernet_ipv6">"IPv6"</string>
+    <string name="ipv6_netmask">"IPv6位址首碼"</string>
+    <!-- network settings title -->
+    <string name="ethernet_settings_title">"有線設置"</string>
+    <string name="wifi_settings_title">"無線設置"</string>
+    <string name="not_support_security_hint">"不支持的加密類型"</string>
+    <string name="wifi_display_status_connected">"已連接"</string>
+
+    <!-- restore factory -->
+    <string name="ok">確定</string>
+    <string name="system_restore_factory">重置設定</string>
+    <string name="notice_restore_factory">出廠重置(清除TV上的所有資料)：</string>
+    <string name="tv_data_restore">出廠重置</string>
+    <string name="system_and_app_set">系統應用程式資料和設定以及清除sdcard</string>
+    <string name="restore_factory_system_reboot">系統正在重新啓動...</string>
+    <string name="restore_factory_confirm_restore">是否確認重置 ？</string>
+    <string name="restore_factory_reset_ing">重置</string>
+    <string name="restore_factory_reset_wait">請稍候 ...</string>
+    <string name="update_package_download_complete">系統更新包下載完成！</string>
+
+    <!-- antenna type -->
+    <string-array name="str_arr_cha_antannatype_platform_s">
+		<item>DVB-T/T2</item>
+		<item>DTMB</item>
+	</string-array>
+	
+    <string-array name="spdif_status">
+		<item>PCM</item>
+        <item>OFF</item>
+        <item>NONPCM</item>
+	</string-array>
+	
+        <!-- for pvr file system -->
+    <string name="str_pvr_file_system_title">個人視頻文件系統</string>
+    <string name="str_pvr_file_system_select_disk">硬碟選擇</string>
+    <string name="str_pvr_file_system_time_shift_size">時間跨越長度</string>
+    <string name="str_pvr_file_system_format_start">格式化</string>
+    <string name="str_pvr_file_system_format_context">成功</string>
+    <string name="str_pvr_file_system_speed_check">速度測試</string>
+    <string name="str_pvr_file_system_speed_context">完成</string>
+    <string name="str_pvr_file_system_always_timeshift">持續時移</string>
+    <string name="str_pvr_file_system_always_context">打開</string>
+    <string name="str_set_off">關</string>
+    <string name="str_set_on">開</string>
+    <string name="str_set_colorrange">顏色範圍 </string>
+    <string name="str_set_colorrange_0to255">0~255</string>
+    <string name="str_set_moviemode">電影模式</string>
+    <string name="str_pvr_listview_item">文本顯示</string>
+    <string name="str_pvr_file_system_menu">菜單</string>
+    <string name="str_pvr_insert_usb">請插入U盤先！</string>
+    <string name="str_pvr_format_usb">要格式化所選的U盤嗎？</string>
+    <string name="str_pvr_unsurpt_flsystem">Unsupported File System,Please Do Format First!</string>
+    <string name="str_program_edit_dialog_ok">確定</string>
+    <string name="str_program_edit_dialog_cancel">取消</string>
+    <string name="str_pvr_format_usb_progressing">Format USB Disk Progressing...\nPlease Do Not Unplug the
+        USB Disk!</string>
+        <string name="str_pvr_usb_speed_test_progressing">速度測試進行中...\n請不要拔掉U盤！</string>
+    <string name="str_root_alert_dialog_cancel">取消</string>
+    
+    <string name="toast_no_manual_tuning">該天線模式下不支持手動搜臺!</string>
+</resources>

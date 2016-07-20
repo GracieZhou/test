@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="theme_textsize">20dp</dimen>
+    <dimen name="alltheme_textsize">13dp</dimen>
+    <dimen name="deleteInfo_textsize">13dp</dimen>
+</resources>

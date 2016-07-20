@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ad_time_tip"> 广告将在 %d 秒后自动消失.     </string>
+</resources>

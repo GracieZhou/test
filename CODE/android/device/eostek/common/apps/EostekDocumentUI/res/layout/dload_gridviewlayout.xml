@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+    <GridView
+        android:id="@+id/downloading_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="5dp"
+        android:horizontalSpacing="12dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="6"
+        android:scrollbars="none"
+        android:scrollingCache="false"
+        android:verticalSpacing="5dp" />
+
+    <TextView
+        android:id="@+id/empty_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:text="@string/downloading_empty"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/activity_download_classify_empty_layout_size"
+        android:visibility="gone" />
+
+</LinearLayout>

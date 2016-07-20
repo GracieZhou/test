@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/setting_bg_width"
+        android:layout_height="@dimen/setting_bg_height"
+        android:background="@drawable/setting_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            
+             <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/system_restore_factory_margin_top"
+                android:gravity="center_horizontal"
+                android:paddingTop="@dimen/system_restore_factory_pad_top"
+                android:text="@string/system_restore_factory"
+                android:textColor="#FFFFFFFF"
+                android:textSize="@dimen/system_restore_factory_textsize" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/store_line_margin_top"
+                android:background="@drawable/store_line" />
+
+           
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/notice_restore_factory_margin_top"
+                android:paddingLeft="@dimen/notice_restore_factory_pad_left"
+                android:text="@string/notice_restore_factory"
+                android:textColor="#FFFFFFFF"
+                android:textSize="@dimen/notice_restore_factory_textsize" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tv_data_restore_margin_top"
+                android:paddingLeft="@dimen/tv_data_restore_pad_left"
+                android:text="@string/tv_data_restore"
+                android:textColor="#FFFFFFFF"
+                android:textSize="@dimen/tv_data_restore_textsize" />
+
+            <CheckBox
+                android:id="@+id/restore_factory_cb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/restore_factory_cb_margin_left"
+                android:layout_marginTop="@dimen/restore_factory_cb_margin_top"
+                android:checked="false"
+                android:text="@string/system_and_app_set"
+                android:textColor="#FFFFFFFF"
+                android:textSize="@dimen/restore_factory_cb_textsize" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/store_line_iv_margin_top"
+                android:background="@drawable/store_line" />
+
+            <Button
+                android:id="@+id/clear_button"
+                android:layout_width="@dimen/clear_button_width"
+                android:layout_height="@dimen/clear_button_height"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/clear_button_margin_top"
+                android:background="@drawable/button_change"
+                android:text="@string/ok"
+                android:textColor="#FFFFFFFF"
+                android:textSize="@dimen/clear_button_textsize" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="@dimen/title_margin_left"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/search_margin_left"
+        android:layout_marginTop="@dimen/search_edit_margin_top">
+
+        <EditText
+            android:id="@+id/search_input"
+            android:layout_width="@dimen/search_edit_width"
+            android:layout_height="@dimen/search_height"
+            android:background="@drawable/search_edit"
+            android:hint="@string/search_input_hint"
+            android:textColor="@color/text_color"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:singleLine="true"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="@dimen/search_btn_width"
+            android:layout_height="@dimen/search_height"
+            android:layout_marginLeft="@dimen/search_btn_margin_left"
+            android:background="@drawable/search_btn_style" />
+    </LinearLayout>
+
+    <com.jess.ui.TwoWayGridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/frame_margin_left"
+        android:layout_marginTop="@dimen/gridview_margin_top"
+        android:listSelector="@drawable/transparent_selector"
+        app:columnWidth="@dimen/gridview_border_width"
+        app:gravity="center"
+        app:horizontalSpacing="@dimen/gridview_item_horizontal_space"
+        app:numColumns="auto_fit"
+        app:numRows="3"
+        app:rowHeight="@dimen/gridview_border_heigth"
+        app:scrollDirectionLandscape="horizontal"
+        app:stretchMode="none"
+        app:verticalSpacing="@dimen/gridview_item_vertical_space" />
+
+</LinearLayout>

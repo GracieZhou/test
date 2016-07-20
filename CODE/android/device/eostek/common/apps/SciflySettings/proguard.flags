@@ -1,0 +1,21 @@
+-keep class scifly.middleware.network.mstar.kitkat.EthernetManagerImpl {
+*;
+}
+-keep class scifly.middleware.network.mstar.kitkat.WifiManagerImpl {
+*;
+}
+
+-keep class scifly.middleware.network.mstar.lollipop.EthernetManagerImpl {
+*;
+}
+
+-keep class scifly.middleware.network.mstar.lollipop.WifiManagerImpl {
+*;
+}
+
+-keep class scifly.middleware.network.amlogic.kitkat.EthernetManagerImpl {
+*;
+}
+-keep class scifly.middleware.network.amlogic.kitkat.WifiManagerImpl {
+*;
+}

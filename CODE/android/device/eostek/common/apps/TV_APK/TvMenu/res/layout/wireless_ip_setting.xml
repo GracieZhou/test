@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wireless_setting_ll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/wireless_setting_ll_margin_top"
+    android:visibility="gone" >
+
+    <RelativeLayout
+        android:id="@+id/wifi_switch_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/wifi_switch_rl_min_height"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/wireless_ip_setting_tv_height"
+            android:paddingLeft="@dimen/wireless_ip_setting_tv_pad_left"
+            android:text="@string/Wifi"
+            android:textColor="#CCCCCCCC"
+            android:textSize="@dimen/wireless_ip_setting_tv_textsize" />
+
+        <CheckBox
+            android:id="@+id/wifi_switch_checkbox"
+            android:layout_width="@dimen/wifi_switch_checkbox_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/wifi_switch_checkbox_margin_right"
+            android:button="@drawable/custom_checkbox" />
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/wifi_switch_checkbox"
+            android:layout_alignTop="@id/wifi_switch_checkbox" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/wifi_ssid_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/wifi_ssid_listview_height"
+        android:listSelector="@drawable/select_item" >
+    </ListView>
+
+</LinearLayout>

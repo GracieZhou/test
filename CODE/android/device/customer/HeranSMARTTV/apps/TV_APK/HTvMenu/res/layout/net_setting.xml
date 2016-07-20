@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/net_setting_ll_width"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/setting_bg"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/net_setting_ll_padding_top" >
+
+    <TextView
+        android:id="@+id/net_current_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/net_current_position_textsize" />
+
+    <include layout="@layout/ethernet_setting" />
+
+    <include layout="@layout/wireless_ip_setting" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">MKeyEventService</string>
+    <string name="system">系統版本</string>
+    <string name="language">語言</string>
+    <string name="data_dispaly">數據顯示</string>
+
+    <string-array name="Balance">
+        <item>伴音平衡 -50</item>
+        <item>伴音平衡 0</item>
+        <item>伴音平衡 +50</item>
+    </string-array>
+
+</resources>

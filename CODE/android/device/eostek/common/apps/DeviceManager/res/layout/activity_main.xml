@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    
+    <LinearLayout 
+        android:id="@+id/activity_main_ll"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_marginTop="66dp"
+        android:orientation="horizontal">
+        
+        <RelativeLayout 
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="86dp"
+            android:gravity="center" >
+            <TextView 
+	            android:id="@+id/activity_main_title_manager"
+	            android:layout_width="match_parent"
+	            android:layout_height="90dp"
+	            android:gravity="center"
+	            android:text="@string/home_manager"
+	            android:textSize="30sp"
+	            android:textColor="@color/white"
+	            android:focusable="true"
+	            android:clickable="true"
+	            android:focusableInTouchMode="true"
+	            android:background="@drawable/activity_main_title_bg_selector"/>
+            <ImageView 
+                android:id="@+id/act_main_title_manage_bg_2"
+                android:layout_width="134dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="70dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/activity_main_title_bg_2"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+        
+        <RelativeLayout 
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:gravity="center" >
+	        <TextView 
+	            android:id="@+id/activity_main_title_recommend"
+	            android:layout_width="match_parent"
+	            android:layout_height="90dp"
+	            android:gravity="center"
+	            android:text="@string/home_recommand"
+	            android:textSize="30sp"
+	            android:textColor="@color/white"
+	            android:focusable="true"
+	            android:clickable="true"
+	            android:focusableInTouchMode="true"
+	            android:background="@drawable/activity_main_title_bg_selector"/>
+	        <ImageView 
+	            android:id="@+id/act_main_title_recommend_bg_2"
+                android:layout_width="134dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="70dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/activity_main_title_bg_2"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/activity_main_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/activity_main_ll"
+        android:gravity="center" />
+
+</RelativeLayout>
