@@ -1,0 +1,8 @@
+tftp 0x20200000 boot.img.aes
+mmc erase.p boot
+mmc write.p 0x20200000 boot $(filesize) 1
+tftp 0x20200000 secure_info_boot.bin
+store_secure_info bootSign 0x20200000
+setenv LOAD_KERNEL mmc read.p 0x24D00000 boot 0x00F00000\; authenticateAN 0x24D00000
+setenv BOOT_KERNEL bootm 0x24D00000
+saveenv

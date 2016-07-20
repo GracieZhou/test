@@ -1,0 +1,3 @@
+tftp 0x20200000 tvconfig.img
+mmc erase.p tvconfig
+mmc write.p 0x20200000 tvconfig $(filesize) 1

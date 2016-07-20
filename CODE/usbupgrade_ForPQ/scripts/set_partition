@@ -1,0 +1,16 @@
+mmc slc 0 1
+mmc rmgpt
+mmc create misc 0x00080000
+mmc create recovery 0x01300000
+mmc create boot 0x00F00000
+mmc create tee 0x00600000
+mmc create RTPM 0x00040000
+mmc create dtb 0x00100000
+mmc create system 0x40000000
+mmc create userdata 0x100000000
+mmc create cache 0x0C800000
+mmc create tvservice 0x0A000000
+mmc create tvconfig 0x00A00000
+mmc create tvdatabase 0x00800000
+mmc create tvcustomer 0x01000000
+mmc create vrsdcard 0x60000000

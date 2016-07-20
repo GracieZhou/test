@@ -1,0 +1,15 @@
+mmc erase.p system
+tftp 0x20200000 system.imgaa.lzo
+mmc unlzo 0x20200000 $(filesize) system 1
+tftp 0x20200000 system.imgab.lzo
+mmc unlzo.cont 0x20200000 $(filesize) system 1
+tftp 0x20200000 system.imgac.lzo
+mmc unlzo.cont 0x20200000 $(filesize) system 1
+tftp 0x20200000 system.imgad.lzo
+mmc unlzo.cont 0x20200000 $(filesize) system 1
+tftp 0x20200000 system.imgae.lzo
+mmc unlzo.cont 0x20200000 $(filesize) system 1
+tftp 0x20200000 system.imgaf.lzo
+mmc unlzo.cont 0x20200000 $(filesize) system 1
+tftp 0x20200000 system.imgag.lzo
+mmc unlzo.cont 0x20200000 $(filesize) system 1

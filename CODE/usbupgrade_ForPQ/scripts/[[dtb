@@ -1,0 +1,3 @@
+tftp 0x20200000 dtb.bin
+mmc erase.p dtb
+mmc write.p 0x20200000 dtb $(filesize) 1

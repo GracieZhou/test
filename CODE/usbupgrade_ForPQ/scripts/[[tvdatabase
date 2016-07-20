@@ -1,0 +1,3 @@
+tftp 0x20200000 tvdatabase.img
+mmc erase.p tvdatabase
+mmc write.p 0x20200000 tvdatabase $(filesize) 1

@@ -1,0 +1,3 @@
+tftp 0x20200000 cache.img.lzo
+mmc erase.p cache
+mmc unlzo 0x20200000 $(filesize) cache 1

@@ -1,0 +1,120 @@
+#!/bin/sh
+
+# udhcpc script edited by Tim Riker <Tim@Rikers.org>
+
+[ -z "$1" ] && echo "Error: should be called from udhcpc" && exit 1
+
+RESOLV_CONF="/Customer/resolv.conf"
+[ -n "$broadcast" ] && BROADCAST="broadcast $broadcast"
+[ -n "$subnet" ] && NETMASK="netmask $subnet"
+
+LOG=/dev/shm/ip_log
+
+OLD_IP=`cat $LOG`
+
+
+case "$1" in
+	deconfig)
+		/sbin/ifconfig $interface 0.0.0.0
+		echo "DeConfig" > $LOG
+		rm -rf $RESOLV_CONF.$interface
+		;;
+
+	renew|bound)
+        echo -e "############## do renew | bound ##############"
+		/sbin/ifconfig $interface $ip $BROADCAST $NETMASK
+		OLD_IP=`cat $LOG`
+
+		if [ $OLD_IP != "USE_DHCP" ]
+		then
+
+		echo -e "############## do renew | bound  START ################"
+
+		echo -e "USE_DHCP" >  $LOG
+
+		if [ -n "$router" ] ; then
+			echo "deleting routers"
+			while route del default gw 0.0.0.0 dev $interface ; do
+				:
+			done
+
+			metric=0
+			for i in $router ; do
+				route add default gw $i dev $interface metric $((metric++))
+			done
+		fi
+
+		echo -n > $RESOLV_CONF
+		[ -n "$domain" ] && echo search $domain >> $RESOLV_CONF
+		for i in $dns ; do
+			echo adding dns $i
+			echo nameserver $i >> $RESOLV_CONF
+		done
+
+		echo -n > /dev/shm/mstar_udhcpc_result_$interface
+		echo IP_DHCP_GET > /dev/shm/mstar_udhcpc_result_$interface
+		rm -rf $RESOLV_CONF.bak
+		cp -dfr $RESOLV_CONF $RESOLV_CONF.$interface
+		sync
+		fi
+		;;
+
+    leasefail)
+        echo -e "############## leasefail ##############"
+		#/bin/echo -e "leasefail\n" >> /usr/share/udhcpc/debug
+               /sbin/ifconfig $interface $ip $BROADCAST $NETMASK
+
+		OLD_IP=`cat $LOG`
+
+		if [ $OLD_IP != "USE_AUTO_IP" ]
+		then
+
+		echo -e "############## leasefail  START ################"
+		echo -e "USE_AUTO_IP" > $LOG
+
+		#echo -e " #### ifconfig down ####"
+		#/sbin/ifconfig $interface down
+		#echo $interface
+		echo "####  Delete Routers #####"
+		if [ -n "$router" ] ; then
+		        echo "deleting routers"
+		        while route del default gw 0.0.0.0 dev $interface ; do
+		                :
+		        done
+		fi
+
+		echo "## Setup AUTO IP###"
+		auto_ip=169.254.$(($RANDOM % 255 + 1)).$(($RANDOM % 255 + 1))
+		echo -e "# show auto-ip ##########"
+		echo $auto_ip
+		echo -e "# show auto-ip END ######"
+
+		/sbin/ifconfig $interface $auto_ip
+		echo $interface
+
+
+		# echo ">>> Check the IP is avaliable or not. <<<"
+		ping $auto_ip -c 3 > /dev/null
+		while [ "$?" == 1 ]; do
+		 	auto_ip=169.254.$(($RANDOM % 255 + 1)).$(($RANDOM % 255 + 1))
+		        /sbin/ifconfig $interface $auto_ip  $BROADCAST $NETMASK
+		        ping $auto_ip -c 3 > /dev/null
+		        echo $?
+		done
+
+		route add -net 0.0.0.0  netmask 0.0.0.0 eth0
+        echo -e "############## leasefail END ##############"
+		fi
+		echo -n > /dev/shm/mstar_udhcpc_result_$interface
+		echo IP_AUTO_GET > /dev/shm/mstar_udhcpc_result_$interface
+		rm -rf $RESOLV_CONF.$interface
+		sync
+                ;;
+    nak)
+        echo -e "############## nak ##############"
+		rm -rf $RESOLV_CONF.$interface
+                ;;
+
+esac
+
+exit 0

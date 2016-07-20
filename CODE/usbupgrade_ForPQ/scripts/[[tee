@@ -1,0 +1,10 @@
+tftp 0x20200000 tee.aes
+mmc erase.part tee
+mmc write.p 0x20200000 tee $(filesize)
+setenv LOAD_NUTTX mmc read.p 0x5EC70000 tee 0x600000
+setenv BOOT_NUTTX bootNuttx 0x1EC70000
+saveenv
+tftp 0x20200000 secure_info_tee.bin
+store_secure_info teeSign 0x20200000
+tftp 0x20200000 nuttx_config.bin
+store_nuttx_config NuttxConfig 0x20200000

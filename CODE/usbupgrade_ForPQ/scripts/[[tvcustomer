@@ -1,0 +1,3 @@
+tftp 0x20200000 tvcustomer.img
+mmc erase.p tvcustomer
+mmc write.p 0x20200000 tvcustomer $(filesize) 1

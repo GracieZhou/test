@@ -1,0 +1,4 @@
+tftp 0x20200000 rom_emmc_boot.bin
+mmc write.boot 1 0x20200000 0 $(filesize)
+tftp 0x20200000 mboot.bin
+mmc write.p 0x20200000 MBOOT $(filesize)

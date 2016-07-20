@@ -1,0 +1,3 @@
+tftp 0x20200000 vrsdcard.img.lzo
+mmc erase.p vrsdcard
+mmc unlzo 0x20200000 $(filesize) vrsdcard 1

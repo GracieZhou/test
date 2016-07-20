@@ -1,0 +1,13 @@
+default_layer_opacity=255
+quiet
+no-sighandler
+bg-color=00000000
+#no-cursor
+mst_layer_default_width=1280
+mst_layer_default_height=720
+module-dir=/mslib/directfb-1.4-0
+mst_enable_dip=enable
+mst_dip_select=1
+tvos_mode
+show_freeze_image
+enable_sw_jpeg=enable

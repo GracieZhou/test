@@ -1,0 +1,3 @@
+tftp 0x20200000 userdata.img.lzo
+mmc erase.p userdata
+mmc unlzo 0x20200000 $(filesize) userdata 1

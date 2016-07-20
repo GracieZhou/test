@@ -1,0 +1,3 @@
+tftp 0x20200000 RT_PM.bin
+mmc erase.p RTPM
+mmc write.p 0x20200000 RTPM $(filesize) 1

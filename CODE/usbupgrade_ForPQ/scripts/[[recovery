@@ -1,0 +1,8 @@
+tftp 0x20200000 recovery.img.aes
+mmc erase.p misc
+mmc erase.p recovery
+mmc write.p 0x20200000 recovery $(filesize) 1
+tftp 0x20200000 secure_info_recovery.bin
+store_secure_info recoverySign 0x20200000
+setenv recoverycmd mmc read.p 0x23000000 dtb 0x00100000\; mmc read.p 0x24D00000 recovery 0x01300000\; authenticateAN 0x24D00000\; bootm 0x24D00000
+saveenv

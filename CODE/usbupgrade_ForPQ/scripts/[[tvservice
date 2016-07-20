@@ -1,0 +1,3 @@
+tftp 0x20200000 tvservice.img
+mmc erase.p tvservice
+mmc write.p 0x20200000 tvservice $(filesize) 1
