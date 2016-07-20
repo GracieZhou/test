@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+	
+     <item
+        className="com.android.settings.SettingsActivity"
+        packageName="com.android.settings"
+        title="设置"/>
+     <item
+        className="com.jrm.babao.babaofan.activity.main.BabaofanMainActivity"
+        packageName="com.jrm.babao.babaofan"
+        title="八宝饭"/>
+     <item
+        className="com.android.browser.BrowserActivity"
+        packageName="com.android.browser"
+        title="浏览器"/>
+       <item
+        className="com.eostek.history.MainActivity"
+        packageName="com.eostek.history"
+        title="歷史紀錄"/>
+  
+
+</items>

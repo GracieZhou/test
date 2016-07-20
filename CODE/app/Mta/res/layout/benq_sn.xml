@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sn_mac"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/serial"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:paddingTop="3dp" >
+
+        <TextView
+		    android:id="@+id/benq_serial_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/white"
+            android:textSize="11.0pt"
+			android:text="@string/please_scan_benq_serial_number"/>
+
+        <EditText
+            android:id="@+id/benq_serial_editText"
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="50dp"
+            android:cursorVisible="true"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:maxLength="50"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/serial_img"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/one_px" />
+    </LinearLayout>
+
+</LinearLayout>

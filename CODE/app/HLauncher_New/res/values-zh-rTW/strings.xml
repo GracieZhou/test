@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="data_format"><xliff:g id="format">MM月dd日 E</xliff:g></string>
+    <string name="app_name">HERTV 首頁</string>
+    <string name="action_settings">Settings</string>
+    <string name="helptip">按下遙控器上的小幫手按鈕開啟小幫手</string>
+    <string name="adtxt">主界面 > 熱播</string>
+    <string name="load_tip">加載中...</string>
+    <string name="allapp">我的應用</string>
+    <string name="back">返回</string>
+    <string name="ad_txt_default">禾聯碩發展HERAN產品連續三年榮獲台灣金品質獎.第二波節能補助禾聯液晶可補助機型出爐</string>
+    <string name="source_name">信源:</string>
+    <string name="signal_name">信號狀態:</string>
+    <string name="nosignaltips">無信號</string>
+    <string name="tuningtip">請按確認鍵掃台</string>
+    <string name="default_show_city">臺北</string>
+    <string name="passwordtip">該節目已經被鎖定</string>
+    <string name="date_format">MM月dd日 E</string>
+    <string name="theme_no_theme">沒有可用主題</string>
+    <string name="theme_no_network">連接超時，請檢查網絡設置</string>
+    <string name="shop_no_network">請檢查網絡設置</string>
+     <string name="server_error">連接伺服器異常</string>
+    <string name="order_remind">預約提醒</string>
+    <string name="will_start"> 即将开始</string>
+    <string name="start_auto"> 秒后 将自动切换</string>
+    <string name="switch_immediately">立即换台</string>
+    <string name="order_record_remind">預約录制提醒</string>
+    <string name="user_bonus">紅利點數:</string>
+    <string name="user_coin">購物金:</string>
+    <string name="mono">單聲道</string>
+    <string name="sap">副語音</string>
+    <string name="stereo">立體聲</string>
+    <string name="atv">有線電視</string>
+    <string name="dtv">數位電視</string>
+    <string name="noprogram_tip">當前沒有電視節目，請搜臺。</string>
+    <string name="app_run_error">應用程序運行出錯!</string>
+    <string name="mulit_download_tips">有主題正在下載中，請稍後！</string>
+    <string name="wait_for_launcher">主題數據正在加載中，請稍後！</string>
+    <string name="apk_download_tips">正在下載中，請稍後！</string>
+    <string name="shopping_gold">,購物金$</string>
+    <string name="bonus_gold">,紅利金$</string>
+    <string name="alert_confirm">確定</string>
+    <string name="alert_cancel">取消</string>
+    <string name="alert_info">檢測到新版本，是否升級？</string>
+    <string name="alert_title">網絡更新</string>
+    
+    <!-- pandora -->
+    <string name="enter_pandora_dialog_title">潘朵啦影城</string>
+    <string name="enter_pandora_dialog_content">本區為潘朵啦影城，部份影片內容具有爭議性題材與話題，不適宜某特定族群欣賞或觀看。\n如果此服務，造成您的困擾，請按[永久關閉服務]，進行關閉動作，謝謝。</string>
+    <string name="enter_pandora_dialog_yes">[同意並進入]</string>
+    <string name="enter_pandora_dialog_no">[不同意並離開]</string>
+    <string name="check_password_dialog_title">請輸入-親子密碼(0~9數字)</string>
+    <string name="check_password_dialog_content">基於「保護未成年人」收視安全保障。</string>
+    <string name="check_password_dialog_yes">[確定]</string>
+    <string name="check_password_dialog_no">[離開]</string>
+    <string name="wrong_password_dialog_title">親子密碼</string>
+    <string name="wrong_password_dialog_content">輸入錯誤,請重新輸入!!</string>
+    <string name="wrong_password_dialog_yes">重新輸入</string>
+    
+    <string name="enter_pandora_dialog_defaultedit_text">[修改密碼]</string>
+    <string name="enter_pandora_dialog_default_text">請輸入密碼...</string>
+    <string name="enter_pandora_dialog_current_text">請輸入目前密碼...</string>
+    <string name="enter_pandora_dialog_new_text">請輸入新密碼...</string>
+    <string name="enter_pandora_dialog_passwd_text">[輸入親子密碼]</string>
+    <string name="enter_pandora_dialog_editpwd_title">請輸入密碼</string>
+    <string name="enter_pandora_dialog_editpwd_emptytitle">密碼為空白</string>
+    <string name="enter_pandora_dialog_editpwd_emptytext">請牢記，避免造成客服人員負擔!</string>
+    <string name="enter_pandora_dialog_editpwd_editnewtitle">修改密碼</string>
+    <string name="enter_pandora_dialog_editpwd_editnewtext">請輸入『新密碼』!</string>
+    <string name="enter_pandora_dialog_superpwd_title">超級密碼</string>
+    <string name="enter_pandora_dialog_reset_title">說明</string>
+    <string name="enter_pandora_dialog_reset_text">系統重置後需修改密碼，請輸入『新密碼』!</string>
+    <string name="skip_pandora_dialog_text">[永久關閉服務]</string>
+    <string name="skip_pandora_dialog_defaultedit_title">關閉服務</string>
+    <string name="skip_pandora_dialog_defaultedit_text">若執行[永久關閉服務]動作後，此項功能就會消失於電視系統中，謝謝。</string>
+    <string name="download_illegal_url">應用未安裝，無效的連結，請檢查網路設置，若連網正常則可能服務器忙碌中!</string>
+      <string name="download_tips">使用聲明:</string>
+    <string name="download_msg">注意!您將安裝使用第三方應用程式，該應用僅作為本裝置系統相容性展示之用，所搭載之影音內容均非屬裝置製造商所提供，裝置本身不保證內容穩定性及來源合法性。另若有官方單位
+        、民間公證機關或相關利害關係人向本公司提出書面告知其適法性相關時，本公司有權逕行將此功能關閉。</string>
+    <string name="download_ok">確定</string>
+    <string name="download_cancel">取消</string>
+    <string name="download_start_downloading">開始下載!</string>    
+    <string name="apk_downloading">正在下载!</string>
+    <string name="install_info">應用安裝中，請稍後!</string>
+
+</resources>

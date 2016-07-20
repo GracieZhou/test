@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:Android="http://schemas.android.com/apk/res/android" >
+
+    <padding
+        Android:bottom="15dip"
+        Android:left="15dip"
+        Android:right="15dip"
+        Android:top="15dip" />
+    <!-- <padding -->
+    <!-- android:bottom="15dp" -->
+    <!-- android:left="15dp" -->
+    <!-- android:right="15dp" -->
+    <!-- android:top="15dp" /> -->
+
+<!--     <stroke -->
+<!--         Android:width="3dip" -->
+<!--         Android:color="#000000" /> -->
+    <!-- <stroke -->
+    <!-- android:width="3dip" -->
+    <!-- color="#000000" /> -->
+
+<!--     <corners Android:radius="5dip" /> -->
+    <!-- <corners android:radius="5dp" /> -->
+
+    <solid Android:background="@drawable/one_px" />
+    <!-- <solid android:color="#ffffff" /> -->
+
+</shape>

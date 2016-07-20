@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="gb2312"?>
+<config device_name="BenQi300" device_branch="dlp">
+	<!-- others -->
+	<Group name="others" enable="true">
+		<Item name="white_balance" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)白平衡</property>
+		</Item>
+		
+		<Item name="amta_hdcp_key" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)HDCP KEY</property>
+		</Item>
+		
+		<Item name="test_pattern" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)TEST Pattern</property>
+		</Item>
+	
+		<Item name="fan_speed" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)风扇转速</property>
+		</Item>
+		
+		<Item name="loudspeaker" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)喇叭</property>
+			<property name="operate_tip">接入带有音频输出的输入源，能听到喇叭声音则表示喇叭正常</property>
+		</Item>
+		
+		<Item name="vga" enable="false">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)VGA</property>
+			<property name="sub_group">video</property>
+			<property name="source">vga</property>
+			<property name="operate_tip">将输入源接到VGA接口，观看输出窗口的画面显示是否正常</property>
+		</Item>	
+		<Item name="hdmi1" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)HDMI1</property>
+			<property name="sub_group">video</property>
+			<property name="source">hdmi3</property>
+			<property name="operate_tip">将输入源接到HDMI1接口，观看输出窗口的画面显示是否正常</property>
+		</Item>
+		<Item name="hdmi2" enable="false">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)HDMI2</property>
+			<property name="sub_group">video</property>
+			<property name="source">hdmi2</property>
+			<property name="operate_tip">将输入源接到HDMI2接口，观看输出窗口的画面显示是否正常</property>
+		</Item>
+		<Item name="hdmi3" enable="false">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)HDMI3</property>
+			<property name="sub_group">video</property>
+			<property name="source">hdmi3</property>
+			<property name="operate_tip">将输入源接到HDMI3接口，观看输出窗口的画面显示是否正常</property>
+		</Item>
+		<Item name="av" enable="false">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)AV</property>
+			<property name="sub_group">video</property>
+			<property name="source">cvbs</property>
+			<property name="operate_tip">将输入源接到AV接口，观看输出窗口的画面显示是否正常</property>
+		</Item>
+		<Item name="ypbpr1" enable="false">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)YPBPR</property>
+			<property name="sub_group">video</property>
+			<property name="source">ypbpr1</property>
+			<property name="operate_tip">将输入源接到YPBPR接口，观看输出窗口的画面显示是否正常</property>
+		</Item>
+		<Item name="atv" enable="false">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)ATV</property>
+			<property name="sub_group">video</property>
+			<property name="source">atv</property>
+			<property name="operate_tip">将输入源接到ATV接口，观看输出窗口的画面显示是否正常</property>
+		</Item>
+		<Item name="dtv" enable="false">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)DTV</property>
+			<property name="sub_group">video</property>
+			<property name="source">dtv</property>
+			<property name="operate_tip">将输入源接到DTV接口，观看输出窗口的画面显示是否正常</property>
+		</Item>
+		<Item name="microphone_in" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)麦克风</property>
+			<property name="sub_group">video</property>
+			<property name="source">ktv</property>
+			<property name="operate_tip">接上麦克风，听喇叭是否能够听到麦克风的声音</property>
+		</Item>
+	
+		<Item name="line_out" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)LineOut</property>
+			<property name="operate_tip">接上耳机，听耳机是否有声音输出</property>
+		</Item>
+
+		<Item name="spdif" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)Spdif</property>
+			<property name="operate_tip">将光纤接功放，点击当前选中框，是否能听到声音</property>
+		</Item>
+		
+		<Item name="headset" enable="false">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)耳机</property>
+			<property name="operate_tip">接入耳机，能听到声音则为正常</property>
+		</Item>
+		
+		<Item name="wifi" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)WIFI</property>
+			<property name="show_ap_list">true</property>
+			<property name="connect_ap">flase</property>
+		</Item>
+		
+		<Item name="touchpad" enable="false">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)触摸板</property>
+		</Item>
+		
+		<Item name="dlp_power" enable="false">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)光机电源</property>
+		</Item>
+		
+		<Item name="battery_power" enable="false">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)电池电源</property>
+		</Item>
+		
+		<Item name="fan_power" enable="false">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)风扇电源</property>
+		</Item>
+		
+		<Item name="bluetooth" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)蓝牙</property>
+		</Item>
+		
+		<Item name="3d" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)3D</property>
+		</Item>	
+		
+		<Item name="gravity_sensor" enable="true">
+			<property name="tag">auto</property>
+			<property name="display_name">(自动)重力传感器</property>
+		</Item>
+		
+		<Item name="ntc_sensor" enable="true">
+			<property name="tag">auto</property>
+			<property name="display_name">(自动)温度传感器</property>
+			<property name="amta">true</property>
+		</Item>
+		
+		<Item name="usb1" enable="true">
+			<property name="tag">auto</property>
+			<property name="display_name">(自动)USB1</property>
+			<property name="sub_group">storage</property>
+			<property name="device_id">4</property>
+		</Item>
+		
+		<Item name="usb2" enable="true">
+			<property name="tag">auto</property>
+			<property name="display_name">(自动)USB2</property>
+			<property name="sub_group">storage</property>
+			<property name="device_id">1</property>
+		</Item>
+		
+		<Item name="usb3" enable="false">
+			<property name="tag">auto</property>
+			<property name="display_name">(自动)USB3</property>
+			<property name="sub_group">storage</property>
+			<property name="device_id">5</property>
+		</Item>
+		
+		<Item name="eth" enable="true">
+			<property name="tag">auto</property>
+			<property name="display_name">(自动)以太网</property>
+		</Item>
+		
+		<Item name="reset" enable="true">
+			<property name="tag">special</property>
+			<property name="display_name">重置</property>
+		</Item>
+		
+	</Group>	
+	<Group name="finish" enable="true">
+		<Item name="finish" enable="false"/>
+	</Group>
+</config>

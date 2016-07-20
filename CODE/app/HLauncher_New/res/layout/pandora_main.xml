@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="1280dp"
+    android:layout_height="720dp"
+    android:orientation="vertical" 
+    android:background="@drawable/pandora_back">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="1260dp"
+                android:layout_height="592dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"   >
+
+                <FrameLayout
+                    android:layout_width="1053dp"
+                    android:layout_height="592dp"
+                    android:layout_marginRight="9dp" >
+                    
+                    <EOSWebView
+                        android:id="@+id/web_pandora_left"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@android:color/transparent"
+                        android:focusable="false"
+                        android:visibility="invisible" />
+
+                    <ProgressBar
+                        android:id="@+id/pandora_pgb_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:orientation="vertical" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="198dp"
+                    android:layout_height="592dp" >
+                    
+                    <EOSWebView
+                        android:id="@+id/web_pandora_right"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@android:color/transparent"
+                        android:focusable="false"
+                        android:visibility="invisible" />
+
+                    <ProgressBar
+                        android:id="@+id/pandora_pgb_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:orientation="vertical" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="1260dp"
+                android:layout_height="86dp" >
+                
+                <EOSWebView
+                    android:id="@+id/web_pandora_bottom"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:visibility="invisible" >
+                </EOSWebView>
+
+                <ProgressBar
+                    android:id="@+id/pandora_pgb_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical" />
+            </FrameLayout>
+            
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="1260dp"
+                android:layout_height="592dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/btn_pandora_left"
+                    android:layout_width="1053dp"
+                    android:layout_height="592dp"
+                    android:layout_marginRight="9dp"
+                    android:background="@drawable/pandora_black_1"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:id="@+id/btn_pandora_right"
+                    android:layout_width="198dp"
+                    android:layout_height="592dp"
+                    android:background="#000000"
+                    android:scaleType="fitXY" />
+                
+                <EditText
+                    android:id="@+id/editTextDialogUserInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/editTextDialogUserInputNew"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/editTextDialogUserInputOld"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btn_pandora_bottom"
+                android:layout_width="1260dp"
+                android:layout_height="86dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#000000"
+                android:scaleType="fitXY" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+    
+    <com.heran.launcher2.util.FocusView
+        android:id="@+id/newpandora_selector"
+        android:layout_width="@dimen/buttion_tv_width"
+        android:layout_height="@dimen/buttion_tv_height"
+        android:background="@drawable/home_focus"
+        android:visibility="gone" />
+
+</LinearLayout>

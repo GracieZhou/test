@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"    
+    android:background="@drawable/nmediaback_2"
+    android:orientation="horizontal"
+	android:gravity="center_horizontal" >
+
+    <LinearLayout
+        android:layout_width="268dp"
+        android:layout_height="713dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="30dp" >
+
+        <Button
+            android:id="@+id/btn_entertainment_s3"
+            android:layout_width="268dp"
+            android:layout_height="713dp"
+            android:background="@drawable/entertainment_s"
+            android:focusable="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+                android:layout_width="288dp"
+                android:layout_height="514dp"
+                android:layout_marginTop="100dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_media3"
+                android:layout_width="288dp"
+                android:layout_height="375dp"
+                android:background="@drawable/mediabase_m" />
+
+            <ImageView
+                android:id="@+id/media_shadow3"
+                android:layout_width="288dp"
+                android:layout_height="171dp"
+                android:src="@drawable/mediabase_shadow" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="95dp"
+        	android:layout_marginRight="50dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_kok3"
+                android:layout_width="363dp"
+                android:layout_height="193dp"
+                android:background="@drawable/kok_s" />
+
+            <Button
+                android:id="@+id/btn_pandora3"
+                android:layout_width="363dp"
+                android:layout_height="193dp"
+                android:background="@drawable/pandora_s" />
+
+            <ImageView
+                android:id="@+id/pandora_shadow3"
+                android:layout_width="363dp"
+                android:layout_height="157dp"
+                android:src="@drawable/pandora_shadow_s" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="gb2312"?>
+<config device_name="H638" device_branch="tv">
+	<Group name="sn" enable="true">
+		<!-- sn macaddress -->
+		<Item name="sn" enable="true">
+			<property name="display_name">SN</property>
+		</Item>
+		
+		<!-- hdcp key -->
+		<Item name="hdcp_key" enable="true">
+			<property name="1.4">true</property>
+			<property name="2.2">true</property>
+		</Item>
+	</Group>
+
+	<Group name="hdcp" enable="false">
+		<!-- hdcp key -->
+		<Item name="hdcp" enable="false"/>
+	</Group>
+	
+	<!-- video -->
+	<Group name="video" enable="false">
+		<Item name="vga" enable="true">
+			<property name="display_name">VGA</property>
+			<property name="source">vga</property>
+		</Item>
+		<Item name="hdmi1" enable="true">
+			<property name="display_name">HDMI1</property>
+			<property name="source">hdmi3</property>
+		</Item>
+		<Item name="hdmi2" enable="false">
+			<property name="display_name">HDMI2</property>
+			<property name="source">hdmi2</property>
+		</Item>
+		<Item name="hdmi3" enable="false">
+			<property name="display_name">HDMI3</property>
+			<property name="source">hdmi3</property>
+		</Item>
+	</Group>
+
+	<!-- others -->
+	<Group name="others" enable="true">
+		<Item name="vga" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">VGA</property>
+			<property name="sub_group">video</property>
+			<property name="source">vga</property>
+			<property name="operate_tip">将输入源接到VGA接口，观看输出窗口的画面显示是否正常</property>
+		</Item>
+		<Item name="hdmi1" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">HDMI1</property>
+			<property name="sub_group">video</property>
+			<property name="source">hdmi1</property>
+			<property name="operate_tip">将输入源接到HDMI1接口，观看输出窗口的画面显示是否正常</property>
+		</Item>
+		<Item name="hdmi2" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">HDMI2</property>
+			<property name="sub_group">video</property>
+			<property name="source">hdmi2</property>
+			<property name="operate_tip">将输入源接到HDMI2接口，观看输出窗口的画面显示是否正常</property>
+		</Item>
+		<Item name="hdmi3" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">HDMI3</property>
+			<property name="sub_group">video</property>
+			<property name="source">hdmi3</property>
+			<property name="operate_tip">将输入源接到HDMI3接口，观看输出窗口的画面显示是否正常</property>
+		</Item>
+		<Item name="av" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">AV</property>
+			<property name="sub_group">video</property>
+			<property name="source">cvbs</property>
+			<property name="operate_tip">将输入源接到AV接口，观看输出窗口的画面显示是否正常</property>
+		</Item>
+		<Item name="ypbpr1" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">YPBPR</property>
+			<property name="sub_group">video</property>
+			<property name="source">ypbpr1</property>
+			<property name="operate_tip">将输入源接到YPBPR接口，观看输出窗口的画面显示是否正常</property>
+		</Item>
+		<Item name="atv" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">ATV</property>
+			<property name="sub_group">video</property>
+			<property name="source">atv</property>
+			<property name="operate_tip">将输入源接到ATV接口，观看输出窗口的画面显示是否正常</property>
+		</Item>
+		<Item name="dtv" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">DTV</property>
+			<property name="sub_group">video</property>
+			<property name="source">dtv</property>
+			<property name="operate_tip">将输入源接到DTV接口，观看输出窗口的画面显示是否正常</property>
+		</Item>
+		
+		<Item name="headset" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">耳机</property>
+		</Item>
+		
+		<Item name="spdif" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)Spdif</property>
+			<property name="operate_tip">将光纤接功放，点击当前选中框，是否能听到声音</property>
+		</Item>
+		
+		<Item name="wifi" enable="true">
+			<property name="tag">auto</property>
+			<property name="display_name">WIFI</property>
+			<property name="sub_group">storage</property>
+			<property name="device_id">3</property>
+		</Item>
+			
+		<Item name="usb1" enable="true">
+			<property name="tag">auto</property>
+			<property name="display_name">USB1</property>
+			<property name="sub_group">storage</property>
+			<property name="device_id">1</property>
+		</Item>
+		
+		<Item name="usb2" enable="true">
+			<property name="tag">auto</property>
+			<property name="display_name">USB2</property>
+			<property name="sub_group">storage</property>
+			<property name="device_id">2</property>
+		</Item>
+		
+		<Item name="sdcard" enable="true">
+			<property name="tag">auto</property>
+			<property name="display_name">SD卡</property>
+			<property name="sub_group">storage</property>
+			<property name="device_id">5</property>
+		</Item>
+		
+		<Item name="eth" enable="true">
+			<property name="tag">auto</property>
+			<property name="display_name">以太网</property>
+		</Item>
+		
+		<Item name="recheck" enable="true">
+			<property name="tag">special</property>
+			<property name="display_name">测试结果校验</property>
+		</Item>
+		
+		<Item name="reset" enable="true">
+			<property name="tag">special</property>
+			<property name="display_name">重置</property>
+		</Item>
+	</Group>	
+	<Group name="finish" enable="true">
+		<Item name="finish" enable="false"/>
+	</Group>
+</config>

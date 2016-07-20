@@ -1,0 +1,84 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.utsmta.app"
+    android:versionCode="1"
+    android:versionName="2.1.0509"
+	android:sharedUserId="android.uid.system">
+	<!-- android:sharedUserId="android.uid.system" -->
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.mstar.permission.RW_TV_DATA" />
+    <uses-permission android:name="android.permission.SET_TIME_ZONE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+		android:name=".MtaApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+		<activity
+            android:name=".TestActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+		<activity
+            android:name=".HdcpProgrammeActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+		<activity
+            android:name="com.utsmta.mstar.amta.AssembleMtaActivity"
+            android:theme="@android:style/Theme.NoTitleBar"  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+				<action android:name="com.utsmta.app.START_AMTA" />
+				<category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" 
+			android:windowSoftInputMode="adjustUnspecified|stateHidden">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.MAIN" />
+				<action android:name="com.utsmta.app.MainActivity" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<!--category android:name="android.intent.category.LAUNCHER" /-->
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".BootBroadcastReceiver" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service 
+            android:enabled="true"
+            android:name=".Restart"
+			android:process=".Restart">
+            <intent-filter>  
+                  <action android:name="action.restart"/>  
+                  <category android:name="android.intent.category.DEFAULT"/>  
+            </intent-filter>  
+        </service>		
+    </application>
+
+</manifest>

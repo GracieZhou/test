@@ -1,0 +1,207 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+	android:background="@drawable/blank_bg"
+	android:padding="10dip">
+	<!-- bottom bar -->
+	<LinearLayout
+		android:id="@+id/top_bar"
+		android:layout_width="match_parent"
+		android:layout_height="45dp"
+		android:layout_alignParentBottom="true"
+		android:gravity="center">
+		
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="4.5"
+		android:gravity="center">
+			<!--system version-->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:orientation="horizontal"
+				android:gravity="center">
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/system_version_title"
+					android:textColor="@color/white"
+					android:textSize="15sp" />
+				<TextView
+					android:id="@+id/sys_version_name"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="left"
+					android:textColor="@color/white"
+					android:textSize="16sp" />
+			</LinearLayout>
+			
+			<!-- mta version-->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="2"
+				android:orientation="horizontal"
+				android:gravity="center">
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/mta_version_title"
+					android:textColor="@color/white"
+					android:textSize="15sp" />
+				<TextView
+					android:id="@+id/mta_version"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="left"
+					android:textColor="@color/white"
+					android:textSize="16sp" />
+			</LinearLayout>
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="2"
+			android:gravity="center">
+			
+			<!--mac address-->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.4"
+				android:orientation="horizontal"
+				android:gravity="center">
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/mac_addr_title"
+					android:textColor="@color/white"
+					android:textSize="15sp" />
+				<TextView
+					android:id="@+id/mac_addr"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:gravity="left"
+					android:textColor="@color/white"
+					android:textSize="16sp" />
+			</LinearLayout>
+			
+			<!-- serial number-->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:orientation="horizontal"
+				android:gravity="center">
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/serial_title"
+					android:textColor="@color/white"
+					android:textSize="15sp" />
+				<TextView
+					android:id="@+id/serial_value"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="left"
+					android:textColor="@color/white"
+					android:textSize="16sp" />
+			</LinearLayout>
+			
+			<!-- hdcp key-->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.5"
+				android:orientation="horizontal"
+				android:visibility="visible"
+				android:gravity="center">
+				<LinearLayout
+					android:id="@+id/hdcp_key_ly"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_weight="1"
+					android:visibility="gone">
+					<TextView
+						android:id="@+id/hdcp_tv"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/hdcp_key_title"
+						android:textColor="@color/white"
+						android:textSize="15sp" />
+					<ImageView
+						android:id="@+id/hdcp_key_name"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:gravity="center"
+						android:src="@drawable/alert"/>
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/hdcp_key_2_2_ly"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_weight="1"
+					android:visibility="gone">
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/hdcp_key_2_2_title"
+						android:textColor="@color/white"
+						android:textSize="15sp" />
+					<ImageView
+						android:id="@+id/hdcp_key_2_2_name"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:gravity="center"
+						android:src="@drawable/alert"/>
+				</LinearLayout>
+			</LinearLayout>
+			
+		</LinearLayout>
+	</LinearLayout>
+	
+	<ImageView 
+	    android:id="@+id/top_splitor"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@id/top_bar"
+	    android:src="@drawable/splitor"/>
+	
+	<!-- top bar -->
+	
+	<LinearLayout
+		android:id="@+id/bottom_bar"
+		android:layout_width="match_parent"
+		android:layout_height="45dp"
+		android:layout_alignParentTop="true"
+		android:visibility="gone">
+	</LinearLayout>
+
+
+	<ImageView 
+	    android:id="@+id/bottom_splitor"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@id/bottom_bar"
+	    android:src="@drawable/splitor"
+		android:visibility="gone"/>
+
+	<!-- center -->
+	<FrameLayout
+		android:id="@+id/fg_container"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/bottom_splitor"
+		android:layout_above="@id/top_splitor"
+		android:layout_marginBottom="15dip"/>
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+         android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+      
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            
+            
+             >
+
+            <ImageButton
+                android:id="@+id/left"
+                android:layout_width="963dp"
+                android:layout_height="720dp"
+                android:scaleType="fitXY"
+                android:background="@android:color/transparent" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"                
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/right01"
+                    android:layout_width="316dp"
+                    android:layout_height="373dp"
+                    android:scaleType="fitXY"
+                    android:background="@android:color/transparent" />
+
+                <ImageButton
+                    android:id="@+id/right02"
+                    android:layout_width="316dp"
+                    android:layout_height="173dp"
+                    android:scaleType="fitXY"
+                    android:background="@android:color/transparent" />
+
+                <ImageButton
+                    android:id="@+id/right03"
+                    android:layout_width="316dp"
+                    android:layout_height="173dp"
+                    android:scaleType="fitXY"
+                    android:background="@android:color/transparent" />
+                
+               
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+				 <com.heran.launcher2.util.FocusView
+        			android:id="@+id/charage_selector"
+        			android:layout_width="@dimen/buttion_tv_width"
+        			android:layout_height="@dimen/buttion_tv_height"
+        			android:background="@drawable/home_focus"
+        			android:visibility="gone" />
+</LinearLayout>

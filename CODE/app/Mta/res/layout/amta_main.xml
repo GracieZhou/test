@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+	android:background="@drawable/main_bg">
+	<FrameLayout
+		android:id="@+id/top_bar"
+		android:layout_width="match_parent"
+		android:layout_height="60dip"
+		android:layout_alignParentTop="true">
+		<TextView
+			style="@style/middle_title"
+			android:id="@+id/tag_tv"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"	
+			android:gravity="center"/>
+	</FrameLayout>
+	<FrameLayout
+		android:id="@+id/fg_container"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/top_bar" />
+		
+</RelativeLayout>

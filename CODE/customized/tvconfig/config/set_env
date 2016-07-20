@@ -1,0 +1,20 @@
+setenv LOAD_KERNEL mmc read.p 0x25000000 boot 0x00500000\; authenticateAN 0x25000000
+setenv BOOT_KERNEL bootm 0x25000000
+setenv recoverycmd mmc read.p 0x25000000 recovery 0x00B00000\; authenticateAN 0x25000000\; bootm 0x25000000
+setenv LOAD_NUTTX mmc read.p 0x5EC70000 tee 0x600000
+setenv BOOT_NUTTX bootNuttx 0x1EC70000
+setenv CMA_REG0 CMA0=mali0,miu=0,pid=16,sz=0x19000000
+setenv CMA_REG1 CMA1=mali1,miu=1,pid=17,sz=0x5400000
+setenv CMA_REG2 CMA2=mali2,miu=2,pid=18,sz=0xE800000
+setenv bootargs console=ttyS0,115200 androidboot.console=ttyS0 root=/dev/ram rw rootwait init=/init CORE_DUMP_PATH=/data/core_dump.%%p.gz KDebug=1 delaylogo=true $(CMA_REG0) $(CMA_REG1)
+setenv bootlogo_gopidx 3
+setenv bootlogo_buffer E_MMAP_ID_DIP_10M_2
+setenv str_crc 1
+setenv db_table 0
+setenv verify n
+setenv sync_mmap 1
+setenv db_table 1
+setenv mboot_default_env 0
+saveenv
+reset
+%

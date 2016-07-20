@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="gb2312"?>
+<device name="mstar:t628">
+	<items>
+		<item 
+			name="sn"
+			config="true"
+			title="（手动）SN"
+			description="输入框获取焦点后，用扫描枪扫描条码，程序将自动校验数据，出现绿色勾并提示'写入成功'表示成功否则有异常"/>
+		<item
+			name="vga1"
+			config="false"
+			title="（手动）VGA"
+			description="将输入源接到VGA接口，观看输出窗口的画面显示是否正常（按确认键状态改为”通过“，再次按确认状态改为“未通过”）"/>
+		<item
+			name="hdmi1"
+			config="true"
+			title="（手动）HDMI"
+			description="将输入源接到HDMI接口，观看输出窗口的画面显示是否正常（按确认键状态改为”通过“，再次按确认状态改为“未通过”）"/>	
+		<item
+			name="loudspeaker"
+			config="true"
+			title="(手动) 喇叭"
+			description="接入带有音频输出的输入源，能听到喇叭声音则表示喇叭正常（按确认键状态改为”通过“，再次按确认状态改为“未通过”）"/>
+		<item
+			name="touchpad1"
+			config="true"
+			title="（手动）触摸板"
+			description="每个按键点击至少3次，能被识别图标变为绿色勾表示能正常识别否则为异常"
+			number="7"/>	
+		<item
+			name="projector_power"
+			config="true"
+			title="（手动）光机电源"
+			description="查看图片上红色框所示的指示灯，灯亮表示电源正常（按确认键状态改为”通过“，再次按确认状态改为“未通过”）"/>				
+		<item
+			name="battery_power"
+			config="true"
+			title="（手动）电池电源"
+			description="查看图片上红色框所示的仪器表，数值在6.8 ~ 8.4之间表示电源正常（按确认键状态改为”通过“，再次按确认状态改为“未通过”）"/>			
+		<item
+			name="fan_power"
+			config="true"
+			title="（手动）风扇电源"
+			description="查看图片上红色框所示的仪器表，数值在3.61 ~ 3.99之间表示电源正常（按确认键状态改为”通过“，再次按确认状态改为“未通过”）"/>				
+
+		<item
+			name="gravity_sensor"
+			config="true"
+			title="（自动）重力传感器"
+			auto="true"
+			description="软件自动检测重力传感器模块是否正常，图标变为绿色勾表示该项检测通过否则不通过。"/>	
+		<item
+			name="usb1"
+			config="true"
+			auto="true"
+			title="（自动）USB1"
+			description="将U盘插入USB1口，软件自动检测是否能识别，图标变为绿色勾表示该项检测通过否则不通过"/>	
+		<item
+			name="usb2"
+			config="true"
+			auto="true"
+			title="（自动）USB2"
+			description="将U盘插入USB2口，软件自动检测是否能识别，图标变为绿色勾表示该项检测通过否则不通过"/>
+		<item 
+			name="eth1"
+			config="true"
+			auto="true"
+			title="（自动）以太网"
+			description="插入网线，软件自动检测有线网络是否连通，图标变为绿色勾表示该项检测通过否则不通过。"/>			
+		<item 
+			name="wifi1"
+			config="true"
+			auto="true"
+			title="（自动）WIFI"
+			description="软件自动检测WIFI模块是否正常，图标变为绿色勾表示该项检测通过否则不通过。"/>
+	</items>
+</device>

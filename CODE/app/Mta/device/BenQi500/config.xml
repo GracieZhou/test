@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="gb2312"?>
+<config device_name="BenQi500" device_branch="dlp">
+	<Group name="sn" enable="true">
+		<!-- sn macaddress -->
+		<Item name="sn" enable="true">
+			<property name="display_name">SN</property>
+		</Item>
+		
+		<!-- hdcp key -->
+		<Item name="hdcp_key" enable="false">
+			<property name="1.4">false</property>
+			<property name="2.2">false</property>
+		</Item>
+	</Group>
+	
+	<!-- video -->
+	<Group name="video" enable="false">
+		<Item name="vga" enable="true">
+			<property name="display_name">VGA</property>
+			<property name="source">vga</property>
+		</Item>
+		<Item name="hdmi1" enable="true">
+			<property name="display_name">HDMI1</property>
+			<property name="source">hdmi3</property>
+		</Item>
+		<Item name="hdmi2" enable="false">
+			<property name="display_name">HDMI2</property>
+			<property name="source">hdmi2</property>
+		</Item>
+		<Item name="hdmi3" enable="false">
+			<property name="display_name">HDMI3</property>
+			<property name="source">hdmi3</property>
+		</Item>
+	</Group>
+
+	<!-- others -->
+	<Group name="others" enable="true">
+		<Item name="amta_hdcp_key" enable="false">
+			<property name="tag">manual</property>
+			<property name="display_name">HDCP KEY</property>
+			<property name="amta">true</property>
+		</Item>		
+		<Item name="white_balance" enable="false">
+			<property name="tag">manual</property>
+			<property name="display_name">白平衡</property>
+			<property name="amta">true</property>
+		</Item>		
+		<Item name="hdmi1" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">HDMI1</property>
+			<property name="sub_group">video</property>
+			<property name="source">hdmi3</property>
+			<property name="operate_tip">将输入源接到HDMI1接口，观看输出窗口的画面显示是否正常</property>
+		</Item>
+		<Item name="adc" enable="false">
+			<property name="tag">manual</property>
+			<property name="display_name">ADC Adjust</property>
+			<property name="amta">true</property>
+			<property name="sub_group">video</property>
+			<property name="source">vga</property>
+			<property name="operate_tip">将输入源接到VGA接口，观看输出窗口的画面显示是否正常</property>
+		</Item>		
+		<Item name="vga" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">VGA</property>			
+			<property name="sub_group">video</property>
+			<property name="source">vga</property>
+			<property name="operate_tip">将输入源接到VGA接口，观看输出窗口的画面显示是否正常</property>
+		</Item>				
+		<Item name="line_in" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">line_in</property>
+			<property name="sub_group">video</property>
+			<property name="source">vga</property>
+			<property name="operate_tip">接入VGA，并接入音频输入信号，听喇叭声音是否正常</property>
+		</Item>					
+		<Item name="microphone_in" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">麦克风</property>
+			<property name="sub_group">video</property>
+			<property name="source">ktv</property>
+			<property name="operate_tip">接上麦克风，听喇叭是否能够听到麦克风的声音</property>
+		</Item>
+		<Item name="line_out" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">LineOut</property>
+			<property name="operate_tip">接上耳机，听耳机是否有声音输出</property>
+		</Item>		
+		<Item name="fan_speed" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">风扇转速</property>
+			<property name="amta">true</property>
+		</Item>			
+		
+		<Item name="wifi" enable="true">
+			<property name="tag">manual</property>
+			<property name="display_name">(手动)WIFI</property>
+			<property name="show_ap_list">true</property>
+			<property name="connect_ap">false</property>
+		</Item>
+		
+		<Item name="usb1" enable="true">
+			<property name="tag">auto</property>
+			<property name="display_name">USB1</property>
+			<property name="sub_group">storage</property>
+			<property name="device_id">4</property>
+		</Item>
+		
+		<Item name="usb2" enable="true">
+			<property name="tag">auto</property>
+			<property name="display_name">USB2</property>
+			<property name="sub_group">storage</property>
+			<property name="device_id">1</property>
+			<property name="device_id_3_0">2</property>
+		</Item>
+		
+		<Item name="usb3" enable="false">
+			<property name="tag">auto</property>
+			<property name="display_name">(自动)USB3</property>
+			<property name="sub_group">storage</property>
+			<property name="device_id">5</property>
+		</Item>
+		
+		<Item name="ntc_sensor" enable="true">
+			<property name="tag">auto</property>
+			<property name="display_name">温度传感器</property>
+			<property name="amta">true</property>
+		</Item>
+		
+		<Item name="gravity_sensor" enable="true">
+			<property name="tag">auto</property>
+			<property name="display_name">重力传感器</property>
+		</Item>
+				
+		<Item name="eth" enable="true">
+			<property name="tag">auto</property>
+			<property name="display_name">以太网</property>
+		</Item>
+								
+		<Item name="recheck" enable="true">
+			<property name="tag">special</property>
+			<property name="display_name">测试结果校验</property>
+		</Item>
+		
+		<Item name="reset" enable="true">
+			<property name="tag">special</property>
+			<property name="display_name">重置</property>
+		</Item>
+	</Group>	
+	<Group name="finish" enable="true">
+		<Item name="finish" enable="false"/>
+	</Group>
+</config>

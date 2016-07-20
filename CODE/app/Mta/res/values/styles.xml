@@ -1,0 +1,59 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+	<style
+		name="Theme.Wallpaper"
+		parent="android:style/Theme.Wallpaper">
+		<item name="android:colorForeground">#fff8</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowFullscreen">true</item>
+	</style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+   <style name="large_title">
+       <item name="android:textAppearance">?android:attr/textAppearanceLargeInverse</item>
+       <item name="android:textColor">@android:color/white</item>
+       <item name="android:shadowColor">@android:color/darker_gray</item>
+       <item name="android:shadowDx">0.5</item>
+       <item name="android:shadowDy">0.5</item>
+       <item name="android:shadowRadius">1.0</item>
+       <item name="android:textSize">35sp</item>
+   </style>
+   
+   <style name="middle_title">
+       <item name="android:textAppearance">?android:attr/textAppearanceLargeInverse</item>
+       <item name="android:textColor">#CCCCCCCC</item>
+       <item name="android:textSize">26sp</item>
+       <item name="android:lineSpacingExtra">4dp</item>
+   </style>
+   
+   <style name="small_title">
+       <item name="android:textAppearance">?android:attr/textAppearanceLargeInverse</item>
+       <item name="android:textColor">#CCCCCCCC</item>
+       <item name="android:textSize">18sp</item>
+       <item name="android:lineSpacingExtra">2dp</item>
+   </style>
+   
+   <style name="small_button">
+       <item name="android:paddingTop">8dip</item>
+       <item name="android:paddingBottom">8dip</item>
+       <item name="android:paddingLeft">8dip</item>
+       <item name="android:paddingRight">8dip</item>
+       <item name="android:textSize">20sp</item>
+       <item name="android:gravity">center</item>
+       <item name="android:background">@drawable/small_button_bg</item>
+   </style>
+</resources>

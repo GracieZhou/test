@@ -1,0 +1,9 @@
+#############################
+# tv partition files
+#
+/tvconfig(/.*)?                         u:object_r:rootfs:s0
+/tvcustomer(/.*)?                       u:object_r:system_data_file:s0
+/tvdatabase(/.*)?                       u:object_r:system_data_file:s0
+/tvservice(/.*)?                        u:object_r:rootfs:s0
+/tvservice/applications/bin/tvos        u:object_r:tvos_exec:s0
+/tvservice/applications/secure_daemon   u:object_r:tee_exec:s0

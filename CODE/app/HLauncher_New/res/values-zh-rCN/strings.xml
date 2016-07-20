@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="data_format"><xliff:g id="format">MM月dd日 E</xliff:g></string>
+    <string name="app_name">HERTV 首页</string>
+    <string name="action_settings">Settings</string>
+    <string name="helptip">按下遥控器上的 小帮手按钮开启小帮手</string>
+    <string name="adtxt">主界面 > 热播</string>
+    <string name="load_tip">加载中...</string>
+    <string name="allapp">我的应用</string>
+    <string name="back">返回</string>
+    <string name="ad_txt_default">禾联硕发展HERAN产品 连续三年荣获台湾金品质奖 .第二波节能补助 禾联液晶可补助机型出炉</string>
+    <string name="source_name">信源:</string>
+    <string name="signal_name">信号状态:</string>
+    <string name="nosignaltips">无信号</string>
+    <string name="tuningtip">请按确认键扫台</string>
+    <string name="default_show_city">台北</string>
+    <string name="passwordtip">该节目已经被锁定</string>
+    <string name="date_format">MM月dd日 E</string>
+    <string name="theme_no_theme">沒有可用主題</string>
+    <string name="theme_no_network">连接超时，请检查网络设置</string>
+    <string name="shop_no_network">请检查网络设置</string>
+    <string name="server_error">連接伺服器異常</string>
+    <string name="user_bonus">红利点数:</string>
+    <string name="user_coin">购物金:</string>
+    <string name="mono">单声道</string>
+    <string name="sap">副语音</string>
+    <string name="stereo">立体声</string>
+    <string name="atv">有线电视</string>
+    <string name="dtv">数位电视</string>
+    <string name="noprogram_tip">当前没有电视节目，请搜台。</string>
+    <string name="app_run_error">应用程序运行出错!</string>
+    <string name="mulit_download_tips">有主题正在下载中，请稍后！</string>
+    <string name="wait_for_launcher">主题数据正在加载中，请稍后！</string>
+    <string name="apk_download_tips">正在下载中，请稍后！</string>
+    <string name="shopping_gold">,购物金$</string>
+    <string name="bonus_gold">,红利金$</string>
+    <string name="alert_confirm">确定</string>
+    <string name="alert_cancel">取消</string>
+    <string name="alert_info">检测到新版本，是否升级？</string>
+    <string name="alert_title">网络更新</string>
+	<string name="download_illegal_url">应用未安装，无效的连结，请检查网路设置，若连网正常则可能服务器忙碌中！</string>
+</resources>

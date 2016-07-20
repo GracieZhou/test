@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/ad_item_button_width"
+    android:layout_height="@dimen/ad_item_linearlayout_height"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/bt1"
+        android:layout_width="213.3dp"
+        android:layout_height="275.3dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/heran01"
+         
+        >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/bt2"
+        android:layout_width="213.3dp"
+        android:layout_height="275.3dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/heran02"
+         >
+    </ImageButton>
+
+</LinearLayout>

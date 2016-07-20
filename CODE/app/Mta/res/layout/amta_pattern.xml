@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:gravity="center"
+	android:layout_gravity="center">
+	<Button
+		style="@style/small_button"
+		android:id="@+id/show_btn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/show"/>
+	<LinearLayout
+		android:id="@+id/bottom_ly"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:gravity="center"
+		android:orientation="horizontal"
+		android:visibility="gone">
+		<Button
+			style="@style/small_button"
+			android:id="@+id/pass_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/pass"/>
+		<Button
+			style="@style/small_button"
+			android:id="@+id/fail_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/fail"/>			
+	</LinearLayout>
+</RelativeLayout>

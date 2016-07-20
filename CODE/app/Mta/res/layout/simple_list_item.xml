@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/test_item"
+    android:layout_width="match_parent"
+    android:layout_height="40dip"
+    android:orientation="horizontal" >
+    <TextView
+	     android:id="@+id/item_title"
+	     android:layout_width="match_parent"
+	     android:layout_height="32dip"
+	     android:layout_weight="1"
+	     android:layout_margin="3dip"
+	     android:ellipsize="marquee"
+	     android:marqueeRepeatLimit="marquee_forever"
+	     android:textColor="@color/white"
+	     android:textSize="18sp"
+		 android:textStyle="bold"
+	     android:singleLine="true"
+		 android:layout_gravity="left"
+		 android:gravity="center_vertical"
+		 android:paddingLeft="3dip"/>   	            
+</LinearLayout>

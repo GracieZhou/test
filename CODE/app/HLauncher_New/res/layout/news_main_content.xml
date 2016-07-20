@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="1066.6dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/news_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/path"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/news_path_bg" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/chinatimes_logo" />
+
+            <TextView
+                android:id="@+id/news_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="#B3EAFC"
+                android:textSize="25sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="450dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="470dp"
+                    android:layout_marginLeft="35dp"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/news_img"
+                        android:layout_width="300dp"
+                        android:layout_height="240dp"
+                        android:layout_marginTop="10dp"
+                        android:adjustViewBounds="true" />
+
+                    <com.heran.launcher2.util.ReadView
+                        android:id="@+id/readView1"
+                        android:layout_width="300dp"
+                        android:layout_height="187dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+                    <com.heran.launcher2.util.ReadView
+                        android:id="@+id/readView4"
+                        android:layout_width="300dp"
+                        android:layout_height="187dp"
+                        android:text="@string/readView"
+                        android:textSize="20sp"
+                        android:visibility="invisible" />
+
+                    <com.heran.launcher2.util.ReadView
+                        android:id="@+id/readView5"
+                        android:layout_width="300dp"
+                        android:layout_height="425dp"
+                        android:text="@string/readView"
+                        android:textSize="20sp" />
+
+                    <com.heran.launcher2.util.ReadView
+                        android:id="@+id/readView6"
+                        android:layout_width="300dp"
+                        android:layout_height="425dp"
+                        android:text="@string/readView"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <com.heran.launcher2.util.ReadView
+                    android:id="@+id/readView2"
+                    android:layout_width="300dp"
+                    android:layout_height="425dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <com.heran.launcher2.util.ReadView
+                    android:id="@+id/readView3"
+                    android:layout_width="300dp"
+                    android:layout_height="425dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="end"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="4dp" >
+
+                <ImageButton
+                    android:id="@+id/prepage"
+                    style="android:imageButtonStyle"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="235dp"
+                    android:background="#00000000"
+                    android:src="@drawable/msg_prepage_ns" />
+
+                <TextView
+                    android:id="@+id/page"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="@string/page"
+                    android:textColor="#B3B3B3"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/choicepage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choicepage"
+                    android:textColor="#B3B3B3"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/cc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/code"
+                    android:textColor="#B3B3B3"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/totalpage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="100dp"
+                    android:text="@string/choicepage"
+                    android:textColor="#B3B3B3"
+                    android:textSize="25sp" />
+
+                <ImageButton
+                    android:id="@+id/nextpage"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:src="@drawable/msg_nextpage_ns" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="213.3dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/home_btn_icon" />
+
+        <include
+            android:id="@+id/newsItem01"
+            layout="@layout/newslist_item" />
+
+        <include
+            android:id="@+id/newsItem02"
+            layout="@layout/newslist_item" />
+
+        <include
+            android:id="@+id/newsItem03"
+            layout="@layout/newslist_item" />
+
+        <include
+            android:id="@+id/newsItem04"
+            layout="@layout/newslist_item" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="61dp"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="0dp" >
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:text="@string/time02"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/tmp_img"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/weather_main_day_icon_01" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp" >
+
+        <TextView
+            android:id="@+id/tmp_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tmp_txt"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/img_t" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tmp_dsc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/tv_weatherDesc"
+        android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/wind_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:text="@string/wind_txt" />
+
+        <ImageView
+            android:id="@+id/wind_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/rain"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/rain"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

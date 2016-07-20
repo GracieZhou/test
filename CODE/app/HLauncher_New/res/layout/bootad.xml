@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <com.heran.launcher2.advert.BootVideoView
+        android:id="@+id/videoView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible" />
+
+    <FrameLayout
+        android:id="@+id/img_adCycle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/test123_1" 
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:text="@string/txt"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/txt"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <!-- android:background="#5f000000" -->
+
+    <FrameLayout
+        android:id="@+id/button_menu"
+        android:layout_width="150dp"
+        android:layout_height="600dp"
+        android:layout_gravity="right"
+        android:visibility="gone" >
+
+        <!-- android:visibility="gone" -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/menubtn1"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/admenu1_1"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/menubtn2"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/admenu2_1"
+                android:visibility="gone" />
+
+
+            <Button
+                android:id="@+id/menubtn3"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/admenu3_1"
+                android:visibility="gone" />
+
+
+            <Button
+                android:id="@+id/menubtn4"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/admenu4_1"
+                android:visibility="gone" />
+
+
+            <Button
+                android:id="@+id/menubtn5"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/admenu5_1"
+                android:visibility="gone" />
+
+
+
+            <Button
+                android:id="@+id/menubtn6"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/admenu5_1"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/menubtn7"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/admenu5_1"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/menubtn8"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/admenu5_1"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/menubtn9"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/admenu5_1"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/menubtn10"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/admenu5_1"
+                android:visibility="gone" />
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

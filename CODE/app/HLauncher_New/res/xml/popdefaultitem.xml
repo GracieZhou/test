@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+	
+     <item
+        className="com.eostek.scifly.video.home.HomeActivity"
+        packageName="com.eostek.scifly.video"
+        title="91Q視頻"/>
+     <item
+        className="com.biaoqi.filefly.STBFileFlyMainActivity"
+        packageName="com.biaoqi.filefly"
+        title="无线传屏"/>
+  
+
+</items>

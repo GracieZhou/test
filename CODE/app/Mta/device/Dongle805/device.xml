@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="gb2312"?>
+<device name="dongle">
+	<items>
+		<item 
+			name="sn"
+			config="true"
+			title="SN"
+			description="插入含有MAC/SN数据库文件的U盘，软件自动根据已经烧写的MAC地址来查找并烧写序列号,图标变为绿色勾表示该项检测通过"/>
+		<item 
+			name="wifi1"
+			config="true"
+			title="WIFI"
+			description="软件自动检测WIFI模块是否正常，图标变为绿色勾表示该项检测通过否则不通过。"/>
+		<item
+			name="usb1"
+			config="true"
+			title="USB1"
+			description="将U盘插入USB口，软件自动检测是否能识别，图标变为绿色勾表示该项检测通过否则不通过"/>
+		<item
+			name="sdcard1"
+			config="true"
+			title="TF卡"
+			description="将TF卡插入卡槽，软件自动检测是否能识别，图标变为绿色勾表示该项检测通过否则不通过"/>
+
+	</items>
+</device>

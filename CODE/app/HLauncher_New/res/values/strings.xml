@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="version">1.00</string>	
+    <string name="data_format"><xliff:g id="format">MM-dd E</xliff:g></string>
+    <string name="app_name">HERTV Launcher</string>
+    <string name="action_settings">Settings</string>
+    <string name="helptip">Press Assistant button on the remote control to open the Companion</string>
+    <string name="adtxt">main > hit</string>
+    <string name="load_tip">loading...</string>
+    <string name="allapp">My Application</string>
+    <string name="back">back</string>
+    <string name="ad_txt_default">HERAN product development for three consecutive years won the Taiwan Golden Quality Award. Second wave of energy saving LCD may grant subsidies associated HERAN models released</string>
+    <string name="more_app">All App</string>
+    <string name="temperature">℃</string>
+    <string name="default_temperature">N/A</string>
+    <string name="source_name">Source:</string>
+    <string name="signal_name">Signal status:</string>
+    <string name="nosignaltips">\u0020 No Signal</string>
+    <string name="tuningtip">Press enter to tuning</string>
+    <string name="default_show_city">Taipei</string>
+    <string name="passwordtip">The program is locked</string>
+    <string name="date_format">MM-dd E</string>
+    <string name="theme_no_theme">There is no available theme</string>
+    <string name="theme_no_network">Connect timeout,please check network !</string>
+    <string name="shop_no_network">Please check network !</string>
+    <string name="server_error">server error</string>
+    <string name="order_remind">Order Reminder</string>
+    <string name="will_start"> will start.</string>
+    <string name="start_auto"> seconds will switch to it.</string>
+    <string name="switch_immediately">Sure</string>
+    <string name="order_record_remind">Order Recorder Reminder</string>
+    <string name="user_bonus">Bonus:</string>
+    <string name="user_coin">Coin:</string>
+    <string name="mono">MONO</string>
+    <string name="sap">SAP</string>
+    <string name="stereo">Stereo</string>
+    <string name="dtv">Digital TV</string>
+    <string name="atv">analog TV</string>
+    <string name="noprogram_tip">No program now.You need to search.</string>
+    <string name="app_run_error">Application run error!</string>
+    <string name="mulit_download_tips">Please wait for the previous theme finish downloading!</string>
+    <string name="wait_for_launcher">Please wait for loading data！</string>
+    <string name="apk_download_tips">Please wait for the previous apk finish downloading!</string>
+	<string name="shopping_gold">,Shopping gold$</string>
+    <string name="bonus_gold">,Bonus gold$</string>
+    <string name="alert_confirm">Confirm</string>
+    <string name="alert_cancel">Cancel</string>
+    <string name="alert_info">There is a new version.update now?</string>
+    <string name="alert_title">Net Update</string>
+    
+    
+     <!-- pandora -->
+	<string name="enter_pandora_dialog_title">Pandora Studios</string>
+	<string name="enter_pandora_dialog_content">This area is Pandora Studios, part of the video content and controversial subject matter topic, inappropriate or enjoy watching a particular ethnic group. \nIf this service, causing you distress, please press [Close Services Forever] button to close the function, thank you.</string>
+	<string name="enter_pandora_dialog_yes">[Agree and enter]</string>
+    <string name="enter_pandora_dialog_no">[Disagree and leave]</string>
+    <string name="check_password_dialog_title">Please enter paternity password(0~9)</string>
+    <string name="check_password_dialog_content">Based on the protection of minors viewing security</string>
+    <string name="check_password_dialog_yes">[Enter]</string>
+    <string name="check_password_dialog_no">[Leave]</string>
+    <string name="wrong_password_dialog_title">Paternity Password</string>
+    <string name="wrong_password_dialog_content">Wrong password, please re-enter.</string>
+    <string name="wrong_password_dialog_yes">Re-enter</string>
+    
+    <string name="enter_pandora_dialog_defaultedit_text">[Edit Password]</string>
+    <string name="enter_pandora_dialog_default_text">Please enter password...</string>
+    <string name="enter_pandora_dialog_current_text">Please enter current password...</string>
+    <string name="enter_pandora_dialog_new_text">Please enter new password...</string>
+    <string name="enter_pandora_dialog_passwd_text">[Please enter Paternity Password]</string>
+    <string name="enter_pandora_dialog_editpwd_title">Please enter password</string>
+    <string name="enter_pandora_dialog_editpwd_emptytitle">Password is empty</string>
+    <string name="enter_pandora_dialog_editpwd_emptytext">Keep in mind to avoid the burden of customer service!</string>
+    <string name="enter_pandora_dialog_editpwd_editnewtitle">Edit Password</string>
+    <string name="enter_pandora_dialog_editpwd_editnewtext">Please enter 『new password』!</string>
+    <string name="enter_pandora_dialog_superpwd_title">Super Password</string>
+    <string name="enter_pandora_dialog_reset_title">Explanation</string>
+    <string name="enter_pandora_dialog_reset_text">After resetting the system need to change your password, enter 『New Password』!</string>
+   
+    <string name="skip_pandora_dialog_text">[Close Services Forever]</string>
+    <string name="skip_pandora_dialog_defaultedit_title">Close Services</string>
+    <string name="skip_pandora_dialog_defaultedit_text">If after executing [Close Services Forever] action, this feature will disappear in the television system, thank you.</string>
+    <string name="enter_allapp_dialog_yes">[Agree]</string>
+    <string name="enter_allapp_dialog_no">[Agree - no reminders]</string>
+    <string name="enter_allapp_dialog_title">Jowin Terms of Service</string>
+    <string name="enter_allapp_dialog_content">
+		Mounted on a multimedia application platform within the unit, set by the cloud-based platform drilling win Ltd ICP system of this device application architecture build it. Limited drilling by winning cloud responsible for the operation. Thank you for using Jowin drill win, the Department provides services under the terms of the Service (hereinafter referred to as "Jowin").	
+		\n\n
+	</string>
+    <string name="enter_allapp_checkdialog_content">Have you read "Jowin drill win Terms of Service" ?</string>
+    
+    <string name="scifly_video">91Q</string>
+	<string name="scifly_video_dialog_title">使用聲明:</string>
+	<string name="scifly_video_dialog_message">注意!您將安裝使用第三方影音平台應用程式，該應用僅作為本裝置系統相容性展示之用，所搭載之影音內容均非屬裝置製造商所提供，裝置本身不保證內容穩定性的及來源合法性。另若有官方單位、民間公證機關或相關利害關係人向本公司提出書面告知其適法性問題時，本公司有權逕行將此功能關閉。</string>
+	<string name="scifly_video_dialog_positive_button">確認繼續使用</string>
+	<string name="scifly_video_dialog_negative_button">離開</string>
+	<string name="scifly_video_notice">File does not exist!</string>
+	
+	<string name="install_title">安裝</string>
+	<string name="install_info">Please wait for apk to install!</string>
+	<string name="download_tips">使用聲明:</string>
+    <string name="download_msg">注意!您將安裝使用第三方應用程式，該應用僅作為本裝置系統相容性展示之用，所搭載之影音內容均非屬裝置製造商所提供，裝置本身不保證內容穩定性及來源合法性。另若有官方單位
+        、民間公證機關或相關利害關係人向本公司提出書面告知其適法性相關時，本公司有權逕行將此功能關閉。 </string>
+    <string name="download_ok">OK</string>
+    <string name="download_cancel">Cancel</string>
+    <string name="download_start_downloading">Start downloading!</string>
+	<string name="apk_downloading">Downloading!</string>
+	
+    <!-- update -->
+	<string name="download_success">下載成功</string>
+	<string name="download_progress">下載進度</string>
+	<string name="page">頁</string>
+	<string name="prompt">提示</string>
+	<string name="yes">是</string>
+	<string name="no">否</string>
+	<string name="Qvideo">91Q視頻</string>
+	<string name="news">新聞</string>
+	<string name="read_data1">資料讀取中 .</string>
+	<string name="read_data2">資料讀取中 . .</string>
+	<string name="read_data3">資料讀取中 . . .</string>
+	<string name="read_data4">資料讀取中...</string>
+	<string name="analysing">分析中....</string>
+	<string name="no_analysing">無分析中...</string>
+	<string name="loading_video">加載視頻中...</string>
+	<string name="dont_choose">不做任何選擇-EE</string>
+	<string name="error">異常-EE.</string>
+	<string name="ignore">略過廣告-EE</string>
+	<string name="updata">更新通知</string>
+	<string name="message">有新版本可更新，是否前往下載？</string>
+	<string name="message1">更新檔下載中,請稍後...</string>
+	<string name="sure">確定</string>
+	<string name="cancle">取消</string>
+	<string name="loading_updata">下載更新中...</string>
+	
+	<!-- WEATHER -->
+	<string name="time">時間</string>
+	<string name="weather_temperature">溫度</string>
+	<string name="weather_condition">氣象狀態</string>
+	<string name="wind">風向</string>
+	<string name="rainfall">降雨機率</string>
+	<string name="humidity">濕度</string>
+	<string name="meteorological_description">氣象描述.</string>
+	<string name="wind_degree">風級</string>
+	<string name="cloth_color">穿衣顏色</string>
+	<string name="cloth_letter">穿衣字串</string>
+	<string name="cars_color">行車顏色</string>
+	<string name="cars_letter">行車字串</string>
+	<string name="outdoor_color">戶外顏色</string>
+	<string name="outdoor_letter">戶外字串</string>
+	<string name="Clothesline_color">曬衣顏色</string>
+	<string name="Clothesline_letter">曬衣字串</string>
+	<string name="meteorological">氣象</string>
+	
+	<string name="weather_img_des">气象区图片</string>
+	<string name="home_page">首頁</string>
+	<string name="direction"> > </string>
+	
+	<string name="currentTime"> 6:38 </string>
+	<string name="apm"> AM </string>
+	<string name="date"> 2015/10/10 </string>
+	<string name="code"> / </string>
+	<string name="dayOfWeek"> 週五 </string>
+	<string name="txt"></string>
+	<string name="msg_text"> TextView </string>
+	<string name="choicepage"> 1 </string>
+	<string name="readView"> ReadView </string>
+	<string name="news_list"> 連結中... </string>
+	<string name="tv_location"> 桃園市 </string>
+	<string name="tv_tempH"> 17↓ </string>
+	<string name="tv_tempL"> 16↑ </string>
+	<string name="tv_weatherDesc"> 寒冷 </string>
+	<string name="tv_currentTemp"> 17 </string>
+	<string name="text"> o </string>
+	<string name="weather_title_txt"> 未來24小時氣象概況 </string>
+	<string name="green_txt"> 適合 </string>
+	<string name="yellow_txt"> 不適合 </string>
+	<string name="red_txt"> 注意</string>
+	<string name="text2"> 。 </string>
+	<string name="c1"> 基隆市 </string>
+	<string name="c2"> 台北市 </string>
+	<string name="c3"> 新北市 </string>
+	<string name="c4"> 桃園市 </string>
+	<string name="c5"> 新竹市 </string>
+	<string name="c6"> 新竹縣 </string>
+	<string name="ct7"> 苗栗縣 </string>
+	<string name="time02"> 06:00</string>
+	<string name="tmp_txt"> 15 </string>
+	<string name="wind_txt"> 2 </string>
+	<string name="rain"> 60% </string>
+	<string name="date_today"> 周一 </string>
+	<string name="date_tommorow"> 周二 </string>
+
+
+	
+
+
+</resources>

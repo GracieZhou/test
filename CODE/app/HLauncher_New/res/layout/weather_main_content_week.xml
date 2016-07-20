@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="536.6dp"
+    android:layout_height="366.6dp"
+    android:background="@drawable/weather_02_frame"
+    android:focusable="false"
+    android:orientation="vertical"
+    tools:context="com.eostek.tm.cpe.monitor.activity.CoverActivity" >
+
+    <GridView
+        android:id="@+id/week_list"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_marginLeft="46.6dp"
+        android:focusable="false"
+        android:numColumns="7"
+        android:paddingTop="0dp" >
+    </GridView>
+
+    <LinearLayout
+        android:id="@+id/layout_t"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginLeft="46.6dp" >
+
+        <com.heran.launcher2.widget.LineChartView
+            android:id="@+id/temp_grap"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+</LinearLayout>

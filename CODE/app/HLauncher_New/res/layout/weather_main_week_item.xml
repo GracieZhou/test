@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="70dp"
+    android:layout_height="210dp"
+    android:focusable="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="0dp" >
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/week"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/tmp_img"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/weather_img_des" />
+
+    <TextView
+        android:id="@+id/tmp_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

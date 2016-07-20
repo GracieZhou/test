@@ -1,0 +1,84 @@
+###############################Warning#####################################
+##This file shall be put into /config folder to supply MUF loading new key
+##mapping table. The HW keycode shall be translate into Key_ID and send
+##to UI progressing iteractions.
+## HW keycode   Key Id(DIKI_??)      Key sym    MUF key#####################
+## #########################################################################
+keycode  0x10 = C                 = 0xf019    #MVK_CHANNEL_LIST      c
+#keycode   33 = F                 = 0xf078      #MVK_CHANNEL_FAV_LIST  f
+keycode  0x5C = R                 = 0xf075    #MVK_CHANNEL_RETURN    r
+keycode  0x1F = KP_PLUS           = 0xf046    #MVK_CHANNEL_PLUS      +
+keycode  0x19 = KP_MINUS          = 0xf047    #MVK_CHANNEL_MINUS     -
+
+keycode  0x44 = A                 = 0xf037    #MVK_AUDIO             a
+keycode  0x16 = BRACKET_RIGHT     = 0xf04c    #MVK_VOLUME_PLUS       ]
+keycode  0x15 = BRACKET_LEFT      = 0xf04d    #MVK_VOLUME_MINUS      [
+keycode  0x0B   = B               = 0xf07a    #MVK_BALANCE           b *
+
+keycode  0x52 = UP                = 0xf002    #MVK_UP                up
+keycode  0x13 = DOWN              = 0xf003    #MVK_DOWN              down
+keycode  0x06 = LEFT              = 0xf000    #MVK_LEFT              left
+keycode  0x1A = RIGHT             = 0xf001    #MVK_RIGHT             right
+
+keycode  0x46 = P                 = 0xf00f    #MVK_POWER             p
+keycode  0x1B = X                 = 0xf062    #MVK_EXIT              x
+keycode  0x07 = M                 = 0xf012    #MVK_MENU              m
+keycode  0x0F = ENTER             = 0x000d    #MVK_SELECT            enter
+
+keycode  0x50 = 0                 = 0x0030    #MVK_NUM_0             0
+keycode  0x49 = 1                 = 0x0031    #MVK_NUM_1             1
+keycode  0x55 = 2                 = 0x0032    #MVK_NUM_2             2
+keycode  0x59 = 3                 = 0x0033    #MVK_NUM_3             3
+keycode  0x4D = 4                 = 0x0034    #MVK_NUM_4             4
+keycode  0x51 = 5                 = 0x0035    #MVK_NUM_5             5
+keycode  0x5D = 6                 = 0x0036    #MVK_NUM_6             6
+keycode  0x48 = 7                 = 0x0037    #MVK_NUM_7             7
+keycode  0x54 = 8                 = 0x0038    #MVK_NUM_8             8
+keycode  0x58 = 9                 = 0x0039    #MVK_NUM_9             9
+
+keycode  0x5A = U                 = 0xf04e    #MVK_MUTE              u
+keycode  0x03 = PAGE_UP           = 0xf007    #MVK_PAGE_UP           pageup
+keycode  0x05 = PAGE_DOWN         = 0xf008    #MVK_PAGE_DOWN         pagedown
+
+keycode  0x14 = I                 = 0xf014    #MVK_INFO              i
+
+keycode  0x47 = F1                = 0xf042    #MVK_RED               f1
+keycode  0x4B = F2                = 0xf043    #MVK_GREEN             f2
+keycode  0x57 = F3                = 0xf044    #MVK_YELLOW            f3
+keycode  0x5B = F4                = 0xf045    #MVK_BLUE              f4
+
+keycode  0x04 = S                 = 0xf068    #MVK_INPUT_SOURCE      s
+keycode  0x4A = J                 = 0xf01b    #MVK_EPG               j
+keycode  0x41 = K                 = 0xf070    #MVK_MTS               k
+keycode  0x0A = Q                 = 0xf06a    #MVK_TTX               q
+keycode  0x45 = T                 = 0xf072    #MVK_SLEEP             backspace
+keycode  0x4C = Z                 = 0xf022    #MVK_ZOOM              z
+keycode  0x18 = D                 = 0xf06c    #MVK_INDEX             control_r
+
+keycode  0x01 = L                 = 0xf051    #MVK_PLAY              l
+keycode  0x1D = PAUSE             = 0xf00a    #MVK_PAUSE             pause
+keycode  0x11 = O                 = 0xf052    #MVK_STOP              o
+
+keycode  0x1E = N                 = 0xf05c    #MVK_NEXT              n
+keycode  0x02 = V                 = 0xf05b    #MVK_PREVIOUS          v
+keycode  0x12 = E                 = 0xf049    #MVK_FORWARD           e
+keycode  0x0E = B                 = 0xf077    #MVK_BACKWARD          b
+
+keycode  0x09 = W                 = 0xf069    #MVK_CC                w
+keycode  0x0D = Y                 = 0xf056    #MVK_RECORD            y
+keycode  0x17 = SHIFT_L           = 0xf005    #MVK_MEM_PLUS          shift_l
+keycode  0x08 = SHIFT_R           = 0xf006    #MVK_MEM_STOP          shift_r
+
+keycode  0x53 = ALT_L             = 0xf020    #MVK_SUBTITLE          alt_l
+keycode  0x5E = ALT_R             = 0xf07d    #MVK_SUBCODE           alt_r *
+keycode  0x56 = F5                = 0xf06f    #MVK_PHOTO             f5
+keycode  0x4E = F6                = 0xf073    #MVK_FREEZE            f6
+keycode  0x40 = F7                = 0xf07b    #MVK_PIP               f7 *
+keycode  0x1C = F8                = 0xf06d    #MVK_MIX               f8
+keycode  0x42 = g                 = 0xf07c    #MVK_GUIDE             h *
+keycode  0x00 = h                 = 0xf079    #MVK_HOLD              g *
+keycode  0x0C = F9                = 0xf06b    #MVK_UPDATE            f9
+keycode  0x4F = F10               = 0xf074    #MVK_REVEAL            f10
+
+keycode  0x43 = F11               = 0xf071    #MVK_SIZE              f11
+keycode  0x5F = F12               = 0xf076    #MVK_CLOCK             f12

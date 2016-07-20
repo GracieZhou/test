@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <FrameLayout
+        android:id="@+id/city"
+        android:layout_width="306.6dp"
+        android:layout_height="366dp"
+        android:background="@drawable/weather_04_2nav_n_frame" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="306dp"
+                android:layout_height="46.6dp" 
+                android:layout_marginTop="39dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/c1"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/c1" />
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/txt" />
+
+                <TextView
+                    android:id="@+id/r1"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/txt" />
+
+                <FrameLayout
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp" >
+
+                    <ImageView
+                        android:id="@+id/w1"
+                        android:layout_width="40dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="306dp"
+                android:layout_height="46.6dp" 
+                android:gravity="center_vertical"
+                >
+                
+                 <TextView
+                    android:id="@+id/c2"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/c2" />
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/txt" />
+
+                <TextView
+                    android:id="@+id/r2"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/txt" />
+
+                <FrameLayout
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp" >
+
+                    <ImageView
+                        android:id="@+id/w2"
+                        android:layout_width="40dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY" />
+
+                </FrameLayout>
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="306dp"
+                android:layout_height="46.6dp" 
+                android:gravity="center_vertical">
+                
+                 <TextView
+                    android:id="@+id/c3"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/c3" />
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/txt" />
+
+                <TextView
+                    android:id="@+id/r3"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/txt" />
+
+                <FrameLayout
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp" >
+
+                    <ImageView
+                        android:id="@+id/w3"
+                        android:layout_width="40dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY" />
+
+                </FrameLayout>
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="306dp"
+                android:layout_height="46.6dp" 
+                android:gravity="center_vertical">
+                
+                 <TextView
+                    android:id="@+id/c4"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/c4" />
+
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/txt" />
+
+                <TextView
+                    android:id="@+id/r4"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/txt" />
+
+                <FrameLayout
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp" >
+
+                    <ImageView
+                        android:id="@+id/w4"
+                        android:layout_width="40dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="306dp"
+                android:layout_height="46.6dp"
+                android:gravity="center_vertical" >
+                
+                 <TextView
+                    android:id="@+id/c5"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/c5" />
+
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/txt" />
+
+                <TextView
+                    android:id="@+id/r5"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/txt" />
+
+                <FrameLayout
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp" >
+
+                    <ImageView
+                        android:id="@+id/w5"
+                        android:layout_width="40dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout6"
+                android:layout_width="306dp"
+                android:layout_height="46.6dp" 
+                android:gravity="center_vertical">
+                
+                 <TextView
+                    android:id="@+id/c6"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/c6" />
+
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/txt" />
+
+                <TextView
+                    android:id="@+id/r6"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/txt" />
+
+                <FrameLayout
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp" >
+
+                    <ImageView
+                        android:id="@+id/w6"
+                        android:layout_width="40dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout7"
+                android:layout_width="306dp"
+                android:layout_height="46.6dp" 
+                android:gravity="center_vertical">
+                
+                 <TextView
+                    android:id="@+id/c7"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/ct7" />
+
+                <TextView
+                    android:id="@+id/t7"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/txt" />
+
+                <TextView
+                    android:id="@+id/r7"
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/txt" />
+
+                <FrameLayout
+                    android:layout_width="78.6dp"
+                    android:layout_height="46.6dp" >
+
+                    <ImageView
+                        android:id="@+id/w7"
+                        android:layout_width="40dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY" />
+
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="230dp"
+        android:layout_height="366.6dp"
+         >
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="174dp"
+            android:layout_height="322.6dp"
+            android:background="@drawable/weather_04_2nav_n_map"
+            android:layout_gravity="center" />
+
+        <FrameLayout
+            android:layout_width="230.6dp"
+            android:layout_height="25.6dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/weather_04_2nav_bg" >
+            
+            <ImageButton
+            android:id="@+id/direction"
+            android:layout_width="226.6dp"
+            android:layout_height="22.6dp"
+            android:background="@drawable/weather_04_2nav_n_text" 
+            />
+            
+        </FrameLayout>
+
+        
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="jars/MUJI_Framework.jar"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="jars/mstar.jar"/>
+	<classpathentry kind="lib" path="jars/scifly.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/achartengine-1.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/android-query-full.0.25.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/android-support-v4.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/cpdetector_1.0.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/glide-3.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/google-play-services.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/httpclient-4.3.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/httpcore-4.3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/httpmime-4.3.5.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

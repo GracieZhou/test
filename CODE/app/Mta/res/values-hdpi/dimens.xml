@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <integer name="videoWindowType_x">555</integer>
+    <integer name="videoWindowType_y">337</integer>
+    <integer name="videoWindowType1080_width">825</integer>
+    <integer name="videoWindowType1080_height">440</integer>
+    <integer name="videoWindowType720_width">550</integer>
+    <integer name="videoWindowType720_height">300</integer>
+    <dimen name="global_screenshot_bg_padding">20dp</dimen>
+    <dimen name="surface_width">540px</dimen>
+    <dimen name="surface_height">360px</dimen>
+
+</resources>
