@@ -238,10 +238,12 @@ void do_Led_Flicker_Control(void)
     if(u8LedStatus != 0)
     { 
         LED_RED_ON();
+	 LED_GREEN_ON();	
     }
     else
     {
         LED_RED_OFF();
+	LED_GREEN_OFF();
     }
     u8LedStatus = ~u8LedStatus;
 }

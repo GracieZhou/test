@@ -114,6 +114,17 @@
 #include "SystemInfo.h"
 #include "MSrv_Control.h"
 #include "MSrv_3DManager.h"
+
+
+//EosTek Patch Begin
+#include <fcntl.h>
+#define USER_BOOTANIMATION_FILE "/data/local/bootanimation.zip"
+#define FACTORY_FILE "/data/system/packages.xml"
+#ifndef O_BINARY
+#define O_BINARY  0
+#endif
+//EosTek Patch End
+
 U32   MSrv_Advert_Player::u32Item = 0;
 BOOL MSrv_Advert_Player::mm_init_flag = FALSE;
 BOOL MSrv_Advert_Player::mm_init_fail = FALSE;
@@ -323,7 +334,29 @@ BOOL MSrv_Advert_Player::EventHandler(void *arg1, void *arg2, void *arg3)
     return TRUE;
 }
 
+//EosTek Patch Begin
+BOOL MSrv_Advert_Player::GetBootAnimationPlayOrNot()
+{
+	int fd = open(USER_BOOTANIMATION_FILE, O_RDONLY | O_BINARY);
+	BOOL isOpen = fd != -1;
+	if (isOpen)
+	{
+		close(fd);
+	}
+	return isOpen;
+}
 
+BOOL MSrv_Advert_Player::IsResetFactory()
+{
+	int fd = open(FACTORY_FILE, O_RDONLY | O_BINARY);
+	BOOL isOpen = fd != -1;
+	if (isOpen)
+	{
+		close(fd);
+	}
+	return isOpen;
+}
+//EosTek Patch End
 
 
 BOOL MSrv_Advert_Player::AdvPlayerInit(void)
@@ -337,16 +370,34 @@ BOOL MSrv_Advert_Player::AdvPlayerInit(void)
 
     MSrv_Control::GetMSrvSystemDatabase()->GetUserSystemSetting(&stGetSystemSetting);
 
-    if(!OpenFile(u8FileName))
+	//EosTek Patch Begin
+    if (OpenFile(u8FileName))
     {
-        printf(" %s : %d Open video file failed \n", __FILE__, __LINE__);
-        return FALSE;
+        printf(" %s : %d Open data video file sucess \n", __FILE__, __LINE__);
     }
-    else
-    {
-        CloseFile();
-        MSrv_Control::GetInstance()->SetInputSource(MAPI_INPUT_SOURCE_STORAGE, FALSE);
-    }
+	else if (GetBootAnimationPlayOrNot())
+	{
+		printf(" %s : %d framework bootanimation file success \n", __FILE__, __LINE__);
+		return FALSE;
+	} 
+	else if (OpenFile(SystemInfo::GetInstance()->GetVideoFileNameAlternative()))
+	{
+		printf(" %s : %d Open system video file sucess \n", __FILE__, __LINE__);
+		if (!IsResetFactory())
+		{
+			return FALSE;
+		}
+		
+	} 
+	else
+	{
+		printf(" %s : %d Open system video file else else else \n", __FILE__, __LINE__);
+		return FALSE;
+	}
+
+	CloseFile();
+    MSrv_Control::GetInstance()->SetInputSource(MAPI_INPUT_SOURCE_STORAGE, FALSE);
+	//EosTek Patch End
 
     if(MM_interface == NULL)
     {
@@ -478,10 +529,12 @@ BOOL MSrv_Advert_Player::AdvPlayerPlay(void)
         return bRet;
     }
 
-    if(OpenFile(u8FileName))
+	//EosTek Patch Begin
+    if(OpenFile(u8FileName) || OpenFile(SystemInfo::GetInstance()->GetVideoFileNameAlternative()))
     {
         bRet=TRUE;
     }
+	//EosTek Patch End
     else
     {
         printf("Open file fail\n");

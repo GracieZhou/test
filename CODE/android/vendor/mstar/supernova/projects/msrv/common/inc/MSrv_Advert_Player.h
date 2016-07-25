@@ -269,6 +269,11 @@ public:
     /// @return         \b the player status: EN_ADVERT_PLAYER_STATUS.
     //-------------------------------------------------------------------------------------------------
     EN_ADVERT_PLAYER_STATUS GetAdvPlayerPlayStatus(void);
+	
+	//EosTek Patch Begin
+	BOOL GetBootAnimationPlayOrNot();
+	BOOL IsResetFactory();
+	//EosTek Patch End
 
 // ****************************************************************
 // Private

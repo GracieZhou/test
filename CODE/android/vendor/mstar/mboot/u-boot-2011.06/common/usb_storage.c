@@ -1134,10 +1134,13 @@ unsigned long usb_stor_read(int device, unsigned long blknr,
             if (blks&0x800)
             { 
                 LED_RED_ON();
+		  LED_GREEN_ON();
+
             }
             else
             {
                 LED_RED_OFF();
+		  LED_GREEN_OFF();
             }
         }
 #endif

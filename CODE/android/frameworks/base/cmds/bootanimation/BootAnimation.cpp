@@ -60,7 +60,7 @@
 #define SYSTEM_ENCRYPTED_BOOTANIMATION_FILE "/system/media/bootanimation-encrypted.zip"
 #define EXIT_PROP_NAME "service.bootanim.exit"
 // MStar Android Patch Begin
-#define USER_BOOTVIDEO_FILE "/data/video/video.ts"
+#define USER_BOOTVIDEOADVERT_FILE "/data/video/video.ts"
 // MStar Android Patch End
 
 // Eostek Patch Begin
@@ -325,9 +325,13 @@ status_t BootAnimation::readyToRun() {
 
     // MStar Android Patch Begin
     char bootanimation[] = "/system/media/firstbootanimation.zip";
+	//EosTek Patch Begin
+	bool isReset = true;
     if((access("/data/system/packages.xml", F_OK) == 0)){
         strcpy(bootanimation,"/system/media/bootanimation.zip");
+		isReset = false;
     }
+	//EosTek Patch End
     // MStar Android Patch End
 
     ZipFileRO* zipFile = NULL;
@@ -336,23 +340,58 @@ status_t BootAnimation::readyToRun() {
             ((zipFile = ZipFileRO::open(SYSTEM_ENCRYPTED_BOOTANIMATION_FILE)) != NULL)) ||
 
             ((access(OEM_BOOTANIMATION_FILE, R_OK) == 0) &&
-            ((zipFile = ZipFileRO::open(OEM_BOOTANIMATION_FILE)) != NULL)) ||
-
-            ((access(bootanimation, R_OK) == 0) &&
-            ((zipFile = ZipFileRO::open(bootanimation)) != NULL))) {
+            ((zipFile = ZipFileRO::open(OEM_BOOTANIMATION_FILE)) != NULL))) {
         mZip = zipFile;
     }
+	
+		//EosTek Patch Begin
+	if (isReset) {
+		mZip = ZipFileRO::open(bootanimation);
+		mZip->open(bootanimation);
+		mUserVideoAdvert = false;
+        mSysteVideoAdvert = false;
+        mUserAnimation = false;
+        mSystemAnimation = true;
+        mAndroidAnimation = false;
+		return NO_ERROR;
+	}
+	//EosTek Patch End
 
     // MStar Android Patch Begin
-    // See if there has a video file to be played
-    if ((property_get("mstar.bootvideo", decrypt, NULL) > 0) ||
-        (access(USER_BOOTVIDEO_FILE, F_OK) == 0)) {
-        mVideo = true;
-        mZip = NULL;
+    // See if there has a video advert file to be played
+    if (access(USER_BOOTVIDEOADVERT_FILE, F_OK) == 0) {
+        mUserVideoAdvert = true;
+        mSysteVideoAdvert = false;
+        mUserAnimation = false;
+        mSystemAnimation = false;
+        mAndroidAnimation = false;
+    } else if (((access(OEM_BOOTANIMATION_FILE, R_OK) == 0) && (mZip->open(OEM_BOOTANIMATION_FILE) != NULL))) {
+        mUserVideoAdvert = false;
+        mSysteVideoAdvert = false;
+        mUserAnimation = true;
+        mSystemAnimation = false;
+        mAndroidAnimation = false;
+    } else if (access(SYSTEM_BOOTVIDEOADVERT_FILE, F_OK) == 0) {
+        mUserVideoAdvert = false;
+        mSysteVideoAdvert = true;
+        mUserAnimation = false;
+        mSystemAnimation = false;
+        mAndroidAnimation = false;
+    } else if (((access(SYSTEM_BOOTANIMATION_FILE, R_OK) == 0) && (mZip->open(SYSTEM_BOOTANIMATION_FILE) != NULL))) {
+        mUserVideoAdvert = false;
+        mSysteVideoAdvert = false;
+        mUserAnimation = false;
+        mSystemAnimation = true;
+        mAndroidAnimation = false;
     } else {
-        mVideo = false;
+        mUserVideoAdvert = false;
+        mSysteVideoAdvert = false;
+        mUserAnimation = false;
+        mSystemAnimation = false;
+        mAndroidAnimation = true;
     }
     // MStar Android Patch End
+
     return NO_ERROR;
 }
 
@@ -377,16 +416,21 @@ bool BootAnimation::threadLoop()
         return true;
     }
 
-    // We have video file, play it.
-    // We have bootanimation file, play it.
-    // Otherwise  we use the stock android logo.
-    if (mVideo) {
+    // We have no bootanimation file, so we use the stock android logo
+    // animation.
+    // Eostek Patch Begin
+    if (mUserVideoAdvert) {
         r = video();
-    } else if (mZip == NULL) {
-        r = android();
-    } else {
+    } else if (mUserAnimation) {
         r = movie();
+    } else if (mSysteVideoAdvert) {
+        r = video();
+    } else if (mSystemAnimation) {
+        r = movie();
+    } else {
+        r = android();
     }
+    // Eostek Patch End
 
 // wait for hardware init complete, then start boot animation
 exit:

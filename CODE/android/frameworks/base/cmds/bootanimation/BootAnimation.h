@@ -106,6 +106,13 @@ private:
     // MStar Android Patch Begin
     bool        mVideo;
     // MStar Android Patch End
+    // Eostek Android Patch Begin
+    bool        mAndroidAnimation;
+    bool        mUserVideoAdvert;
+    bool        mSysteVideoAdvert;
+    bool        mUserAnimation;
+    bool        mSystemAnimation;
+    // Eostek Android Patch End
     ZipFileRO   *mZip;
 };
 
